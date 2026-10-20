@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**Version 1.4.3** · publiée le 20 octobre 2026 · 2.7 Mo
+**Version 1.5.0** · publiée le 20 octobre 2026 · 2.9 Mo
 
-[**Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-1.4.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-1.5.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 </div>
 
@@ -27,7 +27,7 @@ le mode, la ligne de flux d'énergie, la météo animée et la pression des quat
 En Sport — détecté automatiquement par la voiture — l'ambiance passe au rouge, une pastille
 `SPORT` apparaît, et les trois chiffres du bas deviennent puissance, régime et accélérateur.
 
-> Ces captures sont **dessinées par le code de la version 1.4.3** à chaque
+> Ces captures sont **dessinées par le code de la version 1.5.0** à chaque
 > publication, avec des valeurs de démonstration. Elles ne peuvent pas dater d'une version
 > précédente.
 
@@ -46,7 +46,7 @@ par l'ADB local.
 
 ## Installation
 
-1. Télécharge [`Vektra-1.4.3.apk`](https://giino01.github.io/Vektra/Vektra-1.4.3.apk) sur la tablette et ouvre-le.
+1. Télécharge [`Vektra-1.5.0.apk`](https://giino01.github.io/Vektra/Vektra-1.5.0.apk) sur la tablette et ouvre-le.
 2. Au premier démarrage, choisis la langue, puis **Continuer**.
 3. Section **Contrôle** → **Vérifier · ADB et diagnostic**.
 4. À la demande **« Autoriser le débogage USB ? »**, coche **Toujours autoriser**, puis
@@ -99,11 +99,14 @@ Ouvre **Contrôle**, appuie sur **Copier tout le scan**, et envoie le texte : il
 l'état de tous les équipements, de l'ADB, de la musique, de l'alimentation et des mises à
 jour.
 
-## Nouveautés de la 1.4.3
+## Nouveautés de la 1.5.0
 
-- L'heure n'est plus affichée : la surcouche BYD la donne déjà juste au-dessus.
-- La date passe au-dessus de la carte musique, et la pastille SPORT descend dans le cadran, sous « km/h ».
-- Le fond s'éclaircit plus loin vers le centre : la limite avec la surcouche BYD ne se voit plus à mi-chemin.
+- Les pressions de pneus s'affichent sur une vue de dessus du véhicule, chaque valeur à son coin.
+- Les panneaux n'ont plus de contour : ils se fondent dans le fond au lieu d'y être posés.
+- La date est centrée au-dessus de la carte musique.
+- Le fond se dégrade plus largement sur les côtés : la limite avec la surcouche BYD s'efface.
+- L'écran de la tablette reste sombre en toutes circonstances, avec ses halos bleus. Le réglage « Apparence » ne concerne plus que le combiné.
+- À vérifier : la correspondance entre R1 à R4 et les roues réelles n'est pas confirmée. L'indice reste écrit sous chaque valeur — compare avec l'écran des pneus de BYD et dis-moi si c'est inversé.
 
 ---
 

@@ -1,42 +1,63 @@
 {
-  "version": "1.4.3",
-  "apk": "Vektra-1.4.3.apk",
-  "size": 2848521,
+  "version": "1.5.0",
+  "apk": "Vektra-1.5.0.apk",
+  "size": 3010669,
   "notes": [
-    "L'heure n'est plus affichée : la surcouche BYD la donne déjà juste au-dessus.",
-    "La date passe au-dessus de la carte musique, et la pastille SPORT descend dans le cadran, sous « km/h ».",
-    "Le fond s'éclaircit plus loin vers le centre : la limite avec la surcouche BYD ne se voit plus à mi-chemin."
+    "Les pressions de pneus s'affichent sur une vue de dessus du véhicule, chaque valeur à son coin.",
+    "Les panneaux n'ont plus de contour : ils se fondent dans le fond au lieu d'y être posés.",
+    "La date est centrée au-dessus de la carte musique.",
+    "Le fond se dégrade plus largement sur les côtés : la limite avec la surcouche BYD s'efface.",
+    "L'écran de la tablette reste sombre en toutes circonstances, avec ses halos bleus. Le réglage « Apparence » ne concerne plus que le combiné.",
+    "À vérifier : la correspondance entre R1 à R4 et les roues réelles n'est pas confirmée. L'indice reste écrit sous chaque valeur — compare avec l'écran des pneus de BYD et dis-moi si c'est inversé."
   ],
   "notesByLang": {
     "fr": [
-      "L'heure n'est plus affichée : la surcouche BYD la donne déjà juste au-dessus.",
-      "La date passe au-dessus de la carte musique, et la pastille SPORT descend dans le cadran, sous « km/h ».",
-      "Le fond s'éclaircit plus loin vers le centre : la limite avec la surcouche BYD ne se voit plus à mi-chemin."
+      "Les pressions de pneus s'affichent sur une vue de dessus du véhicule, chaque valeur à son coin.",
+      "Les panneaux n'ont plus de contour : ils se fondent dans le fond au lieu d'y être posés.",
+      "La date est centrée au-dessus de la carte musique.",
+      "Le fond se dégrade plus largement sur les côtés : la limite avec la surcouche BYD s'efface.",
+      "L'écran de la tablette reste sombre en toutes circonstances, avec ses halos bleus. Le réglage « Apparence » ne concerne plus que le combiné.",
+      "À vérifier : la correspondance entre R1 à R4 et les roues réelles n'est pas confirmée. L'indice reste écrit sous chaque valeur — compare avec l'écran des pneus de BYD et dis-moi si c'est inversé."
     ],
     "en": [
-      "The clock is gone: the BYD overlay already shows it just above.",
-      "The date moves above the music card, and the SPORT badge moves into the dial, under \"km/h\".",
-      "The background now lightens further toward the centre: the seam with the BYD overlay no longer shows halfway in."
+      "Tyre pressures are shown on a top view of the car, each value at its corner.",
+      "Panels have no outline any more: they blend into the background instead of sitting on it.",
+      "The date is centred above the music card.",
+      "The background fades further on the sides: the seam with the BYD overlay disappears.",
+      "The tablet screen stays dark at all times, with its blue glows. The \"Appearance\" setting now applies to the cluster only.",
+      "To check: which wheel R1 to R4 refer to is not confirmed. The index stays written under each value — compare with BYD's own tyre screen and tell me if they are swapped."
     ],
     "it": [
-      "L'ora non viene più mostrata: l'interfaccia BYD la indica già poco sopra.",
-      "La data passa sopra la scheda musica e il badge SPORT scende nel quadrante, sotto \"km/h\".",
-      "Lo sfondo si schiarisce più verso il centro: lo stacco con l'interfaccia BYD non si vede più a metà strada."
+      "Le pressioni degli pneumatici appaiono su una vista dall'alto del veicolo, ogni valore al suo angolo.",
+      "I pannelli non hanno più contorno: si fondono con lo sfondo invece di esservi appoggiati.",
+      "La data è centrata sopra la scheda musica.",
+      "Lo sfondo sfuma più ampiamente ai lati: lo stacco con l'interfaccia BYD scompare.",
+      "La schermata del tablet resta sempre scura, con i suoi aloni blu. L'impostazione \"Aspetto\" riguarda ormai solo il quadro.",
+      "Da verificare: la corrispondenza fra R1-R4 e le ruote reali non è confermata. L'indice resta scritto sotto ogni valore — confronta con la schermata pneumatici di BYD."
     ],
     "de": [
-      "Die Uhrzeit entfällt: die BYD-Oberfläche zeigt sie bereits direkt darüber.",
-      "Das Datum rückt über die Musikkarte, das SPORT-Abzeichen in die Tachoscheibe unter „km/h\".",
-      "Der Hintergrund hellt weiter zur Mitte hin auf: die Kante zur BYD-Oberfläche ist auf halbem Weg nicht mehr zu sehen."
+      "Die Reifendrücke erscheinen auf einer Draufsicht des Fahrzeugs, jeder Wert an seiner Ecke.",
+      "Die Felder haben keinen Rahmen mehr: sie verschmelzen mit dem Hintergrund, statt darauf zu liegen.",
+      "Das Datum steht zentriert über der Musikkarte.",
+      "Der Hintergrund verläuft weiter zu den Seiten: die Kante zur BYD-Oberfläche verschwindet.",
+      "Der Tablet-Bildschirm bleibt immer dunkel, mit seinen blauen Lichthöfen. Die Einstellung „Erscheinungsbild\" betrifft nur noch das Kombiinstrument.",
+      "Zu prüfen: welche Räder R1 bis R4 bezeichnen, ist nicht bestätigt. Der Index steht weiter unter jedem Wert — vergleiche mit der Reifenanzeige von BYD."
     ],
     "pt": [
-      "A hora deixa de aparecer: a interface BYD já a mostra logo acima.",
-      "A data passa para cima do cartão de música e o selo SPORT desce para o mostrador, abaixo de \"km/h\".",
-      "O fundo clareia mais em direção ao centro: a emenda com a interface BYD não aparece mais no meio do caminho."
+      "As pressões dos pneus aparecem sobre uma vista superior do carro, cada valor no seu canto.",
+      "Os painéis não têm mais contorno: fundem-se ao fundo em vez de ficarem sobre ele.",
+      "A data fica centralizada acima do cartão de música.",
+      "O fundo esmaece mais nas laterais: a emenda com a interface BYD desaparece.",
+      "A tela do tablet permanece escura sempre, com seus halos azuis. O ajuste \"Aparência\" agora vale só para o painel.",
+      "A verificar: a correspondência entre R1 e R4 e as rodas reais não está confirmada. O índice continua escrito sob cada valor — compare com a tela de pneus da BYD."
     ],
     "tr": [
-      "Saat artık gösterilmiyor: BYD arayüzü zaten hemen üstte veriyor.",
-      "Tarih müzik kartının üstüne, SPORT rozeti ise kadranın içine, \"km/h\" altına taşındı.",
-      "Arka plan merkeze doğru daha ileride açılıyor: BYD arayüzüyle olan sınır artık yarı yolda görünmüyor."
+      "Lastik basınçları aracın üstten görünümü üzerinde, her değer kendi köşesinde gösteriliyor.",
+      "Panellerin artık çerçevesi yok: arka planın üstünde durmak yerine onunla bütünleşiyorlar.",
+      "Tarih müzik kartının üstünde ortalandı.",
+      "Arka plan yanlara doğru daha geniş soluyor: BYD arayüzüyle olan sınır kayboluyor.",
+      "Tablet ekranı her koşulda koyu kalıyor, mavi parıltılarıyla. \"Görünüm\" ayarı artık yalnızca göstergeyi ilgilendiriyor.",
+      "Kontrol edilecek: R1-R4 ile gerçek tekerlekler arasındaki eşleşme doğrulanmadı. Dizin her değerin altında yazılı kalıyor — BYD'nin lastik ekranıyla karşılaştır."
     ]
   }
 }
