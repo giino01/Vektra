@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.2** · publiée le 20 octobre 2026 · 2.9 Mo
+**VERSION 1.6.3** · publiée le 20 octobre 2026 · 2.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.6.2
+## Nouveautés de la 1.6.3
 
-- La vue de dessus du véhicule est redressée : la photo penchait de 2,55°, mesurés sur l'axe joignant les roues avant aux roues arrière.
-- Les repères R1 à R4 ne sont plus écrits sous les pressions : la vue est plus nette. Les numéros de capteur restent lisibles dans le rapport de la section Contrôle.
-- L'écran d'accueil s'anime : le logo se dessine trait par trait, puis le nom, les langues et le bouton arrivent l'un après l'autre.
+- Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite.
 
 ---
 

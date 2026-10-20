@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.2** · veröffentlicht am 20. Oktober 2026 · 2.9 MB
+**VERSION 1.6.3** · veröffentlicht am 20. Oktober 2026 · 2.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.3.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.6.2
+## Neu in 1.6.3
 
-- Die Draufsicht des Fahrzeugs ist gerade gerückt: das Foto war um 2,55° geneigt, gemessen an der Achse zwischen Vorder- und Hinterrädern.
-- Die Marken R1 bis R4 stehen nicht mehr unter den Drücken: die Ansicht ist klarer. Die Sensornummern bleiben im Bericht des Bereichs Kontrolle lesbar.
-- Der Startbildschirm ist animiert: das Logo zeichnet sich Strich für Strich, dann erscheinen Name, Sprachen und Schaltfläche nacheinander.
+- Die Reifendrücke werden auf eine Nachkommastelle gekürzt angezeigt: 2,45 wird 2,4 und 2,67 wird 2,6. Die Hundertstel änderten sich bei jeder Messung, ohne etwas auszusagen; mit einer Stelle fällt ein Unterschied zwischen den Rädern sofort auf.
 
 ---
 

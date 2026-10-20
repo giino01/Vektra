@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.6.2** · yayın tarihi 20 Ekim 2026 · 2.9 MB
+**SÜRÜM 1.6.3** · yayın tarihi 20 Ekim 2026 · 2.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.3.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,11 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.6.2
+## Yenilikler: 1.6.3
 
-- Aracın üstten görünümü düzeltildi: fotoğraf, ön tekerlekleri arka tekerleklere birleştiren eksen üzerinde ölçülen 2,55° eğikti.
-- R1–R4 işaretleri artık basınçların altında yazmıyor: görünüm daha temiz. Sensör numaraları Kontrol bölümünün raporunda okunabilir kalıyor.
-- Karşılama ekranı canlandı: logo çizgi çizgi çiziliyor, ardından ad, diller ve düğme birbiri ardına geliyor.
+- Lastik basınçları tek ondalıkla, aşağı kırpılarak gösteriliyor: 2.45 → 2.4, 2.67 → 2.6. Yüzdelik her okumada değişiyor ama bir şey anlatmıyordu; tek ondalıkla tekerlekler arasındaki fark hemen görünür.
 
 ---
 

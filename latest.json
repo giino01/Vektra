@@ -1,42 +1,28 @@
 {
-  "version": "1.6.2",
-  "apk": "Vektra-1.6.2.apk",
-  "size": 3053701,
+  "version": "1.6.3",
+  "apk": "Vektra-1.6.3.apk",
+  "size": 3053705,
   "notes": [
-    "La vue de dessus du véhicule est redressée : la photo penchait de 2,55°, mesurés sur l'axe joignant les roues avant aux roues arrière.",
-    "Les repères R1 à R4 ne sont plus écrits sous les pressions : la vue est plus nette. Les numéros de capteur restent lisibles dans le rapport de la section Contrôle.",
-    "L'écran d'accueil s'anime : le logo se dessine trait par trait, puis le nom, les langues et le bouton arrivent l'un après l'autre."
+    "Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite."
   ],
   "notesByLang": {
     "fr": [
-      "La vue de dessus du véhicule est redressée : la photo penchait de 2,55°, mesurés sur l'axe joignant les roues avant aux roues arrière.",
-      "Les repères R1 à R4 ne sont plus écrits sous les pressions : la vue est plus nette. Les numéros de capteur restent lisibles dans le rapport de la section Contrôle.",
-      "L'écran d'accueil s'anime : le logo se dessine trait par trait, puis le nom, les langues et le bouton arrivent l'un après l'autre."
+      "Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite."
     ],
     "en": [
-      "The top view of the car is straightened: the photo leaned by 2.55°, measured on the axis joining the front wheels to the rear ones.",
-      "The R1 to R4 marks are no longer written under the pressures: the view is cleaner. The sensor numbers stay readable in the Control section report.",
-      "The welcome screen is animated: the logo draws itself stroke by stroke, then the name, the languages and the button arrive one after another."
+      "Tyre pressures are shown to one decimal, truncated: 2.45 becomes 2.4 and 2.67 becomes 2.6. The hundredth changed at every reading without telling anything; at one decimal, a gap between wheels shows at once."
     ],
     "it": [
-      "La vista dall'alto del veicolo è raddrizzata: la foto pendeva di 2,55°, misurati sull'asse che unisce le ruote anteriori a quelle posteriori.",
-      "I riferimenti da R1 a R4 non sono più scritti sotto le pressioni: la vista è più pulita. I numeri dei sensori restano leggibili nel rapporto della sezione Controllo.",
-      "La schermata iniziale si anima: il logo si disegna tratto dopo tratto, poi il nome, le lingue e il pulsante arrivano uno dopo l'altro."
+      "Le pressioni degli pneumatici appaiono con un decimale, troncato: 2.45 diventa 2.4 e 2.67 diventa 2.6. Il centesimo cambiava a ogni lettura senza dire nulla; con un decimale, uno scarto fra ruote si vede subito."
     ],
     "de": [
-      "Die Draufsicht des Fahrzeugs ist gerade gerückt: das Foto war um 2,55° geneigt, gemessen an der Achse zwischen Vorder- und Hinterrädern.",
-      "Die Marken R1 bis R4 stehen nicht mehr unter den Drücken: die Ansicht ist klarer. Die Sensornummern bleiben im Bericht des Bereichs Kontrolle lesbar.",
-      "Der Startbildschirm ist animiert: das Logo zeichnet sich Strich für Strich, dann erscheinen Name, Sprachen und Schaltfläche nacheinander."
+      "Die Reifendrücke werden auf eine Nachkommastelle gekürzt angezeigt: 2,45 wird 2,4 und 2,67 wird 2,6. Die Hundertstel änderten sich bei jeder Messung, ohne etwas auszusagen; mit einer Stelle fällt ein Unterschied zwischen den Rädern sofort auf."
     ],
     "pt": [
-      "A vista de cima do veículo foi endireitada: a fotografia estava inclinada 2,55°, medidos no eixo que une as rodas da frente às de trás.",
-      "As marcas R1 a R4 já não aparecem sob as pressões: a vista fica mais limpa. Os números dos sensores continuam legíveis no relatório da secção Controlo.",
-      "O ecrã inicial é animado: o logótipo desenha-se traço a traço, depois o nome, os idiomas e o botão chegam um a seguir ao outro."
+      "As pressões dos pneus aparecem com uma casa decimal, truncada: 2.45 passa a 2.4 e 2.67 passa a 2.6. A centésima mudava a cada leitura sem dizer nada; com uma casa, uma diferença entre rodas vê-se logo."
     ],
     "tr": [
-      "Aracın üstten görünümü düzeltildi: fotoğraf, ön tekerlekleri arka tekerleklere birleştiren eksen üzerinde ölçülen 2,55° eğikti.",
-      "R1–R4 işaretleri artık basınçların altında yazmıyor: görünüm daha temiz. Sensör numaraları Kontrol bölümünün raporunda okunabilir kalıyor.",
-      "Karşılama ekranı canlandı: logo çizgi çizgi çiziliyor, ardından ad, diller ve düğme birbiri ardına geliyor."
+      "Lastik basınçları tek ondalıkla, aşağı kırpılarak gösteriliyor: 2.45 → 2.4, 2.67 → 2.6. Yüzdelik her okumada değişiyor ama bir şey anlatmıyordu; tek ondalıkla tekerlekler arasındaki fark hemen görünür."
     ]
   }
 }

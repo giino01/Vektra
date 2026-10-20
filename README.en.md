@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.6.2** · released on 20 October 2026 · 2.9 MB
+**VERSION 1.6.3** · released on 20 October 2026 · 2.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.6.2
+## What is new in 1.6.3
 
-- The top view of the car is straightened: the photo leaned by 2.55°, measured on the axis joining the front wheels to the rear ones.
-- The R1 to R4 marks are no longer written under the pressures: the view is cleaner. The sensor numbers stay readable in the Control section report.
-- The welcome screen is animated: the logo draws itself stroke by stroke, then the name, the languages and the button arrive one after another.
+- Tyre pressures are shown to one decimal, truncated: 2.45 becomes 2.4 and 2.67 becomes 2.6. The hundredth changed at every reading without telling anything; at one decimal, a gap between wheels shows at once.
 
 ---
 
