@@ -1,35 +1,42 @@
 {
-  "version": "1.4.2",
-  "apk": "Vektra-1.4.2.apk",
-  "size": 2848665,
+  "version": "1.4.3",
+  "apk": "Vektra-1.4.3.apk",
+  "size": 2848521,
   "notes": [
-    "Le fond du combiné s'éclaircit vers le haut et sur les côtés, comme la surcouche BYD qui l'entoure : le rectangle de l'application ne se détache plus.",
-    "La ligne « Source des mises à jour » n'apparaît plus dans les réglages : elle n'apprend rien et la changer ne peut que casser les mises à jour."
+    "L'heure n'est plus affichée : la surcouche BYD la donne déjà juste au-dessus.",
+    "La date passe au-dessus de la carte musique, et la pastille SPORT descend dans le cadran, sous « km/h ».",
+    "Le fond s'éclaircit plus loin vers le centre : la limite avec la surcouche BYD ne se voit plus à mi-chemin."
   ],
   "notesByLang": {
     "fr": [
-      "Le fond du combiné s'éclaircit vers le haut et sur les côtés, comme la surcouche BYD qui l'entoure : le rectangle de l'application ne se détache plus.",
-      "La ligne « Source des mises à jour » n'apparaît plus dans les réglages : elle n'apprend rien et la changer ne peut que casser les mises à jour."
+      "L'heure n'est plus affichée : la surcouche BYD la donne déjà juste au-dessus.",
+      "La date passe au-dessus de la carte musique, et la pastille SPORT descend dans le cadran, sous « km/h ».",
+      "Le fond s'éclaircit plus loin vers le centre : la limite avec la surcouche BYD ne se voit plus à mi-chemin."
     ],
     "en": [
-      "The cluster background now lightens toward the top and the sides, like the surrounding BYD overlay: the app's rectangle no longer stands out.",
-      "The \"Update source\" row is gone from the settings: it told you nothing, and changing it could only break updates."
+      "The clock is gone: the BYD overlay already shows it just above.",
+      "The date moves above the music card, and the SPORT badge moves into the dial, under \"km/h\".",
+      "The background now lightens further toward the centre: the seam with the BYD overlay no longer shows halfway in."
     ],
     "it": [
-      "Lo sfondo del quadro si schiarisce verso l'alto e ai lati, come l'interfaccia BYD attorno: il rettangolo dell'app non si stacca più.",
-      "La riga \"Origine degli aggiornamenti\" non compare più nelle impostazioni: non diceva nulla di utile e modificarla poteva solo rompere gli aggiornamenti."
+      "L'ora non viene più mostrata: l'interfaccia BYD la indica già poco sopra.",
+      "La data passa sopra la scheda musica e il badge SPORT scende nel quadrante, sotto \"km/h\".",
+      "Lo sfondo si schiarisce più verso il centro: lo stacco con l'interfaccia BYD non si vede più a metà strada."
     ],
     "de": [
-      "Der Hintergrund des Kombiinstruments wird nach oben und zu den Seiten hin heller, wie die umgebende BYD-Oberfläche: das Rechteck der App hebt sich nicht mehr ab.",
-      "Die Zeile „Update-Quelle\" ist aus den Einstellungen verschwunden: sie sagte nichts aus, und sie zu ändern konnte Updates nur kaputt machen."
+      "Die Uhrzeit entfällt: die BYD-Oberfläche zeigt sie bereits direkt darüber.",
+      "Das Datum rückt über die Musikkarte, das SPORT-Abzeichen in die Tachoscheibe unter „km/h\".",
+      "Der Hintergrund hellt weiter zur Mitte hin auf: die Kante zur BYD-Oberfläche ist auf halbem Weg nicht mehr zu sehen."
     ],
     "pt": [
-      "O fundo do painel clareia em direção ao topo e às laterais, como a interface BYD ao redor: o retângulo do app não se destaca mais.",
-      "A linha \"Origem das atualizações\" saiu das configurações: não dizia nada de útil e alterá-la só poderia quebrar as atualizações."
+      "A hora deixa de aparecer: a interface BYD já a mostra logo acima.",
+      "A data passa para cima do cartão de música e o selo SPORT desce para o mostrador, abaixo de \"km/h\".",
+      "O fundo clareia mais em direção ao centro: a emenda com a interface BYD não aparece mais no meio do caminho."
     ],
     "tr": [
-      "Gösterge arka planı, onu çevreleyen BYD arayüzü gibi yukarı ve yanlara doğru açılıyor: uygulamanın dikdörtgeni artık belli olmuyor.",
-      "Ayarlardaki \"Güncelleme kaynağı\" satırı kaldırıldı: bir şey anlatmıyordu ve değiştirmek yalnızca güncellemeleri bozabilirdi."
+      "Saat artık gösterilmiyor: BYD arayüzü zaten hemen üstte veriyor.",
+      "Tarih müzik kartının üstüne, SPORT rozeti ise kadranın içine, \"km/h\" altına taşındı.",
+      "Arka plan merkeze doğru daha ileride açılıyor: BYD arayüzüyle olan sınır artık yarı yolda görünmüyor."
     ]
   }
 }
