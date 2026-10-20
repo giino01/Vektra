@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.6.1** · pubblicata il 20 ottobre 2026 · 2.9 MB
+**VERSIONE 1.6.2** · pubblicata il 20 ottobre 2026 · 2.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.6.1
+## Novità della 1.6.2
 
-- La linea dell'energia del tema Carbonio diventa un indicatore: zero al centro, riempimento verso destra in rosso per il consumo, verso sinistra in verde per il recupero. La lunghezza dice la potenza, e nulla si muove più quando la potenza non cambia.
-- I due lati non hanno la stessa scala — 120 kW a destra, 40 kW a sinistra — perché un'auto recupera molto meno di quanto consumi.
+- La vista dall'alto del veicolo è raddrizzata: la foto pendeva di 2,55°, misurati sull'asse che unisce le ruote anteriori a quelle posteriori.
+- I riferimenti da R1 a R4 non sono più scritti sotto le pressioni: la vista è più pulita. I numeri dei sensori restano leggibili nel rapporto della sezione Controllo.
+- La schermata iniziale si anima: il logo si disegna tratto dopo tratto, poi il nome, le lingue e il pulsante arrivano uno dopo l'altro.
 
 ---
 

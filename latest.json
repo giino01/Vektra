@@ -1,35 +1,42 @@
 {
-  "version": "1.6.1",
-  "apk": "Vektra-1.6.1.apk",
-  "size": 3044449,
+  "version": "1.6.2",
+  "apk": "Vektra-1.6.2.apk",
+  "size": 3053701,
   "notes": [
-    "La ligne d'énergie du thème Carbone devient une jauge : zéro au centre, remplissage vers la droite en rouge pour la consommation, vers la gauche en vert pour la récupération. La longueur dit la puissance, et plus rien ne bouge quand la puissance ne bouge pas.",
-    "Les deux côtés n'ont pas la même échelle — 120 kW à droite, 40 kW à gauche — parce qu'une voiture récupère beaucoup moins qu'elle ne consomme."
+    "La vue de dessus du véhicule est redressée : la photo penchait de 2,55°, mesurés sur l'axe joignant les roues avant aux roues arrière.",
+    "Les repères R1 à R4 ne sont plus écrits sous les pressions : la vue est plus nette. Les numéros de capteur restent lisibles dans le rapport de la section Contrôle.",
+    "L'écran d'accueil s'anime : le logo se dessine trait par trait, puis le nom, les langues et le bouton arrivent l'un après l'autre."
   ],
   "notesByLang": {
     "fr": [
-      "La ligne d'énergie du thème Carbone devient une jauge : zéro au centre, remplissage vers la droite en rouge pour la consommation, vers la gauche en vert pour la récupération. La longueur dit la puissance, et plus rien ne bouge quand la puissance ne bouge pas.",
-      "Les deux côtés n'ont pas la même échelle — 120 kW à droite, 40 kW à gauche — parce qu'une voiture récupère beaucoup moins qu'elle ne consomme."
+      "La vue de dessus du véhicule est redressée : la photo penchait de 2,55°, mesurés sur l'axe joignant les roues avant aux roues arrière.",
+      "Les repères R1 à R4 ne sont plus écrits sous les pressions : la vue est plus nette. Les numéros de capteur restent lisibles dans le rapport de la section Contrôle.",
+      "L'écran d'accueil s'anime : le logo se dessine trait par trait, puis le nom, les langues et le bouton arrivent l'un après l'autre."
     ],
     "en": [
-      "The energy line of the Carbone theme becomes a gauge: zero in the middle, filling right in red for consumption, left in green for recovery. The length says the power, and nothing moves any more when the power does not.",
-      "The two sides do not share a scale — 120 kW right, 40 kW left — because a car recovers far less than it consumes."
+      "The top view of the car is straightened: the photo leaned by 2.55°, measured on the axis joining the front wheels to the rear ones.",
+      "The R1 to R4 marks are no longer written under the pressures: the view is cleaner. The sensor numbers stay readable in the Control section report.",
+      "The welcome screen is animated: the logo draws itself stroke by stroke, then the name, the languages and the button arrive one after another."
     ],
     "it": [
-      "La linea dell'energia del tema Carbonio diventa un indicatore: zero al centro, riempimento verso destra in rosso per il consumo, verso sinistra in verde per il recupero. La lunghezza dice la potenza, e nulla si muove più quando la potenza non cambia.",
-      "I due lati non hanno la stessa scala — 120 kW a destra, 40 kW a sinistra — perché un'auto recupera molto meno di quanto consumi."
+      "La vista dall'alto del veicolo è raddrizzata: la foto pendeva di 2,55°, misurati sull'asse che unisce le ruote anteriori a quelle posteriori.",
+      "I riferimenti da R1 a R4 non sono più scritti sotto le pressioni: la vista è più pulita. I numeri dei sensori restano leggibili nel rapporto della sezione Controllo.",
+      "La schermata iniziale si anima: il logo si disegna tratto dopo tratto, poi il nome, le lingue e il pulsante arrivano uno dopo l'altro."
     ],
     "de": [
-      "Die Energielinie des Themas Carbon wird zu einer Anzeige: Null in der Mitte, Füllung nach rechts in Rot für den Verbrauch, nach links in Grün für die Rückgewinnung. Die Länge nennt die Leistung, und nichts bewegt sich mehr, wenn die Leistung gleich bleibt.",
-      "Die beiden Seiten haben nicht dieselbe Skala — 120 kW rechts, 40 kW links — weil ein Auto weit weniger zurückgewinnt, als es verbraucht."
+      "Die Draufsicht des Fahrzeugs ist gerade gerückt: das Foto war um 2,55° geneigt, gemessen an der Achse zwischen Vorder- und Hinterrädern.",
+      "Die Marken R1 bis R4 stehen nicht mehr unter den Drücken: die Ansicht ist klarer. Die Sensornummern bleiben im Bericht des Bereichs Kontrolle lesbar.",
+      "Der Startbildschirm ist animiert: das Logo zeichnet sich Strich für Strich, dann erscheinen Name, Sprachen und Schaltfläche nacheinander."
     ],
     "pt": [
-      "A linha de energia do tema Carbono passa a ser um indicador: zero ao centro, enchimento para a direita a vermelho para o consumo, para a esquerda a verde para a recuperação. O comprimento diz a potência, e nada se mexe quando a potência não muda.",
-      "Os dois lados não têm a mesma escala — 120 kW à direita, 40 kW à esquerda — porque um carro recupera muito menos do que consome."
+      "A vista de cima do veículo foi endireitada: a fotografia estava inclinada 2,55°, medidos no eixo que une as rodas da frente às de trás.",
+      "As marcas R1 a R4 já não aparecem sob as pressões: a vista fica mais limpa. Os números dos sensores continuam legíveis no relatório da secção Controlo.",
+      "O ecrã inicial é animado: o logótipo desenha-se traço a traço, depois o nome, os idiomas e o botão chegam um a seguir ao outro."
     ],
     "tr": [
-      "Karbon temasının enerji çizgisi bir göstergeye dönüştü: ortada sıfır, tüketim için sağa kırmızı, geri kazanım için sola yeşil dolum. Uzunluk gücü söyler ve güç değişmediğinde artık hiçbir şey kıpırdamaz.",
-      "İki tarafın ölçeği aynı değil — sağda 120 kW, solda 40 kW — çünkü bir araç tükettiğinden çok daha azını geri kazanır."
+      "Aracın üstten görünümü düzeltildi: fotoğraf, ön tekerlekleri arka tekerleklere birleştiren eksen üzerinde ölçülen 2,55° eğikti.",
+      "R1–R4 işaretleri artık basınçların altında yazmıyor: görünüm daha temiz. Sensör numaraları Kontrol bölümünün raporunda okunabilir kalıyor.",
+      "Karşılama ekranı canlandı: logo çizgi çizgi çiziliyor, ardından ad, diller ve düğme birbiri ardına geliyor."
     ]
   }
 }

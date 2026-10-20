@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.1** · publiée le 20 octobre 2026 · 2.9 Mo
+**VERSION 1.6.2** · publiée le 20 octobre 2026 · 2.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.6.1
+## Nouveautés de la 1.6.2
 
-- La ligne d'énergie du thème Carbone devient une jauge : zéro au centre, remplissage vers la droite en rouge pour la consommation, vers la gauche en vert pour la récupération. La longueur dit la puissance, et plus rien ne bouge quand la puissance ne bouge pas.
-- Les deux côtés n'ont pas la même échelle — 120 kW à droite, 40 kW à gauche — parce qu'une voiture récupère beaucoup moins qu'elle ne consomme.
+- La vue de dessus du véhicule est redressée : la photo penchait de 2,55°, mesurés sur l'axe joignant les roues avant aux roues arrière.
+- Les repères R1 à R4 ne sont plus écrits sous les pressions : la vue est plus nette. Les numéros de capteur restent lisibles dans le rapport de la section Contrôle.
+- L'écran d'accueil s'anime : le logo se dessine trait par trait, puis le nom, les langues et le bouton arrivent l'un après l'autre.
 
 ---
 
