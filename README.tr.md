@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.6.0** · yayın tarihi 20 Ekim 2026 · 2.9 MB
+**SÜRÜM 1.6.1** · yayın tarihi 20 Ekim 2026 · 2.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.6.0
+## Yenilikler: 1.6.1
 
-- "Tema" tuşu artık yedi gösterge düzeni arasında geçiş yapıyor: Karbon, Grand Tourer, Enerji akışı, Obsidyen, Kırmızı Spor, Lumen ve Bulutsu. Bir dokunuş, bir tema.
-- Her tema koyu ve açık olarak var: "Görünüm" ayarı hepsi için geçerli, açık olanı BYD arayüzünün mavisini alıyor.
-- Seçilen tema hatırlanır ve bir sonraki açılışta geri gelir.
-- "Ekran" düğmesi artık üç geliştirme ekranını (dosyadan tema, enerji teması, test) sunmuyor: gösterge paneli, veriler ve kalibrasyon kalıyor.
+- Karbon temasının enerji çizgisi bir göstergeye dönüştü: ortada sıfır, tüketim için sağa kırmızı, geri kazanım için sola yeşil dolum. Uzunluk gücü söyler ve güç değişmediğinde artık hiçbir şey kıpırdamaz.
+- İki tarafın ölçeği aynı değil — sağda 120 kW, solda 40 kW — çünkü bir araç tükettiğinden çok daha azını geri kazanır.
 
 ---
 

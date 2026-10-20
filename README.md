@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.0** · publiée le 20 octobre 2026 · 2.9 Mo
+**VERSION 1.6.1** · publiée le 20 octobre 2026 · 2.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.6.0
+## Nouveautés de la 1.6.1
 
-- La touche « Thème » fait maintenant défiler sept dispositions du combiné : Carbone, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui, un thème.
-- Chaque thème existe en sombre et en clair : le réglage « Apparence » s'applique à tous, et l'apparence claire reprend le bleu de la surcouche BYD.
-- Le thème choisi est retenu et revient à l'allumage suivant.
-- Le bouton « Écran » ne propose plus les trois écrans de mise au point (thème par fichier, thème énergie, test) : il ne reste que le tableau de bord, les données et la calibration.
+- La ligne d'énergie du thème Carbone devient une jauge : zéro au centre, remplissage vers la droite en rouge pour la consommation, vers la gauche en vert pour la récupération. La longueur dit la puissance, et plus rien ne bouge quand la puissance ne bouge pas.
+- Les deux côtés n'ont pas la même échelle — 120 kW à droite, 40 kW à gauche — parce qu'une voiture récupère beaucoup moins qu'elle ne consomme.
 
 ---
 

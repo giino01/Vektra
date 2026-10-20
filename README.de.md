@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.0** · veröffentlicht am 20. Oktober 2026 · 2.9 MB
+**VERSION 1.6.1** · veröffentlicht am 20. Oktober 2026 · 2.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.6.0
+## Neu in 1.6.1
 
-- Die Taste „Thema“ blättert jetzt durch sieben Kombi-Anordnungen: Carbon, Grand Tourer, Energiefluss, Obsidian, Rot Sport, Lumen und Nebula. Ein Druck, ein Thema.
-- Jedes Thema gibt es dunkel und hell: die Einstellung „Erscheinungsbild“ gilt für alle, und das helle nimmt das Blau der BYD-Oberfläche auf.
-- Das gewählte Thema wird gemerkt und kehrt beim nächsten Start zurück.
-- Die Taste „Bildschirm“ bietet die drei Entwicklungsansichten (Thema aus Datei, Energiethema, Test) nicht mehr an: es bleiben Armaturenbrett, Daten und Kalibrierung.
+- Die Energielinie des Themas Carbon wird zu einer Anzeige: Null in der Mitte, Füllung nach rechts in Rot für den Verbrauch, nach links in Grün für die Rückgewinnung. Die Länge nennt die Leistung, und nichts bewegt sich mehr, wenn die Leistung gleich bleibt.
+- Die beiden Seiten haben nicht dieselbe Skala — 120 kW rechts, 40 kW links — weil ein Auto weit weniger zurückgewinnt, als es verbraucht.
 
 ---
 

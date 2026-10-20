@@ -1,49 +1,35 @@
 {
-  "version": "1.6.0",
-  "apk": "Vektra-1.6.0.apk",
-  "size": 3044617,
+  "version": "1.6.1",
+  "apk": "Vektra-1.6.1.apk",
+  "size": 3044449,
   "notes": [
-    "La touche « Thème » fait maintenant défiler sept dispositions du combiné : Carbone, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui, un thème.",
-    "Chaque thème existe en sombre et en clair : le réglage « Apparence » s'applique à tous, et l'apparence claire reprend le bleu de la surcouche BYD.",
-    "Le thème choisi est retenu et revient à l'allumage suivant.",
-    "Le bouton « Écran » ne propose plus les trois écrans de mise au point (thème par fichier, thème énergie, test) : il ne reste que le tableau de bord, les données et la calibration."
+    "La ligne d'énergie du thème Carbone devient une jauge : zéro au centre, remplissage vers la droite en rouge pour la consommation, vers la gauche en vert pour la récupération. La longueur dit la puissance, et plus rien ne bouge quand la puissance ne bouge pas.",
+    "Les deux côtés n'ont pas la même échelle — 120 kW à droite, 40 kW à gauche — parce qu'une voiture récupère beaucoup moins qu'elle ne consomme."
   ],
   "notesByLang": {
     "fr": [
-      "La touche « Thème » fait maintenant défiler sept dispositions du combiné : Carbone, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui, un thème.",
-      "Chaque thème existe en sombre et en clair : le réglage « Apparence » s'applique à tous, et l'apparence claire reprend le bleu de la surcouche BYD.",
-      "Le thème choisi est retenu et revient à l'allumage suivant.",
-      "Le bouton « Écran » ne propose plus les trois écrans de mise au point (thème par fichier, thème énergie, test) : il ne reste que le tableau de bord, les données et la calibration."
+      "La ligne d'énergie du thème Carbone devient une jauge : zéro au centre, remplissage vers la droite en rouge pour la consommation, vers la gauche en vert pour la récupération. La longueur dit la puissance, et plus rien ne bouge quand la puissance ne bouge pas.",
+      "Les deux côtés n'ont pas la même échelle — 120 kW à droite, 40 kW à gauche — parce qu'une voiture récupère beaucoup moins qu'elle ne consomme."
     ],
     "en": [
-      "The \"Theme\" key now cycles through seven cluster layouts: Carbone, Grand Tourisme, Energy flow, Obsidian, Red Sport, Lumen and Nebula. One press, one theme.",
-      "Every theme exists in dark and light: the \"Appearance\" setting applies to all of them, and the light one picks up the blue of the BYD overlay.",
-      "The chosen theme is remembered and comes back at the next start.",
-      "The \"Screen\" button no longer offers the three development screens (theme from file, energy theme, test): only the dashboard, the data and the calibration remain."
+      "The energy line of the Carbone theme becomes a gauge: zero in the middle, filling right in red for consumption, left in green for recovery. The length says the power, and nothing moves any more when the power does not.",
+      "The two sides do not share a scale — 120 kW right, 40 kW left — because a car recovers far less than it consumes."
     ],
     "it": [
-      "Il tasto \"Tema\" scorre ora sette disposizioni del quadro: Carbonio, Gran Turismo, Flusso di energia, Ossidiana, Rosso Sport, Lumen e Nebulosa. Una pressione, un tema.",
-      "Ogni tema esiste in scuro e in chiaro: l'impostazione \"Aspetto\" vale per tutti, e quella chiara riprende il blu dell'interfaccia BYD.",
-      "Il tema scelto viene ricordato e torna all'accensione successiva.",
-      "Il pulsante \"Schermo\" non propone più le tre schermate di messa a punto (tema da file, tema energia, test): restano il cruscotto, i dati e la calibrazione."
+      "La linea dell'energia del tema Carbonio diventa un indicatore: zero al centro, riempimento verso destra in rosso per il consumo, verso sinistra in verde per il recupero. La lunghezza dice la potenza, e nulla si muove più quando la potenza non cambia.",
+      "I due lati non hanno la stessa scala — 120 kW a destra, 40 kW a sinistra — perché un'auto recupera molto meno di quanto consumi."
     ],
     "de": [
-      "Die Taste „Thema“ blättert jetzt durch sieben Kombi-Anordnungen: Carbon, Grand Tourer, Energiefluss, Obsidian, Rot Sport, Lumen und Nebula. Ein Druck, ein Thema.",
-      "Jedes Thema gibt es dunkel und hell: die Einstellung „Erscheinungsbild“ gilt für alle, und das helle nimmt das Blau der BYD-Oberfläche auf.",
-      "Das gewählte Thema wird gemerkt und kehrt beim nächsten Start zurück.",
-      "Die Taste „Bildschirm“ bietet die drei Entwicklungsansichten (Thema aus Datei, Energiethema, Test) nicht mehr an: es bleiben Armaturenbrett, Daten und Kalibrierung."
+      "Die Energielinie des Themas Carbon wird zu einer Anzeige: Null in der Mitte, Füllung nach rechts in Rot für den Verbrauch, nach links in Grün für die Rückgewinnung. Die Länge nennt die Leistung, und nichts bewegt sich mehr, wenn die Leistung gleich bleibt.",
+      "Die beiden Seiten haben nicht dieselbe Skala — 120 kW rechts, 40 kW links — weil ein Auto weit weniger zurückgewinnt, als es verbraucht."
     ],
     "pt": [
-      "A tecla \"Tema\" percorre agora sete disposições do painel: Carbono, Grande Turismo, Fluxo de energia, Obsidiana, Vermelho Sport, Lumen e Nebulosa. Um toque, um tema.",
-      "Cada tema existe em escuro e em claro: a definição \"Aparência\" aplica-se a todos, e a clara retoma o azul da interface BYD.",
-      "O tema escolhido fica guardado e volta no arranque seguinte.",
-      "O botão \"Ecrã\" já não propõe os três ecrãs de afinação (tema por ficheiro, tema energia, teste): ficam o painel, os dados e a calibração."
+      "A linha de energia do tema Carbono passa a ser um indicador: zero ao centro, enchimento para a direita a vermelho para o consumo, para a esquerda a verde para a recuperação. O comprimento diz a potência, e nada se mexe quando a potência não muda.",
+      "Os dois lados não têm a mesma escala — 120 kW à direita, 40 kW à esquerda — porque um carro recupera muito menos do que consome."
     ],
     "tr": [
-      "\"Tema\" tuşu artık yedi gösterge düzeni arasında geçiş yapıyor: Karbon, Grand Tourer, Enerji akışı, Obsidyen, Kırmızı Spor, Lumen ve Bulutsu. Bir dokunuş, bir tema.",
-      "Her tema koyu ve açık olarak var: \"Görünüm\" ayarı hepsi için geçerli, açık olanı BYD arayüzünün mavisini alıyor.",
-      "Seçilen tema hatırlanır ve bir sonraki açılışta geri gelir.",
-      "\"Ekran\" düğmesi artık üç geliştirme ekranını (dosyadan tema, enerji teması, test) sunmuyor: gösterge paneli, veriler ve kalibrasyon kalıyor."
+      "Karbon temasının enerji çizgisi bir göstergeye dönüştü: ortada sıfır, tüketim için sağa kırmızı, geri kazanım için sola yeşil dolum. Uzunluk gücü söyler ve güç değişmediğinde artık hiçbir şey kıpırdamaz.",
+      "İki tarafın ölçeği aynı değil — sağda 120 kW, solda 40 kW — çünkü bir araç tükettiğinden çok daha azını geri kazanır."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.6.0** · pubblicata il 20 ottobre 2026 · 2.9 MB
+**VERSIONE 1.6.1** · pubblicata il 20 ottobre 2026 · 2.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.6.0
+## Novità della 1.6.1
 
-- Il tasto "Tema" scorre ora sette disposizioni del quadro: Carbonio, Gran Turismo, Flusso di energia, Ossidiana, Rosso Sport, Lumen e Nebulosa. Una pressione, un tema.
-- Ogni tema esiste in scuro e in chiaro: l'impostazione "Aspetto" vale per tutti, e quella chiara riprende il blu dell'interfaccia BYD.
-- Il tema scelto viene ricordato e torna all'accensione successiva.
-- Il pulsante "Schermo" non propone più le tre schermate di messa a punto (tema da file, tema energia, test): restano il cruscotto, i dati e la calibrazione.
+- La linea dell'energia del tema Carbonio diventa un indicatore: zero al centro, riempimento verso destra in rosso per il consumo, verso sinistra in verde per il recupero. La lunghezza dice la potenza, e nulla si muove più quando la potenza non cambia.
+- I due lati non hanno la stessa scala — 120 kW a destra, 40 kW a sinistra — perché un'auto recupera molto meno di quanto consumi.
 
 ---
 

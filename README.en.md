@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.6.0** · released on 20 October 2026 · 2.9 MB
+**VERSION 1.6.1** · released on 20 October 2026 · 2.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.6.0
+## What is new in 1.6.1
 
-- The "Theme" key now cycles through seven cluster layouts: Carbone, Grand Tourisme, Energy flow, Obsidian, Red Sport, Lumen and Nebula. One press, one theme.
-- Every theme exists in dark and light: the "Appearance" setting applies to all of them, and the light one picks up the blue of the BYD overlay.
-- The chosen theme is remembered and comes back at the next start.
-- The "Screen" button no longer offers the three development screens (theme from file, energy theme, test): only the dashboard, the data and the calibration remain.
+- The energy line of the Carbone theme becomes a gauge: zero in the middle, filling right in red for consumption, left in green for recovery. The length says the power, and nothing moves any more when the power does not.
+- The two sides do not share a scale — 120 kW right, 40 kW left — because a car recovers far less than it consumes.
 
 ---
 
