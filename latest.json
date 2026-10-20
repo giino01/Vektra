@@ -6,5 +6,37 @@
     "Le fond clair du combiné reprend exactement la couleur de la surcouche BYD qui l'entoure : il n'y a plus de démarcation entre les deux.",
     "Les nouveautés sont désormais affichées dans la langue choisie dans l'application.",
     "Le code de don est recadré : plus de grande zone blanche autour."
-  ]
+  ],
+  "notesByLang": {
+    "fr": [
+      "Le fond clair du combiné reprend exactement la couleur de la surcouche BYD qui l'entoure : il n'y a plus de démarcation entre les deux.",
+      "Les nouveautés sont désormais affichées dans la langue choisie dans l'application.",
+      "Le code de don est recadré : plus de grande zone blanche autour."
+    ],
+    "en": [
+      "The cluster's light background now matches the exact colour of the surrounding BYD overlay: no visible seam between the two.",
+      "Release notes are now shown in the language selected in the app.",
+      "The donation code is cropped: no more large white area around it."
+    ],
+    "it": [
+      "Lo sfondo chiaro del quadro riprende esattamente il colore dell'interfaccia BYD che lo circonda: non c'è più stacco fra i due.",
+      "Le novità sono ora mostrate nella lingua scelta nell'applicazione.",
+      "Il codice per le donazioni è ritagliato: niente più grande area bianca attorno."
+    ],
+    "de": [
+      "Der helle Hintergrund des Kombiinstruments übernimmt exakt die Farbe der umgebenden BYD-Oberfläche: kein sichtbarer Übergang mehr.",
+      "Die Neuerungen erscheinen jetzt in der in der App gewählten Sprache.",
+      "Der Spenden-Code ist zugeschnitten: keine große weiße Fläche mehr darum."
+    ],
+    "pt": [
+      "O fundo claro do painel agora usa exatamente a cor da interface BYD ao redor: não há mais emenda visível entre os dois.",
+      "As novidades passam a ser exibidas no idioma escolhido no aplicativo.",
+      "O código de doação foi recortado: sem mais aquela grande área branca em volta."
+    ],
+    "tr": [
+      "Göstergenin açık arka planı, onu çevreleyen BYD arayüzünün rengini birebir alıyor: artık ikisi arasında görünür bir geçiş yok.",
+      "Yenilikler artık uygulamada seçilen dilde gösteriliyor.",
+      "Bağış karekodu kırpıldı: etrafındaki geniş beyaz alan kalktı."
+    ]
+  }
 }
