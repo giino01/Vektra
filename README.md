@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**Version 1.3.8** · publiée le 20 octobre 2026 · 2.7 Mo
+**Version 1.3.9** · publiée le 20 octobre 2026 · 2.7 Mo
 
-[**Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-1.3.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-1.3.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 </div>
 
@@ -27,7 +27,7 @@ le mode, la ligne de flux d'énergie, la météo animée et la pression des quat
 En Sport — détecté automatiquement par la voiture — l'ambiance passe au rouge, une pastille
 `SPORT` apparaît, et les trois chiffres du bas deviennent puissance, régime et accélérateur.
 
-> Ces captures sont **dessinées par le code de la version 1.3.8** à chaque
+> Ces captures sont **dessinées par le code de la version 1.3.9** à chaque
 > publication, avec des valeurs de démonstration. Elles ne peuvent pas dater d'une version
 > précédente.
 
@@ -46,7 +46,7 @@ par l'ADB local.
 
 ## Installation
 
-1. Télécharge [`Vektra-1.3.8.apk`](https://giino01.github.io/Vektra/Vektra-1.3.8.apk) sur la tablette et ouvre-le.
+1. Télécharge [`Vektra-1.3.9.apk`](https://giino01.github.io/Vektra/Vektra-1.3.9.apk) sur la tablette et ouvre-le.
 2. Au premier démarrage, choisis la langue, puis **Continuer**.
 3. Section **Contrôle** → **Vérifier · ADB et diagnostic**.
 4. À la demande **« Autoriser le débogage USB ? »**, coche **Toujours autoriser**, puis
@@ -99,12 +99,12 @@ Ouvre **Contrôle**, appuie sur **Copier tout le scan**, et envoie le texte : il
 l'état de tous les équipements, de l'ADB, de la musique, de l'alimentation et des mises à
 jour.
 
-## Nouveautés de la 1.3.8
+## Nouveautés de la 1.3.9
 
-- Choix de l'apparence dans les réglages, ligne « Apparence » : Sombre, Claire ou Automatique. Sombre reste l'apparence d'origine.
-- L'apparence claire reprend la teinte bleu-gris de la surcouche de BYD. Elle est pour l'instant réglée d'après une photo de ton écran : une vraie capture d'écran permettrait de tomber au pixel près.
-- En Automatique, l'application suit l'apparence de la tablette. Encore à vérifier : la section Contrôle indique désormais, à la ligne « Apparence de la tablette », si cette tablette renseigne vraiment son réglage jour/nuit. Si elle affiche « non renseignée », l'Automatique restera sur le sombre.
-- Le combiné n'est pas touché : il garde ses ambiances bleue et rouge. Un fond clair derrière le volant serait éblouissant de nuit.
+- L'apparence s'applique maintenant AUSSI au combiné, derrière le volant — c'était la demande d'origine. Le cadran, les graduations, l'aiguille, les panneaux de musique, de météo et de pneus suivent le réglage Sombre, Claire ou Automatique.
+- L'ambiance du mode de conduite reste indépendante : bleu en Eco et Normal, rouge en Sport. En apparence claire, ces teintes sont assombries pour rester lisibles sur un fond clair — un cyan vif y disparaîtrait.
+- Correction : en Automatique, l'apparence était inversée — l'application passait en clair quand l'appareil était en sombre, et inversement.
+- À essayer : passer l'apparence en Claire, puis regarder le combiné en roulant de jour. De nuit, l'apparence Sombre reste la bonne : un fond clair derrière le volant éblouit.
 
 ---
 
