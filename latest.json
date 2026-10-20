@@ -1,42 +1,28 @@
 {
-  "version": "1.4.0",
-  "apk": "Vektra-1.4.0.apk",
-  "size": 2848585,
+  "version": "1.4.1",
+  "apk": "Vektra-1.4.1.apk",
+  "size": 2848653,
   "notes": [
-    "Le fond clair du combiné reprend exactement la couleur de la surcouche BYD qui l'entoure : il n'y a plus de démarcation entre les deux.",
-    "Les nouveautés sont désormais affichées dans la langue choisie dans l'application.",
-    "Le code de don est recadré : plus de grande zone blanche autour."
+    "Le fond clair et l'accent reprennent le bleu du bandeau bas du combiné BYD, mesuré sur les photos. L'accent en est une version foncée de la même teinte : à la luminosité du fond, il s'y confondrait."
   ],
   "notesByLang": {
     "fr": [
-      "Le fond clair du combiné reprend exactement la couleur de la surcouche BYD qui l'entoure : il n'y a plus de démarcation entre les deux.",
-      "Les nouveautés sont désormais affichées dans la langue choisie dans l'application.",
-      "Le code de don est recadré : plus de grande zone blanche autour."
+      "Le fond clair et l'accent reprennent le bleu du bandeau bas du combiné BYD, mesuré sur les photos. L'accent en est une version foncée de la même teinte : à la luminosité du fond, il s'y confondrait."
     ],
     "en": [
-      "The cluster's light background now matches the exact colour of the surrounding BYD overlay: no visible seam between the two.",
-      "Release notes are now shown in the language selected in the app.",
-      "The donation code is cropped: no more large white area around it."
+      "The light background and the accent now use the blue of the BYD cluster's bottom band, measured from the photos. The accent is a darker shade of that same hue: at the background's brightness it would simply vanish into it."
     ],
     "it": [
-      "Lo sfondo chiaro del quadro riprende esattamente il colore dell'interfaccia BYD che lo circonda: non c'è più stacco fra i due.",
-      "Le novità sono ora mostrate nella lingua scelta nell'applicazione.",
-      "Il codice per le donazioni è ritagliato: niente più grande area bianca attorno."
+      "Lo sfondo chiaro e l'accento riprendono il blu della fascia inferiore del quadro BYD, misurato sulle foto. L'accento ne è una versione più scura: alla luminosità dello sfondo si confonderebbe."
     ],
     "de": [
-      "Der helle Hintergrund des Kombiinstruments übernimmt exakt die Farbe der umgebenden BYD-Oberfläche: kein sichtbarer Übergang mehr.",
-      "Die Neuerungen erscheinen jetzt in der in der App gewählten Sprache.",
-      "Der Spenden-Code ist zugeschnitten: keine große weiße Fläche mehr darum."
+      "Heller Hintergrund und Akzent übernehmen das Blau des unteren BYD-Bandes, an den Fotos gemessen. Der Akzent ist eine dunklere Variante desselben Farbtons: bei der Helligkeit des Hintergrunds ginge er darin unter."
     ],
     "pt": [
-      "O fundo claro do painel agora usa exatamente a cor da interface BYD ao redor: não há mais emenda visível entre os dois.",
-      "As novidades passam a ser exibidas no idioma escolhido no aplicativo.",
-      "O código de doação foi recortado: sem mais aquela grande área branca em volta."
+      "O fundo claro e o destaque passam a usar o azul da faixa inferior do painel BYD, medido nas fotos. O destaque é uma versão mais escura do mesmo tom: no brilho do fundo, ele desapareceria."
     ],
     "tr": [
-      "Göstergenin açık arka planı, onu çevreleyen BYD arayüzünün rengini birebir alıyor: artık ikisi arasında görünür bir geçiş yok.",
-      "Yenilikler artık uygulamada seçilen dilde gösteriliyor.",
-      "Bağış karekodu kırpıldı: etrafındaki geniş beyaz alan kalktı."
+      "Açık arka plan ve vurgu rengi, fotoğraflardan ölçülen BYD gösterge alt şeridinin mavisini alıyor. Vurgu, aynı tonun koyu bir sürümü: arka planın parlaklığında tamamen kaybolurdu."
     ]
   }
 }
