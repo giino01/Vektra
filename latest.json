@@ -1,8 +1,9 @@
 {
-  "version": "1.3.3",
-  "apk": "Vektra-1.3.3.apk",
-  "size": 2631153,
+  "version": "1.3.5",
+  "apk": "Vektra-1.3.5.apk",
+  "size": 2632237,
   "notes": [
-    "page publique soignée, adresse corrigée"
+    "Captures : les deux « android-all » de Robolectric, en configurations séparées",
+    "page et README complets, captures dessinées par le code"
   ]
 }

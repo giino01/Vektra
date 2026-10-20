@@ -1,163 +1,414 @@
 <!doctype html>
 <!--
-  Page publique de VEKTRA.
+  Page publique de VEKTRA : présentation, installation, utilisation, téléchargement.
 
-  Ce fichier est un MODÈLE : le workflow y remplace les marques {{...}} à chaque
-  publication, puis dépose le résultat dans le dépôt public. Pour changer l'allure de la
-  page, c'est ici qu'on modifie — pas dans le workflow.
+  Ce fichier est un MODÈLE. Le workflow y remplace les marques entre doubles accolades à
+  chaque publication, puis dépose le résultat dans le dépôt public. Pour changer l'allure
+  ou le texte de la page, c'est ici qu'on modifie — pas dans le workflow.
 
-  Marques remplacées (écrites ici sans leurs accolades, sinon elles seraient
-  remplacées dans ce commentaire) : VERSION, APK, SIZE, DATE, NOTES.
+  Marques remplacées (écrites ici sans leurs accolades, sinon elles le seraient dans ce
+  commentaire) : VERSION, APK, SIZE, DATE, NOTES.
+
+  Les images de img/ sont produites par app/src/test/.../ScreenshotTest.kt : ce sont les
+  vraies vues de l'application, dessinées à chaque publication. Elles ne peuvent donc pas
+  montrer une version périmée.
 -->
 <html lang="fr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>VEKTRA 1.3.3</title>
-<meta name="description" content="VEKTRA — tableau de bord personnalisé pour le combiné des BYD DiLink 3.">
+<title>VEKTRA 1.3.5 — tableau de bord pour le combiné BYD</title>
+<meta name="description" content="VEKTRA remplace l'affichage du combiné des BYD DiLink 3 par un tableau de bord personnalisé : compteur, musique, météo, pneus, flux d'énergie.">
 <meta name="theme-color" content="#090c11">
 <style>
   :root{
     color-scheme: dark;
     --ink:#090c11;
+    --panel:#0e131b;
     --chalk:#e9eef6;
     --slate:#8294ab;
     --dim:#65788e;
     --cyan:#00e5ff;
     --violet:#a66bff;
-    --face:#ffffff0c;
+    --go:#00e676;
+    --warn:#ffb020;
+    --stop:#ff3b30;
+    --face:#ffffff0a;
     --edge:#ffffff16;
   }
   *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
+  html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
   body{
-    margin:0; padding:0 16px 64px;
+    margin:0; padding:0 16px 72px;
     background:var(--ink); color:var(--chalk);
-    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
-    /* Deux halos très sourds, repris des couleurs du logo. */
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
     background-image:
-      radial-gradient(60rem 30rem at 15% -10%, #00e5ff14, transparent 60%),
-      radial-gradient(50rem 28rem at 92% 8%, #a66bff12, transparent 60%);
+      radial-gradient(60rem 32rem at 12% -12%, #00e5ff14, transparent 62%),
+      radial-gradient(52rem 30rem at 94% 4%, #a66bff12, transparent 62%);
     background-repeat:no-repeat;
   }
-  main{max-width:38rem;margin:0 auto;padding-top:48px}
+  main{max-width:46rem;margin:0 auto}
 
-  /* ── Identité ─────────────────────────────────────────── */
-  .mark{display:block;width:92px;height:92px;margin:0 0 18px -6px}
-  h1{
-    margin:0; font-size:clamp(30px,9vw,42px); font-weight:300;
-    letter-spacing:.2em; line-height:1.1;
-  }
-  .tagline{margin:10px 0 0;color:var(--slate);font-size:15px}
-
-  /* ── Version ──────────────────────────────────────────── */
-  .release{
-    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
-    margin:30px 0 0;
-  }
+  /* ── En-tête ──────────────────────────────────────────── */
+  header{padding:52px 0 8px;text-align:center}
+  .mark{width:96px;height:96px;display:block;margin:0 auto 16px}
+  h1{margin:0;font-size:clamp(30px,8.5vw,44px);font-weight:300;letter-spacing:.2em;line-height:1.1}
+  .tagline{margin:12px 0 0;color:var(--slate);font-size:16px}
+  .release{margin:24px 0 0;display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap}
   .pill{
-    display:inline-block;padding:6px 14px;border-radius:999px;
-    font-size:13px;font-weight:700;letter-spacing:.08em;
+    padding:6px 15px;border-radius:999px;font-size:13px;font-weight:700;letter-spacing:.08em;
     color:#06222a;background:linear-gradient(90deg,var(--cyan),var(--violet));
   }
   .when{color:var(--dim);font-size:13px}
-
-  /* ── Changelog ────────────────────────────────────────── */
-  h2{
-    margin:38px 0 14px;font-size:12px;font-weight:700;
-    letter-spacing:.18em;color:var(--cyan);text-transform:uppercase;
+  nav.jump{
+    margin:30px 0 0;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;
   }
-  ul.notes{margin:0;padding:0;list-style:none}
-  ul.notes li{
-    position:relative;padding:11px 0 11px 20px;
+  nav.jump a{
+    padding:7px 14px;border-radius:999px;text-decoration:none;font-size:13px;
+    color:var(--slate);background:var(--face);border:1px solid var(--edge);
+  }
+
+  /* ── Sections ─────────────────────────────────────────── */
+  section{margin:52px 0 0;scroll-margin-top:16px}
+  h2{
+    margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:.18em;
+    color:var(--cyan);text-transform:uppercase;
+  }
+  h3{margin:30px 0 4px;font-size:18px;font-weight:600}
+  .lead{margin:0 0 18px;font-size:22px;font-weight:600;line-height:1.3}
+  p{margin:0 0 14px;color:#c3d0e0}
+  p.muted{color:var(--slate);font-size:15px}
+  strong{color:var(--chalk);font-weight:600}
+  code{
+    font:13px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    background:#ffffff10;padding:2px 6px;border-radius:5px;color:#bfe9f6;
+    overflow-wrap:anywhere;
+  }
+
+  /* ── Figures ──────────────────────────────────────────── */
+  figure{margin:20px 0 24px}
+  figure img{
+    display:block;width:100%;height:auto;border-radius:12px;
+    border:1px solid var(--edge);background:#000;
+  }
+  figcaption{margin-top:9px;color:var(--dim);font-size:13px;text-align:center}
+
+  /* ── Listes ───────────────────────────────────────────── */
+  ol.steps{margin:0;padding:0;list-style:none;counter-reset:s}
+  ol.steps li{
+    counter-increment:s;position:relative;padding:14px 0 14px 46px;
     border-bottom:1px solid var(--edge);
   }
-  ul.notes li:last-child{border-bottom:0}
-  ul.notes li::before{
-    content:"";position:absolute;left:0;top:21px;
-    width:6px;height:6px;border-radius:50%;background:var(--cyan);
+  ol.steps li:last-child{border-bottom:0}
+  ol.steps li::before{
+    content:counter(s);position:absolute;left:0;top:14px;
+    width:28px;height:28px;border-radius:50%;display:grid;place-items:center;
+    font-size:13px;font-weight:700;color:#06222a;
+    background:linear-gradient(135deg,var(--cyan),var(--violet));
+  }
+  ul.plain{margin:0 0 14px;padding:0;list-style:none}
+  ul.plain li{
+    position:relative;padding:9px 0 9px 20px;border-bottom:1px solid var(--edge);
+    color:#c3d0e0;
+  }
+  ul.plain li:last-child{border-bottom:0}
+  ul.plain li::before{
+    content:"";position:absolute;left:0;top:19px;width:6px;height:6px;
+    border-radius:50%;background:var(--cyan);
   }
 
-  /* ── Téléchargement ───────────────────────────────────── */
-  .get{
-    margin:34px 0 0;padding:22px;border-radius:16px;
-    background:var(--face);border:1px solid var(--edge);
+  /* ── Encadrés ─────────────────────────────────────────── */
+  .note{
+    margin:18px 0;padding:16px 18px;border-radius:12px;
+    background:var(--face);border:1px solid var(--edge);border-left:3px solid var(--cyan);
+    font-size:15px;color:#c3d0e0;
   }
+  .note.warn{border-left-color:var(--warn)}
+  .note.stop{border-left-color:var(--stop)}
+  .note p:last-child{margin-bottom:0}
+  .note b{color:var(--chalk)}
+
+  /* ── Téléchargement, tout en bas ──────────────────────── */
+  .get{
+    margin:56px 0 0;padding:28px 22px;border-radius:18px;text-align:center;
+    background:var(--panel);border:1px solid var(--edge);
+  }
+  .get h2{margin-bottom:10px}
   a.dl{
-    display:block;text-align:center;text-decoration:none;
-    padding:16px 24px;border-radius:999px;
-    font-size:17px;font-weight:700;
+    display:block;margin:18px 0 0;padding:18px 24px;border-radius:999px;
+    font-size:17px;font-weight:700;text-decoration:none;
     color:#06222a;background:linear-gradient(90deg,var(--cyan),var(--violet));
   }
   a.dl:active{opacity:.85}
-  .meta{margin:14px 0 0;color:var(--dim);font-size:13px;text-align:center}
+  .meta{margin:14px 0 0;color:var(--dim);font-size:13px}
 
-  /* ── Explications ─────────────────────────────────────── */
-  .about p{color:var(--slate);font-size:15px}
-  .about strong{color:var(--chalk);font-weight:600}
   footer{
-    margin-top:46px;padding-top:20px;border-top:1px solid var(--edge);
-    color:var(--dim);font-size:13px;
+    margin-top:44px;padding-top:22px;border-top:1px solid var(--edge);
+    color:var(--dim);font-size:13px;text-align:center;
   }
   footer a{color:var(--slate)}
 
-  @media (min-width:40rem){ main{padding-top:72px} .mark{width:108px;height:108px} }
+  @media (min-width:48rem){ header{padding-top:76px} .mark{width:112px;height:112px} }
 </style>
 </head>
 <body>
 <main>
 
+<header>
   <!-- Le monogramme, identique à l'icône de l'application. -->
-  <svg class="mark" viewBox="0 0 108 108" aria-label="VEKTRA" role="img">
+  <svg class="mark" viewBox="0 0 108 108" role="img" aria-label="VEKTRA">
     <defs>
       <linearGradient id="v" x1="33" y1="34" x2="75" y2="81" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#00e5ff"/>
-        <stop offset="1" stop-color="#a66bff"/>
+        <stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#a66bff"/>
       </linearGradient>
     </defs>
-    <path d="M33,34 L54,81 L75,34" fill="none" stroke="url(#v)"
-          stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M45,34 L54,52 L63,34" fill="none" stroke="#090c11"
-          stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M45,34 L54,52 L63,34" fill="none" stroke="#e9eef6"
-          stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M33,34 L54,81 L75,34" fill="none" stroke="url(#v)" stroke-width="11"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45,34 L54,52 L63,34" fill="none" stroke="#090c11" stroke-width="9"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45,34 L54,52 L63,34" fill="none" stroke="#e9eef6" stroke-width="4"
+          stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
-
   <h1>V E K T R A</h1>
   <p class="tagline">Le combiné de ta BYD, à ta façon.</p>
-
   <div class="release">
-    <span class="pill">VERSION 1.3.3</span>
+    <span class="pill">VERSION 1.3.5</span>
     <span class="when">publiée le 20 octobre 2026</span>
   </div>
+  <nav class="jump">
+    <a href="#apercu">Aperçu</a>
+    <a href="#prerequis">Prérequis</a>
+    <a href="#installation">Installation</a>
+    <a href="#activation">Activation</a>
+    <a href="#utilisation">Utilisation</a>
+    <a href="#reglages">Réglages</a>
+    <a href="#probleme">En cas de souci</a>
+    <a href="#telecharger">Télécharger</a>
+  </nav>
+</header>
 
-  <h2>Nouveautés</h2>
-  <ul class="notes">
-    <li>page publique soignée, adresse corrigée</li>
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="apercu">
+  <h2>Aperçu</h2>
+  <p class="lead">VEKTRA remplace l'affichage d'origine du combiné, derrière le volant,
+  par un tableau de bord à soi.</p>
+
+  <figure>
+    <img src="img/combine-normal.png" alt="Le combiné en ambiance bleue : compteur à aiguille, musique en cours, météo, pneus et ligne de flux d'énergie.">
+    <figcaption>Ambiance bleue — modes Eco et Normal.</figcaption>
+  </figure>
+
+  <p>De gauche à droite : l'heure et la date, le <strong>compteur à aiguille</strong> gradué
+  jusqu'à 220 km/h, la <strong>musique en cours</strong> quelle que soit l'application qui
+  la joue, trois chiffres choisis selon le mode, la <strong>ligne de flux d'énergie</strong>
+  dont le point central part vers la droite en rouge quand la batterie se décharge et vers
+  la gauche en vert quand elle se recharge, puis la <strong>météo animée</strong> et la
+  <strong>pression des quatre pneus</strong> en bar.</p>
+
+  <figure>
+    <img src="img/combine-sport.png" alt="Le combiné en ambiance rouge, avec la pastille SPORT et les chiffres puissance, régime et accélérateur.">
+    <figcaption>Ambiance rouge — mode Sport, détecté automatiquement par la voiture.</figcaption>
+  </figure>
+
+  <p>En Sport, l'ambiance passe au rouge, une pastille <code>SPORT</code> apparaît sous
+  l'heure et les trois chiffres du bas changent : puissance, régime moteur et position de
+  l'accélérateur, à la place des consommations et de la batterie.</p>
+
+  <div class="note">
+    <p>Les captures de cette page sont <b>dessinées par le code de la version 1.3.5</b>
+    à chaque publication, avec des valeurs de démonstration. Elles ne peuvent donc pas
+    montrer une version plus ancienne que celle proposée ici.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="prerequis">
+  <h2>Ce qu'il faut</h2>
+  <ul class="plain">
+    <li>Un véhicule <strong>BYD équipé de DiLink 3</strong> (Android 10). Mis au point sur
+    une Seal U DM-i ; les autres modèles DiLink 3 n'ont pas été vérifiés.</li>
+    <li>La tablette doit accepter l'<strong>installation d'applications extérieures</strong>
+    (sideload).</li>
+    <li>Le <strong>débogage ADB en réseau</strong> actif sur la tablette, sur le port 5555.
+    VEKTRA s'y connecte en local, sur la tablette elle-même — rien ne sort du véhicule.</li>
+    <li>Une connexion internet sur la tablette pour la météo et les mises à jour. Tout le
+    reste fonctionne hors ligne.</li>
   </ul>
+  <div class="note warn">
+    <p><b>Pourquoi l'ADB.</b> Les commandes qui libèrent l'écran du combiné ne sont
+    autorisées qu'à l'utilisateur <code>shell</code> d'Android. Une application ordinaire
+    ne peut pas les envoyer. VEKTRA passe donc par l'ADB de la tablette, en local, pour
+    obtenir ce droit — c'est la seule façon connue de prendre la main sur le combiné.</p>
+  </div>
+</section>
 
-  <div class="get">
-    <a class="dl" href="Vektra-1.3.3.apk">Télécharger VEKTRA 1.3.3</a>
-    <p class="meta">2.5 Mo · Android 9 ou plus · DiLink 3</p>
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="installation">
+  <h2>Installation</h2>
+  <ol class="steps">
+    <li>Télécharge le fichier <code>Vektra-1.3.5.apk</code> depuis cette page, sur la tablette.</li>
+    <li>Ouvre-le et accepte l'installation. Si Android refuse, autorise les
+    « sources inconnues » pour le gestionnaire de fichiers utilisé.</li>
+    <li>Ouvre VEKTRA. Au tout premier démarrage, l'écran d'accueil demande la langue.</li>
+    <li>Appuie sur <strong>Continuer</strong>. L'écran principal s'ouvre.</li>
+    <li>La première commande envoyée fera apparaître la demande
+    <strong>« Autoriser le débogage USB ? »</strong>. Coche <strong>Toujours autoriser</strong>,
+    puis accepte. Cette demande n'apparaît qu'une fois.</li>
+  </ol>
+
+  <figure>
+    <img src="img/accueil-langue.png" alt="Écran d'accueil de VEKTRA : logo, nom et six langues au choix.">
+    <figcaption>Le choix de la langue, au premier démarrage. Modifiable ensuite dans les réglages.</figcaption>
+  </figure>
+
+  <p class="muted">Six langues sont disponibles : français, anglais, italien, allemand,
+  portugais du Brésil et turc.</p>
+</section>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="activation">
+  <h2>Activer l'affichage</h2>
+
+  <figure>
+    <img src="img/tablette-combine.png" alt="Section Combiné de VEKTRA : rail de navigation à gauche, aperçu du combiné au centre, bouton d'affichage et touches en bas.">
+    <figcaption>Section <strong>Combiné</strong> — le bouton principal et les touches d'affichage.</figcaption>
+  </figure>
+
+  <ol class="steps">
+    <li>Dans la section <strong>Contrôle</strong>, appuie sur <strong>Vérifier · ADB et
+    diagnostic</strong>. C'est ce qui déclenche l'autorisation de débogage et confirme que
+    la connexion fonctionne.</li>
+    <li>Reviens sur <strong>Combiné</strong> et appuie sur
+    <strong>Afficher sur le combiné</strong>.</li>
+    <li>Le tableau de bord d'origine se met en veille, l'écran virtuel du combiné est créé,
+    puis VEKTRA s'y affiche. L'opération prend une dizaine de secondes.</li>
+    <li>L'aperçu au centre de la tablette montre en direct ce qui est dessiné derrière le
+    volant. Le bouton <strong>Aperçu</strong> le replie si tu préfères un tableau d'état.</li>
+  </ol>
+
+  <div class="note stop">
+    <p><b>Pour revenir en arrière</b>, appuie sur <b>Revenir à l'origine</b> : le tableau de
+    bord BYD reprend la main. Si jamais il ne revient pas, coupe puis remets le contact.</p>
   </div>
 
-  <div class="about">
-    <h2>À quoi ça sert</h2>
-    <p>VEKTRA remplace l'affichage d'origine du combiné, derrière le volant, par un
-    tableau de bord à soi : compteur à aiguille, musique en cours quelle que soit
-    l'application qui la joue, météo animée, pression des pneus et flux d'énergie en
-    direct.</p>
+  <h3>Les autres touches</h3>
+  <ul class="plain">
+    <li><strong>Écran</strong> — choisit ce qui s'affiche sur le combiné : tableau de bord,
+    thème énergie, données brutes, calibration ou mire de test.</li>
+    <li><strong>Mode</strong> — laisse la voiture décider (Sport est détecté tout seul) ou
+    force une ambiance pour un essai à l'arrêt.</li>
+    <li><strong>Thème</strong> — le choix d'un thème par fichier est mis de côté pour le
+    moment ; la touche affiche <em>Bientôt disponible</em>.</li>
+  </ul>
+</section>
 
-    <h2>Mise à jour</h2>
-    <p>Une fois installée, <strong>l'application se met à jour toute seule</strong> : elle
-    consulte cette page à chaque ouverture, propose la nouvelle version avec ses
-    nouveautés, puis l'installe et se rouvre. Il n'y a normalement rien à télécharger ici
-    à la main — sauf pour la toute première installation.</p>
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="utilisation">
+  <h2>Les quatre sections</h2>
+  <p>Le rail de gauche donne accès à quatre pages. Les quatre témoins du bas — ADB, combiné,
+  musique, démarrage automatique — passent au vert dès que la fonction correspondante est
+  en place.</p>
+
+  <h3>Contrôle</h3>
+  <figure>
+    <img src="img/tablette-controle.png" alt="Section Contrôle : relevé complet des équipements détectés et touches d'essai.">
+    <figcaption>Le relevé complet de ce que l'application voit.</figcaption>
+  </figure>
+  <p>Cette page relève tout : les appareils du SDK de la voiture et les valeurs qu'ils
+  renvoient, l'état de l'ADB, l'accès à la musique, l'alimentation du véhicule, la météo, la
+  version installée et la source des mises à jour. Le bouton <strong>Copier tout le
+  scan</strong>, en haut à droite, met l'ensemble dans le presse-papiers — c'est ce qu'il
+  faut envoyer en cas de problème.</p>
+  <p class="muted">Les touches du bas lancent les essais : diagnostic ADB, lecture des
+  données de la voiture, et autorisation de l'accès à la musique.</p>
+
+  <h3>Journal</h3>
+  <figure>
+    <img src="img/tablette-journal.png" alt="Section Journal : les lignes de journal de l'application.">
+    <figcaption>Tout ce que l'application a fait depuis son ouverture.</figcaption>
+  </figure>
+  <p>Chaque commande envoyée et chaque réponse reçue y sont écrites, dans l'ordre. Le bouton
+  <strong>Copier le journal</strong> fait de même pour le texte entier.</p>
+</section>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="reglages">
+  <h2>Réglages</h2>
+  <figure>
+    <img src="img/tablette-reglages.png" alt="Section Réglages : langue, démarrage automatique, accès aux notifications, mise à jour, source des mises à jour, position météo et cadence.">
+    <figcaption>Tout se règle ici, rien n'est caché ailleurs.</figcaption>
+  </figure>
+
+  <h3>Musique</h3>
+  <p>Pour afficher le morceau en cours, VEKTRA a besoin de l'<strong>accès aux
+  notifications</strong> : c'est la règle d'Android pour lire les sessions audio. Appuie sur
+  la ligne <strong>Accès aux notifications</strong> et l'application se l'accorde elle-même
+  par l'ADB, sans rien effacer de la liste existante. Une fois accordé, le titre, l'artiste,
+  la pochette et la progression s'affichent, <strong>quelle que soit l'application qui
+  joue</strong> — radio, Bluetooth, ou une app installée.</p>
+
+  <h3>Démarrage et arrêt automatiques</h3>
+  <p>Quand ce réglage est actif, VEKTRA prend le combiné dès que la voiture est allumée et
+  le rend dès qu'elle est coupée. L'état du véhicule est lu <strong>directement dans la
+  voiture</strong>, une fois par seconde : 0 éteint, 1 accessoires, 2 contact mis. Une
+  coupure doit être confirmée deux fois d'affilée avant que l'écran soit rendu — un seul
+  hoquet de la voiture ne doit pas faire disparaître l'affichage en pleine route.</p>
+
+  <h3>Source des mises à jour</h3>
+  <p>L'adresse de la fiche de version. Elle se change sans recompiler : n'importe quel
+  hébergement servant un fichier texte sans mot de passe convient. Par défaut, c'est cette
+  page.</p>
+
+  <h3>Mise à jour</h3>
+  <p>VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponible, une
+  fenêtre affiche les nouveautés et propose <strong>Plus tard</strong> ou
+  <strong>Télécharger et installer</strong>. Si tu acceptes, l'application se télécharge,
+  s'installe par-dessus et se rouvre seule. Il n'y a rien à faire à la main.</p>
+  <div class="note">
+    <p>Toutes les versions portent la <b>même signature</b> : une mise à jour remplace
+    toujours la précédente sans qu'Android la refuse, et sans perdre les réglages.</p>
   </div>
+</section>
 
-  <footer>
-    Projet personnel, sans lien avec BYD. Installation à tes risques.
-  </footer>
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="probleme">
+  <h2>En cas de souci</h2>
+  <ul class="plain">
+    <li><strong>Le combiné reste figé.</strong> Appuie sur <em>Revenir à l'origine</em>, puis
+    réessaie. Si rien ne change, coupe et remets le contact.</li>
+    <li><strong>Aucune donnée, que des tirets.</strong> Le SDK de la voiture n'a pas répondu.
+    La section Contrôle dit lesquels des appareils sont joignables.</li>
+    <li><strong>La musique ne s'affiche pas.</strong> L'accès aux notifications n'est pas
+    accordé : voir plus haut. Vérifie aussi que quelque chose joue réellement.</li>
+    <li><strong>La mise à jour dit « Indisponible ».</strong> La tablette n'a pas joint la
+    source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.</li>
+    <li><strong>Autre chose.</strong> Ouvre <em>Contrôle</em>, appuie sur <em>Copier tout le
+    scan</em>, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.</li>
+  </ul>
+</section>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="nouveautes">
+  <h2>Nouveautés de la 1.3.5</h2>
+  <ul class="plain">
+    <li>Captures : les deux « android-all » de Robolectric, en configurations séparées</li>
+    <li>page et README complets, captures dessinées par le code</li>
+  </ul>
+</section>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<section id="telecharger" class="get">
+  <h2>Télécharger</h2>
+  <p class="muted">Dernière version publiée, prête à installer sur la tablette.</p>
+  <a class="dl" href="Vektra-1.3.5.apk">VEKTRA 1.3.5 — télécharger l'APK</a>
+  <p class="meta">2.5 Mo · Android 9 ou plus · BYD DiLink 3 · publiée le 20 octobre 2026</p>
+</section>
+
+<footer>
+  Projet personnel, sans aucun lien avec BYD. Installation et usage à tes risques.<br>
+  Les informations affichées viennent du système de la voiture et peuvent être inexactes :
+  ne t'y fie jamais pour conduire.
+</footer>
 
 </main>
 </body>
