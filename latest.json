@@ -1,63 +1,49 @@
 {
-  "version": "1.5.0",
-  "apk": "Vektra-1.5.0.apk",
-  "size": 3010669,
+  "version": "1.6.0",
+  "apk": "Vektra-1.6.0.apk",
+  "size": 3044617,
   "notes": [
-    "Les pressions de pneus s'affichent sur une vue de dessus du véhicule, chaque valeur à son coin.",
-    "Les panneaux n'ont plus de contour : ils se fondent dans le fond au lieu d'y être posés.",
-    "La date est centrée au-dessus de la carte musique.",
-    "Le fond se dégrade plus largement sur les côtés : la limite avec la surcouche BYD s'efface.",
-    "L'écran de la tablette reste sombre en toutes circonstances, avec ses halos bleus. Le réglage « Apparence » ne concerne plus que le combiné.",
-    "À vérifier : la correspondance entre R1 à R4 et les roues réelles n'est pas confirmée. L'indice reste écrit sous chaque valeur — compare avec l'écran des pneus de BYD et dis-moi si c'est inversé."
+    "La touche « Thème » fait maintenant défiler sept dispositions du combiné : Carbone, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui, un thème.",
+    "Chaque thème existe en sombre et en clair : le réglage « Apparence » s'applique à tous, et l'apparence claire reprend le bleu de la surcouche BYD.",
+    "Le thème choisi est retenu et revient à l'allumage suivant.",
+    "Le bouton « Écran » ne propose plus les trois écrans de mise au point (thème par fichier, thème énergie, test) : il ne reste que le tableau de bord, les données et la calibration."
   ],
   "notesByLang": {
     "fr": [
-      "Les pressions de pneus s'affichent sur une vue de dessus du véhicule, chaque valeur à son coin.",
-      "Les panneaux n'ont plus de contour : ils se fondent dans le fond au lieu d'y être posés.",
-      "La date est centrée au-dessus de la carte musique.",
-      "Le fond se dégrade plus largement sur les côtés : la limite avec la surcouche BYD s'efface.",
-      "L'écran de la tablette reste sombre en toutes circonstances, avec ses halos bleus. Le réglage « Apparence » ne concerne plus que le combiné.",
-      "À vérifier : la correspondance entre R1 à R4 et les roues réelles n'est pas confirmée. L'indice reste écrit sous chaque valeur — compare avec l'écran des pneus de BYD et dis-moi si c'est inversé."
+      "La touche « Thème » fait maintenant défiler sept dispositions du combiné : Carbone, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui, un thème.",
+      "Chaque thème existe en sombre et en clair : le réglage « Apparence » s'applique à tous, et l'apparence claire reprend le bleu de la surcouche BYD.",
+      "Le thème choisi est retenu et revient à l'allumage suivant.",
+      "Le bouton « Écran » ne propose plus les trois écrans de mise au point (thème par fichier, thème énergie, test) : il ne reste que le tableau de bord, les données et la calibration."
     ],
     "en": [
-      "Tyre pressures are shown on a top view of the car, each value at its corner.",
-      "Panels have no outline any more: they blend into the background instead of sitting on it.",
-      "The date is centred above the music card.",
-      "The background fades further on the sides: the seam with the BYD overlay disappears.",
-      "The tablet screen stays dark at all times, with its blue glows. The \"Appearance\" setting now applies to the cluster only.",
-      "To check: which wheel R1 to R4 refer to is not confirmed. The index stays written under each value — compare with BYD's own tyre screen and tell me if they are swapped."
+      "The \"Theme\" key now cycles through seven cluster layouts: Carbone, Grand Tourisme, Energy flow, Obsidian, Red Sport, Lumen and Nebula. One press, one theme.",
+      "Every theme exists in dark and light: the \"Appearance\" setting applies to all of them, and the light one picks up the blue of the BYD overlay.",
+      "The chosen theme is remembered and comes back at the next start.",
+      "The \"Screen\" button no longer offers the three development screens (theme from file, energy theme, test): only the dashboard, the data and the calibration remain."
     ],
     "it": [
-      "Le pressioni degli pneumatici appaiono su una vista dall'alto del veicolo, ogni valore al suo angolo.",
-      "I pannelli non hanno più contorno: si fondono con lo sfondo invece di esservi appoggiati.",
-      "La data è centrata sopra la scheda musica.",
-      "Lo sfondo sfuma più ampiamente ai lati: lo stacco con l'interfaccia BYD scompare.",
-      "La schermata del tablet resta sempre scura, con i suoi aloni blu. L'impostazione \"Aspetto\" riguarda ormai solo il quadro.",
-      "Da verificare: la corrispondenza fra R1-R4 e le ruote reali non è confermata. L'indice resta scritto sotto ogni valore — confronta con la schermata pneumatici di BYD."
+      "Il tasto \"Tema\" scorre ora sette disposizioni del quadro: Carbonio, Gran Turismo, Flusso di energia, Ossidiana, Rosso Sport, Lumen e Nebulosa. Una pressione, un tema.",
+      "Ogni tema esiste in scuro e in chiaro: l'impostazione \"Aspetto\" vale per tutti, e quella chiara riprende il blu dell'interfaccia BYD.",
+      "Il tema scelto viene ricordato e torna all'accensione successiva.",
+      "Il pulsante \"Schermo\" non propone più le tre schermate di messa a punto (tema da file, tema energia, test): restano il cruscotto, i dati e la calibrazione."
     ],
     "de": [
-      "Die Reifendrücke erscheinen auf einer Draufsicht des Fahrzeugs, jeder Wert an seiner Ecke.",
-      "Die Felder haben keinen Rahmen mehr: sie verschmelzen mit dem Hintergrund, statt darauf zu liegen.",
-      "Das Datum steht zentriert über der Musikkarte.",
-      "Der Hintergrund verläuft weiter zu den Seiten: die Kante zur BYD-Oberfläche verschwindet.",
-      "Der Tablet-Bildschirm bleibt immer dunkel, mit seinen blauen Lichthöfen. Die Einstellung „Erscheinungsbild\" betrifft nur noch das Kombiinstrument.",
-      "Zu prüfen: welche Räder R1 bis R4 bezeichnen, ist nicht bestätigt. Der Index steht weiter unter jedem Wert — vergleiche mit der Reifenanzeige von BYD."
+      "Die Taste „Thema“ blättert jetzt durch sieben Kombi-Anordnungen: Carbon, Grand Tourer, Energiefluss, Obsidian, Rot Sport, Lumen und Nebula. Ein Druck, ein Thema.",
+      "Jedes Thema gibt es dunkel und hell: die Einstellung „Erscheinungsbild“ gilt für alle, und das helle nimmt das Blau der BYD-Oberfläche auf.",
+      "Das gewählte Thema wird gemerkt und kehrt beim nächsten Start zurück.",
+      "Die Taste „Bildschirm“ bietet die drei Entwicklungsansichten (Thema aus Datei, Energiethema, Test) nicht mehr an: es bleiben Armaturenbrett, Daten und Kalibrierung."
     ],
     "pt": [
-      "As pressões dos pneus aparecem sobre uma vista superior do carro, cada valor no seu canto.",
-      "Os painéis não têm mais contorno: fundem-se ao fundo em vez de ficarem sobre ele.",
-      "A data fica centralizada acima do cartão de música.",
-      "O fundo esmaece mais nas laterais: a emenda com a interface BYD desaparece.",
-      "A tela do tablet permanece escura sempre, com seus halos azuis. O ajuste \"Aparência\" agora vale só para o painel.",
-      "A verificar: a correspondência entre R1 e R4 e as rodas reais não está confirmada. O índice continua escrito sob cada valor — compare com a tela de pneus da BYD."
+      "A tecla \"Tema\" percorre agora sete disposições do painel: Carbono, Grande Turismo, Fluxo de energia, Obsidiana, Vermelho Sport, Lumen e Nebulosa. Um toque, um tema.",
+      "Cada tema existe em escuro e em claro: a definição \"Aparência\" aplica-se a todos, e a clara retoma o azul da interface BYD.",
+      "O tema escolhido fica guardado e volta no arranque seguinte.",
+      "O botão \"Ecrã\" já não propõe os três ecrãs de afinação (tema por ficheiro, tema energia, teste): ficam o painel, os dados e a calibração."
     ],
     "tr": [
-      "Lastik basınçları aracın üstten görünümü üzerinde, her değer kendi köşesinde gösteriliyor.",
-      "Panellerin artık çerçevesi yok: arka planın üstünde durmak yerine onunla bütünleşiyorlar.",
-      "Tarih müzik kartının üstünde ortalandı.",
-      "Arka plan yanlara doğru daha geniş soluyor: BYD arayüzüyle olan sınır kayboluyor.",
-      "Tablet ekranı her koşulda koyu kalıyor, mavi parıltılarıyla. \"Görünüm\" ayarı artık yalnızca göstergeyi ilgilendiriyor.",
-      "Kontrol edilecek: R1-R4 ile gerçek tekerlekler arasındaki eşleşme doğrulanmadı. Dizin her değerin altında yazılı kalıyor — BYD'nin lastik ekranıyla karşılaştır."
+      "\"Tema\" tuşu artık yedi gösterge düzeni arasında geçiş yapıyor: Karbon, Grand Tourer, Enerji akışı, Obsidyen, Kırmızı Spor, Lumen ve Bulutsu. Bir dokunuş, bir tema.",
+      "Her tema koyu ve açık olarak var: \"Görünüm\" ayarı hepsi için geçerli, açık olanı BYD arayüzünün mavisini alıyor.",
+      "Seçilen tema hatırlanır ve bir sonraki açılışta geri gelir.",
+      "\"Ekran\" düğmesi artık üç geliştirme ekranını (dosyadan tema, enerji teması, test) sunmuyor: gösterge paneli, veriler ve kalibrasyon kalıyor."
     ]
   }
 }
