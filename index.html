@@ -1,31 +1,164 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VEKTRA 1.3.2</title><style>
-:root{color-scheme:dark}
-body{margin:0;min-height:100vh;display:grid;place-items:center;
-background:#090c11;color:#e9eef6;font:16px/1.55 system-ui,sans-serif}
-main{width:min(560px,92vw);padding:40px 0}
-h1{margin:0;font-size:34px;font-weight:300;letter-spacing:.22em}
-.v{display:inline-block;margin:14px 0 0;padding:4px 12px;border-radius:999px;
-font:600 13px/1 system-ui;letter-spacing:.08em;color:#06222a;
-background:linear-gradient(90deg,#00e5ff,#a66bff)}
-ul{margin:26px 0;padding:0;list-style:none}
-li{padding:9px 0 9px 18px;border-bottom:1px solid #ffffff14;position:relative}
-li::before{content:"";position:absolute;left:0;top:18px;width:6px;height:6px;
-border-radius:50%;background:#00e5ff}
-a.dl{display:inline-block;margin-top:8px;padding:14px 28px;border-radius:999px;
-font-weight:600;text-decoration:none;color:#06222a;
-background:linear-gradient(90deg,#00e5ff,#a66bff)}
-p.note{color:#65788e;font-size:13px;margin-top:22px}
-</style></head><body><main>
-<h1>V E K T R A</h1>
-<span class="v">VERSION 1.3.2</span>
-<ul>
-<li>la fiche de version est lue sans GitHub Pages</li>
-<li>Workflow : un seul secret à créer pour la page de mise à jour</li>
-</ul>
-<a class="dl" href="Vektra-1.3.2.apk">Télécharger l'APK</a>
-<p class="note">2.5 Mo ·
-L'application cherche cette page toute seule à chaque ouverture :
-il n'y a normalement rien à télécharger ici à la main.</p>
-</main></body></html>
+<!doctype html>
+<!--
+  Page publique de VEKTRA.
+
+  Ce fichier est un MODÈLE : le workflow y remplace les marques {{...}} à chaque
+  publication, puis dépose le résultat dans le dépôt public. Pour changer l'allure de la
+  page, c'est ici qu'on modifie — pas dans le workflow.
+
+  Marques remplacées (écrites ici sans leurs accolades, sinon elles seraient
+  remplacées dans ce commentaire) : VERSION, APK, SIZE, DATE, NOTES.
+-->
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEKTRA 1.3.3</title>
+<meta name="description" content="VEKTRA — tableau de bord personnalisé pour le combiné des BYD DiLink 3.">
+<meta name="theme-color" content="#090c11">
+<style>
+  :root{
+    color-scheme: dark;
+    --ink:#090c11;
+    --chalk:#e9eef6;
+    --slate:#8294ab;
+    --dim:#65788e;
+    --cyan:#00e5ff;
+    --violet:#a66bff;
+    --face:#ffffff0c;
+    --edge:#ffffff16;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; padding:0 16px 64px;
+    background:var(--ink); color:var(--chalk);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
+    /* Deux halos très sourds, repris des couleurs du logo. */
+    background-image:
+      radial-gradient(60rem 30rem at 15% -10%, #00e5ff14, transparent 60%),
+      radial-gradient(50rem 28rem at 92% 8%, #a66bff12, transparent 60%);
+    background-repeat:no-repeat;
+  }
+  main{max-width:38rem;margin:0 auto;padding-top:48px}
+
+  /* ── Identité ─────────────────────────────────────────── */
+  .mark{display:block;width:92px;height:92px;margin:0 0 18px -6px}
+  h1{
+    margin:0; font-size:clamp(30px,9vw,42px); font-weight:300;
+    letter-spacing:.2em; line-height:1.1;
+  }
+  .tagline{margin:10px 0 0;color:var(--slate);font-size:15px}
+
+  /* ── Version ──────────────────────────────────────────── */
+  .release{
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+    margin:30px 0 0;
+  }
+  .pill{
+    display:inline-block;padding:6px 14px;border-radius:999px;
+    font-size:13px;font-weight:700;letter-spacing:.08em;
+    color:#06222a;background:linear-gradient(90deg,var(--cyan),var(--violet));
+  }
+  .when{color:var(--dim);font-size:13px}
+
+  /* ── Changelog ────────────────────────────────────────── */
+  h2{
+    margin:38px 0 14px;font-size:12px;font-weight:700;
+    letter-spacing:.18em;color:var(--cyan);text-transform:uppercase;
+  }
+  ul.notes{margin:0;padding:0;list-style:none}
+  ul.notes li{
+    position:relative;padding:11px 0 11px 20px;
+    border-bottom:1px solid var(--edge);
+  }
+  ul.notes li:last-child{border-bottom:0}
+  ul.notes li::before{
+    content:"";position:absolute;left:0;top:21px;
+    width:6px;height:6px;border-radius:50%;background:var(--cyan);
+  }
+
+  /* ── Téléchargement ───────────────────────────────────── */
+  .get{
+    margin:34px 0 0;padding:22px;border-radius:16px;
+    background:var(--face);border:1px solid var(--edge);
+  }
+  a.dl{
+    display:block;text-align:center;text-decoration:none;
+    padding:16px 24px;border-radius:999px;
+    font-size:17px;font-weight:700;
+    color:#06222a;background:linear-gradient(90deg,var(--cyan),var(--violet));
+  }
+  a.dl:active{opacity:.85}
+  .meta{margin:14px 0 0;color:var(--dim);font-size:13px;text-align:center}
+
+  /* ── Explications ─────────────────────────────────────── */
+  .about p{color:var(--slate);font-size:15px}
+  .about strong{color:var(--chalk);font-weight:600}
+  footer{
+    margin-top:46px;padding-top:20px;border-top:1px solid var(--edge);
+    color:var(--dim);font-size:13px;
+  }
+  footer a{color:var(--slate)}
+
+  @media (min-width:40rem){ main{padding-top:72px} .mark{width:108px;height:108px} }
+</style>
+</head>
+<body>
+<main>
+
+  <!-- Le monogramme, identique à l'icône de l'application. -->
+  <svg class="mark" viewBox="0 0 108 108" aria-label="VEKTRA" role="img">
+    <defs>
+      <linearGradient id="v" x1="33" y1="34" x2="75" y2="81" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#00e5ff"/>
+        <stop offset="1" stop-color="#a66bff"/>
+      </linearGradient>
+    </defs>
+    <path d="M33,34 L54,81 L75,34" fill="none" stroke="url(#v)"
+          stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45,34 L54,52 L63,34" fill="none" stroke="#090c11"
+          stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M45,34 L54,52 L63,34" fill="none" stroke="#e9eef6"
+          stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+  <h1>V E K T R A</h1>
+  <p class="tagline">Le combiné de ta BYD, à ta façon.</p>
+
+  <div class="release">
+    <span class="pill">VERSION 1.3.3</span>
+    <span class="when">publiée le 20 octobre 2026</span>
+  </div>
+
+  <h2>Nouveautés</h2>
+  <ul class="notes">
+    <li>page publique soignée, adresse corrigée</li>
+  </ul>
+
+  <div class="get">
+    <a class="dl" href="Vektra-1.3.3.apk">Télécharger VEKTRA 1.3.3</a>
+    <p class="meta">2.5 Mo · Android 9 ou plus · DiLink 3</p>
+  </div>
+
+  <div class="about">
+    <h2>À quoi ça sert</h2>
+    <p>VEKTRA remplace l'affichage d'origine du combiné, derrière le volant, par un
+    tableau de bord à soi : compteur à aiguille, musique en cours quelle que soit
+    l'application qui la joue, météo animée, pression des pneus et flux d'énergie en
+    direct.</p>
+
+    <h2>Mise à jour</h2>
+    <p>Une fois installée, <strong>l'application se met à jour toute seule</strong> : elle
+    consulte cette page à chaque ouverture, propose la nouvelle version avec ses
+    nouveautés, puis l'installe et se rouvre. Il n'y a normalement rien à télécharger ici
+    à la main — sauf pour la toute première installation.</p>
+  </div>
+
+  <footer>
+    Projet personnel, sans lien avec BYD. Installation à tes risques.
+  </footer>
+
+</main>
+</body>
+</html>
