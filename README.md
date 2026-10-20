@@ -6,9 +6,11 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**Version 1.6.0** · publiée le 20 octobre 2026 · 2.9 Mo
+**VERSION 1.6.0** · publiée le 20 octobre 2026 · 2.9 Mo
 
-[**Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+
+**Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
 </div>
 
@@ -18,86 +20,88 @@ Tableau de bord personnalisé pour l'écran derrière le volant des véhicules B
 
 ![Le combiné en ambiance bleue](img/combine-normal.png)
 
-De gauche à droite : l'heure et la date, le compteur à aiguille gradué jusqu'à 220 km/h,
-la musique en cours quelle que soit l'application qui la joue, trois chiffres choisis selon
-le mode, la ligne de flux d'énergie, la météo animée et la pression des quatre pneus en bar.
+De gauche à droite : la date, le **compteur à aiguille** gradué jusqu'à 220 km/h, la **musique en cours** quelle que soit l'application qui la joue, trois chiffres choisis selon le mode, la **ligne de flux d'énergie** dont le point central part vers la droite en rouge quand la batterie se décharge et vers la gauche en vert quand elle se recharge, puis la **météo animée** et la **pression des quatre pneus** en bar.
 
 ![Le combiné en ambiance rouge, mode Sport](img/combine-sport.png)
 
-En Sport — détecté automatiquement par la voiture — l'ambiance passe au rouge, une pastille
-`SPORT` apparaît, et les trois chiffres du bas deviennent puissance, régime et accélérateur.
+En Sport, l'ambiance passe au rouge, une pastille `SPORT` apparaît et les trois chiffres du bas changent : puissance, régime moteur et position de l'accélérateur, à la place des consommations et de la batterie.
 
-> Ces captures sont **dessinées par le code de la version 1.6.0** à chaque
-> publication, avec des valeurs de démonstration. Elles ne peuvent pas dater d'une version
-> précédente.
+> Les captures de cette page sont **dessinées par le code de la version publiée** à chaque publication, avec des valeurs de démonstration. Elles ne peuvent donc pas montrer une version plus ancienne que celle proposée ici.
+
+## Sept thèmes
+
+La touche **Thème** fait défiler sept dispositions du combiné : Carbone, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui passe à la suivante. Le choix est retenu et revient à l'allumage.
+
+![Le même thème en fond clair](img/clair-theme-lumen.png)
+
+Chaque thème existe en sombre et en clair. Le fond clair reprend le bleu-gris de la surcouche BYD, mesuré sur photo, pour que l'application se fonde dedans au lieu d'y être posée. Le réglage **Apparence** choisit l'un, l'autre, ou suit la tablette.
 
 ## Ce qu'il faut
 
-- Un véhicule **BYD équipé de DiLink 3** (Android 10). Mis au point sur une Seal U DM-i ;
-  les autres modèles DiLink 3 n'ont pas été vérifiés.
-- L'installation d'applications extérieures autorisée sur la tablette.
-- Le **débogage ADB en réseau** actif sur le port 5555. VEKTRA s'y connecte en local, sur
-  la tablette elle-même : rien ne sort du véhicule.
-- Une connexion internet pour la météo et les mises à jour. Tout le reste marche hors ligne.
+- Un véhicule **BYD équipé de DiLink 3** (Android 10). Mis au point sur une Seal U DM-i ; les autres modèles DiLink 3 n'ont pas été vérifiés.
+- La tablette doit accepter l'**installation d'applications extérieures** (sideload).
+- Le **débogage ADB en réseau** actif sur la tablette, port 5555. VEKTRA s'y connecte en local, sur la tablette elle-même — rien ne sort du véhicule.
+- Une connexion internet sur la tablette pour la météo et les mises à jour. Tout le reste fonctionne hors ligne.
 
-Les commandes qui libèrent l'écran du combiné ne sont autorisées qu'à l'utilisateur `shell`
-d'Android : une application ordinaire ne peut pas les envoyer. C'est pourquoi VEKTRA passe
-par l'ADB local.
+**Pourquoi l'ADB.** Les commandes qui libèrent l'écran du combiné ne sont autorisées qu'à l'utilisateur `shell` d'Android. Une application ordinaire ne peut pas les envoyer. VEKTRA passe donc par l'ADB de la tablette, en local, pour obtenir ce droit.
 
 ## Installation
 
-1. Télécharge [`Vektra-1.6.0.apk`](https://giino01.github.io/Vektra/Vektra-1.6.0.apk) sur la tablette et ouvre-le.
-2. Au premier démarrage, choisis la langue, puis **Continuer**.
-3. Section **Contrôle** → **Vérifier · ADB et diagnostic**.
-4. À la demande **« Autoriser le débogage USB ? »**, coche **Toujours autoriser**, puis
-   accepte. Elle n'apparaît qu'une fois.
-5. Section **Combiné** → **Afficher sur le combiné**. Une dizaine de secondes plus tard,
-   l'affichage apparaît derrière le volant.
-
-Pour revenir en arrière : **Revenir à l'origine**. Si le tableau de bord BYD ne revient pas,
-coupe et remets le contact.
+1. Télécharge le fichier de l'application depuis cette page, sur la tablette.
+2. Ouvre-le et accepte l'installation. Si Android refuse, autorise les « sources inconnues » pour le gestionnaire de fichiers utilisé.
+3. Ouvre VEKTRA. Au tout premier démarrage, l'écran d'accueil demande la langue.
+4. Appuie sur **Continuer**. L'écran principal s'ouvre.
+5. La première commande envoyée fera apparaître la demande **« Autoriser le débogage USB ? »**. Coche **Toujours autoriser**, puis accepte. Cette demande n'apparaît qu'une fois.
 
 ![Écran d'accueil et choix de la langue](img/accueil-langue.png)
+
+Six langues sont disponibles : français, anglais, italien, allemand, portugais du Brésil et turc.
+
+## Activer l'affichage
+
+1. Dans la section **Contrôle**, appuie sur **Vérifier · ADB et diagnostic**. C'est ce qui déclenche l'autorisation de débogage et confirme que la connexion fonctionne.
+2. Reviens sur **Combiné** et appuie sur **Afficher sur le combiné**.
+3. Le tableau de bord d'origine se met en veille, l'écran virtuel du combiné est créé, puis VEKTRA s'y affiche. L'opération prend une dizaine de secondes.
+4. L'aperçu au centre de la tablette montre en direct ce qui est dessiné derrière le volant. Le bouton **Aperçu** le replie si tu préfères un tableau d'état.
+
+**Pour revenir en arrière**, appuie sur **Revenir à l'origine** : le tableau de bord BYD reprend la main. Si jamais il ne revient pas, coupe puis remets le contact.
 
 ## Les quatre sections
 
 | Section | À quoi elle sert |
 | --- | --- |
-| **Combiné** | L'aperçu en direct, le bouton d'affichage, le choix de l'écran et du mode. |
+| **Combiné** | L'aperçu en direct, le bouton d'affichage, le choix de l'écran, du mode et du thème. |
 | **Contrôle** | Le relevé complet des équipements détectés, avec un bouton pour tout copier. |
 | **Journal** | Chaque commande envoyée et chaque réponse reçue. |
-| **Réglages** | Langue, démarrage automatique, accès musique, mises à jour, météo. |
+| **Réglages** | Langue, apparence, démarrage automatique, accès musique, mises à jour, météo. |
 
-![Section Combiné](img/tablette-combine.png)
+![Combiné](img/tablette-combine.png)
 
-![Section Réglages](img/tablette-reglages.png)
+![Réglages](img/tablette-reglages.png)
 
 ## Musique
 
-Pour afficher le morceau en cours, Android exige l'**accès aux notifications**. La ligne
-correspondante dans les réglages l'accorde par l'ADB, sans rien effacer de la liste
-existante. Une fois accordé, le titre, l'artiste, la pochette et la progression s'affichent
-quelle que soit l'application qui joue.
+Pour afficher le morceau en cours, VEKTRA a besoin de l'**accès aux notifications** : c'est la règle d'Android pour lire les sessions audio. Appuie sur la ligne **Accès aux notifications** et l'application se l'accorde elle-même par l'ADB, sans rien effacer de la liste existante. Une fois accordé, le titre, l'artiste, la pochette et la progression s'affichent, **quelle que soit l'application qui joue** — radio, Bluetooth, ou une app installée.
 
 ## Démarrage et arrêt automatiques
 
-L'état du véhicule est lu directement dans la voiture, une fois par seconde :
-0 éteint, 1 accessoires, 2 contact mis. VEKTRA prend le combiné à l'allumage et le rend à
-l'extinction. Une coupure doit être confirmée deux fois d'affilée avant que l'écran soit
-rendu : un hoquet isolé ne doit pas faire disparaître l'affichage en pleine route.
+Quand ce réglage est actif, VEKTRA prend le combiné dès que la voiture est allumée et le rend dès qu'elle est coupée. L'état du véhicule est lu **directement dans la voiture**, une fois par seconde : 0 éteint, 1 accessoires, 2 contact mis. Une coupure doit être confirmée deux fois d'affilée avant que l'écran soit rendu — un seul hoquet de la voiture ne doit pas faire disparaître l'affichage en pleine route.
 
-## Mises à jour
+## Apparence
 
-L'application vérifie toute seule à chaque ouverture, affiche les nouveautés, puis
-télécharge, installe et se rouvre si tu acceptes. Toutes les versions portent la même
-signature, donc une mise à jour remplace la précédente sans perdre les réglages.
-L'adresse consultée se change dans les réglages, sans recompiler.
+Sombre, claire, ou automatique — l'apparence suit alors celle de la tablette. Le réglage ne concerne que le combiné : l'écran de la tablette reste sombre en toutes circonstances, c'est un poste de pilotage.
+
+## Mise à jour
+
+VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponible, une fenêtre affiche les nouveautés et propose **Plus tard** ou **Télécharger et installer**. Si tu acceptes, l'application se télécharge, s'installe par-dessus et se rouvre seule. Toutes les versions portent la **même signature** : une mise à jour remplace toujours la précédente sans qu'Android la refuse, et sans perdre les réglages.
 
 ## En cas de souci
 
-Ouvre **Contrôle**, appuie sur **Copier tout le scan**, et envoie le texte : il contient
-l'état de tous les équipements, de l'ADB, de la musique, de l'alimentation et des mises à
-jour.
+- **Le combiné reste figé.** Appuie sur *Revenir à l'origine*, puis réessaie. Si rien ne change, coupe et remets le contact.
+- **Aucune donnée, que des tirets.** Le SDK de la voiture n'a pas répondu. La section Contrôle dit lesquels des appareils sont joignables.
+- **La musique ne s'affiche pas.** L'accès aux notifications n'est pas accordé : voir plus haut. Vérifie aussi que quelque chose joue réellement.
+- **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
+- **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
 ## Nouveautés de la 1.6.0
 
@@ -108,6 +112,4 @@ jour.
 
 ---
 
-Projet personnel, sans aucun lien avec BYD. Installation et usage à tes risques.
-Les informations affichées viennent du système de la voiture et peuvent être inexactes :
-ne t'y fie jamais pour conduire.
+Projet personnel, sans aucun lien avec BYD. Installation et usage à tes risques. Les informations affichées viennent du système de la voiture et peuvent être inexactes : ne t'y fie jamais pour conduire.
