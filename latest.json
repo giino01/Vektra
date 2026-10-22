@@ -1,56 +1,35 @@
 {
-  "version": "1.6.4",
-  "apk": "Vektra-1.6.4.apk",
-  "size": 3055497,
+  "version": "1.6.5",
+  "apk": "Vektra-1.6.5.apk",
+  "size": 3053709,
   "notes": [
-    "Update version code and name to 48 and 1.6.4",
-    "Add files via upload",
-    "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
-    "Add files via upload",
-    "Rename ClusterController.kt to ClusterController.kt.bak"
+    "Bump version code to 49 and version name to 1.6.5",
+    "Refactor ADAS toggle and hide/show methods"
   ],
   "notesByLang": {
     "fr": [
-      "Update version code and name to 48 and 1.6.4",
-      "Add files via upload",
-      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
-      "Add files via upload",
-      "Rename ClusterController.kt to ClusterController.kt.bak"
+      "Bump version code to 49 and version name to 1.6.5",
+      "Refactor ADAS toggle and hide/show methods"
     ],
     "en": [
-      "Update version code and name to 48 and 1.6.4",
-      "Add files via upload",
-      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
-      "Add files via upload",
-      "Rename ClusterController.kt to ClusterController.kt.bak"
+      "Bump version code to 49 and version name to 1.6.5",
+      "Refactor ADAS toggle and hide/show methods"
     ],
     "it": [
-      "Update version code and name to 48 and 1.6.4",
-      "Add files via upload",
-      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
-      "Add files via upload",
-      "Rename ClusterController.kt to ClusterController.kt.bak"
+      "Bump version code to 49 and version name to 1.6.5",
+      "Refactor ADAS toggle and hide/show methods"
     ],
     "de": [
-      "Update version code and name to 48 and 1.6.4",
-      "Add files via upload",
-      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
-      "Add files via upload",
-      "Rename ClusterController.kt to ClusterController.kt.bak"
+      "Bump version code to 49 and version name to 1.6.5",
+      "Refactor ADAS toggle and hide/show methods"
     ],
     "pt": [
-      "Update version code and name to 48 and 1.6.4",
-      "Add files via upload",
-      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
-      "Add files via upload",
-      "Rename ClusterController.kt to ClusterController.kt.bak"
+      "Bump version code to 49 and version name to 1.6.5",
+      "Refactor ADAS toggle and hide/show methods"
     ],
     "tr": [
-      "Update version code and name to 48 and 1.6.4",
-      "Add files via upload",
-      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
-      "Add files via upload",
-      "Rename ClusterController.kt to ClusterController.kt.bak"
+      "Bump version code to 49 and version name to 1.6.5",
+      "Refactor ADAS toggle and hide/show methods"
     ]
   }
 }

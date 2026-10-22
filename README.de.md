@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.4** · veröffentlicht am 22. Oktober 2026 · 2.9 MB
+**VERSION 1.6.5** · veröffentlicht am 22. Oktober 2026 · 2.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,10 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.6.4
+## Neu in 1.6.5
 
-- Update version code and name to 48 and 1.6.4
-- Add files via upload
-- Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt
-- Add files via upload
-- Rename ClusterController.kt to ClusterController.kt.bak
+- Bump version code to 49 and version name to 1.6.5
+- Refactor ADAS toggle and hide/show methods
 
 ---
 
