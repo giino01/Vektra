@@ -3,8 +3,8 @@
   "apk": "Vektra-1.6.5.apk",
   "size": 3053709,
   "notes": [
-    "Bump version code to 49 and version name to 1.6.5",
-    "Refactor ADAS toggle and hide/show methods"
+    "Push nouvelle version",
+    "Factorisation bouton ADAS et masquage/affichage méthode"
   ],
   "notesByLang": {
     "fr": [
