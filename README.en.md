@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.6.3** · released on 20 October 2026 · 2.9 MB
+**VERSION 1.6.4** · released on 22 October 2026 · 2.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.6.3
+## What is new in 1.6.4
 
-- Tyre pressures are shown to one decimal, truncated: 2.45 becomes 2.4 and 2.67 becomes 2.6. The hundredth changed at every reading without telling anything; at one decimal, a gap between wheels shows at once.
+- Update version code and name to 48 and 1.6.4
+- Add files via upload
+- Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt
+- Add files via upload
+- Rename ClusterController.kt to ClusterController.kt.bak
 
 ---
 

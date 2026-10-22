@@ -1,30 +1,56 @@
 {
   "version": "1.6.4",
   "apk": "Vektra-1.6.4.apk",
-  "size": 3053705,
+  "size": 3055497,
   "notes": [
-    "Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite.
-    Correction fenêtre ADAS."
+    "Update version code and name to 48 and 1.6.4",
+    "Add files via upload",
+    "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
+    "Add files via upload",
+    "Rename ClusterController.kt to ClusterController.kt.bak"
   ],
   "notesByLang": {
     "fr": [
-      "Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite."
-   Correction fenêtre ADAS
+      "Update version code and name to 48 and 1.6.4",
+      "Add files via upload",
+      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
+      "Add files via upload",
+      "Rename ClusterController.kt to ClusterController.kt.bak"
     ],
     "en": [
-      "Tyre pressures are shown to one decimal, truncated: 2.45 becomes 2.4 and 2.67 becomes 2.6. The hundredth changed at every reading without telling anything; at one decimal, a gap between wheels shows at once."
+      "Update version code and name to 48 and 1.6.4",
+      "Add files via upload",
+      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
+      "Add files via upload",
+      "Rename ClusterController.kt to ClusterController.kt.bak"
     ],
     "it": [
-      "Le pressioni degli pneumatici appaiono con un decimale, troncato: 2.45 diventa 2.4 e 2.67 diventa 2.6. Il centesimo cambiava a ogni lettura senza dire nulla; con un decimale, uno scarto fra ruote si vede subito."
+      "Update version code and name to 48 and 1.6.4",
+      "Add files via upload",
+      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
+      "Add files via upload",
+      "Rename ClusterController.kt to ClusterController.kt.bak"
     ],
     "de": [
-      "Die Reifendrücke werden auf eine Nachkommastelle gekürzt angezeigt: 2,45 wird 2,4 und 2,67 wird 2,6. Die Hundertstel änderten sich bei jeder Messung, ohne etwas auszusagen; mit einer Stelle fällt ein Unterschied zwischen den Rädern sofort auf."
+      "Update version code and name to 48 and 1.6.4",
+      "Add files via upload",
+      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
+      "Add files via upload",
+      "Rename ClusterController.kt to ClusterController.kt.bak"
     ],
     "pt": [
-      "As pressões dos pneus aparecem com uma casa decimal, truncada: 2.45 passa a 2.4 e 2.67 passa a 2.6. A centésima mudava a cada leitura sem dizer nada; com uma casa, uma diferença entre rodas vê-se logo."
+      "Update version code and name to 48 and 1.6.4",
+      "Add files via upload",
+      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
+      "Add files via upload",
+      "Rename ClusterController.kt to ClusterController.kt.bak"
     ],
     "tr": [
-      "Lastik basınçları tek ondalıkla, aşağı kırpılarak gösteriliyor: 2.45 → 2.4, 2.67 → 2.6. Yüzdelik her okumada değişiyor ama bir şey anlatmıyordu; tek ondalıkla tekerlekler arasındaki fark hemen görünür."
+      "Update version code and name to 48 and 1.6.4",
+      "Add files via upload",
+      "Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt",
+      "Add files via upload",
+      "Rename ClusterController.kt to ClusterController.kt.bak"
     ]
   }
 }

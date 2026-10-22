@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.6.3** · publicada a 20 de outubro de 2026 · 2.9 MB
+**VERSÃO 1.6.4** · publicada a 22 de outubro de 2026 · 2.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.3.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.6.3
+## Novidades da 1.6.4
 
-- As pressões dos pneus aparecem com uma casa decimal, truncada: 2.45 passa a 2.4 e 2.67 passa a 2.6. A centésima mudava a cada leitura sem dizer nada; com uma casa, uma diferença entre rodas vê-se logo.
+- Update version code and name to 48 and 1.6.4
+- Add files via upload
+- Delete app/src/main/java/com/giino/customdashboard/ClusterController.kt
+- Add files via upload
+- Rename ClusterController.kt to ClusterController.kt.bak
 
 ---
 
