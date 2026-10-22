@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.5** · veröffentlicht am 22. Oktober 2026 · 2.9 MB
+**VERSION 1.6.6** · veröffentlicht am 22. Oktober 2026 · 3.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -28,9 +28,9 @@ Im Sport-Modus wird die Stimmung rot, ein `SPORT`-Abzeichen erscheint und die dr
 
 > Die Bilder auf dieser Seite werden bei jeder Veröffentlichung **vom Code der veröffentlichten Version gezeichnet**, mit Beispielwerten. Sie können also keine ältere Version zeigen als die hier angebotene.
 
-## Sieben Themen
+## Acht Themen
 
-Die Taste **Thema** blättert durch sieben Anordnungen: Carbon, Grand Tourer, Energiefluss, Obsidian, Rot Sport, Lumen und Nebula. Ein Druck wechselt zur nächsten. Die Wahl wird gemerkt und kehrt beim nächsten Start zurück.
+Die Taste **Thema** blättert durch acht Anordnungen: Carbon, Carbon 3D, Grand Tourer, Energiefluss, Obsidian, Rot Sport, Lumen und Nebula. Ein Druck wechselt zur nächsten. Die Wahl wird gemerkt und kehrt beim nächsten Start zurück.
 
 ![Dasselbe Thema auf hellem Hintergrund](img/clair-theme-lumen.png)
 
@@ -103,10 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.6.5
+## Neu in 1.6.6
 
-- Bump version code to 49 and version name to 1.6.5
-- Refactor ADAS toggle and hide/show methods
+- Neues achtes Thema „Carbon 3D": vollständige 3D/4D-Ausführung des Themas Carbon (gewölbte Cockpit-Perspektive, vertieftes Carbon-Zifferblatt mit konischer Lünette aus gebürstetem Metall, facettierte Nadel mit Schlagschatten, Saphirglas-Reflexion, abgeschrägte Rauchglas-Karten, zylindrisches Energierohr und dynamische 4D-Parallaxe bei Beschleunigung und Bremsung), während das ursprüngliche Thema Carbon unverändert erhalten bleibt.
+- Das Wetter synchronisiert sich automatisch mit dem GPS-Standort des Fahrzeugs (mit automatischer ADB-Berechtigung und Rückgriff auf gespeicherte Koordinaten, falls kein GPS-Signal vorliegt).
+- Alle Themen des Kombiinstruments sowie die Wetterberichte (Datum, Anzeigen, Musik, Reifen, Wetterlage und Warnungen) folgen nun der in der App gewählten Sprache (Französisch, Englisch, Italienisch, Deutsch, Portugiesisch und Türkisch).
 
 ---
 

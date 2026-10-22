@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.6.5** · yayın tarihi 22 Ekim 2026 · 2.9 MB
+**SÜRÜM 1.6.6** · yayın tarihi 22 Ekim 2026 · 3.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -28,9 +28,9 @@ Sport modunda ortam kırmızıya döner, bir `SPORT` rozeti belirir ve alttaki �
 
 > Bu sayfadaki görüntüler her yayında **yayınlanan sürümün kodu tarafından çizilir**, örnek değerlerle. Dolayısıyla burada sunulandan eski bir sürümü gösteremezler.
 
-## Yedi tema
+## Sekiz tema
 
-**Tema** tuşu yedi gösterge düzeni arasında geçiş yapar: Karbon, Grand Tourer, Enerji akışı, Obsidyen, Kırmızı Spor, Lumen ve Bulutsu. Bir dokunuş sonrakine geçer. Seçim hatırlanır ve açılışta geri gelir.
+**Tema** tuşu sekiz gösterge düzeni arasında geçiş yapar: Karbon, Karbon 3D, Grand Tourer, Enerji akışı, Obsidyen, Kırmızı Spor, Lumen ve Bulutsu. Bir dokunuş sonrakine geçer. Seçim hatırlanır ve açılışta geri gelir.
 
 ![Aynı tema açık arka planda](img/clair-theme-lumen.png)
 
@@ -103,10 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.6.5
+## Yenilikler: 1.6.6
 
-- Bump version code to 49 and version name to 1.6.5
-- Refactor ADAS toggle and hide/show methods
+- Yeni sekizinci tema "Karbon 3D": Karbon temasının 3B/4B kabartmalı sürümü (kavisli kokpit perspektifi, konik fırçalanmış metal çerçeveli çukur karbon kadran, gölgeli çift yüzeyli ibre, safir cam yansıması, pahlı füme cam kartlar, silindirik enerji tüpü ve hızlanma ile frenlemeye tepki veren dinamik 4B paralaks); orijinal Karbon teması olduğu gibi korunur.
+- Hava durumu artık aracın GPS konumuyla otomatik olarak senkronize olur (ADB üzerinden otomatik izin verme ve GPS sinyali olmadığında kayıtlı koordinatlara geri dönme desteğiyle).
+- Tüm gösterge temaları ve hava durumu raporları (tarihler, kadranlar, göstergeler, müzik, lastikler, hava durumu koşulları ve uyarılar) artık uygulamada seçilen dili (Fransızca, İngilizce, İtalyanca, Almanca, Portekizce ve Türkçe) izler.
 
 ---
 

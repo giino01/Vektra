@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.5** · publiée le 22 octobre 2026 · 2.9 Mo
+**VERSION 1.6.6** · publiée le 22 octobre 2026 · 3.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -28,9 +28,9 @@ En Sport, l'ambiance passe au rouge, une pastille `SPORT` apparaît et les trois
 
 > Les captures de cette page sont **dessinées par le code de la version publiée** à chaque publication, avec des valeurs de démonstration. Elles ne peuvent donc pas montrer une version plus ancienne que celle proposée ici.
 
-## Sept thèmes
+## Huit thèmes
 
-La touche **Thème** fait défiler sept dispositions du combiné : Carbone, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui passe à la suivante. Le choix est retenu et revient à l'allumage.
+La touche **Thème** fait défiler huit dispositions du combiné : Carbone, Carbone 3D, Grand Tourisme, Flux d'énergie, Obsidienne, Rouge Sport, Lumen et Nébuleuse. Un appui passe à la suivante. Le choix est retenu et revient à l'allumage.
 
 ![Le même thème en fond clair](img/clair-theme-lumen.png)
 
@@ -103,10 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.6.5
+## Nouveautés de la 1.6.6
 
-- Bump version code to 49 and version name to 1.6.5
-- Refactor ADAS toggle and hide/show methods
+- Nouveau huitième thème « Carbone 3D » : reprise intégrale du thème Carbone en relief 3D/4D (cockpit incurvé en perspective, cadran creusé en carbone avec lunette en métal brossé conique, aiguille biseautée à double facette avec ombre portée, reflet de verre saphir, cartes en verre fumé biseauté, tube d'énergie cylindrique et parallaxe dynamique 4D réagissant aux accélérations et au freinage), tout en conservant le thème Carbone original intact.
+- La météo se synchronise automatiquement avec la position GPS du véhicule (avec autorisation automatique via ADB et repli sur les coordonnées enregistrées si le signal GPS est indisponible).
+- Tous les thèmes du combiné et les relevés météo (dates, compteurs, jauges, musique, pneus, conditions et alertes météo) s'affichent désormais dans la langue choisie dans l'application (français, anglais, italien, allemand, portugais et turc).
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.6.5** · publicada a 22 de outubro de 2026 · 2.9 MB
+**VERSÃO 1.6.6** · publicada a 22 de outubro de 2026 · 3.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.5.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -28,9 +28,9 @@ Em Sport o ambiente fica vermelho, aparece um emblema `SPORT` e os três valores
 
 > As imagens desta página são **desenhadas pelo código da versão publicada** em cada publicação, com valores de demonstração. Não podem mostrar uma versão mais antiga do que a oferecida aqui.
 
-## Sete temas
+## Oito temas
 
-A tecla **Tema** percorre sete disposições do painel: Carbono, Grande Turismo, Fluxo de energia, Obsidiana, Vermelho Sport, Lumen e Nebulosa. Um toque passa à seguinte. A escolha fica guardada e volta no arranque.
+A tecla **Tema** percorre oito disposições do painel: Carbono, Carbono 3D, Grande Turismo, Fluxo de energia, Obsidiana, Vermelho Sport, Lumen e Nebulosa. Um toque passa à seguinte. A escolha fica guardada e volta no arranque.
 
 ![O mesmo tema em fundo claro](img/clair-theme-lumen.png)
 
@@ -103,10 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.6.5
+## Novidades da 1.6.6
 
-- Bump version code to 49 and version name to 1.6.5
-- Refactor ADAS toggle and hide/show methods
+- Novo oitavo tema «Carbono 3D»: versão esculpida em 3D/4D do tema Carbono (perspetiva de cockpit curvado, mostrador côncavo em carbono com aro cónico de metal escovado, ponteiro facetado com sombra projetada, reflexo de vidro safira, cartões em vidro fumado biselado, tubo de energia cilíndrico e paralaxe dinâmica 4D que reage à aceleração e travagem), mantendo o tema Carbono original intacto.
+- A meteorologia sincroniza-se automaticamente com a localização GPS do veículo (com permissão automática via ADB e recurso às coordenadas guardadas quando o sinal GPS não está disponível).
+- Todos os temas do painel e os boletins meteorológicos (datas, mostradores, indicadores, música, pneus, condições e alertas meteorológicos) acompanham agora o idioma escolhido na aplicação (francês, inglês, italiano, alemão, português e turco).
 
 ---
 
