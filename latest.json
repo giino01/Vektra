@@ -1,13 +1,15 @@
 {
-  "version": "1.6.3",
-  "apk": "Vektra-1.6.3.apk",
+  "version": "1.6.4",
+  "apk": "Vektra-1.6.4.apk",
   "size": 3053705,
   "notes": [
-    "Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite."
+    "Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite.
+    Correction fenêtre ADAS."
   ],
   "notesByLang": {
     "fr": [
       "Les pressions de pneus s'affichent à une décimale, tronquée : 2.45 devient 2.4 et 2.67 devient 2.6. Le centième changeait à chaque lecture sans rien apprendre ; à une décimale, un écart entre roues se voit tout de suite."
+   Correction fenêtre ADAS
     ],
     "en": [
       "Tyre pressures are shown to one decimal, truncated: 2.45 becomes 2.4 and 2.67 becomes 2.6. The hundredth changed at every reading without telling anything; at one decimal, a gap between wheels shows at once."
