@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.8** · veröffentlicht am 23. Oktober 2026 · 3.0 MB
+**VERSION 1.6.9** · veröffentlicht am 23. Oktober 2026 · 3.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.9.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.6.8
+## Neu in 1.6.9
 
-- Neue Schaltfläche „Bearbeiten" neben der Kombiinstrument-Schaltfläche: öffnet einen Live-Bearbeitungsmodus, um jedes Thema anzupassen, ohne den Hintergrund zu verändern (Gesamtzoom zum Hereinziehen abgeschnittener Ränder, Vergrößern/Verkleinern einzelner Elemente und freies Verschieben per Berühren und Ziehen direkt auf der Vorschau, in Echtzeit auf dem Kombiinstrument synchronisiert, mit den Schaltflächen Abbrechen, Standard wiederherstellen und Speichern).
-- Das benutzerdefinierte Layout jedes Themas (Größen und Positionen der Elemente) bleibt beim automatischen oder manuellen Wechsel zwischen dunklem und hellem Erscheinungsbild vollständig erhalten.
-- Automatische Abfrage und Erteilung aller erforderlichen Berechtigungen direkt beim App-Start (GPS-Standort für das Wetter, Benachrichtigungszugriff für Musik und Fahrzeugberechtigungen).
+- Automatische Echtzeit-Unterscheidung zwischen EV- und HEV-Modus in allen Themen: Sobald das Fahrzeug in den HEV-Modus wechselt oder der Verbrennungsmotor läuft, werden alle benzinbezogenen Daten (Benzinreichweite, Tankfüllstand, L/100-Verbrauch, Drehzahl und Stromerzeugung) angezeigt; im EV-Modus werden alle Benzinanzeigen automatisch ausgeblendet.
+- Mechanische Zeiger auf allen Tachometern und Rundinstrumenten wurden durch ein leuchtendes progressives Füllsystem ersetzt, das exakt derselben Winkelregel wie der Zeiger folgt.
+- Automatische Systemregistrierung des Autostarts im nativen BYD-/Android-System beim Aktivieren von „Autostart" in VEKTRA, mit sofortiger Datensynchronisierung und unmittelbarer Aktivierung des Kombiinstruments beim Einschalten des Tablets.
 
 ---
 

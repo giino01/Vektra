@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.6.8** · pubblicata il 23 ottobre 2026 · 3.0 MB
+**VERSIONE 1.6.9** · pubblicata il 23 ottobre 2026 · 3.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.6.8
+## Novità della 1.6.9
 
-- Nuovo pulsante «Modifica» accanto al pulsante di visualizzazione sul quadro: apre una modalità di modifica dal vivo per regolare ogni tema senza mai toccare lo sfondo (zoom generale per rientrare i bordi tagliati, ridimensionamento di ogni singolo elemento e spostamento libero toccando e trascinando direttamente sull'anteprima, sincronizzato in tempo reale sul quadro, con pulsanti Annulla, Ripristina predefiniti e Salva).
-- La disposizione personalizzata di ogni tema (dimensioni e posizioni degli elementi) viene mantenuta integralmente in memoria e sul tablet durante i passaggi automatici o manuali tra modalità scura e chiara.
-- Richiesta e concessione automatica di tutte le autorizzazioni necessarie all'avvio dell'applicazione (posizione GPS per il meteo, accesso alle notifiche per la musica e permessi del veicolo).
+- Distinzione automatica in tempo reale tra le modalità EV e HEV in tutti i temi: non appena l'auto passa in HEV o il motore termico è attivo, vengono mostrate tutte le informazioni legate alla benzina (autonomia benzina, serbatoio, consumo L/100, regime motore e generazione); tornando in EV, tutto ciò che riguarda la benzina scompare automaticamente dallo schermo.
+- Sostituzione delle lancette meccaniche su tutti i tachimetri e quadranti con un sistema di riempimento progressivo luminoso che segue la stessa regola angolare della lancetta.
+- Configurazione automatica dell'avvio automatico nel sistema nativo BYD / Android quando si attiva «Avvio automatico» in VEKTRA, con sincronizzazione istantanea dei dati e attivazione immediata del quadro all'accensione del tablet.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.6.8** · released on 23 October 2026 · 3.0 MB
+**VERSION 1.6.9** · released on 23 October 2026 · 3.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.6.8
+## What is new in 1.6.9
 
-- New "Edit" button next to the cluster display button: opens a live editing mode to adjust each theme without ever touching the background (global zoom in/out to pull in cut-off edges, individual element resize, and free touch-and-drag movement directly on the preview, synced in real time on the vehicle cluster, with Cancel, Restore defaults, and Save buttons).
-- Each theme's custom layout (element sizes and positions) is fully preserved in memory and on the tablet across automatic or manual switches between dark and light mode.
-- Automatic request and grant of all required permissions right at app startup (GPS location for weather, notification access for music, and vehicle permissions).
+- Real-time automatic differentiation between EV and HEV modes across all themes: as soon as the car switches to HEV or the thermal engine runs, all fuel-related information (fuel range, tank level, L/100 consumption, engine RPM, and power generation) is shown; when back in EV mode, all petrol indicators automatically disappear from the screen.
+- Replaced mechanical needles and hubs on all tachometers and speedometers with a luminous progressive fill system following the exact same angular rule as the needle, freeing up the center of each dial for digital readouts.
+- Automatic registration of boot startup in the native BYD / Android system when enabling "Auto-start" in VEKTRA, with instantaneous data synchronization and immediate cluster activation as soon as the tablet powers on.
 
 ---
 

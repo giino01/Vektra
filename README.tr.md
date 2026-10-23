@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.6.8** · yayın tarihi 23 Ekim 2026 · 3.0 MB
+**SÜRÜM 1.6.9** · yayın tarihi 23 Ekim 2026 · 3.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,11 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.6.8
+## Yenilikler: 1.6.9
 
-- Gösterge ekranı düğmesinin yanında yeni "Düzenle" düğmesi: arka plana dokunmadan her temayı canlı olarak ayarlamak için düzenleme modunu açar (kesilen kenarları içeri çekmek için genel yakınlaştırma/uzaklaştırma, her öğeyi ayrı ayrı büyütme/küçültme ve önizleme üzerinde dokunup sürükleyerek serbestçe taşıma; gösterge ekranında gerçek zamanlı senkronize edilir ve İptal, Varsayılana sıfırla, Kaydet düğmeleri içerir).
-- Her temanın özel düzeni (öğe boyutları ve konumları), koyu ve açık mod arasındaki otomatik veya manuel geçişlerde bellekte ve tablette tamamen korunur.
-- Uygulama açılışında gerekli tüm izinlerin (hava durumu için GPS konumu, müzik için bildirim erişimi ve araç izinleri) otomatik olarak istenmesi ve verilmesi sağlandı.
+- Tüm temalarda EV ve HEV modları arasında gerçek zamanlı otomatik ayrım: araç HEV moduna geçtiğinde veya içten yanmalı motor çalıştığında benzinle ilgili tüm bilgiler (benzin menzili, depo seviyesi, L/100 tüketim, motor devri ve üretim) gösterilir; EV moduna geçildiğinde benzinle ilgili her şey ekrandan otomatik olarak kaybolur.
+- Tüm hız göstergeleri ve kadranlardaki mekanik ibreler, ibreyle aynı açısal kuralı izleyen ışıklı kademeli doldurma sistemiyle değiştirildi.
+- VEKTRA'da "Otomatik başlatma" etkinleştirildiğinde yerel BYD / Android sisteminde otomatik başlatma kaydı yapılır; tablet açılır açılmaz veriler anında senkronize edilir ve gösterge ekranı doğrudan aktif olur.
 
 ---
 
