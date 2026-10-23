@@ -3,7 +3,25 @@
   "apk": "Vektra-1.7.0.apk",
   "size": 3205733,
   "notes": [
-    "maj",
+    "## [Nouvelle Version] — 2026-10-23
+
+### 🚀 Nouveautés
+- **Système d'Autodémarrage & Keep-Alive 24h/24 (Architecture OverDrive / Compatible Sentinelle)** :
+  - Ajout de `KeepAliveAccessibilityService` activé automatiquement par ADB pour empêcher le système BYD de fermer VEKTRA en veille ou en mode Sentinelle.
+  - Déblocage automatique du gestionnaire interne BYD (`com.byd.appstartmanagement`) après chaque installation ou mise à jour.
+  - Maintien en vie permanent par `WakeLock` partiel et alarme `RTC_WAKEUP` toutes les 5 minutes.
+  - Détection matérielle combinée (`getPowerLevel` + broadcasts BYD `ACC_ON` / `IGN_ON` / `ACC_OFF`) : restauration immédiate du combiné d'origine à l'extinction du véhicule et activation automatique différée de **10 secondes** à la mise du contact (lorsque le démarrage auto est activé).
+  - **Démarrage furtif (Stealth Boot)** : initialisation silencieuse en arrière-plan lors d'un démarrage à froid de la tablette sans ouvrir la fenêtre VEKTRA sur l'écran central.
+- **Contrôle ADAS & Masquage automatique au démarrage** :
+  - Ajout des commandes **Masquer ADAS** (rafale haute fréquence de 263 trames SPI) et **Afficher ADAS** (séquence de réactivation de 40 trames SPI + `AutoContainer` 12/53) dans l'onglet *Contrôle*.
+  - Ajout d'un switch visuel **« Masquer automatiquement au démarrage »** à côté des boutons ADAS (disponible en FR, EN, IT, DE, PT-BR, TR).
+  - Double passe automatique de masquage ADAS au démarrage (masquage initial + passe de confirmation à +5 s) et restauration automatique de l'ADAS à l'extinction ou au retour à l'écran d'origine.
+
+### ✨ Améliorations & Corrections
+- **Thème Carbone 3D (Widget Météo)** : correction de la matrice de perspective 3D (focale reculée et pivots centrés par carte) et suppression du `clipPath` sous transformation 3D pour éliminer toute distorsion visuelle sur la carte météo.
+- **Jauge d'énergie (Consommation / Régénération)** :
+  - Suppression de l'impulsion blanche tremblante sur la barre d'énergie 3D.
+  - Simplification de l'affichage à droite de la jauge : suppression des mentions textuelles (« consommation », « récupération », « stable ») pour afficher uniquement la valeur en **kW** (ex. `18 kW`, `-5 kW`, `0 kW`).",
     "maj"
   ],
   "notesByLang": {
