@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.6.6** · released on 23 October 2026 · 3.0 MB
+**VERSION 1.6.7** · released on 23 October 2026 · 3.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.6.6
+## What is new in 1.6.7
 
-- New eighth theme "Carbone 3D": full 3D/4D sculpted edition of the Carbone theme (curved cockpit perspective, recessed carbon dial with conical brushed-metal bezel, dual-faceted bevelled needle with drop shadow, sapphire glass reflection, bevelled smoked-glass cards, cylindrical energy tube, and 4D dynamic parallax reacting to acceleration and braking), while keeping the original Carbone theme untouched.
-- Weather now synchronizes automatically with the vehicle's GPS location (with automatic ADB permission grant and fallback to saved coordinates when GPS is unavailable).
-- Every cluster theme and weather report (dates, dials, gauges, music, tyres, weather conditions and alerts) now follows the language chosen in the application (French, English, Italian, German, Portuguese and Turkish).
+- Improved ADAS masking reliability on the cluster: debug service whitelisted against sleep, one-second initialization delay before sending frames, high-priority ordered broadcast delivery with acknowledgement, and reinforced 60-frame final lock (263 frames in total).
 
 ---
 

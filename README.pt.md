@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.6.6** · publicada a 23 de outubro de 2026 · 3.0 MB
+**VERSÃO 1.6.7** · publicada a 23 de outubro de 2026 · 3.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.6.6
+## Novidades da 1.6.7
 
-- Novo oitavo tema «Carbono 3D»: versão esculpida em 3D/4D do tema Carbono (perspetiva de cockpit curvado, mostrador côncavo em carbono com aro cónico de metal escovado, ponteiro facetado com sombra projetada, reflexo de vidro safira, cartões em vidro fumado biselado, tubo de energia cilíndrico e paralaxe dinâmica 4D que reage à aceleração e travagem), mantendo o tema Carbono original intacto.
-- A meteorologia sincroniza-se automaticamente com a localização GPS do veículo (com permissão automática via ADB e recurso às coordenadas guardadas quando o sinal GPS não está disponível).
-- Todos os temas do painel e os boletins meteorológicos (datas, mostradores, indicadores, música, pneus, condições e alertas meteorológicos) acompanham agora o idioma escolhido na aplicação (francês, inglês, italiano, alemão, português e turco).
+- Maior fiabilidade ao ocultar o ADAS no painel: serviço de depuração autorizado contra suspensão, espera de inicialização de um segundo antes do envio das tramas, transmissão sequencial de alta prioridade com confirmação e bloqueio final reforçado de 60 tramas (263 tramas no total).
 
 ---
 

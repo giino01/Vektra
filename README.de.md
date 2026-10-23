@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.6** · veröffentlicht am 23. Oktober 2026 · 3.0 MB
+**VERSION 1.6.7** · veröffentlicht am 23. Oktober 2026 · 3.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.6.6
+## Neu in 1.6.7
 
-- Neues achtes Thema „Carbon 3D": vollständige 3D/4D-Ausführung des Themas Carbon (gewölbte Cockpit-Perspektive, vertieftes Carbon-Zifferblatt mit konischer Lünette aus gebürstetem Metall, facettierte Nadel mit Schlagschatten, Saphirglas-Reflexion, abgeschrägte Rauchglas-Karten, zylindrisches Energierohr und dynamische 4D-Parallaxe bei Beschleunigung und Bremsung), während das ursprüngliche Thema Carbon unverändert erhalten bleibt.
-- Das Wetter synchronisiert sich automatisch mit dem GPS-Standort des Fahrzeugs (mit automatischer ADB-Berechtigung und Rückgriff auf gespeicherte Koordinaten, falls kein GPS-Signal vorliegt).
-- Alle Themen des Kombiinstruments sowie die Wetterberichte (Datum, Anzeigen, Musik, Reifen, Wetterlage und Warnungen) folgen nun der in der App gewählten Sprache (Französisch, Englisch, Italienisch, Deutsch, Portugiesisch und Türkisch).
+- Zuverlässigeres Ausblenden des ADAS-Fensters auf dem Kombiinstrument: Debug-Dienst gegen Standby freigeschaltet, eine Sekunde Initialisierungszeit vor dem Senden der Frames, sequenzielle Übertragung mit hoher Priorität und Bestätigung sowie verstärkte Endsequenz mit 60 Frames (insgesamt 263 Frames).
 
 ---
 

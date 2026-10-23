@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.6** · publiée le 23 octobre 2026 · 3.0 Mo
+**VERSION 1.6.7** · publiée le 23 octobre 2026 · 3.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.6.6
+## Nouveautés de la 1.6.7
 
-- Nouveau huitième thème « Carbone 3D » : reprise intégrale du thème Carbone en relief 3D/4D (cockpit incurvé en perspective, cadran creusé en carbone avec lunette en métal brossé conique, aiguille biseautée à double facette avec ombre portée, reflet de verre saphir, cartes en verre fumé biseauté, tube d'énergie cylindrique et parallaxe dynamique 4D réagissant aux accélérations et au freinage), tout en conservant le thème Carbone original intact.
-- La météo se synchronise automatiquement avec la position GPS du véhicule (avec autorisation automatique via ADB et repli sur les coordonnées enregistrées si le signal GPS est indisponible).
-- Tous les thèmes du combiné et les relevés météo (dates, compteurs, jauges, musique, pneus, conditions et alertes météo) s'affichent désormais dans la langue choisie dans l'application (français, anglais, italien, allemand, portugais et turc).
+- Fiabilisation du masquage ADAS sur le combiné : mise en liste blanche du service de débogage contre la mise en veille, délai d'initialisation d'une seconde avant l'envoi des trames, diffusion séquencée haute priorité avec acquittement et verrouillage final renforcé à 60 trames (263 trames au total).
 
 ---
 

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.6.6** · pubblicata il 23 ottobre 2026 · 3.0 MB
+**VERSIONE 1.6.7** · pubblicata il 23 ottobre 2026 · 3.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.6.6
+## Novità della 1.6.7
 
-- Nuovo ottavo tema «Carbonio 3D»: versione scolpita in 3D/4D del tema Carbonio (prospettiva cockpit incurvata, quadrante incassato in carbonio con lunetta conica in metallo spazzolato, lancetta sfaccettata con ombra portata, riflesso vetro zaffiro, schede in vetro fumé smussato, tubo d'energia cilindrico e parallasse dinamica 4D reattiva ad accelerazione e frenata), mantenendo intatto il tema Carbonio originale.
-- Il meteo si sincronizza automaticamente con la posizione GPS del veicolo (con autorizzazione automatica tramite ADB e ripiego sulle coordinate salvate se il segnale GPS non è disponibile).
-- Tutti i temi del quadro e i bollettini meteo (date, quadranti, indicatori, musica, pneumatici, condizioni e allerte meteo) seguono ora la lingua scelta nell'applicazione (francese, inglese, italiano, tedesco, portoghese e turco).
+- Maggiore affidabilità dell'oscuramento ADAS sul quadro: servizio di debug in whitelist contro lo standby, attesa di inizializzazione di un secondo prima dell'invio delle trame, trasmissione sequenziale ad alta priorità con conferma e blocco finale rinforzato a 60 trame (263 trame in totale).
 
 ---
 

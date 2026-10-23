@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.6.6** · yayın tarihi 23 Ekim 2026 · 3.0 MB
+**SÜRÜM 1.6.7** · yayın tarihi 23 Ekim 2026 · 3.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,11 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.6.6
+## Yenilikler: 1.6.7
 
-- Yeni sekizinci tema "Karbon 3D": Karbon temasının 3B/4B kabartmalı sürümü (kavisli kokpit perspektifi, konik fırçalanmış metal çerçeveli çukur karbon kadran, gölgeli çift yüzeyli ibre, safir cam yansıması, pahlı füme cam kartlar, silindirik enerji tüpü ve hızlanma ile frenlemeye tepki veren dinamik 4B paralaks); orijinal Karbon teması olduğu gibi korunur.
-- Hava durumu artık aracın GPS konumuyla otomatik olarak senkronize olur (ADB üzerinden otomatik izin verme ve GPS sinyali olmadığında kayıtlı koordinatlara geri dönme desteğiyle).
-- Tüm gösterge temaları ve hava durumu raporları (tarihler, kadranlar, göstergeler, müzik, lastikler, hava durumu koşulları ve uyarılar) artık uygulamada seçilen dili (Fransızca, İngilizce, İtalyanca, Almanca, Portekizce ve Türkçe) izler.
+- Göstergede ADAS gizleme güvenilirliği artırıldı: hata ayıklama servisi uykuya karşı beyaz listeye alındı, kareler gönderilmeden önce bir saniyelik başlatma süresi eklendi, onaylı yüksek öncelikli sıralı yayın ve 60 karelik güçlendirilmiş son kilitleme uygulandı (toplam 263 kare).
 
 ---
 

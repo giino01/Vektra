@@ -1,42 +1,28 @@
 {
-  "version": "1.6.6",
-  "apk": "Vektra-1.6.6.apk",
-  "size": 3102853,
+  "version": "1.6.7",
+  "apk": "Vektra-1.6.7.apk",
+  "size": 3102857,
   "notes": [
-    "Nouveau huitième thème « Carbone 3D » : reprise intégrale du thème Carbone en relief 3D/4D (cockpit incurvé en perspective, cadran creusé en carbone avec lunette en métal brossé conique, aiguille biseautée à double facette avec ombre portée, reflet de verre saphir, cartes en verre fumé biseauté, tube d'énergie cylindrique et parallaxe dynamique 4D réagissant aux accélérations et au freinage), tout en conservant le thème Carbone original intact.",
-    "La météo se synchronise automatiquement avec la position GPS du véhicule (avec autorisation automatique via ADB et repli sur les coordonnées enregistrées si le signal GPS est indisponible).",
-    "Tous les thèmes du combiné et les relevés météo (dates, compteurs, jauges, musique, pneus, conditions et alertes météo) s'affichent désormais dans la langue choisie dans l'application (français, anglais, italien, allemand, portugais et turc)."
+    "Fiabilisation du masquage ADAS sur le combiné : mise en liste blanche du service de débogage contre la mise en veille, délai d'initialisation d'une seconde avant l'envoi des trames, diffusion séquencée haute priorité avec acquittement et verrouillage final renforcé à 60 trames (263 trames au total)."
   ],
   "notesByLang": {
     "fr": [
-      "Nouveau huitième thème « Carbone 3D » : reprise intégrale du thème Carbone en relief 3D/4D (cockpit incurvé en perspective, cadran creusé en carbone avec lunette en métal brossé conique, aiguille biseautée à double facette avec ombre portée, reflet de verre saphir, cartes en verre fumé biseauté, tube d'énergie cylindrique et parallaxe dynamique 4D réagissant aux accélérations et au freinage), tout en conservant le thème Carbone original intact.",
-      "La météo se synchronise automatiquement avec la position GPS du véhicule (avec autorisation automatique via ADB et repli sur les coordonnées enregistrées si le signal GPS est indisponible).",
-      "Tous les thèmes du combiné et les relevés météo (dates, compteurs, jauges, musique, pneus, conditions et alertes météo) s'affichent désormais dans la langue choisie dans l'application (français, anglais, italien, allemand, portugais et turc)."
+      "Fiabilisation du masquage ADAS sur le combiné : mise en liste blanche du service de débogage contre la mise en veille, délai d'initialisation d'une seconde avant l'envoi des trames, diffusion séquencée haute priorité avec acquittement et verrouillage final renforcé à 60 trames (263 trames au total)."
     ],
     "en": [
-      "New eighth theme \"Carbone 3D\": full 3D/4D sculpted edition of the Carbone theme (curved cockpit perspective, recessed carbon dial with conical brushed-metal bezel, dual-faceted bevelled needle with drop shadow, sapphire glass reflection, bevelled smoked-glass cards, cylindrical energy tube, and 4D dynamic parallax reacting to acceleration and braking), while keeping the original Carbone theme untouched.",
-      "Weather now synchronizes automatically with the vehicle's GPS location (with automatic ADB permission grant and fallback to saved coordinates when GPS is unavailable).",
-      "Every cluster theme and weather report (dates, dials, gauges, music, tyres, weather conditions and alerts) now follows the language chosen in the application (French, English, Italian, German, Portuguese and Turkish)."
+      "Improved ADAS masking reliability on the cluster: debug service whitelisted against sleep, one-second initialization delay before sending frames, high-priority ordered broadcast delivery with acknowledgement, and reinforced 60-frame final lock (263 frames in total)."
     ],
     "it": [
-      "Nuovo ottavo tema «Carbonio 3D»: versione scolpita in 3D/4D del tema Carbonio (prospettiva cockpit incurvata, quadrante incassato in carbonio con lunetta conica in metallo spazzolato, lancetta sfaccettata con ombra portata, riflesso vetro zaffiro, schede in vetro fumé smussato, tubo d'energia cilindrico e parallasse dinamica 4D reattiva ad accelerazione e frenata), mantenendo intatto il tema Carbonio originale.",
-      "Il meteo si sincronizza automaticamente con la posizione GPS del veicolo (con autorizzazione automatica tramite ADB e ripiego sulle coordinate salvate se il segnale GPS non è disponibile).",
-      "Tutti i temi del quadro e i bollettini meteo (date, quadranti, indicatori, musica, pneumatici, condizioni e allerte meteo) seguono ora la lingua scelta nell'applicazione (francese, inglese, italiano, tedesco, portoghese e turco)."
+      "Maggiore affidabilità dell'oscuramento ADAS sul quadro: servizio di debug in whitelist contro lo standby, attesa di inizializzazione di un secondo prima dell'invio delle trame, trasmissione sequenziale ad alta priorità con conferma e blocco finale rinforzato a 60 trame (263 trame in totale)."
     ],
     "de": [
-      "Neues achtes Thema „Carbon 3D\": vollständige 3D/4D-Ausführung des Themas Carbon (gewölbte Cockpit-Perspektive, vertieftes Carbon-Zifferblatt mit konischer Lünette aus gebürstetem Metall, facettierte Nadel mit Schlagschatten, Saphirglas-Reflexion, abgeschrägte Rauchglas-Karten, zylindrisches Energierohr und dynamische 4D-Parallaxe bei Beschleunigung und Bremsung), während das ursprüngliche Thema Carbon unverändert erhalten bleibt.",
-      "Das Wetter synchronisiert sich automatisch mit dem GPS-Standort des Fahrzeugs (mit automatischer ADB-Berechtigung und Rückgriff auf gespeicherte Koordinaten, falls kein GPS-Signal vorliegt).",
-      "Alle Themen des Kombiinstruments sowie die Wetterberichte (Datum, Anzeigen, Musik, Reifen, Wetterlage und Warnungen) folgen nun der in der App gewählten Sprache (Französisch, Englisch, Italienisch, Deutsch, Portugiesisch und Türkisch)."
+      "Zuverlässigeres Ausblenden des ADAS-Fensters auf dem Kombiinstrument: Debug-Dienst gegen Standby freigeschaltet, eine Sekunde Initialisierungszeit vor dem Senden der Frames, sequenzielle Übertragung mit hoher Priorität und Bestätigung sowie verstärkte Endsequenz mit 60 Frames (insgesamt 263 Frames)."
     ],
     "pt": [
-      "Novo oitavo tema «Carbono 3D»: versão esculpida em 3D/4D do tema Carbono (perspetiva de cockpit curvado, mostrador côncavo em carbono com aro cónico de metal escovado, ponteiro facetado com sombra projetada, reflexo de vidro safira, cartões em vidro fumado biselado, tubo de energia cilíndrico e paralaxe dinâmica 4D que reage à aceleração e travagem), mantendo o tema Carbono original intacto.",
-      "A meteorologia sincroniza-se automaticamente com a localização GPS do veículo (com permissão automática via ADB e recurso às coordenadas guardadas quando o sinal GPS não está disponível).",
-      "Todos os temas do painel e os boletins meteorológicos (datas, mostradores, indicadores, música, pneus, condições e alertas meteorológicos) acompanham agora o idioma escolhido na aplicação (francês, inglês, italiano, alemão, português e turco)."
+      "Maior fiabilidade ao ocultar o ADAS no painel: serviço de depuração autorizado contra suspensão, espera de inicialização de um segundo antes do envio das tramas, transmissão sequencial de alta prioridade com confirmação e bloqueio final reforçado de 60 tramas (263 tramas no total)."
     ],
     "tr": [
-      "Yeni sekizinci tema \"Karbon 3D\": Karbon temasının 3B/4B kabartmalı sürümü (kavisli kokpit perspektifi, konik fırçalanmış metal çerçeveli çukur karbon kadran, gölgeli çift yüzeyli ibre, safir cam yansıması, pahlı füme cam kartlar, silindirik enerji tüpü ve hızlanma ile frenlemeye tepki veren dinamik 4B paralaks); orijinal Karbon teması olduğu gibi korunur.",
-      "Hava durumu artık aracın GPS konumuyla otomatik olarak senkronize olur (ADB üzerinden otomatik izin verme ve GPS sinyali olmadığında kayıtlı koordinatlara geri dönme desteğiyle).",
-      "Tüm gösterge temaları ve hava durumu raporları (tarihler, kadranlar, göstergeler, müzik, lastikler, hava durumu koşulları ve uyarılar) artık uygulamada seçilen dili (Fransızca, İngilizce, İtalyanca, Almanca, Portekizce ve Türkçe) izler."
+      "Göstergede ADAS gizleme güvenilirliği artırıldı: hata ayıklama servisi uykuya karşı beyaz listeye alındı, kareler gönderilmeden önce bir saniyelik başlatma süresi eklendi, onaylı yüksek öncelikli sıralı yayın ve 60 karelik güçlendirilmiş son kilitleme uygulandı (toplam 263 kare)."
     ]
   }
 }
