@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.6.9** · publicada a 23 de outubro de 2026 · 3.0 MB
+**VERSÃO 1.7.0** · publicada a 23 de outubro de 2026 · 3.1 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,10 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.6.9
+## Novidades da 1.7.0
 
-- Diferenciação automática em tempo real entre os modos EV e HEV em todos os temas: assim que o veículo passa para HEV ou o motor térmico funciona, todas as informações ligadas à gasolina (autonomia a gasolina, depósito, consumo L/100, rotações e geração) são exibidas; ao voltar a EV, tudo o que diz respeito à gasolina desaparece automaticamente do ecrã.
-- Substituição dos ponteiros mecânicos em todos os velocímetros e mostradores por um sistema de preenchimento progressivo luminoso que segue exatamente a mesma regra angular do ponteiro.
-- Configuração automática do arranque automático no sistema nativo BYD / Android ao ativar «Arranque automático» no VEKTRA, com sincronização instantânea dos dados e ativação imediata do painel assim que o tablet liga.
+- maj
+- maj
 
 ---
 

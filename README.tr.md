@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.6.9** · yayın tarihi 23 Ekim 2026 · 3.0 MB
+**SÜRÜM 1.7.0** · yayın tarihi 23 Ekim 2026 · 3.1 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,11 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.6.9
+## Yenilikler: 1.7.0
 
-- Tüm temalarda EV ve HEV modları arasında gerçek zamanlı otomatik ayrım: araç HEV moduna geçtiğinde veya içten yanmalı motor çalıştığında benzinle ilgili tüm bilgiler (benzin menzili, depo seviyesi, L/100 tüketim, motor devri ve üretim) gösterilir; EV moduna geçildiğinde benzinle ilgili her şey ekrandan otomatik olarak kaybolur.
-- Tüm hız göstergeleri ve kadranlardaki mekanik ibreler, ibreyle aynı açısal kuralı izleyen ışıklı kademeli doldurma sistemiyle değiştirildi.
-- VEKTRA'da "Otomatik başlatma" etkinleştirildiğinde yerel BYD / Android sisteminde otomatik başlatma kaydı yapılır; tablet açılır açılmaz veriler anında senkronize edilir ve gösterge ekranı doğrudan aktif olur.
+- maj
+- maj
 
 ---
 

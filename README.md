@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.9** · publiée le 23 octobre 2026 · 3.0 Mo
+**VERSION 1.7.0** · publiée le 23 octobre 2026 · 3.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.6.9
+## Nouveautés de la 1.7.0
 
-- Distinction automatique en temps réel entre les modes EV et HEV dans tous les thèmes : dès que le véhicule passe en HEV ou que le moteur thermique tourne, toutes les informations liées à l'essence (autonomie essence, niveau de réservoir, consommation L/100, régime moteur et génération) s'affichent ; dès que la voiture repasse en EV, tout ce qui concerne l'essence disparaît automatiquement de l'écran.
-- Remplacement des aiguilles mécaniques et des moyeux sur tous les tachymètres et cadrans par un système de remplissage progressif lumineux qui suit exactement la même règle angulaire que l'aiguille, libérant le centre des cadrans pour l'affichage numérique.
-- Configuration automatique du démarrage au boot dans le système natif BYD / Android dès l'activation du « Démarrage automatique » dans VEKTRA, avec synchronisation immédiate des données et activation instantanée du combiné dès l'allumage de la tablette.
+- maj
+- maj
 
 ---
 

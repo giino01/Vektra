@@ -1,42 +1,35 @@
 {
-  "version": "1.6.9",
-  "apk": "Vektra-1.6.9.apk",
-  "size": 3193253,
+  "version": "1.7.0",
+  "apk": "Vektra-1.7.0.apk",
+  "size": 3205733,
   "notes": [
-    "Distinction automatique en temps réel entre les modes EV et HEV dans tous les thèmes : dès que le véhicule passe en HEV ou que le moteur thermique tourne, toutes les informations liées à l'essence (autonomie essence, niveau de réservoir, consommation L/100, régime moteur et génération) s'affichent ; dès que la voiture repasse en EV, tout ce qui concerne l'essence disparaît automatiquement de l'écran.",
-    "Remplacement des aiguilles mécaniques et des moyeux sur tous les tachymètres et cadrans par un système de remplissage progressif lumineux qui suit exactement la même règle angulaire que l'aiguille, libérant le centre des cadrans pour l'affichage numérique.",
-    "Configuration automatique du démarrage au boot dans le système natif BYD / Android dès l'activation du « Démarrage automatique » dans VEKTRA, avec synchronisation immédiate des données et activation instantanée du combiné dès l'allumage de la tablette."
+    "maj",
+    "maj"
   ],
   "notesByLang": {
     "fr": [
-      "Distinction automatique en temps réel entre les modes EV et HEV dans tous les thèmes : dès que le véhicule passe en HEV ou que le moteur thermique tourne, toutes les informations liées à l'essence (autonomie essence, niveau de réservoir, consommation L/100, régime moteur et génération) s'affichent ; dès que la voiture repasse en EV, tout ce qui concerne l'essence disparaît automatiquement de l'écran.",
-      "Remplacement des aiguilles mécaniques et des moyeux sur tous les tachymètres et cadrans par un système de remplissage progressif lumineux qui suit exactement la même règle angulaire que l'aiguille, libérant le centre des cadrans pour l'affichage numérique.",
-      "Configuration automatique du démarrage au boot dans le système natif BYD / Android dès l'activation du « Démarrage automatique » dans VEKTRA, avec synchronisation immédiate des données et activation instantanée du combiné dès l'allumage de la tablette."
+      "maj",
+      "maj"
     ],
     "en": [
-      "Real-time automatic differentiation between EV and HEV modes across all themes: as soon as the car switches to HEV or the thermal engine runs, all fuel-related information (fuel range, tank level, L/100 consumption, engine RPM, and power generation) is shown; when back in EV mode, all petrol indicators automatically disappear from the screen.",
-      "Replaced mechanical needles and hubs on all tachometers and speedometers with a luminous progressive fill system following the exact same angular rule as the needle, freeing up the center of each dial for digital readouts.",
-      "Automatic registration of boot startup in the native BYD / Android system when enabling \"Auto-start\" in VEKTRA, with instantaneous data synchronization and immediate cluster activation as soon as the tablet powers on."
+      "maj",
+      "maj"
     ],
     "it": [
-      "Distinzione automatica in tempo reale tra le modalità EV e HEV in tutti i temi: non appena l'auto passa in HEV o il motore termico è attivo, vengono mostrate tutte le informazioni legate alla benzina (autonomia benzina, serbatoio, consumo L/100, regime motore e generazione); tornando in EV, tutto ciò che riguarda la benzina scompare automaticamente dallo schermo.",
-      "Sostituzione delle lancette meccaniche su tutti i tachimetri e quadranti con un sistema di riempimento progressivo luminoso che segue la stessa regola angolare della lancetta.",
-      "Configurazione automatica dell'avvio automatico nel sistema nativo BYD / Android quando si attiva «Avvio automatico» in VEKTRA, con sincronizzazione istantanea dei dati e attivazione immediata del quadro all'accensione del tablet."
+      "maj",
+      "maj"
     ],
     "de": [
-      "Automatische Echtzeit-Unterscheidung zwischen EV- und HEV-Modus in allen Themen: Sobald das Fahrzeug in den HEV-Modus wechselt oder der Verbrennungsmotor läuft, werden alle benzinbezogenen Daten (Benzinreichweite, Tankfüllstand, L/100-Verbrauch, Drehzahl und Stromerzeugung) angezeigt; im EV-Modus werden alle Benzinanzeigen automatisch ausgeblendet.",
-      "Mechanische Zeiger auf allen Tachometern und Rundinstrumenten wurden durch ein leuchtendes progressives Füllsystem ersetzt, das exakt derselben Winkelregel wie der Zeiger folgt.",
-      "Automatische Systemregistrierung des Autostarts im nativen BYD-/Android-System beim Aktivieren von „Autostart\" in VEKTRA, mit sofortiger Datensynchronisierung und unmittelbarer Aktivierung des Kombiinstruments beim Einschalten des Tablets."
+      "maj",
+      "maj"
     ],
     "pt": [
-      "Diferenciação automática em tempo real entre os modos EV e HEV em todos os temas: assim que o veículo passa para HEV ou o motor térmico funciona, todas as informações ligadas à gasolina (autonomia a gasolina, depósito, consumo L/100, rotações e geração) são exibidas; ao voltar a EV, tudo o que diz respeito à gasolina desaparece automaticamente do ecrã.",
-      "Substituição dos ponteiros mecânicos em todos os velocímetros e mostradores por um sistema de preenchimento progressivo luminoso que segue exatamente a mesma regra angular do ponteiro.",
-      "Configuração automática do arranque automático no sistema nativo BYD / Android ao ativar «Arranque automático» no VEKTRA, com sincronização instantânea dos dados e ativação imediata do painel assim que o tablet liga."
+      "maj",
+      "maj"
     ],
     "tr": [
-      "Tüm temalarda EV ve HEV modları arasında gerçek zamanlı otomatik ayrım: araç HEV moduna geçtiğinde veya içten yanmalı motor çalıştığında benzinle ilgili tüm bilgiler (benzin menzili, depo seviyesi, L/100 tüketim, motor devri ve üretim) gösterilir; EV moduna geçildiğinde benzinle ilgili her şey ekrandan otomatik olarak kaybolur.",
-      "Tüm hız göstergeleri ve kadranlardaki mekanik ibreler, ibreyle aynı açısal kuralı izleyen ışıklı kademeli doldurma sistemiyle değiştirildi.",
-      "VEKTRA'da \"Otomatik başlatma\" etkinleştirildiğinde yerel BYD / Android sisteminde otomatik başlatma kaydı yapılır; tablet açılır açılmaz veriler anında senkronize edilir ve gösterge ekranı doğrudan aktif olur."
+      "maj",
+      "maj"
     ]
   }
 }
