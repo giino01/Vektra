@@ -1,7 +1,7 @@
 {
   "version": "1.6.6",
   "apk": "Vektra-1.6.6.apk",
-  "size": 3101701,
+  "size": 3102853,
   "notes": [
     "Nouveau huitième thème « Carbone 3D » : reprise intégrale du thème Carbone en relief 3D/4D (cockpit incurvé en perspective, cadran creusé en carbone avec lunette en métal brossé conique, aiguille biseautée à double facette avec ombre portée, reflet de verre saphir, cartes en verre fumé biseauté, tube d'énergie cylindrique et parallaxe dynamique 4D réagissant aux accélérations et au freinage), tout en conservant le thème Carbone original intact.",
     "La météo se synchronise automatiquement avec la position GPS du véhicule (avec autorisation automatique via ADB et repli sur les coordonnées enregistrées si le signal GPS est indisponible).",

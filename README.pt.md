@@ -6,7 +6,7 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.6.6** · publicada a 22 de outubro de 2026 · 3.0 MB
+**VERSÃO 1.6.6** · publicada a 23 de outubro de 2026 · 3.0 MB
 
 [**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 

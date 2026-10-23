@@ -6,7 +6,7 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.6.6** · pubblicata il 22 ottobre 2026 · 3.0 MB
+**VERSIONE 1.6.6** · pubblicata il 23 ottobre 2026 · 3.0 MB
 
 [**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 

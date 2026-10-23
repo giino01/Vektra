@@ -6,7 +6,7 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.6.6** · yayın tarihi 22 Ekim 2026 · 3.0 MB
+**SÜRÜM 1.6.6** · yayın tarihi 23 Ekim 2026 · 3.0 MB
 
 [**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 

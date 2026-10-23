@@ -6,7 +6,7 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.6** · publiée le 22 octobre 2026 · 3.0 Mo
+**VERSION 1.6.6** · publiée le 23 octobre 2026 · 3.0 Mo
 
 [**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 

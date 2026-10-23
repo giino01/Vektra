@@ -6,7 +6,7 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.6.6** · released on 22 October 2026 · 3.0 MB
+**VERSION 1.6.6** · released on 23 October 2026 · 3.0 MB
 
 [**Download the app**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 

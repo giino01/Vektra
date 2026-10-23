@@ -6,7 +6,7 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.6** · veröffentlicht am 22. Oktober 2026 · 3.0 MB
+**VERSION 1.6.6** · veröffentlicht am 23. Oktober 2026 · 3.0 MB
 
 [**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
