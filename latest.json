@@ -1,28 +1,42 @@
 {
-  "version": "1.6.7",
-  "apk": "Vektra-1.6.7.apk",
-  "size": 3102857,
+  "version": "1.6.8",
+  "apk": "Vektra-1.6.8.apk",
+  "size": 3185773,
   "notes": [
-    "Fiabilisation du masquage ADAS sur le combiné : mise en liste blanche du service de débogage contre la mise en veille, délai d'initialisation d'une seconde avant l'envoi des trames, diffusion séquencée haute priorité avec acquittement et verrouillage final renforcé à 60 trames (263 trames au total)."
+    "Nouveau bouton « Édition » à côté du bouton d'affichage sur le combiné : ouvre un mode d'édition en direct pour ajuster chaque thème sans jamais toucher au fond d'écran (zoom/dézoom général pour rentrer les bords coupés, agrandissement/rétrécissement de chaque élément et déplacement libre par toucher-glisser directement sur l'aperçu, synchronisé en temps réel sur l'écran du combiné, avec boutons Annuler, Restaurer par défaut et Enregistrer).",
+    "La disposition personnalisée de chaque thème (tailles et positions des éléments) est intégralement conservée en mémoire et sur la tablette lors des passages automatiques ou manuels entre le thème sombre et le thème clair.",
+    "Demande et octroi automatiques de toutes les autorisations nécessaires dès le démarrage de l'application (localisation GPS pour la météo, accès aux notifications pour la musique et permissions véhicule)."
   ],
   "notesByLang": {
     "fr": [
-      "Fiabilisation du masquage ADAS sur le combiné : mise en liste blanche du service de débogage contre la mise en veille, délai d'initialisation d'une seconde avant l'envoi des trames, diffusion séquencée haute priorité avec acquittement et verrouillage final renforcé à 60 trames (263 trames au total)."
+      "Nouveau bouton « Édition » à côté du bouton d'affichage sur le combiné : ouvre un mode d'édition en direct pour ajuster chaque thème sans jamais toucher au fond d'écran (zoom/dézoom général pour rentrer les bords coupés, agrandissement/rétrécissement de chaque élément et déplacement libre par toucher-glisser directement sur l'aperçu, synchronisé en temps réel sur l'écran du combiné, avec boutons Annuler, Restaurer par défaut et Enregistrer).",
+      "La disposition personnalisée de chaque thème (tailles et positions des éléments) est intégralement conservée en mémoire et sur la tablette lors des passages automatiques ou manuels entre le thème sombre et le thème clair.",
+      "Demande et octroi automatiques de toutes les autorisations nécessaires dès le démarrage de l'application (localisation GPS pour la météo, accès aux notifications pour la musique et permissions véhicule)."
     ],
     "en": [
-      "Improved ADAS masking reliability on the cluster: debug service whitelisted against sleep, one-second initialization delay before sending frames, high-priority ordered broadcast delivery with acknowledgement, and reinforced 60-frame final lock (263 frames in total)."
+      "New \"Edit\" button next to the cluster display button: opens a live editing mode to adjust each theme without ever touching the background (global zoom in/out to pull in cut-off edges, individual element resize, and free touch-and-drag movement directly on the preview, synced in real time on the vehicle cluster, with Cancel, Restore defaults, and Save buttons).",
+      "Each theme's custom layout (element sizes and positions) is fully preserved in memory and on the tablet across automatic or manual switches between dark and light mode.",
+      "Automatic request and grant of all required permissions right at app startup (GPS location for weather, notification access for music, and vehicle permissions)."
     ],
     "it": [
-      "Maggiore affidabilità dell'oscuramento ADAS sul quadro: servizio di debug in whitelist contro lo standby, attesa di inizializzazione di un secondo prima dell'invio delle trame, trasmissione sequenziale ad alta priorità con conferma e blocco finale rinforzato a 60 trame (263 trame in totale)."
+      "Nuovo pulsante «Modifica» accanto al pulsante di visualizzazione sul quadro: apre una modalità di modifica dal vivo per regolare ogni tema senza mai toccare lo sfondo (zoom generale per rientrare i bordi tagliati, ridimensionamento di ogni singolo elemento e spostamento libero toccando e trascinando direttamente sull'anteprima, sincronizzato in tempo reale sul quadro, con pulsanti Annulla, Ripristina predefiniti e Salva).",
+      "La disposizione personalizzata di ogni tema (dimensioni e posizioni degli elementi) viene mantenuta integralmente in memoria e sul tablet durante i passaggi automatici o manuali tra modalità scura e chiara.",
+      "Richiesta e concessione automatica di tutte le autorizzazioni necessarie all'avvio dell'applicazione (posizione GPS per il meteo, accesso alle notifiche per la musica e permessi del veicolo)."
     ],
     "de": [
-      "Zuverlässigeres Ausblenden des ADAS-Fensters auf dem Kombiinstrument: Debug-Dienst gegen Standby freigeschaltet, eine Sekunde Initialisierungszeit vor dem Senden der Frames, sequenzielle Übertragung mit hoher Priorität und Bestätigung sowie verstärkte Endsequenz mit 60 Frames (insgesamt 263 Frames)."
+      "Neue Schaltfläche „Bearbeiten\" neben der Kombiinstrument-Schaltfläche: öffnet einen Live-Bearbeitungsmodus, um jedes Thema anzupassen, ohne den Hintergrund zu verändern (Gesamtzoom zum Hereinziehen abgeschnittener Ränder, Vergrößern/Verkleinern einzelner Elemente und freies Verschieben per Berühren und Ziehen direkt auf der Vorschau, in Echtzeit auf dem Kombiinstrument synchronisiert, mit den Schaltflächen Abbrechen, Standard wiederherstellen und Speichern).",
+      "Das benutzerdefinierte Layout jedes Themas (Größen und Positionen der Elemente) bleibt beim automatischen oder manuellen Wechsel zwischen dunklem und hellem Erscheinungsbild vollständig erhalten.",
+      "Automatische Abfrage und Erteilung aller erforderlichen Berechtigungen direkt beim App-Start (GPS-Standort für das Wetter, Benachrichtigungszugriff für Musik und Fahrzeugberechtigungen)."
     ],
     "pt": [
-      "Maior fiabilidade ao ocultar o ADAS no painel: serviço de depuração autorizado contra suspensão, espera de inicialização de um segundo antes do envio das tramas, transmissão sequencial de alta prioridade com confirmação e bloqueio final reforçado de 60 tramas (263 tramas no total)."
+      "Novo botão «Edição» ao lado do botão de exibição no painel: abre um modo de edição ao vivo para ajustar cada tema sem nunca alterar o fundo (zoom geral para ajustar bordas cortadas, redimensionamento de cada elemento e movimento livre ao tocar e arrastar diretamente na pré-visualização, sincronizado em tempo real no painel do veículo, com botões Cancelar, Restaurar padrão e Salvar).",
+      "A disposição personalizada de cada tema (tamanhos e posições dos elementos) é totalmente preservada na memória e no tablet durante as mudanças automáticas ou manuais entre o modo escuro e o modo claro.",
+      "Solicitação e concessão automáticas de todas as permissões necessárias logo ao iniciar a aplicação (localização GPS para a meteorologia, acesso às notificações para a música e permissões do veículo)."
     ],
     "tr": [
-      "Göstergede ADAS gizleme güvenilirliği artırıldı: hata ayıklama servisi uykuya karşı beyaz listeye alındı, kareler gönderilmeden önce bir saniyelik başlatma süresi eklendi, onaylı yüksek öncelikli sıralı yayın ve 60 karelik güçlendirilmiş son kilitleme uygulandı (toplam 263 kare)."
+      "Gösterge ekranı düğmesinin yanında yeni \"Düzenle\" düğmesi: arka plana dokunmadan her temayı canlı olarak ayarlamak için düzenleme modunu açar (kesilen kenarları içeri çekmek için genel yakınlaştırma/uzaklaştırma, her öğeyi ayrı ayrı büyütme/küçültme ve önizleme üzerinde dokunup sürükleyerek serbestçe taşıma; gösterge ekranında gerçek zamanlı senkronize edilir ve İptal, Varsayılana sıfırla, Kaydet düğmeleri içerir).",
+      "Her temanın özel düzeni (öğe boyutları ve konumları), koyu ve açık mod arasındaki otomatik veya manuel geçişlerde bellekte ve tablette tamamen korunur.",
+      "Uygulama açılışında gerekli tüm izinlerin (hava durumu için GPS konumu, müzik için bildirim erişimi ve araç izinleri) otomatik olarak istenmesi ve verilmesi sağlandı."
     ]
   }
 }

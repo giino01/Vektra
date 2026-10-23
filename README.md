@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.6.7** · publiée le 23 octobre 2026 · 3.0 Mo
+**VERSION 1.6.8** · publiée le 23 octobre 2026 · 3.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.6.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.6.7
+## Nouveautés de la 1.6.8
 
-- Fiabilisation du masquage ADAS sur le combiné : mise en liste blanche du service de débogage contre la mise en veille, délai d'initialisation d'une seconde avant l'envoi des trames, diffusion séquencée haute priorité avec acquittement et verrouillage final renforcé à 60 trames (263 trames au total).
+- Nouveau bouton « Édition » à côté du bouton d'affichage sur le combiné : ouvre un mode d'édition en direct pour ajuster chaque thème sans jamais toucher au fond d'écran (zoom/dézoom général pour rentrer les bords coupés, agrandissement/rétrécissement de chaque élément et déplacement libre par toucher-glisser directement sur l'aperçu, synchronisé en temps réel sur l'écran du combiné, avec boutons Annuler, Restaurer par défaut et Enregistrer).
+- La disposition personnalisée de chaque thème (tailles et positions des éléments) est intégralement conservée en mémoire et sur la tablette lors des passages automatiques ou manuels entre le thème sombre et le thème clair.
+- Demande et octroi automatiques de toutes les autorisations nécessaires dès le démarrage de l'application (localisation GPS pour la météo, accès aux notifications pour la musique et permissions véhicule).
 
 ---
 

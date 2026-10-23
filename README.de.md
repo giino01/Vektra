@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.6.7** · veröffentlicht am 23. Oktober 2026 · 3.0 MB
+**VERSION 1.6.8** · veröffentlicht am 23. Oktober 2026 · 3.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.6.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.6.7
+## Neu in 1.6.8
 
-- Zuverlässigeres Ausblenden des ADAS-Fensters auf dem Kombiinstrument: Debug-Dienst gegen Standby freigeschaltet, eine Sekunde Initialisierungszeit vor dem Senden der Frames, sequenzielle Übertragung mit hoher Priorität und Bestätigung sowie verstärkte Endsequenz mit 60 Frames (insgesamt 263 Frames).
+- Neue Schaltfläche „Bearbeiten" neben der Kombiinstrument-Schaltfläche: öffnet einen Live-Bearbeitungsmodus, um jedes Thema anzupassen, ohne den Hintergrund zu verändern (Gesamtzoom zum Hereinziehen abgeschnittener Ränder, Vergrößern/Verkleinern einzelner Elemente und freies Verschieben per Berühren und Ziehen direkt auf der Vorschau, in Echtzeit auf dem Kombiinstrument synchronisiert, mit den Schaltflächen Abbrechen, Standard wiederherstellen und Speichern).
+- Das benutzerdefinierte Layout jedes Themas (Größen und Positionen der Elemente) bleibt beim automatischen oder manuellen Wechsel zwischen dunklem und hellem Erscheinungsbild vollständig erhalten.
+- Automatische Abfrage und Erteilung aller erforderlichen Berechtigungen direkt beim App-Start (GPS-Standort für das Wetter, Benachrichtigungszugriff für Musik und Fahrzeugberechtigungen).
 
 ---
 

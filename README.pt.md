@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.6.7** · publicada a 23 de outubro de 2026 · 3.0 MB
+**VERSÃO 1.6.8** · publicada a 23 de outubro de 2026 · 3.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.6.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.6.7
+## Novidades da 1.6.8
 
-- Maior fiabilidade ao ocultar o ADAS no painel: serviço de depuração autorizado contra suspensão, espera de inicialização de um segundo antes do envio das tramas, transmissão sequencial de alta prioridade com confirmação e bloqueio final reforçado de 60 tramas (263 tramas no total).
+- Novo botão «Edição» ao lado do botão de exibição no painel: abre um modo de edição ao vivo para ajustar cada tema sem nunca alterar o fundo (zoom geral para ajustar bordas cortadas, redimensionamento de cada elemento e movimento livre ao tocar e arrastar diretamente na pré-visualização, sincronizado em tempo real no painel do veículo, com botões Cancelar, Restaurar padrão e Salvar).
+- A disposição personalizada de cada tema (tamanhos e posições dos elementos) é totalmente preservada na memória e no tablet durante as mudanças automáticas ou manuais entre o modo escuro e o modo claro.
+- Solicitação e concessão automáticas de todas as permissões necessárias logo ao iniciar a aplicação (localização GPS para a meteorologia, acesso às notificações para a música e permissões do veículo).
 
 ---
 
