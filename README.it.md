@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.7.0** · pubblicata il 23 ottobre 2026 · 3.1 MB
+**VERSIONE 1.7.1** · pubblicata il 24 ottobre 2026 · 5.1 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,12 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.7.0
+## Novità della 1.7.1
 
-- maj
-- maj
+- test
+- Remove noCompress option from aaptOptions
+- Restore aaptOptions for resource compression
+- test
 
 ---
 

@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.7.0** · publiée le 23 octobre 2026 · 3.1 Mo
+**VERSION 1.7.1** · publiée le 24 octobre 2026 · 5.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.7.0
+## Nouveautés de la 1.7.1
 
-- maj
-- maj
+- test
+- Remove noCompress option from aaptOptions
+- Restore aaptOptions for resource compression
+- test
 
 ---
 
