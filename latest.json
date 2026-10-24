@@ -1,48 +1,27 @@
 {
-  "version": "1.7.1",
-  "apk": "Vektra-1.7.1.apk",
+  "version": "1.7.0",
+  "apk": "Vektra-1.7.0.apk",
   "size": 5360631,
   "notes": [
-    "test",
-    "Remove noCompress option from aaptOptions",
-    "Restore aaptOptions for resource compression",
     "test"
   ],
   "notesByLang": {
     "fr": [
-      "test",
-      "Remove noCompress option from aaptOptions",
-      "Restore aaptOptions for resource compression",
       "test"
     ],
     "en": [
-      "test",
-      "Remove noCompress option from aaptOptions",
-      "Restore aaptOptions for resource compression",
       "test"
     ],
     "it": [
-      "test",
-      "Remove noCompress option from aaptOptions",
-      "Restore aaptOptions for resource compression",
       "test"
     ],
     "de": [
-      "test",
-      "Remove noCompress option from aaptOptions",
-      "Restore aaptOptions for resource compression",
       "test"
     ],
     "pt": [
-      "test",
-      "Remove noCompress option from aaptOptions",
-      "Restore aaptOptions for resource compression",
       "test"
     ],
     "tr": [
-      "test",
-      "Remove noCompress option from aaptOptions",
-      "Restore aaptOptions for resource compression",
       "test"
     ]
   }
