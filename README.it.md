@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.7.2** · pubblicata il 25 ottobre 2026 · 3.1 MB
+**VERSIONE 1.7.4** · pubblicata il 25 ottobre 2026 · 3.1 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -32,7 +32,7 @@ In Sport l'atmosfera diventa rossa, compare un badge `SPORT` e le tre cifre in b
 
 Il tasto **Tema** scorre otto disposizioni del quadro: Carbonio, Carbonio 3D, Gran Turismo, Flusso di energia, Ossidiana, Rosso Sport, Lumen e Nebulosa. Una pressione passa alla successiva. La scelta viene ricordata e torna all'accensione.
 
-![Lo stesso tema su sfondo chiaro](img/clair-theme-lumen.png)
+![Lo stesso tema su sfondo chiaro](img/clair-theme-hyperos3d.png)
 
 Ogni tema esiste in scuro e in chiaro. Lo sfondo chiaro riprende il blu-grigio dell'interfaccia BYD, misurato su fotografia, perché l'app vi si fonda invece di esservi appoggiata. L'impostazione **Aspetto** sceglie l'uno, l'altro, o segue il tablet.
 
@@ -103,11 +103,12 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.7.2
+## Novità della 1.7.4
 
-- Due nuovi interruttori ON/OFF indipendenti nella pagina principale («Proiezione quadro» e «Tema nel quadro») per attivare separatamente la proiezione sul quadro e il caricamento del tema, evitando lo schermo nero all'avvio.
-- Controllo manuale o automatico: senza avvio automatico, VEKTRA si attiva solo tramite gli interruttori; con l'avvio automatico attivo, parte all'accensione dell'auto lasciando comunque liberi gli interruttori durante la guida.
-- Sincronizzazione in tempo reale dell'interruttore nell'app nativa BYD quando si attiva o disattiva l'avvio automatico (apertura, cambio stato e chiusura automatica).
+- Nuova scheda «Navigazione» nella barra laterale sinistra (tra «Quadro» e «Controllo») con mappa GPS gratuita open-source (OpenStreetMap, Nominatim, OSRM, Overpass), ricerca indirizzo, cronologia, Casa, Lavoro e Preferiti con nome personalizzato.
+- Mappa di navigazione 3D gratuita centrale con Traffico, Autovelox fissi, Autovelox mobili e Incidenti/Eventi integrata nei 4 nuovi temi 3D.
+- Controlli nella scheda Navigazione: interruttore «Mappa 3D», modalità vocale («Completa», «Solo avvisi» o «Muto») e lingua vocale scaricabile direttamente dal menu.
+- Nome della città mostrato nel widget Meteo, attivazione automatica del GPS in tempo reale e rimozione della riga posizione dalle Impostazioni.
 
 ---
 

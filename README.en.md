@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.7.2** · released on 25 October 2026 · 3.1 MB
+**VERSION 1.7.4** · released on 25 October 2026 · 3.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -32,7 +32,7 @@ In Sport the mood turns red, a `SPORT` badge appears and the three bottom figure
 
 The **Theme** key cycles through eight cluster layouts: Carbone, Carbone 3D, Grand Tourer, Energy flow, Obsidian, Red Sport, Lumen and Nebula. One press moves to the next. The choice is remembered and comes back at the next start.
 
-![The same theme on a light background](img/clair-theme-lumen.png)
+![The same theme on a light background](img/clair-theme-hyperos3d.png)
 
 Every theme exists in dark and light. The light background picks up the blue-grey of the BYD overlay, measured from photographs, so the app blends into it instead of sitting on top. The **Appearance** setting picks one, the other, or follows the tablet.
 
@@ -103,11 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.7.2
+## What is new in 1.7.4
 
-- Two new independent ON/OFF switches on the main page ("Cluster projection" and "Theme in cluster") to separately control video projection on the cluster and theme loading, preventing black screen issues on startup.
-- Manual vs. automatic startup control: when auto-start is off, VEKTRA only activates via the switches; when auto-start is on, it starts automatically with the car while still letting you freely toggle the switches during your drive.
-- Real-time switch synchronization inside the native BYD app when toggling auto-start (auto-open, switch toggle, and auto-close), with a clean "Autodémarrage actif" notification in the notification center.
+- New "Navigation" tab in the left rail (between "Cluster" and "Check") featuring free open-source GPS mapping (OpenStreetMap, Nominatim, OSRM, Overpass) with address search, navigation history, Home, Work, and custom-named Favorites.
+- Central 3D free navigation map with live Traffic, Fixed Speed Cameras, Mobile Speed Cameras, and Accidents/Events integrated into the 4 new 3D cluster themes ("Xiaomi HyperOS 3D", "XPeng Tianji 3D", "Zeekr Flyme 3D", and "BYD Origin 3D").
+- Navigation tab controls: "3D Map" ON/OFF toggle, Voice Navigation mode ("Full", "Alerts only", or "Muted"), and Voice Language selector with direct voice pack download.
+- Automatic city name display inside Weather widgets, automatic real-time GPS tracking at startup, and removal of the manual location row from Settings.
 
 ---
 

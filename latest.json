@@ -1,42 +1,49 @@
 {
-  "version": "1.7.2",
-  "apk": "Vektra-1.7.2.apk",
-  "size": 3216361,
+  "version": "1.7.4",
+  "apk": "Vektra-1.7.4.apk",
+  "size": 3301213,
   "notes": [
-    "Deux nouveaux interrupteurs ON/OFF indépendants sur la page principale (« Projection cluster » et « Thème dans le cluster ») pour activer séparément la projection vidéo sur le combiné et le chargement du thème, évitant ainsi l'écran noir au lancement.",
-    "Respect du mode manuel ou automatique : sans le démarrage automatique, VEKTRA ne s'active qu'avec les interrupteurs ; avec le démarrage automatique, tout se lance au démarrage de la voiture tout en laissant la liberté d'activer ou couper les interrupteurs en cours de route.",
-    "Synchronisation en temps réel du switch dans l'application native BYD lors de l'activation ou de la désactivation du démarrage automatique (ouverture, bascule du switch et fermeture automatique), et affichage de « Autodémarrage actif » dans le centre de notifications."
+    "Nouvel onglet « Navigation » dans le rail latéral gauche (entre « Combiné » et « Contrôle ») intégrant une cartographie GPS gratuite et open-source (OpenStreetMap, Nominatim, OSRM, Overpass) avec recherche d'adresse, historique des navigations, Domicile, Travail et Favoris avec nom personnalisé.",
+    "Intégration centrale de la carte de navigation 3D gratuite avec Trafic en direct, Radars fixes, Radars mobiles et Accidents/Événements au cœur des 4 nouveaux thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D »).",
+    "Options dédiées dans l'onglet Navigation : interrupteur ON/OFF « Carte 3D », choix du mode de navigation vocale (« Complète », « Alertes uniquement » ou « Muet ») et sélection de la langue de navigation vocale avec téléchargement direct depuis le menu.",
+    "Affichage automatique du nom de la ville dans les widgets Météo, activation automatique de la localisation GPS en temps réel dès le lancement, et suppression de l'ancienne ligne de position dans les Réglages."
   ],
   "notesByLang": {
     "fr": [
-      "Deux nouveaux interrupteurs ON/OFF indépendants sur la page principale (« Projection cluster » et « Thème dans le cluster ») pour activer séparément la projection vidéo sur le combiné et le chargement du thème, évitant ainsi l'écran noir au lancement.",
-      "Respect du mode manuel ou automatique : sans le démarrage automatique, VEKTRA ne s'active qu'avec les interrupteurs ; avec le démarrage automatique, tout se lance au démarrage de la voiture tout en laissant la liberté d'activer ou couper les interrupteurs en cours de route.",
-      "Synchronisation en temps réel du switch dans l'application native BYD lors de l'activation ou de la désactivation du démarrage automatique (ouverture, bascule du switch et fermeture automatique), et affichage de « Autodémarrage actif » dans le centre de notifications."
+      "Nouvel onglet « Navigation » dans le rail latéral gauche (entre « Combiné » et « Contrôle ») intégrant une cartographie GPS gratuite et open-source (OpenStreetMap, Nominatim, OSRM, Overpass) avec recherche d'adresse, historique des navigations, Domicile, Travail et Favoris avec nom personnalisé.",
+      "Intégration centrale de la carte de navigation 3D gratuite avec Trafic en direct, Radars fixes, Radars mobiles et Accidents/Événements au cœur des 4 nouveaux thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D »).",
+      "Options dédiées dans l'onglet Navigation : interrupteur ON/OFF « Carte 3D », choix du mode de navigation vocale (« Complète », « Alertes uniquement » ou « Muet ») et sélection de la langue de navigation vocale avec téléchargement direct depuis le menu.",
+      "Affichage automatique du nom de la ville dans les widgets Météo, activation automatique de la localisation GPS en temps réel dès le lancement, et suppression de l'ancienne ligne de position dans les Réglages."
     ],
     "en": [
-      "Two new independent ON/OFF switches on the main page (\"Cluster projection\" and \"Theme in cluster\") to separately control video projection on the cluster and theme loading, preventing black screen issues on startup.",
-      "Manual vs. automatic startup control: when auto-start is off, VEKTRA only activates via the switches; when auto-start is on, it starts automatically with the car while still letting you freely toggle the switches during your drive.",
-      "Real-time switch synchronization inside the native BYD app when toggling auto-start (auto-open, switch toggle, and auto-close), with a clean \"Autodémarrage actif\" notification in the notification center."
+      "New \"Navigation\" tab in the left rail (between \"Cluster\" and \"Check\") featuring free open-source GPS mapping (OpenStreetMap, Nominatim, OSRM, Overpass) with address search, navigation history, Home, Work, and custom-named Favorites.",
+      "Central 3D free navigation map with live Traffic, Fixed Speed Cameras, Mobile Speed Cameras, and Accidents/Events integrated into the 4 new 3D cluster themes (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\", and \"BYD Origin 3D\").",
+      "Navigation tab controls: \"3D Map\" ON/OFF toggle, Voice Navigation mode (\"Full\", \"Alerts only\", or \"Muted\"), and Voice Language selector with direct voice pack download.",
+      "Automatic city name display inside Weather widgets, automatic real-time GPS tracking at startup, and removal of the manual location row from Settings."
     ],
     "it": [
-      "Due nuovi interruttori ON/OFF indipendenti nella pagina principale («Proiezione quadro» e «Tema nel quadro») per attivare separatamente la proiezione sul quadro e il caricamento del tema, evitando lo schermo nero all'avvio.",
-      "Controllo manuale o automatico: senza avvio automatico, VEKTRA si attiva solo tramite gli interruttori; con l'avvio automatico attivo, parte all'accensione dell'auto lasciando comunque liberi gli interruttori durante la guida.",
-      "Sincronizzazione in tempo reale dell'interruttore nell'app nativa BYD quando si attiva o disattiva l'avvio automatico (apertura, cambio stato e chiusura automatica)."
+      "Nuova scheda «Navigazione» nella barra laterale sinistra (tra «Quadro» e «Controllo») con mappa GPS gratuita open-source (OpenStreetMap, Nominatim, OSRM, Overpass), ricerca indirizzo, cronologia, Casa, Lavoro e Preferiti con nome personalizzato.",
+      "Mappa di navigazione 3D gratuita centrale con Traffico, Autovelox fissi, Autovelox mobili e Incidenti/Eventi integrata nei 4 nuovi temi 3D.",
+      "Controlli nella scheda Navigazione: interruttore «Mappa 3D», modalità vocale («Completa», «Solo avvisi» o «Muto») e lingua vocale scaricabile direttamente dal menu.",
+      "Nome della città mostrato nel widget Meteo, attivazione automatica del GPS in tempo reale e rimozione della riga posizione dalle Impostazioni."
     ],
     "de": [
-      "Zwei neue unabhängige EIN/AUS-Schalter auf der Hauptseite („Kombi-Projektion\" und „Thema im Kombi\"), um die Projektion auf dem Kombiinstrument und das Laden des Themas getrennt zu steuern und schwarze Bildschirme beim Start zu vermeiden.",
-      "Manuelle oder automatische Steuerung: Ohne Autostart wird VEKTRA nur über die Schalter aktiviert; mit Autostart startet es automatisch mit dem Fahrzeug, während die Schalter während der Fahrt jederzeit frei bedienbar bleiben.",
-      "Echtzeit-Synchronisierung des Schalters in der nativen BYD-App beim Ein- oder Ausschalten des Autostarts (automatisches Öffnen, Umschalten und Schließen)."
+      "Neuer Reiter „Navigation\" in der linken Seitenleiste (zwischen „Kombi\" und „Prüfung\") mit kostenloser Open-Source-GPS-Karte (OpenStreetMap, Nominatim, OSRM, Overpass), Adresssuche, Verlauf, Zuhause, Arbeit und Favoriten mit eigenem Namen.",
+      "Zentrale kostenlose 3D-Navigationskarte mit Echtzeit-Verkehr, festen Blitzern, mobilen Blitzern und Unfällen/Ereignissen in den 4 neuen 3D-Themen.",
+      "Optionen im Navigationsmenü: „3D-Karte\" EIN/AUS, Sprachnavigation („Vollständig\", „Nur Warnungen\" oder „Stumm\") und direkter Sprachpaket-Download.",
+      "Automatische Anzeige des Stadtnamens im Wetter-Widget, automatische Echtzeit-GPS-Ortung beim Start und Entfernung der Positionszeile aus den Einstellungen."
     ],
     "pt": [
-      "Dois novos interruptores ON/OFF independentes na página principal («Projeção no painel» e «Tema no painel») para ativar separadamente a projeção no painel e o carregamento do tema, evitando a tela preta ao iniciar.",
-      "Controle manual ou automático: sem o início automático, o VEKTRA só ativa pelos interruptores; com o início automático, inicia com o carro permitindo ainda ligar ou desligar os interruptores a qualquer momento.",
-      "Sincronização em tempo real do interruptor no aplicativo nativo da BYD ao ativar ou desativar o início automático (abertura, alternância e fechamento automático)."
+      "Nova aba «Navegação» na barra lateral esquerda (entre «Painel» e «Controle») com mapa GPS gratuito e open-source (OpenStreetMap, Nominatim, OSRM, Overpass), busca de endereço, histórico, Casa, Trabalho e Favoritos com nome personalizado.",
+      "Mapa de navegação 3D gratuito central com Trânsito, Radares fixos, Radares móveis e Acidentes/Eventos integrado aos 4 novos temas 3D.",
+      "Controles na aba Navegação: interruptor «Mapa 3D», modo de voz («Completa», «Apenas alertas» ou «Mudo») e download direto do idioma de voz.",
+      "Exibição automática do nome da cidade nos widgets de Clima, ativação automática do GPS em tempo real e remoção da linha de posição nos Ajustes."
     ],
     "tr": [
-      "Ana sayfada gösterge yansıtmayı ve tema yüklemeyi ayrı ayrı kontrol etmek için iki yeni bağımsız AÇIK/KAPALI anahtar (\"Gösterge yansıtma\" ve \"Göstergede tema\") eklendi; böylece açılışta siyah ekran sorunu önlenir.",
-      "Manuel veya otomatik kontrol: otomatik başlatma kapalıyken VEKTRA yalnızca anahtarlarla etkinleşir; açıkken araçla birlikte otomatik başlar ve sürüş sırasında anahtarları istediğiniz gibi açıp kapatmanıza izin verir.",
-      "Otomatik başlatma açıldığında veya kapatıldığında yerel BYD uygulamasındaki anahtar gerçek zamanlı olarak senkronize edilir (uygulama açılır, anahtar değiştirilir ve otomatik kapanır)."
+      "Sol menüde (\"Gösterge\" ile \"Kontrol\" arasında) adres arama, geçmiş, Ev, İş ve özel isimli Favoriler içeren ücretsiz açık kaynaklı GPS haritasına (OpenStreetMap, Nominatim, OSRM, Overpass) sahip yeni \"Navigasyon\" sekmesi.",
+      "Canlı Trafik, Sabit Radarlar, Mobil Radarlar ve Kaza/Olay bildirimleri içeren merkezi 3D navigasyon haritası 4 yeni 3D temaya entegre edildi.",
+      "Navigasyon sekmesi kontrolleri: \"3D Harita\" AÇIK/KAPALI anahtarı, Sesli Navigasyon modu (\"Tam\", \"Yalnızca uyarılar\" veya \"Sessiz\") ve doğrudan menüden indirilebilir ses dili seçimi.",
+      "Hava Durumu widget'larında şehir adının gösterilmesi, gerçek zamanlı GPS konumunun otomatik etkinleştirilmesi ve Ayarlar'daki konum satırının kaldırılması."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.7.2** · publicada a 25 de outubro de 2026 · 3.1 MB
+**VERSÃO 1.7.4** · publicada a 25 de outubro de 2026 · 3.1 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -32,7 +32,7 @@ Em Sport o ambiente fica vermelho, aparece um emblema `SPORT` e os três valores
 
 A tecla **Tema** percorre oito disposições do painel: Carbono, Carbono 3D, Grande Turismo, Fluxo de energia, Obsidiana, Vermelho Sport, Lumen e Nebulosa. Um toque passa à seguinte. A escolha fica guardada e volta no arranque.
 
-![O mesmo tema em fundo claro](img/clair-theme-lumen.png)
+![O mesmo tema em fundo claro](img/clair-theme-hyperos3d.png)
 
 Cada tema existe em escuro e em claro. O fundo claro retoma o azul-acinzentado da interface BYD, medido em fotografia, para que a aplicação se funda nela em vez de ficar por cima. A definição **Aparência** escolhe um, o outro, ou segue o tablet.
 
@@ -103,11 +103,12 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.7.2
+## Novidades da 1.7.4
 
-- Dois novos interruptores ON/OFF independentes na página principal («Projeção no painel» e «Tema no painel») para ativar separadamente a projeção no painel e o carregamento do tema, evitando a tela preta ao iniciar.
-- Controle manual ou automático: sem o início automático, o VEKTRA só ativa pelos interruptores; com o início automático, inicia com o carro permitindo ainda ligar ou desligar os interruptores a qualquer momento.
-- Sincronização em tempo real do interruptor no aplicativo nativo da BYD ao ativar ou desativar o início automático (abertura, alternância e fechamento automático).
+- Nova aba «Navegação» na barra lateral esquerda (entre «Painel» e «Controle») com mapa GPS gratuito e open-source (OpenStreetMap, Nominatim, OSRM, Overpass), busca de endereço, histórico, Casa, Trabalho e Favoritos com nome personalizado.
+- Mapa de navegação 3D gratuito central com Trânsito, Radares fixos, Radares móveis e Acidentes/Eventos integrado aos 4 novos temas 3D.
+- Controles na aba Navegação: interruptor «Mapa 3D», modo de voz («Completa», «Apenas alertas» ou «Mudo») e download direto do idioma de voz.
+- Exibição automática do nome da cidade nos widgets de Clima, ativação automática do GPS em tempo real e remoção da linha de posição nos Ajustes.
 
 ---
 

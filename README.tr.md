@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.7.2** · yayın tarihi 25 Ekim 2026 · 3.1 MB
+**SÜRÜM 1.7.4** · yayın tarihi 25 Ekim 2026 · 3.1 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -32,7 +32,7 @@ Sport modunda ortam kırmızıya döner, bir `SPORT` rozeti belirir ve alttaki �
 
 **Tema** tuşu sekiz gösterge düzeni arasında geçiş yapar: Karbon, Karbon 3D, Grand Tourer, Enerji akışı, Obsidyen, Kırmızı Spor, Lumen ve Bulutsu. Bir dokunuş sonrakine geçer. Seçim hatırlanır ve açılışta geri gelir.
 
-![Aynı tema açık arka planda](img/clair-theme-lumen.png)
+![Aynı tema açık arka planda](img/clair-theme-hyperos3d.png)
 
 Her tema koyu ve açık olarak vardır. Açık arka plan, fotoğraf üzerinden ölçülen BYD arayüzünün mavi-grisini alır; böylece uygulama üstüne oturmak yerine içine karışır. **Görünüm** ayarı birini, diğerini seçer ya da tableti izler.
 
@@ -103,11 +103,12 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.7.2
+## Yenilikler: 1.7.4
 
-- Ana sayfada gösterge yansıtmayı ve tema yüklemeyi ayrı ayrı kontrol etmek için iki yeni bağımsız AÇIK/KAPALI anahtar ("Gösterge yansıtma" ve "Göstergede tema") eklendi; böylece açılışta siyah ekran sorunu önlenir.
-- Manuel veya otomatik kontrol: otomatik başlatma kapalıyken VEKTRA yalnızca anahtarlarla etkinleşir; açıkken araçla birlikte otomatik başlar ve sürüş sırasında anahtarları istediğiniz gibi açıp kapatmanıza izin verir.
-- Otomatik başlatma açıldığında veya kapatıldığında yerel BYD uygulamasındaki anahtar gerçek zamanlı olarak senkronize edilir (uygulama açılır, anahtar değiştirilir ve otomatik kapanır).
+- Sol menüde ("Gösterge" ile "Kontrol" arasında) adres arama, geçmiş, Ev, İş ve özel isimli Favoriler içeren ücretsiz açık kaynaklı GPS haritasına (OpenStreetMap, Nominatim, OSRM, Overpass) sahip yeni "Navigasyon" sekmesi.
+- Canlı Trafik, Sabit Radarlar, Mobil Radarlar ve Kaza/Olay bildirimleri içeren merkezi 3D navigasyon haritası 4 yeni 3D temaya entegre edildi.
+- Navigasyon sekmesi kontrolleri: "3D Harita" AÇIK/KAPALI anahtarı, Sesli Navigasyon modu ("Tam", "Yalnızca uyarılar" veya "Sessiz") ve doğrudan menüden indirilebilir ses dili seçimi.
+- Hava Durumu widget'larında şehir adının gösterilmesi, gerçek zamanlı GPS konumunun otomatik etkinleştirilmesi ve Ayarlar'daki konum satırının kaldırılması.
 
 ---
 

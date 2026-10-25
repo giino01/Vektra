@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.7.2** · veröffentlicht am 25. Oktober 2026 · 3.1 MB
+**VERSION 1.7.4** · veröffentlicht am 25. Oktober 2026 · 3.1 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -32,7 +32,7 @@ Im Sport-Modus wird die Stimmung rot, ein `SPORT`-Abzeichen erscheint und die dr
 
 Die Taste **Thema** blättert durch acht Anordnungen: Carbon, Carbon 3D, Grand Tourer, Energiefluss, Obsidian, Rot Sport, Lumen und Nebula. Ein Druck wechselt zur nächsten. Die Wahl wird gemerkt und kehrt beim nächsten Start zurück.
 
-![Dasselbe Thema auf hellem Hintergrund](img/clair-theme-lumen.png)
+![Dasselbe Thema auf hellem Hintergrund](img/clair-theme-hyperos3d.png)
 
 Jedes Thema gibt es dunkel und hell. Der helle Hintergrund nimmt das Blaugrau der BYD-Oberfläche auf, auf Fotos ausgemessen, damit die App darin verschmilzt statt darauf zu liegen. Die Einstellung **Erscheinungsbild** wählt das eine, das andere, oder folgt dem Tablet.
 
@@ -103,11 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.7.2
+## Neu in 1.7.4
 
-- Zwei neue unabhängige EIN/AUS-Schalter auf der Hauptseite („Kombi-Projektion" und „Thema im Kombi"), um die Projektion auf dem Kombiinstrument und das Laden des Themas getrennt zu steuern und schwarze Bildschirme beim Start zu vermeiden.
-- Manuelle oder automatische Steuerung: Ohne Autostart wird VEKTRA nur über die Schalter aktiviert; mit Autostart startet es automatisch mit dem Fahrzeug, während die Schalter während der Fahrt jederzeit frei bedienbar bleiben.
-- Echtzeit-Synchronisierung des Schalters in der nativen BYD-App beim Ein- oder Ausschalten des Autostarts (automatisches Öffnen, Umschalten und Schließen).
+- Neuer Reiter „Navigation" in der linken Seitenleiste (zwischen „Kombi" und „Prüfung") mit kostenloser Open-Source-GPS-Karte (OpenStreetMap, Nominatim, OSRM, Overpass), Adresssuche, Verlauf, Zuhause, Arbeit und Favoriten mit eigenem Namen.
+- Zentrale kostenlose 3D-Navigationskarte mit Echtzeit-Verkehr, festen Blitzern, mobilen Blitzern und Unfällen/Ereignissen in den 4 neuen 3D-Themen.
+- Optionen im Navigationsmenü: „3D-Karte" EIN/AUS, Sprachnavigation („Vollständig", „Nur Warnungen" oder „Stumm") und direkter Sprachpaket-Download.
+- Automatische Anzeige des Stadtnamens im Wetter-Widget, automatische Echtzeit-GPS-Ortung beim Start und Entfernung der Positionszeile aus den Einstellungen.
 
 ---
 
