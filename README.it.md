@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.7.4** · pubblicata il 25 ottobre 2026 · 3.1 MB
+**VERSIONE 1.7.5** · pubblicata il 25 ottobre 2026 · 8.2 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.7.4
+## Novità della 1.7.5
 
-- Nuova scheda «Navigazione» nella barra laterale sinistra (tra «Quadro» e «Controllo») con mappa GPS gratuita open-source (OpenStreetMap, Nominatim, OSRM, Overpass), ricerca indirizzo, cronologia, Casa, Lavoro e Preferiti con nome personalizzato.
-- Mappa di navigazione 3D gratuita centrale con Traffico, Autovelox fissi, Autovelox mobili e Incidenti/Eventi integrata nei 4 nuovi temi 3D.
-- Controlli nella scheda Navigazione: interruttore «Mappa 3D», modalità vocale («Completa», «Solo avvisi» o «Muto») e lingua vocale scaricabile direttamente dal menu.
-- Nome della città mostrato nel widget Meteo, attivazione automatica del GPS in tempo reale e rimozione della riga posizione dalle Impostazioni.
+- Rendering 3D fotorealistico 1:1 dei 4 nuovi temi («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») identico ai modelli approvati con cupola radar olografica 3D, quadranti in carbonio/rame 3D, SUV 3D animato e dati in tempo reale.
+- Navigazione 3D immersiva in stile Waze: telecamera 3D inclinata a 54° con edifici 3D estrusi, autostrada 3D a 3 corsie, percorso luminoso viola/ciano con frecce animate, totem autovelox 3D e schede HUD Waze.
+- Download e archiviazione permanente dei pacchetti vocali di navigazione (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direttamente nella memoria del tablet (/vektra_voice_packs/<lang>/) al clic sulla lingua.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.7.4** · publiée le 25 octobre 2026 · 3.1 Mo
+**VERSION 1.7.5** · publiée le 25 octobre 2026 · 8.2 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.7.4
+## Nouveautés de la 1.7.5
 
-- Nouvel onglet « Navigation » dans le rail latéral gauche (entre « Combiné » et « Contrôle ») intégrant une cartographie GPS gratuite et open-source (OpenStreetMap, Nominatim, OSRM, Overpass) avec recherche d'adresse, historique des navigations, Domicile, Travail et Favoris avec nom personnalisé.
-- Intégration centrale de la carte de navigation 3D gratuite avec Trafic en direct, Radars fixes, Radars mobiles et Accidents/Événements au cœur des 4 nouveaux thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D »).
-- Options dédiées dans l'onglet Navigation : interrupteur ON/OFF « Carte 3D », choix du mode de navigation vocale (« Complète », « Alertes uniquement » ou « Muet ») et sélection de la langue de navigation vocale avec téléchargement direct depuis le menu.
-- Affichage automatique du nom de la ville dans les widgets Météo, activation automatique de la localisation GPS en temps réel dès le lancement, et suppression de l'ancienne ligne de position dans les Réglages.
+- Rendu 3D photoréaliste 1:1 des 4 nouveaux thèmes (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») strictement identique aux maquettes validées avec dôme radar holographique 3D, cadrans carbone/cuivre 3D, SUV 3D animé, totems radars 3D et données véhicule en temps réel.
+- Navigation 3D immersive style Waze : caméra inclinée à 54° avec bâtiments 3D extrudés, autoroute 3D à 3 voies, ruban d'itinéraire lumineux violet/cyan avec chevrons animés, totems radars 3D avec ondes au sol et bandeaux HUD Waze (manœuvre, radar, compteur/limite, barre ETA/trafic).
+- Téléchargement et stockage permanent des packs de voix de navigation (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directement dans la mémoire de la tablette (/vektra_voice_packs/<lang>/) dès le clic sur la langue, avec lecture hors-ligne et indicateur « ✓ Stocké ».
 
 ---
 

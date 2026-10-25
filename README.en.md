@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.7.4** · released on 25 October 2026 · 3.1 MB
+**VERSION 1.7.5** · released on 25 October 2026 · 8.2 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.7.4
+## What is new in 1.7.5
 
-- New "Navigation" tab in the left rail (between "Cluster" and "Check") featuring free open-source GPS mapping (OpenStreetMap, Nominatim, OSRM, Overpass) with address search, navigation history, Home, Work, and custom-named Favorites.
-- Central 3D free navigation map with live Traffic, Fixed Speed Cameras, Mobile Speed Cameras, and Accidents/Events integrated into the 4 new 3D cluster themes ("Xiaomi HyperOS 3D", "XPeng Tianji 3D", "Zeekr Flyme 3D", and "BYD Origin 3D").
-- Navigation tab controls: "3D Map" ON/OFF toggle, Voice Navigation mode ("Full", "Alerts only", or "Muted"), and Voice Language selector with direct voice pack download.
-- Automatic city name display inside Weather widgets, automatic real-time GPS tracking at startup, and removal of the manual location row from Settings.
+- Exact 1:1 photorealistic 3D rendering for all 4 new themes ("Xiaomi HyperOS 3D", "XPeng Tianji 3D", "Zeekr Flyme 3D", and "BYD Origin 3D") matching the approved designs with 3D holographic radar dome, 3D carbon/copper dials, animated 3D SUV, 3D radar totems, and live telemetry.
+- Immersive Waze-style 3D Navigation: 54° tilted 3D camera with extruded 3D buildings, 3-lane 3D highway, glowing purple/cyan route ribbon with animated chevrons, 3D radar camera totems with ground shockwaves, and Waze HUD cards.
+- Automatic download and permanent storage of navigation voice packs (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directly inside the tablet's memory (/vektra_voice_packs/<lang>/) on language click, with offline playback and "✓ Stored" badge.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.7.4** · publicada a 25 de outubro de 2026 · 3.1 MB
+**VERSÃO 1.7.5** · publicada a 25 de outubro de 2026 · 8.2 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.7.4
+## Novidades da 1.7.5
 
-- Nova aba «Navegação» na barra lateral esquerda (entre «Painel» e «Controle») com mapa GPS gratuito e open-source (OpenStreetMap, Nominatim, OSRM, Overpass), busca de endereço, histórico, Casa, Trabalho e Favoritos com nome personalizado.
-- Mapa de navegação 3D gratuito central com Trânsito, Radares fixos, Radares móveis e Acidentes/Eventos integrado aos 4 novos temas 3D.
-- Controles na aba Navegação: interruptor «Mapa 3D», modo de voz («Completa», «Apenas alertas» ou «Mudo») e download direto do idioma de voz.
-- Exibição automática do nome da cidade nos widgets de Clima, ativação automática do GPS em tempo real e remoção da linha de posição nos Ajustes.
+- Renderização 3D fotorrealista 1:1 dos 4 novos temas («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») idêntica aos modelos aprovados com cúpula de radar holográfica 3D, mostradores 3D em carbono/cobre, SUV 3D animado e dados em tempo real.
+- Navegação 3D imersiva estilo Waze: câmera 3D inclinada a 54° com edifícios 3D extrudados, rodovia 3D de 3 faixas, faixa de rota luminosa roxa/ciano com setas animadas, totens de radar 3D e painéis HUD Waze.
+- Download e armazenamento permanente dos pacotes de voz de navegação (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) diretamente na memória do tablet (/vektra_voice_packs/<lang>/) ao clicar no idioma.
 
 ---
 

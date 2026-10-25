@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.7.4** · veröffentlicht am 25. Oktober 2026 · 3.1 MB
+**VERSION 1.7.5** · veröffentlicht am 25. Oktober 2026 · 8.2 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.7.4
+## Neu in 1.7.5
 
-- Neuer Reiter „Navigation" in der linken Seitenleiste (zwischen „Kombi" und „Prüfung") mit kostenloser Open-Source-GPS-Karte (OpenStreetMap, Nominatim, OSRM, Overpass), Adresssuche, Verlauf, Zuhause, Arbeit und Favoriten mit eigenem Namen.
-- Zentrale kostenlose 3D-Navigationskarte mit Echtzeit-Verkehr, festen Blitzern, mobilen Blitzern und Unfällen/Ereignissen in den 4 neuen 3D-Themen.
-- Optionen im Navigationsmenü: „3D-Karte" EIN/AUS, Sprachnavigation („Vollständig", „Nur Warnungen" oder „Stumm") und direkter Sprachpaket-Download.
-- Automatische Anzeige des Stadtnamens im Wetter-Widget, automatische Echtzeit-GPS-Ortung beim Start und Entfernung der Positionszeile aus den Einstellungen.
+- Fotorealistische 1:1-3D-Darstellung der 4 neuen Themen („Xiaomi HyperOS 3D", „XPeng Tianji 3D", „Zeekr Flyme 3D" und „BYD Origin 3D") exakt wie in den freigegebenen Vorlagen mit 3D-Radarkuppel, 3D-Karbon-/Kupfer-Rundinstrumenten, animiertem 3D-SUV und Echtzeitdaten.
+- Immersive 3D-Navigation im Waze-Stil: 54°-3D-Kameraperspektive mit 3D-Gebäuden, dreispuriger 3D-Autobahn, leuchtendem Routenband mit animierten Richtungspfeilen, 3D-Blitzer-Säulen und Waze-HUD-Karten.
+- Automatischer Download und dauerhafte Speicherung der Navigations-Sprachpakete (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direkt im Tablett-Speicher (/vektra_voice_packs/<lang>/) beim Klick auf die Sprache.
 
 ---
 

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.7.4** · yayın tarihi 25 Ekim 2026 · 3.1 MB
+**SÜRÜM 1.7.5** · yayın tarihi 25 Ekim 2026 · 8.2 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.7.4
+## Yenilikler: 1.7.5
 
-- Sol menüde ("Gösterge" ile "Kontrol" arasında) adres arama, geçmiş, Ev, İş ve özel isimli Favoriler içeren ücretsiz açık kaynaklı GPS haritasına (OpenStreetMap, Nominatim, OSRM, Overpass) sahip yeni "Navigasyon" sekmesi.
-- Canlı Trafik, Sabit Radarlar, Mobil Radarlar ve Kaza/Olay bildirimleri içeren merkezi 3D navigasyon haritası 4 yeni 3D temaya entegre edildi.
-- Navigasyon sekmesi kontrolleri: "3D Harita" AÇIK/KAPALI anahtarı, Sesli Navigasyon modu ("Tam", "Yalnızca uyarılar" veya "Sessiz") ve doğrudan menüden indirilebilir ses dili seçimi.
-- Hava Durumu widget'larında şehir adının gösterilmesi, gerçek zamanlı GPS konumunun otomatik etkinleştirilmesi ve Ayarlar'daki konum satırının kaldırılması.
+- Onaylanan tasarımlarla birebir aynı 1:1 fotogerçekçi 3D temalar ("Xiaomi HyperOS 3D", "XPeng Tianji 3D", "Zeekr Flyme 3D" ve "BYD Origin 3D"): 3D holografik radar kubbesi, 3D karbon/bakır kadranlar, canlı 3D SUV ve gerçek zamanlı veriler.
+- Sürükleyici Waze tarzı 3D Navigasyon: 54° eğimli 3D kamera, 3D binalar, 3 şeritli 3D otoyol, hareketli şerit oklarına sahip parlak mor/camgöbeği rota, 3D radar totemleri ve Waze HUD kartları.
+- Dil seçildiğinde navigasyon ses paketlerinin (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) doğrudan tablet belleğine (/vektra_voice_packs/<lang>/) indirilmesi ve kalıcı olarak depolanması.
 
 ---
 

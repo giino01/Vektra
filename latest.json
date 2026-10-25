@@ -1,49 +1,42 @@
 {
-  "version": "1.7.4",
-  "apk": "Vektra-1.7.4.apk",
-  "size": 3301213,
+  "version": "1.7.5",
+  "apk": "Vektra-1.7.5.apk",
+  "size": 8612786,
   "notes": [
-    "Nouvel onglet « Navigation » dans le rail latéral gauche (entre « Combiné » et « Contrôle ») intégrant une cartographie GPS gratuite et open-source (OpenStreetMap, Nominatim, OSRM, Overpass) avec recherche d'adresse, historique des navigations, Domicile, Travail et Favoris avec nom personnalisé.",
-    "Intégration centrale de la carte de navigation 3D gratuite avec Trafic en direct, Radars fixes, Radars mobiles et Accidents/Événements au cœur des 4 nouveaux thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D »).",
-    "Options dédiées dans l'onglet Navigation : interrupteur ON/OFF « Carte 3D », choix du mode de navigation vocale (« Complète », « Alertes uniquement » ou « Muet ») et sélection de la langue de navigation vocale avec téléchargement direct depuis le menu.",
-    "Affichage automatique du nom de la ville dans les widgets Météo, activation automatique de la localisation GPS en temps réel dès le lancement, et suppression de l'ancienne ligne de position dans les Réglages."
+    "Rendu 3D photoréaliste 1:1 des 4 nouveaux thèmes (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») strictement identique aux maquettes validées avec dôme radar holographique 3D, cadrans carbone/cuivre 3D, SUV 3D animé, totems radars 3D et données véhicule en temps réel.",
+    "Navigation 3D immersive style Waze : caméra inclinée à 54° avec bâtiments 3D extrudés, autoroute 3D à 3 voies, ruban d'itinéraire lumineux violet/cyan avec chevrons animés, totems radars 3D avec ondes au sol et bandeaux HUD Waze (manœuvre, radar, compteur/limite, barre ETA/trafic).",
+    "Téléchargement et stockage permanent des packs de voix de navigation (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directement dans la mémoire de la tablette (/vektra_voice_packs/<lang>/) dès le clic sur la langue, avec lecture hors-ligne et indicateur « ✓ Stocké »."
   ],
   "notesByLang": {
     "fr": [
-      "Nouvel onglet « Navigation » dans le rail latéral gauche (entre « Combiné » et « Contrôle ») intégrant une cartographie GPS gratuite et open-source (OpenStreetMap, Nominatim, OSRM, Overpass) avec recherche d'adresse, historique des navigations, Domicile, Travail et Favoris avec nom personnalisé.",
-      "Intégration centrale de la carte de navigation 3D gratuite avec Trafic en direct, Radars fixes, Radars mobiles et Accidents/Événements au cœur des 4 nouveaux thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D »).",
-      "Options dédiées dans l'onglet Navigation : interrupteur ON/OFF « Carte 3D », choix du mode de navigation vocale (« Complète », « Alertes uniquement » ou « Muet ») et sélection de la langue de navigation vocale avec téléchargement direct depuis le menu.",
-      "Affichage automatique du nom de la ville dans les widgets Météo, activation automatique de la localisation GPS en temps réel dès le lancement, et suppression de l'ancienne ligne de position dans les Réglages."
+      "Rendu 3D photoréaliste 1:1 des 4 nouveaux thèmes (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») strictement identique aux maquettes validées avec dôme radar holographique 3D, cadrans carbone/cuivre 3D, SUV 3D animé, totems radars 3D et données véhicule en temps réel.",
+      "Navigation 3D immersive style Waze : caméra inclinée à 54° avec bâtiments 3D extrudés, autoroute 3D à 3 voies, ruban d'itinéraire lumineux violet/cyan avec chevrons animés, totems radars 3D avec ondes au sol et bandeaux HUD Waze (manœuvre, radar, compteur/limite, barre ETA/trafic).",
+      "Téléchargement et stockage permanent des packs de voix de navigation (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directement dans la mémoire de la tablette (/vektra_voice_packs/<lang>/) dès le clic sur la langue, avec lecture hors-ligne et indicateur « ✓ Stocké »."
     ],
     "en": [
-      "New \"Navigation\" tab in the left rail (between \"Cluster\" and \"Check\") featuring free open-source GPS mapping (OpenStreetMap, Nominatim, OSRM, Overpass) with address search, navigation history, Home, Work, and custom-named Favorites.",
-      "Central 3D free navigation map with live Traffic, Fixed Speed Cameras, Mobile Speed Cameras, and Accidents/Events integrated into the 4 new 3D cluster themes (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\", and \"BYD Origin 3D\").",
-      "Navigation tab controls: \"3D Map\" ON/OFF toggle, Voice Navigation mode (\"Full\", \"Alerts only\", or \"Muted\"), and Voice Language selector with direct voice pack download.",
-      "Automatic city name display inside Weather widgets, automatic real-time GPS tracking at startup, and removal of the manual location row from Settings."
+      "Exact 1:1 photorealistic 3D rendering for all 4 new themes (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\", and \"BYD Origin 3D\") matching the approved designs with 3D holographic radar dome, 3D carbon/copper dials, animated 3D SUV, 3D radar totems, and live telemetry.",
+      "Immersive Waze-style 3D Navigation: 54° tilted 3D camera with extruded 3D buildings, 3-lane 3D highway, glowing purple/cyan route ribbon with animated chevrons, 3D radar camera totems with ground shockwaves, and Waze HUD cards.",
+      "Automatic download and permanent storage of navigation voice packs (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directly inside the tablet's memory (/vektra_voice_packs/<lang>/) on language click, with offline playback and \"✓ Stored\" badge."
     ],
     "it": [
-      "Nuova scheda «Navigazione» nella barra laterale sinistra (tra «Quadro» e «Controllo») con mappa GPS gratuita open-source (OpenStreetMap, Nominatim, OSRM, Overpass), ricerca indirizzo, cronologia, Casa, Lavoro e Preferiti con nome personalizzato.",
-      "Mappa di navigazione 3D gratuita centrale con Traffico, Autovelox fissi, Autovelox mobili e Incidenti/Eventi integrata nei 4 nuovi temi 3D.",
-      "Controlli nella scheda Navigazione: interruttore «Mappa 3D», modalità vocale («Completa», «Solo avvisi» o «Muto») e lingua vocale scaricabile direttamente dal menu.",
-      "Nome della città mostrato nel widget Meteo, attivazione automatica del GPS in tempo reale e rimozione della riga posizione dalle Impostazioni."
+      "Rendering 3D fotorealistico 1:1 dei 4 nuovi temi («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») identico ai modelli approvati con cupola radar olografica 3D, quadranti in carbonio/rame 3D, SUV 3D animato e dati in tempo reale.",
+      "Navigazione 3D immersiva in stile Waze: telecamera 3D inclinata a 54° con edifici 3D estrusi, autostrada 3D a 3 corsie, percorso luminoso viola/ciano con frecce animate, totem autovelox 3D e schede HUD Waze.",
+      "Download e archiviazione permanente dei pacchetti vocali di navigazione (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direttamente nella memoria del tablet (/vektra_voice_packs/<lang>/) al clic sulla lingua."
     ],
     "de": [
-      "Neuer Reiter „Navigation\" in der linken Seitenleiste (zwischen „Kombi\" und „Prüfung\") mit kostenloser Open-Source-GPS-Karte (OpenStreetMap, Nominatim, OSRM, Overpass), Adresssuche, Verlauf, Zuhause, Arbeit und Favoriten mit eigenem Namen.",
-      "Zentrale kostenlose 3D-Navigationskarte mit Echtzeit-Verkehr, festen Blitzern, mobilen Blitzern und Unfällen/Ereignissen in den 4 neuen 3D-Themen.",
-      "Optionen im Navigationsmenü: „3D-Karte\" EIN/AUS, Sprachnavigation („Vollständig\", „Nur Warnungen\" oder „Stumm\") und direkter Sprachpaket-Download.",
-      "Automatische Anzeige des Stadtnamens im Wetter-Widget, automatische Echtzeit-GPS-Ortung beim Start und Entfernung der Positionszeile aus den Einstellungen."
+      "Fotorealistische 1:1-3D-Darstellung der 4 neuen Themen („Xiaomi HyperOS 3D\", „XPeng Tianji 3D\", „Zeekr Flyme 3D\" und „BYD Origin 3D\") exakt wie in den freigegebenen Vorlagen mit 3D-Radarkuppel, 3D-Karbon-/Kupfer-Rundinstrumenten, animiertem 3D-SUV und Echtzeitdaten.",
+      "Immersive 3D-Navigation im Waze-Stil: 54°-3D-Kameraperspektive mit 3D-Gebäuden, dreispuriger 3D-Autobahn, leuchtendem Routenband mit animierten Richtungspfeilen, 3D-Blitzer-Säulen und Waze-HUD-Karten.",
+      "Automatischer Download und dauerhafte Speicherung der Navigations-Sprachpakete (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direkt im Tablett-Speicher (/vektra_voice_packs/<lang>/) beim Klick auf die Sprache."
     ],
     "pt": [
-      "Nova aba «Navegação» na barra lateral esquerda (entre «Painel» e «Controle») com mapa GPS gratuito e open-source (OpenStreetMap, Nominatim, OSRM, Overpass), busca de endereço, histórico, Casa, Trabalho e Favoritos com nome personalizado.",
-      "Mapa de navegação 3D gratuito central com Trânsito, Radares fixos, Radares móveis e Acidentes/Eventos integrado aos 4 novos temas 3D.",
-      "Controles na aba Navegação: interruptor «Mapa 3D», modo de voz («Completa», «Apenas alertas» ou «Mudo») e download direto do idioma de voz.",
-      "Exibição automática do nome da cidade nos widgets de Clima, ativação automática do GPS em tempo real e remoção da linha de posição nos Ajustes."
+      "Renderização 3D fotorrealista 1:1 dos 4 novos temas («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») idêntica aos modelos aprovados com cúpula de radar holográfica 3D, mostradores 3D em carbono/cobre, SUV 3D animado e dados em tempo real.",
+      "Navegação 3D imersiva estilo Waze: câmera 3D inclinada a 54° com edifícios 3D extrudados, rodovia 3D de 3 faixas, faixa de rota luminosa roxa/ciano com setas animadas, totens de radar 3D e painéis HUD Waze.",
+      "Download e armazenamento permanente dos pacotes de voz de navegação (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) diretamente na memória do tablet (/vektra_voice_packs/<lang>/) ao clicar no idioma."
     ],
     "tr": [
-      "Sol menüde (\"Gösterge\" ile \"Kontrol\" arasında) adres arama, geçmiş, Ev, İş ve özel isimli Favoriler içeren ücretsiz açık kaynaklı GPS haritasına (OpenStreetMap, Nominatim, OSRM, Overpass) sahip yeni \"Navigasyon\" sekmesi.",
-      "Canlı Trafik, Sabit Radarlar, Mobil Radarlar ve Kaza/Olay bildirimleri içeren merkezi 3D navigasyon haritası 4 yeni 3D temaya entegre edildi.",
-      "Navigasyon sekmesi kontrolleri: \"3D Harita\" AÇIK/KAPALI anahtarı, Sesli Navigasyon modu (\"Tam\", \"Yalnızca uyarılar\" veya \"Sessiz\") ve doğrudan menüden indirilebilir ses dili seçimi.",
-      "Hava Durumu widget'larında şehir adının gösterilmesi, gerçek zamanlı GPS konumunun otomatik etkinleştirilmesi ve Ayarlar'daki konum satırının kaldırılması."
+      "Onaylanan tasarımlarla birebir aynı 1:1 fotogerçekçi 3D temalar (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\" ve \"BYD Origin 3D\"): 3D holografik radar kubbesi, 3D karbon/bakır kadranlar, canlı 3D SUV ve gerçek zamanlı veriler.",
+      "Sürükleyici Waze tarzı 3D Navigasyon: 54° eğimli 3D kamera, 3D binalar, 3 şeritli 3D otoyol, hareketli şerit oklarına sahip parlak mor/camgöbeği rota, 3D radar totemleri ve Waze HUD kartları.",
+      "Dil seçildiğinde navigasyon ses paketlerinin (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) doğrudan tablet belleğine (/vektra_voice_packs/<lang>/) indirilmesi ve kalıcı olarak depolanması."
     ]
   }
 }
