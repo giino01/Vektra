@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.7.5** · veröffentlicht am 25. Oktober 2026 · 8.2 MB
+**VERSION 1.7.6** · veröffentlicht am 25. Oktober 2026 · 40.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,10 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.7.5
+## Neu in 1.7.6
 
-- Fotorealistische 1:1-3D-Darstellung der 4 neuen Themen („Xiaomi HyperOS 3D", „XPeng Tianji 3D", „Zeekr Flyme 3D" und „BYD Origin 3D") exakt wie in den freigegebenen Vorlagen mit 3D-Radarkuppel, 3D-Karbon-/Kupfer-Rundinstrumenten, animiertem 3D-SUV und Echtzeitdaten.
-- Immersive 3D-Navigation im Waze-Stil: 54°-3D-Kameraperspektive mit 3D-Gebäuden, dreispuriger 3D-Autobahn, leuchtendem Routenband mit animierten Richtungspfeilen, 3D-Blitzer-Säulen und Waze-HUD-Karten.
-- Automatischer Download und dauerhafte Speicherung der Navigations-Sprachpakete (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direkt im Tablett-Speicher (/vektra_voice_packs/<lang>/) beim Klick auf die Sprache.
+- Native Integration der MapLibre OpenGL ES 3.0 Engine (libmaplibre.so C++) direkt in die APK, optimiert für die Qualcomm Adreno 600 GPU: 60-FPS-Hardware-Rendering, setSwapBehaviorFlush(true) für Dual-Display, prädiktives Tile-Prefetching und 3D-Gebäudeextrusion (fill-extrusion).
+- MapLibre-OpenGL-Navigation direkt im Kombiinstrument sichtbar wie eine native Cluster-APK: integriert in die 4 3D-Themen sowie als Vollbild-Kombiinstrument-Modus (Screen.NAVIGATION).
 
 ---
 

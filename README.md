@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.7.5** · publiée le 25 octobre 2026 · 8.2 Mo
+**VERSION 1.7.6** · publiée le 25 octobre 2026 · 40.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.7.5
+## Nouveautés de la 1.7.6
 
-- Rendu 3D photoréaliste 1:1 des 4 nouveaux thèmes (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») strictement identique aux maquettes validées avec dôme radar holographique 3D, cadrans carbone/cuivre 3D, SUV 3D animé, totems radars 3D et données véhicule en temps réel.
-- Navigation 3D immersive style Waze : caméra inclinée à 54° avec bâtiments 3D extrudés, autoroute 3D à 3 voies, ruban d'itinéraire lumineux violet/cyan avec chevrons animés, totems radars 3D avec ondes au sol et bandeaux HUD Waze (manœuvre, radar, compteur/limite, barre ETA/trafic).
-- Téléchargement et stockage permanent des packs de voix de navigation (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directement dans la mémoire de la tablette (/vektra_voice_packs/<lang>/) dès le clic sur la langue, avec lecture hors-ligne et indicateur « ✓ Stocké ».
+- Intégration native du moteur MapLibre OpenGL ES 3.0 (libmaplibre.so C++) directement dans l'APK, réglé spécifiquement pour le GPU Qualcomm Adreno 600 (Snapdragon 665 / Adreno 610 sur DiLink 3.0) : rendu matériel 60 FPS en TextureViewMapRenderer, setSwapBehaviorFlush(true) (glFlush double écran), préchargement prédictif des tuiles et extrusion 3D matérielle des bâtiments (fill-extrusion).
+- Navigation MapLibre OpenGL directement visible dans le combiné d'instruments comme une APK native : intégrée en temps réel au cœur des 4 thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») ET disponible en mode Plein Écran Combiné (Screen.NAVIGATION) avec HUD Waze 3D flottant.
+- Couches OpenGL natives en temps réel : ruban d'itinéraire Waze triple couche (glow, casing, core), radars fixes et mobiles, bâtiments 3D extrudés et suivi caméra 3D incliné à 58° synchronisé avec le cap GPS et la vitesse.
 
 ---
 

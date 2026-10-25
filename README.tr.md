@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.7.5** · yayın tarihi 25 Ekim 2026 · 8.2 MB
+**SÜRÜM 1.7.6** · yayın tarihi 25 Ekim 2026 · 40.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,11 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.7.5
+## Yenilikler: 1.7.6
 
-- Onaylanan tasarımlarla birebir aynı 1:1 fotogerçekçi 3D temalar ("Xiaomi HyperOS 3D", "XPeng Tianji 3D", "Zeekr Flyme 3D" ve "BYD Origin 3D"): 3D holografik radar kubbesi, 3D karbon/bakır kadranlar, canlı 3D SUV ve gerçek zamanlı veriler.
-- Sürükleyici Waze tarzı 3D Navigasyon: 54° eğimli 3D kamera, 3D binalar, 3 şeritli 3D otoyol, hareketli şerit oklarına sahip parlak mor/camgöbeği rota, 3D radar totemleri ve Waze HUD kartları.
-- Dil seçildiğinde navigasyon ses paketlerinin (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) doğrudan tablet belleğine (/vektra_voice_packs/<lang>/) indirilmesi ve kalıcı olarak depolanması.
+- Qualcomm Adreno 600 GPU için optimize edilmiş MapLibre OpenGL ES 3.0 motorunun (libmaplibre.so C++) doğrudan APK içine yerel entegrasyonu: 60 FPS donanım hızlandırmalı görüntüleme, çift ekran için setSwapBehaviorFlush(true), öngörülü harita önbellekleme ve 3D bina yükseltme (fill-extrusion).
+- Doğrudan gösterge panelinde yerel bir APK gibi çalışan MapLibre OpenGL navigasyonu: 4 yeni 3D temanın merkezine entegre edildi ve ayrıca Tam Ekran Gösterge Modu (Screen.NAVIGATION) eklendi.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.7.5** · pubblicata il 25 ottobre 2026 · 8.2 MB
+**VERSIONE 1.7.6** · pubblicata il 25 ottobre 2026 · 40.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,10 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.7.5
+## Novità della 1.7.6
 
-- Rendering 3D fotorealistico 1:1 dei 4 nuovi temi («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») identico ai modelli approvati con cupola radar olografica 3D, quadranti in carbonio/rame 3D, SUV 3D animato e dati in tempo reale.
-- Navigazione 3D immersiva in stile Waze: telecamera 3D inclinata a 54° con edifici 3D estrusi, autostrada 3D a 3 corsie, percorso luminoso viola/ciano con frecce animate, totem autovelox 3D e schede HUD Waze.
-- Download e archiviazione permanente dei pacchetti vocali di navigazione (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direttamente nella memoria del tablet (/vektra_voice_packs/<lang>/) al clic sulla lingua.
+- Integrazione nativa del motore MapLibre OpenGL ES 3.0 (libmaplibre.so C++) nell'APK, ottimizzato per la GPU Qualcomm Adreno 600: rendering hardware a 60 FPS, setSwapBehaviorFlush(true) per doppio schermo, precaricamento predittivo dei tasselli ed estrusione 3D degli edifici (fill-extrusion).
+- Navigazione MapLibre OpenGL visibile direttamente nel quadro strumenti come un'APK nativa: integrata al centro dei 4 temi 3D e disponibile anche a Schermo Intero sul Quadro (Screen.NAVIGATION).
 
 ---
 

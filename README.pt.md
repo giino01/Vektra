@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.7.5** · publicada a 25 de outubro de 2026 · 8.2 MB
+**VERSÃO 1.7.6** · publicada a 25 de outubro de 2026 · 40.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.5.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,10 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.7.5
+## Novidades da 1.7.6
 
-- Renderização 3D fotorrealista 1:1 dos 4 novos temas («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») idêntica aos modelos aprovados com cúpula de radar holográfica 3D, mostradores 3D em carbono/cobre, SUV 3D animado e dados em tempo real.
-- Navegação 3D imersiva estilo Waze: câmera 3D inclinada a 54° com edifícios 3D extrudados, rodovia 3D de 3 faixas, faixa de rota luminosa roxa/ciano com setas animadas, totens de radar 3D e painéis HUD Waze.
-- Download e armazenamento permanente dos pacotes de voz de navegação (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) diretamente na memória do tablet (/vektra_voice_packs/<lang>/) ao clicar no idioma.
+- Integração nativa do motor MapLibre OpenGL ES 3.0 (libmaplibre.so C++) diretamente no APK, otimizado para a GPU Qualcomm Adreno 600: renderização por hardware a 60 FPS, setSwapBehaviorFlush(true) para tela dupla, pré-carregamento de blocos e extrusão 3D de edifícios (fill-extrusion).
+- Navegação MapLibre OpenGL visível diretamente no painel de instrumentos como um APK nativo: integrada no centro dos 4 temas 3D e disponível em Tela Cheia no Painel (Screen.NAVIGATION).
 
 ---
 

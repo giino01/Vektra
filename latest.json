@@ -1,42 +1,38 @@
 {
-  "version": "1.7.5",
-  "apk": "Vektra-1.7.5.apk",
-  "size": 8612786,
+  "version": "1.7.6",
+  "apk": "Vektra-1.7.6.apk",
+  "size": 42937750,
   "notes": [
-    "Rendu 3D photoréaliste 1:1 des 4 nouveaux thèmes (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») strictement identique aux maquettes validées avec dôme radar holographique 3D, cadrans carbone/cuivre 3D, SUV 3D animé, totems radars 3D et données véhicule en temps réel.",
-    "Navigation 3D immersive style Waze : caméra inclinée à 54° avec bâtiments 3D extrudés, autoroute 3D à 3 voies, ruban d'itinéraire lumineux violet/cyan avec chevrons animés, totems radars 3D avec ondes au sol et bandeaux HUD Waze (manœuvre, radar, compteur/limite, barre ETA/trafic).",
-    "Téléchargement et stockage permanent des packs de voix de navigation (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directement dans la mémoire de la tablette (/vektra_voice_packs/<lang>/) dès le clic sur la langue, avec lecture hors-ligne et indicateur « ✓ Stocké »."
+    "Intégration native du moteur MapLibre OpenGL ES 3.0 (libmaplibre.so C++) directement dans l'APK, réglé spécifiquement pour le GPU Qualcomm Adreno 600 (Snapdragon 665 / Adreno 610 sur DiLink 3.0) : rendu matériel 60 FPS en TextureViewMapRenderer, setSwapBehaviorFlush(true) (glFlush double écran), préchargement prédictif des tuiles et extrusion 3D matérielle des bâtiments (fill-extrusion).",
+    "Navigation MapLibre OpenGL directement visible dans le combiné d'instruments comme une APK native : intégrée en temps réel au cœur des 4 thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») ET disponible en mode Plein Écran Combiné (Screen.NAVIGATION) avec HUD Waze 3D flottant.",
+    "Couches OpenGL natives en temps réel : ruban d'itinéraire Waze triple couche (glow, casing, core), radars fixes et mobiles, bâtiments 3D extrudés et suivi caméra 3D incliné à 58° synchronisé avec le cap GPS et la vitesse."
   ],
   "notesByLang": {
     "fr": [
-      "Rendu 3D photoréaliste 1:1 des 4 nouveaux thèmes (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») strictement identique aux maquettes validées avec dôme radar holographique 3D, cadrans carbone/cuivre 3D, SUV 3D animé, totems radars 3D et données véhicule en temps réel.",
-      "Navigation 3D immersive style Waze : caméra inclinée à 54° avec bâtiments 3D extrudés, autoroute 3D à 3 voies, ruban d'itinéraire lumineux violet/cyan avec chevrons animés, totems radars 3D avec ondes au sol et bandeaux HUD Waze (manœuvre, radar, compteur/limite, barre ETA/trafic).",
-      "Téléchargement et stockage permanent des packs de voix de navigation (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directement dans la mémoire de la tablette (/vektra_voice_packs/<lang>/) dès le clic sur la langue, avec lecture hors-ligne et indicateur « ✓ Stocké »."
+      "Intégration native du moteur MapLibre OpenGL ES 3.0 (libmaplibre.so C++) directement dans l'APK, réglé spécifiquement pour le GPU Qualcomm Adreno 600 (Snapdragon 665 / Adreno 610 sur DiLink 3.0) : rendu matériel 60 FPS en TextureViewMapRenderer, setSwapBehaviorFlush(true) (glFlush double écran), préchargement prédictif des tuiles et extrusion 3D matérielle des bâtiments (fill-extrusion).",
+      "Navigation MapLibre OpenGL directement visible dans le combiné d'instruments comme une APK native : intégrée en temps réel au cœur des 4 thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») ET disponible en mode Plein Écran Combiné (Screen.NAVIGATION) avec HUD Waze 3D flottant.",
+      "Couches OpenGL natives en temps réel : ruban d'itinéraire Waze triple couche (glow, casing, core), radars fixes et mobiles, bâtiments 3D extrudés et suivi caméra 3D incliné à 58° synchronisé avec le cap GPS et la vitesse."
     ],
     "en": [
-      "Exact 1:1 photorealistic 3D rendering for all 4 new themes (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\", and \"BYD Origin 3D\") matching the approved designs with 3D holographic radar dome, 3D carbon/copper dials, animated 3D SUV, 3D radar totems, and live telemetry.",
-      "Immersive Waze-style 3D Navigation: 54° tilted 3D camera with extruded 3D buildings, 3-lane 3D highway, glowing purple/cyan route ribbon with animated chevrons, 3D radar camera totems with ground shockwaves, and Waze HUD cards.",
-      "Automatic download and permanent storage of navigation voice packs (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) directly inside the tablet's memory (/vektra_voice_packs/<lang>/) on language click, with offline playback and \"✓ Stored\" badge."
+      "Native integration of the MapLibre OpenGL ES 3.0 engine (libmaplibre.so C++) directly inside the APK, tuned for the Qualcomm Adreno 600 GPU (Snapdragon 665 / Adreno 610 on DiLink 3.0): 60 FPS hardware TextureViewMapRenderer, setSwapBehaviorFlush(true) (dual-display glFlush), predictive tile prefetching, and hardware 3D building extrusion (fill-extrusion).",
+      "MapLibre OpenGL navigation rendered directly inside the instrument cluster like a native cluster APK: embedded live at the center of the 4 3D themes (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\", \"BYD Origin 3D\") AND available in Full-Screen Cluster Mode (Screen.NAVIGATION) with floating Waze 3D HUD.",
+      "Real-time native OpenGL layers: triple-layer Waze route ribbon (glow, casing, core), fixed & mobile speed cameras, 3D extruded buildings, and 58° 3D camera tracking synced with GPS bearing and speed."
     ],
     "it": [
-      "Rendering 3D fotorealistico 1:1 dei 4 nuovi temi («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») identico ai modelli approvati con cupola radar olografica 3D, quadranti in carbonio/rame 3D, SUV 3D animato e dati in tempo reale.",
-      "Navigazione 3D immersiva in stile Waze: telecamera 3D inclinata a 54° con edifici 3D estrusi, autostrada 3D a 3 corsie, percorso luminoso viola/ciano con frecce animate, totem autovelox 3D e schede HUD Waze.",
-      "Download e archiviazione permanente dei pacchetti vocali di navigazione (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direttamente nella memoria del tablet (/vektra_voice_packs/<lang>/) al clic sulla lingua."
+      "Integrazione nativa del motore MapLibre OpenGL ES 3.0 (libmaplibre.so C++) nell'APK, ottimizzato per la GPU Qualcomm Adreno 600: rendering hardware a 60 FPS, setSwapBehaviorFlush(true) per doppio schermo, precaricamento predittivo dei tasselli ed estrusione 3D degli edifici (fill-extrusion).",
+      "Navigazione MapLibre OpenGL visibile direttamente nel quadro strumenti come un'APK nativa: integrata al centro dei 4 temi 3D e disponibile anche a Schermo Intero sul Quadro (Screen.NAVIGATION)."
     ],
     "de": [
-      "Fotorealistische 1:1-3D-Darstellung der 4 neuen Themen („Xiaomi HyperOS 3D\", „XPeng Tianji 3D\", „Zeekr Flyme 3D\" und „BYD Origin 3D\") exakt wie in den freigegebenen Vorlagen mit 3D-Radarkuppel, 3D-Karbon-/Kupfer-Rundinstrumenten, animiertem 3D-SUV und Echtzeitdaten.",
-      "Immersive 3D-Navigation im Waze-Stil: 54°-3D-Kameraperspektive mit 3D-Gebäuden, dreispuriger 3D-Autobahn, leuchtendem Routenband mit animierten Richtungspfeilen, 3D-Blitzer-Säulen und Waze-HUD-Karten.",
-      "Automatischer Download und dauerhafte Speicherung der Navigations-Sprachpakete (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) direkt im Tablett-Speicher (/vektra_voice_packs/<lang>/) beim Klick auf die Sprache."
+      "Native Integration der MapLibre OpenGL ES 3.0 Engine (libmaplibre.so C++) direkt in die APK, optimiert für die Qualcomm Adreno 600 GPU: 60-FPS-Hardware-Rendering, setSwapBehaviorFlush(true) für Dual-Display, prädiktives Tile-Prefetching und 3D-Gebäudeextrusion (fill-extrusion).",
+      "MapLibre-OpenGL-Navigation direkt im Kombiinstrument sichtbar wie eine native Cluster-APK: integriert in die 4 3D-Themen sowie als Vollbild-Kombiinstrument-Modus (Screen.NAVIGATION)."
     ],
     "pt": [
-      "Renderização 3D fotorrealista 1:1 dos 4 novos temas («Xiaomi HyperOS 3D», «XPeng Tianji 3D», «Zeekr Flyme 3D» e «BYD Origin 3D») idêntica aos modelos aprovados com cúpula de radar holográfica 3D, mostradores 3D em carbono/cobre, SUV 3D animado e dados em tempo real.",
-      "Navegação 3D imersiva estilo Waze: câmera 3D inclinada a 54° com edifícios 3D extrudados, rodovia 3D de 3 faixas, faixa de rota luminosa roxa/ciano com setas animadas, totens de radar 3D e painéis HUD Waze.",
-      "Download e armazenamento permanente dos pacotes de voz de navegação (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) diretamente na memória do tablet (/vektra_voice_packs/<lang>/) ao clicar no idioma."
+      "Integração nativa do motor MapLibre OpenGL ES 3.0 (libmaplibre.so C++) diretamente no APK, otimizado para a GPU Qualcomm Adreno 600: renderização por hardware a 60 FPS, setSwapBehaviorFlush(true) para tela dupla, pré-carregamento de blocos e extrusão 3D de edifícios (fill-extrusion).",
+      "Navegação MapLibre OpenGL visível diretamente no painel de instrumentos como um APK nativo: integrada no centro dos 4 temas 3D e disponível em Tela Cheia no Painel (Screen.NAVIGATION)."
     ],
     "tr": [
-      "Onaylanan tasarımlarla birebir aynı 1:1 fotogerçekçi 3D temalar (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\" ve \"BYD Origin 3D\"): 3D holografik radar kubbesi, 3D karbon/bakır kadranlar, canlı 3D SUV ve gerçek zamanlı veriler.",
-      "Sürükleyici Waze tarzı 3D Navigasyon: 54° eğimli 3D kamera, 3D binalar, 3 şeritli 3D otoyol, hareketli şerit oklarına sahip parlak mor/camgöbeği rota, 3D radar totemleri ve Waze HUD kartları.",
-      "Dil seçildiğinde navigasyon ses paketlerinin (FR, EN, NL, DE, ES, IT, PT, AR, TR, ZH) doğrudan tablet belleğine (/vektra_voice_packs/<lang>/) indirilmesi ve kalıcı olarak depolanması."
+      "Qualcomm Adreno 600 GPU için optimize edilmiş MapLibre OpenGL ES 3.0 motorunun (libmaplibre.so C++) doğrudan APK içine yerel entegrasyonu: 60 FPS donanım hızlandırmalı görüntüleme, çift ekran için setSwapBehaviorFlush(true), öngörülü harita önbellekleme ve 3D bina yükseltme (fill-extrusion).",
+      "Doğrudan gösterge panelinde yerel bir APK gibi çalışan MapLibre OpenGL navigasyonu: 4 yeni 3D temanın merkezine entegre edildi ve ayrıca Tam Ekran Gösterge Modu (Screen.NAVIGATION) eklendi."
     ]
   }
 }
