@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.7.1** · pubblicata il 24 ottobre 2026 · 5.1 MB
+**VERSIONE 1.7.2** · pubblicata il 25 ottobre 2026 · 3.1 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.7.1
+## Novità della 1.7.2
 
-- test
-- Remove noCompress option from aaptOptions
-- Restore aaptOptions for resource compression
-- test
+- Due nuovi interruttori ON/OFF indipendenti nella pagina principale («Proiezione quadro» e «Tema nel quadro») per attivare separatamente la proiezione sul quadro e il caricamento del tema, evitando lo schermo nero all'avvio.
+- Controllo manuale o automatico: senza avvio automatico, VEKTRA si attiva solo tramite gli interruttori; con l'avvio automatico attivo, parte all'accensione dell'auto lasciando comunque liberi gli interruttori durante la guida.
+- Sincronizzazione in tempo reale dell'interruttore nell'app nativa BYD quando si attiva o disattiva l'avvio automatico (apertura, cambio stato e chiusura automatica).
 
 ---
 

@@ -1,28 +1,42 @@
 {
-  "version": "1.7.0",
-  "apk": "Vektra-1.7.0.apk",
-  "size": 5360631,
+  "version": "1.7.2",
+  "apk": "Vektra-1.7.2.apk",
+  "size": 3216361,
   "notes": [
-    "test"
+    "Deux nouveaux interrupteurs ON/OFF indépendants sur la page principale (« Projection cluster » et « Thème dans le cluster ») pour activer séparément la projection vidéo sur le combiné et le chargement du thème, évitant ainsi l'écran noir au lancement.",
+    "Respect du mode manuel ou automatique : sans le démarrage automatique, VEKTRA ne s'active qu'avec les interrupteurs ; avec le démarrage automatique, tout se lance au démarrage de la voiture tout en laissant la liberté d'activer ou couper les interrupteurs en cours de route.",
+    "Synchronisation en temps réel du switch dans l'application native BYD lors de l'activation ou de la désactivation du démarrage automatique (ouverture, bascule du switch et fermeture automatique), et affichage de « Autodémarrage actif » dans le centre de notifications."
   ],
   "notesByLang": {
     "fr": [
-      "test"
+      "Deux nouveaux interrupteurs ON/OFF indépendants sur la page principale (« Projection cluster » et « Thème dans le cluster ») pour activer séparément la projection vidéo sur le combiné et le chargement du thème, évitant ainsi l'écran noir au lancement.",
+      "Respect du mode manuel ou automatique : sans le démarrage automatique, VEKTRA ne s'active qu'avec les interrupteurs ; avec le démarrage automatique, tout se lance au démarrage de la voiture tout en laissant la liberté d'activer ou couper les interrupteurs en cours de route.",
+      "Synchronisation en temps réel du switch dans l'application native BYD lors de l'activation ou de la désactivation du démarrage automatique (ouverture, bascule du switch et fermeture automatique), et affichage de « Autodémarrage actif » dans le centre de notifications."
     ],
     "en": [
-      "test"
+      "Two new independent ON/OFF switches on the main page (\"Cluster projection\" and \"Theme in cluster\") to separately control video projection on the cluster and theme loading, preventing black screen issues on startup.",
+      "Manual vs. automatic startup control: when auto-start is off, VEKTRA only activates via the switches; when auto-start is on, it starts automatically with the car while still letting you freely toggle the switches during your drive.",
+      "Real-time switch synchronization inside the native BYD app when toggling auto-start (auto-open, switch toggle, and auto-close), with a clean \"Autodémarrage actif\" notification in the notification center."
     ],
     "it": [
-      "test"
+      "Due nuovi interruttori ON/OFF indipendenti nella pagina principale («Proiezione quadro» e «Tema nel quadro») per attivare separatamente la proiezione sul quadro e il caricamento del tema, evitando lo schermo nero all'avvio.",
+      "Controllo manuale o automatico: senza avvio automatico, VEKTRA si attiva solo tramite gli interruttori; con l'avvio automatico attivo, parte all'accensione dell'auto lasciando comunque liberi gli interruttori durante la guida.",
+      "Sincronizzazione in tempo reale dell'interruttore nell'app nativa BYD quando si attiva o disattiva l'avvio automatico (apertura, cambio stato e chiusura automatica)."
     ],
     "de": [
-      "test"
+      "Zwei neue unabhängige EIN/AUS-Schalter auf der Hauptseite („Kombi-Projektion\" und „Thema im Kombi\"), um die Projektion auf dem Kombiinstrument und das Laden des Themas getrennt zu steuern und schwarze Bildschirme beim Start zu vermeiden.",
+      "Manuelle oder automatische Steuerung: Ohne Autostart wird VEKTRA nur über die Schalter aktiviert; mit Autostart startet es automatisch mit dem Fahrzeug, während die Schalter während der Fahrt jederzeit frei bedienbar bleiben.",
+      "Echtzeit-Synchronisierung des Schalters in der nativen BYD-App beim Ein- oder Ausschalten des Autostarts (automatisches Öffnen, Umschalten und Schließen)."
     ],
     "pt": [
-      "test"
+      "Dois novos interruptores ON/OFF independentes na página principal («Projeção no painel» e «Tema no painel») para ativar separadamente a projeção no painel e o carregamento do tema, evitando a tela preta ao iniciar.",
+      "Controle manual ou automático: sem o início automático, o VEKTRA só ativa pelos interruptores; com o início automático, inicia com o carro permitindo ainda ligar ou desligar os interruptores a qualquer momento.",
+      "Sincronização em tempo real do interruptor no aplicativo nativo da BYD ao ativar ou desativar o início automático (abertura, alternância e fechamento automático)."
     ],
     "tr": [
-      "test"
+      "Ana sayfada gösterge yansıtmayı ve tema yüklemeyi ayrı ayrı kontrol etmek için iki yeni bağımsız AÇIK/KAPALI anahtar (\"Gösterge yansıtma\" ve \"Göstergede tema\") eklendi; böylece açılışta siyah ekran sorunu önlenir.",
+      "Manuel veya otomatik kontrol: otomatik başlatma kapalıyken VEKTRA yalnızca anahtarlarla etkinleşir; açıkken araçla birlikte otomatik başlar ve sürüş sırasında anahtarları istediğiniz gibi açıp kapatmanıza izin verir.",
+      "Otomatik başlatma açıldığında veya kapatıldığında yerel BYD uygulamasındaki anahtar gerçek zamanlı olarak senkronize edilir (uygulama açılır, anahtar değiştirilir ve otomatik kapanır)."
     ]
   }
 }

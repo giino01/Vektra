@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.7.1** · publiée le 24 octobre 2026 · 5.1 Mo
+**VERSION 1.7.2** · publiée le 25 octobre 2026 · 3.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.7.1
+## Nouveautés de la 1.7.2
 
-- test
-- Remove noCompress option from aaptOptions
-- Restore aaptOptions for resource compression
-- test
+- Deux nouveaux interrupteurs ON/OFF indépendants sur la page principale (« Projection cluster » et « Thème dans le cluster ») pour activer séparément la projection vidéo sur le combiné et le chargement du thème, évitant ainsi l'écran noir au lancement.
+- Respect du mode manuel ou automatique : sans le démarrage automatique, VEKTRA ne s'active qu'avec les interrupteurs ; avec le démarrage automatique, tout se lance au démarrage de la voiture tout en laissant la liberté d'activer ou couper les interrupteurs en cours de route.
+- Synchronisation en temps réel du switch dans l'application native BYD lors de l'activation ou de la désactivation du démarrage automatique (ouverture, bascule du switch et fermeture automatique), et affichage de « Autodémarrage actif » dans le centre de notifications.
 
 ---
 

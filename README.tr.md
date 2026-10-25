@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.7.1** · yayın tarihi 24 Ekim 2026 · 5.1 MB
+**SÜRÜM 1.7.2** · yayın tarihi 25 Ekim 2026 · 3.1 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.7.1
+## Yenilikler: 1.7.2
 
-- test
-- Remove noCompress option from aaptOptions
-- Restore aaptOptions for resource compression
-- test
+- Ana sayfada gösterge yansıtmayı ve tema yüklemeyi ayrı ayrı kontrol etmek için iki yeni bağımsız AÇIK/KAPALI anahtar ("Gösterge yansıtma" ve "Göstergede tema") eklendi; böylece açılışta siyah ekran sorunu önlenir.
+- Manuel veya otomatik kontrol: otomatik başlatma kapalıyken VEKTRA yalnızca anahtarlarla etkinleşir; açıkken araçla birlikte otomatik başlar ve sürüş sırasında anahtarları istediğiniz gibi açıp kapatmanıza izin verir.
+- Otomatik başlatma açıldığında veya kapatıldığında yerel BYD uygulamasındaki anahtar gerçek zamanlı olarak senkronize edilir (uygulama açılır, anahtar değiştirilir ve otomatik kapanır).
 
 ---
 

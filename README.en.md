@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.7.1** · released on 24 October 2026 · 5.1 MB
+**VERSION 1.7.2** · released on 25 October 2026 · 3.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.7.1
+## What is new in 1.7.2
 
-- test
-- Remove noCompress option from aaptOptions
-- Restore aaptOptions for resource compression
-- test
+- Two new independent ON/OFF switches on the main page ("Cluster projection" and "Theme in cluster") to separately control video projection on the cluster and theme loading, preventing black screen issues on startup.
+- Manual vs. automatic startup control: when auto-start is off, VEKTRA only activates via the switches; when auto-start is on, it starts automatically with the car while still letting you freely toggle the switches during your drive.
+- Real-time switch synchronization inside the native BYD app when toggling auto-start (auto-open, switch toggle, and auto-close), with a clean "Autodémarrage actif" notification in the notification center.
 
 ---
 
