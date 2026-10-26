@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.6** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.7** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.6
+## Novidades da 1.8.7
 
-- Borda do widget de Navegação: a borda do mapa agora é esbatida em oval no fundo em vez de um retângulo nítido (Carbone 3D e VektraUI).
-- Widget de meteorologia (VektraUI): o nome da cidade aparece sob a temperatura.
-- Traduções (VektraUI): « a reproduzir » e « bateria » seguem o idioma da aplicação.
-- Controlo: a análise acrescenta um catálogo, só de leitura, dos dados BYD (cada método getXxx() e o seu valor), para encontrar os nomes reais dos dados ainda não mostrados (qualidade do ar, temperatura do habitáculo, altitude, inclinação) — nada é alterado no carro.
+- Pré-visualização do painel (tablet): a pré-visualização agora captura diretamente a janela do painel (PixelCopy), incluindo o mapa 3D OpenGL. Mostra exatamente o que está no painel, navegação ativa incluída — antes, o mapa ao vivo faltava e uma cena desenhada substituía-o. Recua para a cópia antiga se a captura não for possível.
+- Theme Store: as ilustrações de Carbone 3D e VektraUI são renderizadas a partir do código real do tema (mostradores, widgets), portanto exatas. Recua para a imagem fixa em caso de falha.
 
 ---
 

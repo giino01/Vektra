@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.6** · yayın tarihi 26 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.7** · yayın tarihi 26 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.6
+## Yenilikler: 1.8.7
 
-- Navigasyon widget'ı kenarı: harita kenarı artık keskin bir dikdörtgen yerine arka planda ovale doğru yumuşatılıyor (Carbone 3D ve VektraUI).
-- Hava durumu widget'ı (VektraUI): şehir adı sıcaklığın altında görünüyor.
-- Çeviriler (VektraUI): « çalıyor » ve « batarya » uygulama diline uyuyor.
-- Kontrol: tarama, BYD verilerinin salt okunur bir kataloğunu ekliyor (her getXxx() yöntemi ve değeri), henüz gösterilmeyen verilerin (hava kalitesi, kabin sıcaklığı, yükseklik, eğim) gerçek adlarını bulmak için — arabada hiçbir şey değiştirilmez.
+- Gösterge paneli önizlemesi (tablet): önizleme artık gösterge penceresini doğrudan yakalıyor (PixelCopy), OpenGL 3D harita dahil. Gösterge panelinde ne varsa tam olarak onu gösteriyor, navigasyon aktifken dahil — önceden canlı harita eksikti ve yerine çizilmiş bir sahne geçiyordu. Yakalama mümkün değilse eski kopyaya geri döner.
+- Theme Store: Carbone 3D ve VektraUI görselleri temanın gerçek kodundan oluşturuluyor (göstergeler, widget'lar), bu yüzden kesin. Hata durumunda sabit görsele geri döner.
 
 ---
 

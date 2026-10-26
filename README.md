@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.6** · publiée le 26 octobre 2026 · 43.0 Mo
+**VERSION 1.8.7** · publiée le 26 octobre 2026 · 43.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.6
+## Nouveautés de la 1.8.7
 
-- Contour du widget Navigation : le bord de la carte est désormais fondu en ovale dans le fond, au lieu d'un rectangle à bords nets (Carbone 3D et VektraUI).
-- Widget météo (VektraUI) : le nom de la ville s'affiche sous la température.
-- Traductions (VektraUI) : « en lecture » et « batterie » suivent la langue de l'application.
-- Contrôle : le scan ajoute un catalogue, en lecture seule, des données BYD (toutes les méthodes getXxx() des appareils et leur valeur). Il sert à repérer les vrais noms des données pas encore affichées (qualité de l'air, température intérieure, altitude, inclinaison) — rien n'est modifié dans la voiture.
+- Aperçu du combiné (tablette) : l'aperçu capture directement la fenêtre du combiné (PixelCopy), carte 3D OpenGL comprise. Il montre désormais exactement ce qui est à l'écran du combiné, navigation active comprise — avant, la carte vivante manquait et une scène dessinée la remplaçait. Repli automatique sur l'ancienne copie si la capture n'est pas possible.
+- Theme Store : les illustrations de Carbone 3D et VektraUI sont rendues depuis le vrai code du thème (cadrans, widgets), donc exactes. Repli sur l'image fixe en cas d'échec.
 
 ---
 

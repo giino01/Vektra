@@ -1,49 +1,35 @@
 {
-  "version": "1.8.6",
-  "apk": "Vektra-1.8.6.apk",
-  "size": 45062601,
+  "version": "1.8.7",
+  "apk": "Vektra-1.8.7.apk",
+  "size": 45066697,
   "notes": [
-    "Contour du widget Navigation : le bord de la carte est désormais fondu en ovale dans le fond, au lieu d'un rectangle à bords nets (Carbone 3D et VektraUI).",
-    "Widget météo (VektraUI) : le nom de la ville s'affiche sous la température.",
-    "Traductions (VektraUI) : « en lecture » et « batterie » suivent la langue de l'application.",
-    "Contrôle : le scan ajoute un catalogue, en lecture seule, des données BYD (toutes les méthodes getXxx() des appareils et leur valeur). Il sert à repérer les vrais noms des données pas encore affichées (qualité de l'air, température intérieure, altitude, inclinaison) — rien n'est modifié dans la voiture."
+    "Aperçu du combiné (tablette) : l'aperçu capture directement la fenêtre du combiné (PixelCopy), carte 3D OpenGL comprise. Il montre désormais exactement ce qui est à l'écran du combiné, navigation active comprise — avant, la carte vivante manquait et une scène dessinée la remplaçait. Repli automatique sur l'ancienne copie si la capture n'est pas possible.",
+    "Theme Store : les illustrations de Carbone 3D et VektraUI sont rendues depuis le vrai code du thème (cadrans, widgets), donc exactes. Repli sur l'image fixe en cas d'échec."
   ],
   "notesByLang": {
     "fr": [
-      "Contour du widget Navigation : le bord de la carte est désormais fondu en ovale dans le fond, au lieu d'un rectangle à bords nets (Carbone 3D et VektraUI).",
-      "Widget météo (VektraUI) : le nom de la ville s'affiche sous la température.",
-      "Traductions (VektraUI) : « en lecture » et « batterie » suivent la langue de l'application.",
-      "Contrôle : le scan ajoute un catalogue, en lecture seule, des données BYD (toutes les méthodes getXxx() des appareils et leur valeur). Il sert à repérer les vrais noms des données pas encore affichées (qualité de l'air, température intérieure, altitude, inclinaison) — rien n'est modifié dans la voiture."
+      "Aperçu du combiné (tablette) : l'aperçu capture directement la fenêtre du combiné (PixelCopy), carte 3D OpenGL comprise. Il montre désormais exactement ce qui est à l'écran du combiné, navigation active comprise — avant, la carte vivante manquait et une scène dessinée la remplaçait. Repli automatique sur l'ancienne copie si la capture n'est pas possible.",
+      "Theme Store : les illustrations de Carbone 3D et VektraUI sont rendues depuis le vrai code du thème (cadrans, widgets), donc exactes. Repli sur l'image fixe en cas d'échec."
     ],
     "en": [
-      "Navigation widget edge: the map border is now feathered into an oval against the background instead of a sharp rectangle (Carbone 3D and VektraUI).",
-      "Weather widget (VektraUI): the city name shows under the temperature.",
-      "Translations (VektraUI): \"now playing\" and \"battery\" follow the app language.",
-      "Control: the scan now adds a read-only catalogue of the BYD data (every device getXxx() method and its value), to find the real names of data not yet shown (air quality, cabin temperature, altitude, tilt) — nothing is changed in the car."
+      "Cluster preview (tablet): the preview now captures the cluster window directly (PixelCopy), including the OpenGL 3D map. It shows exactly what is on the cluster, navigation active included — before, the live map was missing and a drawn scene replaced it. Falls back to the old copy if capture isn't possible.",
+      "Theme Store: the Carbone 3D and VektraUI illustrations are rendered from the theme's real code (dials, widgets), so they are exact. Falls back to the static image on failure."
     ],
     "it": [
-      "Bordo widget Navigazione: il bordo della mappa ora è sfumato a ovale sullo sfondo invece di un rettangolo netto (Carbone 3D e VektraUI).",
-      "Widget meteo (VektraUI): il nome della città appare sotto la temperatura.",
-      "Traduzioni (VektraUI): « in riproduzione » e « batteria » seguono la lingua dell'app.",
-      "Controllo: la scansione aggiunge un catalogo, in sola lettura, dei dati BYD (ogni metodo getXxx() e il suo valore), per trovare i veri nomi dei dati non ancora mostrati (qualità dell'aria, temperatura abitacolo, altitudine, inclinazione) — nulla viene modificato nell'auto."
+      "Anteprima quadro strumenti (tablet): l'anteprima ora cattura direttamente la finestra del quadro (PixelCopy), mappa 3D OpenGL compresa. Mostra esattamente ciò che è sul quadro, navigazione attiva inclusa — prima la mappa dal vivo mancava e una scena disegnata la sostituiva. Ripiego automatico sulla vecchia copia se la cattura non è possibile.",
+      "Theme Store: le illustrazioni di Carbone 3D e VektraUI sono renderizzate dal vero codice del tema (quadranti, widget), quindi esatte. Ripiego sull'immagine fissa in caso di errore."
     ],
     "de": [
-      "Rand des Navigations-Widgets: der Kartenrand ist jetzt oval ausgeblendet statt eines scharfen Rechtecks (Carbone 3D und VektraUI).",
-      "Wetter-Widget (VektraUI): der Ortsname erscheint unter der Temperatur.",
-      "Übersetzungen (VektraUI): „Wiedergabe\" und „Batterie\" folgen der App-Sprache.",
-      "Kontrolle: der Scan fügt einen schreibgeschützten Katalog der BYD-Daten hinzu (jede getXxx()-Methode und ihr Wert), um die echten Namen noch nicht gezeigter Daten zu finden (Luftqualität, Innenraumtemperatur, Höhe, Neigung) — im Auto wird nichts geändert."
+      "Kombiinstrument-Vorschau (Tablet): die Vorschau erfasst jetzt das Fenster des Kombiinstruments direkt (PixelCopy), inklusive der OpenGL-3D-Karte. Sie zeigt genau das, was auf dem Kombiinstrument ist, auch bei aktiver Navigation — vorher fehlte die Live-Karte und eine gezeichnete Szene ersetzte sie. Fällt auf die alte Kopie zurück, wenn die Erfassung nicht möglich ist.",
+      "Theme Store: die Illustrationen von Carbone 3D und VektraUI werden aus dem echten Code des Themes gerendert (Anzeigen, Widgets), also exakt. Fällt bei Fehler auf das feste Bild zurück."
     ],
     "pt": [
-      "Borda do widget de Navegação: a borda do mapa agora é esbatida em oval no fundo em vez de um retângulo nítido (Carbone 3D e VektraUI).",
-      "Widget de meteorologia (VektraUI): o nome da cidade aparece sob a temperatura.",
-      "Traduções (VektraUI): « a reproduzir » e « bateria » seguem o idioma da aplicação.",
-      "Controlo: a análise acrescenta um catálogo, só de leitura, dos dados BYD (cada método getXxx() e o seu valor), para encontrar os nomes reais dos dados ainda não mostrados (qualidade do ar, temperatura do habitáculo, altitude, inclinação) — nada é alterado no carro."
+      "Pré-visualização do painel (tablet): a pré-visualização agora captura diretamente a janela do painel (PixelCopy), incluindo o mapa 3D OpenGL. Mostra exatamente o que está no painel, navegação ativa incluída — antes, o mapa ao vivo faltava e uma cena desenhada substituía-o. Recua para a cópia antiga se a captura não for possível.",
+      "Theme Store: as ilustrações de Carbone 3D e VektraUI são renderizadas a partir do código real do tema (mostradores, widgets), portanto exatas. Recua para a imagem fixa em caso de falha."
     ],
     "tr": [
-      "Navigasyon widget'ı kenarı: harita kenarı artık keskin bir dikdörtgen yerine arka planda ovale doğru yumuşatılıyor (Carbone 3D ve VektraUI).",
-      "Hava durumu widget'ı (VektraUI): şehir adı sıcaklığın altında görünüyor.",
-      "Çeviriler (VektraUI): « çalıyor » ve « batarya » uygulama diline uyuyor.",
-      "Kontrol: tarama, BYD verilerinin salt okunur bir kataloğunu ekliyor (her getXxx() yöntemi ve değeri), henüz gösterilmeyen verilerin (hava kalitesi, kabin sıcaklığı, yükseklik, eğim) gerçek adlarını bulmak için — arabada hiçbir şey değiştirilmez."
+      "Gösterge paneli önizlemesi (tablet): önizleme artık gösterge penceresini doğrudan yakalıyor (PixelCopy), OpenGL 3D harita dahil. Gösterge panelinde ne varsa tam olarak onu gösteriyor, navigasyon aktifken dahil — önceden canlı harita eksikti ve yerine çizilmiş bir sahne geçiyordu. Yakalama mümkün değilse eski kopyaya geri döner.",
+      "Theme Store: Carbone 3D ve VektraUI görselleri temanın gerçek kodundan oluşturuluyor (göstergeler, widget'lar), bu yüzden kesin. Hata durumunda sabit görsele geri döner."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.6** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.7** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.6
+## What is new in 1.8.7
 
-- Navigation widget edge: the map border is now feathered into an oval against the background instead of a sharp rectangle (Carbone 3D and VektraUI).
-- Weather widget (VektraUI): the city name shows under the temperature.
-- Translations (VektraUI): "now playing" and "battery" follow the app language.
-- Control: the scan now adds a read-only catalogue of the BYD data (every device getXxx() method and its value), to find the real names of data not yet shown (air quality, cabin temperature, altitude, tilt) — nothing is changed in the car.
+- Cluster preview (tablet): the preview now captures the cluster window directly (PixelCopy), including the OpenGL 3D map. It shows exactly what is on the cluster, navigation active included — before, the live map was missing and a drawn scene replaced it. Falls back to the old copy if capture isn't possible.
+- Theme Store: the Carbone 3D and VektraUI illustrations are rendered from the theme's real code (dials, widgets), so they are exact. Falls back to the static image on failure.
 
 ---
 
