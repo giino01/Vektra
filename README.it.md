@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.0** · pubblicata il 26 ottobre 2026 · 36.5 MB
+**VERSIONE 1.8.1** · pubblicata il 26 ottobre 2026 · 43.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,17 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.0
+## Novità della 1.8.1
 
-- Automazione completa dell'avvio automatico nell'app nativa BYD: apertura automatica, scorrimento verso il basso fino a VEKTRA, deselezione della casella per attivare l'avvio automatico (e selezione per disattivarlo), e rimozione delle righe « Importa widget » e « Importa tema » dalle Impostazioni.
+- Theme Store: nuova sezione nel menu a sinistra, aperta anche dal tasto «Tema». Carbonio 3D resta il tema integrato predefinito; il tema Aston si scarica con un tocco, con anteprima, dimensione, avanzamento, Applica, Aggiorna e Rimuovi. Ogni tema viene verificato (firma Vektra) prima dell'installazione; un file .vektra ricevuto in altro modo si installa anche con «Importa tema». I prossimi temi arriveranno nello stesso modo.
+- Mappa Vektra 3D: una mappa fluida disegnata direttamente dal tablet, con edifici 3D, che segue l'auto in continuo. Ora è la mappa di tutti gli schermi: scheda «Navigazione», widget Navigazione di Carbonio 3D, tema Aston e mappa a tutto quadro; la freccia resta sulla strada percorsa e la linea blu parte dalla freccia (il tratto già percorso scompare). Nuova sezione «Mappa» nelle Impostazioni: stile, edifici 3D e zoom.
+- Tema Aston (nel Theme Store): due quadranti, marcia P R N D, spie e al centro musica, meteo o mappa; una navigazione avviata dal tablet appare sul quadro (prossima svolta, distanza, tempo rimanente, ora di arrivo, autovelox reali).
+- Navigazione: la guida ora segue l'auto lungo il percorso. La prossima indicazione avanza durante il viaggio, distanza e tempo rimanenti sono misurati sul percorso, ogni manovra viene annunciata e l'arrivo segnalato. Il percorso viene ricalcolato automaticamente quando si esce dal tragitto o lo si percorre contromano, nel senso di marcia dell'auto. La mappa non rallenta più a ogni posizione GPS.
+- Nessun valore inventato: senza dati dell'auto gli schermi mostrano «--» invece di velocità, batteria, pressione pneumatici, limite o brano di prova; niente più falsi autovelox aggiunti al percorso o annunciati; la marcia M o S non appare più come «D».
+- Importazione di widget e temi: lettura in background (un file grande non blocca più lo schermo), dimensione limitata, immagini ridotte alla dimensione del quadro; formati realmente supportati indicati (immagini, widget Vektra .json, disposizione .json, .zip, .vektra); un widget KWGT, SVG, HTML o XML viene rifiutato con una spiegazione.
+- Modifica: un widget nascosto o non importato non intercetta più i tocchi, il grande widget Navigazione non trattiene più la selezione, lo zoom generale non viene più applicato due volte ai bordi della mappa e l'anteprima del tablet non ha più un buco al posto della mappa.
+- Interfaccia: tutte le finestre (voce, lingua della voce, importazione, variabili, fonte degli aggiornamenti, donazione) e tutti i messaggi hanno lo stile dell'app; la tastiera si apre sul campo indirizzo.
+- Visualizzazione sul quadro: la visualizzazione completa di VEKTRA torna da sola sul quadro quando l'avvio automatico riavvia l'app (poteva restare spenta) e la mappa non scompare più dopo un riavvio; VektraUI ora appare in modo pulito, senza elementi di Carbonio 3D sopra.
 
 ---
 

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.0** · yayın tarihi 26 Ekim 2026 · 36.5 MB
+**SÜRÜM 1.8.1** · yayın tarihi 26 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,17 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.0
+## Yenilikler: 1.8.1
 
-- Yerel BYD uygulamasında otomatik başlatmanın tam otomasyonu: otomatik açılma, VEKTRA'ya kadar aşağı kaydırma, otomatik başlatmayı etkinleştirmek için işareti kaldırma (devre dışı bırakmak için işaretleme) ve Ayarlar'dan "Widget içe aktar" ile "Tema içe aktar" satırlarının kaldırılması.
+- Theme Store: sol menüde yeni bölüm, "Tema" tuşuyla da açılır. Karbon 3D yerleşik varsayılan tema olarak kalır; Aston teması önizleme, boyut, ilerleme, Uygula, Güncelle ve Kaldır ile tek dokunuşla indirilir. Her tema kurulmadan önce doğrulanır (Vektra imzası); başka yoldan gelen bir .vektra dosyası "Tema içe aktar" ile de kurulur. Gelecek temalar da aynı yoldan gelecek.
+- Vektra 3D harita: tablet tarafından doğrudan çizilen, 3D binalı, aracı kesintisiz izleyen akıcı bir harita. Artık tüm ekranların haritası: "Navigasyon" sekmesi, Karbon 3D Navigasyon widget'ı, Aston teması ve tam gösterge haritası; ok gidilen yolda kalır ve mavi çizgi oktan başlar (geçilen kısım kaybolur). Ayarlar'da yeni "Harita" bölümü: stil, 3D binalar ve yakınlaştırma.
+- Aston teması (Theme Store'da): iki gösterge, P R N D vites, uyarı lambaları ve ortada müzik, hava durumu veya harita; tabletten başlatılan bir rota göstergede görünür (sonraki dönüş, mesafe, kalan süre, varış saati, gerçek radarlar).
+- Navigasyon: rehberlik artık aracı rota boyunca izler. Sonraki talimat yolculuk ilerledikçe güncellenir, kalan mesafe ve süre rota üzerinde ölçülür, her manevra anons edilir ve varış bildirilir. Rotadan çıkıldığında veya ters yönde gidildiğinde rota aracın gittiği yönde otomatik olarak yeniden hesaplanır. Harita artık her GPS konumunda yavaşlamaz.
+- Artık uydurma değer yok: araç verisi yoksa ekranlar demo hız, batarya, lastik basıncı, hız sınırı veya parça yerine "--" gösterir; rotaya eklenen veya sesli anons edilen sahte radarlar kaldırıldı; M veya S vitesi artık "D" olarak gösterilmez.
+- Widget ve tema içe aktarma: arka planda okuma (büyük bir dosya ekranı artık dondurmaz), sınırlı boyut, göstergeye göre küçültülen görseller; gerçekten desteklenen biçimler belirtilir (görseller, Vektra .json widget, .json düzen, .zip, .vektra); KWGT, SVG, HTML veya XML widget'ı açıklamayla reddedilir.
+- Düzenleme: gizli veya içe aktarılmamış bir widget artık dokunuşları yakalamaz, büyük Navigasyon widget'ı seçimi artık tutmaz, genel yakınlaştırma harita kenarlarına artık iki kez uygulanmaz ve tablet önizlemesinde harita yerinde artık boşluk kalmaz.
+- Arayüz: tüm pencereler (ses, ses dili, içe aktarma, değişkenler, güncelleme kaynağı, bağış) ve tüm mesajlar uygulamanın tarzında; klavye adres alanında açılır.
+- Gösterge ekranı: otomatik başlatma uygulamayı yeniden başlattığında VEKTRA'nın tam ekranı göstergede kendiliğinden geri gelir (kapalı kalabiliyordu) ve harita yeniden başlatmadan sonra artık kaybolmaz; VektraUI artık üstünde Karbon 3D öğeleri olmadan temiz görüntülenir.
 
 ---
 

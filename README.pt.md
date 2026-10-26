@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.0** · publicada a 26 de outubro de 2026 · 36.5 MB
+**VERSÃO 1.8.1** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,17 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.0
+## Novidades da 1.8.1
 
-- Automação completa do início automático no aplicativo nativo da BYD: abertura automática, rolagem até VEKTRA, desmarcação para ativar o início automático (e marcação para desativar), além da remoção das linhas « Importar widget » e « Importar tema » dos Ajustes.
+- Theme Store: nova seção no menu à esquerda, aberta também pela tecla «Tema». Carbono 3D continua sendo o tema integrado padrão; o tema Aston é baixado com um toque, com prévia, tamanho, progresso, Aplicar, Atualizar e Remover. Cada tema é verificado (assinatura Vektra) antes de ser instalado; um arquivo .vektra recebido de outra forma também é instalado por «Importar tema». Os próximos temas chegarão pelo mesmo caminho.
+- Mapa Vektra 3D: um mapa fluido desenhado diretamente pelo tablet, com prédios 3D, que segue o carro continuamente. Agora é o mapa de todas as telas: aba «Navegação», widget Navegação do Carbono 3D, tema Aston e mapa no painel inteiro; a seta fica na via em que se está e a linha azul começa na seta (o trecho já percorrido desaparece). Nova seção «Mapa» nos Ajustes: estilo, prédios 3D e zoom.
+- Tema Aston (no Theme Store): dois mostradores, marcha P R N D, luzes de aviso e, ao centro, música, clima ou mapa; uma navegação iniciada no tablet aparece no painel (próxima conversão, distância, tempo restante, hora de chegada, radares reais).
+- Navegação: a orientação agora segue o carro ao longo da rota. A próxima instrução avança durante o trajeto, distância e tempo restantes são medidos na rota, cada manobra é anunciada e a chegada é sinalizada. A rota é recalculada automaticamente quando se sai do trajeto ou se anda na contramão, no sentido em que o carro vai. O mapa não fica mais lento a cada posição GPS.
+- Nenhum valor inventado: sem dados do carro, as telas mostram «--» em vez de velocidade, bateria, pressão dos pneus, limite ou faixa de demonstração; nada de radares falsos adicionados à rota ou anunciados; a marcha M ou S não aparece mais como «D».
+- Importação de widgets e temas: leitura em segundo plano (um arquivo grande não trava mais a tela), tamanho limitado, imagens reduzidas ao tamanho do painel; formatos realmente suportados indicados (imagens, widget Vektra .json, disposição .json, .zip, .vektra); um widget KWGT, SVG, HTML ou XML é recusado com uma explicação.
+- Edição: um widget oculto ou não importado não capta mais os toques, o grande widget Navegação não fica mais com a seleção, o zoom geral não é mais aplicado duas vezes às bordas do mapa e a prévia do tablet não tem mais um buraco no lugar do mapa.
+- Interface: todas as janelas (voz, idioma da voz, importação, variáveis, fonte das atualizações, doação) e todas as mensagens no estilo do app; o teclado abre no campo de endereço.
+- Exibição no painel: a exibição completa do VEKTRA volta sozinha no painel quando o início automático reinicia o app (podia ficar apagada) e o mapa não desaparece mais após um reinício; VektraUI agora aparece de forma limpa, sem elementos do Carbono 3D por cima.
 
 ---
 
