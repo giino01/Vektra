@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.11** · yayın tarihi 26 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.12** · yayın tarihi 26 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.12.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.11
+## Yenilikler: 1.8.12
 
-- Info widget'ı: iç ve dış PM2.5 (µg/m³) ve dış sıcaklık (°C) artık doğrudan arabadan okunan gerçek verileri gösteriyor. Her zamanki gibi: gerçek değer veya « -- », asla uydurma. (İç sıcaklık ve nem, bunları sağlamayan arabalarda « -- » kalır; eğim ve yükseklik sürüşte görünür.)
+- Gösterge arka planı olarak navigasyon: Navigasyon widget'ı açıkken harita artık tüm göstergelerin ve widget'ların arkasında, arka planda yer alır ve kenarları arka plana karışır (açık veya koyu temada kare çerçeve yok). Carbone 3D ve VektraUI için geçerli.
+- VektraUI hava durumu: hava durumu widget'ı, temanın diğer kartlarıyla uyumlu siyah bir zemin üzerinde zengin, animasyonlu bir kart olur (şehir, büyük sıcaklık, animasyonlu simgelerle sonraki saatler). Hız göstergesini kapatırsa 🧩 Widget'lar balonundan taşı.
+- Sadeleştirilmiş Info widget'ı: artık yalnızca arabada gerçekten çalışanları gösterir — iç/dış PM2.5, dış sıcaklık ve yükseklik. İç sıcaklık, nem ve eğim kaldırıldı (sensörler beslenmiyor). Her zaman: gerçek değer veya « -- », asla uydurma.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.11** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.12** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.12.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.11
+## Novidades da 1.8.12
 
-- Widget Info: PM2.5 interior e exterior (µg/m³) e temperatura exterior (°C) mostram agora dados reais, lidos diretamente do carro. Como sempre: valor real ou « -- », nunca inventado. (Temperatura interior e humidade ficam « -- » nos carros que não as fornecem; inclinação e altitude aparecem em andamento.)
+- Navegação como fundo do painel: com o widget de Navegação ativo, o mapa fica agora em segundo plano, atrás de todos os mostradores e widgets, e as suas margens fundem-se no fundo (sem contorno quadrado, em tema claro ou escuro). Vale para Carbone 3D e VektraUI.
+- Meteo VektraUI: o widget de meteorologia passa a ser um cartão rico animado (cidade, grande temperatura, próximas horas com ícones animados) sobre fundo preto, a condizer com os outros cartões do tema. Se cobrir o velocímetro, move-o a partir da bolha 🧩 Widgets.
+- Widget Info simplificado: mostra agora apenas o que funciona mesmo no carro — PM2.5 interior/exterior, temperatura exterior e altitude. Temperatura interior, humidade e inclinação removidas (sensores não alimentados). Sempre: valor real ou « -- », nunca inventado.
 
 ---
 

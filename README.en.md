@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.11** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.12** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.12.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.11
+## What is new in 1.8.12
 
-- Info widget: indoor and outdoor PM2.5 (µg/m³) and outdoor temperature (°C) now show real data, read straight from the car. PM2.5 comes from the dedicated air device and the outdoor temperature from the cluster device. As always: real value or "--", never invented. (Indoor temperature and humidity stay "--" on cars that don't provide them; slope and altitude appear while driving.)
+- Navigation as cluster background: when the Navigation widget is on, the map now sits in the background, behind every gauge and widget, and its edges blend into the background (no square outline, in light or dark theme). Applies to Carbone 3D and VektraUI.
+- VektraUI weather: the weather widget becomes a rich animated card (city, large temperature, next hours with animated icons) on a black background, matching the theme's other cards. If it overlaps the speed gauge, move it from the 🧩 Widgets bubble.
+- Simplified Info widget: it now shows only what actually works on the car — indoor/outdoor PM2.5, outdoor temperature and altitude. Indoor temperature, humidity and slope removed (sensors not powered). Always: real value or "--", never invented.
 
 ---
 

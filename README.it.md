@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.11** · pubblicata il 26 ottobre 2026 · 43.0 MB
+**VERSIONE 1.8.12** · pubblicata il 26 ottobre 2026 · 43.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.12.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.11
+## Novità della 1.8.12
 
-- Widget Info: PM2.5 interna ed esterna (µg/m³) e temperatura esterna (°C) ora mostrano dati reali, letti direttamente dall'auto. Come sempre: valore reale o « -- », mai inventato. (Temperatura interna e umidità restano « -- » sulle auto che non le forniscono; pendenza e altitudine compaiono in marcia.)
+- Navigazione come sfondo del quadro: con il widget Navigazione attivo, la mappa passa ora in secondo piano, dietro ogni quadrante e widget, e i suoi bordi si fondono nello sfondo (nessun contorno quadrato, in tema chiaro o scuro). Vale per Carbone 3D e VektraUI.
+- Meteo VektraUI: il widget meteo diventa una scheda ricca animata (città, grande temperatura, prossime ore con icone animate) su sfondo nero, in tinta con le altre schede del tema. Se copre il tachimetro, spostalo dalla bolla 🧩 Widget.
+- Widget Info semplificato: mostra ora solo ciò che funziona davvero sull'auto — PM2.5 interna/esterna, temperatura esterna e altitudine. Temperatura interna, umidità e pendenza rimosse (sensori non alimentati). Sempre: valore reale o « -- », mai inventato.
 
 ---
 

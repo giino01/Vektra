@@ -1,28 +1,42 @@
 {
-  "version": "1.8.11",
-  "apk": "Vektra-1.8.11.apk",
+  "version": "1.8.12",
+  "apk": "Vektra-1.8.12.apk",
   "size": 45070841,
   "notes": [
-    "Widget Info : la PM2.5 intérieure et extérieure (µg/m³) et la température extérieure (°C) s'affichent désormais en données réelles, lues directement de la voiture. La PM2.5 vient de l'appareil d'air dédié et la température extérieure de l'appareil du combiné. Comme toujours : valeur réelle ou « -- », jamais inventée. (La température intérieure et l'humidité restent « -- » sur les voitures qui ne les fournissent pas ; la pente et l'altitude s'affichent en roulant.)"
+    "Navigation en fond de combiné : quand le widget Navigation est activé, la carte passe désormais en arrière-plan, derrière tous les cadrans et widgets, et ses bords se fondent dans le fond (plus aucun contour carré, ni en thème clair ni en thème sombre). Vaut pour Carbone 3D et VektraUI.",
+    "Météo VektraUI : le widget météo devient une carte riche animée (ville, grande température, prévisions des heures suivantes avec icônes animées) sur un fond noir, assorti aux autres cartes du thème. S'il recouvre le cadran de vitesse, déplace-le depuis la bulle 🧩 Widgets.",
+    "Widget Info simplifié : il n'affiche plus que ce qui fonctionne réellement sur la voiture — PM2.5 intérieure/extérieure, température extérieure et altitude. Température intérieure, humidité et pente retirées (capteurs non alimentés). Toujours : valeur réelle ou « -- », jamais inventée."
   ],
   "notesByLang": {
     "fr": [
-      "Widget Info : la PM2.5 intérieure et extérieure (µg/m³) et la température extérieure (°C) s'affichent désormais en données réelles, lues directement de la voiture. La PM2.5 vient de l'appareil d'air dédié et la température extérieure de l'appareil du combiné. Comme toujours : valeur réelle ou « -- », jamais inventée. (La température intérieure et l'humidité restent « -- » sur les voitures qui ne les fournissent pas ; la pente et l'altitude s'affichent en roulant.)"
+      "Navigation en fond de combiné : quand le widget Navigation est activé, la carte passe désormais en arrière-plan, derrière tous les cadrans et widgets, et ses bords se fondent dans le fond (plus aucun contour carré, ni en thème clair ni en thème sombre). Vaut pour Carbone 3D et VektraUI.",
+      "Météo VektraUI : le widget météo devient une carte riche animée (ville, grande température, prévisions des heures suivantes avec icônes animées) sur un fond noir, assorti aux autres cartes du thème. S'il recouvre le cadran de vitesse, déplace-le depuis la bulle 🧩 Widgets.",
+      "Widget Info simplifié : il n'affiche plus que ce qui fonctionne réellement sur la voiture — PM2.5 intérieure/extérieure, température extérieure et altitude. Température intérieure, humidité et pente retirées (capteurs non alimentés). Toujours : valeur réelle ou « -- », jamais inventée."
     ],
     "en": [
-      "Info widget: indoor and outdoor PM2.5 (µg/m³) and outdoor temperature (°C) now show real data, read straight from the car. PM2.5 comes from the dedicated air device and the outdoor temperature from the cluster device. As always: real value or \"--\", never invented. (Indoor temperature and humidity stay \"--\" on cars that don't provide them; slope and altitude appear while driving.)"
+      "Navigation as cluster background: when the Navigation widget is on, the map now sits in the background, behind every gauge and widget, and its edges blend into the background (no square outline, in light or dark theme). Applies to Carbone 3D and VektraUI.",
+      "VektraUI weather: the weather widget becomes a rich animated card (city, large temperature, next hours with animated icons) on a black background, matching the theme's other cards. If it overlaps the speed gauge, move it from the 🧩 Widgets bubble.",
+      "Simplified Info widget: it now shows only what actually works on the car — indoor/outdoor PM2.5, outdoor temperature and altitude. Indoor temperature, humidity and slope removed (sensors not powered). Always: real value or \"--\", never invented."
     ],
     "it": [
-      "Widget Info: PM2.5 interna ed esterna (µg/m³) e temperatura esterna (°C) ora mostrano dati reali, letti direttamente dall'auto. Come sempre: valore reale o « -- », mai inventato. (Temperatura interna e umidità restano « -- » sulle auto che non le forniscono; pendenza e altitudine compaiono in marcia.)"
+      "Navigazione come sfondo del quadro: con il widget Navigazione attivo, la mappa passa ora in secondo piano, dietro ogni quadrante e widget, e i suoi bordi si fondono nello sfondo (nessun contorno quadrato, in tema chiaro o scuro). Vale per Carbone 3D e VektraUI.",
+      "Meteo VektraUI: il widget meteo diventa una scheda ricca animata (città, grande temperatura, prossime ore con icone animate) su sfondo nero, in tinta con le altre schede del tema. Se copre il tachimetro, spostalo dalla bolla 🧩 Widget.",
+      "Widget Info semplificato: mostra ora solo ciò che funziona davvero sull'auto — PM2.5 interna/esterna, temperatura esterna e altitudine. Temperatura interna, umidità e pendenza rimosse (sensori non alimentati). Sempre: valore reale o « -- », mai inventato."
     ],
     "de": [
-      "Info-Widget: PM2.5 innen und außen (µg/m³) und Außentemperatur (°C) zeigen jetzt echte Daten, direkt aus dem Auto gelesen. Wie immer: echter Wert oder „--\", nie erfunden. (Innentemperatur und Feuchtigkeit bleiben „--\" bei Autos, die sie nicht liefern; Neigung und Höhe erscheinen während der Fahrt.)"
+      "Navigation als Kombi-Hintergrund: Ist das Navigations-Widget an, liegt die Karte jetzt im Hintergrund, hinter allen Anzeigen und Widgets, und ihre Ränder verschmelzen mit dem Hintergrund (kein eckiger Rahmen mehr, ob hell oder dunkel). Gilt für Carbone 3D und VektraUI.",
+      "VektraUI-Wetter: Das Wetter-Widget wird zu einer reichen animierten Karte (Stadt, große Temperatur, nächste Stunden mit animierten Symbolen) auf schwarzem Hintergrund, passend zu den übrigen Karten des Themes. Überdeckt es den Tacho, verschiebe es über die 🧩-Widgets-Blase.",
+      "Vereinfachtes Info-Widget: Es zeigt jetzt nur noch, was im Auto wirklich funktioniert — PM2.5 innen/außen, Außentemperatur und Höhe. Innentemperatur, Feuchtigkeit und Neigung entfernt (Sensoren nicht versorgt). Wie immer: echter Wert oder „--\", nie erfunden."
     ],
     "pt": [
-      "Widget Info: PM2.5 interior e exterior (µg/m³) e temperatura exterior (°C) mostram agora dados reais, lidos diretamente do carro. Como sempre: valor real ou « -- », nunca inventado. (Temperatura interior e humidade ficam « -- » nos carros que não as fornecem; inclinação e altitude aparecem em andamento.)"
+      "Navegação como fundo do painel: com o widget de Navegação ativo, o mapa fica agora em segundo plano, atrás de todos os mostradores e widgets, e as suas margens fundem-se no fundo (sem contorno quadrado, em tema claro ou escuro). Vale para Carbone 3D e VektraUI.",
+      "Meteo VektraUI: o widget de meteorologia passa a ser um cartão rico animado (cidade, grande temperatura, próximas horas com ícones animados) sobre fundo preto, a condizer com os outros cartões do tema. Se cobrir o velocímetro, move-o a partir da bolha 🧩 Widgets.",
+      "Widget Info simplificado: mostra agora apenas o que funciona mesmo no carro — PM2.5 interior/exterior, temperatura exterior e altitude. Temperatura interior, humidade e inclinação removidas (sensores não alimentados). Sempre: valor real ou « -- », nunca inventado."
     ],
     "tr": [
-      "Info widget'ı: iç ve dış PM2.5 (µg/m³) ve dış sıcaklık (°C) artık doğrudan arabadan okunan gerçek verileri gösteriyor. Her zamanki gibi: gerçek değer veya « -- », asla uydurma. (İç sıcaklık ve nem, bunları sağlamayan arabalarda « -- » kalır; eğim ve yükseklik sürüşte görünür.)"
+      "Gösterge arka planı olarak navigasyon: Navigasyon widget'ı açıkken harita artık tüm göstergelerin ve widget'ların arkasında, arka planda yer alır ve kenarları arka plana karışır (açık veya koyu temada kare çerçeve yok). Carbone 3D ve VektraUI için geçerli.",
+      "VektraUI hava durumu: hava durumu widget'ı, temanın diğer kartlarıyla uyumlu siyah bir zemin üzerinde zengin, animasyonlu bir kart olur (şehir, büyük sıcaklık, animasyonlu simgelerle sonraki saatler). Hız göstergesini kapatırsa 🧩 Widget'lar balonundan taşı.",
+      "Sadeleştirilmiş Info widget'ı: artık yalnızca arabada gerçekten çalışanları gösterir — iç/dış PM2.5, dış sıcaklık ve yükseklik. İç sıcaklık, nem ve eğim kaldırıldı (sensörler beslenmiyor). Her zaman: gerçek değer veya « -- », asla uydurma."
     ]
   }
 }

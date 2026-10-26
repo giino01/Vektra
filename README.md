@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.11** · publiée le 26 octobre 2026 · 43.0 Mo
+**VERSION 1.8.12** · publiée le 26 octobre 2026 · 43.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.12.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.11
+## Nouveautés de la 1.8.12
 
-- Widget Info : la PM2.5 intérieure et extérieure (µg/m³) et la température extérieure (°C) s'affichent désormais en données réelles, lues directement de la voiture. La PM2.5 vient de l'appareil d'air dédié et la température extérieure de l'appareil du combiné. Comme toujours : valeur réelle ou « -- », jamais inventée. (La température intérieure et l'humidité restent « -- » sur les voitures qui ne les fournissent pas ; la pente et l'altitude s'affichent en roulant.)
+- Navigation en fond de combiné : quand le widget Navigation est activé, la carte passe désormais en arrière-plan, derrière tous les cadrans et widgets, et ses bords se fondent dans le fond (plus aucun contour carré, ni en thème clair ni en thème sombre). Vaut pour Carbone 3D et VektraUI.
+- Météo VektraUI : le widget météo devient une carte riche animée (ville, grande température, prévisions des heures suivantes avec icônes animées) sur un fond noir, assorti aux autres cartes du thème. S'il recouvre le cadran de vitesse, déplace-le depuis la bulle 🧩 Widgets.
+- Widget Info simplifié : il n'affiche plus que ce qui fonctionne réellement sur la voiture — PM2.5 intérieure/extérieure, température extérieure et altitude. Température intérieure, humidité et pente retirées (capteurs non alimentés). Toujours : valeur réelle ou « -- », jamais inventée.
 
 ---
 
