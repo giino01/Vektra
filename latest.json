@@ -1,28 +1,28 @@
 {
-  "version": "1.8.13",
-  "apk": "Vektra-1.8.13.apk",
-  "size": 45074937,
+  "version": "1.8.14",
+  "apk": "Vektra-1.8.14.apk",
+  "size": 45134390,
   "notes": [
-    "Carte Info « qualité d'air » : la PM2.5 intérieure et extérieure s'affiche maintenant avec une barre graduée colorée (vert → jaune → orange → rouge) et une mention BON / MOYEN / ÉLEVÉ / MAUVAIS, plus la température extérieure et l'altitude en dessous. Le fond de la carte s'accorde au thème : noir comme les autres cartes sur VektraUI, panneau assorti sur Carbone 3D (lisible en thème clair comme sombre). Toujours : valeur réelle ou « -- », jamais inventée."
+    "Nouvel onglet « Changelog » : dans l'application (rail de gauche), un onglet reprend l'historique de toutes les mises à jour, version par version. Le texte suit la langue choisie dans l'app et vient directement de ce journal des nouveautés — une seule source, toujours à jour."
   ],
   "notesByLang": {
     "fr": [
-      "Carte Info « qualité d'air » : la PM2.5 intérieure et extérieure s'affiche maintenant avec une barre graduée colorée (vert → jaune → orange → rouge) et une mention BON / MOYEN / ÉLEVÉ / MAUVAIS, plus la température extérieure et l'altitude en dessous. Le fond de la carte s'accorde au thème : noir comme les autres cartes sur VektraUI, panneau assorti sur Carbone 3D (lisible en thème clair comme sombre). Toujours : valeur réelle ou « -- », jamais inventée."
+      "Nouvel onglet « Changelog » : dans l'application (rail de gauche), un onglet reprend l'historique de toutes les mises à jour, version par version. Le texte suit la langue choisie dans l'app et vient directement de ce journal des nouveautés — une seule source, toujours à jour."
     ],
     "en": [
-      "\"Air quality\" Info card: indoor and outdoor PM2.5 now show with a colored graded bar (green → yellow → orange → red) and a GOOD / MODERATE / HIGH / BAD rating, with outdoor temperature and altitude below. The card background matches the theme: black like the other cards on VektraUI, a matching panel on Carbone 3D (readable in light and dark). Always: real value or \"--\", never invented."
+      "New \"Changelog\" tab: in the app (left rail), a tab shows the history of all updates, version by version. The text follows the language selected in the app and comes straight from this change log — a single source, always up to date."
     ],
     "it": [
-      "Scheda Info « qualità dell'aria »: la PM2.5 interna ed esterna appare ora con una barra graduata colorata (verde → giallo → arancione → rosso) e una valutazione BUONA / MEDIA / ALTA / SCARSA, con temperatura esterna e altitudine sotto. Lo sfondo della scheda si adatta al tema: nero come le altre schede su VektraUI, pannello coordinato su Carbone 3D. Sempre: valore reale o « -- », mai inventato."
+      "Nuova scheda « Changelog »: nell'app (barra a sinistra), una scheda mostra la cronologia di tutti gli aggiornamenti, versione per versione. Il testo segue la lingua scelta nell'app e proviene direttamente da questo registro delle novità — un'unica fonte, sempre aggiornata."
     ],
     "de": [
-      "Info-Karte „Luftqualität\": PM2.5 innen und außen erscheint jetzt mit einem farbigen Stufenbalken (grün → gelb → orange → rot) und einer Bewertung GUT / MÄSSIG / HOCH / SCHLECHT, darunter Außentemperatur und Höhe. Der Kartenhintergrund passt sich dem Thema an: schwarz wie die anderen Karten bei VektraUI, ein passendes Panel bei Carbone 3D (hell und dunkel lesbar). Wie immer: echter Wert oder „--\", nie erfunden."
+      "Neuer Tab „Changelog\": in der App (linke Leiste) zeigt ein Tab den Verlauf aller Updates, Version für Version. Der Text folgt der in der App gewählten Sprache und stammt direkt aus diesem Änderungsprotokoll — eine einzige Quelle, immer aktuell."
     ],
     "pt": [
-      "Cartão Info « qualidade do ar »: a PM2.5 interior e exterior aparece agora com uma barra graduada colorida (verde → amarelo → laranja → vermelho) e uma menção BOA / MÉDIA / ALTA / MÁ, com temperatura exterior e altitude por baixo. O fundo do cartão adapta-se ao tema: preto como os outros cartões no VektraUI, painel a condizer no Carbone 3D. Sempre: valor real ou « -- », nunca inventado."
+      "Novo separador « Changelog »: na aplicação (barra à esquerda), um separador mostra o histórico de todas as atualizações, versão a versão. O texto segue o idioma escolhido na app e vem diretamente deste registo de novidades — uma única fonte, sempre atualizada."
     ],
     "tr": [
-      "« Hava kalitesi » Info kartı: iç ve dış PM2.5 artık renkli kademeli bir çubukla (yeşil → sarı → turuncu → kırmızı) ve İYİ / ORTA / YÜKSEK / KÖTÜ değerlendirmesiyle görünür, altında dış sıcaklık ve yükseklik. Kart arka planı temaya uyar: VektraUI'de diğer kartlar gibi siyah, Carbone 3D'de uyumlu bir panel (açık ve koyu temada okunur). Her zaman: gerçek değer veya « -- », asla uydurma."
+      "Yeni « Changelog » sekmesi: uygulamada (sol çubuk), bir sekme tüm güncellemelerin geçmişini sürüm sürüm gösterir. Metin, uygulamada seçilen dili izler ve doğrudan bu değişiklik günlüğünden gelir — tek kaynak, her zaman güncel."
     ]
   }
 }

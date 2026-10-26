@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.13** · yayın tarihi 26 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.14** · yayın tarihi 26 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.13.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.13
+## Yenilikler: 1.8.14
 
-- « Hava kalitesi » Info kartı: iç ve dış PM2.5 artık renkli kademeli bir çubukla (yeşil → sarı → turuncu → kırmızı) ve İYİ / ORTA / YÜKSEK / KÖTÜ değerlendirmesiyle görünür, altında dış sıcaklık ve yükseklik. Kart arka planı temaya uyar: VektraUI'de diğer kartlar gibi siyah, Carbone 3D'de uyumlu bir panel (açık ve koyu temada okunur). Her zaman: gerçek değer veya « -- », asla uydurma.
+- Yeni « Changelog » sekmesi: uygulamada (sol çubuk), bir sekme tüm güncellemelerin geçmişini sürüm sürüm gösterir. Metin, uygulamada seçilen dili izler ve doğrudan bu değişiklik günlüğünden gelir — tek kaynak, her zaman güncel.
 
 ---
 

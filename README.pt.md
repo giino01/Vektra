@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.13** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.14** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.13.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.13
+## Novidades da 1.8.14
 
-- Cartão Info « qualidade do ar »: a PM2.5 interior e exterior aparece agora com uma barra graduada colorida (verde → amarelo → laranja → vermelho) e uma menção BOA / MÉDIA / ALTA / MÁ, com temperatura exterior e altitude por baixo. O fundo do cartão adapta-se ao tema: preto como os outros cartões no VektraUI, painel a condizer no Carbone 3D. Sempre: valor real ou « -- », nunca inventado.
+- Novo separador « Changelog »: na aplicação (barra à esquerda), um separador mostra o histórico de todas as atualizações, versão a versão. O texto segue o idioma escolhido na app e vem diretamente deste registo de novidades — uma única fonte, sempre atualizada.
 
 ---
 
