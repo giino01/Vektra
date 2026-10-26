@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.7.6** · pubblicata il 25 ottobre 2026 · 40.9 MB
+**VERSIONE 1.7.7** · pubblicata il 26 ottobre 2026 · 35.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,12 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.7.6
+## Novità della 1.7.7
 
-- Integrazione nativa del motore MapLibre OpenGL ES 3.0 (libmaplibre.so C++) nell'APK, ottimizzato per la GPU Qualcomm Adreno 600: rendering hardware a 60 FPS, setSwapBehaviorFlush(true) per doppio schermo, precaricamento predittivo dei tasselli ed estrusione 3D degli edifici (fill-extrusion).
-- Navigazione MapLibre OpenGL visibile direttamente nel quadro strumenti come un'APK nativa: integrata al centro dei 4 temi 3D e disponibile anche a Schermo Intero sul Quadro (Screen.NAVIGATION).
+- Tema principale unico « Carbonio 3D » : rimossi tutti gli altri temi per mantenere « Carbonio 3D » come tema principale.
+- Nuova bolla « 🧩 Widget » accanto a « Modifica » nella scheda Quadro : mostra tutte le pastiglie dei widget di Carbonio 3D per attivare o disattivare ogni widget singolarmente.
+- Nuovo widget « Navigazione » con bordi sfumati (stile BMW Waze) : rettangolo del 25 % più piccolo del quadro con bordi fusi nello sfondo tra i widget, completamente modificabile.
+- 2 nuove righe in Impostazioni — « Importa widget » e « Importa tema » : compatibilità universale con tutti i formati (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg).
 
 ---
 

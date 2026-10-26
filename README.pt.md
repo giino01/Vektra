@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.7.6** · publicada a 25 de outubro de 2026 · 40.9 MB
+**VERSÃO 1.7.7** · publicada a 26 de outubro de 2026 · 35.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,10 +103,12 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.7.6
+## Novidades da 1.7.7
 
-- Integração nativa do motor MapLibre OpenGL ES 3.0 (libmaplibre.so C++) diretamente no APK, otimizado para a GPU Qualcomm Adreno 600: renderização por hardware a 60 FPS, setSwapBehaviorFlush(true) para tela dupla, pré-carregamento de blocos e extrusão 3D de edifícios (fill-extrusion).
-- Navegação MapLibre OpenGL visível diretamente no painel de instrumentos como um APK nativo: integrada no centro dos 4 temas 3D e disponível em Tela Cheia no Painel (Screen.NAVIGATION).
+- Tema principal único « Carbono 3D »: remoção de todos os outros temas.
+- Nova bolha « 🧩 Widgets » ao lado de « Edição » na aba Painel: permite ativar ou desativar cada widget do Carbono 3D individualmente.
+- Novo widget « Navegação » com bordas suavizadas (estilo BMW Waze): retângulo 25% menor que o painel com contornos fundidos ao fundo e totalmente editável.
+- 2 novas linhas em Ajustes — « Importar widget » e « Importar tema »: compatível com todos os formatos (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg).
 
 ---
 

@@ -1,38 +1,49 @@
 {
-  "version": "1.7.6",
-  "apk": "Vektra-1.7.6.apk",
-  "size": 42937750,
+  "version": "1.7.7",
+  "apk": "Vektra-1.7.7.apk",
+  "size": 37682126,
   "notes": [
-    "Intégration native du moteur MapLibre OpenGL ES 3.0 (libmaplibre.so C++) directement dans l'APK, réglé spécifiquement pour le GPU Qualcomm Adreno 600 (Snapdragon 665 / Adreno 610 sur DiLink 3.0) : rendu matériel 60 FPS en TextureViewMapRenderer, setSwapBehaviorFlush(true) (glFlush double écran), préchargement prédictif des tuiles et extrusion 3D matérielle des bâtiments (fill-extrusion).",
-    "Navigation MapLibre OpenGL directement visible dans le combiné d'instruments comme une APK native : intégrée en temps réel au cœur des 4 thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») ET disponible en mode Plein Écran Combiné (Screen.NAVIGATION) avec HUD Waze 3D flottant.",
-    "Couches OpenGL natives en temps réel : ruban d'itinéraire Waze triple couche (glow, casing, core), radars fixes et mobiles, bâtiments 3D extrudés et suivi caméra 3D incliné à 58° synchronisé avec le cap GPS et la vitesse."
+    "Thème principal unique « Carbone 3D » : suppression de tous les autres thèmes afin de faire de « Carbone 3D » le thème principal de l'application.",
+    "Nouvelle bulle « 🧩 Widgets » à côté d'« Édition » dans l'onglet Combiné : regroupe toutes les pastilles widgets du thème Carbone 3D (Compteur, Navigation, Date, Musique, Statistiques, Météo, Pneus, Widget importé) pour activer (✓) ou désactiver (✕) chaque widget individuellement en temps réel.",
+    "Nouveau widget « Navigation » fondu (style BMW Waze) : rectangle 25 % plus petit que la taille du combiné (1429 × 458 centré dans 1905 × 610) dont les 4 contours sont fondus progressivement dans le fond Carbone 3D entre les widgets gauche et droite, avec support complet en mode Édition (tous les widgets sont déplaçables et redimensionnables).",
+    "2 nouvelles lignes dans Réglages — « Importer widget » et « Importer thème » : compatibilité universelle tous formats (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg) avec liaison directe aux équipements BYD ({{speed}}, {{soc}}, {{power_kw}}, {{rpm}}, {{gear}}, {{tpms_fl..rr}}, {{lat}}, {{lon}}, {{weather_temp}}, {{media_title}}, etc.)."
   ],
   "notesByLang": {
     "fr": [
-      "Intégration native du moteur MapLibre OpenGL ES 3.0 (libmaplibre.so C++) directement dans l'APK, réglé spécifiquement pour le GPU Qualcomm Adreno 600 (Snapdragon 665 / Adreno 610 sur DiLink 3.0) : rendu matériel 60 FPS en TextureViewMapRenderer, setSwapBehaviorFlush(true) (glFlush double écran), préchargement prédictif des tuiles et extrusion 3D matérielle des bâtiments (fill-extrusion).",
-      "Navigation MapLibre OpenGL directement visible dans le combiné d'instruments comme une APK native : intégrée en temps réel au cœur des 4 thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») ET disponible en mode Plein Écran Combiné (Screen.NAVIGATION) avec HUD Waze 3D flottant.",
-      "Couches OpenGL natives en temps réel : ruban d'itinéraire Waze triple couche (glow, casing, core), radars fixes et mobiles, bâtiments 3D extrudés et suivi caméra 3D incliné à 58° synchronisé avec le cap GPS et la vitesse."
+      "Thème principal unique « Carbone 3D » : suppression de tous les autres thèmes afin de faire de « Carbone 3D » le thème principal de l'application.",
+      "Nouvelle bulle « 🧩 Widgets » à côté d'« Édition » dans l'onglet Combiné : regroupe toutes les pastilles widgets du thème Carbone 3D (Compteur, Navigation, Date, Musique, Statistiques, Météo, Pneus, Widget importé) pour activer (✓) ou désactiver (✕) chaque widget individuellement en temps réel.",
+      "Nouveau widget « Navigation » fondu (style BMW Waze) : rectangle 25 % plus petit que la taille du combiné (1429 × 458 centré dans 1905 × 610) dont les 4 contours sont fondus progressivement dans le fond Carbone 3D entre les widgets gauche et droite, avec support complet en mode Édition (tous les widgets sont déplaçables et redimensionnables).",
+      "2 nouvelles lignes dans Réglages — « Importer widget » et « Importer thème » : compatibilité universelle tous formats (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg) avec liaison directe aux équipements BYD ({{speed}}, {{soc}}, {{power_kw}}, {{rpm}}, {{gear}}, {{tpms_fl..rr}}, {{lat}}, {{lon}}, {{weather_temp}}, {{media_title}}, etc.)."
     ],
     "en": [
-      "Native integration of the MapLibre OpenGL ES 3.0 engine (libmaplibre.so C++) directly inside the APK, tuned for the Qualcomm Adreno 600 GPU (Snapdragon 665 / Adreno 610 on DiLink 3.0): 60 FPS hardware TextureViewMapRenderer, setSwapBehaviorFlush(true) (dual-display glFlush), predictive tile prefetching, and hardware 3D building extrusion (fill-extrusion).",
-      "MapLibre OpenGL navigation rendered directly inside the instrument cluster like a native cluster APK: embedded live at the center of the 4 3D themes (\"Xiaomi HyperOS 3D\", \"XPeng Tianji 3D\", \"Zeekr Flyme 3D\", \"BYD Origin 3D\") AND available in Full-Screen Cluster Mode (Screen.NAVIGATION) with floating Waze 3D HUD.",
-      "Real-time native OpenGL layers: triple-layer Waze route ribbon (glow, casing, core), fixed & mobile speed cameras, 3D extruded buildings, and 58° 3D camera tracking synced with GPS bearing and speed."
+      "Single main theme \"Carbon 3D\": removed all other themes to keep \"Carbon 3D\" as the main theme of the application.",
+      "New \"🧩 Widgets\" bubble next to \"Edit\" in the Cluster tab: displays all widget pills of the Carbon 3D theme (Speedometer, Navigation, Date, Music, Statistics, Weather, Tyres, Imported widget) so each widget can be enabled (✓) or disabled (✕) individually in real time.",
+      "New blended \"Navigation\" widget (BMW Waze style): rectangle 25% smaller than the cluster size (1429 × 458 centered in 1905 × 610) with feathered edges seamlessly melting into the Carbon 3D background between the left and right widgets, and 100% editable in Edit mode (all widgets are movable and resizable).",
+      "2 new rows in Settings — \"Import widget\" and \"Import theme\": universal multi-format compatibility (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg) with live BYD vehicle telemetry bindings ({{speed}}, {{soc}}, {{power_kw}}, {{rpm}}, {{gear}}, {{tpms_fl..rr}}, etc.)."
     ],
     "it": [
-      "Integrazione nativa del motore MapLibre OpenGL ES 3.0 (libmaplibre.so C++) nell'APK, ottimizzato per la GPU Qualcomm Adreno 600: rendering hardware a 60 FPS, setSwapBehaviorFlush(true) per doppio schermo, precaricamento predittivo dei tasselli ed estrusione 3D degli edifici (fill-extrusion).",
-      "Navigazione MapLibre OpenGL visibile direttamente nel quadro strumenti come un'APK nativa: integrata al centro dei 4 temi 3D e disponibile anche a Schermo Intero sul Quadro (Screen.NAVIGATION)."
+      "Tema principale unico « Carbonio 3D » : rimossi tutti gli altri temi per mantenere « Carbonio 3D » come tema principale.",
+      "Nuova bolla « 🧩 Widget » accanto a « Modifica » nella scheda Quadro : mostra tutte le pastiglie dei widget di Carbonio 3D per attivare o disattivare ogni widget singolarmente.",
+      "Nuovo widget « Navigazione » con bordi sfumati (stile BMW Waze) : rettangolo del 25 % più piccolo del quadro con bordi fusi nello sfondo tra i widget, completamente modificabile.",
+      "2 nuove righe in Impostazioni — « Importa widget » e « Importa tema » : compatibilità universale con tutti i formati (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg)."
     ],
     "de": [
-      "Native Integration der MapLibre OpenGL ES 3.0 Engine (libmaplibre.so C++) direkt in die APK, optimiert für die Qualcomm Adreno 600 GPU: 60-FPS-Hardware-Rendering, setSwapBehaviorFlush(true) für Dual-Display, prädiktives Tile-Prefetching und 3D-Gebäudeextrusion (fill-extrusion).",
-      "MapLibre-OpenGL-Navigation direkt im Kombiinstrument sichtbar wie eine native Cluster-APK: integriert in die 4 3D-Themen sowie als Vollbild-Kombiinstrument-Modus (Screen.NAVIGATION)."
+      "Einziges Hauptthema „Karbon 3D“: alle anderen Themen entfernt.",
+      "Neue Blase „🧩 Widgets“ neben „Bearbeiten“ im Reiter Kombiinstrument: alle Widget-Kapseln von Karbon 3D einzeln aktivierbar oder deaktivierbar.",
+      "Neues „Navigation“-Widget mit weichen Kanten (BMW-Waze-Stil): 25 % kleiner als das Kombiinstrument, nahtlos in den Hintergrund übergehend und vollständig im Bearbeitungsmodus anpassbar.",
+      "2 neue Zeilen in Einstellungen — „Widget importieren“ und „Thema importieren“: kompatibel mit allen Formaten (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg)."
     ],
     "pt": [
-      "Integração nativa do motor MapLibre OpenGL ES 3.0 (libmaplibre.so C++) diretamente no APK, otimizado para a GPU Qualcomm Adreno 600: renderização por hardware a 60 FPS, setSwapBehaviorFlush(true) para tela dupla, pré-carregamento de blocos e extrusão 3D de edifícios (fill-extrusion).",
-      "Navegação MapLibre OpenGL visível diretamente no painel de instrumentos como um APK nativo: integrada no centro dos 4 temas 3D e disponível em Tela Cheia no Painel (Screen.NAVIGATION)."
+      "Tema principal único « Carbono 3D »: remoção de todos os outros temas.",
+      "Nova bolha « 🧩 Widgets » ao lado de « Edição » na aba Painel: permite ativar ou desativar cada widget do Carbono 3D individualmente.",
+      "Novo widget « Navegação » com bordas suavizadas (estilo BMW Waze): retângulo 25% menor que o painel com contornos fundidos ao fundo e totalmente editável.",
+      "2 novas linhas em Ajustes — « Importar widget » e « Importar tema »: compatível com todos os formatos (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg)."
     ],
     "tr": [
-      "Qualcomm Adreno 600 GPU için optimize edilmiş MapLibre OpenGL ES 3.0 motorunun (libmaplibre.so C++) doğrudan APK içine yerel entegrasyonu: 60 FPS donanım hızlandırmalı görüntüleme, çift ekran için setSwapBehaviorFlush(true), öngörülü harita önbellekleme ve 3D bina yükseltme (fill-extrusion).",
-      "Doğrudan gösterge panelinde yerel bir APK gibi çalışan MapLibre OpenGL navigasyonu: 4 yeni 3D temanın merkezine entegre edildi ve ayrıca Tam Ekran Gösterge Modu (Screen.NAVIGATION) eklendi."
+      "Tek ana tema \"Karbon 3D\": diğer tüm temalar kaldırıldı.",
+      "Gösterge sekmesinde \"Düzenle\"nin yanında yeni \"🧩 Widget'lar\" balonu: Karbon 3D temasının tüm widget'larını tek tek etkinleştirin veya devre dışı bırakın.",
+      "Yeni yumuşak kenarlı \"Navigasyon\" widget'ı (BMW Waze stili): göstergeden %25 daha küçük dikdörtgen, arka planla bütünleşik kenarlar ve tamamen düzenlenebilir.",
+      "Ayarlar'da 2 yeni satır — \"Widget içe aktar\" ve \"Tema içe aktar\": tüm formatlarla uyumlu (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg)."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.7.6** · yayın tarihi 25 Ekim 2026 · 40.9 MB
+**SÜRÜM 1.7.7** · yayın tarihi 26 Ekim 2026 · 35.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,10 +103,12 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.7.6
+## Yenilikler: 1.7.7
 
-- Qualcomm Adreno 600 GPU için optimize edilmiş MapLibre OpenGL ES 3.0 motorunun (libmaplibre.so C++) doğrudan APK içine yerel entegrasyonu: 60 FPS donanım hızlandırmalı görüntüleme, çift ekran için setSwapBehaviorFlush(true), öngörülü harita önbellekleme ve 3D bina yükseltme (fill-extrusion).
-- Doğrudan gösterge panelinde yerel bir APK gibi çalışan MapLibre OpenGL navigasyonu: 4 yeni 3D temanın merkezine entegre edildi ve ayrıca Tam Ekran Gösterge Modu (Screen.NAVIGATION) eklendi.
+- Tek ana tema "Karbon 3D": diğer tüm temalar kaldırıldı.
+- Gösterge sekmesinde "Düzenle"nin yanında yeni "🧩 Widget'lar" balonu: Karbon 3D temasının tüm widget'larını tek tek etkinleştirin veya devre dışı bırakın.
+- Yeni yumuşak kenarlı "Navigasyon" widget'ı (BMW Waze stili): göstergeden %25 daha küçük dikdörtgen, arka planla bütünleşik kenarlar ve tamamen düzenlenebilir.
+- Ayarlar'da 2 yeni satır — "Widget içe aktar" ve "Tema içe aktar": tüm formatlarla uyumlu (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg).
 
 ---
 

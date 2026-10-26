@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.7.6** · released on 25 October 2026 · 40.9 MB
+**VERSION 1.7.7** · released on 26 October 2026 · 35.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.7.6
+## What is new in 1.7.7
 
-- Native integration of the MapLibre OpenGL ES 3.0 engine (libmaplibre.so C++) directly inside the APK, tuned for the Qualcomm Adreno 600 GPU (Snapdragon 665 / Adreno 610 on DiLink 3.0): 60 FPS hardware TextureViewMapRenderer, setSwapBehaviorFlush(true) (dual-display glFlush), predictive tile prefetching, and hardware 3D building extrusion (fill-extrusion).
-- MapLibre OpenGL navigation rendered directly inside the instrument cluster like a native cluster APK: embedded live at the center of the 4 3D themes ("Xiaomi HyperOS 3D", "XPeng Tianji 3D", "Zeekr Flyme 3D", "BYD Origin 3D") AND available in Full-Screen Cluster Mode (Screen.NAVIGATION) with floating Waze 3D HUD.
-- Real-time native OpenGL layers: triple-layer Waze route ribbon (glow, casing, core), fixed & mobile speed cameras, 3D extruded buildings, and 58° 3D camera tracking synced with GPS bearing and speed.
+- Single main theme "Carbon 3D": removed all other themes to keep "Carbon 3D" as the main theme of the application.
+- New "🧩 Widgets" bubble next to "Edit" in the Cluster tab: displays all widget pills of the Carbon 3D theme (Speedometer, Navigation, Date, Music, Statistics, Weather, Tyres, Imported widget) so each widget can be enabled (✓) or disabled (✕) individually in real time.
+- New blended "Navigation" widget (BMW Waze style): rectangle 25% smaller than the cluster size (1429 × 458 centered in 1905 × 610) with feathered edges seamlessly melting into the Carbon 3D background between the left and right widgets, and 100% editable in Edit mode (all widgets are movable and resizable).
+- 2 new rows in Settings — "Import widget" and "Import theme": universal multi-format compatibility (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg) with live BYD vehicle telemetry bindings ({{speed}}, {{soc}}, {{power_kw}}, {{rpm}}, {{gear}}, {{tpms_fl..rr}}, etc.).
 
 ---
 

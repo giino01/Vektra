@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.7.6** · publiée le 25 octobre 2026 · 40.9 Mo
+**VERSION 1.7.7** · publiée le 26 octobre 2026 · 35.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.7.6
+## Nouveautés de la 1.7.7
 
-- Intégration native du moteur MapLibre OpenGL ES 3.0 (libmaplibre.so C++) directement dans l'APK, réglé spécifiquement pour le GPU Qualcomm Adreno 600 (Snapdragon 665 / Adreno 610 sur DiLink 3.0) : rendu matériel 60 FPS en TextureViewMapRenderer, setSwapBehaviorFlush(true) (glFlush double écran), préchargement prédictif des tuiles et extrusion 3D matérielle des bâtiments (fill-extrusion).
-- Navigation MapLibre OpenGL directement visible dans le combiné d'instruments comme une APK native : intégrée en temps réel au cœur des 4 thèmes 3D (« Xiaomi HyperOS 3D », « XPeng Tianji 3D », « Zeekr Flyme 3D » et « BYD Origin 3D ») ET disponible en mode Plein Écran Combiné (Screen.NAVIGATION) avec HUD Waze 3D flottant.
-- Couches OpenGL natives en temps réel : ruban d'itinéraire Waze triple couche (glow, casing, core), radars fixes et mobiles, bâtiments 3D extrudés et suivi caméra 3D incliné à 58° synchronisé avec le cap GPS et la vitesse.
+- Thème principal unique « Carbone 3D » : suppression de tous les autres thèmes afin de faire de « Carbone 3D » le thème principal de l'application.
+- Nouvelle bulle « 🧩 Widgets » à côté d'« Édition » dans l'onglet Combiné : regroupe toutes les pastilles widgets du thème Carbone 3D (Compteur, Navigation, Date, Musique, Statistiques, Météo, Pneus, Widget importé) pour activer (✓) ou désactiver (✕) chaque widget individuellement en temps réel.
+- Nouveau widget « Navigation » fondu (style BMW Waze) : rectangle 25 % plus petit que la taille du combiné (1429 × 458 centré dans 1905 × 610) dont les 4 contours sont fondus progressivement dans le fond Carbone 3D entre les widgets gauche et droite, avec support complet en mode Édition (tous les widgets sont déplaçables et redimensionnables).
+- 2 nouvelles lignes dans Réglages — « Importer widget » et « Importer thème » : compatibilité universelle tous formats (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg) avec liaison directe aux équipements BYD ({{speed}}, {{soc}}, {{power_kw}}, {{rpm}}, {{gear}}, {{tpms_fl..rr}}, {{lat}}, {{lon}}, {{weather_temp}}, {{media_title}}, etc.).
 
 ---
 
