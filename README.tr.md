@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.8** · yayın tarihi 26 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.9** · yayın tarihi 26 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -28,9 +28,9 @@ Sport modunda ortam kırmızıya döner, bir `SPORT` rozeti belirir ve alttaki �
 
 > Bu sayfadaki görüntüler her yayında **yayınlanan sürümün kodu tarafından çizilir**, örnek değerlerle. Dolayısıyla burada sunulandan eski bir sürümü gösteremezler.
 
-## Sekiz tema
+## Temalar
 
-**Tema** tuşu sekiz gösterge düzeni arasında geçiş yapar: Karbon, Karbon 3D, Grand Tourer, Enerji akışı, Obsidyen, Kırmızı Spor, Lumen ve Bulutsu. Bir dokunuş sonrakine geçer. Seçim hatırlanır ve açılışta geri gelir.
+**Tema** tuşu **Theme Store**'u açar ve yüklü temalar arasında geçiş yapar. **Carbone 3D** yerleşik varsayılan, **VektraUI** diğer yerleşik temadır; **Aston** teması tek dokunuşla indirilir. Seçim hatırlanır ve açılışta geri gelir.
 
 ![Aynı tema açık arka planda](img/clair-theme-hyperos3d.png)
 
@@ -103,9 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.8
+## Yenilikler: 1.8.9
 
-- Yeni « Info » widget'ı (Carbone 3D ve VektraUI): iç/dış PM2.5, iç/dış sıcaklıklar, nem, yükseklik (GPS) ve eğim (eğim ölçer). Varsayılan olarak kapalı — « Widgets » balonundan açılır, orada taşınıp yeniden boyutlandırılabilir. Yalnızca gerçek veriler: bir değer sağlanana kadar « -- », asla uydurma. (PM2.5 ve dış sıcaklık, doğru BYD sinyalleri bağlanana kadar « -- » gösterir.)
+- Proje sayfası: tema görselleri güncel — artık eski görüntüler yerine yayımlanan koddan oluşturulmuş Carbone 3D ve VektraUI (koyu ve açık) gösteriliyor. Uygulama 1.8.8 ile aynı; zaten ondaysan yeniden kurmana gerek yok.
 
 ---
 

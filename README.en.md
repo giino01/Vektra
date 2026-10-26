@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.8** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.9** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -28,9 +28,9 @@ In Sport the mood turns red, a `SPORT` badge appears and the three bottom figure
 
 > The screenshots on this page are **drawn by the code of the published version** at every release, with demo values. They cannot show a version older than the one offered here.
 
-## Eight themes
+## Themes
 
-The **Theme** key cycles through eight cluster layouts: Carbone, Carbone 3D, Grand Tourer, Energy flow, Obsidian, Red Sport, Lumen and Nebula. One press moves to the next. The choice is remembered and comes back at the next start.
+The **Theme** key opens the **Theme Store** and cycles through the installed themes. **Carbone 3D** is the built-in default and **VektraUI** the other built-in theme; the **Aston** theme downloads in one tap. The choice is remembered and comes back at the next start.
 
 ![The same theme on a light background](img/clair-theme-hyperos3d.png)
 
@@ -103,9 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.8
+## What is new in 1.8.9
 
-- New "Info" widget (Carbone 3D and VektraUI): indoor/outdoor PM2.5, indoor/outdoor temperatures, humidity, altitude (GPS) and slope (inclinometer). Disabled by default — enable it in the "Widgets" bubble, where it can also be moved and resized like the others. Real data only: "--" until a value is provided, never an invented one. (PM2.5 and outdoor temperature show "--" until the right BYD signals are wired.)
+- Project page: the theme illustrations are up to date — they now show Carbone 3D and VektraUI (dark and light), rendered from the published code, instead of old captures. The app is identical to 1.8.8; nothing to reinstall if you are already on it.
 
 ---
 

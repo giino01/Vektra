@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.8** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.9** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.9.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -28,9 +28,9 @@ Im Sport-Modus wird die Stimmung rot, ein `SPORT`-Abzeichen erscheint und die dr
 
 > Die Bilder auf dieser Seite werden bei jeder Veröffentlichung **vom Code der veröffentlichten Version gezeichnet**, mit Beispielwerten. Sie können also keine ältere Version zeigen als die hier angebotene.
 
-## Acht Themen
+## Themen
 
-Die Taste **Thema** blättert durch acht Anordnungen: Carbon, Carbon 3D, Grand Tourer, Energiefluss, Obsidian, Rot Sport, Lumen und Nebula. Ein Druck wechselt zur nächsten. Die Wahl wird gemerkt und kehrt beim nächsten Start zurück.
+Die Taste **Thema** öffnet den **Theme Store** und blättert durch die installierten Themen. **Carbone 3D** ist das integrierte Standardthema und **VektraUI** das andere integrierte Thema; das Thema **Aston** wird mit einem Tippen geladen. Die Wahl wird gemerkt und kehrt beim nächsten Start zurück.
 
 ![Dasselbe Thema auf hellem Hintergrund](img/clair-theme-hyperos3d.png)
 
@@ -103,9 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.8
+## Neu in 1.8.9
 
-- Neues Widget „Info" (Carbone 3D und VektraUI): PM2.5 innen/außen, Temperaturen innen/außen, Feuchtigkeit, Höhe (GPS) und Neigung (Neigungsmesser). Standardmäßig deaktiviert — in der Blase „Widgets" aktivierbar, dort auch verschieb- und skalierbar. Nur echte Daten: „--", solange ein Wert fehlt, nie ein erfundener. (PM2.5 und Außentemperatur zeigen „--", bis die richtigen BYD-Signale angebunden sind.)
+- Projektseite: die Themen-Illustrationen sind aktuell — sie zeigen jetzt Carbone 3D und VektraUI (dunkel und hell), aus dem veröffentlichten Code gerendert, statt alter Aufnahmen. Die App ist identisch mit 1.8.8; nichts neu zu installieren, wenn du schon darauf bist.
 
 ---
 

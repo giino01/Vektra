@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.8** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.9** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -28,9 +28,9 @@ Em Sport o ambiente fica vermelho, aparece um emblema `SPORT` e os três valores
 
 > As imagens desta página são **desenhadas pelo código da versão publicada** em cada publicação, com valores de demonstração. Não podem mostrar uma versão mais antiga do que a oferecida aqui.
 
-## Oito temas
+## Os temas
 
-A tecla **Tema** percorre oito disposições do painel: Carbono, Carbono 3D, Grande Turismo, Fluxo de energia, Obsidiana, Vermelho Sport, Lumen e Nebulosa. Um toque passa à seguinte. A escolha fica guardada e volta no arranque.
+A tecla **Tema** abre a **Theme Store** e percorre os temas instalados. **Carbone 3D** é o tema integrado predefinido e **VektraUI** o outro tema integrado; o tema **Aston** descarrega-se com um toque. A escolha fica guardada e volta no arranque.
 
 ![O mesmo tema em fundo claro](img/clair-theme-hyperos3d.png)
 
@@ -103,9 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.8
+## Novidades da 1.8.9
 
-- Novo widget « Info » (Carbone 3D e VektraUI): PM2.5 interior/exterior, temperaturas interior/exterior, humidade, altitude (GPS) e inclinação (inclinómetro). Desativado por predefinição — ativa-se na bolha « Widgets », onde também pode ser movido e redimensionado. Apenas dados reais: « -- » enquanto um valor não for fornecido, nunca inventado. (PM2.5 e temperatura exterior mostram « -- » à espera dos sinais BYD certos.)
+- Página do projeto: as ilustrações dos temas estão atualizadas — mostram agora Carbone 3D e VektraUI (fundo escuro e claro), renderizados a partir do código publicado, em vez de capturas antigas. A aplicação é idêntica à 1.8.8; nada a reinstalar se já a tens.
 
 ---
 
