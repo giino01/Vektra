@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.5** · pubblicata il 26 ottobre 2026 · 43.0 MB
+**VERSIONE 1.8.6** · pubblicata il 26 ottobre 2026 · 43.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.5
+## Novità della 1.8.6
 
-- Quadrante sinistro (VektraUI): riorganizzato in 3 zone invece di 4. Il CHARGE in alto sparisce; ECO prende il vecchio posto di POWER e POWER diventa la zona grande sopra. CHARGE (in basso) resta la rigenerazione. Le tre etichette ora usano lo stesso carattere.
-- Quadrante destro (VektraUI): la velocità sale in modo regolare fino a 220 km/h (prima l'ago si bloccava oltre ~95). Il disco « 90 » è rimosso.
-- Lettore (VektraUI): il pulsante centrale play/pausa segue la riproduzione — due barre quando suona, un triangolo altrimenti.
+- Bordo widget Navigazione: il bordo della mappa ora è sfumato a ovale sullo sfondo invece di un rettangolo netto (Carbone 3D e VektraUI).
+- Widget meteo (VektraUI): il nome della città appare sotto la temperatura.
+- Traduzioni (VektraUI): « in riproduzione » e « batteria » seguono la lingua dell'app.
+- Controllo: la scansione aggiunge un catalogo, in sola lettura, dei dati BYD (ogni metodo getXxx() e il suo valore), per trovare i veri nomi dei dati non ancora mostrati (qualità dell'aria, temperatura abitacolo, altitudine, inclinazione) — nulla viene modificato nell'auto.
 
 ---
 

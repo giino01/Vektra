@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.5** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.6** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.5
+## Neu in 1.8.6
 
-- Linke Anzeige (VektraUI): in 3 Zonen statt 4 umgestellt. Das obere CHARGE entfällt; ECO nimmt den alten Platz von POWER ein und POWER wird die große Zone darüber. CHARGE (unten) bleibt die Rekuperation. Alle drei Beschriftungen nutzen jetzt dieselbe Schriftart.
-- Rechte Anzeige (VektraUI): die Geschwindigkeit steigt gleichmäßig bis 220 km/h (vorher blieb der Zeiger über ~95 stehen). Die „90"-Scheibe ist entfernt.
-- Player (VektraUI): die mittlere Play/Pause-Taste folgt der Wiedergabe — zwei Balken beim Abspielen, sonst ein Dreieck.
+- Rand des Navigations-Widgets: der Kartenrand ist jetzt oval ausgeblendet statt eines scharfen Rechtecks (Carbone 3D und VektraUI).
+- Wetter-Widget (VektraUI): der Ortsname erscheint unter der Temperatur.
+- Übersetzungen (VektraUI): „Wiedergabe" und „Batterie" folgen der App-Sprache.
+- Kontrolle: der Scan fügt einen schreibgeschützten Katalog der BYD-Daten hinzu (jede getXxx()-Methode und ihr Wert), um die echten Namen noch nicht gezeigter Daten zu finden (Luftqualität, Innenraumtemperatur, Höhe, Neigung) — im Auto wird nichts geändert.
 
 ---
 

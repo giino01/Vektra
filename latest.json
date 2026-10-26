@@ -1,42 +1,49 @@
 {
-  "version": "1.8.5",
-  "apk": "Vektra-1.8.5.apk",
+  "version": "1.8.6",
+  "apk": "Vektra-1.8.6.apk",
   "size": 45062601,
   "notes": [
-    "Cadran gauche (VektraUI) : réorganisé en 3 zones au lieu de 4. Le CHARGE du haut disparaît ; ECO prend l'ancienne place de POWER et POWER devient la grande zone au-dessus. CHARGE (bas) reste la régénération. Les trois libellés sont désormais dans la même police.",
-    "Cadran droit (VektraUI) : la vitesse monte régulièrement jusqu'à 220 km/h (avant, l'aiguille se figeait au-delà de ~95). Le disque « 90 » est retiré.",
-    "Lecteur (VektraUI) : le bouton central play/pause suit la lecture — deux barres quand la musique joue, triangle sinon."
+    "Contour du widget Navigation : le bord de la carte est désormais fondu en ovale dans le fond, au lieu d'un rectangle à bords nets (Carbone 3D et VektraUI).",
+    "Widget météo (VektraUI) : le nom de la ville s'affiche sous la température.",
+    "Traductions (VektraUI) : « en lecture » et « batterie » suivent la langue de l'application.",
+    "Contrôle : le scan ajoute un catalogue, en lecture seule, des données BYD (toutes les méthodes getXxx() des appareils et leur valeur). Il sert à repérer les vrais noms des données pas encore affichées (qualité de l'air, température intérieure, altitude, inclinaison) — rien n'est modifié dans la voiture."
   ],
   "notesByLang": {
     "fr": [
-      "Cadran gauche (VektraUI) : réorganisé en 3 zones au lieu de 4. Le CHARGE du haut disparaît ; ECO prend l'ancienne place de POWER et POWER devient la grande zone au-dessus. CHARGE (bas) reste la régénération. Les trois libellés sont désormais dans la même police.",
-      "Cadran droit (VektraUI) : la vitesse monte régulièrement jusqu'à 220 km/h (avant, l'aiguille se figeait au-delà de ~95). Le disque « 90 » est retiré.",
-      "Lecteur (VektraUI) : le bouton central play/pause suit la lecture — deux barres quand la musique joue, triangle sinon."
+      "Contour du widget Navigation : le bord de la carte est désormais fondu en ovale dans le fond, au lieu d'un rectangle à bords nets (Carbone 3D et VektraUI).",
+      "Widget météo (VektraUI) : le nom de la ville s'affiche sous la température.",
+      "Traductions (VektraUI) : « en lecture » et « batterie » suivent la langue de l'application.",
+      "Contrôle : le scan ajoute un catalogue, en lecture seule, des données BYD (toutes les méthodes getXxx() des appareils et leur valeur). Il sert à repérer les vrais noms des données pas encore affichées (qualité de l'air, température intérieure, altitude, inclinaison) — rien n'est modifié dans la voiture."
     ],
     "en": [
-      "Left dial (VektraUI): reorganized into 3 zones instead of 4. The top CHARGE is gone; ECO takes POWER's old place and POWER becomes the large zone above. CHARGE (bottom) stays regeneration. All three labels now use the same font.",
-      "Right dial (VektraUI): speed now rises steadily up to 220 km/h (before, the needle froze past ~95). The \"90\" disc is removed.",
-      "Player (VektraUI): the centre play/pause button follows playback — two bars when playing, a triangle otherwise."
+      "Navigation widget edge: the map border is now feathered into an oval against the background instead of a sharp rectangle (Carbone 3D and VektraUI).",
+      "Weather widget (VektraUI): the city name shows under the temperature.",
+      "Translations (VektraUI): \"now playing\" and \"battery\" follow the app language.",
+      "Control: the scan now adds a read-only catalogue of the BYD data (every device getXxx() method and its value), to find the real names of data not yet shown (air quality, cabin temperature, altitude, tilt) — nothing is changed in the car."
     ],
     "it": [
-      "Quadrante sinistro (VektraUI): riorganizzato in 3 zone invece di 4. Il CHARGE in alto sparisce; ECO prende il vecchio posto di POWER e POWER diventa la zona grande sopra. CHARGE (in basso) resta la rigenerazione. Le tre etichette ora usano lo stesso carattere.",
-      "Quadrante destro (VektraUI): la velocità sale in modo regolare fino a 220 km/h (prima l'ago si bloccava oltre ~95). Il disco « 90 » è rimosso.",
-      "Lettore (VektraUI): il pulsante centrale play/pausa segue la riproduzione — due barre quando suona, un triangolo altrimenti."
+      "Bordo widget Navigazione: il bordo della mappa ora è sfumato a ovale sullo sfondo invece di un rettangolo netto (Carbone 3D e VektraUI).",
+      "Widget meteo (VektraUI): il nome della città appare sotto la temperatura.",
+      "Traduzioni (VektraUI): « in riproduzione » e « batteria » seguono la lingua dell'app.",
+      "Controllo: la scansione aggiunge un catalogo, in sola lettura, dei dati BYD (ogni metodo getXxx() e il suo valore), per trovare i veri nomi dei dati non ancora mostrati (qualità dell'aria, temperatura abitacolo, altitudine, inclinazione) — nulla viene modificato nell'auto."
     ],
     "de": [
-      "Linke Anzeige (VektraUI): in 3 Zonen statt 4 umgestellt. Das obere CHARGE entfällt; ECO nimmt den alten Platz von POWER ein und POWER wird die große Zone darüber. CHARGE (unten) bleibt die Rekuperation. Alle drei Beschriftungen nutzen jetzt dieselbe Schriftart.",
-      "Rechte Anzeige (VektraUI): die Geschwindigkeit steigt gleichmäßig bis 220 km/h (vorher blieb der Zeiger über ~95 stehen). Die „90\"-Scheibe ist entfernt.",
-      "Player (VektraUI): die mittlere Play/Pause-Taste folgt der Wiedergabe — zwei Balken beim Abspielen, sonst ein Dreieck."
+      "Rand des Navigations-Widgets: der Kartenrand ist jetzt oval ausgeblendet statt eines scharfen Rechtecks (Carbone 3D und VektraUI).",
+      "Wetter-Widget (VektraUI): der Ortsname erscheint unter der Temperatur.",
+      "Übersetzungen (VektraUI): „Wiedergabe\" und „Batterie\" folgen der App-Sprache.",
+      "Kontrolle: der Scan fügt einen schreibgeschützten Katalog der BYD-Daten hinzu (jede getXxx()-Methode und ihr Wert), um die echten Namen noch nicht gezeigter Daten zu finden (Luftqualität, Innenraumtemperatur, Höhe, Neigung) — im Auto wird nichts geändert."
     ],
     "pt": [
-      "Mostrador esquerdo (VektraUI): reorganizado em 3 zonas em vez de 4. O CHARGE de cima desaparece; ECO ocupa o antigo lugar de POWER e POWER passa a ser a zona grande acima. CHARGE (em baixo) continua a regeneração. As três etiquetas usam agora a mesma fonte.",
-      "Mostrador direito (VektraUI): a velocidade sobe de forma regular até 220 km/h (antes o ponteiro congelava acima de ~95). O disco « 90 » foi removido.",
-      "Leitor (VektraUI): o botão central play/pausa segue a reprodução — duas barras a tocar, um triângulo caso contrário."
+      "Borda do widget de Navegação: a borda do mapa agora é esbatida em oval no fundo em vez de um retângulo nítido (Carbone 3D e VektraUI).",
+      "Widget de meteorologia (VektraUI): o nome da cidade aparece sob a temperatura.",
+      "Traduções (VektraUI): « a reproduzir » e « bateria » seguem o idioma da aplicação.",
+      "Controlo: a análise acrescenta um catálogo, só de leitura, dos dados BYD (cada método getXxx() e o seu valor), para encontrar os nomes reais dos dados ainda não mostrados (qualidade do ar, temperatura do habitáculo, altitude, inclinação) — nada é alterado no carro."
     ],
     "tr": [
-      "Sol gösterge (VektraUI): 4 yerine 3 bölgeye yeniden düzenlendi. Üstteki CHARGE kaldırıldı; ECO POWER'ın eski yerine geçiyor ve POWER üstteki büyük bölge oluyor. CHARGE (alt) rejenerasyon olarak kalıyor. Üç etiket artık aynı yazı tipini kullanıyor.",
-      "Sağ gösterge (VektraUI): hız artık 220 km/s'ye kadar düzenli yükseliyor (önceden ibre ~95'in üzerinde donuyordu). « 90 » diski kaldırıldı.",
-      "Oynatıcı (VektraUI): ortadaki oynat/duraklat düğmesi oynatmayı izliyor — çalarken iki çubuk, aksi halde üçgen."
+      "Navigasyon widget'ı kenarı: harita kenarı artık keskin bir dikdörtgen yerine arka planda ovale doğru yumuşatılıyor (Carbone 3D ve VektraUI).",
+      "Hava durumu widget'ı (VektraUI): şehir adı sıcaklığın altında görünüyor.",
+      "Çeviriler (VektraUI): « çalıyor » ve « batarya » uygulama diline uyuyor.",
+      "Kontrol: tarama, BYD verilerinin salt okunur bir kataloğunu ekliyor (her getXxx() yöntemi ve değeri), henüz gösterilmeyen verilerin (hava kalitesi, kabin sıcaklığı, yükseklik, eğim) gerçek adlarını bulmak için — arabada hiçbir şey değiştirilmez."
     ]
   }
 }
