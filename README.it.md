@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.7.8** · pubblicata il 26 ottobre 2026 · 37.2 MB
+**VERSIONE 1.7.9** · pubblicata il 26 ottobre 2026 · 36.5 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.7.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.7.8
+## Novità della 1.7.9
 
-- Nuovo motore tema 3D importabile « VektraUI » (VektraUI.zip) : supporto nativo per il pacchetto VektraUI.zip tramite Impostazioni → Importa tema, con animazioni 3D fluide a 60 FPS per gli indicatori kW (rigenerazione e potenza) e km/h (0..220) e collegamento completo ai sensori hardware BYD in tempo reale.
+- « VektraUI » integrato come 2° tema nella pagina iniziale con lo stesso sfondo configurato per Carbonio 3D (rimosso lo sfondo nero).
 
 ---
 

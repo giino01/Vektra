@@ -1,43 +1,31 @@
 {
-  "version": "1.7.8",
-  "apk": "Vektra-1.7.8.apk",
-  "size": 38997281,
+  "version": "1.7.9",
+  "apk": "Vektra-1.7.9.apk",
+  "size": 38274065,
   "notes": [
-    "Nouveau moteur de thème 3D importable « VektraUI » (VektraUI.zip) : prise en charge native du pack VektraUI.zip via Réglages → Importer thème, reproduisant à 100 % le design photoréaliste validé (sans zone centrale de navigation ni bandeaux radars) avec ses plaques 3D haute définition (vektra_ui_base.png + vektra_ui_lit.png + theme.json).",
-    "Animations 3D fluides (60 FPS) des jauges kW et km/h :",
-    "Jauge gauche kW (CHARGE / POWER / ECO / boost) : remplissage néon 3D bidirectionnel depuis le point 0 kW (180°) — vers le haut en vert émeraude lors de la régénération au freinage (-kW) et vers la droite/bas en cyan-vert lors de l'accélération (+kW) — accompagné d'un curseur laser 3D lumineux et de l'affichage numérique central en temps réel.",
-    "Jauge droite km/h (0..220) : double anneau néon 3D cyan/orange qui se remplit progressivement de 0 à 220 km/h avec curseur laser 3D, panneau de limitation de vitesse dynamique et compteur numérique central géant.",
-    "Connexion intégrale au matériel BYD en temps réel : vitesse (getCurrentSpeed), puissance/régénération moteur (getEnginePower), batterie SOC % + autonomie EV + consommation kWh/100 (getElecPercentageValue, getElecDrivingRangeValue, getLastElecConPHMValue) avec barre lumineuse proportionnelle au % de batterie, pressions des 4 pneus TPMS (getTyrePressureValue#1..4), lecteur média (NOW PLAYING), météo GPS (Weather.report) et panneau de limitation (NavigationManager.currentRoadSpeedLimit).",
-    "Tous les widgets individuels compatibles avec la bulle « 🧩 Widgets » et le mode « Édition » : chaque widget de VektraUI (Compteur, Musique, Pneus, Statistiques, Météo, Navigation, Date) peut être activé/désactivé, déplacé ou redimensionné indépendamment."
+    "« VektraUI » intégré en 2e thème officiel sur la page d'accueil : la touche Thème sur la page d'accueil (Combiné) permet désormais de basculer directement en un clic entre Carbone 3D et VektraUI comme auparavant.",
+    "Suppression du fond noir de VektraUI & partage du fond de Carbone 3D : les plaques 3D de VektraUI (vektra_ui_base.png et vektra_ui_lit.png) sont désormais en transparence alpha haute précision (RGBA), de sorte que VektraUI utilise exactement le même fond (sombre, clair BYD ou fond personnalisé) que celui configuré pour Carbone 3D."
   ],
   "notesByLang": {
     "fr": [
-      "Nouveau moteur de thème 3D importable « VektraUI » (VektraUI.zip) : prise en charge native du pack VektraUI.zip via Réglages → Importer thème, reproduisant à 100 % le design photoréaliste validé (sans zone centrale de navigation ni bandeaux radars) avec ses plaques 3D haute définition (vektra_ui_base.png + vektra_ui_lit.png + theme.json).",
-      "Animations 3D fluides (60 FPS) des jauges kW et km/h :",
-      "Jauge gauche kW (CHARGE / POWER / ECO / boost) : remplissage néon 3D bidirectionnel depuis le point 0 kW (180°) — vers le haut en vert émeraude lors de la régénération au freinage (-kW) et vers la droite/bas en cyan-vert lors de l'accélération (+kW) — accompagné d'un curseur laser 3D lumineux et de l'affichage numérique central en temps réel.",
-      "Jauge droite km/h (0..220) : double anneau néon 3D cyan/orange qui se remplit progressivement de 0 à 220 km/h avec curseur laser 3D, panneau de limitation de vitesse dynamique et compteur numérique central géant.",
-      "Connexion intégrale au matériel BYD en temps réel : vitesse (getCurrentSpeed), puissance/régénération moteur (getEnginePower), batterie SOC % + autonomie EV + consommation kWh/100 (getElecPercentageValue, getElecDrivingRangeValue, getLastElecConPHMValue) avec barre lumineuse proportionnelle au % de batterie, pressions des 4 pneus TPMS (getTyrePressureValue#1..4), lecteur média (NOW PLAYING), météo GPS (Weather.report) et panneau de limitation (NavigationManager.currentRoadSpeedLimit).",
-      "Tous les widgets individuels compatibles avec la bulle « 🧩 Widgets » et le mode « Édition » : chaque widget de VektraUI (Compteur, Musique, Pneus, Statistiques, Météo, Navigation, Date) peut être activé/désactivé, déplacé ou redimensionné indépendamment."
+      "« VektraUI » intégré en 2e thème officiel sur la page d'accueil : la touche Thème sur la page d'accueil (Combiné) permet désormais de basculer directement en un clic entre Carbone 3D et VektraUI comme auparavant.",
+      "Suppression du fond noir de VektraUI & partage du fond de Carbone 3D : les plaques 3D de VektraUI (vektra_ui_base.png et vektra_ui_lit.png) sont désormais en transparence alpha haute précision (RGBA), de sorte que VektraUI utilise exactement le même fond (sombre, clair BYD ou fond personnalisé) que celui configuré pour Carbone 3D."
     ],
     "en": [
-      "New importable 3D theme engine \"VektraUI\" (VektraUI.zip): native support for VektraUI.zip via Settings → Import theme, reproducing 100% of the approved photorealistic design (without the central navigation map or radar banners) with dual HD 3D plates (vektra_ui_base.png + vektra_ui_lit.png + theme.json).",
-      "Smooth 60 FPS 3D gauge animations for kW and km/h:",
-      "Left kW gauge (CHARGE / POWER / ECO / boost): bidirectional 3D neon fill from the 0 kW split (180°) — sweeping upward in emerald green during regenerative braking (-kW) and clockwise in cyan-green during acceleration (+kW) — with a 3D laser cursor and live digital readout.",
-      "Right km/h gauge (0..220): dual cyan/amber 3D neon rings progressively filling from 0 to 220 km/h with a 3D laser cursor, dynamic speed limit sign, and giant center digital readout.",
-      "Full real-time BYD hardware telemetry binding: speed (getCurrentSpeed), motor power/regen (getEnginePower), battery SOC % + EV range + kWh/100 consumption with proportional glowing battery pill border, 4-wheel TPMS tyre pressures (getTyrePressureValue#1..4), media player (NOW PLAYING), GPS weather, and road speed limit.",
-      "Full compatibility with the \"🧩 Widgets\" bubble and \"Edit\" mode: every VektraUI widget can be toggled, moved, or resized individually."
+      "\"VektraUI\" integrated as the 2nd built-in theme on the home page: the Theme button on the home page (Cluster) now switches directly between Carbon 3D and VektraUI with a single tap.",
+      "Removed black background in VektraUI & shared Carbon 3D background: VektraUI 3D plates (vektra_ui_base.png and vektra_ui_lit.png) now use true alpha transparency (RGBA), sharing the exact same background configured for Carbon 3D."
     ],
     "it": [
-      "Nuovo motore tema 3D importabile « VektraUI » (VektraUI.zip) : supporto nativo per il pacchetto VektraUI.zip tramite Impostazioni → Importa tema, con animazioni 3D fluide a 60 FPS per gli indicatori kW (rigenerazione e potenza) e km/h (0..220) e collegamento completo ai sensori hardware BYD in tempo reale."
+      "« VektraUI » integrato come 2° tema nella pagina iniziale con lo stesso sfondo configurato per Carbonio 3D (rimosso lo sfondo nero)."
     ],
     "de": [
-      "Neue importierbare 3D-Themen-Engine „VektraUI“ (VektraUI.zip): native Unterstützung für VektraUI.zip über Einstellungen → Thema importieren, mit flüssigen 60-FPS-3D-Animationen für die kW- und km/h-Anzeigen sowie vollständiger Echtzeit-Anbindung an die BYD-Fahrzeugsensoren."
+      "„VektraUI“ als 2. Thema auf der Startseite integriert, mit exakt demselben Hintergrund wie Karbon 3D (schwarzer Hintergrund entfernt)."
     ],
     "pt": [
-      "Novo motor de tema 3D importável « VektraUI » (VektraUI.zip): suporte nativo para VektraUI.zip via Ajustes → Importar tema, com animações 3D fluidas a 60 FPS para os medidores de kW e km/h e ligação completa aos sensores BYD em tempo real."
+      "« VektraUI » integrado como 2.º tema na página inicial, com exatamente o mesmo fundo configurado para Carbono 3D (fundo preto removido)."
     ],
     "tr": [
-      "Yeni içe aktarılabilir 3D tema motoru \"VektraUI\" (VektraUI.zip): Ayarlar → Tema içe aktar üzerinden VektraUI.zip desteği, kW ve km/h göstergeleri için akıcı 60 FPS 3D animasyonlar ve BYD araç sensörleriyle tam gerçek zamanlı bağlantı."
+      "\"VektraUI\" ana sayfada 2. tema olarak eklendi ve siyah arka plan kaldırılarak Karbon 3D ile birebir aynı arka plan kullanıldı."
     ]
   }
 }

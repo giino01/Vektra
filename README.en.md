@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.7.8** · released on 26 October 2026 · 37.2 MB
+**VERSION 1.7.9** · released on 26 October 2026 · 36.5 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,10 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.7.8
+## What is new in 1.7.9
 
-- New importable 3D theme engine "VektraUI" (VektraUI.zip): native support for VektraUI.zip via Settings → Import theme, reproducing 100% of the approved photorealistic design (without the central navigation map or radar banners) with dual HD 3D plates (vektra_ui_base.png + vektra_ui_lit.png + theme.json).
-- Smooth 60 FPS 3D gauge animations for kW and km/h:
-- Left kW gauge (CHARGE / POWER / ECO / boost): bidirectional 3D neon fill from the 0 kW split (180°) — sweeping upward in emerald green during regenerative braking (-kW) and clockwise in cyan-green during acceleration (+kW) — with a 3D laser cursor and live digital readout.
-- Right km/h gauge (0..220): dual cyan/amber 3D neon rings progressively filling from 0 to 220 km/h with a 3D laser cursor, dynamic speed limit sign, and giant center digital readout.
-- Full real-time BYD hardware telemetry binding: speed (getCurrentSpeed), motor power/regen (getEnginePower), battery SOC % + EV range + kWh/100 consumption with proportional glowing battery pill border, 4-wheel TPMS tyre pressures (getTyrePressureValue#1..4), media player (NOW PLAYING), GPS weather, and road speed limit.
-- Full compatibility with the "🧩 Widgets" bubble and "Edit" mode: every VektraUI widget can be toggled, moved, or resized individually.
+- "VektraUI" integrated as the 2nd built-in theme on the home page: the Theme button on the home page (Cluster) now switches directly between Carbon 3D and VektraUI with a single tap.
+- Removed black background in VektraUI & shared Carbon 3D background: VektraUI 3D plates (vektra_ui_base.png and vektra_ui_lit.png) now use true alpha transparency (RGBA), sharing the exact same background configured for Carbon 3D.
 
 ---
 

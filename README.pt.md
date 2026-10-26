@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.7.8** · publicada a 26 de outubro de 2026 · 37.2 MB
+**VERSÃO 1.7.9** · publicada a 26 de outubro de 2026 · 36.5 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.7.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.7.8
+## Novidades da 1.7.9
 
-- Novo motor de tema 3D importável « VektraUI » (VektraUI.zip): suporte nativo para VektraUI.zip via Ajustes → Importar tema, com animações 3D fluidas a 60 FPS para os medidores de kW e km/h e ligação completa aos sensores BYD em tempo real.
+- « VektraUI » integrado como 2.º tema na página inicial, com exatamente o mesmo fundo configurado para Carbono 3D (fundo preto removido).
 
 ---
 
