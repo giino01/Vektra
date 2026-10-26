@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.1** · publiée le 26 octobre 2026 · 43.0 Mo
+**VERSION 1.8.2** · publiée le 26 octobre 2026 · 43.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,9 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.1
+## Nouveautés de la 1.8.2
 
-- Theme Store : nouvelle section dans le menu de gauche, ouverte aussi par la touche « Thème ». Carbone 3D reste le thème intégré par défaut ; le thème Aston se télécharge en un geste, avec aperçu, taille, progression, Appliquer, Mettre à jour et Supprimer. Chaque thème est vérifié (signature Vektra) avant d'être installé ; un fichier .vektra reçu autrement s'installe aussi par « Importer thème ». Les prochains thèmes arriveront par le même chemin.
-- Carte Vektra 3D : une carte fluide dessinée directement par la tablette, avec bâtiments en 3D, qui suit la voiture en continu. C'est maintenant la carte de tous les écrans : onglet « Navigation », widget Navigation de Carbone 3D, thème Aston et carte plein combiné ; la flèche reste sur la route où l'on roule et la ligne bleue part de la flèche (la partie déjà parcourue disparaît). Nouvelle section « Carte » dans les Réglages : style, bâtiments 3D et zoom.
-- Thème Aston (dans le Theme Store) : deux compteurs, rapport P R N D, témoins, et au centre la musique, la météo ou la carte ; une navigation lancée depuis la tablette est reprise sur le combiné (prochaine direction, distance, temps restant, heure d'arrivée, radars réels).
-- Navigation : le guidage suit maintenant la voiture le long de l'itinéraire. La prochaine direction avance au fil du trajet, la distance et le temps restants sont mesurés sur l'itinéraire, chaque manœuvre est annoncée et l'arrivée est signalée. L'itinéraire est recalculé automatiquement quand on sort du trajet ou qu'on le prend à contresens, dans le sens où roule la voiture. La carte ne ralentit plus à chaque position GPS.
-- Plus aucune valeur inventée : sans donnée de la voiture, les écrans affichent « -- » au lieu d'une vitesse, d'une batterie, d'une pression de pneus, d'une limitation ou d'un morceau de démonstration ; plus de faux radars ajoutés sur l'itinéraire ni annoncés à voix haute ; le rapport M ou S n'est plus affiché « D ».
-- Import de widgets et de thèmes : lecture en arrière-plan (un gros fichier ne fige plus l'écran), taille limitée, image réduite à la taille du combiné ; formats réellement pris en charge indiqués (images, widget Vektra .json, disposition .json, .zip, .vektra) ; un widget KWGT, SVG, HTML ou XML est refusé avec une explication au lieu d'être accepté sans effet.
-- Édition : un widget masqué ou non importé ne capte plus les touchers, le grand widget Navigation ne garde plus la sélection, le zoom général n'est plus appliqué deux fois aux bords de la carte, et l'aperçu de la tablette n'a plus de trou à la place de la carte.
-- Interface : toutes les fenêtres (voix, langue des voix, import, variables, source des mises à jour, don) et tous les messages sont au style de l'app ; le clavier s'ouvre bien sur le champ d'adresse.
-- Affichage sur le combiné : l'affichage complet de VEKTRA revient tout seul sur le combiné quand le lancement automatique relance l'application (il pouvait rester éteint), et la carte ne disparaît plus après un redémarrage ; VektraUI s'affiche proprement, sans élément de Carbone 3D par-dessus.
+- Fenêtre de mise à jour : elle défile désormais. Quand le changelog est long, le bouton « Télécharger et installer » restait sous le bord de l'écran, hors d'atteinte faute de défilement ; il est de nouveau accessible. Toutes les autres fenêtres (voix, langue, import, don…) défilent aussi quand leur contenu dépasse l'écran.
 
 ---
 

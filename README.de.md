@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.1** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.2** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.1
+## Neu in 1.8.2
 
-- Theme Store: neuer Bereich im linken Menü, auch über die Taste „Thema“ erreichbar. Karbon 3D bleibt das integrierte Standardthema; das Thema Aston lässt sich mit einem Tippen herunterladen, mit Vorschau, Größe, Fortschritt, Anwenden, Aktualisieren und Entfernen. Jedes Thema wird vor der Installation geprüft (Vektra-Signatur); eine anders erhaltene .vektra-Datei lässt sich auch über „Thema importieren“ installieren. Kommende Themen kommen auf demselben Weg.
-- Vektra-3D-Karte: eine flüssige Karte, direkt vom Tablet gezeichnet, mit 3D-Gebäuden, die dem Auto ständig folgt. Sie ist jetzt die Karte aller Bildschirme: Reiter „Navigation“, Navigations-Widget von Karbon 3D, Aston-Thema und Karte im ganzen Kombi; der Pfeil bleibt auf der befahrenen Straße und die blaue Linie beginnt am Pfeil (der gefahrene Teil verschwindet). Neuer Bereich „Karte“ in den Einstellungen: Stil, 3D-Gebäude und Zoom.
-- Aston-Thema (im Theme Store): zwei Anzeigen, Fahrstufe P R N D, Warnleuchten und in der Mitte Musik, Wetter oder Karte; eine auf dem Tablet gestartete Route erscheint im Kombiinstrument (nächste Abbiegung, Entfernung, Restzeit, Ankunftszeit, echte Blitzer).
-- Navigation: die Führung folgt dem Auto jetzt entlang der Route. Die nächste Anweisung rückt während der Fahrt vor, Restentfernung und Restzeit werden auf der Route gemessen, jedes Manöver wird angesagt und die Ankunft gemeldet. Die Route wird automatisch neu berechnet, wenn man sie verlässt oder in falscher Richtung fährt, in Fahrtrichtung des Autos. Die Karte wird nicht mehr bei jeder GPS-Position langsamer.
-- Keine erfundenen Werte mehr: ohne Fahrzeugdaten zeigen die Bildschirme „--“ statt einer Demo-Geschwindigkeit, -Batterie, eines Reifendrucks, Tempolimits oder Titels; keine falschen Blitzer mehr auf der Route oder als Ansage; Fahrstufe M oder S wird nicht mehr als „D“ angezeigt.
-- Import von Widgets und Themen: Lesen im Hintergrund (eine große Datei friert den Bildschirm nicht mehr ein), Größe begrenzt, Bilder auf Kombigröße verkleinert; die tatsächlich unterstützten Formate werden genannt (Bilder, Vektra-Widget .json, Anordnung .json, .zip, .vektra); ein KWGT-, SVG-, HTML- oder XML-Widget wird mit Erklärung abgelehnt.
-- Bearbeiten: ein ausgeblendetes oder nicht importiertes Widget fängt keine Berührungen mehr ab, das große Navigations-Widget behält die Auswahl nicht mehr, der Gesamtzoom wird nicht mehr doppelt auf die Kartenränder angewendet, und die Tablet-Vorschau hat kein Loch mehr anstelle der Karte.
-- Oberfläche: alle Fenster (Stimme, Sprache der Stimme, Import, Variablen, Update-Quelle, Spende) und alle Meldungen im Stil der App; die Tastatur öffnet sich im Adressfeld.
-- Anzeige im Kombiinstrument: die vollständige VEKTRA-Anzeige kehrt von selbst zurück, wenn der Autostart die App neu startet (sie konnte schwarz bleiben), und die Karte verschwindet nach einem Neustart nicht mehr; VektraUI wird jetzt sauber dargestellt, ohne Karbon-3D-Elemente darüber.
+- Update-Fenster: es scrollt jetzt. Bei einem langen Changelog lag die Schaltfläche „Herunterladen und installieren" unter dem Bildschirmrand und war ohne Scrollen nicht erreichbar; sie ist wieder zugänglich. Auch alle anderen Fenster (Stimme, Sprache, Import, Spende…) scrollen, wenn ihr Inhalt über den Bildschirm hinausgeht.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.1** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.2** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.1
+## What is new in 1.8.2
 
-- Theme Store: a new section in the left menu, also opened by the "Theme" key. Carbon 3D stays the built-in default theme; the Aston theme is downloaded in one tap, with preview, size, progress, Apply, Update and Remove. Every theme is verified (Vektra signature) before it is installed; a .vektra file received another way can also be installed with "Import theme". Upcoming themes will arrive the same way.
-- Vektra 3D map: a smooth map drawn directly by the tablet, with 3D buildings, that follows the car continuously. It is now the map of every screen: "Navigation" tab, Carbon 3D Navigation widget, Aston theme and full-cluster map; the arrow stays on the road you are driving on and the blue line starts at the arrow (the part already driven disappears). New "Map" section in Settings: style, 3D buildings and zoom.
-- Aston theme (in the Theme Store): two dials, P R N D gear, warning lights, and music, weather or the map in the centre; a route started on the tablet is shown on the cluster (next turn, distance, remaining time, arrival time, real speed cameras).
-- Navigation: guidance now follows the car along the route. The next turn advances as you drive, remaining distance and time are measured along the route, every manoeuvre is announced and arrival is signalled. The route is recalculated automatically when you leave it or drive it the wrong way, in the direction the car is going. The map no longer slows down at every GPS fix.
-- No more invented values: without car data, screens show "--" instead of a demo speed, battery, tyre pressure, speed limit or track; no more fake speed cameras added to the route or announced aloud; gear M or S is no longer shown as "D".
-- Widget and theme import: read in the background (a large file no longer freezes the screen), size-limited, images reduced to the cluster size; the formats actually supported are listed (images, Vektra .json widget, .json layout, .zip, .vektra); a KWGT, SVG, HTML or XML widget is refused with an explanation instead of being accepted with no effect.
-- Edit mode: a hidden or not-imported widget no longer catches touches, the large Navigation widget no longer keeps the selection, the global zoom is no longer applied twice to the map edges, and the tablet preview no longer has a hole where the map should be.
-- Interface: every window (voice, voice language, import, variables, update source, donation) and every message now uses the app's style; the keyboard opens properly on the address field.
-- Cluster display: the full VEKTRA display comes back by itself on the cluster when auto-start relaunches the app (it could stay blank), and the map no longer disappears after a restart; VektraUI now renders cleanly, with no Carbon 3D elements on top.
+- Update window: it now scrolls. With a long changelog the "Download and install" button sat below the edge of the screen, out of reach because nothing scrolled; it is reachable again. Every other window (voice, language, import, donation…) also scrolls when its content runs past the screen.
 
 ---
 
