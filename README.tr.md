@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.4** · yayın tarihi 26 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.5** · yayın tarihi 26 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.4
+## Yenilikler: 1.8.5
 
-- Batarya hapı (VektraUI): bir DM-i için benzin L/100 tüketimi artık elektrik kWh/100 tüketiminin yanında gösteriliyor. Bir EV yalnızca kWh/100 değerini korur. L/100 değeri yalnızca araç sağlıyorsa görünür — hiçbir şey uydurulmaz. Metin, hapın içine sığacak kadar küçülür.
+- Sol gösterge (VektraUI): 4 yerine 3 bölgeye yeniden düzenlendi. Üstteki CHARGE kaldırıldı; ECO POWER'ın eski yerine geçiyor ve POWER üstteki büyük bölge oluyor. CHARGE (alt) rejenerasyon olarak kalıyor. Üç etiket artık aynı yazı tipini kullanıyor.
+- Sağ gösterge (VektraUI): hız artık 220 km/s'ye kadar düzenli yükseliyor (önceden ibre ~95'in üzerinde donuyordu). « 90 » diski kaldırıldı.
+- Oynatıcı (VektraUI): ortadaki oynat/duraklat düğmesi oynatmayı izliyor — çalarken iki çubuk, aksi halde üçgen.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.4** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.5** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.5.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.4
+## Novidades da 1.8.5
 
-- Pílula da bateria (VektraUI): para uma DM-i, o consumo térmico L/100 passa a ser mostrado ao lado do consumo elétrico kWh/100. Uma EV mantém apenas o kWh/100. O valor L/100 só aparece se o carro o fornecer — nada é inventado. O texto encolhe apenas o necessário para caber na pílula.
+- Mostrador esquerdo (VektraUI): reorganizado em 3 zonas em vez de 4. O CHARGE de cima desaparece; ECO ocupa o antigo lugar de POWER e POWER passa a ser a zona grande acima. CHARGE (em baixo) continua a regeneração. As três etiquetas usam agora a mesma fonte.
+- Mostrador direito (VektraUI): a velocidade sobe de forma regular até 220 km/h (antes o ponteiro congelava acima de ~95). O disco « 90 » foi removido.
+- Leitor (VektraUI): o botão central play/pausa segue a reprodução — duas barras a tocar, um triângulo caso contrário.
 
 ---
 

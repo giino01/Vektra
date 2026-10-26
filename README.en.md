@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.4** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.5** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.4
+## What is new in 1.8.5
 
-- Battery pill (VektraUI): for a DM-i, the petrol L/100 consumption is now shown next to the electric kWh/100. An EV keeps the kWh/100 only. The L/100 figure appears only if the car provides it — nothing is invented. The text shrinks just enough to fit the pill.
+- Left dial (VektraUI): reorganized into 3 zones instead of 4. The top CHARGE is gone; ECO takes POWER's old place and POWER becomes the large zone above. CHARGE (bottom) stays regeneration. All three labels now use the same font.
+- Right dial (VektraUI): speed now rises steadily up to 220 km/h (before, the needle froze past ~95). The "90" disc is removed.
+- Player (VektraUI): the centre play/pause button follows playback — two bars when playing, a triangle otherwise.
 
 ---
 

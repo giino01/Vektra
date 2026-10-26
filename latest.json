@@ -1,28 +1,42 @@
 {
-  "version": "1.8.4",
-  "apk": "Vektra-1.8.4.apk",
-  "size": 45086493,
+  "version": "1.8.5",
+  "apk": "Vektra-1.8.5.apk",
+  "size": 45062601,
   "notes": [
-    "Pastille batterie (VektraUI) : pour une DM-i, la consommation thermique L/100 s'ajoute désormais à côté de la consommation électrique kWh/100. Une EV garde la seule consommation kWh/100. La valeur L/100 n'apparaît que si la voiture la fournit — rien n'est inventé. Le texte se réduit juste ce qu'il faut pour tenir dans la pastille."
+    "Cadran gauche (VektraUI) : réorganisé en 3 zones au lieu de 4. Le CHARGE du haut disparaît ; ECO prend l'ancienne place de POWER et POWER devient la grande zone au-dessus. CHARGE (bas) reste la régénération. Les trois libellés sont désormais dans la même police.",
+    "Cadran droit (VektraUI) : la vitesse monte régulièrement jusqu'à 220 km/h (avant, l'aiguille se figeait au-delà de ~95). Le disque « 90 » est retiré.",
+    "Lecteur (VektraUI) : le bouton central play/pause suit la lecture — deux barres quand la musique joue, triangle sinon."
   ],
   "notesByLang": {
     "fr": [
-      "Pastille batterie (VektraUI) : pour une DM-i, la consommation thermique L/100 s'ajoute désormais à côté de la consommation électrique kWh/100. Une EV garde la seule consommation kWh/100. La valeur L/100 n'apparaît que si la voiture la fournit — rien n'est inventé. Le texte se réduit juste ce qu'il faut pour tenir dans la pastille."
+      "Cadran gauche (VektraUI) : réorganisé en 3 zones au lieu de 4. Le CHARGE du haut disparaît ; ECO prend l'ancienne place de POWER et POWER devient la grande zone au-dessus. CHARGE (bas) reste la régénération. Les trois libellés sont désormais dans la même police.",
+      "Cadran droit (VektraUI) : la vitesse monte régulièrement jusqu'à 220 km/h (avant, l'aiguille se figeait au-delà de ~95). Le disque « 90 » est retiré.",
+      "Lecteur (VektraUI) : le bouton central play/pause suit la lecture — deux barres quand la musique joue, triangle sinon."
     ],
     "en": [
-      "Battery pill (VektraUI): for a DM-i, the petrol L/100 consumption is now shown next to the electric kWh/100. An EV keeps the kWh/100 only. The L/100 figure appears only if the car provides it — nothing is invented. The text shrinks just enough to fit the pill."
+      "Left dial (VektraUI): reorganized into 3 zones instead of 4. The top CHARGE is gone; ECO takes POWER's old place and POWER becomes the large zone above. CHARGE (bottom) stays regeneration. All three labels now use the same font.",
+      "Right dial (VektraUI): speed now rises steadily up to 220 km/h (before, the needle froze past ~95). The \"90\" disc is removed.",
+      "Player (VektraUI): the centre play/pause button follows playback — two bars when playing, a triangle otherwise."
     ],
     "it": [
-      "Pillola batteria (VektraUI): per una DM-i, il consumo termico L/100 è ora mostrato accanto al consumo elettrico kWh/100. Una EV mantiene solo il kWh/100. Il valore L/100 appare solo se l'auto lo fornisce — nulla è inventato. Il testo si riduce quanto basta per entrare nella pillola."
+      "Quadrante sinistro (VektraUI): riorganizzato in 3 zone invece di 4. Il CHARGE in alto sparisce; ECO prende il vecchio posto di POWER e POWER diventa la zona grande sopra. CHARGE (in basso) resta la rigenerazione. Le tre etichette ora usano lo stesso carattere.",
+      "Quadrante destro (VektraUI): la velocità sale in modo regolare fino a 220 km/h (prima l'ago si bloccava oltre ~95). Il disco « 90 » è rimosso.",
+      "Lettore (VektraUI): il pulsante centrale play/pausa segue la riproduzione — due barre quando suona, un triangolo altrimenti."
     ],
     "de": [
-      "Batterie-Pille (VektraUI): bei einer DM-i wird der Benzinverbrauch L/100 nun neben dem Stromverbrauch kWh/100 angezeigt. Eine EV behält nur den kWh/100-Wert. Der L/100-Wert erscheint nur, wenn das Auto ihn liefert — nichts wird erfunden. Der Text verkleinert sich gerade so weit, dass er in die Pille passt."
+      "Linke Anzeige (VektraUI): in 3 Zonen statt 4 umgestellt. Das obere CHARGE entfällt; ECO nimmt den alten Platz von POWER ein und POWER wird die große Zone darüber. CHARGE (unten) bleibt die Rekuperation. Alle drei Beschriftungen nutzen jetzt dieselbe Schriftart.",
+      "Rechte Anzeige (VektraUI): die Geschwindigkeit steigt gleichmäßig bis 220 km/h (vorher blieb der Zeiger über ~95 stehen). Die „90\"-Scheibe ist entfernt.",
+      "Player (VektraUI): die mittlere Play/Pause-Taste folgt der Wiedergabe — zwei Balken beim Abspielen, sonst ein Dreieck."
     ],
     "pt": [
-      "Pílula da bateria (VektraUI): para uma DM-i, o consumo térmico L/100 passa a ser mostrado ao lado do consumo elétrico kWh/100. Uma EV mantém apenas o kWh/100. O valor L/100 só aparece se o carro o fornecer — nada é inventado. O texto encolhe apenas o necessário para caber na pílula."
+      "Mostrador esquerdo (VektraUI): reorganizado em 3 zonas em vez de 4. O CHARGE de cima desaparece; ECO ocupa o antigo lugar de POWER e POWER passa a ser a zona grande acima. CHARGE (em baixo) continua a regeneração. As três etiquetas usam agora a mesma fonte.",
+      "Mostrador direito (VektraUI): a velocidade sobe de forma regular até 220 km/h (antes o ponteiro congelava acima de ~95). O disco « 90 » foi removido.",
+      "Leitor (VektraUI): o botão central play/pausa segue a reprodução — duas barras a tocar, um triângulo caso contrário."
     ],
     "tr": [
-      "Batarya hapı (VektraUI): bir DM-i için benzin L/100 tüketimi artık elektrik kWh/100 tüketiminin yanında gösteriliyor. Bir EV yalnızca kWh/100 değerini korur. L/100 değeri yalnızca araç sağlıyorsa görünür — hiçbir şey uydurulmaz. Metin, hapın içine sığacak kadar küçülür."
+      "Sol gösterge (VektraUI): 4 yerine 3 bölgeye yeniden düzenlendi. Üstteki CHARGE kaldırıldı; ECO POWER'ın eski yerine geçiyor ve POWER üstteki büyük bölge oluyor. CHARGE (alt) rejenerasyon olarak kalıyor. Üç etiket artık aynı yazı tipini kullanıyor.",
+      "Sağ gösterge (VektraUI): hız artık 220 km/s'ye kadar düzenli yükseliyor (önceden ibre ~95'in üzerinde donuyordu). « 90 » diski kaldırıldı.",
+      "Oynatıcı (VektraUI): ortadaki oynat/duraklat düğmesi oynatmayı izliyor — çalarken iki çubuk, aksi halde üçgen."
     ]
   }
 }
