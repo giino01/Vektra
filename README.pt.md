@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.7** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.8** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.7
+## Novidades da 1.8.8
 
-- Pré-visualização do painel (tablet): a pré-visualização agora captura diretamente a janela do painel (PixelCopy), incluindo o mapa 3D OpenGL. Mostra exatamente o que está no painel, navegação ativa incluída — antes, o mapa ao vivo faltava e uma cena desenhada substituía-o. Recua para a cópia antiga se a captura não for possível.
-- Theme Store: as ilustrações de Carbone 3D e VektraUI são renderizadas a partir do código real do tema (mostradores, widgets), portanto exatas. Recua para a imagem fixa em caso de falha.
+- Novo widget « Info » (Carbone 3D e VektraUI): PM2.5 interior/exterior, temperaturas interior/exterior, humidade, altitude (GPS) e inclinação (inclinómetro). Desativado por predefinição — ativa-se na bolha « Widgets », onde também pode ser movido e redimensionado. Apenas dados reais: « -- » enquanto um valor não for fornecido, nunca inventado. (PM2.5 e temperatura exterior mostram « -- » à espera dos sinais BYD certos.)
 
 ---
 

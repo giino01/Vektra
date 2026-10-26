@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.7** · pubblicata il 26 ottobre 2026 · 43.0 MB
+**VERSIONE 1.8.8** · pubblicata il 26 ottobre 2026 · 43.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.7
+## Novità della 1.8.8
 
-- Anteprima quadro strumenti (tablet): l'anteprima ora cattura direttamente la finestra del quadro (PixelCopy), mappa 3D OpenGL compresa. Mostra esattamente ciò che è sul quadro, navigazione attiva inclusa — prima la mappa dal vivo mancava e una scena disegnata la sostituiva. Ripiego automatico sulla vecchia copia se la cattura non è possibile.
-- Theme Store: le illustrazioni di Carbone 3D e VektraUI sono renderizzate dal vero codice del tema (quadranti, widget), quindi esatte. Ripiego sull'immagine fissa in caso di errore.
+- Nuovo widget « Info » (Carbone 3D e VektraUI): PM2.5 interno/esterno, temperature interna/esterna, umidità, altitudine (GPS) e pendenza (inclinometro). Disattivato per impostazione predefinita — si attiva nella bolla « Widgets », dove può anche essere spostato e ridimensionato. Solo dati reali: « -- » finché un valore non è disponibile, mai inventato. (PM2.5 e temperatura esterna mostrano « -- » in attesa dei segnali BYD giusti.)
 
 ---
 

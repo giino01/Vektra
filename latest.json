@@ -1,35 +1,28 @@
 {
-  "version": "1.8.7",
-  "apk": "Vektra-1.8.7.apk",
-  "size": 45066697,
+  "version": "1.8.8",
+  "apk": "Vektra-1.8.8.apk",
+  "size": 45070793,
   "notes": [
-    "Aperçu du combiné (tablette) : l'aperçu capture directement la fenêtre du combiné (PixelCopy), carte 3D OpenGL comprise. Il montre désormais exactement ce qui est à l'écran du combiné, navigation active comprise — avant, la carte vivante manquait et une scène dessinée la remplaçait. Repli automatique sur l'ancienne copie si la capture n'est pas possible.",
-    "Theme Store : les illustrations de Carbone 3D et VektraUI sont rendues depuis le vrai code du thème (cadrans, widgets), donc exactes. Repli sur l'image fixe en cas d'échec."
+    "Nouveau widget « Info » (Carbone 3D et VektraUI) : PM2.5 intérieur/extérieur, températures intérieure/extérieure, humidité, altitude (GPS) et pente (inclinomètre). Désactivé par défaut — on l'active dans la bulle « Widgets », où il peut aussi se déplacer et se redimensionner comme les autres. Données réelles uniquement : « -- » tant qu'une valeur n'est pas fournie, jamais de valeur inventée. (La PM2.5 et la température extérieure affichent « -- » en attendant que les bons signaux BYD soient branchés.)"
   ],
   "notesByLang": {
     "fr": [
-      "Aperçu du combiné (tablette) : l'aperçu capture directement la fenêtre du combiné (PixelCopy), carte 3D OpenGL comprise. Il montre désormais exactement ce qui est à l'écran du combiné, navigation active comprise — avant, la carte vivante manquait et une scène dessinée la remplaçait. Repli automatique sur l'ancienne copie si la capture n'est pas possible.",
-      "Theme Store : les illustrations de Carbone 3D et VektraUI sont rendues depuis le vrai code du thème (cadrans, widgets), donc exactes. Repli sur l'image fixe en cas d'échec."
+      "Nouveau widget « Info » (Carbone 3D et VektraUI) : PM2.5 intérieur/extérieur, températures intérieure/extérieure, humidité, altitude (GPS) et pente (inclinomètre). Désactivé par défaut — on l'active dans la bulle « Widgets », où il peut aussi se déplacer et se redimensionner comme les autres. Données réelles uniquement : « -- » tant qu'une valeur n'est pas fournie, jamais de valeur inventée. (La PM2.5 et la température extérieure affichent « -- » en attendant que les bons signaux BYD soient branchés.)"
     ],
     "en": [
-      "Cluster preview (tablet): the preview now captures the cluster window directly (PixelCopy), including the OpenGL 3D map. It shows exactly what is on the cluster, navigation active included — before, the live map was missing and a drawn scene replaced it. Falls back to the old copy if capture isn't possible.",
-      "Theme Store: the Carbone 3D and VektraUI illustrations are rendered from the theme's real code (dials, widgets), so they are exact. Falls back to the static image on failure."
+      "New \"Info\" widget (Carbone 3D and VektraUI): indoor/outdoor PM2.5, indoor/outdoor temperatures, humidity, altitude (GPS) and slope (inclinometer). Disabled by default — enable it in the \"Widgets\" bubble, where it can also be moved and resized like the others. Real data only: \"--\" until a value is provided, never an invented one. (PM2.5 and outdoor temperature show \"--\" until the right BYD signals are wired.)"
     ],
     "it": [
-      "Anteprima quadro strumenti (tablet): l'anteprima ora cattura direttamente la finestra del quadro (PixelCopy), mappa 3D OpenGL compresa. Mostra esattamente ciò che è sul quadro, navigazione attiva inclusa — prima la mappa dal vivo mancava e una scena disegnata la sostituiva. Ripiego automatico sulla vecchia copia se la cattura non è possibile.",
-      "Theme Store: le illustrazioni di Carbone 3D e VektraUI sono renderizzate dal vero codice del tema (quadranti, widget), quindi esatte. Ripiego sull'immagine fissa in caso di errore."
+      "Nuovo widget « Info » (Carbone 3D e VektraUI): PM2.5 interno/esterno, temperature interna/esterna, umidità, altitudine (GPS) e pendenza (inclinometro). Disattivato per impostazione predefinita — si attiva nella bolla « Widgets », dove può anche essere spostato e ridimensionato. Solo dati reali: « -- » finché un valore non è disponibile, mai inventato. (PM2.5 e temperatura esterna mostrano « -- » in attesa dei segnali BYD giusti.)"
     ],
     "de": [
-      "Kombiinstrument-Vorschau (Tablet): die Vorschau erfasst jetzt das Fenster des Kombiinstruments direkt (PixelCopy), inklusive der OpenGL-3D-Karte. Sie zeigt genau das, was auf dem Kombiinstrument ist, auch bei aktiver Navigation — vorher fehlte die Live-Karte und eine gezeichnete Szene ersetzte sie. Fällt auf die alte Kopie zurück, wenn die Erfassung nicht möglich ist.",
-      "Theme Store: die Illustrationen von Carbone 3D und VektraUI werden aus dem echten Code des Themes gerendert (Anzeigen, Widgets), also exakt. Fällt bei Fehler auf das feste Bild zurück."
+      "Neues Widget „Info\" (Carbone 3D und VektraUI): PM2.5 innen/außen, Temperaturen innen/außen, Feuchtigkeit, Höhe (GPS) und Neigung (Neigungsmesser). Standardmäßig deaktiviert — in der Blase „Widgets\" aktivierbar, dort auch verschieb- und skalierbar. Nur echte Daten: „--\", solange ein Wert fehlt, nie ein erfundener. (PM2.5 und Außentemperatur zeigen „--\", bis die richtigen BYD-Signale angebunden sind.)"
     ],
     "pt": [
-      "Pré-visualização do painel (tablet): a pré-visualização agora captura diretamente a janela do painel (PixelCopy), incluindo o mapa 3D OpenGL. Mostra exatamente o que está no painel, navegação ativa incluída — antes, o mapa ao vivo faltava e uma cena desenhada substituía-o. Recua para a cópia antiga se a captura não for possível.",
-      "Theme Store: as ilustrações de Carbone 3D e VektraUI são renderizadas a partir do código real do tema (mostradores, widgets), portanto exatas. Recua para a imagem fixa em caso de falha."
+      "Novo widget « Info » (Carbone 3D e VektraUI): PM2.5 interior/exterior, temperaturas interior/exterior, humidade, altitude (GPS) e inclinação (inclinómetro). Desativado por predefinição — ativa-se na bolha « Widgets », onde também pode ser movido e redimensionado. Apenas dados reais: « -- » enquanto um valor não for fornecido, nunca inventado. (PM2.5 e temperatura exterior mostram « -- » à espera dos sinais BYD certos.)"
     ],
     "tr": [
-      "Gösterge paneli önizlemesi (tablet): önizleme artık gösterge penceresini doğrudan yakalıyor (PixelCopy), OpenGL 3D harita dahil. Gösterge panelinde ne varsa tam olarak onu gösteriyor, navigasyon aktifken dahil — önceden canlı harita eksikti ve yerine çizilmiş bir sahne geçiyordu. Yakalama mümkün değilse eski kopyaya geri döner.",
-      "Theme Store: Carbone 3D ve VektraUI görselleri temanın gerçek kodundan oluşturuluyor (göstergeler, widget'lar), bu yüzden kesin. Hata durumunda sabit görsele geri döner."
+      "Yeni « Info » widget'ı (Carbone 3D ve VektraUI): iç/dış PM2.5, iç/dış sıcaklıklar, nem, yükseklik (GPS) ve eğim (eğim ölçer). Varsayılan olarak kapalı — « Widgets » balonundan açılır, orada taşınıp yeniden boyutlandırılabilir. Yalnızca gerçek veriler: bir değer sağlanana kadar « -- », asla uydurma. (PM2.5 ve dış sıcaklık, doğru BYD sinyalleri bağlanana kadar « -- » gösterir.)"
     ]
   }
 }

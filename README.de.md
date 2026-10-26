@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.7** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.8** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.7
+## Neu in 1.8.8
 
-- Kombiinstrument-Vorschau (Tablet): die Vorschau erfasst jetzt das Fenster des Kombiinstruments direkt (PixelCopy), inklusive der OpenGL-3D-Karte. Sie zeigt genau das, was auf dem Kombiinstrument ist, auch bei aktiver Navigation — vorher fehlte die Live-Karte und eine gezeichnete Szene ersetzte sie. Fällt auf die alte Kopie zurück, wenn die Erfassung nicht möglich ist.
-- Theme Store: die Illustrationen von Carbone 3D und VektraUI werden aus dem echten Code des Themes gerendert (Anzeigen, Widgets), also exakt. Fällt bei Fehler auf das feste Bild zurück.
+- Neues Widget „Info" (Carbone 3D und VektraUI): PM2.5 innen/außen, Temperaturen innen/außen, Feuchtigkeit, Höhe (GPS) und Neigung (Neigungsmesser). Standardmäßig deaktiviert — in der Blase „Widgets" aktivierbar, dort auch verschieb- und skalierbar. Nur echte Daten: „--", solange ein Wert fehlt, nie ein erfundener. (PM2.5 und Außentemperatur zeigen „--", bis die richtigen BYD-Signale angebunden sind.)
 
 ---
 

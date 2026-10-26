@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.7** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.8** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.7
+## What is new in 1.8.8
 
-- Cluster preview (tablet): the preview now captures the cluster window directly (PixelCopy), including the OpenGL 3D map. It shows exactly what is on the cluster, navigation active included — before, the live map was missing and a drawn scene replaced it. Falls back to the old copy if capture isn't possible.
-- Theme Store: the Carbone 3D and VektraUI illustrations are rendered from the theme's real code (dials, widgets), so they are exact. Falls back to the static image on failure.
+- New "Info" widget (Carbone 3D and VektraUI): indoor/outdoor PM2.5, indoor/outdoor temperatures, humidity, altitude (GPS) and slope (inclinometer). Disabled by default — enable it in the "Widgets" bubble, where it can also be moved and resized like the others. Real data only: "--" until a value is provided, never an invented one. (PM2.5 and outdoor temperature show "--" until the right BYD signals are wired.)
 
 ---
 

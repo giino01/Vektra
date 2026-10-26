@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.7** · publiée le 26 octobre 2026 · 43.0 Mo
+**VERSION 1.8.8** · publiée le 26 octobre 2026 · 43.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.7
+## Nouveautés de la 1.8.8
 
-- Aperçu du combiné (tablette) : l'aperçu capture directement la fenêtre du combiné (PixelCopy), carte 3D OpenGL comprise. Il montre désormais exactement ce qui est à l'écran du combiné, navigation active comprise — avant, la carte vivante manquait et une scène dessinée la remplaçait. Repli automatique sur l'ancienne copie si la capture n'est pas possible.
-- Theme Store : les illustrations de Carbone 3D et VektraUI sont rendues depuis le vrai code du thème (cadrans, widgets), donc exactes. Repli sur l'image fixe en cas d'échec.
+- Nouveau widget « Info » (Carbone 3D et VektraUI) : PM2.5 intérieur/extérieur, températures intérieure/extérieure, humidité, altitude (GPS) et pente (inclinomètre). Désactivé par défaut — on l'active dans la bulle « Widgets », où il peut aussi se déplacer et se redimensionner comme les autres. Données réelles uniquement : « -- » tant qu'une valeur n'est pas fournie, jamais de valeur inventée. (La PM2.5 et la température extérieure affichent « -- » en attendant que les bons signaux BYD soient branchés.)
 
 ---
 
