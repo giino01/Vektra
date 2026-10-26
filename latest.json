@@ -1,28 +1,28 @@
 {
-  "version": "1.8.10",
-  "apk": "Vektra-1.8.10.apk",
-  "size": 45070797,
+  "version": "1.8.11",
+  "apk": "Vektra-1.8.11.apk",
+  "size": 45070841,
   "notes": [
-    "Scan « Contrôle » : la liste des données BYD est réordonnée (appareils les plus utiles en dernier) et allégée (permissions et listes techniques retirées), pour que le copier-coller ne coupe plus les appareils du début. Sert à retrouver les vrais noms des données du widget Info."
+    "Widget Info : la PM2.5 intérieure et extérieure (µg/m³) et la température extérieure (°C) s'affichent désormais en données réelles, lues directement de la voiture. La PM2.5 vient de l'appareil d'air dédié et la température extérieure de l'appareil du combiné. Comme toujours : valeur réelle ou « -- », jamais inventée. (La température intérieure et l'humidité restent « -- » sur les voitures qui ne les fournissent pas ; la pente et l'altitude s'affichent en roulant.)"
   ],
   "notesByLang": {
     "fr": [
-      "Scan « Contrôle » : la liste des données BYD est réordonnée (appareils les plus utiles en dernier) et allégée (permissions et listes techniques retirées), pour que le copier-coller ne coupe plus les appareils du début. Sert à retrouver les vrais noms des données du widget Info."
+      "Widget Info : la PM2.5 intérieure et extérieure (µg/m³) et la température extérieure (°C) s'affichent désormais en données réelles, lues directement de la voiture. La PM2.5 vient de l'appareil d'air dédié et la température extérieure de l'appareil du combiné. Comme toujours : valeur réelle ou « -- », jamais inventée. (La température intérieure et l'humidité restent « -- » sur les voitures qui ne les fournissent pas ; la pente et l'altitude s'affichent en roulant.)"
     ],
     "en": [
-      "\"Control\" scan: the BYD data list is reordered (most useful devices last) and trimmed (permissions and technical lists removed), so copy-paste no longer cuts off the first devices. Helps find the real data names for the Info widget."
+      "Info widget: indoor and outdoor PM2.5 (µg/m³) and outdoor temperature (°C) now show real data, read straight from the car. PM2.5 comes from the dedicated air device and the outdoor temperature from the cluster device. As always: real value or \"--\", never invented. (Indoor temperature and humidity stay \"--\" on cars that don't provide them; slope and altitude appear while driving.)"
     ],
     "it": [
-      "Scansione « Controllo »: l'elenco dei dati BYD è riordinato (dispositivi più utili per ultimi) e alleggerito (permessi ed elenchi tecnici rimossi), così il copia-incolla non taglia più i primi dispositivi."
+      "Widget Info: PM2.5 interna ed esterna (µg/m³) e temperatura esterna (°C) ora mostrano dati reali, letti direttamente dall'auto. Come sempre: valore reale o « -- », mai inventato. (Temperatura interna e umidità restano « -- » sulle auto che non le forniscono; pendenza e altitudine compaiono in marcia.)"
     ],
     "de": [
-      "„Kontrolle\"-Scan: die BYD-Datenliste ist neu geordnet (nützlichste Geräte zuletzt) und gekürzt (Berechtigungen und technische Listen entfernt), damit Kopieren/Einfügen die ersten Geräte nicht mehr abschneidet."
+      "Info-Widget: PM2.5 innen und außen (µg/m³) und Außentemperatur (°C) zeigen jetzt echte Daten, direkt aus dem Auto gelesen. Wie immer: echter Wert oder „--\", nie erfunden. (Innentemperatur und Feuchtigkeit bleiben „--\" bei Autos, die sie nicht liefern; Neigung und Höhe erscheinen während der Fahrt.)"
     ],
     "pt": [
-      "Análise « Controlo »: a lista de dados BYD é reordenada (dispositivos mais úteis no fim) e aliviada (permissões e listas técnicas removidas), para que copiar-colar já não corte os primeiros dispositivos."
+      "Widget Info: PM2.5 interior e exterior (µg/m³) e temperatura exterior (°C) mostram agora dados reais, lidos diretamente do carro. Como sempre: valor real ou « -- », nunca inventado. (Temperatura interior e humidade ficam « -- » nos carros que não as fornecem; inclinação e altitude aparecem em andamento.)"
     ],
     "tr": [
-      "« Kontrol » taraması: BYD veri listesi yeniden sıralandı (en yararlı cihazlar sonda) ve sadeleştirildi (izinler ve teknik listeler kaldırıldı), böylece kopyala-yapıştır ilk cihazları artık kesmiyor."
+      "Info widget'ı: iç ve dış PM2.5 (µg/m³) ve dış sıcaklık (°C) artık doğrudan arabadan okunan gerçek verileri gösteriyor. Her zamanki gibi: gerçek değer veya « -- », asla uydurma. (İç sıcaklık ve nem, bunları sağlamayan arabalarda « -- » kalır; eğim ve yükseklik sürüşte görünür.)"
     ]
   }
 }

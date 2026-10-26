@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.10** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.11** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.10.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.10
+## Neu in 1.8.11
 
-- „Kontrolle"-Scan: die BYD-Datenliste ist neu geordnet (nützlichste Geräte zuletzt) und gekürzt (Berechtigungen und technische Listen entfernt), damit Kopieren/Einfügen die ersten Geräte nicht mehr abschneidet.
+- Info-Widget: PM2.5 innen und außen (µg/m³) und Außentemperatur (°C) zeigen jetzt echte Daten, direkt aus dem Auto gelesen. Wie immer: echter Wert oder „--", nie erfunden. (Innentemperatur und Feuchtigkeit bleiben „--" bei Autos, die sie nicht liefern; Neigung und Höhe erscheinen während der Fahrt.)
 
 ---
 

@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.10** · publiée le 26 octobre 2026 · 43.0 Mo
+**VERSION 1.8.11** · publiée le 26 octobre 2026 · 43.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.10.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.10
+## Nouveautés de la 1.8.11
 
-- Scan « Contrôle » : la liste des données BYD est réordonnée (appareils les plus utiles en dernier) et allégée (permissions et listes techniques retirées), pour que le copier-coller ne coupe plus les appareils du début. Sert à retrouver les vrais noms des données du widget Info.
+- Widget Info : la PM2.5 intérieure et extérieure (µg/m³) et la température extérieure (°C) s'affichent désormais en données réelles, lues directement de la voiture. La PM2.5 vient de l'appareil d'air dédié et la température extérieure de l'appareil du combiné. Comme toujours : valeur réelle ou « -- », jamais inventée. (La température intérieure et l'humidité restent « -- » sur les voitures qui ne les fournissent pas ; la pente et l'altitude s'affichent en roulant.)
 
 ---
 

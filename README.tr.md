@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.10** · yayın tarihi 26 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.11** · yayın tarihi 26 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.10.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.11.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.10
+## Yenilikler: 1.8.11
 
-- « Kontrol » taraması: BYD veri listesi yeniden sıralandı (en yararlı cihazlar sonda) ve sadeleştirildi (izinler ve teknik listeler kaldırıldı), böylece kopyala-yapıştır ilk cihazları artık kesmiyor.
+- Info widget'ı: iç ve dış PM2.5 (µg/m³) ve dış sıcaklık (°C) artık doğrudan arabadan okunan gerçek verileri gösteriyor. Her zamanki gibi: gerçek değer veya « -- », asla uydurma. (İç sıcaklık ve nem, bunları sağlamayan arabalarda « -- » kalır; eğim ve yükseklik sürüşte görünür.)
 
 ---
 
