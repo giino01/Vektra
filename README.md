@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.7.7** · publiée le 26 octobre 2026 · 35.9 Mo
+**VERSION 1.7.8** · publiée le 26 octobre 2026 · 37.2 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.7.7
+## Nouveautés de la 1.7.8
 
-- Thème principal unique « Carbone 3D » : suppression de tous les autres thèmes afin de faire de « Carbone 3D » le thème principal de l'application.
-- Nouvelle bulle « 🧩 Widgets » à côté d'« Édition » dans l'onglet Combiné : regroupe toutes les pastilles widgets du thème Carbone 3D (Compteur, Navigation, Date, Musique, Statistiques, Météo, Pneus, Widget importé) pour activer (✓) ou désactiver (✕) chaque widget individuellement en temps réel.
-- Nouveau widget « Navigation » fondu (style BMW Waze) : rectangle 25 % plus petit que la taille du combiné (1429 × 458 centré dans 1905 × 610) dont les 4 contours sont fondus progressivement dans le fond Carbone 3D entre les widgets gauche et droite, avec support complet en mode Édition (tous les widgets sont déplaçables et redimensionnables).
-- 2 nouvelles lignes dans Réglages — « Importer widget » et « Importer thème » : compatibilité universelle tous formats (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg) avec liaison directe aux équipements BYD ({{speed}}, {{soc}}, {{power_kw}}, {{rpm}}, {{gear}}, {{tpms_fl..rr}}, {{lat}}, {{lon}}, {{weather_temp}}, {{media_title}}, etc.).
+- Nouveau moteur de thème 3D importable « VektraUI » (VektraUI.zip) : prise en charge native du pack VektraUI.zip via Réglages → Importer thème, reproduisant à 100 % le design photoréaliste validé (sans zone centrale de navigation ni bandeaux radars) avec ses plaques 3D haute définition (vektra_ui_base.png + vektra_ui_lit.png + theme.json).
+- Animations 3D fluides (60 FPS) des jauges kW et km/h :
+- Jauge gauche kW (CHARGE / POWER / ECO / boost) : remplissage néon 3D bidirectionnel depuis le point 0 kW (180°) — vers le haut en vert émeraude lors de la régénération au freinage (-kW) et vers la droite/bas en cyan-vert lors de l'accélération (+kW) — accompagné d'un curseur laser 3D lumineux et de l'affichage numérique central en temps réel.
+- Jauge droite km/h (0..220) : double anneau néon 3D cyan/orange qui se remplit progressivement de 0 à 220 km/h avec curseur laser 3D, panneau de limitation de vitesse dynamique et compteur numérique central géant.
+- Connexion intégrale au matériel BYD en temps réel : vitesse (getCurrentSpeed), puissance/régénération moteur (getEnginePower), batterie SOC % + autonomie EV + consommation kWh/100 (getElecPercentageValue, getElecDrivingRangeValue, getLastElecConPHMValue) avec barre lumineuse proportionnelle au % de batterie, pressions des 4 pneus TPMS (getTyrePressureValue#1..4), lecteur média (NOW PLAYING), météo GPS (Weather.report) et panneau de limitation (NavigationManager.currentRoadSpeedLimit).
+- Tous les widgets individuels compatibles avec la bulle « 🧩 Widgets » et le mode « Édition » : chaque widget de VektraUI (Compteur, Musique, Pneus, Statistiques, Météo, Navigation, Date) peut être activé/désactivé, déplacé ou redimensionné indépendamment.
 
 ---
 

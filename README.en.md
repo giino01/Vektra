@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.7.7** · released on 26 October 2026 · 35.9 MB
+**VERSION 1.7.8** · released on 26 October 2026 · 37.2 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.7.7
+## What is new in 1.7.8
 
-- Single main theme "Carbon 3D": removed all other themes to keep "Carbon 3D" as the main theme of the application.
-- New "🧩 Widgets" bubble next to "Edit" in the Cluster tab: displays all widget pills of the Carbon 3D theme (Speedometer, Navigation, Date, Music, Statistics, Weather, Tyres, Imported widget) so each widget can be enabled (✓) or disabled (✕) individually in real time.
-- New blended "Navigation" widget (BMW Waze style): rectangle 25% smaller than the cluster size (1429 × 458 centered in 1905 × 610) with feathered edges seamlessly melting into the Carbon 3D background between the left and right widgets, and 100% editable in Edit mode (all widgets are movable and resizable).
-- 2 new rows in Settings — "Import widget" and "Import theme": universal multi-format compatibility (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg) with live BYD vehicle telemetry bindings ({{speed}}, {{soc}}, {{power_kw}}, {{rpm}}, {{gear}}, {{tpms_fl..rr}}, etc.).
+- New importable 3D theme engine "VektraUI" (VektraUI.zip): native support for VektraUI.zip via Settings → Import theme, reproducing 100% of the approved photorealistic design (without the central navigation map or radar banners) with dual HD 3D plates (vektra_ui_base.png + vektra_ui_lit.png + theme.json).
+- Smooth 60 FPS 3D gauge animations for kW and km/h:
+- Left kW gauge (CHARGE / POWER / ECO / boost): bidirectional 3D neon fill from the 0 kW split (180°) — sweeping upward in emerald green during regenerative braking (-kW) and clockwise in cyan-green during acceleration (+kW) — with a 3D laser cursor and live digital readout.
+- Right km/h gauge (0..220): dual cyan/amber 3D neon rings progressively filling from 0 to 220 km/h with a 3D laser cursor, dynamic speed limit sign, and giant center digital readout.
+- Full real-time BYD hardware telemetry binding: speed (getCurrentSpeed), motor power/regen (getEnginePower), battery SOC % + EV range + kWh/100 consumption with proportional glowing battery pill border, 4-wheel TPMS tyre pressures (getTyrePressureValue#1..4), media player (NOW PLAYING), GPS weather, and road speed limit.
+- Full compatibility with the "🧩 Widgets" bubble and "Edit" mode: every VektraUI widget can be toggled, moved, or resized individually.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.7.7** · veröffentlicht am 26. Oktober 2026 · 35.9 MB
+**VERSION 1.7.8** · veröffentlicht am 26. Oktober 2026 · 37.2 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.7.7
+## Neu in 1.7.8
 
-- Einziges Hauptthema „Karbon 3D“: alle anderen Themen entfernt.
-- Neue Blase „🧩 Widgets“ neben „Bearbeiten“ im Reiter Kombiinstrument: alle Widget-Kapseln von Karbon 3D einzeln aktivierbar oder deaktivierbar.
-- Neues „Navigation“-Widget mit weichen Kanten (BMW-Waze-Stil): 25 % kleiner als das Kombiinstrument, nahtlos in den Hintergrund übergehend und vollständig im Bearbeitungsmodus anpassbar.
-- 2 neue Zeilen in Einstellungen — „Widget importieren“ und „Thema importieren“: kompatibel mit allen Formaten (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg).
+- Neue importierbare 3D-Themen-Engine „VektraUI“ (VektraUI.zip): native Unterstützung für VektraUI.zip über Einstellungen → Thema importieren, mit flüssigen 60-FPS-3D-Animationen für die kW- und km/h-Anzeigen sowie vollständiger Echtzeit-Anbindung an die BYD-Fahrzeugsensoren.
 
 ---
 

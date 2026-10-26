@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.7.7** · yayın tarihi 26 Ekim 2026 · 35.9 MB
+**SÜRÜM 1.7.8** · yayın tarihi 26 Ekim 2026 · 37.2 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.7.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.7.7
+## Yenilikler: 1.7.8
 
-- Tek ana tema "Karbon 3D": diğer tüm temalar kaldırıldı.
-- Gösterge sekmesinde "Düzenle"nin yanında yeni "🧩 Widget'lar" balonu: Karbon 3D temasının tüm widget'larını tek tek etkinleştirin veya devre dışı bırakın.
-- Yeni yumuşak kenarlı "Navigasyon" widget'ı (BMW Waze stili): göstergeden %25 daha küçük dikdörtgen, arka planla bütünleşik kenarlar ve tamamen düzenlenebilir.
-- Ayarlar'da 2 yeni satır — "Widget içe aktar" ve "Tema içe aktar": tüm formatlarla uyumlu (.json, .zip, .vektra, .kwgt, .svg, .html, .xml, .png, .webp, .jpg).
+- Yeni içe aktarılabilir 3D tema motoru "VektraUI" (VektraUI.zip): Ayarlar → Tema içe aktar üzerinden VektraUI.zip desteği, kW ve km/h göstergeleri için akıcı 60 FPS 3D animasyonlar ve BYD araç sensörleriyle tam gerçek zamanlı bağlantı.
 
 ---
 
