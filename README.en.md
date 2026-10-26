@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.12** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.13** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.12.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.13.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.12
+## What is new in 1.8.13
 
-- Navigation as cluster background: when the Navigation widget is on, the map now sits in the background, behind every gauge and widget, and its edges blend into the background (no square outline, in light or dark theme). Applies to Carbone 3D and VektraUI.
-- VektraUI weather: the weather widget becomes a rich animated card (city, large temperature, next hours with animated icons) on a black background, matching the theme's other cards. If it overlaps the speed gauge, move it from the 🧩 Widgets bubble.
-- Simplified Info widget: it now shows only what actually works on the car — indoor/outdoor PM2.5, outdoor temperature and altitude. Indoor temperature, humidity and slope removed (sensors not powered). Always: real value or "--", never invented.
+- "Air quality" Info card: indoor and outdoor PM2.5 now show with a colored graded bar (green → yellow → orange → red) and a GOOD / MODERATE / HIGH / BAD rating, with outdoor temperature and altitude below. The card background matches the theme: black like the other cards on VektraUI, a matching panel on Carbone 3D (readable in light and dark). Always: real value or "--", never invented.
 
 ---
 

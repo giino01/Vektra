@@ -1,42 +1,28 @@
 {
-  "version": "1.8.12",
-  "apk": "Vektra-1.8.12.apk",
-  "size": 45070841,
+  "version": "1.8.13",
+  "apk": "Vektra-1.8.13.apk",
+  "size": 45074937,
   "notes": [
-    "Navigation en fond de combiné : quand le widget Navigation est activé, la carte passe désormais en arrière-plan, derrière tous les cadrans et widgets, et ses bords se fondent dans le fond (plus aucun contour carré, ni en thème clair ni en thème sombre). Vaut pour Carbone 3D et VektraUI.",
-    "Météo VektraUI : le widget météo devient une carte riche animée (ville, grande température, prévisions des heures suivantes avec icônes animées) sur un fond noir, assorti aux autres cartes du thème. S'il recouvre le cadran de vitesse, déplace-le depuis la bulle 🧩 Widgets.",
-    "Widget Info simplifié : il n'affiche plus que ce qui fonctionne réellement sur la voiture — PM2.5 intérieure/extérieure, température extérieure et altitude. Température intérieure, humidité et pente retirées (capteurs non alimentés). Toujours : valeur réelle ou « -- », jamais inventée."
+    "Carte Info « qualité d'air » : la PM2.5 intérieure et extérieure s'affiche maintenant avec une barre graduée colorée (vert → jaune → orange → rouge) et une mention BON / MOYEN / ÉLEVÉ / MAUVAIS, plus la température extérieure et l'altitude en dessous. Le fond de la carte s'accorde au thème : noir comme les autres cartes sur VektraUI, panneau assorti sur Carbone 3D (lisible en thème clair comme sombre). Toujours : valeur réelle ou « -- », jamais inventée."
   ],
   "notesByLang": {
     "fr": [
-      "Navigation en fond de combiné : quand le widget Navigation est activé, la carte passe désormais en arrière-plan, derrière tous les cadrans et widgets, et ses bords se fondent dans le fond (plus aucun contour carré, ni en thème clair ni en thème sombre). Vaut pour Carbone 3D et VektraUI.",
-      "Météo VektraUI : le widget météo devient une carte riche animée (ville, grande température, prévisions des heures suivantes avec icônes animées) sur un fond noir, assorti aux autres cartes du thème. S'il recouvre le cadran de vitesse, déplace-le depuis la bulle 🧩 Widgets.",
-      "Widget Info simplifié : il n'affiche plus que ce qui fonctionne réellement sur la voiture — PM2.5 intérieure/extérieure, température extérieure et altitude. Température intérieure, humidité et pente retirées (capteurs non alimentés). Toujours : valeur réelle ou « -- », jamais inventée."
+      "Carte Info « qualité d'air » : la PM2.5 intérieure et extérieure s'affiche maintenant avec une barre graduée colorée (vert → jaune → orange → rouge) et une mention BON / MOYEN / ÉLEVÉ / MAUVAIS, plus la température extérieure et l'altitude en dessous. Le fond de la carte s'accorde au thème : noir comme les autres cartes sur VektraUI, panneau assorti sur Carbone 3D (lisible en thème clair comme sombre). Toujours : valeur réelle ou « -- », jamais inventée."
     ],
     "en": [
-      "Navigation as cluster background: when the Navigation widget is on, the map now sits in the background, behind every gauge and widget, and its edges blend into the background (no square outline, in light or dark theme). Applies to Carbone 3D and VektraUI.",
-      "VektraUI weather: the weather widget becomes a rich animated card (city, large temperature, next hours with animated icons) on a black background, matching the theme's other cards. If it overlaps the speed gauge, move it from the 🧩 Widgets bubble.",
-      "Simplified Info widget: it now shows only what actually works on the car — indoor/outdoor PM2.5, outdoor temperature and altitude. Indoor temperature, humidity and slope removed (sensors not powered). Always: real value or \"--\", never invented."
+      "\"Air quality\" Info card: indoor and outdoor PM2.5 now show with a colored graded bar (green → yellow → orange → red) and a GOOD / MODERATE / HIGH / BAD rating, with outdoor temperature and altitude below. The card background matches the theme: black like the other cards on VektraUI, a matching panel on Carbone 3D (readable in light and dark). Always: real value or \"--\", never invented."
     ],
     "it": [
-      "Navigazione come sfondo del quadro: con il widget Navigazione attivo, la mappa passa ora in secondo piano, dietro ogni quadrante e widget, e i suoi bordi si fondono nello sfondo (nessun contorno quadrato, in tema chiaro o scuro). Vale per Carbone 3D e VektraUI.",
-      "Meteo VektraUI: il widget meteo diventa una scheda ricca animata (città, grande temperatura, prossime ore con icone animate) su sfondo nero, in tinta con le altre schede del tema. Se copre il tachimetro, spostalo dalla bolla 🧩 Widget.",
-      "Widget Info semplificato: mostra ora solo ciò che funziona davvero sull'auto — PM2.5 interna/esterna, temperatura esterna e altitudine. Temperatura interna, umidità e pendenza rimosse (sensori non alimentati). Sempre: valore reale o « -- », mai inventato."
+      "Scheda Info « qualità dell'aria »: la PM2.5 interna ed esterna appare ora con una barra graduata colorata (verde → giallo → arancione → rosso) e una valutazione BUONA / MEDIA / ALTA / SCARSA, con temperatura esterna e altitudine sotto. Lo sfondo della scheda si adatta al tema: nero come le altre schede su VektraUI, pannello coordinato su Carbone 3D. Sempre: valore reale o « -- », mai inventato."
     ],
     "de": [
-      "Navigation als Kombi-Hintergrund: Ist das Navigations-Widget an, liegt die Karte jetzt im Hintergrund, hinter allen Anzeigen und Widgets, und ihre Ränder verschmelzen mit dem Hintergrund (kein eckiger Rahmen mehr, ob hell oder dunkel). Gilt für Carbone 3D und VektraUI.",
-      "VektraUI-Wetter: Das Wetter-Widget wird zu einer reichen animierten Karte (Stadt, große Temperatur, nächste Stunden mit animierten Symbolen) auf schwarzem Hintergrund, passend zu den übrigen Karten des Themes. Überdeckt es den Tacho, verschiebe es über die 🧩-Widgets-Blase.",
-      "Vereinfachtes Info-Widget: Es zeigt jetzt nur noch, was im Auto wirklich funktioniert — PM2.5 innen/außen, Außentemperatur und Höhe. Innentemperatur, Feuchtigkeit und Neigung entfernt (Sensoren nicht versorgt). Wie immer: echter Wert oder „--\", nie erfunden."
+      "Info-Karte „Luftqualität\": PM2.5 innen und außen erscheint jetzt mit einem farbigen Stufenbalken (grün → gelb → orange → rot) und einer Bewertung GUT / MÄSSIG / HOCH / SCHLECHT, darunter Außentemperatur und Höhe. Der Kartenhintergrund passt sich dem Thema an: schwarz wie die anderen Karten bei VektraUI, ein passendes Panel bei Carbone 3D (hell und dunkel lesbar). Wie immer: echter Wert oder „--\", nie erfunden."
     ],
     "pt": [
-      "Navegação como fundo do painel: com o widget de Navegação ativo, o mapa fica agora em segundo plano, atrás de todos os mostradores e widgets, e as suas margens fundem-se no fundo (sem contorno quadrado, em tema claro ou escuro). Vale para Carbone 3D e VektraUI.",
-      "Meteo VektraUI: o widget de meteorologia passa a ser um cartão rico animado (cidade, grande temperatura, próximas horas com ícones animados) sobre fundo preto, a condizer com os outros cartões do tema. Se cobrir o velocímetro, move-o a partir da bolha 🧩 Widgets.",
-      "Widget Info simplificado: mostra agora apenas o que funciona mesmo no carro — PM2.5 interior/exterior, temperatura exterior e altitude. Temperatura interior, humidade e inclinação removidas (sensores não alimentados). Sempre: valor real ou « -- », nunca inventado."
+      "Cartão Info « qualidade do ar »: a PM2.5 interior e exterior aparece agora com uma barra graduada colorida (verde → amarelo → laranja → vermelho) e uma menção BOA / MÉDIA / ALTA / MÁ, com temperatura exterior e altitude por baixo. O fundo do cartão adapta-se ao tema: preto como os outros cartões no VektraUI, painel a condizer no Carbone 3D. Sempre: valor real ou « -- », nunca inventado."
     ],
     "tr": [
-      "Gösterge arka planı olarak navigasyon: Navigasyon widget'ı açıkken harita artık tüm göstergelerin ve widget'ların arkasında, arka planda yer alır ve kenarları arka plana karışır (açık veya koyu temada kare çerçeve yok). Carbone 3D ve VektraUI için geçerli.",
-      "VektraUI hava durumu: hava durumu widget'ı, temanın diğer kartlarıyla uyumlu siyah bir zemin üzerinde zengin, animasyonlu bir kart olur (şehir, büyük sıcaklık, animasyonlu simgelerle sonraki saatler). Hız göstergesini kapatırsa 🧩 Widget'lar balonundan taşı.",
-      "Sadeleştirilmiş Info widget'ı: artık yalnızca arabada gerçekten çalışanları gösterir — iç/dış PM2.5, dış sıcaklık ve yükseklik. İç sıcaklık, nem ve eğim kaldırıldı (sensörler beslenmiyor). Her zaman: gerçek değer veya « -- », asla uydurma."
+      "« Hava kalitesi » Info kartı: iç ve dış PM2.5 artık renkli kademeli bir çubukla (yeşil → sarı → turuncu → kırmızı) ve İYİ / ORTA / YÜKSEK / KÖTÜ değerlendirmesiyle görünür, altında dış sıcaklık ve yükseklik. Kart arka planı temaya uyar: VektraUI'de diğer kartlar gibi siyah, Carbone 3D'de uyumlu bir panel (açık ve koyu temada okunur). Her zaman: gerçek değer veya « -- », asla uydurma."
     ]
   }
 }
