@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.7.9** · released on 26 October 2026 · 36.5 MB
+**VERSION 1.8.0** · released on 26 October 2026 · 36.5 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.7.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.7.9
+## What is new in 1.8.0
 
-- "VektraUI" integrated as the 2nd built-in theme on the home page: the Theme button on the home page (Cluster) now switches directly between Carbon 3D and VektraUI with a single tap.
-- Removed black background in VektraUI & shared Carbon 3D background: VektraUI 3D plates (vektra_ui_base.png and vektra_ui_lit.png) now use true alpha transparency (RGBA), sharing the exact same background configured for Carbon 3D.
+- Full automation of auto-start inside the native BYD app (com.byd.appstartmanagement):
+- When enabling auto-start in VEKTRA: the native BYD app opens automatically, scrolls down to VEKTRA, unchecks it to allow auto-start, and closes back to VEKTRA.
+- When disabling auto-start in VEKTRA: the native BYD app opens automatically, scrolls down to VEKTRA, checks it to block auto-start, and closes back to VEKTRA.
+- Settings cleanup: removed the "Import widget" and "Import theme" rows from Settings.
 
 ---
 

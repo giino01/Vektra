@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.7.9** · veröffentlicht am 26. Oktober 2026 · 36.5 MB
+**VERSION 1.8.0** · veröffentlicht am 26. Oktober 2026 · 36.5 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.7.9.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.7.9
+## Neu in 1.8.0
 
-- „VektraUI“ als 2. Thema auf der Startseite integriert, mit exakt demselben Hintergrund wie Karbon 3D (schwarzer Hintergrund entfernt).
+- Vollständige Automatisierung des Autostarts in der nativen BYD-App: automatisches Öffnen, Herunterscrollen zu VEKTRA, Abwählen zum Aktivieren des Autostarts (bzw. Ankreuzen zum Deaktivieren), sowie Entfernen der Zeilen „Widget importieren“ und „Thema importieren“ aus den Einstellungen.
 
 ---
 

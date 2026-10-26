@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.7.9** · publiée le 26 octobre 2026 · 36.5 Mo
+**VERSION 1.8.0** · publiée le 26 octobre 2026 · 36.5 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.7.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.7.9
+## Nouveautés de la 1.8.0
 
-- « VektraUI » intégré en 2e thème officiel sur la page d'accueil : la touche Thème sur la page d'accueil (Combiné) permet désormais de basculer directement en un clic entre Carbone 3D et VektraUI comme auparavant.
-- Suppression du fond noir de VektraUI & partage du fond de Carbone 3D : les plaques 3D de VektraUI (vektra_ui_base.png et vektra_ui_lit.png) sont désormais en transparence alpha haute précision (RGBA), de sorte que VektraUI utilise exactement le même fond (sombre, clair BYD ou fond personnalisé) que celui configuré pour Carbone 3D.
+- Automatisation complète du lancement automatique dans l'application native BYD (com.byd.appstartmanagement) :
+- Lors de l'activation du lancement automatique dans VEKTRA : l'application native BYD s'ouvre automatiquement, descend dans la liste jusqu'à VEKTRA et décoche l'application pour autoriser son lancement automatique, puis se referme.
+- Lors de la désactivation du lancement automatique dans VEKTRA : l'application native BYD s'ouvre automatiquement, descend dans la liste jusqu'à VEKTRA et coche l'application pour désactiver son lancement automatique, puis se referme.
+- Nettoyage des Réglages : suppression des deux lignes « Importer widget » et « Importer thème » dans la page des Réglages.
 
 ---
 

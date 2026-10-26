@@ -1,31 +1,37 @@
 {
-  "version": "1.7.9",
-  "apk": "Vektra-1.7.9.apk",
-  "size": 38274065,
+  "version": "1.8.0",
+  "apk": "Vektra-1.8.0.apk",
+  "size": 38278161,
   "notes": [
-    "« VektraUI » intégré en 2e thème officiel sur la page d'accueil : la touche Thème sur la page d'accueil (Combiné) permet désormais de basculer directement en un clic entre Carbone 3D et VektraUI comme auparavant.",
-    "Suppression du fond noir de VektraUI & partage du fond de Carbone 3D : les plaques 3D de VektraUI (vektra_ui_base.png et vektra_ui_lit.png) sont désormais en transparence alpha haute précision (RGBA), de sorte que VektraUI utilise exactement le même fond (sombre, clair BYD ou fond personnalisé) que celui configuré pour Carbone 3D."
+    "Automatisation complète du lancement automatique dans l'application native BYD (com.byd.appstartmanagement) :",
+    "Lors de l'activation du lancement automatique dans VEKTRA : l'application native BYD s'ouvre automatiquement, descend dans la liste jusqu'à VEKTRA et décoche l'application pour autoriser son lancement automatique, puis se referme.",
+    "Lors de la désactivation du lancement automatique dans VEKTRA : l'application native BYD s'ouvre automatiquement, descend dans la liste jusqu'à VEKTRA et coche l'application pour désactiver son lancement automatique, puis se referme.",
+    "Nettoyage des Réglages : suppression des deux lignes « Importer widget » et « Importer thème » dans la page des Réglages."
   ],
   "notesByLang": {
     "fr": [
-      "« VektraUI » intégré en 2e thème officiel sur la page d'accueil : la touche Thème sur la page d'accueil (Combiné) permet désormais de basculer directement en un clic entre Carbone 3D et VektraUI comme auparavant.",
-      "Suppression du fond noir de VektraUI & partage du fond de Carbone 3D : les plaques 3D de VektraUI (vektra_ui_base.png et vektra_ui_lit.png) sont désormais en transparence alpha haute précision (RGBA), de sorte que VektraUI utilise exactement le même fond (sombre, clair BYD ou fond personnalisé) que celui configuré pour Carbone 3D."
+      "Automatisation complète du lancement automatique dans l'application native BYD (com.byd.appstartmanagement) :",
+      "Lors de l'activation du lancement automatique dans VEKTRA : l'application native BYD s'ouvre automatiquement, descend dans la liste jusqu'à VEKTRA et décoche l'application pour autoriser son lancement automatique, puis se referme.",
+      "Lors de la désactivation du lancement automatique dans VEKTRA : l'application native BYD s'ouvre automatiquement, descend dans la liste jusqu'à VEKTRA et coche l'application pour désactiver son lancement automatique, puis se referme.",
+      "Nettoyage des Réglages : suppression des deux lignes « Importer widget » et « Importer thème » dans la page des Réglages."
     ],
     "en": [
-      "\"VektraUI\" integrated as the 2nd built-in theme on the home page: the Theme button on the home page (Cluster) now switches directly between Carbon 3D and VektraUI with a single tap.",
-      "Removed black background in VektraUI & shared Carbon 3D background: VektraUI 3D plates (vektra_ui_base.png and vektra_ui_lit.png) now use true alpha transparency (RGBA), sharing the exact same background configured for Carbon 3D."
+      "Full automation of auto-start inside the native BYD app (com.byd.appstartmanagement):",
+      "When enabling auto-start in VEKTRA: the native BYD app opens automatically, scrolls down to VEKTRA, unchecks it to allow auto-start, and closes back to VEKTRA.",
+      "When disabling auto-start in VEKTRA: the native BYD app opens automatically, scrolls down to VEKTRA, checks it to block auto-start, and closes back to VEKTRA.",
+      "Settings cleanup: removed the \"Import widget\" and \"Import theme\" rows from Settings."
     ],
     "it": [
-      "« VektraUI » integrato come 2° tema nella pagina iniziale con lo stesso sfondo configurato per Carbonio 3D (rimosso lo sfondo nero)."
+      "Automazione completa dell'avvio automatico nell'app nativa BYD: apertura automatica, scorrimento verso il basso fino a VEKTRA, deselezione della casella per attivare l'avvio automatico (e selezione per disattivarlo), e rimozione delle righe « Importa widget » e « Importa tema » dalle Impostazioni."
     ],
     "de": [
-      "„VektraUI“ als 2. Thema auf der Startseite integriert, mit exakt demselben Hintergrund wie Karbon 3D (schwarzer Hintergrund entfernt)."
+      "Vollständige Automatisierung des Autostarts in der nativen BYD-App: automatisches Öffnen, Herunterscrollen zu VEKTRA, Abwählen zum Aktivieren des Autostarts (bzw. Ankreuzen zum Deaktivieren), sowie Entfernen der Zeilen „Widget importieren“ und „Thema importieren“ aus den Einstellungen."
     ],
     "pt": [
-      "« VektraUI » integrado como 2.º tema na página inicial, com exatamente o mesmo fundo configurado para Carbono 3D (fundo preto removido)."
+      "Automação completa do início automático no aplicativo nativo da BYD: abertura automática, rolagem até VEKTRA, desmarcação para ativar o início automático (e marcação para desativar), além da remoção das linhas « Importar widget » e « Importar tema » dos Ajustes."
     ],
     "tr": [
-      "\"VektraUI\" ana sayfada 2. tema olarak eklendi ve siyah arka plan kaldırılarak Karbon 3D ile birebir aynı arka plan kullanıldı."
+      "Yerel BYD uygulamasında otomatik başlatmanın tam otomasyonu: otomatik açılma, VEKTRA'ya kadar aşağı kaydırma, otomatik başlatmayı etkinleştirmek için işareti kaldırma (devre dışı bırakmak için işaretleme) ve Ayarlar'dan \"Widget içe aktar\" ile \"Tema içe aktar\" satırlarının kaldırılması."
     ]
   }
 }
