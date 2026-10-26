@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.9** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.10** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.9.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.10.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.9
+## Neu in 1.8.10
 
-- Projektseite: die Themen-Illustrationen sind aktuell — sie zeigen jetzt Carbone 3D und VektraUI (dunkel und hell), aus dem veröffentlichten Code gerendert, statt alter Aufnahmen. Die App ist identisch mit 1.8.8; nichts neu zu installieren, wenn du schon darauf bist.
+- „Kontrolle"-Scan: die BYD-Datenliste ist neu geordnet (nützlichste Geräte zuletzt) und gekürzt (Berechtigungen und technische Listen entfernt), damit Kopieren/Einfügen die ersten Geräte nicht mehr abschneidet.
 
 ---
 

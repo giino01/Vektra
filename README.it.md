@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.9** · pubblicata il 26 ottobre 2026 · 43.0 MB
+**VERSIONE 1.8.10** · pubblicata il 26 ottobre 2026 · 43.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.10.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.9
+## Novità della 1.8.10
 
-- Pagina del progetto: le illustrazioni dei temi sono aggiornate — ora mostrano Carbone 3D e VektraUI (sfondo scuro e chiaro), resi dal codice pubblicato, al posto delle vecchie catture. L'app è identica alla 1.8.8; nulla da reinstallare se sei già su quella.
+- Scansione « Controllo »: l'elenco dei dati BYD è riordinato (dispositivi più utili per ultimi) e alleggerito (permessi ed elenchi tecnici rimossi), così il copia-incolla non taglia più i primi dispositivi.
 
 ---
 

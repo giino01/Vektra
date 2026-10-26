@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.9** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.10** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.10.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.9
+## What is new in 1.8.10
 
-- Project page: the theme illustrations are up to date — they now show Carbone 3D and VektraUI (dark and light), rendered from the published code, instead of old captures. The app is identical to 1.8.8; nothing to reinstall if you are already on it.
+- "Control" scan: the BYD data list is reordered (most useful devices last) and trimmed (permissions and technical lists removed), so copy-paste no longer cuts off the first devices. Helps find the real data names for the Info widget.
 
 ---
 

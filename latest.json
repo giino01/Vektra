@@ -1,28 +1,28 @@
 {
-  "version": "1.8.9",
-  "apk": "Vektra-1.8.9.apk",
-  "size": 45070793,
+  "version": "1.8.10",
+  "apk": "Vektra-1.8.10.apk",
+  "size": 45070797,
   "notes": [
-    "Page du projet : les illustrations des thèmes sont à jour — elles montrent désormais Carbone 3D et VektraUI (fond sombre et clair), rendus depuis le code publié, au lieu d'anciennes captures. L'application est identique à la 1.8.8 ; rien à réinstaller si tu y es déjà."
+    "Scan « Contrôle » : la liste des données BYD est réordonnée (appareils les plus utiles en dernier) et allégée (permissions et listes techniques retirées), pour que le copier-coller ne coupe plus les appareils du début. Sert à retrouver les vrais noms des données du widget Info."
   ],
   "notesByLang": {
     "fr": [
-      "Page du projet : les illustrations des thèmes sont à jour — elles montrent désormais Carbone 3D et VektraUI (fond sombre et clair), rendus depuis le code publié, au lieu d'anciennes captures. L'application est identique à la 1.8.8 ; rien à réinstaller si tu y es déjà."
+      "Scan « Contrôle » : la liste des données BYD est réordonnée (appareils les plus utiles en dernier) et allégée (permissions et listes techniques retirées), pour que le copier-coller ne coupe plus les appareils du début. Sert à retrouver les vrais noms des données du widget Info."
     ],
     "en": [
-      "Project page: the theme illustrations are up to date — they now show Carbone 3D and VektraUI (dark and light), rendered from the published code, instead of old captures. The app is identical to 1.8.8; nothing to reinstall if you are already on it."
+      "\"Control\" scan: the BYD data list is reordered (most useful devices last) and trimmed (permissions and technical lists removed), so copy-paste no longer cuts off the first devices. Helps find the real data names for the Info widget."
     ],
     "it": [
-      "Pagina del progetto: le illustrazioni dei temi sono aggiornate — ora mostrano Carbone 3D e VektraUI (sfondo scuro e chiaro), resi dal codice pubblicato, al posto delle vecchie catture. L'app è identica alla 1.8.8; nulla da reinstallare se sei già su quella."
+      "Scansione « Controllo »: l'elenco dei dati BYD è riordinato (dispositivi più utili per ultimi) e alleggerito (permessi ed elenchi tecnici rimossi), così il copia-incolla non taglia più i primi dispositivi."
     ],
     "de": [
-      "Projektseite: die Themen-Illustrationen sind aktuell — sie zeigen jetzt Carbone 3D und VektraUI (dunkel und hell), aus dem veröffentlichten Code gerendert, statt alter Aufnahmen. Die App ist identisch mit 1.8.8; nichts neu zu installieren, wenn du schon darauf bist."
+      "„Kontrolle\"-Scan: die BYD-Datenliste ist neu geordnet (nützlichste Geräte zuletzt) und gekürzt (Berechtigungen und technische Listen entfernt), damit Kopieren/Einfügen die ersten Geräte nicht mehr abschneidet."
     ],
     "pt": [
-      "Página do projeto: as ilustrações dos temas estão atualizadas — mostram agora Carbone 3D e VektraUI (fundo escuro e claro), renderizados a partir do código publicado, em vez de capturas antigas. A aplicação é idêntica à 1.8.8; nada a reinstalar se já a tens."
+      "Análise « Controlo »: a lista de dados BYD é reordenada (dispositivos mais úteis no fim) e aliviada (permissões e listas técnicas removidas), para que copiar-colar já não corte os primeiros dispositivos."
     ],
     "tr": [
-      "Proje sayfası: tema görselleri güncel — artık eski görüntüler yerine yayımlanan koddan oluşturulmuş Carbone 3D ve VektraUI (koyu ve açık) gösteriliyor. Uygulama 1.8.8 ile aynı; zaten ondaysan yeniden kurmana gerek yok."
+      "« Kontrol » taraması: BYD veri listesi yeniden sıralandı (en yararlı cihazlar sonda) ve sadeleştirildi (izinler ve teknik listeler kaldırıldı), böylece kopyala-yapıştır ilk cihazları artık kesmiyor."
     ]
   }
 }
