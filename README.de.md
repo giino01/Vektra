@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.2** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.4** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.2
+## Neu in 1.8.4
 
-- Update-Fenster: es scrollt jetzt. Bei einem langen Changelog lag die Schaltfläche „Herunterladen und installieren" unter dem Bildschirmrand und war ohne Scrollen nicht erreichbar; sie ist wieder zugänglich. Auch alle anderen Fenster (Stimme, Sprache, Import, Spende…) scrollen, wenn ihr Inhalt über den Bildschirm hinausgeht.
+- Batterie-Pille (VektraUI): bei einer DM-i wird der Benzinverbrauch L/100 nun neben dem Stromverbrauch kWh/100 angezeigt. Eine EV behält nur den kWh/100-Wert. Der L/100-Wert erscheint nur, wenn das Auto ihn liefert — nichts wird erfunden. Der Text verkleinert sich gerade so weit, dass er in die Pille passt.
 
 ---
 

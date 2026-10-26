@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.2** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.4** · released on 26 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.2
+## What is new in 1.8.4
 
-- Update window: it now scrolls. With a long changelog the "Download and install" button sat below the edge of the screen, out of reach because nothing scrolled; it is reachable again. Every other window (voice, language, import, donation…) also scrolls when its content runs past the screen.
+- Battery pill (VektraUI): for a DM-i, the petrol L/100 consumption is now shown next to the electric kWh/100. An EV keeps the kWh/100 only. The L/100 figure appears only if the car provides it — nothing is invented. The text shrinks just enough to fit the pill.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.2** · publiée le 26 octobre 2026 · 43.0 Mo
+**VERSION 1.8.4** · publiée le 26 octobre 2026 · 43.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.2
+## Nouveautés de la 1.8.4
 
-- Fenêtre de mise à jour : elle défile désormais. Quand le changelog est long, le bouton « Télécharger et installer » restait sous le bord de l'écran, hors d'atteinte faute de défilement ; il est de nouveau accessible. Toutes les autres fenêtres (voix, langue, import, don…) défilent aussi quand leur contenu dépasse l'écran.
+- Pastille batterie (VektraUI) : pour une DM-i, la consommation thermique L/100 s'ajoute désormais à côté de la consommation électrique kWh/100. Une EV garde la seule consommation kWh/100. La valeur L/100 n'apparaît que si la voiture la fournit — rien n'est inventé. Le texte se réduit juste ce qu'il faut pour tenir dans la pastille.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.2** · pubblicata il 26 ottobre 2026 · 43.0 MB
+**VERSIONE 1.8.4** · pubblicata il 26 ottobre 2026 · 43.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.2
+## Novità della 1.8.4
 
-- Finestra di aggiornamento: ora scorre. Con un changelog lungo il pulsante «Scarica e installa» restava sotto il bordo dello schermo, irraggiungibile perché nulla scorreva; ora è di nuovo accessibile. Anche tutte le altre finestre (voce, lingua, importazione, donazione…) scorrono quando il contenuto supera lo schermo.
+- Pillola batteria (VektraUI): per una DM-i, il consumo termico L/100 è ora mostrato accanto al consumo elettrico kWh/100. Una EV mantiene solo il kWh/100. Il valore L/100 appare solo se l'auto lo fornisce — nulla è inventato. Il testo si riduce quanto basta per entrare nella pillola.
 
 ---
 

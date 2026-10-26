@@ -1,28 +1,28 @@
 {
-  "version": "1.8.2",
-  "apk": "Vektra-1.8.2.apk",
-  "size": 45082397,
+  "version": "1.8.4",
+  "apk": "Vektra-1.8.4.apk",
+  "size": 45086493,
   "notes": [
-    "Fenêtre de mise à jour : elle défile désormais. Quand le changelog est long, le bouton « Télécharger et installer » restait sous le bord de l'écran, hors d'atteinte faute de défilement ; il est de nouveau accessible. Toutes les autres fenêtres (voix, langue, import, don…) défilent aussi quand leur contenu dépasse l'écran."
+    "Pastille batterie (VektraUI) : pour une DM-i, la consommation thermique L/100 s'ajoute désormais à côté de la consommation électrique kWh/100. Une EV garde la seule consommation kWh/100. La valeur L/100 n'apparaît que si la voiture la fournit — rien n'est inventé. Le texte se réduit juste ce qu'il faut pour tenir dans la pastille."
   ],
   "notesByLang": {
     "fr": [
-      "Fenêtre de mise à jour : elle défile désormais. Quand le changelog est long, le bouton « Télécharger et installer » restait sous le bord de l'écran, hors d'atteinte faute de défilement ; il est de nouveau accessible. Toutes les autres fenêtres (voix, langue, import, don…) défilent aussi quand leur contenu dépasse l'écran."
+      "Pastille batterie (VektraUI) : pour une DM-i, la consommation thermique L/100 s'ajoute désormais à côté de la consommation électrique kWh/100. Une EV garde la seule consommation kWh/100. La valeur L/100 n'apparaît que si la voiture la fournit — rien n'est inventé. Le texte se réduit juste ce qu'il faut pour tenir dans la pastille."
     ],
     "en": [
-      "Update window: it now scrolls. With a long changelog the \"Download and install\" button sat below the edge of the screen, out of reach because nothing scrolled; it is reachable again. Every other window (voice, language, import, donation…) also scrolls when its content runs past the screen."
+      "Battery pill (VektraUI): for a DM-i, the petrol L/100 consumption is now shown next to the electric kWh/100. An EV keeps the kWh/100 only. The L/100 figure appears only if the car provides it — nothing is invented. The text shrinks just enough to fit the pill."
     ],
     "it": [
-      "Finestra di aggiornamento: ora scorre. Con un changelog lungo il pulsante «Scarica e installa» restava sotto il bordo dello schermo, irraggiungibile perché nulla scorreva; ora è di nuovo accessibile. Anche tutte le altre finestre (voce, lingua, importazione, donazione…) scorrono quando il contenuto supera lo schermo."
+      "Pillola batteria (VektraUI): per una DM-i, il consumo termico L/100 è ora mostrato accanto al consumo elettrico kWh/100. Una EV mantiene solo il kWh/100. Il valore L/100 appare solo se l'auto lo fornisce — nulla è inventato. Il testo si riduce quanto basta per entrare nella pillola."
     ],
     "de": [
-      "Update-Fenster: es scrollt jetzt. Bei einem langen Changelog lag die Schaltfläche „Herunterladen und installieren\" unter dem Bildschirmrand und war ohne Scrollen nicht erreichbar; sie ist wieder zugänglich. Auch alle anderen Fenster (Stimme, Sprache, Import, Spende…) scrollen, wenn ihr Inhalt über den Bildschirm hinausgeht."
+      "Batterie-Pille (VektraUI): bei einer DM-i wird der Benzinverbrauch L/100 nun neben dem Stromverbrauch kWh/100 angezeigt. Eine EV behält nur den kWh/100-Wert. Der L/100-Wert erscheint nur, wenn das Auto ihn liefert — nichts wird erfunden. Der Text verkleinert sich gerade so weit, dass er in die Pille passt."
     ],
     "pt": [
-      "Janela de atualização: agora rola. Com um changelog longo, o botão «Baixar e instalar» ficava abaixo da borda da tela, fora de alcance por falta de rolagem; voltou a ser acessível. Todas as outras janelas (voz, idioma, importação, doação…) também rolam quando o conteúdo ultrapassa a tela."
+      "Pílula da bateria (VektraUI): para uma DM-i, o consumo térmico L/100 passa a ser mostrado ao lado do consumo elétrico kWh/100. Uma EV mantém apenas o kWh/100. O valor L/100 só aparece se o carro o fornecer — nada é inventado. O texto encolhe apenas o necessário para caber na pílula."
     ],
     "tr": [
-      "Güncelleme penceresi: artık kaydırılıyor. Uzun bir değişiklik günlüğünde «İndir ve yükle» düğmesi ekranın alt kenarının altında kalıyor ve kaydırma olmadığı için erişilemiyordu; yeniden erişilebilir. Diğer tüm pencereler (ses, dil, içe aktarma, bağış…) de içerikleri ekranı aştığında kaydırılıyor."
+      "Batarya hapı (VektraUI): bir DM-i için benzin L/100 tüketimi artık elektrik kWh/100 tüketiminin yanında gösteriliyor. Bir EV yalnızca kWh/100 değerini korur. L/100 değeri yalnızca araç sağlıyorsa görünür — hiçbir şey uydurulmaz. Metin, hapın içine sığacak kadar küçülür."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.2** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.4** · publicada a 26 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.2
+## Novidades da 1.8.4
 
-- Janela de atualização: agora rola. Com um changelog longo, o botão «Baixar e instalar» ficava abaixo da borda da tela, fora de alcance por falta de rolagem; voltou a ser acessível. Todas as outras janelas (voz, idioma, importação, doação…) também rolam quando o conteúdo ultrapassa a tela.
+- Pílula da bateria (VektraUI): para uma DM-i, o consumo térmico L/100 passa a ser mostrado ao lado do consumo elétrico kWh/100. Uma EV mantém apenas o kWh/100. O valor L/100 só aparece se o carro o fornecer — nada é inventado. O texto encolhe apenas o necessário para caber na pílula.
 
 ---
 
