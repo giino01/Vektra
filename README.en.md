@@ -6,7 +6,7 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.14** · released on 26 October 2026 · 43.0 MB
+**VERSION 1.8.14** · released on 27 October 2026 · 43.0 MB
 
 [**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
@@ -66,7 +66,7 @@ Six languages are available: French, English, Italian, German, Brazilian Portugu
 
 **To go back**, press **Restore the original**: the BYD dashboard takes over again. If it does not come back, switch the ignition off and on.
 
-## The four sections
+## The left rail
 
 | Section | What it is for |
 | --- | --- |

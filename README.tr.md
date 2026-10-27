@@ -6,7 +6,7 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.14** · yayın tarihi 26 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.14** · yayın tarihi 27 Ekim 2026 · 43.0 MB
 
 [**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
@@ -66,7 +66,7 @@ Altı dil mevcut: Fransızca, İngilizce, İtalyanca, Almanca, Brezilya Portekiz
 
 **Geri dönmek için** **Özgün haline döndür**'e dokunun: BYD göstergesi yeniden devralır. Dönmezse kontağı kapatıp açın.
 
-## Dört bölüm
+## Sol şerit
 
 | Bölüm | Ne işe yarar |
 | --- | --- |

@@ -6,7 +6,7 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.14** · publiée le 26 octobre 2026 · 43.0 Mo
+**VERSION 1.8.14** · publiée le 27 octobre 2026 · 43.0 Mo
 
 [**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
@@ -66,7 +66,7 @@ Six langues sont disponibles : français, anglais, italien, allemand, portugais 
 
 **Pour revenir en arrière**, appuie sur **Revenir à l'origine** : le tableau de bord BYD reprend la main. Si jamais il ne revient pas, coupe puis remets le contact.
 
-## Les quatre sections
+## Le rail de gauche
 
 | Section | À quoi elle sert |
 | --- | --- |

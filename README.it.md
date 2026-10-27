@@ -6,7 +6,7 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.14** · pubblicata il 26 ottobre 2026 · 43.0 MB
+**VERSIONE 1.8.14** · pubblicata il 27 ottobre 2026 · 43.0 MB
 
 [**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
@@ -66,7 +66,7 @@ Sono disponibili sei lingue: francese, inglese, italiano, tedesco, portoghese br
 
 **Per tornare indietro**, premi **Ripristina l'originale**: il quadro BYD riprende il comando. Se non torna, spegni e riaccendi il quadro.
 
-## Le quattro sezioni
+## La barra di sinistra
 
 | Sezione | A cosa serve |
 | --- | --- |

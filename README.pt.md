@@ -6,7 +6,7 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.14** · publicada a 26 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.14** · publicada a 27 de outubro de 2026 · 43.0 MB
 
 [**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
@@ -66,7 +66,7 @@ Estão disponíveis seis idiomas: francês, inglês, italiano, alemão, portugu�
 
 **Para voltar atrás**, carrega em **Repor o original**: o painel BYD retoma o comando. Se não voltar, desliga e volta a ligar a ignição.
 
-## As quatro secções
+## A barra à esquerda
 
 | Secção | Para que serve |
 | --- | --- |

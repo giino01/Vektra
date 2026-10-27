@@ -6,7 +6,7 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.14** · veröffentlicht am 26. Oktober 2026 · 43.0 MB
+**VERSION 1.8.14** · veröffentlicht am 27. Oktober 2026 · 43.0 MB
 
 [**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
@@ -66,7 +66,7 @@ Sechs Sprachen stehen zur Verfügung: Französisch, Englisch, Italienisch, Deuts
 
 **Zum Zurückgehen** tippe auf **Original wiederherstellen**: die BYD-Anzeige übernimmt wieder. Kehrt sie nicht zurück, Zündung aus- und wieder einschalten.
 
-## Die vier Bereiche
+## Die linke Leiste
 
 | Bereich | Wofür er da ist |
 | --- | --- |
