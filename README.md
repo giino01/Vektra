@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.17** · publiée le 27 octobre 2026 · 43.0 Mo
+**VERSION 1.8.18** · publiée le 27 octobre 2026 · 43.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.17.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.17
+## Nouveautés de la 1.8.18
 
-- Carte audio VektraUI ajustée : plus compacte (un rectangle debout), et le titre défile tout seul quand il est trop long pour tenir. Le texte reste toujours à l'intérieur de la carte — plus rien ne déborde.
+- Démarrage automatique remplacé par un widget flottant : plus besoin d'ouvrir l'application. Un bouton flottant se pose par-dessus les autres apps, déplaçable au doigt partout sur l'écran. Il montre le logo VEKTRA, un bouton Marche/Arrêt, un bouton Projection, et une flèche qui ouvre un tiroir vers la droite pour changer de thème et pour l'ADAS. À activer dans les réglages de VEKTRA.
+- VEKTRA tourne toujours en fond (Sentinelle) : quand la voiture est éteinte, l'application surveille en continu et rend le combiné d'origine ~30 secondes après l'arrêt. La projection ne se réactive plus que manuellement (widget ou application), jamais toute seule.
+- Le widget suit le thème de la tablette : apparence sombre ou claire, et il bascule automatiquement.
 
 ---
 

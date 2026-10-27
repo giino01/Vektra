@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.17** · veröffentlicht am 27. Oktober 2026 · 43.0 MB
+**VERSION 1.8.18** · veröffentlicht am 27. Oktober 2026 · 43.1 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.17.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.17
+## Neu in 1.8.18
 
-- VektraUI-Musikkarte angepasst: kompakter (ein hochkantes Rechteck), und der Titel läuft von selbst durch, wenn er zu lang ist. Der Text bleibt immer innerhalb der Karte — nichts läuft mehr über.
+- Autostart durch ein schwebendes Widget ersetzt: die App muss nicht mehr geöffnet werden. Ein schwebender Knopf liegt über anderen Apps und lässt sich überall hinziehen. Er zeigt das VEKTRA-Logo, einen Ein/Aus-Knopf, einen Projektion-Knopf und einen Pfeil, der eine Schublade nach rechts öffnet, um das Thema zu wechseln und für ADAS. In den VEKTRA-Einstellungen aktivierbar.
+- VEKTRA läuft immer im Hintergrund (Sentinel): bei ausgeschaltetem Auto überwacht es weiter und stellt das Original-Kombiinstrument ~30 Sekunden nach dem Abschalten wieder her. Die Projektion schaltet sich nur noch manuell ein (Widget oder App), nie von selbst.
+- Das Widget folgt dem Thema des Tablets: dunkel oder hell, mit automatischem Wechsel.
 
 ---
 

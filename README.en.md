@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.17** · released on 27 October 2026 · 43.0 MB
+**VERSION 1.8.18** · released on 27 October 2026 · 43.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.17.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.17
+## What is new in 1.8.18
 
-- VektraUI music card tuned: more compact (an upright rectangle), and the title now scrolls on its own when it's too long to fit. The text always stays inside the card — nothing overflows anymore.
+- Auto-start replaced by a floating widget: no need to open the app anymore. A floating button sits over other apps and can be dragged anywhere on screen. It shows the VEKTRA logo, an On/Off button, a Projection button, and an arrow that opens a drawer to the right to switch theme and for ADAS. Enable it in VEKTRA's settings.
+- VEKTRA always runs in the background (sentinel): when the car is off, it keeps watching and restores the original cluster ~30 seconds after shutdown. Projection now only turns on manually (widget or app), never on its own.
+- The widget follows the tablet's theme: dark or light, switching automatically.
 
 ---
 

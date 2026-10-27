@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.17** · publicada a 27 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.18** · publicada a 27 de outubro de 2026 · 43.1 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.17.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.17
+## Novidades da 1.8.18
 
-- Cartão de áudio VektraUI ajustado: mais compacto (um retângulo vertical) e o título desliza sozinho quando é demasiado longo. O texto fica sempre dentro do cartão — já nada transborda.
+- Arranque automático substituído por um widget flutuante: já não é preciso abrir a aplicação. Um botão flutuante fica sobre as outras apps e arrasta-se com o dedo para qualquer lado do ecrã. Mostra o logótipo VEKTRA, um botão Ligar/Desligar, um botão Projeção e uma seta que abre uma gaveta à direita para mudar de tema e para o ADAS. Ativa-se nas definições do VEKTRA.
+- O VEKTRA corre sempre em segundo plano (sentinela): com o carro desligado continua a vigiar e repõe o painel original ~30 segundos após o desligamento. A projeção agora só liga manualmente (widget ou app), nunca sozinha.
+- O widget segue o tema do tablet: escuro ou claro, mudando automaticamente.
 
 ---
 

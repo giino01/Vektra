@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.17** · yayın tarihi 27 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.18** · yayın tarihi 27 Ekim 2026 · 43.1 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.17.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.17
+## Yenilikler: 1.8.18
 
-- VektraUI müzik kartı ayarlandı: daha kompakt (dikey bir dikdörtgen) ve çok uzun olduğunda başlık kendiliğinden kayar. Metin her zaman kartın içinde kalır — artık hiçbir şey taşmaz.
+- Otomatik başlatma yerine yüzen pencere öğesi: artık uygulamayı açmaya gerek yok. Diğer uygulamaların üstünde duran ve parmakla her yere sürüklenebilen bir yüzen düğme. VEKTRA logosunu, bir Aç/Kapa düğmesini, bir Yansıtma düğmesini ve tema değiştirmek ile ADAS için sağa bir çekmece açan bir ok gösterir. VEKTRA ayarlarından etkinleştirilir.
+- VEKTRA her zaman arka planda çalışır (nöbetçi): araç kapalıyken izlemeye devam eder ve kapanıştan ~30 saniye sonra orijinal göstergeyi geri yükler. Yansıtma artık yalnızca elle (pencere öğesi veya uygulama) açılır, kendiliğinden asla.
+- Pencere öğesi tabletin temasını izler: koyu veya açık, otomatik geçişle.
 
 ---
 

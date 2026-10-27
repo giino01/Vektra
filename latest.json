@@ -1,28 +1,42 @@
 {
-  "version": "1.8.17",
-  "apk": "Vektra-1.8.17.apk",
-  "size": 45137298,
+  "version": "1.8.18",
+  "apk": "Vektra-1.8.18.apk",
+  "size": 45162750,
   "notes": [
-    "Carte audio VektraUI ajustée : plus compacte (un rectangle debout), et le titre défile tout seul quand il est trop long pour tenir. Le texte reste toujours à l'intérieur de la carte — plus rien ne déborde."
+    "Démarrage automatique remplacé par un widget flottant : plus besoin d'ouvrir l'application. Un bouton flottant se pose par-dessus les autres apps, déplaçable au doigt partout sur l'écran. Il montre le logo VEKTRA, un bouton Marche/Arrêt, un bouton Projection, et une flèche qui ouvre un tiroir vers la droite pour changer de thème et pour l'ADAS. À activer dans les réglages de VEKTRA.",
+    "VEKTRA tourne toujours en fond (Sentinelle) : quand la voiture est éteinte, l'application surveille en continu et rend le combiné d'origine ~30 secondes après l'arrêt. La projection ne se réactive plus que manuellement (widget ou application), jamais toute seule.",
+    "Le widget suit le thème de la tablette : apparence sombre ou claire, et il bascule automatiquement."
   ],
   "notesByLang": {
     "fr": [
-      "Carte audio VektraUI ajustée : plus compacte (un rectangle debout), et le titre défile tout seul quand il est trop long pour tenir. Le texte reste toujours à l'intérieur de la carte — plus rien ne déborde."
+      "Démarrage automatique remplacé par un widget flottant : plus besoin d'ouvrir l'application. Un bouton flottant se pose par-dessus les autres apps, déplaçable au doigt partout sur l'écran. Il montre le logo VEKTRA, un bouton Marche/Arrêt, un bouton Projection, et une flèche qui ouvre un tiroir vers la droite pour changer de thème et pour l'ADAS. À activer dans les réglages de VEKTRA.",
+      "VEKTRA tourne toujours en fond (Sentinelle) : quand la voiture est éteinte, l'application surveille en continu et rend le combiné d'origine ~30 secondes après l'arrêt. La projection ne se réactive plus que manuellement (widget ou application), jamais toute seule.",
+      "Le widget suit le thème de la tablette : apparence sombre ou claire, et il bascule automatiquement."
     ],
     "en": [
-      "VektraUI music card tuned: more compact (an upright rectangle), and the title now scrolls on its own when it's too long to fit. The text always stays inside the card — nothing overflows anymore."
+      "Auto-start replaced by a floating widget: no need to open the app anymore. A floating button sits over other apps and can be dragged anywhere on screen. It shows the VEKTRA logo, an On/Off button, a Projection button, and an arrow that opens a drawer to the right to switch theme and for ADAS. Enable it in VEKTRA's settings.",
+      "VEKTRA always runs in the background (sentinel): when the car is off, it keeps watching and restores the original cluster ~30 seconds after shutdown. Projection now only turns on manually (widget or app), never on its own.",
+      "The widget follows the tablet's theme: dark or light, switching automatically."
     ],
     "it": [
-      "Scheda audio VektraUI regolata: più compatta (un rettangolo verticale) e il titolo scorre da solo quando è troppo lungo. Il testo resta sempre dentro la scheda — niente più fuoriuscite."
+      "Avvio automatico sostituito da un widget mobile: non serve più aprire l'app. Un pulsante mobile sta sopra le altre app e si sposta col dito ovunque sullo schermo. Mostra il logo VEKTRA, un pulsante On/Off, un pulsante Proiezione e una freccia che apre un cassetto a destra per cambiare tema e per l'ADAS. Da attivare nelle impostazioni di VEKTRA.",
+      "VEKTRA è sempre attivo in background (sentinella): a auto spenta continua a sorvegliare e ripristina il quadro originale ~30 secondi dopo lo spegnimento. La proiezione ora si attiva solo manualmente (widget o app), mai da sola.",
+      "Il widget segue il tema del tablet: scuro o chiaro, con cambio automatico."
     ],
     "de": [
-      "VektraUI-Musikkarte angepasst: kompakter (ein hochkantes Rechteck), und der Titel läuft von selbst durch, wenn er zu lang ist. Der Text bleibt immer innerhalb der Karte — nichts läuft mehr über."
+      "Autostart durch ein schwebendes Widget ersetzt: die App muss nicht mehr geöffnet werden. Ein schwebender Knopf liegt über anderen Apps und lässt sich überall hinziehen. Er zeigt das VEKTRA-Logo, einen Ein/Aus-Knopf, einen Projektion-Knopf und einen Pfeil, der eine Schublade nach rechts öffnet, um das Thema zu wechseln und für ADAS. In den VEKTRA-Einstellungen aktivierbar.",
+      "VEKTRA läuft immer im Hintergrund (Sentinel): bei ausgeschaltetem Auto überwacht es weiter und stellt das Original-Kombiinstrument ~30 Sekunden nach dem Abschalten wieder her. Die Projektion schaltet sich nur noch manuell ein (Widget oder App), nie von selbst.",
+      "Das Widget folgt dem Thema des Tablets: dunkel oder hell, mit automatischem Wechsel."
     ],
     "pt": [
-      "Cartão de áudio VektraUI ajustado: mais compacto (um retângulo vertical) e o título desliza sozinho quando é demasiado longo. O texto fica sempre dentro do cartão — já nada transborda."
+      "Arranque automático substituído por um widget flutuante: já não é preciso abrir a aplicação. Um botão flutuante fica sobre as outras apps e arrasta-se com o dedo para qualquer lado do ecrã. Mostra o logótipo VEKTRA, um botão Ligar/Desligar, um botão Projeção e uma seta que abre uma gaveta à direita para mudar de tema e para o ADAS. Ativa-se nas definições do VEKTRA.",
+      "O VEKTRA corre sempre em segundo plano (sentinela): com o carro desligado continua a vigiar e repõe o painel original ~30 segundos após o desligamento. A projeção agora só liga manualmente (widget ou app), nunca sozinha.",
+      "O widget segue o tema do tablet: escuro ou claro, mudando automaticamente."
     ],
     "tr": [
-      "VektraUI müzik kartı ayarlandı: daha kompakt (dikey bir dikdörtgen) ve çok uzun olduğunda başlık kendiliğinden kayar. Metin her zaman kartın içinde kalır — artık hiçbir şey taşmaz."
+      "Otomatik başlatma yerine yüzen pencere öğesi: artık uygulamayı açmaya gerek yok. Diğer uygulamaların üstünde duran ve parmakla her yere sürüklenebilen bir yüzen düğme. VEKTRA logosunu, bir Aç/Kapa düğmesini, bir Yansıtma düğmesini ve tema değiştirmek ile ADAS için sağa bir çekmece açan bir ok gösterir. VEKTRA ayarlarından etkinleştirilir.",
+      "VEKTRA her zaman arka planda çalışır (nöbetçi): araç kapalıyken izlemeye devam eder ve kapanıştan ~30 saniye sonra orijinal göstergeyi geri yükler. Yansıtma artık yalnızca elle (pencere öğesi veya uygulama) açılır, kendiliğinden asla.",
+      "Pencere öğesi tabletin temasını izler: koyu veya açık, otomatik geçişle."
     ]
   }
 }
