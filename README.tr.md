@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.14** · yayın tarihi 27 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.15** · yayın tarihi 27 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.15.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.14
+## Yenilikler: 1.8.15
 
-- Yeni « Changelog » sekmesi: uygulamada (sol çubuk), bir sekme tüm güncellemelerin geçmişini sürüm sürüm gösterir. Metin, uygulamada seçilen dili izler ve doğrudan bu değişiklik günlüğünden gelir — tek kaynak, her zaman güncel.
+- Serbest widget yerleşimi: Düzenleme modunda widget'lar artık ekranın her yerine, köşelere ve kenarlara kadar yerleştirilebilir — çerçeve sınırı kalktı. VektraUI ve Carbone 3D için geçerli.
+- Genişletilmiş tarama: Kontrol sayfası gelecekteki bilgiler için iki yeni ipucu daha okur — iç sıcaklık (klima üzerinden) ve son 50 km tüketimi. Araç çalışırken kontrol edilmeli.
 
 ---
 

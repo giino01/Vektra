@@ -1,28 +1,35 @@
 {
-  "version": "1.8.14",
-  "apk": "Vektra-1.8.14.apk",
-  "size": 45134390,
+  "version": "1.8.15",
+  "apk": "Vektra-1.8.15.apk",
+  "size": 45135554,
   "notes": [
-    "Nouvel onglet « Changelog » : dans l'application (rail de gauche), un onglet reprend l'historique de toutes les mises à jour, version par version. Le texte suit la langue choisie dans l'app et vient directement de ce journal des nouveautés — une seule source, toujours à jour."
+    "Déplacement libre des widgets : en mode Édition, les widgets peuvent maintenant être posés partout à l'écran, jusque dans les coins et sur les bords — la limite du cadre a sauté. Vaut pour VektraUI et Carbone 3D.",
+    "Scan étendu : la page Contrôle relève désormais deux pistes en plus pour de futures infos — la température intérieure (via la climatisation) et la consommation des 50 derniers km. À vérifier voiture démarrée."
   ],
   "notesByLang": {
     "fr": [
-      "Nouvel onglet « Changelog » : dans l'application (rail de gauche), un onglet reprend l'historique de toutes les mises à jour, version par version. Le texte suit la langue choisie dans l'app et vient directement de ce journal des nouveautés — une seule source, toujours à jour."
+      "Déplacement libre des widgets : en mode Édition, les widgets peuvent maintenant être posés partout à l'écran, jusque dans les coins et sur les bords — la limite du cadre a sauté. Vaut pour VektraUI et Carbone 3D.",
+      "Scan étendu : la page Contrôle relève désormais deux pistes en plus pour de futures infos — la température intérieure (via la climatisation) et la consommation des 50 derniers km. À vérifier voiture démarrée."
     ],
     "en": [
-      "New \"Changelog\" tab: in the app (left rail), a tab shows the history of all updates, version by version. The text follows the language selected in the app and comes straight from this change log — a single source, always up to date."
+      "Free widget placement: in Edit mode, widgets can now be placed anywhere on the screen, right into the corners and edges — the frame limit is gone. Applies to VektraUI and Carbone 3D.",
+      "Extended scan: the Control page now also reads two new leads for future info — the indoor temperature (via the air conditioning) and the consumption over the last 50 km. To be checked with the car started."
     ],
     "it": [
-      "Nuova scheda « Changelog »: nell'app (barra a sinistra), una scheda mostra la cronologia di tutti gli aggiornamenti, versione per versione. Il testo segue la lingua scelta nell'app e proviene direttamente da questo registro delle novità — un'unica fonte, sempre aggiornata."
+      "Posizionamento libero dei widget: in modalità Modifica, i widget possono ora essere messi ovunque sullo schermo, fin negli angoli e sui bordi — il limite del riquadro è sparito. Vale per VektraUI e Carbone 3D.",
+      "Scansione estesa: la pagina Controllo rileva ora due nuove piste per informazioni future — la temperatura interna (tramite il climatizzatore) e il consumo degli ultimi 50 km. Da verificare ad auto avviata."
     ],
     "de": [
-      "Neuer Tab „Changelog\": in der App (linke Leiste) zeigt ein Tab den Verlauf aller Updates, Version für Version. Der Text folgt der in der App gewählten Sprache und stammt direkt aus diesem Änderungsprotokoll — eine einzige Quelle, immer aktuell."
+      "Freie Widget-Platzierung: Im Bearbeitungsmodus lassen sich Widgets jetzt überall auf dem Bildschirm platzieren, bis in die Ecken und an die Ränder — die Rahmengrenze ist weg. Gilt für VektraUI und Carbone 3D.",
+      "Erweiterter Scan: Die Kontrollseite liest jetzt zwei neue Quellen für künftige Infos — die Innentemperatur (über die Klimaanlage) und den Verbrauch der letzten 50 km. Bei gestartetem Fahrzeug zu prüfen."
     ],
     "pt": [
-      "Novo separador « Changelog »: na aplicação (barra à esquerda), um separador mostra o histórico de todas as atualizações, versão a versão. O texto segue o idioma escolhido na app e vem diretamente deste registo de novidades — uma única fonte, sempre atualizada."
+      "Colocação livre dos widgets: no modo Edição, os widgets podem agora ser colocados em qualquer lugar do ecrã, até aos cantos e às margens — o limite do quadro desapareceu. Vale para VektraUI e Carbone 3D.",
+      "Análise alargada: a página Controlo lê agora duas novas pistas para informações futuras — a temperatura interior (através do ar condicionado) e o consumo dos últimos 50 km. A verificar com o carro ligado."
     ],
     "tr": [
-      "Yeni « Changelog » sekmesi: uygulamada (sol çubuk), bir sekme tüm güncellemelerin geçmişini sürüm sürüm gösterir. Metin, uygulamada seçilen dili izler ve doğrudan bu değişiklik günlüğünden gelir — tek kaynak, her zaman güncel."
+      "Serbest widget yerleşimi: Düzenleme modunda widget'lar artık ekranın her yerine, köşelere ve kenarlara kadar yerleştirilebilir — çerçeve sınırı kalktı. VektraUI ve Carbone 3D için geçerli.",
+      "Genişletilmiş tarama: Kontrol sayfası gelecekteki bilgiler için iki yeni ipucu daha okur — iç sıcaklık (klima üzerinden) ve son 50 km tüketimi. Araç çalışırken kontrol edilmeli."
     ]
   }
 }

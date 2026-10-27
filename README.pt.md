@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.14** · publicada a 27 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.15** · publicada a 27 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.14.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.15.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,10 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.14
+## Novidades da 1.8.15
 
-- Novo separador « Changelog »: na aplicação (barra à esquerda), um separador mostra o histórico de todas as atualizações, versão a versão. O texto segue o idioma escolhido na app e vem diretamente deste registo de novidades — uma única fonte, sempre atualizada.
+- Colocação livre dos widgets: no modo Edição, os widgets podem agora ser colocados em qualquer lugar do ecrã, até aos cantos e às margens — o limite do quadro desapareceu. Vale para VektraUI e Carbone 3D.
+- Análise alargada: a página Controlo lê agora duas novas pistas para informações futuras — a temperatura interior (através do ar condicionado) e o consumo dos últimos 50 km. A verificar com o carro ligado.
 
 ---
 
