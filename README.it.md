@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.15** · pubblicata il 27 ottobre 2026 · 43.0 MB
+**VERSIONE 1.8.16** · pubblicata il 27 ottobre 2026 · 43.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.15.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.16.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,10 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.15
+## Novità della 1.8.16
 
-- Posizionamento libero dei widget: in modalità Modifica, i widget possono ora essere messi ovunque sullo schermo, fin negli angoli e sui bordi — il limite del riquadro è sparito. Vale per VektraUI e Carbone 3D.
-- Scansione estesa: la pagina Controllo rileva ora due nuove piste per informazioni future — la temperatura interna (tramite il climatizzatore) e il consumo degli ultimi 50 km. Da verificare ad auto avviata.
+- Lettore musicale VektraUI ridisegnato: una scheda verticale con grande copertina, titolo, artista, barra di avanzamento (trascorso / durata) e controlli ⏮ ⏯ ⏭ il cui pulsante centrale segue lo stato reale di riproduzione.
+- Copertina per ogni app: la copertina ora appare anche quando l'app non la incorpora come immagine ma la fornisce tramite link — era il caso di Spotify (titolo visibile, copertina assente). Ora viene recuperata da quel link. Vale per tutte le app.
 
 ---
 

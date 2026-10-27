@@ -1,35 +1,35 @@
 {
-  "version": "1.8.15",
-  "apk": "Vektra-1.8.15.apk",
-  "size": 45135554,
+  "version": "1.8.16",
+  "apk": "Vektra-1.8.16.apk",
+  "size": 45136778,
   "notes": [
-    "Déplacement libre des widgets : en mode Édition, les widgets peuvent maintenant être posés partout à l'écran, jusque dans les coins et sur les bords — la limite du cadre a sauté. Vaut pour VektraUI et Carbone 3D.",
-    "Scan étendu : la page Contrôle relève désormais deux pistes en plus pour de futures infos — la température intérieure (via la climatisation) et la consommation des 50 derniers km. À vérifier voiture démarrée."
+    "Lecteur de musique VektraUI repensé : une carte portrait avec grande pochette, titre, artiste, barre de progression (temps écoulé / durée) et contrôles ⏮ ⏯ ⏭ dont le bouton central suit l'état réel de lecture.",
+    "Pochette d'album pour toutes les apps : la jaquette s'affiche maintenant même quand l'application ne l'intègre pas en image mais la fournit par lien — c'était le cas de Spotify (titre visible, pochette absente). Désormais elle est récupérée depuis ce lien. Vaut pour toutes les apps."
   ],
   "notesByLang": {
     "fr": [
-      "Déplacement libre des widgets : en mode Édition, les widgets peuvent maintenant être posés partout à l'écran, jusque dans les coins et sur les bords — la limite du cadre a sauté. Vaut pour VektraUI et Carbone 3D.",
-      "Scan étendu : la page Contrôle relève désormais deux pistes en plus pour de futures infos — la température intérieure (via la climatisation) et la consommation des 50 derniers km. À vérifier voiture démarrée."
+      "Lecteur de musique VektraUI repensé : une carte portrait avec grande pochette, titre, artiste, barre de progression (temps écoulé / durée) et contrôles ⏮ ⏯ ⏭ dont le bouton central suit l'état réel de lecture.",
+      "Pochette d'album pour toutes les apps : la jaquette s'affiche maintenant même quand l'application ne l'intègre pas en image mais la fournit par lien — c'était le cas de Spotify (titre visible, pochette absente). Désormais elle est récupérée depuis ce lien. Vaut pour toutes les apps."
     ],
     "en": [
-      "Free widget placement: in Edit mode, widgets can now be placed anywhere on the screen, right into the corners and edges — the frame limit is gone. Applies to VektraUI and Carbone 3D.",
-      "Extended scan: the Control page now also reads two new leads for future info — the indoor temperature (via the air conditioning) and the consumption over the last 50 km. To be checked with the car started."
+      "Redesigned VektraUI music player: a portrait card with large album art, title, artist, a progress bar (elapsed / duration) and ⏮ ⏯ ⏭ controls whose centre button follows the real playback state.",
+      "Album art for every app: the artwork now shows even when the app doesn't embed it as an image but provides it as a link — this was the case with Spotify (title visible, artwork missing). It is now fetched from that link. Applies to all apps."
     ],
     "it": [
-      "Posizionamento libero dei widget: in modalità Modifica, i widget possono ora essere messi ovunque sullo schermo, fin negli angoli e sui bordi — il limite del riquadro è sparito. Vale per VektraUI e Carbone 3D.",
-      "Scansione estesa: la pagina Controllo rileva ora due nuove piste per informazioni future — la temperatura interna (tramite il climatizzatore) e il consumo degli ultimi 50 km. Da verificare ad auto avviata."
+      "Lettore musicale VektraUI ridisegnato: una scheda verticale con grande copertina, titolo, artista, barra di avanzamento (trascorso / durata) e controlli ⏮ ⏯ ⏭ il cui pulsante centrale segue lo stato reale di riproduzione.",
+      "Copertina per ogni app: la copertina ora appare anche quando l'app non la incorpora come immagine ma la fornisce tramite link — era il caso di Spotify (titolo visibile, copertina assente). Ora viene recuperata da quel link. Vale per tutte le app."
     ],
     "de": [
-      "Freie Widget-Platzierung: Im Bearbeitungsmodus lassen sich Widgets jetzt überall auf dem Bildschirm platzieren, bis in die Ecken und an die Ränder — die Rahmengrenze ist weg. Gilt für VektraUI und Carbone 3D.",
-      "Erweiterter Scan: Die Kontrollseite liest jetzt zwei neue Quellen für künftige Infos — die Innentemperatur (über die Klimaanlage) und den Verbrauch der letzten 50 km. Bei gestartetem Fahrzeug zu prüfen."
+      "Neu gestalteter VektraUI-Musikplayer: eine Hochkant-Karte mit großem Albumcover, Titel, Interpret, Fortschrittsleiste (verstrichen / Dauer) und ⏮ ⏯ ⏭-Steuerung, deren mittlere Taste dem echten Wiedergabestatus folgt.",
+      "Albumcover für jede App: das Cover erscheint jetzt auch, wenn die App es nicht als Bild einbettet, sondern als Link liefert — so bei Spotify (Titel sichtbar, Cover fehlte). Es wird nun über diesen Link geladen. Gilt für alle Apps."
     ],
     "pt": [
-      "Colocação livre dos widgets: no modo Edição, os widgets podem agora ser colocados em qualquer lugar do ecrã, até aos cantos e às margens — o limite do quadro desapareceu. Vale para VektraUI e Carbone 3D.",
-      "Análise alargada: a página Controlo lê agora duas novas pistas para informações futuras — a temperatura interior (através do ar condicionado) e o consumo dos últimos 50 km. A verificar com o carro ligado."
+      "Leitor de música VektraUI redesenhado: um cartão vertical com grande capa, título, artista, barra de progresso (decorrido / duração) e controlos ⏮ ⏯ ⏭ cujo botão central segue o estado real de reprodução.",
+      "Capa de álbum para todas as apps: a capa aparece agora mesmo quando a aplicação não a incorpora como imagem mas a fornece por ligação — era o caso do Spotify (título visível, capa ausente). Passa a ser obtida dessa ligação. Vale para todas as apps."
     ],
     "tr": [
-      "Serbest widget yerleşimi: Düzenleme modunda widget'lar artık ekranın her yerine, köşelere ve kenarlara kadar yerleştirilebilir — çerçeve sınırı kalktı. VektraUI ve Carbone 3D için geçerli.",
-      "Genişletilmiş tarama: Kontrol sayfası gelecekteki bilgiler için iki yeni ipucu daha okur — iç sıcaklık (klima üzerinden) ve son 50 km tüketimi. Araç çalışırken kontrol edilmeli."
+      "Yeniden tasarlanan VektraUI müzik çalar: büyük albüm kapağı, başlık, sanatçı, ilerleme çubuğu (geçen / süre) ve orta düğmesi gerçek oynatma durumunu izleyen ⏮ ⏯ ⏭ kontrolleriyle dikey bir kart.",
+      "Her uygulama için albüm kapağı: kapak artık uygulama görseli gömmeyip bağlantı olarak verdiğinde de görünür — Spotify'da durum buydu (başlık görünür, kapak yok). Artık o bağlantıdan alınır. Tüm uygulamalar için geçerli."
     ]
   }
 }

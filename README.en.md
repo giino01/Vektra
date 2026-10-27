@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.15** · released on 27 October 2026 · 43.0 MB
+**VERSION 1.8.16** · released on 27 October 2026 · 43.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.15.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.16.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,10 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.15
+## What is new in 1.8.16
 
-- Free widget placement: in Edit mode, widgets can now be placed anywhere on the screen, right into the corners and edges — the frame limit is gone. Applies to VektraUI and Carbone 3D.
-- Extended scan: the Control page now also reads two new leads for future info — the indoor temperature (via the air conditioning) and the consumption over the last 50 km. To be checked with the car started.
+- Redesigned VektraUI music player: a portrait card with large album art, title, artist, a progress bar (elapsed / duration) and ⏮ ⏯ ⏭ controls whose centre button follows the real playback state.
+- Album art for every app: the artwork now shows even when the app doesn't embed it as an image but provides it as a link — this was the case with Spotify (title visible, artwork missing). It is now fetched from that link. Applies to all apps.
 
 ---
 

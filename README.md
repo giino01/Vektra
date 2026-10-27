@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.15** · publiée le 27 octobre 2026 · 43.0 Mo
+**VERSION 1.8.16** · publiée le 27 octobre 2026 · 43.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.15.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.16.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.15
+## Nouveautés de la 1.8.16
 
-- Déplacement libre des widgets : en mode Édition, les widgets peuvent maintenant être posés partout à l'écran, jusque dans les coins et sur les bords — la limite du cadre a sauté. Vaut pour VektraUI et Carbone 3D.
-- Scan étendu : la page Contrôle relève désormais deux pistes en plus pour de futures infos — la température intérieure (via la climatisation) et la consommation des 50 derniers km. À vérifier voiture démarrée.
+- Lecteur de musique VektraUI repensé : une carte portrait avec grande pochette, titre, artiste, barre de progression (temps écoulé / durée) et contrôles ⏮ ⏯ ⏭ dont le bouton central suit l'état réel de lecture.
+- Pochette d'album pour toutes les apps : la jaquette s'affiche maintenant même quand l'application ne l'intègre pas en image mais la fournit par lien — c'était le cas de Spotify (titre visible, pochette absente). Désormais elle est récupérée depuis ce lien. Vaut pour toutes les apps.
 
 ---
 
