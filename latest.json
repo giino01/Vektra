@@ -1,35 +1,28 @@
 {
-  "version": "1.8.16",
-  "apk": "Vektra-1.8.16.apk",
-  "size": 45136778,
+  "version": "1.8.17",
+  "apk": "Vektra-1.8.17.apk",
+  "size": 45137298,
   "notes": [
-    "Lecteur de musique VektraUI repensé : une carte portrait avec grande pochette, titre, artiste, barre de progression (temps écoulé / durée) et contrôles ⏮ ⏯ ⏭ dont le bouton central suit l'état réel de lecture.",
-    "Pochette d'album pour toutes les apps : la jaquette s'affiche maintenant même quand l'application ne l'intègre pas en image mais la fournit par lien — c'était le cas de Spotify (titre visible, pochette absente). Désormais elle est récupérée depuis ce lien. Vaut pour toutes les apps."
+    "Carte audio VektraUI ajustée : plus compacte (un rectangle debout), et le titre défile tout seul quand il est trop long pour tenir. Le texte reste toujours à l'intérieur de la carte — plus rien ne déborde."
   ],
   "notesByLang": {
     "fr": [
-      "Lecteur de musique VektraUI repensé : une carte portrait avec grande pochette, titre, artiste, barre de progression (temps écoulé / durée) et contrôles ⏮ ⏯ ⏭ dont le bouton central suit l'état réel de lecture.",
-      "Pochette d'album pour toutes les apps : la jaquette s'affiche maintenant même quand l'application ne l'intègre pas en image mais la fournit par lien — c'était le cas de Spotify (titre visible, pochette absente). Désormais elle est récupérée depuis ce lien. Vaut pour toutes les apps."
+      "Carte audio VektraUI ajustée : plus compacte (un rectangle debout), et le titre défile tout seul quand il est trop long pour tenir. Le texte reste toujours à l'intérieur de la carte — plus rien ne déborde."
     ],
     "en": [
-      "Redesigned VektraUI music player: a portrait card with large album art, title, artist, a progress bar (elapsed / duration) and ⏮ ⏯ ⏭ controls whose centre button follows the real playback state.",
-      "Album art for every app: the artwork now shows even when the app doesn't embed it as an image but provides it as a link — this was the case with Spotify (title visible, artwork missing). It is now fetched from that link. Applies to all apps."
+      "VektraUI music card tuned: more compact (an upright rectangle), and the title now scrolls on its own when it's too long to fit. The text always stays inside the card — nothing overflows anymore."
     ],
     "it": [
-      "Lettore musicale VektraUI ridisegnato: una scheda verticale con grande copertina, titolo, artista, barra di avanzamento (trascorso / durata) e controlli ⏮ ⏯ ⏭ il cui pulsante centrale segue lo stato reale di riproduzione.",
-      "Copertina per ogni app: la copertina ora appare anche quando l'app non la incorpora come immagine ma la fornisce tramite link — era il caso di Spotify (titolo visibile, copertina assente). Ora viene recuperata da quel link. Vale per tutte le app."
+      "Scheda audio VektraUI regolata: più compatta (un rettangolo verticale) e il titolo scorre da solo quando è troppo lungo. Il testo resta sempre dentro la scheda — niente più fuoriuscite."
     ],
     "de": [
-      "Neu gestalteter VektraUI-Musikplayer: eine Hochkant-Karte mit großem Albumcover, Titel, Interpret, Fortschrittsleiste (verstrichen / Dauer) und ⏮ ⏯ ⏭-Steuerung, deren mittlere Taste dem echten Wiedergabestatus folgt.",
-      "Albumcover für jede App: das Cover erscheint jetzt auch, wenn die App es nicht als Bild einbettet, sondern als Link liefert — so bei Spotify (Titel sichtbar, Cover fehlte). Es wird nun über diesen Link geladen. Gilt für alle Apps."
+      "VektraUI-Musikkarte angepasst: kompakter (ein hochkantes Rechteck), und der Titel läuft von selbst durch, wenn er zu lang ist. Der Text bleibt immer innerhalb der Karte — nichts läuft mehr über."
     ],
     "pt": [
-      "Leitor de música VektraUI redesenhado: um cartão vertical com grande capa, título, artista, barra de progresso (decorrido / duração) e controlos ⏮ ⏯ ⏭ cujo botão central segue o estado real de reprodução.",
-      "Capa de álbum para todas as apps: a capa aparece agora mesmo quando a aplicação não a incorpora como imagem mas a fornece por ligação — era o caso do Spotify (título visível, capa ausente). Passa a ser obtida dessa ligação. Vale para todas as apps."
+      "Cartão de áudio VektraUI ajustado: mais compacto (um retângulo vertical) e o título desliza sozinho quando é demasiado longo. O texto fica sempre dentro do cartão — já nada transborda."
     ],
     "tr": [
-      "Yeniden tasarlanan VektraUI müzik çalar: büyük albüm kapağı, başlık, sanatçı, ilerleme çubuğu (geçen / süre) ve orta düğmesi gerçek oynatma durumunu izleyen ⏮ ⏯ ⏭ kontrolleriyle dikey bir kart.",
-      "Her uygulama için albüm kapağı: kapak artık uygulama görseli gömmeyip bağlantı olarak verdiğinde de görünür — Spotify'da durum buydu (başlık görünür, kapak yok). Artık o bağlantıdan alınır. Tüm uygulamalar için geçerli."
+      "VektraUI müzik kartı ayarlandı: daha kompakt (dikey bir dikdörtgen) ve çok uzun olduğunda başlık kendiliğinden kayar. Metin her zaman kartın içinde kalır — artık hiçbir şey taşmaz."
     ]
   }
 }

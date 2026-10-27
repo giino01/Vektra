@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.16** · publicada a 27 de outubro de 2026 · 43.0 MB
+**VERSÃO 1.8.17** · publicada a 27 de outubro de 2026 · 43.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.16.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.17.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.16
+## Novidades da 1.8.17
 
-- Leitor de música VektraUI redesenhado: um cartão vertical com grande capa, título, artista, barra de progresso (decorrido / duração) e controlos ⏮ ⏯ ⏭ cujo botão central segue o estado real de reprodução.
-- Capa de álbum para todas as apps: a capa aparece agora mesmo quando a aplicação não a incorpora como imagem mas a fornece por ligação — era o caso do Spotify (título visível, capa ausente). Passa a ser obtida dessa ligação. Vale para todas as apps.
+- Cartão de áudio VektraUI ajustado: mais compacto (um retângulo vertical) e o título desliza sozinho quando é demasiado longo. O texto fica sempre dentro do cartão — já nada transborda.
 
 ---
 

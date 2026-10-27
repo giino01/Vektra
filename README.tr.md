@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.16** · yayın tarihi 27 Ekim 2026 · 43.0 MB
+**SÜRÜM 1.8.17** · yayın tarihi 27 Ekim 2026 · 43.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.16.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.17.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,10 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.16
+## Yenilikler: 1.8.17
 
-- Yeniden tasarlanan VektraUI müzik çalar: büyük albüm kapağı, başlık, sanatçı, ilerleme çubuğu (geçen / süre) ve orta düğmesi gerçek oynatma durumunu izleyen ⏮ ⏯ ⏭ kontrolleriyle dikey bir kart.
-- Her uygulama için albüm kapağı: kapak artık uygulama görseli gömmeyip bağlantı olarak verdiğinde de görünür — Spotify'da durum buydu (başlık görünür, kapak yok). Artık o bağlantıdan alınır. Tüm uygulamalar için geçerli.
+- VektraUI müzik kartı ayarlandı: daha kompakt (dikey bir dikdörtgen) ve çok uzun olduğunda başlık kendiliğinden kayar. Metin her zaman kartın içinde kalır — artık hiçbir şey taşmaz.
 
 ---
 
