@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.9.8** · yayın tarihi 28 Ekim 2026 · 43.3 MB
+**SÜRÜM 1.9.9** · yayın tarihi 28 Ekim 2026 · 43.3 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,14 +103,15 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.9.8
+## Yenilikler: 1.9.9
 
-- Gösterge paneli vBot Vektra widget'ı: tüm dinamik tepkiler entegre edildi:
-- Müzikle dans etme: müzik çalarken vBot ritme göre dans eder ve yüzen nota efektleri belirir.
-- G-kuvveti tepkileri (Hızlanma / Frenleme): tam gazda geriye doğru yatar, ani frende kollarını öne doğru uzatır.
-- Virajlarda dinamik eğilme: virajlarda merkezkaç kuvvetine göre gövdesini yana yatırır.
-- Görsel gösterge uyarıları: lastik basıncı uyarısı, kritik batarya simgesi (<%15), hava kirliliği filtresi (PM2.5) ve yağmurda koruma kalkanı.
-- Araç kapalıyken uyku modu: gözleri kapalı ve yükselen « Z z z » animasyonu.
+- Yeni resmi vBot Vektra tasarımı (360° referans modeline tam uyumlu):
+- Atletik insansı robot silueti: sedef beyazı zırh plakaları, koyu mekanik alt giysi ve yanlarda dikey camgöbeği (cyan) neon ışık hatları.
+- Resmi Vektra göğüs çekirdeği: parlak neon halkalı koyu dairesel madalyon ve fütüristik « Vektra » yazısı.
+- Antensiz aerodinamik kask: pürüzsüz kavisli kask yapısı ve her iki yanda eşmerkezli ışıklı halkalara sahip kulak türbinleri.
+- Panoramik koyu vizör ve açılı LED gözler: karartılmış vizör içinde kendinden emin ve keskin bakışlı açılı LED ışıklar.
+- Omuz neon halkaları ve sırt reaktörü: omuz kapaklarında dairesel ışık halkaları ve sırtta dairesel güç reaktörü.
+- Tüm ekranlarda senkronize: hem 3D WebGL modelinde hem de gösterge paneli 2D vektörel widget'ında birebir aynı görünüm.
 
 ---
 

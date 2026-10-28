@@ -1,63 +1,73 @@
 {
-  "version": "1.9.8",
-  "apk": "Vektra-1.9.8.apk",
-  "size": 45446443,
+  "version": "1.9.9",
+  "apk": "Vektra-1.9.9.apk",
+  "size": 45455075,
   "notes": [
-    "Widget combiné vBot Vektra : toutes les réactions dynamiques intégrées :",
-    "Danse en rythme sur la musique : vBot danse et balance ses bras en rythme avec des notes de musique flottantes sur toute lecture audio en cours (Spotify, radio, Bluetooth...).",
-    "Inertie et G-force (Accélération / Freinage) : se cabre vers l'arrière à pleine puissance avec des traits de vitesse, et plonge en avant bras tendus lors des freinages brusques.",
-    "Inclinaison dynamique dans les virages : penche le corps en temps réel dans les courbes selon la force centrifuge et le cap.",
-    "Alertes visuelles de bord : badge d'anomalie de pression des pneus, icône de batterie critique (< 15 %), masque respirateur de filtration contre la pollution de l'air (PM2.5), et dôme parapluie de protection sous la pluie.",
-    "Mode veille (Dodo) : yeux clos et « Z z z » flottants quand le véhicule est éteint."
+    "Nouveau design officiel vBot Vektra (conforme au modèle de référence 360°) :",
+    "Silhouette humanoïde athlétique : armure blanche nacrée sculptée, sous-combinaison sombre et coutures lumineuses néon cyan le long des flancs et des membres.",
+    "Cœur de torse officiel Vektra : médaillon circulaire sombre avec anneau néon cyan éclatant et typographie futuriste « Vektra ».",
+    "Casque aérodynamique épuré (sans antenne) : dôme supérieur profilé et turbines auriculaires latérales gauche/droite avec anneaux concentriques lumineux.",
+    "Visière panoramique & optiques LED angulaires : visière fumée et optiques LED biseautées au regard assuré et technologique, adaptées à toutes les poses et humeurs.",
+    "Anneaux néon d'épaules et réacteur dorsal : anneaux cyan latéraux sur les épaulettes et réacteur circulaire au dos.",
+    "Bottes athlétiques et semelles lumineuses : semelles profilées soulignées d'un liseré néon cyan.",
+    "Rendu synchronisé partout : appliqué à l'identique dans le modèle 3D WebGL (tablette) et dans le dessin vectoriel 2D optimisé du widget combiné."
   ],
   "notesByLang": {
     "fr": [
-      "Widget combiné vBot Vektra : toutes les réactions dynamiques intégrées :",
-      "Danse en rythme sur la musique : vBot danse et balance ses bras en rythme avec des notes de musique flottantes sur toute lecture audio en cours (Spotify, radio, Bluetooth...).",
-      "Inertie et G-force (Accélération / Freinage) : se cabre vers l'arrière à pleine puissance avec des traits de vitesse, et plonge en avant bras tendus lors des freinages brusques.",
-      "Inclinaison dynamique dans les virages : penche le corps en temps réel dans les courbes selon la force centrifuge et le cap.",
-      "Alertes visuelles de bord : badge d'anomalie de pression des pneus, icône de batterie critique (< 15 %), masque respirateur de filtration contre la pollution de l'air (PM2.5), et dôme parapluie de protection sous la pluie.",
-      "Mode veille (Dodo) : yeux clos et « Z z z » flottants quand le véhicule est éteint."
+      "Nouveau design officiel vBot Vektra (conforme au modèle de référence 360°) :",
+      "Silhouette humanoïde athlétique : armure blanche nacrée sculptée, sous-combinaison sombre et coutures lumineuses néon cyan le long des flancs et des membres.",
+      "Cœur de torse officiel Vektra : médaillon circulaire sombre avec anneau néon cyan éclatant et typographie futuriste « Vektra ».",
+      "Casque aérodynamique épuré (sans antenne) : dôme supérieur profilé et turbines auriculaires latérales gauche/droite avec anneaux concentriques lumineux.",
+      "Visière panoramique & optiques LED angulaires : visière fumée et optiques LED biseautées au regard assuré et technologique, adaptées à toutes les poses et humeurs.",
+      "Anneaux néon d'épaules et réacteur dorsal : anneaux cyan latéraux sur les épaulettes et réacteur circulaire au dos.",
+      "Bottes athlétiques et semelles lumineuses : semelles profilées soulignées d'un liseré néon cyan.",
+      "Rendu synchronisé partout : appliqué à l'identique dans le modèle 3D WebGL (tablette) et dans le dessin vectoriel 2D optimisé du widget combiné."
     ],
     "en": [
-      "Cluster widget vBot Vektra: full dynamic reactions & animations:",
-      "Dancing to music: vBot bounces and swings arms rhythmically with floating musical notes whenever music is playing (Spotify, radio, Bluetooth...).",
-      "G-force & inertia (Acceleration / Braking): leans back with speed streaks under full acceleration, and braces forward with arms outstretched under hard braking.",
-      "Dynamic cornering tilt: leans body smoothly into curves based on lateral G-forces and heading.",
-      "Visual dashboard alerts: tyre pressure warning badge, critical battery icon (<15%), futuristic respirator mask for polluted air (PM2.5), and glowing umbrella shield in the rain.",
-      "Standby sleep mode (Dodo): closed eyes and floating \"Z z z\" when the vehicle is turned off."
+      "New official vBot Vektra design (matching the 360° reference model sheet) :",
+      "Athletic humanoid silhouette: pearlescent white sculpted armor plates, dark mechanical undersuit, and vertical cyan neon seams along flanks and limbs.",
+      "Official Vektra chest core: circular dark medallion with bright glowing cyan outer ring and futuristic \"Vektra\" typography.",
+      "Streamlined aerodynamic helmet (no top antenna): sleek curved dome with left and right lateral ear turbines featuring glowing concentric rings.",
+      "Smoked panoramic visor & angular LED eyes: high-tech beveled cyan LED optics with a confident gaze, reacting to all driving poses and moods.",
+      "Shoulder neon rings & back reactor: lateral cyan glowing rings on shoulder caps and circular power core on the back.",
+      "Athletic boots & glowing soles: sculpted boots with glowing cyan neon light piping along the sole edges.",
+      "Synchronized across platforms: identical look on both the WebGL 3D mascot (tablet) and the high-performance 2D vector cluster widget."
     ],
     "it": [
-      "Widget quadro strumenti vBot Vektra: tutte le reazioni dinamiche integrate:",
-      "Danza a ritmo di musica: vBot balla con note musicali fluttuanti quando la musica è in riproduzione.",
-      "Forza G (Accelerazione e Frenata): si inclina all'indietro a piena accelerazione e si protende in avanti durante le frenate brusche.",
-      "Inclinazione dinamica in curva: piega il corpo in curva seguendo la forza laterale.",
-      "Avvisi visivi dedicati: anomalia pneumatici, batteria critica (<15%), maschera protettiva per aria inquinata (PM2.5) e cupola ombrello sotto la pioggia.",
-      "Modalità sonno a vettura spenta: occhi chiusi e « Z z z » fluttuanti."
+      "Nuovo design ufficiale vBot Vektra (conforme al modello 360°):",
+      "Silhouette umanoide atletica: corazza bianco perlato, sottotuta meccanica scura e liserel neon ciano lungo i fianchi.",
+      "Cuore toracico ufficiale Vektra: medaglione circolare scuro con anello neon ciano e scritta futuristica « Vektra ».",
+      "Casco aerodinamico senza antenna: cupola rastremata e turbine auricolari laterali con anelli concentrici luminosi.",
+      "Visiera panoramica e ottiche LED angolari: visiera oscurata e occhi LED ciano con sguardo deciso e tecnologico.",
+      "Anelli spallacci e reattore dorsale: anelli luminosi sulle spalle e reattore di potenza circolare sulla schiena.",
+      "Grafica sincronizzata ovunque: reso identico sia nel modello 3D WebGL (tablet) che nel widget vettoriale 2D del cruscotto."
     ],
     "de": [
-      "Kombiinstrument-Widget vBot Vektra: alle dynamischen Reaktionen integriert:",
-      "Tanzt zur Musik: vBot tanzt im Rhythmus mit schwebenden Musiknoten bei Audiowiedergabe.",
-      "G-Kräfte (Beschleunigung & Bremsen): neigt sich bei voller Beschleunigung nach hinten und stützt sich beim Bremsen nach vorne ab.",
-      "Dynamische Kurvenneigung: neigt den Körper physikalisch präzise in die Kurven.",
-      "Visuelle Warnungen: Reifendruckwarnung, kritischer Akkustand (<15%), Filtermaske bei Luftverschmutzung (PM2.5) und Schutzschirm bei Regen.",
-      "Ruhemodus bei ausgeschaltetem Fahrzeug: geschlossene Augen und schwebende « Z z z »."
+      "Neues offizielles Design für vBot Vektra (gemäß 360°-Referenzmodell):",
+      "Athletische humanoide Silhouette: perlweiße Panzerplatten, dunkler mechanischer Anzug und cyanfarbene Neon-Lichtleisten.",
+      "Offizielles Vektra-Brustemblem: kreisrundes dunkles Medaillon mit leuchtendem Cyan-Ring und futuristischem « Vektra »-Schriftzug.",
+      "Aerodynamischer Helm (ohne Antenne): elegante glatte Helmschale mit seitlichen Ohr-Turbinen und konzentrischen Leuchtringen.",
+      "Panoramavisier & eckige LED-Optik: getöntes Visier mit abgeschrägten Cyan-LED-Augen für einen selbstbewussten Blick.",
+      "Schulter-Lichtringe & Rückenreaktor: seitliche Cyan-Ringe an den Schulterkappen und runder Reaktor auf dem Rücken.",
+      "Perfekt synchronisiert: identisches Erscheinungsbild im 3D-WebGL-Modell und im 2D-Vektor-Widget des Kombiinstruments."
     ],
     "pt": [
-      "Widget do painel vBot Vektra: todas as reações dinâmicas integradas:",
-      "Dança ao ritmo da música: o vBot dança e move os braços com notas musicais a flutuar durante a reprodução de música.",
-      "Força G (Aceleração e Travagem): inclina-se para trás com traços de velocidade em aceleração e projeta-se para a frente em travagens bruscas.",
-      "Inclinação dinâmica nas curvas: inclina o corpo em tempo real consoante a força centrífuga.",
-      "Alertas visuais no painel: anomalia nos pneus, bateria crítica (<15%), máscara purificadora para poluição (PM2.5) e cúpula de proteção à chuva.",
-      "Modo de descanso (Dodo): olhos fechados e « Z z z » a flutuar com o carro desligado."
+      "Novo design oficial do vBot Vektra (conforme modelo de referência 360°):",
+      "Silhueta humanoide atlética: armadura esculpida em branco pérola, fato mecânico escuro e linhas de luz néon ciano.",
+      "Núcleo de peito oficial Vektra: medalhão circular escuro com anel néon ciano brilhante e tipografia futurista « Vektra ».",
+      "Capacete aerodinâmico sem antena: cúpula superior elegante e turbinas auriculares laterais com anéis concêntricos iluminados.",
+      "Viseira panorâmica e olhos LED angulares: viseira fumada com óticas LED ciano biseladas e olhar confiante.",
+      "Anéis néon nos ombros e reator dorsal: anéis laterais nos ombros e reator circular nas costas.",
+      "Sincronizado em toda a aplicação: aplicado tanto no modelo 3D WebGL (ecrã central) como no widget vetorial 2D do painel."
     ],
     "tr": [
-      "Gösterge paneli vBot Vektra widget'ı: tüm dinamik tepkiler entegre edildi:",
-      "Müzikle dans etme: müzik çalarken vBot ritme göre dans eder ve yüzen nota efektleri belirir.",
-      "G-kuvveti tepkileri (Hızlanma / Frenleme): tam gazda geriye doğru yatar, ani frende kollarını öne doğru uzatır.",
-      "Virajlarda dinamik eğilme: virajlarda merkezkaç kuvvetine göre gövdesini yana yatırır.",
-      "Görsel gösterge uyarıları: lastik basıncı uyarısı, kritik batarya simgesi (<%15), hava kirliliği filtresi (PM2.5) ve yağmurda koruma kalkanı.",
-      "Araç kapalıyken uyku modu: gözleri kapalı ve yükselen « Z z z » animasyonu."
+      "Yeni resmi vBot Vektra tasarımı (360° referans modeline tam uyumlu):",
+      "Atletik insansı robot silueti: sedef beyazı zırh plakaları, koyu mekanik alt giysi ve yanlarda dikey camgöbeği (cyan) neon ışık hatları.",
+      "Resmi Vektra göğüs çekirdeği: parlak neon halkalı koyu dairesel madalyon ve fütüristik « Vektra » yazısı.",
+      "Antensiz aerodinamik kask: pürüzsüz kavisli kask yapısı ve her iki yanda eşmerkezli ışıklı halkalara sahip kulak türbinleri.",
+      "Panoramik koyu vizör ve açılı LED gözler: karartılmış vizör içinde kendinden emin ve keskin bakışlı açılı LED ışıklar.",
+      "Omuz neon halkaları ve sırt reaktörü: omuz kapaklarında dairesel ışık halkaları ve sırtta dairesel güç reaktörü.",
+      "Tüm ekranlarda senkronize: hem 3D WebGL modelinde hem de gösterge paneli 2D vektörel widget'ında birebir aynı görünüm."
     ]
   }
 }

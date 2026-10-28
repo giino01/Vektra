@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.8** · publicada a 28 de outubro de 2026 · 43.3 MB
+**VERSÃO 1.9.9** · publicada a 28 de outubro de 2026 · 43.3 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,14 +103,15 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.8
+## Novidades da 1.9.9
 
-- Widget do painel vBot Vektra: todas as reações dinâmicas integradas:
-- Dança ao ritmo da música: o vBot dança e move os braços com notas musicais a flutuar durante a reprodução de música.
-- Força G (Aceleração e Travagem): inclina-se para trás com traços de velocidade em aceleração e projeta-se para a frente em travagens bruscas.
-- Inclinação dinâmica nas curvas: inclina o corpo em tempo real consoante a força centrífuga.
-- Alertas visuais no painel: anomalia nos pneus, bateria crítica (<15%), máscara purificadora para poluição (PM2.5) e cúpula de proteção à chuva.
-- Modo de descanso (Dodo): olhos fechados e « Z z z » a flutuar com o carro desligado.
+- Novo design oficial do vBot Vektra (conforme modelo de referência 360°):
+- Silhueta humanoide atlética: armadura esculpida em branco pérola, fato mecânico escuro e linhas de luz néon ciano.
+- Núcleo de peito oficial Vektra: medalhão circular escuro com anel néon ciano brilhante e tipografia futurista « Vektra ».
+- Capacete aerodinâmico sem antena: cúpula superior elegante e turbinas auriculares laterais com anéis concêntricos iluminados.
+- Viseira panorâmica e olhos LED angulares: viseira fumada com óticas LED ciano biseladas e olhar confiante.
+- Anéis néon nos ombros e reator dorsal: anéis laterais nos ombros e reator circular nas costas.
+- Sincronizado em toda a aplicação: aplicado tanto no modelo 3D WebGL (ecrã central) como no widget vetorial 2D do painel.
 
 ---
 

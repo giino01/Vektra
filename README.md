@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.8** · publiée le 28 octobre 2026 · 43.3 Mo
+**VERSION 1.9.9** · publiée le 28 octobre 2026 · 43.3 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,16 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.8
+## Nouveautés de la 1.9.9
 
-- Widget combiné vBot Vektra : toutes les réactions dynamiques intégrées :
-- Danse en rythme sur la musique : vBot danse et balance ses bras en rythme avec des notes de musique flottantes sur toute lecture audio en cours (Spotify, radio, Bluetooth...).
-- Inertie et G-force (Accélération / Freinage) : se cabre vers l'arrière à pleine puissance avec des traits de vitesse, et plonge en avant bras tendus lors des freinages brusques.
-- Inclinaison dynamique dans les virages : penche le corps en temps réel dans les courbes selon la force centrifuge et le cap.
-- Alertes visuelles de bord : badge d'anomalie de pression des pneus, icône de batterie critique (< 15 %), masque respirateur de filtration contre la pollution de l'air (PM2.5), et dôme parapluie de protection sous la pluie.
-- Mode veille (Dodo) : yeux clos et « Z z z » flottants quand le véhicule est éteint.
+- Nouveau design officiel vBot Vektra (conforme au modèle de référence 360°) :
+- Silhouette humanoïde athlétique : armure blanche nacrée sculptée, sous-combinaison sombre et coutures lumineuses néon cyan le long des flancs et des membres.
+- Cœur de torse officiel Vektra : médaillon circulaire sombre avec anneau néon cyan éclatant et typographie futuriste « Vektra ».
+- Casque aérodynamique épuré (sans antenne) : dôme supérieur profilé et turbines auriculaires latérales gauche/droite avec anneaux concentriques lumineux.
+- Visière panoramique & optiques LED angulaires : visière fumée et optiques LED biseautées au regard assuré et technologique, adaptées à toutes les poses et humeurs.
+- Anneaux néon d'épaules et réacteur dorsal : anneaux cyan latéraux sur les épaulettes et réacteur circulaire au dos.
+- Bottes athlétiques et semelles lumineuses : semelles profilées soulignées d'un liseré néon cyan.
+- Rendu synchronisé partout : appliqué à l'identique dans le modèle 3D WebGL (tablette) et dans le dessin vectoriel 2D optimisé du widget combiné.
 
 ---
 

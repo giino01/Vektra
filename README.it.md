@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.8** · pubblicata il 28 ottobre 2026 · 43.3 MB
+**VERSIONE 1.9.9** · pubblicata il 28 ottobre 2026 · 43.3 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,15 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.8
+## Novità della 1.9.9
 
-- Widget quadro strumenti vBot Vektra: tutte le reazioni dinamiche integrate:
-- Danza a ritmo di musica: vBot balla con note musicali fluttuanti quando la musica è in riproduzione.
-- Forza G (Accelerazione e Frenata): si inclina all'indietro a piena accelerazione e si protende in avanti durante le frenate brusche.
-- Inclinazione dinamica in curva: piega il corpo in curva seguendo la forza laterale.
-- Avvisi visivi dedicati: anomalia pneumatici, batteria critica (<15%), maschera protettiva per aria inquinata (PM2.5) e cupola ombrello sotto la pioggia.
-- Modalità sonno a vettura spenta: occhi chiusi e « Z z z » fluttuanti.
+- Nuovo design ufficiale vBot Vektra (conforme al modello 360°):
+- Silhouette umanoide atletica: corazza bianco perlato, sottotuta meccanica scura e liserel neon ciano lungo i fianchi.
+- Cuore toracico ufficiale Vektra: medaglione circolare scuro con anello neon ciano e scritta futuristica « Vektra ».
+- Casco aerodinamico senza antenna: cupola rastremata e turbine auricolari laterali con anelli concentrici luminosi.
+- Visiera panoramica e ottiche LED angolari: visiera oscurata e occhi LED ciano con sguardo deciso e tecnologico.
+- Anelli spallacci e reattore dorsale: anelli luminosi sulle spalle e reattore di potenza circolare sulla schiena.
+- Grafica sincronizzata ovunque: reso identico sia nel modello 3D WebGL (tablet) che nel widget vettoriale 2D del cruscotto.
 
 ---
 

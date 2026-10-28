@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.9.8** · released on 28 October 2026 · 43.3 MB
+**VERSION 1.9.9** · released on 28 October 2026 · 43.3 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,16 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.9.8
+## What is new in 1.9.9
 
-- Cluster widget vBot Vektra: full dynamic reactions & animations:
-- Dancing to music: vBot bounces and swings arms rhythmically with floating musical notes whenever music is playing (Spotify, radio, Bluetooth...).
-- G-force & inertia (Acceleration / Braking): leans back with speed streaks under full acceleration, and braces forward with arms outstretched under hard braking.
-- Dynamic cornering tilt: leans body smoothly into curves based on lateral G-forces and heading.
-- Visual dashboard alerts: tyre pressure warning badge, critical battery icon (<15%), futuristic respirator mask for polluted air (PM2.5), and glowing umbrella shield in the rain.
-- Standby sleep mode (Dodo): closed eyes and floating "Z z z" when the vehicle is turned off.
+- New official vBot Vektra design (matching the 360° reference model sheet) :
+- Athletic humanoid silhouette: pearlescent white sculpted armor plates, dark mechanical undersuit, and vertical cyan neon seams along flanks and limbs.
+- Official Vektra chest core: circular dark medallion with bright glowing cyan outer ring and futuristic "Vektra" typography.
+- Streamlined aerodynamic helmet (no top antenna): sleek curved dome with left and right lateral ear turbines featuring glowing concentric rings.
+- Smoked panoramic visor & angular LED eyes: high-tech beveled cyan LED optics with a confident gaze, reacting to all driving poses and moods.
+- Shoulder neon rings & back reactor: lateral cyan glowing rings on shoulder caps and circular power core on the back.
+- Athletic boots & glowing soles: sculpted boots with glowing cyan neon light piping along the sole edges.
+- Synchronized across platforms: identical look on both the WebGL 3D mascot (tablet) and the high-performance 2D vector cluster widget.
 
 ---
 
