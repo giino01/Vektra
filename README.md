@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.6** · publiée le 28 octobre 2026 · 43.3 Mo
+**VERSION 1.9.7** · publiée le 28 octobre 2026 · 43.3 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.6
+## Nouveautés de la 1.9.7
 
-- Mascotte intelligente & interactive (style J.A.R.V.I.S.) :
-- Interaction tactile (Tap simple) : toucher la mascotte déclenche un salut et un rapport complet des systèmes de bord (« Tous les systèmes sont opérationnels, Monsieur. Batterie à X %, température... »).
-- Animations & réactions dynamiques en direct : danse en rythme sur toute musique en cours de lecture (Spotify, Radio, Bluetooth...), se penche en arrière lors d'une forte accélération, bras tendus au freinage brusque, penche le buste dans les virages vifs, alerte visuelle et vocale si pression des pneus anormale, alerte batterie critique (< 15 %), alerte pollution extérieure (PM2.5 élevé), et protection contre la pluie/orage.
-- Voix J.A.R.V.I.S. : intonation plus grave, posée et protocolaire pour toutes les annonces de bord et de conduite.
+- Nouvel onglet dédié « vBot Vektra » : accessible directement dans la barre de gauche, il regroupe tous les réglages et options de votre copilote 3D (overlay, voix, nom d'appel, téléchargement des voix).
+- Nom officiel « vBot Vektra » : remplace l'ancienne appellation « Mascotte » dans toute l'application.
+- Personnalisation du nom d'appel : définissez comment vBot s'adresse à vous (Monsieur, Madame, Gino, Boss, Capitaine, Pilote ou nom sur-mesure) dans tous ses messages, rapports et alertes.
+- Moteur vocal TTS indépendant de la navigation : vBot dispose de ses propres voix et de son propre stockage (/vbot_voice_packs/), sans interférer avec la navigation GPS.
+- Choix du type de voix (Homme J.A.R.V.I.S. ou Femme) : intonation posée et solennelle style J.A.R.V.I.S. ou voix féminine naturelle et claire.
+- Téléchargement et bouton test vocal : téléchargez le pack vBot dans votre langue et écoutez immédiatement le rendu via le bouton « Tester la voix de vBot ».
 
 ---
 

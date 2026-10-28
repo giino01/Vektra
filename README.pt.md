@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.6** · publicada a 28 de outubro de 2026 · 43.3 MB
+**VERSÃO 1.9.7** · publicada a 28 de outubro de 2026 · 43.3 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,14 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.6
+## Novidades da 1.9.7
 
-- Mascote inteligente e interativa (estilo J.A.R.V.I.S.): interação por toque com relatório dos sistemas, reações dinâmicas (música, aceleração, travagem, curvas, pneus, bateria baixa, poluição, chuva) e voz estilo J.A.R.V.I.S.
+- Novo separador dedicado « vBot Vektra »: acessível diretamente na barra lateral esquerda com todas as opções do copiloto 3D e voz.
+- Nome oficial « vBot Vektra »: substitui o termo « Mascote » em toda a aplicação.
+- Personalização do nome de chamada: escolha como o vBot se dirige a si (Senhor, Senhora, Gino, Chefe, Capitão ou nome personalizado).
+- Motor TTS e armazenamento independente da navegação: voz e ficheiros dedicados (/vbot_voice_packs/) sem interferir com o GPS.
+- Perfil de voz (Homem J.A.R.V.I.S. ou Mulher): tom solene e pausado ao estilo J.A.R.V.I.S. ou voz feminina natural e fluida.
+- Transferência do pacote de voz e botão de teste: descarregue no idioma pretendido e teste de imediato.
 
 ---
 

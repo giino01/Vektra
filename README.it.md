@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.6** · pubblicata il 28 ottobre 2026 · 43.3 MB
+**VERSIONE 1.9.7** · pubblicata il 28 ottobre 2026 · 43.3 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.7.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,14 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.6
+## Novità della 1.9.7
 
-- Mascotte intelligente e interattiva (stile J.A.R.V.I.S.): interazione al tocco con rapporto diagnostico, reazioni dinamiche (musica, accelerazione, frenata, curve, pressione pneumatici, batteria bassa, aria inquinata, pioggia) e voce intonata calma e solenne.
+- Nuova scheda dedicata « vBot Vektra »: direttamente accessibile nella barra laterale sinistra con tutte le impostazioni del compagno 3D, voce e personalizzazione.
+- Nome ufficiale « vBot Vektra »: sostituisce la dicitura « Mascotte » in tutta l'applicazione.
+- Personalizzazione del nome di chiamata: scegli come vBot si rivolge a te (Signore, Signora, Gino, Boss, Capitano, o nome personalizzato).
+- Motore TTS e archivio vocale indipendente dalla navigazione: cartelle dedicate (/vbot_voice_packs/) e sintesi vocale autonoma.
+- Profilo vocale (Uomo J.A.R.V.I.S. o Donna): timbro calmo e solenne in stile J.A.R.V.I.S. oppure voce femminile naturale.
+- Download pacchetto vocale e pulsante di prova: scarica la lingua desiderata e testa l'audio in tempo reale.
 
 ---
 

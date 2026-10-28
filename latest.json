@@ -1,37 +1,63 @@
 {
-  "version": "1.9.6",
-  "apk": "Vektra-1.9.6.apk",
-  "size": 45381335,
+  "version": "1.9.7",
+  "apk": "Vektra-1.9.7.apk",
+  "size": 45436575,
   "notes": [
-    "Mascotte intelligente & interactive (style J.A.R.V.I.S.) :",
-    "Interaction tactile (Tap simple) : toucher la mascotte déclenche un salut et un rapport complet des systèmes de bord (« Tous les systèmes sont opérationnels, Monsieur. Batterie à X %, température... »).",
-    "Animations & réactions dynamiques en direct : danse en rythme sur toute musique en cours de lecture (Spotify, Radio, Bluetooth...), se penche en arrière lors d'une forte accélération, bras tendus au freinage brusque, penche le buste dans les virages vifs, alerte visuelle et vocale si pression des pneus anormale, alerte batterie critique (< 15 %), alerte pollution extérieure (PM2.5 élevé), et protection contre la pluie/orage.",
-    "Voix J.A.R.V.I.S. : intonation plus grave, posée et protocolaire pour toutes les annonces de bord et de conduite."
+    "Nouvel onglet dédié « vBot Vektra » : accessible directement dans la barre de gauche, il regroupe tous les réglages et options de votre copilote 3D (overlay, voix, nom d'appel, téléchargement des voix).",
+    "Nom officiel « vBot Vektra » : remplace l'ancienne appellation « Mascotte » dans toute l'application.",
+    "Personnalisation du nom d'appel : définissez comment vBot s'adresse à vous (Monsieur, Madame, Gino, Boss, Capitaine, Pilote ou nom sur-mesure) dans tous ses messages, rapports et alertes.",
+    "Moteur vocal TTS indépendant de la navigation : vBot dispose de ses propres voix et de son propre stockage (/vbot_voice_packs/), sans interférer avec la navigation GPS.",
+    "Choix du type de voix (Homme J.A.R.V.I.S. ou Femme) : intonation posée et solennelle style J.A.R.V.I.S. ou voix féminine naturelle et claire.",
+    "Téléchargement et bouton test vocal : téléchargez le pack vBot dans votre langue et écoutez immédiatement le rendu via le bouton « Tester la voix de vBot »."
   ],
   "notesByLang": {
     "fr": [
-      "Mascotte intelligente & interactive (style J.A.R.V.I.S.) :",
-      "Interaction tactile (Tap simple) : toucher la mascotte déclenche un salut et un rapport complet des systèmes de bord (« Tous les systèmes sont opérationnels, Monsieur. Batterie à X %, température... »).",
-      "Animations & réactions dynamiques en direct : danse en rythme sur toute musique en cours de lecture (Spotify, Radio, Bluetooth...), se penche en arrière lors d'une forte accélération, bras tendus au freinage brusque, penche le buste dans les virages vifs, alerte visuelle et vocale si pression des pneus anormale, alerte batterie critique (< 15 %), alerte pollution extérieure (PM2.5 élevé), et protection contre la pluie/orage.",
-      "Voix J.A.R.V.I.S. : intonation plus grave, posée et protocolaire pour toutes les annonces de bord et de conduite."
+      "Nouvel onglet dédié « vBot Vektra » : accessible directement dans la barre de gauche, il regroupe tous les réglages et options de votre copilote 3D (overlay, voix, nom d'appel, téléchargement des voix).",
+      "Nom officiel « vBot Vektra » : remplace l'ancienne appellation « Mascotte » dans toute l'application.",
+      "Personnalisation du nom d'appel : définissez comment vBot s'adresse à vous (Monsieur, Madame, Gino, Boss, Capitaine, Pilote ou nom sur-mesure) dans tous ses messages, rapports et alertes.",
+      "Moteur vocal TTS indépendant de la navigation : vBot dispose de ses propres voix et de son propre stockage (/vbot_voice_packs/), sans interférer avec la navigation GPS.",
+      "Choix du type de voix (Homme J.A.R.V.I.S. ou Femme) : intonation posée et solennelle style J.A.R.V.I.S. ou voix féminine naturelle et claire.",
+      "Téléchargement et bouton test vocal : téléchargez le pack vBot dans votre langue et écoutez immédiatement le rendu via le bouton « Tester la voix de vBot »."
     ],
     "en": [
-      "Smart & Interactive Mascot (J.A.R.V.I.S. style):",
-      "Touch interaction (Single tap): tapping the mascot triggers a salute and a full vehicle diagnostic report.",
-      "Real-time dynamic actions: dances to any music playing (Spotify, Radio, Bluetooth...), tilts back on hard acceleration, braces on hard braking, leans into sharp turns, warns on tyre pressure issues, low battery (<15%), poor air quality (PM2.5), and rain/storm.",
-      "J.A.R.V.I.S. voice tuning: lower pitch, calm and distinguished delivery for vehicle updates."
+      "New dedicated \"vBot Vektra\" tab: directly accessible in the left sidebar, grouping all settings, 3D overlay controls, voice tuning, and speech downloads in one place.",
+      "Official \"vBot Vektra\" naming: replaces the former \"Mascot\" label across the entire application.",
+      "Call name personalization: choose how vBot addresses you (Monsieur, Madame, Gino, Boss, Captain, Pilot, or custom text input) in greetings, diagnostics, and alerts.",
+      "Independent TTS engine & voice storage: vBot now runs on its own voice engine and dedicated storage (/vbot_voice_packs/), completely separate from navigation TTS.",
+      "Voice profile selection (Male J.A.R.V.I.S. or Female): choose between a calm, solemn J.A.R.V.I.S.-style delivery or a clear and fluid female voice.",
+      "Voice pack download & direct testing: download vBot voice packs in any language and instantly preview with the \"Test vBot voice\" button."
     ],
     "it": [
-      "Mascotte intelligente e interattiva (stile J.A.R.V.I.S.): interazione al tocco con rapporto diagnostico, reazioni dinamiche (musica, accelerazione, frenata, curve, pressione pneumatici, batteria bassa, aria inquinata, pioggia) e voce intonata calma e solenne."
+      "Nuova scheda dedicata « vBot Vektra »: direttamente accessibile nella barra laterale sinistra con tutte le impostazioni del compagno 3D, voce e personalizzazione.",
+      "Nome ufficiale « vBot Vektra »: sostituisce la dicitura « Mascotte » in tutta l'applicazione.",
+      "Personalizzazione del nome di chiamata: scegli come vBot si rivolge a te (Signore, Signora, Gino, Boss, Capitano, o nome personalizzato).",
+      "Motore TTS e archivio vocale indipendente dalla navigazione: cartelle dedicate (/vbot_voice_packs/) e sintesi vocale autonoma.",
+      "Profilo vocale (Uomo J.A.R.V.I.S. o Donna): timbro calmo e solenne in stile J.A.R.V.I.S. oppure voce femminile naturale.",
+      "Download pacchetto vocale e pulsante di prova: scarica la lingua desiderata e testa l'audio in tempo reale."
     ],
     "de": [
-      "Intelligentes und interaktives Maskottchen (J.A.R.V.I.S.-Stil): Berührungsinteraktion mit Fahrzeugbericht, dynamische Reaktionen (Musik, Beschleunigung, Bremsen, Kurven, Reifendruck, niedrige Batterie, Luftqualität, Regen) und ruhige J.A.R.V.I.S.-Stimme."
+      "Neuer Reiter « vBot Vektra »: direkt in der linken Navigationsleiste für alle Einstellungen des 3D-Begleiters, Stimmprofile und Downloads.",
+      "Offizieller Name « vBot Vektra »: ersetzt die bisherige Bezeichnung « Maskottchen » in der gesamten App.",
+      "Personalisierte Anrede: wählen Sie, wie vBot Sie anspricht (Herr, Dame, Gino, Boss, Kapitän oder benutzerdefinierter Name).",
+      "Eigenständige TTS-Sprachausgabe unabhängig von der Navigation: eigene Ordner (/vbot_voice_packs/) ohne Beeinflussung der Navigation.",
+      "Stimmprofil wählbar (Männlich J.A.R.V.I.S. oder Weiblich): ruhiger, feierlicher J.A.R.V.I.S.-Stil oder natürliche Frauenstimme.",
+      "Sprachpaket-Download & Sofort-Hörprobe: laden Sie vBot-Stimmen herunter und testen Sie sie direkt per Knopfdruck."
     ],
     "pt": [
-      "Mascote inteligente e interativa (estilo J.A.R.V.I.S.): interação por toque com relatório dos sistemas, reações dinâmicas (música, aceleração, travagem, curvas, pneus, bateria baixa, poluição, chuva) e voz estilo J.A.R.V.I.S."
+      "Novo separador dedicado « vBot Vektra »: acessível diretamente na barra lateral esquerda com todas as opções do copiloto 3D e voz.",
+      "Nome oficial « vBot Vektra »: substitui o termo « Mascote » em toda a aplicação.",
+      "Personalização do nome de chamada: escolha como o vBot se dirige a si (Senhor, Senhora, Gino, Chefe, Capitão ou nome personalizado).",
+      "Motor TTS e armazenamento independente da navegação: voz e ficheiros dedicados (/vbot_voice_packs/) sem interferir com o GPS.",
+      "Perfil de voz (Homem J.A.R.V.I.S. ou Mulher): tom solene e pausado ao estilo J.A.R.V.I.S. ou voz feminina natural e fluida.",
+      "Transferência do pacote de voz e botão de teste: descarregue no idioma pretendido e teste de imediato."
     ],
     "tr": [
-      "Akıllı ve etkileşimli maskot (J.A.R.V.I.S. tarzı): dokunmayla sistem raporu, gerçek zamanlı dinamik tepkiler (müzik, hızlanma, frenleme, virajlar, lastik basıncı, düşük batarya, hava kirliliği, yağmur) ve J.A.R.V.I.S. ses tonlaması."
+      "Yeni özel « vBot Vektra » sekmesi: 3D yol arkadaşınızın tüm ayarları, ses profilleri ve indirmeleri için sol gezinme çubuğunda yeni sekme.",
+      "Resmi « vBot Vektra » adı: uygulama genelinde eski « Maskot » teriminin yerini aldı.",
+      "Kişiselleştirilmiş hitap adı: vBot'un size nasıl hitap edeceğini seçin (Beyefendi, Hanımefendi, Gino, Patron, Kaptan veya özel ad).",
+      "Navigasyondan bağımsız TTS motoru ve depolama: navigasyon seslerini etkilemeyen bağımsız ses motoru ve klasör yapısı (/vbot_voice_packs/).",
+      "Ses profili seçimi (Erkek J.A.R.V.I.S. veya Kadın): J.A.R.V.I.S. tarzı ağırbaşlı ve sakin ses tonu veya akıcı kadın sesi.",
+      "Ses paketi indirme ve anında test düğmesi: dilediğiniz dilde vBot ses paketini indirin ve anında test edin."
     ]
   }
 }

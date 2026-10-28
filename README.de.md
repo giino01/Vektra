@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.9.6** · veröffentlicht am 28. Oktober 2026 · 43.3 MB
+**VERSION 1.9.7** · veröffentlicht am 28. Oktober 2026 · 43.3 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,14 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.9.6
+## Neu in 1.9.7
 
-- Intelligentes und interaktives Maskottchen (J.A.R.V.I.S.-Stil): Berührungsinteraktion mit Fahrzeugbericht, dynamische Reaktionen (Musik, Beschleunigung, Bremsen, Kurven, Reifendruck, niedrige Batterie, Luftqualität, Regen) und ruhige J.A.R.V.I.S.-Stimme.
+- Neuer Reiter « vBot Vektra »: direkt in der linken Navigationsleiste für alle Einstellungen des 3D-Begleiters, Stimmprofile und Downloads.
+- Offizieller Name « vBot Vektra »: ersetzt die bisherige Bezeichnung « Maskottchen » in der gesamten App.
+- Personalisierte Anrede: wählen Sie, wie vBot Sie anspricht (Herr, Dame, Gino, Boss, Kapitän oder benutzerdefinierter Name).
+- Eigenständige TTS-Sprachausgabe unabhängig von der Navigation: eigene Ordner (/vbot_voice_packs/) ohne Beeinflussung der Navigation.
+- Stimmprofil wählbar (Männlich J.A.R.V.I.S. oder Weiblich): ruhiger, feierlicher J.A.R.V.I.S.-Stil oder natürliche Frauenstimme.
+- Sprachpaket-Download & Sofort-Hörprobe: laden Sie vBot-Stimmen herunter und testen Sie sie direkt per Knopfdruck.
 
 ---
 
