@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.9.3** · veröffentlicht am 28. Oktober 2026 · 43.3 MB
+**VERSION 1.9.4** · veröffentlicht am 28. Oktober 2026 · 43.3 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.3.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.9.3
+## Neu in 1.9.4
 
-- Neue Einstellung „Audioausgabe“: wähle den Lautsprecher für alle VEKTRA-Töne (Navigation, Warnungen, Stimme des Maskottchens) — Lautsprecher (wie bisher) oder Navi-Lautsprecher (der Navigationskanal des Autos).
-- Schwebendes Widget und Maskottchen: einfacheres Verschieben und Skalieren: mit dem Finger ziehen, um zu verschieben. Doppeltippen, um die Größe zu ändern: −- und +-Tasten erscheinen; passt die Größe, erneut doppeltippen zum Speichern und Ausblenden der Tasten.
+- Maskottchen (Tablet): Größenänderung funktioniert jetzt: doppeltippen auf das Maskottchen, die Tasten − und + erscheinen; erneut doppeltippen speichert die Größe. Das Doppeltippen ist außerdem toleranter.
 
 ---
 

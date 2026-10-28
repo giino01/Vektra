@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.3** · publicada a 28 de outubro de 2026 · 43.3 MB
+**VERSÃO 1.9.4** · publicada a 28 de outubro de 2026 · 43.3 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.3.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,10 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.3
+## Novidades da 1.9.4
 
-- Nova definição « Saída de áudio »: escolha o altifalante que reproduz todos os sons do VEKTRA (orientação, avisos, voz da mascote) — Altifalante (como antes) ou Altifalante navi (o canal de navegação do carro).
-- Widget flutuante e mascote: mover e redimensionar mais simples: arraste com o dedo em qualquer lado para mover. Toque duplo para redimensionar: aparecem os botões − e +; quando o tamanho estiver bom, toque duplo novamente para guardar e ocultar os botões.
+- Mascote (tablet): o redimensionamento agora funciona: toque duplo na mascote, aparecem os botões − e +; outro toque duplo guarda o tamanho. O toque duplo também é mais tolerante.
 
 ---
 
