@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.9.2** · yayın tarihi 28 Ekim 2026 · 43.3 MB
+**SÜRÜM 1.9.3** · yayın tarihi 28 Ekim 2026 · 43.3 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.3.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,10 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.9.2
+## Yenilikler: 1.9.3
 
-- Update versionCode and versionName to 113 and 1.9.2
-- Update welcome message in MascotVoice.kt
+- Yeni « Ses çıkışı » ayarı: VEKTRA'nın tüm seslerini (yönlendirme, uyarılar, maskot sesi) çalan hoparlörü seç — Hoparlör (eskisi gibi) veya Navi hoparlörü (aracın navigasyon kanalı).
+- Yüzen pencere öğesi ve maskot: daha basit taşıma ve boyutlandırma: taşımak için parmağınla her yerden sürükle. Boyutlandırmak için çift dokun: − ve + düğmeleri görünür; boyut uygun olunca kaydetmek ve düğmeleri gizlemek için tekrar çift dokun.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.2** · pubblicata il 28 ottobre 2026 · 43.3 MB
+**VERSIONE 1.9.3** · pubblicata il 28 ottobre 2026 · 43.3 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.3.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,10 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.2
+## Novità della 1.9.3
 
-- Update versionCode and versionName to 113 and 1.9.2
-- Update welcome message in MascotVoice.kt
+- Nuova impostazione « Uscita audio »: scegli l'altoparlante che riproduce tutti i suoni di VEKTRA (guida, avvisi, voce della mascotte) — Altoparlante (come prima) o Altoparlante navi (il canale navigazione dell'auto).
+- Widget mobile e mascotte: spostamento e dimensione più semplici: trascina col dito ovunque per spostare. Doppio tocco per ridimensionare: compaiono i pulsanti − e +; quando la dimensione va bene, doppio tocco di nuovo per salvare e nascondere i pulsanti.
 
 ---
 

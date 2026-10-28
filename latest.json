@@ -1,35 +1,35 @@
 {
-  "version": "1.9.2",
-  "apk": "Vektra-1.9.2.apk",
-  "size": 45357271,
+  "version": "1.9.3",
+  "apk": "Vektra-1.9.3.apk",
+  "size": 45378899,
   "notes": [
-    "Update versionCode and versionName to 113 and 1.9.2",
-    "Update welcome message in MascotVoice.kt"
+    "Nouveau réglage « Sortie audio » : choisis le haut-parleur qui joue tous les sons de VEKTRA (guidage, alertes, voix de la mascotte) — Haut-parleur (comme avant) ou Haut-parleur navi (le canal navigation de la voiture).",
+    "Widget flottant et mascotte : déplacement et taille plus simples : glisse du doigt n'importe où pour déplacer. Double appui pour régler la taille : des boutons − et + apparaissent ; quand la taille te convient, nouveau double appui pour l'enregistrer et masquer les boutons. Fini les poignées."
   ],
   "notesByLang": {
     "fr": [
-      "Update versionCode and versionName to 113 and 1.9.2",
-      "Update welcome message in MascotVoice.kt"
+      "Nouveau réglage « Sortie audio » : choisis le haut-parleur qui joue tous les sons de VEKTRA (guidage, alertes, voix de la mascotte) — Haut-parleur (comme avant) ou Haut-parleur navi (le canal navigation de la voiture).",
+      "Widget flottant et mascotte : déplacement et taille plus simples : glisse du doigt n'importe où pour déplacer. Double appui pour régler la taille : des boutons − et + apparaissent ; quand la taille te convient, nouveau double appui pour l'enregistrer et masquer les boutons. Fini les poignées."
     ],
     "en": [
-      "Update versionCode and versionName to 113 and 1.9.2",
-      "Update welcome message in MascotVoice.kt"
+      "New \"Audio output\" setting: choose the speaker that plays all VEKTRA sounds (guidance, alerts, mascot voice) — Speaker (as before) or Navi speaker (the car's navigation channel).",
+      "Floating widget and mascot: simpler move and resize: drag with your finger anywhere to move. Double-tap to resize: − and + buttons appear; when the size feels right, double-tap again to save and hide the buttons. No more handles."
     ],
     "it": [
-      "Update versionCode and versionName to 113 and 1.9.2",
-      "Update welcome message in MascotVoice.kt"
+      "Nuova impostazione « Uscita audio »: scegli l'altoparlante che riproduce tutti i suoni di VEKTRA (guida, avvisi, voce della mascotte) — Altoparlante (come prima) o Altoparlante navi (il canale navigazione dell'auto).",
+      "Widget mobile e mascotte: spostamento e dimensione più semplici: trascina col dito ovunque per spostare. Doppio tocco per ridimensionare: compaiono i pulsanti − e +; quando la dimensione va bene, doppio tocco di nuovo per salvare e nascondere i pulsanti."
     ],
     "de": [
-      "Update versionCode and versionName to 113 and 1.9.2",
-      "Update welcome message in MascotVoice.kt"
+      "Neue Einstellung „Audioausgabe“: wähle den Lautsprecher für alle VEKTRA-Töne (Navigation, Warnungen, Stimme des Maskottchens) — Lautsprecher (wie bisher) oder Navi-Lautsprecher (der Navigationskanal des Autos).",
+      "Schwebendes Widget und Maskottchen: einfacheres Verschieben und Skalieren: mit dem Finger ziehen, um zu verschieben. Doppeltippen, um die Größe zu ändern: −- und +-Tasten erscheinen; passt die Größe, erneut doppeltippen zum Speichern und Ausblenden der Tasten."
     ],
     "pt": [
-      "Update versionCode and versionName to 113 and 1.9.2",
-      "Update welcome message in MascotVoice.kt"
+      "Nova definição « Saída de áudio »: escolha o altifalante que reproduz todos os sons do VEKTRA (orientação, avisos, voz da mascote) — Altifalante (como antes) ou Altifalante navi (o canal de navegação do carro).",
+      "Widget flutuante e mascote: mover e redimensionar mais simples: arraste com o dedo em qualquer lado para mover. Toque duplo para redimensionar: aparecem os botões − e +; quando o tamanho estiver bom, toque duplo novamente para guardar e ocultar os botões."
     ],
     "tr": [
-      "Update versionCode and versionName to 113 and 1.9.2",
-      "Update welcome message in MascotVoice.kt"
+      "Yeni « Ses çıkışı » ayarı: VEKTRA'nın tüm seslerini (yönlendirme, uyarılar, maskot sesi) çalan hoparlörü seç — Hoparlör (eskisi gibi) veya Navi hoparlörü (aracın navigasyon kanalı).",
+      "Yüzen pencere öğesi ve maskot: daha basit taşıma ve boyutlandırma: taşımak için parmağınla her yerden sürükle. Boyutlandırmak için çift dokun: − ve + düğmeleri görünür; boyut uygun olunca kaydetmek ve düğmeleri gizlemek için tekrar çift dokun."
     ]
   }
 }
