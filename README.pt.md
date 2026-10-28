@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.1** · publicada a 28 de outubro de 2026 · 43.3 MB
+**VERSÃO 1.9.2** · publicada a 28 de outubro de 2026 · 43.3 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,10 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.1
+## Novidades da 1.9.2
 
-- Mascote em 3D REAL (V2): o V‑bot é agora um verdadeiro modelo 3D (em tempo real, incluído na app, portanto offline). Substitui a versão antiga e muda de pose/humor conforme a condução (olá, Eco, Sport, frio, carga, dorme com o carro desligado…).
-- A mascote fala: boas‑vindas, gelo, carga… reutilizando as vozes já transferidas para a navegação. Ativável/desativável (“Voz da mascote”).
-- Mover e redimensionar ao estilo “editor de fotos” para o widget flutuante E a mascote: uma pega para mover (canto superior esquerdo) e uma para redimensionar (canto inferior direito) — simples e preciso, sem mais o aperto complicado. Posição e tamanho mantidos.
+- Update versionCode and versionName to 113 and 1.9.2
+- Update welcome message in MascotVoice.kt
 
 ---
 

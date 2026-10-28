@@ -1,42 +1,35 @@
 {
-  "version": "1.9.1",
-  "apk": "Vektra-1.9.1.apk",
+  "version": "1.9.2",
+  "apk": "Vektra-1.9.2.apk",
   "size": 45357271,
   "notes": [
-    "Mascotte en VRAI 3D (V2) : le V‑bot est désormais un vrai modèle 3D (rendu temps réel, embarqué dans l'app donc hors‑ligne). Il remplace l'ancienne version. Il change de pose/humeur selon la conduite (bonjour, Éco, Sport, froid, charge, dodo quand la voiture dort…).",
-    "La mascotte parle : bienvenue, verglas, charge… en réutilisant les voix déjà téléchargées pour la navigation. Activable/désactivable (réglage « Voix de la mascotte »).",
-    "Déplacement & taille repensés en « édition photo » pour le widget flottant ET la mascotte : une poignée pour déplacer (en haut à gauche) et une poignée pour redimensionner (en bas à droite) — simple et précis, fini le pincement capricieux. Position et taille conservées."
+    "Update versionCode and versionName to 113 and 1.9.2",
+    "Update welcome message in MascotVoice.kt"
   ],
   "notesByLang": {
     "fr": [
-      "Mascotte en VRAI 3D (V2) : le V‑bot est désormais un vrai modèle 3D (rendu temps réel, embarqué dans l'app donc hors‑ligne). Il remplace l'ancienne version. Il change de pose/humeur selon la conduite (bonjour, Éco, Sport, froid, charge, dodo quand la voiture dort…).",
-      "La mascotte parle : bienvenue, verglas, charge… en réutilisant les voix déjà téléchargées pour la navigation. Activable/désactivable (réglage « Voix de la mascotte »).",
-      "Déplacement & taille repensés en « édition photo » pour le widget flottant ET la mascotte : une poignée pour déplacer (en haut à gauche) et une poignée pour redimensionner (en bas à droite) — simple et précis, fini le pincement capricieux. Position et taille conservées."
+      "Update versionCode and versionName to 113 and 1.9.2",
+      "Update welcome message in MascotVoice.kt"
     ],
     "en": [
-      "Mascot in REAL 3D (V2): the V‑bot is now a true 3D model (real‑time, bundled in the app so it works offline). It replaces the old version and changes pose/mood with your driving (hello, Eco, Sport, cold, charging, asleep when the car is off…).",
-      "The mascot speaks: welcome, ice, charging… reusing the voices already downloaded for navigation. Can be turned on/off (“Mascot voice” setting).",
-      "Move & resize reworked, photo‑editor style for the floating widget AND the mascot: one handle to move (top‑left) and one handle to resize (bottom‑right) — simple and precise, no more finicky pinch. Position and size are kept."
+      "Update versionCode and versionName to 113 and 1.9.2",
+      "Update welcome message in MascotVoice.kt"
     ],
     "it": [
-      "Mascotte in VERO 3D (V2): il V‑bot è ora un vero modello 3D (in tempo reale, incluso nell'app quindi offline). Sostituisce la vecchia versione e cambia posa/umore con la guida (ciao, Eco, Sport, freddo, ricarica, dorme a auto spenta…).",
-      "La mascotte parla: benvenuto, ghiaccio, ricarica… riutilizzando le voci già scaricate per la navigazione. Attivabile/disattivabile (“Voce della mascotte”).",
-      "Spostamento e dimensione in stile “editor foto” per il widget mobile E la mascotte: una maniglia per spostare (in alto a sinistra) e una per ridimensionare (in basso a destra) — semplice e preciso, niente più pizzico. Posizione e dimensione mantenute."
+      "Update versionCode and versionName to 113 and 1.9.2",
+      "Update welcome message in MascotVoice.kt"
     ],
     "de": [
-      "Maskottchen in ECHTEM 3D (V2): der V‑bot ist jetzt ein echtes 3D‑Modell (in Echtzeit, in der App enthalten, also offline). Es ersetzt die alte Version und ändert Pose/Stimmung je nach Fahrweise (Hallo, Eco, Sport, Kälte, Laden, schläft bei ausgeschaltetem Auto…).",
-      "Das Maskottchen spricht: Willkommen, Glätte, Laden… und nutzt dabei die bereits für die Navigation geladenen Stimmen. Ein-/ausschaltbar („Maskottchen‑Stimme“).",
-      "Verschieben & Skalieren im Fotoeditor‑Stil für das schwebende Widget UND das Maskottchen: ein Griff zum Verschieben (oben links) und einer zum Skalieren (unten rechts) — einfach und präzise, kein hakeliges Zoomen mehr. Position und Größe bleiben erhalten."
+      "Update versionCode and versionName to 113 and 1.9.2",
+      "Update welcome message in MascotVoice.kt"
     ],
     "pt": [
-      "Mascote em 3D REAL (V2): o V‑bot é agora um verdadeiro modelo 3D (em tempo real, incluído na app, portanto offline). Substitui a versão antiga e muda de pose/humor conforme a condução (olá, Eco, Sport, frio, carga, dorme com o carro desligado…).",
-      "A mascote fala: boas‑vindas, gelo, carga… reutilizando as vozes já transferidas para a navegação. Ativável/desativável (“Voz da mascote”).",
-      "Mover e redimensionar ao estilo “editor de fotos” para o widget flutuante E a mascote: uma pega para mover (canto superior esquerdo) e uma para redimensionar (canto inferior direito) — simples e preciso, sem mais o aperto complicado. Posição e tamanho mantidos."
+      "Update versionCode and versionName to 113 and 1.9.2",
+      "Update welcome message in MascotVoice.kt"
     ],
     "tr": [
-      "Gerçek 3D maskot (V2): V‑bot artık gerçek bir 3D model (gerçek zamanlı, uygulamaya gömülü, yani çevrimdışı). Eski sürümün yerini alır ve sürüşe göre poz/ruh hâli değiştirir (merhaba, Eco, Sport, soğuk, şarj, araç kapalıyken uyur…).",
-      "Maskot konuşur: karşılama, buzlanma, şarj… navigasyon için indirilmiş sesleri yeniden kullanarak. Açılıp kapatılabilir (“Maskot sesi”).",
-      "Taşıma ve boyutlandırma “foto düzenleyici” tarzında yeniden tasarlandı; hem yüzen widget hem maskot için: taşımak için bir tutamaç (sol üst) ve boyutlandırmak için bir tutamaç (sağ alt) — basit ve hassas, zahmetli sıkıştırma yok. Konum ve boyut korunur."
+      "Update versionCode and versionName to 113 and 1.9.2",
+      "Update welcome message in MascotVoice.kt"
     ]
   }
 }
