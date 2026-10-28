@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.7** · publiée le 28 octobre 2026 · 43.3 Mo
+**VERSION 1.9.8** · publiée le 28 octobre 2026 · 43.3 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.7
+## Nouveautés de la 1.9.8
 
-- Nouvel onglet dédié « vBot Vektra » : accessible directement dans la barre de gauche, il regroupe tous les réglages et options de votre copilote 3D (overlay, voix, nom d'appel, téléchargement des voix).
-- Nom officiel « vBot Vektra » : remplace l'ancienne appellation « Mascotte » dans toute l'application.
-- Personnalisation du nom d'appel : définissez comment vBot s'adresse à vous (Monsieur, Madame, Gino, Boss, Capitaine, Pilote ou nom sur-mesure) dans tous ses messages, rapports et alertes.
-- Moteur vocal TTS indépendant de la navigation : vBot dispose de ses propres voix et de son propre stockage (/vbot_voice_packs/), sans interférer avec la navigation GPS.
-- Choix du type de voix (Homme J.A.R.V.I.S. ou Femme) : intonation posée et solennelle style J.A.R.V.I.S. ou voix féminine naturelle et claire.
-- Téléchargement et bouton test vocal : téléchargez le pack vBot dans votre langue et écoutez immédiatement le rendu via le bouton « Tester la voix de vBot ».
+- Widget combiné vBot Vektra : toutes les réactions dynamiques intégrées :
+- Danse en rythme sur la musique : vBot danse et balance ses bras en rythme avec des notes de musique flottantes sur toute lecture audio en cours (Spotify, radio, Bluetooth...).
+- Inertie et G-force (Accélération / Freinage) : se cabre vers l'arrière à pleine puissance avec des traits de vitesse, et plonge en avant bras tendus lors des freinages brusques.
+- Inclinaison dynamique dans les virages : penche le corps en temps réel dans les courbes selon la force centrifuge et le cap.
+- Alertes visuelles de bord : badge d'anomalie de pression des pneus, icône de batterie critique (< 15 %), masque respirateur de filtration contre la pollution de l'air (PM2.5), et dôme parapluie de protection sous la pluie.
+- Mode veille (Dodo) : yeux clos et « Z z z » flottants quand le véhicule est éteint.
 
 ---
 

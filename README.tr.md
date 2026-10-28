@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.9.7** · yayın tarihi 28 Ekim 2026 · 43.3 MB
+**SÜRÜM 1.9.8** · yayın tarihi 28 Ekim 2026 · 43.3 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,14 +103,14 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.9.7
+## Yenilikler: 1.9.8
 
-- Yeni özel « vBot Vektra » sekmesi: 3D yol arkadaşınızın tüm ayarları, ses profilleri ve indirmeleri için sol gezinme çubuğunda yeni sekme.
-- Resmi « vBot Vektra » adı: uygulama genelinde eski « Maskot » teriminin yerini aldı.
-- Kişiselleştirilmiş hitap adı: vBot'un size nasıl hitap edeceğini seçin (Beyefendi, Hanımefendi, Gino, Patron, Kaptan veya özel ad).
-- Navigasyondan bağımsız TTS motoru ve depolama: navigasyon seslerini etkilemeyen bağımsız ses motoru ve klasör yapısı (/vbot_voice_packs/).
-- Ses profili seçimi (Erkek J.A.R.V.I.S. veya Kadın): J.A.R.V.I.S. tarzı ağırbaşlı ve sakin ses tonu veya akıcı kadın sesi.
-- Ses paketi indirme ve anında test düğmesi: dilediğiniz dilde vBot ses paketini indirin ve anında test edin.
+- Gösterge paneli vBot Vektra widget'ı: tüm dinamik tepkiler entegre edildi:
+- Müzikle dans etme: müzik çalarken vBot ritme göre dans eder ve yüzen nota efektleri belirir.
+- G-kuvveti tepkileri (Hızlanma / Frenleme): tam gazda geriye doğru yatar, ani frende kollarını öne doğru uzatır.
+- Virajlarda dinamik eğilme: virajlarda merkezkaç kuvvetine göre gövdesini yana yatırır.
+- Görsel gösterge uyarıları: lastik basıncı uyarısı, kritik batarya simgesi (<%15), hava kirliliği filtresi (PM2.5) ve yağmurda koruma kalkanı.
+- Araç kapalıyken uyku modu: gözleri kapalı ve yükselen « Z z z » animasyonu.
 
 ---
 

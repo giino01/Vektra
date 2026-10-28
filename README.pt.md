@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.7** · publicada a 28 de outubro de 2026 · 43.3 MB
+**VERSÃO 1.9.8** · publicada a 28 de outubro de 2026 · 43.3 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.7
+## Novidades da 1.9.8
 
-- Novo separador dedicado « vBot Vektra »: acessível diretamente na barra lateral esquerda com todas as opções do copiloto 3D e voz.
-- Nome oficial « vBot Vektra »: substitui o termo « Mascote » em toda a aplicação.
-- Personalização do nome de chamada: escolha como o vBot se dirige a si (Senhor, Senhora, Gino, Chefe, Capitão ou nome personalizado).
-- Motor TTS e armazenamento independente da navegação: voz e ficheiros dedicados (/vbot_voice_packs/) sem interferir com o GPS.
-- Perfil de voz (Homem J.A.R.V.I.S. ou Mulher): tom solene e pausado ao estilo J.A.R.V.I.S. ou voz feminina natural e fluida.
-- Transferência do pacote de voz e botão de teste: descarregue no idioma pretendido e teste de imediato.
+- Widget do painel vBot Vektra: todas as reações dinâmicas integradas:
+- Dança ao ritmo da música: o vBot dança e move os braços com notas musicais a flutuar durante a reprodução de música.
+- Força G (Aceleração e Travagem): inclina-se para trás com traços de velocidade em aceleração e projeta-se para a frente em travagens bruscas.
+- Inclinação dinâmica nas curvas: inclina o corpo em tempo real consoante a força centrífuga.
+- Alertas visuais no painel: anomalia nos pneus, bateria crítica (<15%), máscara purificadora para poluição (PM2.5) e cúpula de proteção à chuva.
+- Modo de descanso (Dodo): olhos fechados e « Z z z » a flutuar com o carro desligado.
 
 ---
 

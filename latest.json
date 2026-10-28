@@ -1,63 +1,63 @@
 {
-  "version": "1.9.7",
-  "apk": "Vektra-1.9.7.apk",
-  "size": 45436575,
+  "version": "1.9.8",
+  "apk": "Vektra-1.9.8.apk",
+  "size": 45446443,
   "notes": [
-    "Nouvel onglet dédié « vBot Vektra » : accessible directement dans la barre de gauche, il regroupe tous les réglages et options de votre copilote 3D (overlay, voix, nom d'appel, téléchargement des voix).",
-    "Nom officiel « vBot Vektra » : remplace l'ancienne appellation « Mascotte » dans toute l'application.",
-    "Personnalisation du nom d'appel : définissez comment vBot s'adresse à vous (Monsieur, Madame, Gino, Boss, Capitaine, Pilote ou nom sur-mesure) dans tous ses messages, rapports et alertes.",
-    "Moteur vocal TTS indépendant de la navigation : vBot dispose de ses propres voix et de son propre stockage (/vbot_voice_packs/), sans interférer avec la navigation GPS.",
-    "Choix du type de voix (Homme J.A.R.V.I.S. ou Femme) : intonation posée et solennelle style J.A.R.V.I.S. ou voix féminine naturelle et claire.",
-    "Téléchargement et bouton test vocal : téléchargez le pack vBot dans votre langue et écoutez immédiatement le rendu via le bouton « Tester la voix de vBot »."
+    "Widget combiné vBot Vektra : toutes les réactions dynamiques intégrées :",
+    "Danse en rythme sur la musique : vBot danse et balance ses bras en rythme avec des notes de musique flottantes sur toute lecture audio en cours (Spotify, radio, Bluetooth...).",
+    "Inertie et G-force (Accélération / Freinage) : se cabre vers l'arrière à pleine puissance avec des traits de vitesse, et plonge en avant bras tendus lors des freinages brusques.",
+    "Inclinaison dynamique dans les virages : penche le corps en temps réel dans les courbes selon la force centrifuge et le cap.",
+    "Alertes visuelles de bord : badge d'anomalie de pression des pneus, icône de batterie critique (< 15 %), masque respirateur de filtration contre la pollution de l'air (PM2.5), et dôme parapluie de protection sous la pluie.",
+    "Mode veille (Dodo) : yeux clos et « Z z z » flottants quand le véhicule est éteint."
   ],
   "notesByLang": {
     "fr": [
-      "Nouvel onglet dédié « vBot Vektra » : accessible directement dans la barre de gauche, il regroupe tous les réglages et options de votre copilote 3D (overlay, voix, nom d'appel, téléchargement des voix).",
-      "Nom officiel « vBot Vektra » : remplace l'ancienne appellation « Mascotte » dans toute l'application.",
-      "Personnalisation du nom d'appel : définissez comment vBot s'adresse à vous (Monsieur, Madame, Gino, Boss, Capitaine, Pilote ou nom sur-mesure) dans tous ses messages, rapports et alertes.",
-      "Moteur vocal TTS indépendant de la navigation : vBot dispose de ses propres voix et de son propre stockage (/vbot_voice_packs/), sans interférer avec la navigation GPS.",
-      "Choix du type de voix (Homme J.A.R.V.I.S. ou Femme) : intonation posée et solennelle style J.A.R.V.I.S. ou voix féminine naturelle et claire.",
-      "Téléchargement et bouton test vocal : téléchargez le pack vBot dans votre langue et écoutez immédiatement le rendu via le bouton « Tester la voix de vBot »."
+      "Widget combiné vBot Vektra : toutes les réactions dynamiques intégrées :",
+      "Danse en rythme sur la musique : vBot danse et balance ses bras en rythme avec des notes de musique flottantes sur toute lecture audio en cours (Spotify, radio, Bluetooth...).",
+      "Inertie et G-force (Accélération / Freinage) : se cabre vers l'arrière à pleine puissance avec des traits de vitesse, et plonge en avant bras tendus lors des freinages brusques.",
+      "Inclinaison dynamique dans les virages : penche le corps en temps réel dans les courbes selon la force centrifuge et le cap.",
+      "Alertes visuelles de bord : badge d'anomalie de pression des pneus, icône de batterie critique (< 15 %), masque respirateur de filtration contre la pollution de l'air (PM2.5), et dôme parapluie de protection sous la pluie.",
+      "Mode veille (Dodo) : yeux clos et « Z z z » flottants quand le véhicule est éteint."
     ],
     "en": [
-      "New dedicated \"vBot Vektra\" tab: directly accessible in the left sidebar, grouping all settings, 3D overlay controls, voice tuning, and speech downloads in one place.",
-      "Official \"vBot Vektra\" naming: replaces the former \"Mascot\" label across the entire application.",
-      "Call name personalization: choose how vBot addresses you (Monsieur, Madame, Gino, Boss, Captain, Pilot, or custom text input) in greetings, diagnostics, and alerts.",
-      "Independent TTS engine & voice storage: vBot now runs on its own voice engine and dedicated storage (/vbot_voice_packs/), completely separate from navigation TTS.",
-      "Voice profile selection (Male J.A.R.V.I.S. or Female): choose between a calm, solemn J.A.R.V.I.S.-style delivery or a clear and fluid female voice.",
-      "Voice pack download & direct testing: download vBot voice packs in any language and instantly preview with the \"Test vBot voice\" button."
+      "Cluster widget vBot Vektra: full dynamic reactions & animations:",
+      "Dancing to music: vBot bounces and swings arms rhythmically with floating musical notes whenever music is playing (Spotify, radio, Bluetooth...).",
+      "G-force & inertia (Acceleration / Braking): leans back with speed streaks under full acceleration, and braces forward with arms outstretched under hard braking.",
+      "Dynamic cornering tilt: leans body smoothly into curves based on lateral G-forces and heading.",
+      "Visual dashboard alerts: tyre pressure warning badge, critical battery icon (<15%), futuristic respirator mask for polluted air (PM2.5), and glowing umbrella shield in the rain.",
+      "Standby sleep mode (Dodo): closed eyes and floating \"Z z z\" when the vehicle is turned off."
     ],
     "it": [
-      "Nuova scheda dedicata « vBot Vektra »: direttamente accessibile nella barra laterale sinistra con tutte le impostazioni del compagno 3D, voce e personalizzazione.",
-      "Nome ufficiale « vBot Vektra »: sostituisce la dicitura « Mascotte » in tutta l'applicazione.",
-      "Personalizzazione del nome di chiamata: scegli come vBot si rivolge a te (Signore, Signora, Gino, Boss, Capitano, o nome personalizzato).",
-      "Motore TTS e archivio vocale indipendente dalla navigazione: cartelle dedicate (/vbot_voice_packs/) e sintesi vocale autonoma.",
-      "Profilo vocale (Uomo J.A.R.V.I.S. o Donna): timbro calmo e solenne in stile J.A.R.V.I.S. oppure voce femminile naturale.",
-      "Download pacchetto vocale e pulsante di prova: scarica la lingua desiderata e testa l'audio in tempo reale."
+      "Widget quadro strumenti vBot Vektra: tutte le reazioni dinamiche integrate:",
+      "Danza a ritmo di musica: vBot balla con note musicali fluttuanti quando la musica è in riproduzione.",
+      "Forza G (Accelerazione e Frenata): si inclina all'indietro a piena accelerazione e si protende in avanti durante le frenate brusche.",
+      "Inclinazione dinamica in curva: piega il corpo in curva seguendo la forza laterale.",
+      "Avvisi visivi dedicati: anomalia pneumatici, batteria critica (<15%), maschera protettiva per aria inquinata (PM2.5) e cupola ombrello sotto la pioggia.",
+      "Modalità sonno a vettura spenta: occhi chiusi e « Z z z » fluttuanti."
     ],
     "de": [
-      "Neuer Reiter « vBot Vektra »: direkt in der linken Navigationsleiste für alle Einstellungen des 3D-Begleiters, Stimmprofile und Downloads.",
-      "Offizieller Name « vBot Vektra »: ersetzt die bisherige Bezeichnung « Maskottchen » in der gesamten App.",
-      "Personalisierte Anrede: wählen Sie, wie vBot Sie anspricht (Herr, Dame, Gino, Boss, Kapitän oder benutzerdefinierter Name).",
-      "Eigenständige TTS-Sprachausgabe unabhängig von der Navigation: eigene Ordner (/vbot_voice_packs/) ohne Beeinflussung der Navigation.",
-      "Stimmprofil wählbar (Männlich J.A.R.V.I.S. oder Weiblich): ruhiger, feierlicher J.A.R.V.I.S.-Stil oder natürliche Frauenstimme.",
-      "Sprachpaket-Download & Sofort-Hörprobe: laden Sie vBot-Stimmen herunter und testen Sie sie direkt per Knopfdruck."
+      "Kombiinstrument-Widget vBot Vektra: alle dynamischen Reaktionen integriert:",
+      "Tanzt zur Musik: vBot tanzt im Rhythmus mit schwebenden Musiknoten bei Audiowiedergabe.",
+      "G-Kräfte (Beschleunigung & Bremsen): neigt sich bei voller Beschleunigung nach hinten und stützt sich beim Bremsen nach vorne ab.",
+      "Dynamische Kurvenneigung: neigt den Körper physikalisch präzise in die Kurven.",
+      "Visuelle Warnungen: Reifendruckwarnung, kritischer Akkustand (<15%), Filtermaske bei Luftverschmutzung (PM2.5) und Schutzschirm bei Regen.",
+      "Ruhemodus bei ausgeschaltetem Fahrzeug: geschlossene Augen und schwebende « Z z z »."
     ],
     "pt": [
-      "Novo separador dedicado « vBot Vektra »: acessível diretamente na barra lateral esquerda com todas as opções do copiloto 3D e voz.",
-      "Nome oficial « vBot Vektra »: substitui o termo « Mascote » em toda a aplicação.",
-      "Personalização do nome de chamada: escolha como o vBot se dirige a si (Senhor, Senhora, Gino, Chefe, Capitão ou nome personalizado).",
-      "Motor TTS e armazenamento independente da navegação: voz e ficheiros dedicados (/vbot_voice_packs/) sem interferir com o GPS.",
-      "Perfil de voz (Homem J.A.R.V.I.S. ou Mulher): tom solene e pausado ao estilo J.A.R.V.I.S. ou voz feminina natural e fluida.",
-      "Transferência do pacote de voz e botão de teste: descarregue no idioma pretendido e teste de imediato."
+      "Widget do painel vBot Vektra: todas as reações dinâmicas integradas:",
+      "Dança ao ritmo da música: o vBot dança e move os braços com notas musicais a flutuar durante a reprodução de música.",
+      "Força G (Aceleração e Travagem): inclina-se para trás com traços de velocidade em aceleração e projeta-se para a frente em travagens bruscas.",
+      "Inclinação dinâmica nas curvas: inclina o corpo em tempo real consoante a força centrífuga.",
+      "Alertas visuais no painel: anomalia nos pneus, bateria crítica (<15%), máscara purificadora para poluição (PM2.5) e cúpula de proteção à chuva.",
+      "Modo de descanso (Dodo): olhos fechados e « Z z z » a flutuar com o carro desligado."
     ],
     "tr": [
-      "Yeni özel « vBot Vektra » sekmesi: 3D yol arkadaşınızın tüm ayarları, ses profilleri ve indirmeleri için sol gezinme çubuğunda yeni sekme.",
-      "Resmi « vBot Vektra » adı: uygulama genelinde eski « Maskot » teriminin yerini aldı.",
-      "Kişiselleştirilmiş hitap adı: vBot'un size nasıl hitap edeceğini seçin (Beyefendi, Hanımefendi, Gino, Patron, Kaptan veya özel ad).",
-      "Navigasyondan bağımsız TTS motoru ve depolama: navigasyon seslerini etkilemeyen bağımsız ses motoru ve klasör yapısı (/vbot_voice_packs/).",
-      "Ses profili seçimi (Erkek J.A.R.V.I.S. veya Kadın): J.A.R.V.I.S. tarzı ağırbaşlı ve sakin ses tonu veya akıcı kadın sesi.",
-      "Ses paketi indirme ve anında test düğmesi: dilediğiniz dilde vBot ses paketini indirin ve anında test edin."
+      "Gösterge paneli vBot Vektra widget'ı: tüm dinamik tepkiler entegre edildi:",
+      "Müzikle dans etme: müzik çalarken vBot ritme göre dans eder ve yüzen nota efektleri belirir.",
+      "G-kuvveti tepkileri (Hızlanma / Frenleme): tam gazda geriye doğru yatar, ani frende kollarını öne doğru uzatır.",
+      "Virajlarda dinamik eğilme: virajlarda merkezkaç kuvvetine göre gövdesini yana yatırır.",
+      "Görsel gösterge uyarıları: lastik basıncı uyarısı, kritik batarya simgesi (<%15), hava kirliliği filtresi (PM2.5) ve yağmurda koruma kalkanı.",
+      "Araç kapalıyken uyku modu: gözleri kapalı ve yükselen « Z z z » animasyonu."
     ]
   }
 }
