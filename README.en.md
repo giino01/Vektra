@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.9.12** · released on 28 October 2026 · 45.7 MB
+**VERSION 1.9.13** · released on 28 October 2026 · 45.8 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.9.12
+## What is new in 1.9.13
 
-- Fix 3D Humanoid Model Framing, Scale & Positioning:
-- Corrected wrapper transform and orientation: the companion android now stands upright facing the driver at true athletic human proportions (scale 0.68, ground placement Y = -1.15).
-- Fixed scaling calculation that caused the model to shrink under the ground plane in the previous build.
-- PBR Lighting & Circuit Vibrancy: adjusted metalness (0.18) and roughness (0.42) with enhanced fill and rim lighting so the armor and electric cyan circuits are brightly illuminated.
-- Animated Chest Medallion: official Vektra core positioned on the chest with dynamic neon pulsing and organic breathing motion.
-- WebView Console Diagnostics: enabled real-time forwarding of WebGL/JS console messages to Android system logs.
+- Exact Official Vektra Color Palette from Reference Sheet:
+- Matte Carbon Black Undersuit: completely replaced all cyan on the undersuit, neck, flanks, abdomen, and joints with deep midnight carbon black (#10141E) matching the official character sheet.
+- Royal Electric Blue Neon Trim (#0077FF to #0088FF): leg and arm light seams, visor eye optics, and ear turbine rings now shine in rich electric neon blue.
+- Pristine Pearl White Armor: bright white chest, shoulder, and leg armor plates with sleek silver bevels.
+- Clean Chest Armor: removed the circular "Vektra" chest badge to highlight the sculpted athletic masculine chest plate.
+- Harmonized Environment Lighting: ground halo reflection and rim lighting updated from cyan to signature electric blue.
 
 ---
 

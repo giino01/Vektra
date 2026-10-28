@@ -1,63 +1,63 @@
 {
-  "version": "1.9.12",
-  "apk": "Vektra-1.9.12.apk",
-  "size": 47966768,
+  "version": "1.9.13",
+  "apk": "Vektra-1.9.13.apk",
+  "size": 48029292,
   "notes": [
-    "Correction du positionnement et cadrage du modèle 3D humanoïde Vektra :",
-    "Correction de l'échelle et de l'orientation du conteneur 3D : l'androïde se dresse désormais fièrement face au conducteur avec des proportions humaines athlétiques (échelle 0.68 et calage sol Y = -1.15).",
-    "Élimination du rétrécissement qui rendait le robot microscopique sous le plancher dans la version précédente.",
-    "Éclairage PBR et brillance des circuits : ajustement de la métallicité (0.18) et de la rugosité (0.42) ainsi qu'ajout d'une lumière de débouchage pour illuminer l'armure et faire éclater les circuits bleu électrique en toutes circonstances.",
-    "Médaillon thoracique animé : cœur Vektra fixé à hauteur de buste avec pulsation néon et mouvement respiratoire continu.",
-    "Surveillance console WebView : transmission des messages et avertissements WebGL vers le journal système Android pour un diagnostic immédiat."
+    "Palette de couleurs exacte de la planche officielle Vektra :",
+    "Sous-combinaison noir carbone mat : élimination intégrale du cyan sur la sous-combinaison, le cou, les flancs, l'abdomen et les jointures, remplacé par un noir carbone profond (#10141E) fidèle à la photo.",
+    "Liserés et optiques bleu électrique royal (#0077FF à #0088FF) : les coutures lumineuses des jambes et des bras, les optiques de la visière et les turbines d'oreilles s'illuminent désormais du véritable bleu électrique néon intense de la planche de référence.",
+    "Armure blanc nacré immaculé : plaques pectorales, d'épaules et jambières en blanc pur et reflets métalliques argentés.",
+    "Plastron épuré : retrait du médaillon circulaire avec logo « Vektra » sur la poitrine pour mettre en valeur les lignes athlétiques planes de l'armure.",
+    "Éclairage d'ambiance harmonisé : passage du halo au sol et des reflets lumineux au bleu électrique signature."
   ],
   "notesByLang": {
     "fr": [
-      "Correction du positionnement et cadrage du modèle 3D humanoïde Vektra :",
-      "Correction de l'échelle et de l'orientation du conteneur 3D : l'androïde se dresse désormais fièrement face au conducteur avec des proportions humaines athlétiques (échelle 0.68 et calage sol Y = -1.15).",
-      "Élimination du rétrécissement qui rendait le robot microscopique sous le plancher dans la version précédente.",
-      "Éclairage PBR et brillance des circuits : ajustement de la métallicité (0.18) et de la rugosité (0.42) ainsi qu'ajout d'une lumière de débouchage pour illuminer l'armure et faire éclater les circuits bleu électrique en toutes circonstances.",
-      "Médaillon thoracique animé : cœur Vektra fixé à hauteur de buste avec pulsation néon et mouvement respiratoire continu.",
-      "Surveillance console WebView : transmission des messages et avertissements WebGL vers le journal système Android pour un diagnostic immédiat."
+      "Palette de couleurs exacte de la planche officielle Vektra :",
+      "Sous-combinaison noir carbone mat : élimination intégrale du cyan sur la sous-combinaison, le cou, les flancs, l'abdomen et les jointures, remplacé par un noir carbone profond (#10141E) fidèle à la photo.",
+      "Liserés et optiques bleu électrique royal (#0077FF à #0088FF) : les coutures lumineuses des jambes et des bras, les optiques de la visière et les turbines d'oreilles s'illuminent désormais du véritable bleu électrique néon intense de la planche de référence.",
+      "Armure blanc nacré immaculé : plaques pectorales, d'épaules et jambières en blanc pur et reflets métalliques argentés.",
+      "Plastron épuré : retrait du médaillon circulaire avec logo « Vektra » sur la poitrine pour mettre en valeur les lignes athlétiques planes de l'armure.",
+      "Éclairage d'ambiance harmonisé : passage du halo au sol et des reflets lumineux au bleu électrique signature."
     ],
     "en": [
-      "Fix 3D Humanoid Model Framing, Scale & Positioning:",
-      "Corrected wrapper transform and orientation: the companion android now stands upright facing the driver at true athletic human proportions (scale 0.68, ground placement Y = -1.15).",
-      "Fixed scaling calculation that caused the model to shrink under the ground plane in the previous build.",
-      "PBR Lighting & Circuit Vibrancy: adjusted metalness (0.18) and roughness (0.42) with enhanced fill and rim lighting so the armor and electric cyan circuits are brightly illuminated.",
-      "Animated Chest Medallion: official Vektra core positioned on the chest with dynamic neon pulsing and organic breathing motion.",
-      "WebView Console Diagnostics: enabled real-time forwarding of WebGL/JS console messages to Android system logs."
+      "Exact Official Vektra Color Palette from Reference Sheet:",
+      "Matte Carbon Black Undersuit: completely replaced all cyan on the undersuit, neck, flanks, abdomen, and joints with deep midnight carbon black (#10141E) matching the official character sheet.",
+      "Royal Electric Blue Neon Trim (#0077FF to #0088FF): leg and arm light seams, visor eye optics, and ear turbine rings now shine in rich electric neon blue.",
+      "Pristine Pearl White Armor: bright white chest, shoulder, and leg armor plates with sleek silver bevels.",
+      "Clean Chest Armor: removed the circular \"Vektra\" chest badge to highlight the sculpted athletic masculine chest plate.",
+      "Harmonized Environment Lighting: ground halo reflection and rim lighting updated from cyan to signature electric blue."
     ],
     "it": [
-      "Correzione inquadratura e posizionamento del modello 3D umanoide Vektra:",
-      "Corretta scala e orientamento del modello: l'androide ora appare in piedi rivolto verso il guidatore a figura intera (scala 0.68 e ancoraggio a terra Y = -1.15).",
-      "Risolto il problema di scala che rendeva il modello microscopico sotto il suolo.",
-      "Luminosità PBR e circuiti ciano: regolata metallicità (0.18) e rugosità (0.42) con luce di riempimento ottimizzata.",
-      "Medaglione toracico animato: cuore Vektra perfettamente agganciato con pulsazione sincronizzata alla respirazione.",
-      "Diagnostica console WebView: inoltro dei messaggi WebGL nei log Android."
+      "Palette colori esatta della tavola ufficiale Vektra:",
+      "Sotto-tuta nero carbonio opaco: eliminato totalmente il ciano su sotto-tuta, fianchi e articolazioni, sostituito con nero carbonio profondo (#10141E).",
+      "Profili LED blu elettrico (#0077FF - #0088FF): cuciture luminose, ottiche visiera e turbine auricolari nel blu elettrico intenso della foto ufficiale.",
+      "Armatura bianco perlato: placche toraciche e gambali bianchi con riflessi metallici.",
+      "Torace pulito: rimosso il medaglione circolare con logo Vektra sul petto per valorizzare la corazza pettorale atletica.",
+      "Illuminazione coordinata: alone a terra e luci ambientali impostati sul blu elettrico."
     ],
     "de": [
-      "Korrektur von Skalierung, Ausrichtung & Platzierung des 3D-Modells:",
-      "Korrigierte Container-Transformation: Der humanoide Android steht nun aufrecht mit Blick zum Fahrer in sportlichen Proportionen (Skalierung 0.68, Bodenposition Y = -1.15).",
-      "Behebung des Skalierungsfehlers, der das Modell zuvor unter dem Boden versteckte.",
-      "PBR-Beleuchtung & Neon-Leuchtkraft: Angepasste Metallizität (0.18) und Rauheit (0.42) mit Aufhelllicht für brillante Rüstung und leuchtende cyanblaue Schaltkreise.",
-      "Atmendes Brustemblem: Vektra-Kernmedaillon auf Brusthöhe mit Neonpulsieren und Atembewegung.",
-      "WebView-Konsolenprotokolle: Weiterleitung von WebGL-Nachrichten an das Android-Systemprotokoll."
+      "Exakte Vektra-Farbpalette der offiziellen Modelltafel:",
+      "Mattes Karbonschwarz: Vollständiger Ersatz des Cyanblaus auf Unteranzug, Hals, Flanken und Gelenken durch tiefes Karbonschwarz (#10141E).",
+      "Königsblaue elektrische Neonstreifen (#0077FF bis #0088FF): Leuchtende Ziernähte an Beinen und Armen, Augenoptik und Ohrenturbinen im intensiven elektrischen Blau.",
+      "Perlweißes Rüstungsdesign: Reine weiße Rüstungsplatten mit silbernen Akzenten.",
+      "Schlichte Brustpanzerung: Entfernung des kreisförmigen Vektra-Logos auf der Brust für eine athletische Panzeroptik.",
+      "Harmonisierte Beleuchtung: Bodenhalo und Umgebungslicht auf elektrisches Blau umgestellt."
     ],
     "pt": [
-      "Correção do enquadramento e escala do modelo 3D humanoide Vektra:",
-      "Ajuste de escala e orientação: o androide surge agora de pé virado para o condutor com proporções atléticas (escala 0.68 e chão em Y = -1.15).",
-      "Resolução do erro de escala que tornava o modelo microscópico debaixo do chão.",
-      "Iluminação PBR e circuitos ciano: metalicidade (0.18) e rugosidade (0.42) calibradas com luz de preenchimento.",
-      "Medalhão no peito animado: núcleo luminoso Vektra no busto com pulsação e respiração orgânica.",
-      "Registo de consola WebView: reencaminhamento de mensagens WebGL para os registos do sistema Android."
+      "Paleta de cores exata da prancha oficial Vektra:",
+      "Fato interior em preto carbono mate: remoção completa do ciano no fato interior, flancos e articulações, substituído por preto profundo (#10141E).",
+      "Linhas néon azul elétrico (#0077FF a #0088FF): costuras luminosas, óticas da viseira e turbinas auriculares no azul elétrico vibrante da fotografia.",
+      "Armadura branco pérola: placas peitorais e perneiras em branco puro com detalhes prateados.",
+      "Peito esculpido: remoção do medalhão circular com texto Vektra no peito para destacar o peitoral atlético.",
+      "Iluminação harmonizada: auréola de solo e reflexos no azul elétrico de assinatura."
     ],
     "tr": [
-      "3D İnsansı Vektra Modelinin Ölçek ve Konumlandırma Düzeltmesi:",
-      "Kapsayıcı ölçeği ve yönü düzeltildi: İnsansı android artık sürücüye dönük ve tam boy atletik oranlarla görüntülenir (ölçek 0.68, zemin Y = -1.15).",
-      "Önceki sürümde modelin zemin altına mikroskobik olarak küçülmesine neden olan ölçekleme hatası giderildi.",
-      "PBR Aydınlatma ve Canlı Neon Devreler: Parlak zırh ve elektrik mavisi devreler için metaliklik (0.18) ve pürüzlülük (0.42) dengelendi, dolgu ışığı eklendi.",
-      "Hareketli Göğüs Madalyonu: Göğüs zırhında nefes ritmiyle atan ışıklı Vektra çekirdeği.",
-      "WebView Konsol Günlükleri: WebGL ve JS günlüklerinin Android sistem günlüğüne aktarılması sağlandı."
+      "Resmi Vektra Karakter Çiziminin Birebir Renk Paleti:",
+      "Mat Karbon Siyah İç Zırh: İç tulum, boyun, karın ve eklem yerlerindeki camgöbeği renk kaldırılarak fotoğraftaki derin karbon siyahına (#10141E) dönüştürüldü.",
+      "Kraliyet Elektrik Mavisi Neon Hatlar (#0077FF - #0088FF): Bacak/kol dikişleri, vizör gözleri ve kulak halkaları referans fotoğraftaki parlak elektrik mavisiyle aydınlatıldı.",
+      "İnci Beyazı Zırh Plakaları: Temiz beyaz göğüs ve bacak zırhı ile gümüş detaylar.",
+      "Sade Göğüs Zırhı: Göğüsteki yuvarlak Vektra madalyonu kaldırılarak erkeksi atletik göğüs zırhı öne çıkarıldı.",
+      "Uyumlu Ortam Işığı: Zemin halesi ve ışık vurguları imza niteliğindeki elektrik mavisine uyarlandı."
     ]
   }
 }

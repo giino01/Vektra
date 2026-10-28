@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.12** · publiée le 28 octobre 2026 · 45.7 Mo
+**VERSION 1.9.13** · publiée le 28 octobre 2026 · 45.8 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.12
+## Nouveautés de la 1.9.13
 
-- Correction du positionnement et cadrage du modèle 3D humanoïde Vektra :
-- Correction de l'échelle et de l'orientation du conteneur 3D : l'androïde se dresse désormais fièrement face au conducteur avec des proportions humaines athlétiques (échelle 0.68 et calage sol Y = -1.15).
-- Élimination du rétrécissement qui rendait le robot microscopique sous le plancher dans la version précédente.
-- Éclairage PBR et brillance des circuits : ajustement de la métallicité (0.18) et de la rugosité (0.42) ainsi qu'ajout d'une lumière de débouchage pour illuminer l'armure et faire éclater les circuits bleu électrique en toutes circonstances.
-- Médaillon thoracique animé : cœur Vektra fixé à hauteur de buste avec pulsation néon et mouvement respiratoire continu.
-- Surveillance console WebView : transmission des messages et avertissements WebGL vers le journal système Android pour un diagnostic immédiat.
+- Palette de couleurs exacte de la planche officielle Vektra :
+- Sous-combinaison noir carbone mat : élimination intégrale du cyan sur la sous-combinaison, le cou, les flancs, l'abdomen et les jointures, remplacé par un noir carbone profond (#10141E) fidèle à la photo.
+- Liserés et optiques bleu électrique royal (#0077FF à #0088FF) : les coutures lumineuses des jambes et des bras, les optiques de la visière et les turbines d'oreilles s'illuminent désormais du véritable bleu électrique néon intense de la planche de référence.
+- Armure blanc nacré immaculé : plaques pectorales, d'épaules et jambières en blanc pur et reflets métalliques argentés.
+- Plastron épuré : retrait du médaillon circulaire avec logo « Vektra » sur la poitrine pour mettre en valeur les lignes athlétiques planes de l'armure.
+- Éclairage d'ambiance harmonisé : passage du halo au sol et des reflets lumineux au bleu électrique signature.
 
 ---
 

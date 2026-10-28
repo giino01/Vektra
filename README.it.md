@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.12** · pubblicata il 28 ottobre 2026 · 45.7 MB
+**VERSIONE 1.9.13** · pubblicata il 28 ottobre 2026 · 45.8 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.12
+## Novità della 1.9.13
 
-- Correzione inquadratura e posizionamento del modello 3D umanoide Vektra:
-- Corretta scala e orientamento del modello: l'androide ora appare in piedi rivolto verso il guidatore a figura intera (scala 0.68 e ancoraggio a terra Y = -1.15).
-- Risolto il problema di scala che rendeva il modello microscopico sotto il suolo.
-- Luminosità PBR e circuiti ciano: regolata metallicità (0.18) e rugosità (0.42) con luce di riempimento ottimizzata.
-- Medaglione toracico animato: cuore Vektra perfettamente agganciato con pulsazione sincronizzata alla respirazione.
-- Diagnostica console WebView: inoltro dei messaggi WebGL nei log Android.
+- Palette colori esatta della tavola ufficiale Vektra:
+- Sotto-tuta nero carbonio opaco: eliminato totalmente il ciano su sotto-tuta, fianchi e articolazioni, sostituito con nero carbonio profondo (#10141E).
+- Profili LED blu elettrico (#0077FF - #0088FF): cuciture luminose, ottiche visiera e turbine auricolari nel blu elettrico intenso della foto ufficiale.
+- Armatura bianco perlato: placche toraciche e gambali bianchi con riflessi metallici.
+- Torace pulito: rimosso il medaglione circolare con logo Vektra sul petto per valorizzare la corazza pettorale atletica.
+- Illuminazione coordinata: alone a terra e luci ambientali impostati sul blu elettrico.
 
 ---
 

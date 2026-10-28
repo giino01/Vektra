@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.12** · publicada a 28 de outubro de 2026 · 45.7 MB
+**VERSÃO 1.9.13** · publicada a 28 de outubro de 2026 · 45.8 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.12
+## Novidades da 1.9.13
 
-- Correção do enquadramento e escala do modelo 3D humanoide Vektra:
-- Ajuste de escala e orientação: o androide surge agora de pé virado para o condutor com proporções atléticas (escala 0.68 e chão em Y = -1.15).
-- Resolução do erro de escala que tornava o modelo microscópico debaixo do chão.
-- Iluminação PBR e circuitos ciano: metalicidade (0.18) e rugosidade (0.42) calibradas com luz de preenchimento.
-- Medalhão no peito animado: núcleo luminoso Vektra no busto com pulsação e respiração orgânica.
-- Registo de consola WebView: reencaminhamento de mensagens WebGL para os registos do sistema Android.
+- Paleta de cores exata da prancha oficial Vektra:
+- Fato interior em preto carbono mate: remoção completa do ciano no fato interior, flancos e articulações, substituído por preto profundo (#10141E).
+- Linhas néon azul elétrico (#0077FF a #0088FF): costuras luminosas, óticas da viseira e turbinas auriculares no azul elétrico vibrante da fotografia.
+- Armadura branco pérola: placas peitorais e perneiras em branco puro com detalhes prateados.
+- Peito esculpido: remoção do medalhão circular com texto Vektra no peito para destacar o peitoral atlético.
+- Iluminação harmonizada: auréola de solo e reflexos no azul elétrico de assinatura.
 
 ---
 

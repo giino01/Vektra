@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.9.12** · yayın tarihi 28 Ekim 2026 · 45.7 MB
+**SÜRÜM 1.9.13** · yayın tarihi 28 Ekim 2026 · 45.8 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,14 +103,14 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.9.12
+## Yenilikler: 1.9.13
 
-- 3D İnsansı Vektra Modelinin Ölçek ve Konumlandırma Düzeltmesi:
-- Kapsayıcı ölçeği ve yönü düzeltildi: İnsansı android artık sürücüye dönük ve tam boy atletik oranlarla görüntülenir (ölçek 0.68, zemin Y = -1.15).
-- Önceki sürümde modelin zemin altına mikroskobik olarak küçülmesine neden olan ölçekleme hatası giderildi.
-- PBR Aydınlatma ve Canlı Neon Devreler: Parlak zırh ve elektrik mavisi devreler için metaliklik (0.18) ve pürüzlülük (0.42) dengelendi, dolgu ışığı eklendi.
-- Hareketli Göğüs Madalyonu: Göğüs zırhında nefes ritmiyle atan ışıklı Vektra çekirdeği.
-- WebView Konsol Günlükleri: WebGL ve JS günlüklerinin Android sistem günlüğüne aktarılması sağlandı.
+- Resmi Vektra Karakter Çiziminin Birebir Renk Paleti:
+- Mat Karbon Siyah İç Zırh: İç tulum, boyun, karın ve eklem yerlerindeki camgöbeği renk kaldırılarak fotoğraftaki derin karbon siyahına (#10141E) dönüştürüldü.
+- Kraliyet Elektrik Mavisi Neon Hatlar (#0077FF - #0088FF): Bacak/kol dikişleri, vizör gözleri ve kulak halkaları referans fotoğraftaki parlak elektrik mavisiyle aydınlatıldı.
+- İnci Beyazı Zırh Plakaları: Temiz beyaz göğüs ve bacak zırhı ile gümüş detaylar.
+- Sade Göğüs Zırhı: Göğüsteki yuvarlak Vektra madalyonu kaldırılarak erkeksi atletik göğüs zırhı öne çıkarıldı.
+- Uyumlu Ortam Işığı: Zemin halesi ve ışık vurguları imza niteliğindeki elektrik mavisine uyarlandı.
 
 ---
 

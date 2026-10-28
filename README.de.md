@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.9.12** · veröffentlicht am 28. Oktober 2026 · 45.7 MB
+**VERSION 1.9.13** · veröffentlicht am 28. Oktober 2026 · 45.8 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.9.12
+## Neu in 1.9.13
 
-- Korrektur von Skalierung, Ausrichtung & Platzierung des 3D-Modells:
-- Korrigierte Container-Transformation: Der humanoide Android steht nun aufrecht mit Blick zum Fahrer in sportlichen Proportionen (Skalierung 0.68, Bodenposition Y = -1.15).
-- Behebung des Skalierungsfehlers, der das Modell zuvor unter dem Boden versteckte.
-- PBR-Beleuchtung & Neon-Leuchtkraft: Angepasste Metallizität (0.18) und Rauheit (0.42) mit Aufhelllicht für brillante Rüstung und leuchtende cyanblaue Schaltkreise.
-- Atmendes Brustemblem: Vektra-Kernmedaillon auf Brusthöhe mit Neonpulsieren und Atembewegung.
-- WebView-Konsolenprotokolle: Weiterleitung von WebGL-Nachrichten an das Android-Systemprotokoll.
+- Exakte Vektra-Farbpalette der offiziellen Modelltafel:
+- Mattes Karbonschwarz: Vollständiger Ersatz des Cyanblaus auf Unteranzug, Hals, Flanken und Gelenken durch tiefes Karbonschwarz (#10141E).
+- Königsblaue elektrische Neonstreifen (#0077FF bis #0088FF): Leuchtende Ziernähte an Beinen und Armen, Augenoptik und Ohrenturbinen im intensiven elektrischen Blau.
+- Perlweißes Rüstungsdesign: Reine weiße Rüstungsplatten mit silbernen Akzenten.
+- Schlichte Brustpanzerung: Entfernung des kreisförmigen Vektra-Logos auf der Brust für eine athletische Panzeroptik.
+- Harmonisierte Beleuchtung: Bodenhalo und Umgebungslicht auf elektrisches Blau umgestellt.
 
 ---
 
