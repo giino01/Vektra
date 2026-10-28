@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.8.18** · pubblicata il 27 ottobre 2026 · 43.1 MB
+**VERSIONE 1.8.19** · pubblicata il 28 ottobre 2026 · 43.1 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,13 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.8.18
+## Novità della 1.8.19
 
-- Avvio automatico sostituito da un widget mobile: non serve più aprire l'app. Un pulsante mobile sta sopra le altre app e si sposta col dito ovunque sullo schermo. Mostra il logo VEKTRA, un pulsante On/Off, un pulsante Proiezione e una freccia che apre un cassetto a destra per cambiare tema e per l'ADAS. Da attivare nelle impostazioni di VEKTRA.
-- VEKTRA è sempre attivo in background (sentinella): a auto spenta continua a sorvegliare e ripristina il quadro originale ~30 secondi dopo lo spegnimento. La proiezione ora si attiva solo manualmente (widget o app), mai da sola.
-- Il widget segue il tema del tablet: scuro o chiaro, con cambio automatico.
+- Mascotte VEKTRA (il V‑bot umanoide): un piccolo compagno con il logo VEKTRA sul petto che cambia umore con la guida (Eco, Sport, freddo/ghiaccio, ricarica…), respira e sbatte le palpebre. Disponibile come widget sul quadro (entrambi i temi) — da attivare nella bolla 🧩 Widget, spostabile e ridimensionabile in Modifica — e come bolla mobile sul tablet (nuova impostazione).
+- Intro all'avvio della proiezione: una breve animazione VEKTRA (logo + «VEKTRA») all'avvio della proiezione. Attivabile/disattivabile nelle impostazioni.
+- Pizzica per ridimensionare il widget mobile e la mascotte del tablet (dimensione mantenuta), e widget mobile spostabile anche a cassetto chiuso.
+- Ricompare all'avvio dell'auto: il widget mobile (e la mascotte) tornano da soli senza aprire l'app.
+- Ritorno al quadro originale più affidabile: allo spegnimento dell'auto, il ripristino usa un allarme che sopravvive alla sospensione e alla chiusura dell'app.
 
 ---
 

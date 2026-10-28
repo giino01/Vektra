@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.18** · released on 27 October 2026 · 43.1 MB
+**VERSION 1.8.19** · released on 28 October 2026 · 43.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.18
+## What is new in 1.8.19
 
-- Auto-start replaced by a floating widget: no need to open the app anymore. A floating button sits over other apps and can be dragged anywhere on screen. It shows the VEKTRA logo, an On/Off button, a Projection button, and an arrow that opens a drawer to the right to switch theme and for ADAS. Enable it in VEKTRA's settings.
-- VEKTRA always runs in the background (sentinel): when the car is off, it keeps watching and restores the original cluster ~30 seconds after shutdown. Projection now only turns on manually (widget or app), never on its own.
-- The widget follows the tablet's theme: dark or light, switching automatically.
+- VEKTRA mascot (the humanoid V‑bot): a little companion with the VEKTRA logo on its chest that changes mood with your driving (Eco, Sport, cold/ice, charging…), breathes and blinks. Available as a cluster widget (both themes) — enable it in the 🧩 Widgets bubble, movable and resizable in Edit — and as a floating bubble on the tablet (new setting).
+- Projection start intro: a short VEKTRA animation (logo + “VEKTRA”) when the projection starts. Can be turned on/off in settings.
+- Pinch to resize the floating widget and the tablet mascot (size is kept), and the floating widget is now draggable even with the drawer closed.
+- Auto reappear on car start: the floating widget (and mascot) come back on their own without opening the app.
+- More reliable return to the original cluster: when the car is turned off, the restore now uses an alarm that survives sleep and the app being killed.
 
 ---
 

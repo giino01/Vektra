@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.18** · publicada a 27 de outubro de 2026 · 43.1 MB
+**VERSÃO 1.8.19** · publicada a 28 de outubro de 2026 · 43.1 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.18.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.18
+## Novidades da 1.8.19
 
-- Arranque automático substituído por um widget flutuante: já não é preciso abrir a aplicação. Um botão flutuante fica sobre as outras apps e arrasta-se com o dedo para qualquer lado do ecrã. Mostra o logótipo VEKTRA, um botão Ligar/Desligar, um botão Projeção e uma seta que abre uma gaveta à direita para mudar de tema e para o ADAS. Ativa-se nas definições do VEKTRA.
-- O VEKTRA corre sempre em segundo plano (sentinela): com o carro desligado continua a vigiar e repõe o painel original ~30 segundos após o desligamento. A projeção agora só liga manualmente (widget ou app), nunca sozinha.
-- O widget segue o tema do tablet: escuro ou claro, mudando automaticamente.
+- Mascote VEKTRA (o V‑bot humanoide): um pequeno companheiro com o logótipo VEKTRA no peito que muda de humor conforme a condução (Eco, Sport, frio/gelo, carregamento…), respira e pisca os olhos. Disponível como widget no painel (ambos os temas) — ativar na bolha 🧩 Widgets, movível e redimensionável na Edição — e como bolha flutuante no tablet (nova definição).
+- Intro de arranque da projeção: uma breve animação VEKTRA (logótipo + «VEKTRA») ao iniciar a projeção. Ativável/desativável nas definições.
+- Aperte para redimensionar o widget flutuante e a mascote do tablet (tamanho mantido), e o widget flutuante já se desloca mesmo com a gaveta fechada.
+- Reaparece ao ligar o carro: o widget flutuante (e a mascote) voltam sozinhos sem abrir a aplicação.
+- Regresso ao painel original mais fiável: ao desligar o carro, a reposição passa a usar um alarme que sobrevive à suspensão e ao encerramento da app.
 
 ---
 

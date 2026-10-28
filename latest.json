@@ -1,42 +1,56 @@
 {
-  "version": "1.8.18",
-  "apk": "Vektra-1.8.18.apk",
-  "size": 45162750,
+  "version": "1.8.19",
+  "apk": "Vektra-1.8.19.apk",
+  "size": 45197790,
   "notes": [
-    "Démarrage automatique remplacé par un widget flottant : plus besoin d'ouvrir l'application. Un bouton flottant se pose par-dessus les autres apps, déplaçable au doigt partout sur l'écran. Il montre le logo VEKTRA, un bouton Marche/Arrêt, un bouton Projection, et une flèche qui ouvre un tiroir vers la droite pour changer de thème et pour l'ADAS. À activer dans les réglages de VEKTRA.",
-    "VEKTRA tourne toujours en fond (Sentinelle) : quand la voiture est éteinte, l'application surveille en continu et rend le combiné d'origine ~30 secondes après l'arrêt. La projection ne se réactive plus que manuellement (widget ou application), jamais toute seule.",
-    "Le widget suit le thème de la tablette : apparence sombre ou claire, et il bascule automatiquement."
+    "Mascotte VEKTRA (le V‑bot humanoïde) : un petit compagnon avec le logo VEKTRA sur le torse, qui change d'humeur selon la conduite (Éco, Sport, froid/verglas, charge…), respire et cligne des yeux. Disponible comme widget sur le combiné (2 thèmes) — à activer dans la bulle 🧩 Widgets, déplaçable et redimensionnable en Édition — et comme bulle flottante sur la tablette (nouveau réglage).",
+    "Intro de démarrage de la projection : une courte animation VEKTRA (logo + « VEKTRA ») au lancement de la projection. Activable/désactivable dans les réglages.",
+    "Agrandir / rétrécir à 2 doigts le widget flottant et la mascotte de la tablette (taille conservée), et widget flottant déplaçable même tiroir fermé.",
+    "Réapparition automatique au démarrage voiture : le widget flottant (et la mascotte) reviennent tout seuls sans ouvrir l'application.",
+    "Remise du combiné d'origine fiabilisée : à l'arrêt de la voiture, la remise à l'origine passe par une alarme qui survit à la mise en veille et à la fermeture de l'app."
   ],
   "notesByLang": {
     "fr": [
-      "Démarrage automatique remplacé par un widget flottant : plus besoin d'ouvrir l'application. Un bouton flottant se pose par-dessus les autres apps, déplaçable au doigt partout sur l'écran. Il montre le logo VEKTRA, un bouton Marche/Arrêt, un bouton Projection, et une flèche qui ouvre un tiroir vers la droite pour changer de thème et pour l'ADAS. À activer dans les réglages de VEKTRA.",
-      "VEKTRA tourne toujours en fond (Sentinelle) : quand la voiture est éteinte, l'application surveille en continu et rend le combiné d'origine ~30 secondes après l'arrêt. La projection ne se réactive plus que manuellement (widget ou application), jamais toute seule.",
-      "Le widget suit le thème de la tablette : apparence sombre ou claire, et il bascule automatiquement."
+      "Mascotte VEKTRA (le V‑bot humanoïde) : un petit compagnon avec le logo VEKTRA sur le torse, qui change d'humeur selon la conduite (Éco, Sport, froid/verglas, charge…), respire et cligne des yeux. Disponible comme widget sur le combiné (2 thèmes) — à activer dans la bulle 🧩 Widgets, déplaçable et redimensionnable en Édition — et comme bulle flottante sur la tablette (nouveau réglage).",
+      "Intro de démarrage de la projection : une courte animation VEKTRA (logo + « VEKTRA ») au lancement de la projection. Activable/désactivable dans les réglages.",
+      "Agrandir / rétrécir à 2 doigts le widget flottant et la mascotte de la tablette (taille conservée), et widget flottant déplaçable même tiroir fermé.",
+      "Réapparition automatique au démarrage voiture : le widget flottant (et la mascotte) reviennent tout seuls sans ouvrir l'application.",
+      "Remise du combiné d'origine fiabilisée : à l'arrêt de la voiture, la remise à l'origine passe par une alarme qui survit à la mise en veille et à la fermeture de l'app."
     ],
     "en": [
-      "Auto-start replaced by a floating widget: no need to open the app anymore. A floating button sits over other apps and can be dragged anywhere on screen. It shows the VEKTRA logo, an On/Off button, a Projection button, and an arrow that opens a drawer to the right to switch theme and for ADAS. Enable it in VEKTRA's settings.",
-      "VEKTRA always runs in the background (sentinel): when the car is off, it keeps watching and restores the original cluster ~30 seconds after shutdown. Projection now only turns on manually (widget or app), never on its own.",
-      "The widget follows the tablet's theme: dark or light, switching automatically."
+      "VEKTRA mascot (the humanoid V‑bot): a little companion with the VEKTRA logo on its chest that changes mood with your driving (Eco, Sport, cold/ice, charging…), breathes and blinks. Available as a cluster widget (both themes) — enable it in the 🧩 Widgets bubble, movable and resizable in Edit — and as a floating bubble on the tablet (new setting).",
+      "Projection start intro: a short VEKTRA animation (logo + “VEKTRA”) when the projection starts. Can be turned on/off in settings.",
+      "Pinch to resize the floating widget and the tablet mascot (size is kept), and the floating widget is now draggable even with the drawer closed.",
+      "Auto reappear on car start: the floating widget (and mascot) come back on their own without opening the app.",
+      "More reliable return to the original cluster: when the car is turned off, the restore now uses an alarm that survives sleep and the app being killed."
     ],
     "it": [
-      "Avvio automatico sostituito da un widget mobile: non serve più aprire l'app. Un pulsante mobile sta sopra le altre app e si sposta col dito ovunque sullo schermo. Mostra il logo VEKTRA, un pulsante On/Off, un pulsante Proiezione e una freccia che apre un cassetto a destra per cambiare tema e per l'ADAS. Da attivare nelle impostazioni di VEKTRA.",
-      "VEKTRA è sempre attivo in background (sentinella): a auto spenta continua a sorvegliare e ripristina il quadro originale ~30 secondi dopo lo spegnimento. La proiezione ora si attiva solo manualmente (widget o app), mai da sola.",
-      "Il widget segue il tema del tablet: scuro o chiaro, con cambio automatico."
+      "Mascotte VEKTRA (il V‑bot umanoide): un piccolo compagno con il logo VEKTRA sul petto che cambia umore con la guida (Eco, Sport, freddo/ghiaccio, ricarica…), respira e sbatte le palpebre. Disponibile come widget sul quadro (entrambi i temi) — da attivare nella bolla 🧩 Widget, spostabile e ridimensionabile in Modifica — e come bolla mobile sul tablet (nuova impostazione).",
+      "Intro all'avvio della proiezione: una breve animazione VEKTRA (logo + «VEKTRA») all'avvio della proiezione. Attivabile/disattivabile nelle impostazioni.",
+      "Pizzica per ridimensionare il widget mobile e la mascotte del tablet (dimensione mantenuta), e widget mobile spostabile anche a cassetto chiuso.",
+      "Ricompare all'avvio dell'auto: il widget mobile (e la mascotte) tornano da soli senza aprire l'app.",
+      "Ritorno al quadro originale più affidabile: allo spegnimento dell'auto, il ripristino usa un allarme che sopravvive alla sospensione e alla chiusura dell'app."
     ],
     "de": [
-      "Autostart durch ein schwebendes Widget ersetzt: die App muss nicht mehr geöffnet werden. Ein schwebender Knopf liegt über anderen Apps und lässt sich überall hinziehen. Er zeigt das VEKTRA-Logo, einen Ein/Aus-Knopf, einen Projektion-Knopf und einen Pfeil, der eine Schublade nach rechts öffnet, um das Thema zu wechseln und für ADAS. In den VEKTRA-Einstellungen aktivierbar.",
-      "VEKTRA läuft immer im Hintergrund (Sentinel): bei ausgeschaltetem Auto überwacht es weiter und stellt das Original-Kombiinstrument ~30 Sekunden nach dem Abschalten wieder her. Die Projektion schaltet sich nur noch manuell ein (Widget oder App), nie von selbst.",
-      "Das Widget folgt dem Thema des Tablets: dunkel oder hell, mit automatischem Wechsel."
+      "VEKTRA-Maskottchen (der humanoide V‑bot): ein kleiner Begleiter mit dem VEKTRA-Logo auf der Brust, der je nach Fahrweise die Stimmung wechselt (Eco, Sport, Kälte/Glätte, Laden…), atmet und blinzelt. Verfügbar als Kombi-Widget (beide Themes) — in der 🧩 Widgets-Blase aktivieren, im Bearbeiten verschieb- und skalierbar — und als schwebende Blase auf dem Tablet (neue Einstellung).",
+      "Projektions-Intro: eine kurze VEKTRA-Animation (Logo + „VEKTRA“) beim Start der Projektion. In den Einstellungen ein-/ausschaltbar.",
+      "Zwei-Finger-Skalieren des schwebenden Widgets und des Tablet-Maskottchens (Größe bleibt erhalten), und das schwebende Widget ist jetzt auch bei geschlossener Schublade verschiebbar.",
+      "Automatisches Wiedererscheinen beim Fahrzeugstart: das schwebende Widget (und das Maskottchen) kommen von selbst zurück, ohne die App zu öffnen.",
+      "Zuverlässigere Rückkehr zum Original-Kombiinstrument: beim Ausschalten des Autos nutzt die Wiederherstellung einen Wecker, der Standby und das Beenden der App übersteht."
     ],
     "pt": [
-      "Arranque automático substituído por um widget flutuante: já não é preciso abrir a aplicação. Um botão flutuante fica sobre as outras apps e arrasta-se com o dedo para qualquer lado do ecrã. Mostra o logótipo VEKTRA, um botão Ligar/Desligar, um botão Projeção e uma seta que abre uma gaveta à direita para mudar de tema e para o ADAS. Ativa-se nas definições do VEKTRA.",
-      "O VEKTRA corre sempre em segundo plano (sentinela): com o carro desligado continua a vigiar e repõe o painel original ~30 segundos após o desligamento. A projeção agora só liga manualmente (widget ou app), nunca sozinha.",
-      "O widget segue o tema do tablet: escuro ou claro, mudando automaticamente."
+      "Mascote VEKTRA (o V‑bot humanoide): um pequeno companheiro com o logótipo VEKTRA no peito que muda de humor conforme a condução (Eco, Sport, frio/gelo, carregamento…), respira e pisca os olhos. Disponível como widget no painel (ambos os temas) — ativar na bolha 🧩 Widgets, movível e redimensionável na Edição — e como bolha flutuante no tablet (nova definição).",
+      "Intro de arranque da projeção: uma breve animação VEKTRA (logótipo + «VEKTRA») ao iniciar a projeção. Ativável/desativável nas definições.",
+      "Aperte para redimensionar o widget flutuante e a mascote do tablet (tamanho mantido), e o widget flutuante já se desloca mesmo com a gaveta fechada.",
+      "Reaparece ao ligar o carro: o widget flutuante (e a mascote) voltam sozinhos sem abrir a aplicação.",
+      "Regresso ao painel original mais fiável: ao desligar o carro, a reposição passa a usar um alarme que sobrevive à suspensão e ao encerramento da app."
     ],
     "tr": [
-      "Otomatik başlatma yerine yüzen pencere öğesi: artık uygulamayı açmaya gerek yok. Diğer uygulamaların üstünde duran ve parmakla her yere sürüklenebilen bir yüzen düğme. VEKTRA logosunu, bir Aç/Kapa düğmesini, bir Yansıtma düğmesini ve tema değiştirmek ile ADAS için sağa bir çekmece açan bir ok gösterir. VEKTRA ayarlarından etkinleştirilir.",
-      "VEKTRA her zaman arka planda çalışır (nöbetçi): araç kapalıyken izlemeye devam eder ve kapanıştan ~30 saniye sonra orijinal göstergeyi geri yükler. Yansıtma artık yalnızca elle (pencere öğesi veya uygulama) açılır, kendiliğinden asla.",
-      "Pencere öğesi tabletin temasını izler: koyu veya açık, otomatik geçişle."
+      "VEKTRA maskotu (insansı V‑bot): göğsünde VEKTRA logosu olan, sürüşe göre ruh hâli değişen (Eco, Sport, soğuk/buzlanma, şarj…), nefes alıp göz kırpan küçük bir yoldaş. Gösterge widget'ı olarak (iki temada) — 🧩 Widget balonundan etkinleştirin, Düzen'de taşınabilir ve boyutlandırılabilir — ve tablette yüzen balon olarak (yeni ayar) mevcut.",
+      "Yansıtma başlangıç girişi: yansıtma başlarken kısa bir VEKTRA animasyonu (logo + «VEKTRA»). Ayarlardan açılıp kapatılabilir.",
+      "Yüzen widget'ı ve tablet maskotunu iki parmakla boyutlandırma (boyut korunur) ve yüzen widget artık çekmece kapalıyken de taşınabilir.",
+      "Araç çalışınca otomatik geri gelir: yüzen widget (ve maskot) uygulamayı açmadan kendiliğinden geri döner.",
+      "Orijinal göstergeye dönüş daha güvenilir: araç kapatılınca geri yükleme, uyku ve uygulamanın kapatılmasına dayanan bir alarm kullanır."
     ]
   }
 }
