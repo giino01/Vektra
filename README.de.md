@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.8.19** · veröffentlicht am 28. Oktober 2026 · 43.1 MB
+**VERSION 1.9.0** · veröffentlicht am 28. Oktober 2026 · 43.1 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.8.19
+## Neu in 1.9.0
 
-- VEKTRA-Maskottchen (der humanoide V‑bot): ein kleiner Begleiter mit dem VEKTRA-Logo auf der Brust, der je nach Fahrweise die Stimmung wechselt (Eco, Sport, Kälte/Glätte, Laden…), atmet und blinzelt. Verfügbar als Kombi-Widget (beide Themes) — in der 🧩 Widgets-Blase aktivieren, im Bearbeiten verschieb- und skalierbar — und als schwebende Blase auf dem Tablet (neue Einstellung).
-- Projektions-Intro: eine kurze VEKTRA-Animation (Logo + „VEKTRA“) beim Start der Projektion. In den Einstellungen ein-/ausschaltbar.
-- Zwei-Finger-Skalieren des schwebenden Widgets und des Tablet-Maskottchens (Größe bleibt erhalten), und das schwebende Widget ist jetzt auch bei geschlossener Schublade verschiebbar.
-- Automatisches Wiedererscheinen beim Fahrzeugstart: das schwebende Widget (und das Maskottchen) kommen von selbst zurück, ohne die App zu öffnen.
-- Zuverlässigere Rückkehr zum Original-Kombiinstrument: beim Ausschalten des Autos nutzt die Wiederherstellung einen Wecker, der Standby und das Beenden der App übersteht.
+- Position UND Größe werden jetzt gemerkt für das schwebende Widget und das Maskottchen: nach einem Fahrzeugneustart (oder nach Aus- und Einschalten) kommen sie dorthin zurück, wo du sie gelassen hast, in der eingestellten Größe.
+- Keine Größenbegrenzung beim Zwei‑Finger‑Zoom, und alles skaliert mit (auch der Schubladentext des Widgets).
+- Flüssigeres Verschieben und Skalieren.
+- Pfeil des schwebenden Widgets an den rechten Rand verschoben, wie in der Demo.
+- Projektions‑Intro auf 3,5 Sekunden verlängert.
 
 ---
 

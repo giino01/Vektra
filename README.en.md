@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.8.19** · released on 28 October 2026 · 43.1 MB
+**VERSION 1.9.0** · released on 28 October 2026 · 43.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.8.19
+## What is new in 1.9.0
 
-- VEKTRA mascot (the humanoid V‑bot): a little companion with the VEKTRA logo on its chest that changes mood with your driving (Eco, Sport, cold/ice, charging…), breathes and blinks. Available as a cluster widget (both themes) — enable it in the 🧩 Widgets bubble, movable and resizable in Edit — and as a floating bubble on the tablet (new setting).
-- Projection start intro: a short VEKTRA animation (logo + “VEKTRA”) when the projection starts. Can be turned on/off in settings.
-- Pinch to resize the floating widget and the tablet mascot (size is kept), and the floating widget is now draggable even with the drawer closed.
-- Auto reappear on car start: the floating widget (and mascot) come back on their own without opening the app.
-- More reliable return to the original cluster: when the car is turned off, the restore now uses an alarm that survives sleep and the app being killed.
+- Position AND size are now remembered for the floating widget and the mascot: after a car restart (or turning them off then on), they come back where you left them, at the size you set.
+- No size limit when pinch‑zooming, and everything scales (including the floating widget's drawer text).
+- Smoother dragging and pinching.
+- Floating widget arrow moved to the right edge, like the demo.
+- Projection intro extended to 3.5 seconds.
 
 ---
 

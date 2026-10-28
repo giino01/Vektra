@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.8.19** · yayın tarihi 28 Ekim 2026 · 43.1 MB
+**SÜRÜM 1.9.0** · yayın tarihi 28 Ekim 2026 · 43.1 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.8.19
+## Yenilikler: 1.9.0
 
-- VEKTRA maskotu (insansı V‑bot): göğsünde VEKTRA logosu olan, sürüşe göre ruh hâli değişen (Eco, Sport, soğuk/buzlanma, şarj…), nefes alıp göz kırpan küçük bir yoldaş. Gösterge widget'ı olarak (iki temada) — 🧩 Widget balonundan etkinleştirin, Düzen'de taşınabilir ve boyutlandırılabilir — ve tablette yüzen balon olarak (yeni ayar) mevcut.
-- Yansıtma başlangıç girişi: yansıtma başlarken kısa bir VEKTRA animasyonu (logo + «VEKTRA»). Ayarlardan açılıp kapatılabilir.
-- Yüzen widget'ı ve tablet maskotunu iki parmakla boyutlandırma (boyut korunur) ve yüzen widget artık çekmece kapalıyken de taşınabilir.
-- Araç çalışınca otomatik geri gelir: yüzen widget (ve maskot) uygulamayı açmadan kendiliğinden geri döner.
-- Orijinal göstergeye dönüş daha güvenilir: araç kapatılınca geri yükleme, uyku ve uygulamanın kapatılmasına dayanan bir alarm kullanır.
+- Yüzen widget ve maskot için konum VE boyut artık hatırlanıyor: araç yeniden başlatıldığında (veya kapatıp açtığında) bıraktığın yere, ayarladığın boyutta geri gelirler.
+- İki parmakla boyutlandırmada boyut sınırı yok ve her şey uyum sağlar (widget çekmecesinin yazısı dâhil).
+- Daha akıcı taşıma ve boyutlandırma.
+- Yüzen widget oku sağ kenara taşındı, demodaki gibi.
+- Yansıtma girişi 3,5 saniyeye uzatıldı.
 
 ---
 

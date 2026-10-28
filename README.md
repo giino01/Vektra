@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.8.19** · publiée le 28 octobre 2026 · 43.1 Mo
+**VERSION 1.9.0** · publiée le 28 octobre 2026 · 43.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.8.19
+## Nouveautés de la 1.9.0
 
-- Mascotte VEKTRA (le V‑bot humanoïde) : un petit compagnon avec le logo VEKTRA sur le torse, qui change d'humeur selon la conduite (Éco, Sport, froid/verglas, charge…), respire et cligne des yeux. Disponible comme widget sur le combiné (2 thèmes) — à activer dans la bulle 🧩 Widgets, déplaçable et redimensionnable en Édition — et comme bulle flottante sur la tablette (nouveau réglage).
-- Intro de démarrage de la projection : une courte animation VEKTRA (logo + « VEKTRA ») au lancement de la projection. Activable/désactivable dans les réglages.
-- Agrandir / rétrécir à 2 doigts le widget flottant et la mascotte de la tablette (taille conservée), et widget flottant déplaçable même tiroir fermé.
-- Réapparition automatique au démarrage voiture : le widget flottant (et la mascotte) reviennent tout seuls sans ouvrir l'application.
-- Remise du combiné d'origine fiabilisée : à l'arrêt de la voiture, la remise à l'origine passe par une alarme qui survit à la mise en veille et à la fermeture de l'app.
+- Position ET taille mémorisées pour le widget flottant et la mascotte : au redémarrage de la voiture (ou en les désactivant puis réactivant), ils reviennent là où tu les avais mis, à la taille réglée.
+- Taille sans limite au pincement à 2 doigts, et tout s'adapte (y compris le texte du tiroir du widget flottant).
+- Déplacement et pincement plus fluides (moins de saccades).
+- Flèche du widget flottant repositionnée sur le bord droit, comme la démo.
+- Intro de projection portée à 3,5 secondes.
 
 ---
 

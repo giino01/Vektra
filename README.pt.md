@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.8.19** · publicada a 28 de outubro de 2026 · 43.1 MB
+**VERSÃO 1.9.0** · publicada a 28 de outubro de 2026 · 43.1 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.8.19.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.8.19
+## Novidades da 1.9.0
 
-- Mascote VEKTRA (o V‑bot humanoide): um pequeno companheiro com o logótipo VEKTRA no peito que muda de humor conforme a condução (Eco, Sport, frio/gelo, carregamento…), respira e pisca os olhos. Disponível como widget no painel (ambos os temas) — ativar na bolha 🧩 Widgets, movível e redimensionável na Edição — e como bolha flutuante no tablet (nova definição).
-- Intro de arranque da projeção: uma breve animação VEKTRA (logótipo + «VEKTRA») ao iniciar a projeção. Ativável/desativável nas definições.
-- Aperte para redimensionar o widget flutuante e a mascote do tablet (tamanho mantido), e o widget flutuante já se desloca mesmo com a gaveta fechada.
-- Reaparece ao ligar o carro: o widget flutuante (e a mascote) voltam sozinhos sem abrir a aplicação.
-- Regresso ao painel original mais fiável: ao desligar o carro, a reposição passa a usar um alarme que sobrevive à suspensão e ao encerramento da app.
+- Posição E tamanho agora memorizados para o widget flutuante e a mascote: ao reiniciar o carro (ou desativando e reativando) voltam para onde os deixaste, com o tamanho definido.
+- Sem limite de tamanho ao aproximar/afastar com dois dedos, e tudo se adapta (incluindo o texto da gaveta do widget).
+- Arrastar e redimensionar mais fluidos.
+- Seta do widget flutuante movida para o bordo direito, como na demo.
+- Intro da projeção aumentada para 3,5 segundos.
 
 ---
 
