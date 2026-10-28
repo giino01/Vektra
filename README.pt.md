@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.10** · publicada a 28 de outubro de 2026 · 43.4 MB
+**VERSÃO 1.9.11** · publicada a 28 de outubro de 2026 · 45.7 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,17 +103,18 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.10
+## Novidades da 1.9.11
 
-- Verdadeira voz masculina J.A.R.V.I.S. (100% masculina e serena):
-- Eliminação definitiva da voz feminina no perfil Homem.
-- Síntese vocal 100% local no tablet através do motor Android TTS com seleção de vozes masculinas.
-- Calibração de assinatura J.A.R.V.I.S.: tom grave (pitch 0.72f) e ritmo pausado (0.96f).
-- Limpeza automática de antigos ficheiros MP3 femininos.
-- Tipografia horizontal no peito:
-- O texto « Vektra » no medalhão 3D central surge agora perfeitamente alinhado na horizontal da esquerda para a direita.
-- Remoção da dança musical:
-- O vBot já não dança quando ouve música, mantendo-se calmo e focado na condução.
+- Modelo 3D humanoide realista articulado Vektra (Astra Lumen II):
+- Integração de um modelo realista de androide humanoide articulado com animação completa de respiração suave.
+- Peitoral masculino atlético: peito feminino completamente alisado com transição contínua para uma armadura peitoral atlética masculina com normais recalculadas.
+- Néons azul elétrico (#00E5FF): conversão integral de detalhes rosa/magenta para o azul ciano elétrico oficial da Vektra.
+- Medalhão peitoral Vektra: núcleo luminoso circular oficial montado na armadura e pulsando com a respiração.
+- Fluidez perfeita a 60 FPS no tablet:
+- Modelo reduzido de 18 MB para 4,4 MB.
+- Animação esquelética otimizada (redução de 85% do impacto na CPU).
+- Textura PBR 1024x1024 leve garantindo 60 FPS estáveis na WebView.
+- Reatividade total ao veículo: inclinação em curvas, arfagem em aceleração/travagem e iluminação dinâmica.
 
 ---
 

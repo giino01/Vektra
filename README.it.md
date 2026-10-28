@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.10** · pubblicata il 28 ottobre 2026 · 43.4 MB
+**VERSIONE 1.9.11** · pubblicata il 28 ottobre 2026 · 45.7 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,18 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.10
+## Novità della 1.9.11
 
-- Vera voce maschile J.A.R.V.I.S. (100% maschile e posata):
-- Eliminazione definitiva della voce femminile nel profilo Uomo.
-- Sintesi vocale locale sul tablet tramite motore Android TTS con selezione di voci maschili reali.
-- Calibrazione J.A.R.V.I.S.: tonalità profonda (pitch 0.72f) e ritmo misurato (0.96f).
-- Eliminazione automatica dei vecchi MP3 femminili nel profilo maschile.
-- Tipografia torace Vektra orizzontale:
-- Il nome « Vektra » sul medaglione 3D è ora perfettamente orizzontale da sinistra a destra.
-- Rimozione animazione ballo:
-- vBot non balla più quando si ascolta musica, mantenendo un atteggiamento sobrio e calmo.
+- Modello 3D androide realistico articolato Vektra (Astra Lumen II):
+- Integrazione del modello androide umanoide realistico articolato con animazione naturale di respirazione.
+- Pettorale maschile atletico: seno femminile appiattito con rimodellamento geometrico continuo per creare una corazza pettorale maschile atletica con normali ricalcolate.
+- LED e neon blu elettrico (#00E5FF): conversione totale di tutti i toni rosa in blu ciano elettrico Vektra.
+- Cuore Vektra sul torace: medaglione circolare luminoso ufficiale sincronizzato con la respirazione.
+- Fluidità perfetta a 60 FPS sul tablet:
+- File 3D compresso da 18 MB a 4,4 MB.
+- Animazione ottimizzata con riduzione dell'85% dell'utilizzo CPU.
+- Texture PBR 1024x1024 ultra-leggera per zero cali di framerate nella WebView.
+- Reattività completa del veicolo: inclinazione in curva, beccheggio in frenata/accelerazione e illuminazione adattiva.
 
 ---
 

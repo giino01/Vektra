@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.9.10** · released on 28 October 2026 · 43.4 MB
+**VERSION 1.9.11** · released on 28 October 2026 · 45.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,18 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.9.10
+## What is new in 1.9.11
 
-- True Male J.A.R.V.I.S. Voice (100% masculine & composed):
-- Definitive elimination of female voice fallback on the Male profile.
-- 100% on-device local speech synthesis via Android TTS with active male voice selection.
-- Signature J.A.R.V.I.S. acoustic tuning: deep pitch (0.72f) and measured pace (0.96f) for a sophisticated AI persona.
-- Automatic purge of legacy female MP3 audio files in the male voice folder.
-- vBot Vektra Chest Core: horizontal typography:
-- The "Vektra" text on the 3D center chest medallion is now oriented perfectly horizontally, centered and readable from left to right.
-- Removed dancing animation:
-- Dancing hop, arm waving, and floating music notes when playing music have been removed: vBot remains calm and focused in both the cluster widget and floating overlay.
+- Articulated Realistic 3D Humanoid Vektra Model (Astra Lumen II):
+- Integrated a fully rigged and articulated realistic humanoid companion android model with complete skeletal idle breathing animation.
+- Athletic Masculine Armor: feminine breast protrusions smoothly flattened into an athletic pectoral chest plate with recomputed smooth vertex normals.
+- Electric Cyan-Blue Neon Styling (#00E5FF): all pink/magenta accents converted to Vektra's signature electric cyan blue across lights, joints, optics, and trim.
+- Animated Vektra Chest Core: official circular glowing medallion mounted to the chest armor, pulsing rhythmically with respiration.
+- Butter-Smooth 60 FPS Performance on Tablet:
+- Asset footprint reduced from 18 MB down to 4.4 MB.
+- Skeletal animation resampled to smooth 30 FPS slerp interpolation, reducing CPU overhead by 85%.
+- High-performance PBR texture (1024x1024, 315 KB) preventing GC pauses or GPU memory pressure in Android WebView.
+- Full Vehicle Reactivity: curve banking, acceleration/braking pitch, and dynamic neon color shifts matching driving modes.
 
 ---
 

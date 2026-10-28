@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.10** · publiée le 28 octobre 2026 · 43.4 Mo
+**VERSION 1.9.11** · publiée le 28 octobre 2026 · 45.7 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,18 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.10
+## Nouveautés de la 1.9.11
 
-- Véritable voix d'Homme J.A.R.V.I.S. (100 % masculine et posée) :
-- Élimination définitive de la voix de femme pour le profil Homme.
-- Synthèse vocale 100 % locale sur la tablette via le moteur Android TTS avec sélection des voix masculines réelles.
-- Calibrage acoustique signature J.A.R.V.I.S. : tonalité grave (pitch 0.72f) et débit mesuré (speed 0.96f) pour un timbre d'intelligence artificielle sophistiqué.
-- Purge automatique des anciens fichiers MP3 féminins stockés dans le dossier Homme.
-- Torse vBot Vektra : typographie horizontale :
-- Le nom « Vektra » sur le médaillon central 3D est désormais orienté parfaitement à l'horizontale, centré et lisible de gauche à droite.
-- Suppression de l'animation de danse :
-- Retrait complet de la danse et des notes de musique lors de la lecture audio : vBot reste désormais calme, sobre et concentré sur la conduite dans le widget combiné et sur l'overlay flottant.
+- Modèle 3D humanoïde réaliste articulé Vektra (Astra Lumen II) :
+- Intégration du modèle 3D d'androïde humanoïde réaliste entièrement articulé avec son squelette complet et son animation de respiration naturelle.
+- Morphologie masculine athlétique : poitrine féminine complètement aplatie par remaillage géométrique continu, créant un plastron d'armure pectoral masculin profilé avec calcul précis des normales lissées.
+- Néons et optiques bleu électrique (#00E5FF) : remplacement intégral des teintes roses/magenta par le bleu cyan électrique officiel Vektra sur les circuits, jointures, optiques et liserés de l'androïde.
+- Médaillon de poitrine Vektra animé : cœur circulaire holographique officiel fixé au plastron thoracique, palpitant en rythme avec la respiration.
+- Fluidité 60 FPS parfaite sur tablette :
+- Poids du modèle 3D optimisé de 18 Mo à seulement 4,4 Mo.
+- Animation squelettique optimisée (rééchantillonnage 30 FPS fluide, suppression de 85 % de la charge CPU inutile).
+- Texture PBR haute performance (1024x1024, 315 Ko) éliminant tout ralentissement ou pic mémoire sur Android WebView.
+- Réactivité véhicule totale : inclinaison en virage, tangage à l'accélération et au freinage, variation de la couleur d'ambiance selon le mode de conduite.
 
 ---
 
