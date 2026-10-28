@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.9.11** · released on 28 October 2026 · 45.7 MB
+**VERSION 1.9.12** · released on 28 October 2026 · 45.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,18 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.9.11
+## What is new in 1.9.12
 
-- Articulated Realistic 3D Humanoid Vektra Model (Astra Lumen II):
-- Integrated a fully rigged and articulated realistic humanoid companion android model with complete skeletal idle breathing animation.
-- Athletic Masculine Armor: feminine breast protrusions smoothly flattened into an athletic pectoral chest plate with recomputed smooth vertex normals.
-- Electric Cyan-Blue Neon Styling (#00E5FF): all pink/magenta accents converted to Vektra's signature electric cyan blue across lights, joints, optics, and trim.
-- Animated Vektra Chest Core: official circular glowing medallion mounted to the chest armor, pulsing rhythmically with respiration.
-- Butter-Smooth 60 FPS Performance on Tablet:
-- Asset footprint reduced from 18 MB down to 4.4 MB.
-- Skeletal animation resampled to smooth 30 FPS slerp interpolation, reducing CPU overhead by 85%.
-- High-performance PBR texture (1024x1024, 315 KB) preventing GC pauses or GPU memory pressure in Android WebView.
-- Full Vehicle Reactivity: curve banking, acceleration/braking pitch, and dynamic neon color shifts matching driving modes.
+- Fix 3D Humanoid Model Framing, Scale & Positioning:
+- Corrected wrapper transform and orientation: the companion android now stands upright facing the driver at true athletic human proportions (scale 0.68, ground placement Y = -1.15).
+- Fixed scaling calculation that caused the model to shrink under the ground plane in the previous build.
+- PBR Lighting & Circuit Vibrancy: adjusted metalness (0.18) and roughness (0.42) with enhanced fill and rim lighting so the armor and electric cyan circuits are brightly illuminated.
+- Animated Chest Medallion: official Vektra core positioned on the chest with dynamic neon pulsing and organic breathing motion.
+- WebView Console Diagnostics: enabled real-time forwarding of WebGL/JS console messages to Android system logs.
 
 ---
 

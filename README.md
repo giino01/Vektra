@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.11** · publiée le 28 octobre 2026 · 45.7 Mo
+**VERSION 1.9.12** · publiée le 28 octobre 2026 · 45.7 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,18 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.11
+## Nouveautés de la 1.9.12
 
-- Modèle 3D humanoïde réaliste articulé Vektra (Astra Lumen II) :
-- Intégration du modèle 3D d'androïde humanoïde réaliste entièrement articulé avec son squelette complet et son animation de respiration naturelle.
-- Morphologie masculine athlétique : poitrine féminine complètement aplatie par remaillage géométrique continu, créant un plastron d'armure pectoral masculin profilé avec calcul précis des normales lissées.
-- Néons et optiques bleu électrique (#00E5FF) : remplacement intégral des teintes roses/magenta par le bleu cyan électrique officiel Vektra sur les circuits, jointures, optiques et liserés de l'androïde.
-- Médaillon de poitrine Vektra animé : cœur circulaire holographique officiel fixé au plastron thoracique, palpitant en rythme avec la respiration.
-- Fluidité 60 FPS parfaite sur tablette :
-- Poids du modèle 3D optimisé de 18 Mo à seulement 4,4 Mo.
-- Animation squelettique optimisée (rééchantillonnage 30 FPS fluide, suppression de 85 % de la charge CPU inutile).
-- Texture PBR haute performance (1024x1024, 315 Ko) éliminant tout ralentissement ou pic mémoire sur Android WebView.
-- Réactivité véhicule totale : inclinaison en virage, tangage à l'accélération et au freinage, variation de la couleur d'ambiance selon le mode de conduite.
+- Correction du positionnement et cadrage du modèle 3D humanoïde Vektra :
+- Correction de l'échelle et de l'orientation du conteneur 3D : l'androïde se dresse désormais fièrement face au conducteur avec des proportions humaines athlétiques (échelle 0.68 et calage sol Y = -1.15).
+- Élimination du rétrécissement qui rendait le robot microscopique sous le plancher dans la version précédente.
+- Éclairage PBR et brillance des circuits : ajustement de la métallicité (0.18) et de la rugosité (0.42) ainsi qu'ajout d'une lumière de débouchage pour illuminer l'armure et faire éclater les circuits bleu électrique en toutes circonstances.
+- Médaillon thoracique animé : cœur Vektra fixé à hauteur de buste avec pulsation néon et mouvement respiratoire continu.
+- Surveillance console WebView : transmission des messages et avertissements WebGL vers le journal système Android pour un diagnostic immédiat.
 
 ---
 

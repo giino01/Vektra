@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.9.11** · veröffentlicht am 28. Oktober 2026 · 45.7 MB
+**VERSION 1.9.12** · veröffentlicht am 28. Oktober 2026 · 45.7 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,18 +103,14 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.9.11
+## Neu in 1.9.12
 
-- Realistisches artikuliertes 3D-Humanoid-Modell Vektra (Astra Lumen II):
-- Integration eines realistischen humanoiden Androiden-Begleitmodells mit vollständigem Skelett und sanfter Ruheatmung.
-- Athletische maskuline Brustpanzerung: Brustwölbung durch geometrische Modellierung flachgezogen für eine sportliche maskuline Brustplatte mit neu berechneten Normalen.
-- Elektrisches Cyanblau (#00E5FF): alle rosa/magenta Farbtöne in offizielles Vektra-Neoncyanblau an Rüstung, Gelenken und Optiken umgewandelt.
-- Pulsierendes Vektra-Brustemblem: offizielles leuchtendes Kernmedaillon auf der Brustplatte, synchron zur Atmung.
-- Perfekte 60 FPS Tablet-Flüssigkeit:
-- Dateigröße von 18 MB auf 4,4 MB reduziert.
-- Skelettanimation optimiert (85 % weniger CPU-Last).
-- Schnelle 1024x1024 PBR-Textur für sofortiges Laden ohne Ruckeln.
-- Vollständige Fahrzeugreaktivität: Neigung in Kurven, Nickbewegung beim Bremsen/Beschleunigen und dynamische Fahrmodusfarben.
+- Korrektur von Skalierung, Ausrichtung & Platzierung des 3D-Modells:
+- Korrigierte Container-Transformation: Der humanoide Android steht nun aufrecht mit Blick zum Fahrer in sportlichen Proportionen (Skalierung 0.68, Bodenposition Y = -1.15).
+- Behebung des Skalierungsfehlers, der das Modell zuvor unter dem Boden versteckte.
+- PBR-Beleuchtung & Neon-Leuchtkraft: Angepasste Metallizität (0.18) und Rauheit (0.42) mit Aufhelllicht für brillante Rüstung und leuchtende cyanblaue Schaltkreise.
+- Atmendes Brustemblem: Vektra-Kernmedaillon auf Brusthöhe mit Neonpulsieren und Atembewegung.
+- WebView-Konsolenprotokolle: Weiterleitung von WebGL-Nachrichten an das Android-Systemprotokoll.
 
 ---
 

@@ -1,91 +1,63 @@
 {
-  "version": "1.9.11",
-  "apk": "Vektra-1.9.11.apk",
-  "size": 47964928,
+  "version": "1.9.12",
+  "apk": "Vektra-1.9.12.apk",
+  "size": 47966768,
   "notes": [
-    "Modèle 3D humanoïde réaliste articulé Vektra (Astra Lumen II) :",
-    "Intégration du modèle 3D d'androïde humanoïde réaliste entièrement articulé avec son squelette complet et son animation de respiration naturelle.",
-    "Morphologie masculine athlétique : poitrine féminine complètement aplatie par remaillage géométrique continu, créant un plastron d'armure pectoral masculin profilé avec calcul précis des normales lissées.",
-    "Néons et optiques bleu électrique (#00E5FF) : remplacement intégral des teintes roses/magenta par le bleu cyan électrique officiel Vektra sur les circuits, jointures, optiques et liserés de l'androïde.",
-    "Médaillon de poitrine Vektra animé : cœur circulaire holographique officiel fixé au plastron thoracique, palpitant en rythme avec la respiration.",
-    "Fluidité 60 FPS parfaite sur tablette :",
-    "Poids du modèle 3D optimisé de 18 Mo à seulement 4,4 Mo.",
-    "Animation squelettique optimisée (rééchantillonnage 30 FPS fluide, suppression de 85 % de la charge CPU inutile).",
-    "Texture PBR haute performance (1024x1024, 315 Ko) éliminant tout ralentissement ou pic mémoire sur Android WebView.",
-    "Réactivité véhicule totale : inclinaison en virage, tangage à l'accélération et au freinage, variation de la couleur d'ambiance selon le mode de conduite."
+    "Correction du positionnement et cadrage du modèle 3D humanoïde Vektra :",
+    "Correction de l'échelle et de l'orientation du conteneur 3D : l'androïde se dresse désormais fièrement face au conducteur avec des proportions humaines athlétiques (échelle 0.68 et calage sol Y = -1.15).",
+    "Élimination du rétrécissement qui rendait le robot microscopique sous le plancher dans la version précédente.",
+    "Éclairage PBR et brillance des circuits : ajustement de la métallicité (0.18) et de la rugosité (0.42) ainsi qu'ajout d'une lumière de débouchage pour illuminer l'armure et faire éclater les circuits bleu électrique en toutes circonstances.",
+    "Médaillon thoracique animé : cœur Vektra fixé à hauteur de buste avec pulsation néon et mouvement respiratoire continu.",
+    "Surveillance console WebView : transmission des messages et avertissements WebGL vers le journal système Android pour un diagnostic immédiat."
   ],
   "notesByLang": {
     "fr": [
-      "Modèle 3D humanoïde réaliste articulé Vektra (Astra Lumen II) :",
-      "Intégration du modèle 3D d'androïde humanoïde réaliste entièrement articulé avec son squelette complet et son animation de respiration naturelle.",
-      "Morphologie masculine athlétique : poitrine féminine complètement aplatie par remaillage géométrique continu, créant un plastron d'armure pectoral masculin profilé avec calcul précis des normales lissées.",
-      "Néons et optiques bleu électrique (#00E5FF) : remplacement intégral des teintes roses/magenta par le bleu cyan électrique officiel Vektra sur les circuits, jointures, optiques et liserés de l'androïde.",
-      "Médaillon de poitrine Vektra animé : cœur circulaire holographique officiel fixé au plastron thoracique, palpitant en rythme avec la respiration.",
-      "Fluidité 60 FPS parfaite sur tablette :",
-      "Poids du modèle 3D optimisé de 18 Mo à seulement 4,4 Mo.",
-      "Animation squelettique optimisée (rééchantillonnage 30 FPS fluide, suppression de 85 % de la charge CPU inutile).",
-      "Texture PBR haute performance (1024x1024, 315 Ko) éliminant tout ralentissement ou pic mémoire sur Android WebView.",
-      "Réactivité véhicule totale : inclinaison en virage, tangage à l'accélération et au freinage, variation de la couleur d'ambiance selon le mode de conduite."
+      "Correction du positionnement et cadrage du modèle 3D humanoïde Vektra :",
+      "Correction de l'échelle et de l'orientation du conteneur 3D : l'androïde se dresse désormais fièrement face au conducteur avec des proportions humaines athlétiques (échelle 0.68 et calage sol Y = -1.15).",
+      "Élimination du rétrécissement qui rendait le robot microscopique sous le plancher dans la version précédente.",
+      "Éclairage PBR et brillance des circuits : ajustement de la métallicité (0.18) et de la rugosité (0.42) ainsi qu'ajout d'une lumière de débouchage pour illuminer l'armure et faire éclater les circuits bleu électrique en toutes circonstances.",
+      "Médaillon thoracique animé : cœur Vektra fixé à hauteur de buste avec pulsation néon et mouvement respiratoire continu.",
+      "Surveillance console WebView : transmission des messages et avertissements WebGL vers le journal système Android pour un diagnostic immédiat."
     ],
     "en": [
-      "Articulated Realistic 3D Humanoid Vektra Model (Astra Lumen II):",
-      "Integrated a fully rigged and articulated realistic humanoid companion android model with complete skeletal idle breathing animation.",
-      "Athletic Masculine Armor: feminine breast protrusions smoothly flattened into an athletic pectoral chest plate with recomputed smooth vertex normals.",
-      "Electric Cyan-Blue Neon Styling (#00E5FF): all pink/magenta accents converted to Vektra's signature electric cyan blue across lights, joints, optics, and trim.",
-      "Animated Vektra Chest Core: official circular glowing medallion mounted to the chest armor, pulsing rhythmically with respiration.",
-      "Butter-Smooth 60 FPS Performance on Tablet:",
-      "Asset footprint reduced from 18 MB down to 4.4 MB.",
-      "Skeletal animation resampled to smooth 30 FPS slerp interpolation, reducing CPU overhead by 85%.",
-      "High-performance PBR texture (1024x1024, 315 KB) preventing GC pauses or GPU memory pressure in Android WebView.",
-      "Full Vehicle Reactivity: curve banking, acceleration/braking pitch, and dynamic neon color shifts matching driving modes."
+      "Fix 3D Humanoid Model Framing, Scale & Positioning:",
+      "Corrected wrapper transform and orientation: the companion android now stands upright facing the driver at true athletic human proportions (scale 0.68, ground placement Y = -1.15).",
+      "Fixed scaling calculation that caused the model to shrink under the ground plane in the previous build.",
+      "PBR Lighting & Circuit Vibrancy: adjusted metalness (0.18) and roughness (0.42) with enhanced fill and rim lighting so the armor and electric cyan circuits are brightly illuminated.",
+      "Animated Chest Medallion: official Vektra core positioned on the chest with dynamic neon pulsing and organic breathing motion.",
+      "WebView Console Diagnostics: enabled real-time forwarding of WebGL/JS console messages to Android system logs."
     ],
     "it": [
-      "Modello 3D androide realistico articolato Vektra (Astra Lumen II):",
-      "Integrazione del modello androide umanoide realistico articolato con animazione naturale di respirazione.",
-      "Pettorale maschile atletico: seno femminile appiattito con rimodellamento geometrico continuo per creare una corazza pettorale maschile atletica con normali ricalcolate.",
-      "LED e neon blu elettrico (#00E5FF): conversione totale di tutti i toni rosa in blu ciano elettrico Vektra.",
-      "Cuore Vektra sul torace: medaglione circolare luminoso ufficiale sincronizzato con la respirazione.",
-      "Fluidità perfetta a 60 FPS sul tablet:",
-      "File 3D compresso da 18 MB a 4,4 MB.",
-      "Animazione ottimizzata con riduzione dell'85% dell'utilizzo CPU.",
-      "Texture PBR 1024x1024 ultra-leggera per zero cali di framerate nella WebView.",
-      "Reattività completa del veicolo: inclinazione in curva, beccheggio in frenata/accelerazione e illuminazione adattiva."
+      "Correzione inquadratura e posizionamento del modello 3D umanoide Vektra:",
+      "Corretta scala e orientamento del modello: l'androide ora appare in piedi rivolto verso il guidatore a figura intera (scala 0.68 e ancoraggio a terra Y = -1.15).",
+      "Risolto il problema di scala che rendeva il modello microscopico sotto il suolo.",
+      "Luminosità PBR e circuiti ciano: regolata metallicità (0.18) e rugosità (0.42) con luce di riempimento ottimizzata.",
+      "Medaglione toracico animato: cuore Vektra perfettamente agganciato con pulsazione sincronizzata alla respirazione.",
+      "Diagnostica console WebView: inoltro dei messaggi WebGL nei log Android."
     ],
     "de": [
-      "Realistisches artikuliertes 3D-Humanoid-Modell Vektra (Astra Lumen II):",
-      "Integration eines realistischen humanoiden Androiden-Begleitmodells mit vollständigem Skelett und sanfter Ruheatmung.",
-      "Athletische maskuline Brustpanzerung: Brustwölbung durch geometrische Modellierung flachgezogen für eine sportliche maskuline Brustplatte mit neu berechneten Normalen.",
-      "Elektrisches Cyanblau (#00E5FF): alle rosa/magenta Farbtöne in offizielles Vektra-Neoncyanblau an Rüstung, Gelenken und Optiken umgewandelt.",
-      "Pulsierendes Vektra-Brustemblem: offizielles leuchtendes Kernmedaillon auf der Brustplatte, synchron zur Atmung.",
-      "Perfekte 60 FPS Tablet-Flüssigkeit:",
-      "Dateigröße von 18 MB auf 4,4 MB reduziert.",
-      "Skelettanimation optimiert (85 % weniger CPU-Last).",
-      "Schnelle 1024x1024 PBR-Textur für sofortiges Laden ohne Ruckeln.",
-      "Vollständige Fahrzeugreaktivität: Neigung in Kurven, Nickbewegung beim Bremsen/Beschleunigen und dynamische Fahrmodusfarben."
+      "Korrektur von Skalierung, Ausrichtung & Platzierung des 3D-Modells:",
+      "Korrigierte Container-Transformation: Der humanoide Android steht nun aufrecht mit Blick zum Fahrer in sportlichen Proportionen (Skalierung 0.68, Bodenposition Y = -1.15).",
+      "Behebung des Skalierungsfehlers, der das Modell zuvor unter dem Boden versteckte.",
+      "PBR-Beleuchtung & Neon-Leuchtkraft: Angepasste Metallizität (0.18) und Rauheit (0.42) mit Aufhelllicht für brillante Rüstung und leuchtende cyanblaue Schaltkreise.",
+      "Atmendes Brustemblem: Vektra-Kernmedaillon auf Brusthöhe mit Neonpulsieren und Atembewegung.",
+      "WebView-Konsolenprotokolle: Weiterleitung von WebGL-Nachrichten an das Android-Systemprotokoll."
     ],
     "pt": [
-      "Modelo 3D humanoide realista articulado Vektra (Astra Lumen II):",
-      "Integração de um modelo realista de androide humanoide articulado com animação completa de respiração suave.",
-      "Peitoral masculino atlético: peito feminino completamente alisado com transição contínua para uma armadura peitoral atlética masculina com normais recalculadas.",
-      "Néons azul elétrico (#00E5FF): conversão integral de detalhes rosa/magenta para o azul ciano elétrico oficial da Vektra.",
-      "Medalhão peitoral Vektra: núcleo luminoso circular oficial montado na armadura e pulsando com a respiração.",
-      "Fluidez perfeita a 60 FPS no tablet:",
-      "Modelo reduzido de 18 MB para 4,4 MB.",
-      "Animação esquelética otimizada (redução de 85% do impacto na CPU).",
-      "Textura PBR 1024x1024 leve garantindo 60 FPS estáveis na WebView.",
-      "Reatividade total ao veículo: inclinação em curvas, arfagem em aceleração/travagem e iluminação dinâmica."
+      "Correção do enquadramento e escala do modelo 3D humanoide Vektra:",
+      "Ajuste de escala e orientação: o androide surge agora de pé virado para o condutor com proporções atléticas (escala 0.68 e chão em Y = -1.15).",
+      "Resolução do erro de escala que tornava o modelo microscópico debaixo do chão.",
+      "Iluminação PBR e circuitos ciano: metalicidade (0.18) e rugosidade (0.42) calibradas com luz de preenchimento.",
+      "Medalhão no peito animado: núcleo luminoso Vektra no busto com pulsação e respiração orgânica.",
+      "Registo de consola WebView: reencaminhamento de mensagens WebGL para os registos do sistema Android."
     ],
     "tr": [
-      "Gerçekçi Eklemli 3D İnsansı Vektra Modeli (Astra Lumen II):",
-      "Tam iskelet yapısına ve doğal nefes alma animasyonuna sahip gerçekçi insansı androide geçiş yapıldı.",
-      "Atletik Erkeksi Göğüs Zırhı: kadınsı göğüs çıkıntıları sürekli yüzey geometrisi ile düzleştirilerek erkeksi atletik göğüs zırhına dönüştürüldü ve yüzey normalleri yeniden hesaplandı.",
-      "Elektrik Mavisi / Camgöbeği Neonlar (#00E5FF): pembe detaylar Vektra'nın elektrik camgöbeği mavisine dönüştürüldü.",
-      "Işıklı Vektra Göğüs Madalyonu: zırha monte edilen resmi parlayan yuvarlak çekirdek nefes ritmiyle nabız gibi atar.",
-      "Tablette Kusursuz 60 FPS Akıcılığı:",
-      "3D dosya boyutu 18 MB'den 4.4 MB'ye düşürüldü.",
-      "İskelet animasyonu optimize edilerek işlemci yükü %85 azaltıldı.",
-      "1024x1024 PBR doku ile Android WebView üzerinde sıfır takılma ve anında yükleme sağlandı.",
-      "Tam Araç Dinamiği: virajlarda yatma, hızlanma ve frende öne/arkaya eğilme ve sürüş moduna göre renk değişimi."
+      "3D İnsansı Vektra Modelinin Ölçek ve Konumlandırma Düzeltmesi:",
+      "Kapsayıcı ölçeği ve yönü düzeltildi: İnsansı android artık sürücüye dönük ve tam boy atletik oranlarla görüntülenir (ölçek 0.68, zemin Y = -1.15).",
+      "Önceki sürümde modelin zemin altına mikroskobik olarak küçülmesine neden olan ölçekleme hatası giderildi.",
+      "PBR Aydınlatma ve Canlı Neon Devreler: Parlak zırh ve elektrik mavisi devreler için metaliklik (0.18) ve pürüzlülük (0.42) dengelendi, dolgu ışığı eklendi.",
+      "Hareketli Göğüs Madalyonu: Göğüs zırhında nefes ritmiyle atan ışıklı Vektra çekirdeği.",
+      "WebView Konsol Günlükleri: WebGL ve JS günlüklerinin Android sistem günlüğüne aktarılması sağlandı."
     ]
   }
 }

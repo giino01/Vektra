@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.11** · pubblicata il 28 ottobre 2026 · 45.7 MB
+**VERSIONE 1.9.12** · pubblicata il 28 ottobre 2026 · 45.7 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,18 +103,14 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.11
+## Novità della 1.9.12
 
-- Modello 3D androide realistico articolato Vektra (Astra Lumen II):
-- Integrazione del modello androide umanoide realistico articolato con animazione naturale di respirazione.
-- Pettorale maschile atletico: seno femminile appiattito con rimodellamento geometrico continuo per creare una corazza pettorale maschile atletica con normali ricalcolate.
-- LED e neon blu elettrico (#00E5FF): conversione totale di tutti i toni rosa in blu ciano elettrico Vektra.
-- Cuore Vektra sul torace: medaglione circolare luminoso ufficiale sincronizzato con la respirazione.
-- Fluidità perfetta a 60 FPS sul tablet:
-- File 3D compresso da 18 MB a 4,4 MB.
-- Animazione ottimizzata con riduzione dell'85% dell'utilizzo CPU.
-- Texture PBR 1024x1024 ultra-leggera per zero cali di framerate nella WebView.
-- Reattività completa del veicolo: inclinazione in curva, beccheggio in frenata/accelerazione e illuminazione adattiva.
+- Correzione inquadratura e posizionamento del modello 3D umanoide Vektra:
+- Corretta scala e orientamento del modello: l'androide ora appare in piedi rivolto verso il guidatore a figura intera (scala 0.68 e ancoraggio a terra Y = -1.15).
+- Risolto il problema di scala che rendeva il modello microscopico sotto il suolo.
+- Luminosità PBR e circuiti ciano: regolata metallicità (0.18) e rugosità (0.42) con luce di riempimento ottimizzata.
+- Medaglione toracico animato: cuore Vektra perfettamente agganciato con pulsazione sincronizzata alla respirazione.
+- Diagnostica console WebView: inoltro dei messaggi WebGL nei log Android.
 
 ---
 

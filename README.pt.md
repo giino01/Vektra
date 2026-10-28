@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.11** · publicada a 28 de outubro de 2026 · 45.7 MB
+**VERSÃO 1.9.12** · publicada a 28 de outubro de 2026 · 45.7 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.11.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.12.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,18 +103,14 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.11
+## Novidades da 1.9.12
 
-- Modelo 3D humanoide realista articulado Vektra (Astra Lumen II):
-- Integração de um modelo realista de androide humanoide articulado com animação completa de respiração suave.
-- Peitoral masculino atlético: peito feminino completamente alisado com transição contínua para uma armadura peitoral atlética masculina com normais recalculadas.
-- Néons azul elétrico (#00E5FF): conversão integral de detalhes rosa/magenta para o azul ciano elétrico oficial da Vektra.
-- Medalhão peitoral Vektra: núcleo luminoso circular oficial montado na armadura e pulsando com a respiração.
-- Fluidez perfeita a 60 FPS no tablet:
-- Modelo reduzido de 18 MB para 4,4 MB.
-- Animação esquelética otimizada (redução de 85% do impacto na CPU).
-- Textura PBR 1024x1024 leve garantindo 60 FPS estáveis na WebView.
-- Reatividade total ao veículo: inclinação em curvas, arfagem em aceleração/travagem e iluminação dinâmica.
+- Correção do enquadramento e escala do modelo 3D humanoide Vektra:
+- Ajuste de escala e orientação: o androide surge agora de pé virado para o condutor com proporções atléticas (escala 0.68 e chão em Y = -1.15).
+- Resolução do erro de escala que tornava o modelo microscópico debaixo do chão.
+- Iluminação PBR e circuitos ciano: metalicidade (0.18) e rugosidade (0.42) calibradas com luz de preenchimento.
+- Medalhão no peito animado: núcleo luminoso Vektra no busto com pulsação e respiração orgânica.
+- Registo de consola WebView: reencaminhamento de mensagens WebGL para os registos do sistema Android.
 
 ---
 
