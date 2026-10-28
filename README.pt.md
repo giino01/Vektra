@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.4** · publicada a 28 de outubro de 2026 · 43.3 MB
+**VERSÃO 1.9.5** · publicada a 28 de outubro de 2026 · 43.3 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.5.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.4
+## Novidades da 1.9.5
 
-- Mascote (tablet): o redimensionamento agora funciona: toque duplo na mascote, aparecem os botões − e +; outro toque duplo guarda o tamanho. O toque duplo também é mais tolerante.
+- Mascote em branco metalizado: a armadura do V‑bot passa do escuro para branco metalizado perolado em toda a aplicação (mascote 3D no tablet e widget no painel), mantendo a viseira e o emblema escuros para destacar os olhos e o logótipo luminosos.
 
 ---
 

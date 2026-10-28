@@ -1,28 +1,28 @@
 {
-  "version": "1.9.4",
-  "apk": "Vektra-1.9.4.apk",
-  "size": 45379327,
+  "version": "1.9.5",
+  "apk": "Vektra-1.9.5.apk",
+  "size": 45380011,
   "notes": [
-    "Mascotte (tablette) : le redimensionnement fonctionne enfin : fais un double appui sur la mascotte, les boutons − et + apparaissent ; un nouveau double appui enregistre la taille. Le double appui est aussi plus tolérant (un peu plus lent ou un peu décalé, ça passe)."
+    "Mascotte en blanc métallisé : l'habillage du V‑bot passe du sombre au blanc métallisé nacré dans toute l'application (mascotte 3D sur la tablette et widget mascotte sur le combiné), tout en conservant sa visière et son badge sombres pour faire ressortir les yeux et le logo lumineux."
   ],
   "notesByLang": {
     "fr": [
-      "Mascotte (tablette) : le redimensionnement fonctionne enfin : fais un double appui sur la mascotte, les boutons − et + apparaissent ; un nouveau double appui enregistre la taille. Le double appui est aussi plus tolérant (un peu plus lent ou un peu décalé, ça passe)."
+      "Mascotte en blanc métallisé : l'habillage du V‑bot passe du sombre au blanc métallisé nacré dans toute l'application (mascotte 3D sur la tablette et widget mascotte sur le combiné), tout en conservant sa visière et son badge sombres pour faire ressortir les yeux et le logo lumineux."
     ],
     "en": [
-      "Mascot (tablet): resizing now works: double-tap the mascot, the − and + buttons appear; double-tap again to save the size. Double-tap is also more forgiving (a bit slower or slightly off still counts)."
+      "Metallic white mascot: the V‑bot armor changes from dark to pearlescent metallic white across the entire app (3D tablet mascot and cluster mascot widget), keeping its dark visor and chest badge so the glowing eyes and logo stand out."
     ],
     "it": [
-      "Mascotte (tablet): il ridimensionamento ora funziona: doppio tocco sulla mascotte, compaiono i pulsanti − e +; un altro doppio tocco salva la dimensione. Il doppio tocco è anche più tollerante."
+      "Mascotte in bianco metallizzato: la livrea del V‑bot passa dallo scuro al bianco metallizzato perlato in tutta l'applicazione (mascotte 3D sul tablet e widget sul quadro), mantenendo la visiera e il badge scuri per far risaltare gli occhi e il logo luminosi."
     ],
     "de": [
-      "Maskottchen (Tablet): Größenänderung funktioniert jetzt: doppeltippen auf das Maskottchen, die Tasten − und + erscheinen; erneut doppeltippen speichert die Größe. Das Doppeltippen ist außerdem toleranter."
+      "Maskottchen in Metallic‑Weiß: das Gehäuse des V‑bot wechselt in der gesamten App von Dunkel auf perlmuttartiges Metallic‑Weiß (3D‑Maskottchen auf dem Tablet und Widget im Kombiinstrument), während das dunkle Visier und Brust‑Badge erhalten bleiben."
     ],
     "pt": [
-      "Mascote (tablet): o redimensionamento agora funciona: toque duplo na mascote, aparecem os botões − e +; outro toque duplo guarda o tamanho. O toque duplo também é mais tolerante."
+      "Mascote em branco metalizado: a armadura do V‑bot passa do escuro para branco metalizado perolado em toda a aplicação (mascote 3D no tablet e widget no painel), mantendo a viseira e o emblema escuros para destacar os olhos e o logótipo luminosos."
     ],
     "tr": [
-      "Maskot (tablet): boyutlandırma artık çalışıyor: maskota çift dokun, − ve + düğmeleri görünür; boyutu kaydetmek için tekrar çift dokun. Çift dokunma ayrıca daha toleranslı."
+      "Metalik beyaz maskot: V‑bot'un gövdesi tüm uygulamada koyu renkten sedefli metalik beyaza geçti (tabletteki 3B maskot ve göstergedeki widget); parlak gözlerin ve logonun öne çıkması için koyu vizör ve göğüs rozeti korundu."
     ]
   }
 }

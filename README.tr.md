@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.9.4** · yayın tarihi 28 Ekim 2026 · 43.3 MB
+**SÜRÜM 1.9.5** · yayın tarihi 28 Ekim 2026 · 43.3 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,9 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.9.4
+## Yenilikler: 1.9.5
 
-- Maskot (tablet): boyutlandırma artık çalışıyor: maskota çift dokun, − ve + düğmeleri görünür; boyutu kaydetmek için tekrar çift dokun. Çift dokunma ayrıca daha toleranslı.
+- Metalik beyaz maskot: V‑bot'un gövdesi tüm uygulamada koyu renkten sedefli metalik beyaza geçti (tabletteki 3B maskot ve göstergedeki widget); parlak gözlerin ve logonun öne çıkması için koyu vizör ve göğüs rozeti korundu.
 
 ---
 
