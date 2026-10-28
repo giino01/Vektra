@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.5** · publiée le 28 octobre 2026 · 43.3 Mo
+**VERSION 1.9.6** · publiée le 28 octobre 2026 · 43.3 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.5
+## Nouveautés de la 1.9.6
 
-- Mascotte en blanc métallisé : l'habillage du V‑bot passe du sombre au blanc métallisé nacré dans toute l'application (mascotte 3D sur la tablette et widget mascotte sur le combiné), tout en conservant sa visière et son badge sombres pour faire ressortir les yeux et le logo lumineux.
+- Mascotte intelligente & interactive (style J.A.R.V.I.S.) :
+- Interaction tactile (Tap simple) : toucher la mascotte déclenche un salut et un rapport complet des systèmes de bord (« Tous les systèmes sont opérationnels, Monsieur. Batterie à X %, température... »).
+- Animations & réactions dynamiques en direct : danse en rythme sur toute musique en cours de lecture (Spotify, Radio, Bluetooth...), se penche en arrière lors d'une forte accélération, bras tendus au freinage brusque, penche le buste dans les virages vifs, alerte visuelle et vocale si pression des pneus anormale, alerte batterie critique (< 15 %), alerte pollution extérieure (PM2.5 élevé), et protection contre la pluie/orage.
+- Voix J.A.R.V.I.S. : intonation plus grave, posée et protocolaire pour toutes les annonces de bord et de conduite.
 
 ---
 

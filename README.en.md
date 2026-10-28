@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.9.5** · released on 28 October 2026 · 43.3 MB
+**VERSION 1.9.6** · released on 28 October 2026 · 43.3 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.9.5
+## What is new in 1.9.6
 
-- Metallic white mascot: the V‑bot armor changes from dark to pearlescent metallic white across the entire app (3D tablet mascot and cluster mascot widget), keeping its dark visor and chest badge so the glowing eyes and logo stand out.
+- Smart & Interactive Mascot (J.A.R.V.I.S. style):
+- Touch interaction (Single tap): tapping the mascot triggers a salute and a full vehicle diagnostic report.
+- Real-time dynamic actions: dances to any music playing (Spotify, Radio, Bluetooth...), tilts back on hard acceleration, braces on hard braking, leans into sharp turns, warns on tyre pressure issues, low battery (<15%), poor air quality (PM2.5), and rain/storm.
+- J.A.R.V.I.S. voice tuning: lower pitch, calm and distinguished delivery for vehicle updates.
 
 ---
 

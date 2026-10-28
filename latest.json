@@ -1,28 +1,37 @@
 {
-  "version": "1.9.5",
-  "apk": "Vektra-1.9.5.apk",
-  "size": 45380011,
+  "version": "1.9.6",
+  "apk": "Vektra-1.9.6.apk",
+  "size": 45381335,
   "notes": [
-    "Mascotte en blanc métallisé : l'habillage du V‑bot passe du sombre au blanc métallisé nacré dans toute l'application (mascotte 3D sur la tablette et widget mascotte sur le combiné), tout en conservant sa visière et son badge sombres pour faire ressortir les yeux et le logo lumineux."
+    "Mascotte intelligente & interactive (style J.A.R.V.I.S.) :",
+    "Interaction tactile (Tap simple) : toucher la mascotte déclenche un salut et un rapport complet des systèmes de bord (« Tous les systèmes sont opérationnels, Monsieur. Batterie à X %, température... »).",
+    "Animations & réactions dynamiques en direct : danse en rythme sur toute musique en cours de lecture (Spotify, Radio, Bluetooth...), se penche en arrière lors d'une forte accélération, bras tendus au freinage brusque, penche le buste dans les virages vifs, alerte visuelle et vocale si pression des pneus anormale, alerte batterie critique (< 15 %), alerte pollution extérieure (PM2.5 élevé), et protection contre la pluie/orage.",
+    "Voix J.A.R.V.I.S. : intonation plus grave, posée et protocolaire pour toutes les annonces de bord et de conduite."
   ],
   "notesByLang": {
     "fr": [
-      "Mascotte en blanc métallisé : l'habillage du V‑bot passe du sombre au blanc métallisé nacré dans toute l'application (mascotte 3D sur la tablette et widget mascotte sur le combiné), tout en conservant sa visière et son badge sombres pour faire ressortir les yeux et le logo lumineux."
+      "Mascotte intelligente & interactive (style J.A.R.V.I.S.) :",
+      "Interaction tactile (Tap simple) : toucher la mascotte déclenche un salut et un rapport complet des systèmes de bord (« Tous les systèmes sont opérationnels, Monsieur. Batterie à X %, température... »).",
+      "Animations & réactions dynamiques en direct : danse en rythme sur toute musique en cours de lecture (Spotify, Radio, Bluetooth...), se penche en arrière lors d'une forte accélération, bras tendus au freinage brusque, penche le buste dans les virages vifs, alerte visuelle et vocale si pression des pneus anormale, alerte batterie critique (< 15 %), alerte pollution extérieure (PM2.5 élevé), et protection contre la pluie/orage.",
+      "Voix J.A.R.V.I.S. : intonation plus grave, posée et protocolaire pour toutes les annonces de bord et de conduite."
     ],
     "en": [
-      "Metallic white mascot: the V‑bot armor changes from dark to pearlescent metallic white across the entire app (3D tablet mascot and cluster mascot widget), keeping its dark visor and chest badge so the glowing eyes and logo stand out."
+      "Smart & Interactive Mascot (J.A.R.V.I.S. style):",
+      "Touch interaction (Single tap): tapping the mascot triggers a salute and a full vehicle diagnostic report.",
+      "Real-time dynamic actions: dances to any music playing (Spotify, Radio, Bluetooth...), tilts back on hard acceleration, braces on hard braking, leans into sharp turns, warns on tyre pressure issues, low battery (<15%), poor air quality (PM2.5), and rain/storm.",
+      "J.A.R.V.I.S. voice tuning: lower pitch, calm and distinguished delivery for vehicle updates."
     ],
     "it": [
-      "Mascotte in bianco metallizzato: la livrea del V‑bot passa dallo scuro al bianco metallizzato perlato in tutta l'applicazione (mascotte 3D sul tablet e widget sul quadro), mantenendo la visiera e il badge scuri per far risaltare gli occhi e il logo luminosi."
+      "Mascotte intelligente e interattiva (stile J.A.R.V.I.S.): interazione al tocco con rapporto diagnostico, reazioni dinamiche (musica, accelerazione, frenata, curve, pressione pneumatici, batteria bassa, aria inquinata, pioggia) e voce intonata calma e solenne."
     ],
     "de": [
-      "Maskottchen in Metallic‑Weiß: das Gehäuse des V‑bot wechselt in der gesamten App von Dunkel auf perlmuttartiges Metallic‑Weiß (3D‑Maskottchen auf dem Tablet und Widget im Kombiinstrument), während das dunkle Visier und Brust‑Badge erhalten bleiben."
+      "Intelligentes und interaktives Maskottchen (J.A.R.V.I.S.-Stil): Berührungsinteraktion mit Fahrzeugbericht, dynamische Reaktionen (Musik, Beschleunigung, Bremsen, Kurven, Reifendruck, niedrige Batterie, Luftqualität, Regen) und ruhige J.A.R.V.I.S.-Stimme."
     ],
     "pt": [
-      "Mascote em branco metalizado: a armadura do V‑bot passa do escuro para branco metalizado perolado em toda a aplicação (mascote 3D no tablet e widget no painel), mantendo a viseira e o emblema escuros para destacar os olhos e o logótipo luminosos."
+      "Mascote inteligente e interativa (estilo J.A.R.V.I.S.): interação por toque com relatório dos sistemas, reações dinâmicas (música, aceleração, travagem, curvas, pneus, bateria baixa, poluição, chuva) e voz estilo J.A.R.V.I.S."
     ],
     "tr": [
-      "Metalik beyaz maskot: V‑bot'un gövdesi tüm uygulamada koyu renkten sedefli metalik beyaza geçti (tabletteki 3B maskot ve göstergedeki widget); parlak gözlerin ve logonun öne çıkması için koyu vizör ve göğüs rozeti korundu."
+      "Akıllı ve etkileşimli maskot (J.A.R.V.I.S. tarzı): dokunmayla sistem raporu, gerçek zamanlı dinamik tepkiler (müzik, hızlanma, frenleme, virajlar, lastik basıncı, düşük batarya, hava kirliliği, yağmur) ve J.A.R.V.I.S. ses tonlaması."
     ]
   }
 }
