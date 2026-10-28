@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.9.9** · veröffentlicht am 28. Oktober 2026 · 43.3 MB
+**VERSION 1.9.10** · veröffentlicht am 28. Oktober 2026 · 43.4 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,15 +103,17 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.9.9
+## Neu in 1.9.10
 
-- Neues offizielles Design für vBot Vektra (gemäß 360°-Referenzmodell):
-- Athletische humanoide Silhouette: perlweiße Panzerplatten, dunkler mechanischer Anzug und cyanfarbene Neon-Lichtleisten.
-- Offizielles Vektra-Brustemblem: kreisrundes dunkles Medaillon mit leuchtendem Cyan-Ring und futuristischem « Vektra »-Schriftzug.
-- Aerodynamischer Helm (ohne Antenne): elegante glatte Helmschale mit seitlichen Ohr-Turbinen und konzentrischen Leuchtringen.
-- Panoramavisier & eckige LED-Optik: getöntes Visier mit abgeschrägten Cyan-LED-Augen für einen selbstbewussten Blick.
-- Schulter-Lichtringe & Rückenreaktor: seitliche Cyan-Ringe an den Schulterkappen und runder Reaktor auf dem Rücken.
-- Perfekt synchronisiert: identisches Erscheinungsbild im 3D-WebGL-Modell und im 2D-Vektor-Widget des Kombiinstruments.
+- Echte männliche J.A.R.V.I.S.-Stimme (100 % männlich & ruhig):
+- Vollständige Beseitigung der weiblichen Stimme für das Profil « Mann · J.A.R.V.I.S. ».
+- 100 % lokale Sprachsynthese auf dem Tablet über Android TTS mit Auswahl echter Männerstimmen.
+- J.A.R.V.I.S.-Akustikabstimmung: tiefe Tonhöhe (0.72f) und gemessenes Tempo (0.96f).
+- Automatische Bereinigung alter weiblicher MP3-Dateien.
+- Horizontale Brustemblem-Schrift:
+- Der Schriftzug « Vektra » auf dem 3D-Medaillon ist nun perfekt waagerecht von links nach rechts ausgerichtet.
+- Tanz-Animation entfernt:
+- vBot tanzt bei Musikwiedergabe nicht mehr und bleibt im Kombiinstrument und im schwebenden Overlay ruhig.
 
 ---
 

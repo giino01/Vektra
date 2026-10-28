@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.9** · publicada a 28 de outubro de 2026 · 43.3 MB
+**VERSÃO 1.9.10** · publicada a 28 de outubro de 2026 · 43.4 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,15 +103,17 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.9
+## Novidades da 1.9.10
 
-- Novo design oficial do vBot Vektra (conforme modelo de referência 360°):
-- Silhueta humanoide atlética: armadura esculpida em branco pérola, fato mecânico escuro e linhas de luz néon ciano.
-- Núcleo de peito oficial Vektra: medalhão circular escuro com anel néon ciano brilhante e tipografia futurista « Vektra ».
-- Capacete aerodinâmico sem antena: cúpula superior elegante e turbinas auriculares laterais com anéis concêntricos iluminados.
-- Viseira panorâmica e olhos LED angulares: viseira fumada com óticas LED ciano biseladas e olhar confiante.
-- Anéis néon nos ombros e reator dorsal: anéis laterais nos ombros e reator circular nas costas.
-- Sincronizado em toda a aplicação: aplicado tanto no modelo 3D WebGL (ecrã central) como no widget vetorial 2D do painel.
+- Verdadeira voz masculina J.A.R.V.I.S. (100% masculina e serena):
+- Eliminação definitiva da voz feminina no perfil Homem.
+- Síntese vocal 100% local no tablet através do motor Android TTS com seleção de vozes masculinas.
+- Calibração de assinatura J.A.R.V.I.S.: tom grave (pitch 0.72f) e ritmo pausado (0.96f).
+- Limpeza automática de antigos ficheiros MP3 femininos.
+- Tipografia horizontal no peito:
+- O texto « Vektra » no medalhão 3D central surge agora perfeitamente alinhado na horizontal da esquerda para a direita.
+- Remoção da dança musical:
+- O vBot já não dança quando ouve música, mantendo-se calmo e focado na condução.
 
 ---
 

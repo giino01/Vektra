@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.9** · publiée le 28 octobre 2026 · 43.3 Mo
+**VERSION 1.9.10** · publiée le 28 octobre 2026 · 43.4 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,16 +103,17 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.9
+## Nouveautés de la 1.9.10
 
-- Nouveau design officiel vBot Vektra (conforme au modèle de référence 360°) :
-- Silhouette humanoïde athlétique : armure blanche nacrée sculptée, sous-combinaison sombre et coutures lumineuses néon cyan le long des flancs et des membres.
-- Cœur de torse officiel Vektra : médaillon circulaire sombre avec anneau néon cyan éclatant et typographie futuriste « Vektra ».
-- Casque aérodynamique épuré (sans antenne) : dôme supérieur profilé et turbines auriculaires latérales gauche/droite avec anneaux concentriques lumineux.
-- Visière panoramique & optiques LED angulaires : visière fumée et optiques LED biseautées au regard assuré et technologique, adaptées à toutes les poses et humeurs.
-- Anneaux néon d'épaules et réacteur dorsal : anneaux cyan latéraux sur les épaulettes et réacteur circulaire au dos.
-- Bottes athlétiques et semelles lumineuses : semelles profilées soulignées d'un liseré néon cyan.
-- Rendu synchronisé partout : appliqué à l'identique dans le modèle 3D WebGL (tablette) et dans le dessin vectoriel 2D optimisé du widget combiné.
+- Véritable voix d'Homme J.A.R.V.I.S. (100 % masculine et posée) :
+- Élimination définitive de la voix de femme pour le profil Homme.
+- Synthèse vocale 100 % locale sur la tablette via le moteur Android TTS avec sélection des voix masculines réelles.
+- Calibrage acoustique signature J.A.R.V.I.S. : tonalité grave (pitch 0.72f) et débit mesuré (speed 0.96f) pour un timbre d'intelligence artificielle sophistiqué.
+- Purge automatique des anciens fichiers MP3 féminins stockés dans le dossier Homme.
+- Torse vBot Vektra : typographie horizontale :
+- Le nom « Vektra » sur le médaillon central 3D est désormais orienté parfaitement à l'horizontale, centré et lisible de gauche à droite.
+- Suppression de l'animation de danse :
+- Retrait complet de la danse et des notes de musique lors de la lecture audio : vBot reste désormais calme, sobre et concentré sur la conduite dans le widget combiné et sur l'overlay flottant.
 
 ---
 

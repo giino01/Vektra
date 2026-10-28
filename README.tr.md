@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 1.9.9** · yayın tarihi 28 Ekim 2026 · 43.3 MB
+**SÜRÜM 1.9.10** · yayın tarihi 28 Ekim 2026 · 43.4 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-1.9.10.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,15 +103,17 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 1.9.9
+## Yenilikler: 1.9.10
 
-- Yeni resmi vBot Vektra tasarımı (360° referans modeline tam uyumlu):
-- Atletik insansı robot silueti: sedef beyazı zırh plakaları, koyu mekanik alt giysi ve yanlarda dikey camgöbeği (cyan) neon ışık hatları.
-- Resmi Vektra göğüs çekirdeği: parlak neon halkalı koyu dairesel madalyon ve fütüristik « Vektra » yazısı.
-- Antensiz aerodinamik kask: pürüzsüz kavisli kask yapısı ve her iki yanda eşmerkezli ışıklı halkalara sahip kulak türbinleri.
-- Panoramik koyu vizör ve açılı LED gözler: karartılmış vizör içinde kendinden emin ve keskin bakışlı açılı LED ışıklar.
-- Omuz neon halkaları ve sırt reaktörü: omuz kapaklarında dairesel ışık halkaları ve sırtta dairesel güç reaktörü.
-- Tüm ekranlarda senkronize: hem 3D WebGL modelinde hem de gösterge paneli 2D vektörel widget'ında birebir aynı görünüm.
+- Gerçek Erkek J.A.R.V.I.S. Sesi (%100 erkeksi ve sakin):
+- Erkek profilindeki kadın sesi sorunu kalıcı olarak giderildi.
+- Android TTS ile cihaz üzerinde %100 yerel ses sentezi ve gerçek erkek ses seçimi.
+- J.A.R.V.I.S. kalibrasyonu: tok ve derin ses (pitch 0.72f) ile ölçülü konuşma hızı (0.96f).
+- Erkek klasöründeki eski kadın MP3 dosyalarının otomatik temizlenmesi.
+- Göğüs madalyonunda yatay Vektra yazısı:
+- 3D göğüs madalyonundaki « Vektra » yazısı tamamen yatay ve soldan sağa düzgün okunur şekilde düzeltildi.
+- Dans animasyonu kaldırıldı:
+- Müzik çalarken dans etme hareketi kaldırıldı: vBot hem kadranda hem yüzen pencerede sakin kalır.
 
 ---
 
