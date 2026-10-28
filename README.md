@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.0** · publiée le 28 octobre 2026 · 43.1 Mo
+**VERSION 1.9.1** · publiée le 28 octobre 2026 · 43.3 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.0
+## Nouveautés de la 1.9.1
 
-- Position ET taille mémorisées pour le widget flottant et la mascotte : au redémarrage de la voiture (ou en les désactivant puis réactivant), ils reviennent là où tu les avais mis, à la taille réglée.
-- Taille sans limite au pincement à 2 doigts, et tout s'adapte (y compris le texte du tiroir du widget flottant).
-- Déplacement et pincement plus fluides (moins de saccades).
-- Flèche du widget flottant repositionnée sur le bord droit, comme la démo.
-- Intro de projection portée à 3,5 secondes.
+- Mascotte en VRAI 3D (V2) : le V‑bot est désormais un vrai modèle 3D (rendu temps réel, embarqué dans l'app donc hors‑ligne). Il remplace l'ancienne version. Il change de pose/humeur selon la conduite (bonjour, Éco, Sport, froid, charge, dodo quand la voiture dort…).
+- La mascotte parle : bienvenue, verglas, charge… en réutilisant les voix déjà téléchargées pour la navigation. Activable/désactivable (réglage « Voix de la mascotte »).
+- Déplacement & taille repensés en « édition photo » pour le widget flottant ET la mascotte : une poignée pour déplacer (en haut à gauche) et une poignée pour redimensionner (en bas à droite) — simple et précis, fini le pincement capricieux. Position et taille conservées.
 
 ---
 

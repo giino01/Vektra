@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.0** · pubblicata il 28 ottobre 2026 · 43.1 MB
+**VERSIONE 1.9.1** · pubblicata il 28 ottobre 2026 · 43.3 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.0
+## Novità della 1.9.1
 
-- Posizione E dimensione ora memorizzate per il widget mobile e la mascotte: al riavvio dell'auto (o disattivandoli e riattivandoli) tornano dove li avevi messi, alla dimensione impostata.
-- Nessun limite di dimensione con il pizzico a due dita, e tutto si adatta (incluso il testo del cassetto del widget).
-- Spostamento e pizzico più fluidi.
-- Freccia del widget mobile spostata sul bordo destro, come nella demo.
-- Intro della proiezione portata a 3,5 secondi.
+- Mascotte in VERO 3D (V2): il V‑bot è ora un vero modello 3D (in tempo reale, incluso nell'app quindi offline). Sostituisce la vecchia versione e cambia posa/umore con la guida (ciao, Eco, Sport, freddo, ricarica, dorme a auto spenta…).
+- La mascotte parla: benvenuto, ghiaccio, ricarica… riutilizzando le voci già scaricate per la navigazione. Attivabile/disattivabile (“Voce della mascotte”).
+- Spostamento e dimensione in stile “editor foto” per il widget mobile E la mascotte: una maniglia per spostare (in alto a sinistra) e una per ridimensionare (in basso a destra) — semplice e preciso, niente più pizzico. Posizione e dimensione mantenute.
 
 ---
 

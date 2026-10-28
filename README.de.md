@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.9.0** · veröffentlicht am 28. Oktober 2026 · 43.1 MB
+**VERSION 1.9.1** · veröffentlicht am 28. Oktober 2026 · 43.3 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.9.0
+## Neu in 1.9.1
 
-- Position UND Größe werden jetzt gemerkt für das schwebende Widget und das Maskottchen: nach einem Fahrzeugneustart (oder nach Aus- und Einschalten) kommen sie dorthin zurück, wo du sie gelassen hast, in der eingestellten Größe.
-- Keine Größenbegrenzung beim Zwei‑Finger‑Zoom, und alles skaliert mit (auch der Schubladentext des Widgets).
-- Flüssigeres Verschieben und Skalieren.
-- Pfeil des schwebenden Widgets an den rechten Rand verschoben, wie in der Demo.
-- Projektions‑Intro auf 3,5 Sekunden verlängert.
+- Maskottchen in ECHTEM 3D (V2): der V‑bot ist jetzt ein echtes 3D‑Modell (in Echtzeit, in der App enthalten, also offline). Es ersetzt die alte Version und ändert Pose/Stimmung je nach Fahrweise (Hallo, Eco, Sport, Kälte, Laden, schläft bei ausgeschaltetem Auto…).
+- Das Maskottchen spricht: Willkommen, Glätte, Laden… und nutzt dabei die bereits für die Navigation geladenen Stimmen. Ein-/ausschaltbar („Maskottchen‑Stimme“).
+- Verschieben & Skalieren im Fotoeditor‑Stil für das schwebende Widget UND das Maskottchen: ein Griff zum Verschieben (oben links) und einer zum Skalieren (unten rechts) — einfach und präzise, kein hakeliges Zoomen mehr. Position und Größe bleiben erhalten.
 
 ---
 
