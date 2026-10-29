@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.8** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.9** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.8
+## Nouveautés de la 2.0.9
 
-- Contournement des restrictions microphone BYD DiLink via AppOps ADB & Service standard :
-- Suppression du conflit FOREGROUND_SERVICE_MICROPHONE : élimination du type de service qui était révoqué d'office par la ROM DiLink et mutait le microphone. Retour au FOREGROUND_SERVICE standard autorisé.
-- Déverrouillage permanent du micro via AppOps ADB : injection automatisée des autorisations RECORD_AUDIO, OP_RECORD_AUDIO et code d'opération 27 (appops set et cmd appops set) pour un accès continu sans interruption ni boîte de dialogue.
-- Auto-rétablissement résilient du flux audio (CarAudioEngine) : boucle de reconnexion automatique en cas de coupure du flux audio par le système ou de démarrage différé d'ADB.
-- Maintien de la priorité premier plan : la mascotte Three.js / widget flottant assure l'immunité contre la mise en sommeil par le gestionnaire d'énergie BYD.
+- Contrôles ADAS directs dans le widget flottant (Boutons OFF & ON) :
+- Bouton OFF (Masquer ADAS) : exécute instantanément la séquence complète de masquage graphique ADAS (263 trames SPI DashCast) directement depuis le tiroir du widget flottant.
+- Bouton ON (Afficher ADAS) : relance le service de combiné et restaure l'affichage d'origine du cadre ADAS d'un seul geste.
+- Design compact et intégré : deux mini-touches tactiles parfaitement dimensionnées à droite du libellé « ADAS », respectant strictement la structure et le redimensionnement du widget.
 
 ---
 

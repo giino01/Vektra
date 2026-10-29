@@ -1,56 +1,49 @@
 {
-  "version": "2.0.8",
-  "apk": "Vektra-2.0.8.apk",
-  "size": 48124492,
+  "version": "2.0.9",
+  "apk": "Vektra-2.0.9.apk",
+  "size": 48129776,
   "notes": [
-    "Contournement des restrictions microphone BYD DiLink via AppOps ADB & Service standard :",
-    "Suppression du conflit FOREGROUND_SERVICE_MICROPHONE : élimination du type de service qui était révoqué d'office par la ROM DiLink et mutait le microphone. Retour au FOREGROUND_SERVICE standard autorisé.",
-    "Déverrouillage permanent du micro via AppOps ADB : injection automatisée des autorisations RECORD_AUDIO, OP_RECORD_AUDIO et code d'opération 27 (appops set et cmd appops set) pour un accès continu sans interruption ni boîte de dialogue.",
-    "Auto-rétablissement résilient du flux audio (CarAudioEngine) : boucle de reconnexion automatique en cas de coupure du flux audio par le système ou de démarrage différé d'ADB.",
-    "Maintien de la priorité premier plan : la mascotte Three.js / widget flottant assure l'immunité contre la mise en sommeil par le gestionnaire d'énergie BYD."
+    "Contrôles ADAS directs dans le widget flottant (Boutons OFF & ON) :",
+    "Bouton OFF (Masquer ADAS) : exécute instantanément la séquence complète de masquage graphique ADAS (263 trames SPI DashCast) directement depuis le tiroir du widget flottant.",
+    "Bouton ON (Afficher ADAS) : relance le service de combiné et restaure l'affichage d'origine du cadre ADAS d'un seul geste.",
+    "Design compact et intégré : deux mini-touches tactiles parfaitement dimensionnées à droite du libellé « ADAS », respectant strictement la structure et le redimensionnement du widget."
   ],
   "notesByLang": {
     "fr": [
-      "Contournement des restrictions microphone BYD DiLink via AppOps ADB & Service standard :",
-      "Suppression du conflit FOREGROUND_SERVICE_MICROPHONE : élimination du type de service qui était révoqué d'office par la ROM DiLink et mutait le microphone. Retour au FOREGROUND_SERVICE standard autorisé.",
-      "Déverrouillage permanent du micro via AppOps ADB : injection automatisée des autorisations RECORD_AUDIO, OP_RECORD_AUDIO et code d'opération 27 (appops set et cmd appops set) pour un accès continu sans interruption ni boîte de dialogue.",
-      "Auto-rétablissement résilient du flux audio (CarAudioEngine) : boucle de reconnexion automatique en cas de coupure du flux audio par le système ou de démarrage différé d'ADB.",
-      "Maintien de la priorité premier plan : la mascotte Three.js / widget flottant assure l'immunité contre la mise en sommeil par le gestionnaire d'énergie BYD."
+      "Contrôles ADAS directs dans le widget flottant (Boutons OFF & ON) :",
+      "Bouton OFF (Masquer ADAS) : exécute instantanément la séquence complète de masquage graphique ADAS (263 trames SPI DashCast) directement depuis le tiroir du widget flottant.",
+      "Bouton ON (Afficher ADAS) : relance le service de combiné et restaure l'affichage d'origine du cadre ADAS d'un seul geste.",
+      "Design compact et intégré : deux mini-touches tactiles parfaitement dimensionnées à droite du libellé « ADAS », respectant strictement la structure et le redimensionnement du widget."
     ],
     "en": [
-      "BYD DiLink Microphone Bypass via ADB AppOps & Standard Foreground Service:",
-      "Removed FOREGROUND_SERVICE_MICROPHONE Conflict: eliminated the restricted service type that caused DiLink OS to revoke microphone access and mute the audio stream. Reverted to standard granted FOREGROUND_SERVICE.",
-      "Permanent AppOps Microphone Unlock: automated ADB injection of RECORD_AUDIO, OP_RECORD_AUDIO, and operation code 27 via local socket for uninterrupted hands-free listening.",
-      "Resilient Audio Stream Auto-Recovery (CarAudioEngine): self-healing recording loop automatically reconnects the microphone stream if interrupted by the car OS or during boot timing.",
-      "Foreground Window Priority: floating 3D mascot / widget maintains active window status to prevent battery-saver mic muting."
+      "Direct ADAS Controls in Floating Widget (OFF & ON Buttons):",
+      "OFF Button (Hide ADAS): triggers the complete DashCast ADAS frame-hiding sequence (263 SPI frames) directly from the floating widget drawer.",
+      "ON Button (Show ADAS): restarts the cluster debug service and restores the original ADAS frame layout with one tap.",
+      "Compact & Seamless Layout: two perfectly sized touch buttons positioned right next to the \"ADAS\" label without modifying widget structure."
     ],
     "it": [
-      "Bypass delle restrizioni microfono BYD DiLink tramite AppOps ADB e Servizio Standard:",
-      "Risoluzione del conflitto FOREGROUND_SERVICE_MICROPHONE: rimossa la dichiarazione revocata da DiLink che silenziava l'audio. Ripristinato il normale FOREGROUND_SERVICE autorizzato.",
-      "Sblocco continuo del microfono via AppOps ADB: assegnazione automatica di RECORD_AUDIO, OP_RECORD_AUDIO e opcode 27 per un ascolto vocale fluido e continuo.",
-      "Riconnessione automatica resiliente (CarAudioEngine): riavvio automatico della cattura microfonica in caso di interruzione temporanea del sistema.",
-      "Priorità di primo piano: la mascotte Three.js / widget mantiene la visibilità evitando lo standby del microfono."
+      "Controlli ADAS diretti nel widget mobile (Pulsanti OFF & ON):",
+      "Pulsante OFF (Nascondi ADAS): esegue istantaneamente la sequenza di mascheramento ADAS (263 frame SPI DashCast) dal cassetto del widget.",
+      "Pulsante ON (Mostra ADAS): ripristina la visualizzazione originale del quadro ADAS con un tocco.",
+      "Design compatto e integrato: pulsanti perfettamente adattati a destra dell'etichetta « ADAS » senza alterare la struttura del widget."
     ],
     "de": [
-      "BYD DiLink Mikrofon-Bypass über ADB AppOps & Standard-Vordergrunddienst:",
-      "FOREGROUND_SERVICE_MICROPHONE-Konflikt behoben: Beseitigung des vom DiLink-Betriebssystem blockierten Servicetyps, der die Audioaufnahme stummschaltete. Rückkehr zum standardmäßig gewährten FOREGROUND_SERVICE.",
-      "Dauerhafte Mikrofonfreigabe via AppOps ADB: automatische Vergabe von RECORD_AUDIO, OP_RECORD_AUDIO und Opcode 27 für lückenlose freihändige Spracherkennung.",
-      "Ausfallsichere automatische Audiowiederherstellung (CarAudioEngine): automatische Reinitialisierung des Mikrofon-Streams bei temporären Systemunterbrechungen.",
-      "Vordergrund-Fensterpriorität: schwebendes 3D-Widget / Maskottchen sichert dauerhafte Audioaktivität gegen Energiesparmodi."
+      "Direkte ADAS-Steuerung im schwebenden Widget (OFF- & ON-Tasten):",
+      "OFF-Taste (ADAS ausblenden): führt die vollständige 263-SPI-Frames-Maskierungssequenz direkt aus der Widget-Schublade aus.",
+      "ON-Taste (ADAS anzeigen): stellt den ursprünglichen ADAS-Rahmen auf dem Kombiinstrument sofort wieder her.",
+      "Kompaktes Design: zwei präzise angepasste Schaltflächen rechts neben « ADAS », die sich nahtlos in die bestehende Widget-Größe einfügen."
     ],
     "pt": [
-      "Desbloqueio do microfone BYD DiLink via AppOps ADB e Serviço Padrão:",
-      "Resolução do conflito FOREGROUND_SERVICE_MICROPHONE: remoção do tipo de serviço que era revogado pelo DiLink e silenciava a captura de voz. Regresso ao FOREGROUND_SERVICE padrão autorizado.",
-      "Permissão contínua de microfone via AppOps ADB: injeção automática de RECORD_AUDIO, OP_RECORD_AUDIO e opcode 27 para escuta contínua sem botões.",
-      "Recuperação automática resiliente do áudio (CarAudioEngine): reconexão contínua em caso de reinicialização do fluxo pelo sistema do veículo.",
-      "Prioridade de primeiro plano: mascote / widget flutuante garante imunidade contra suspensão de energia."
+      "Controlos ADAS diretos no widget flutuante (Botões OFF & ON):",
+      "Botão OFF (Ocultar ADAS): executa a sequência completa de ocultação do quadro ADAS (263 tramas SPI DashCast) a partir da gaveta do widget.",
+      "Botão ON (Mostrar ADAS): restaura a apresentação original do ADAS no painel de instrumentos com um simples toque.",
+      "Design compacto e integrado: dois botões táteis perfeitamente integrados à direita da etiqueta « ADAS » sem alterar a estrutura do widget."
     ],
     "tr": [
-      "ADB AppOps ve Standart Ön Plan Servisi ile BYD DiLink Mikrofon Kısıtlaması Aşımı:",
-      "FOREGROUND_SERVICE_MICROPHONE Çakışmasının Giderilmesi: DiLink işletim sistemi tarafından iptal edilen ve mikrofonu sessize alan kısıtlı servis tipi kaldırılarak standart FOREGROUND_SERVICE yapısına dönüldü.",
-      "ADB AppOps ile Kalıcı Mikrofon Erişimi: kesintisiz eller serbest dinleme için yerel ADB üzerinden RECORD_AUDIO, OP_RECORD_AUDIO ve 27 numaralı op kodu otomatik tanımlandı.",
-      "Dirençli Otomatik Ses Akışı Kurtarma (CarAudioEngine): sistem kesintilerinde veya açılış gecikmelerinde mikrofon kaydını otomatik olarak yeniden başlatan akıllı döngü.",
-      "Ön Plan Pencere Önceliği: 3D maskot / kayan widget sayesinde sistemin mikrofonu uykuya alması önlenir."
+      "Kayan Widget Üzerinde Doğrudan ADAS Kontrolleri (OFF ve ON Butonları):",
+      "OFF Butonu (ADAS Gizle): 263 SPI çerçeveli DashCast ADAS gizleme dizisini doğrudan kayan widget çekmecesinden tetikler.",
+      "ON Butonu (ADAS Göster): tek dokunuşla gösterge panelindeki orijinal ADAS çerçevesini geri yükler.",
+      "Kompakt ve Uyumlu Tasarım: widget yapısını bozmadan « ADAS » etiketinin hemen sağına yerleştirilmiş iki mini dokunmatik buton."
     ]
   }
 }

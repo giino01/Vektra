@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.0.8** · pubblicata il 29 ottobre 2026 · 45.9 MB
+**VERSIONE 2.0.9** · pubblicata il 29 ottobre 2026 · 45.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.0.8
+## Novità della 2.0.9
 
-- Bypass delle restrizioni microfono BYD DiLink tramite AppOps ADB e Servizio Standard:
-- Risoluzione del conflitto FOREGROUND_SERVICE_MICROPHONE: rimossa la dichiarazione revocata da DiLink che silenziava l'audio. Ripristinato il normale FOREGROUND_SERVICE autorizzato.
-- Sblocco continuo del microfono via AppOps ADB: assegnazione automatica di RECORD_AUDIO, OP_RECORD_AUDIO e opcode 27 per un ascolto vocale fluido e continuo.
-- Riconnessione automatica resiliente (CarAudioEngine): riavvio automatico della cattura microfonica in caso di interruzione temporanea del sistema.
-- Priorità di primo piano: la mascotte Three.js / widget mantiene la visibilità evitando lo standby del microfono.
+- Controlli ADAS diretti nel widget mobile (Pulsanti OFF & ON):
+- Pulsante OFF (Nascondi ADAS): esegue istantaneamente la sequenza di mascheramento ADAS (263 frame SPI DashCast) dal cassetto del widget.
+- Pulsante ON (Mostra ADAS): ripristina la visualizzazione originale del quadro ADAS con un tocco.
+- Design compatto e integrato: pulsanti perfettamente adattati a destra dell'etichetta « ADAS » senza alterare la struttura del widget.
 
 ---
 

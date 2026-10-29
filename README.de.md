@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.8** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
+**VERSION 2.0.9** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.9.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.8
+## Neu in 2.0.9
 
-- BYD DiLink Mikrofon-Bypass über ADB AppOps & Standard-Vordergrunddienst:
-- FOREGROUND_SERVICE_MICROPHONE-Konflikt behoben: Beseitigung des vom DiLink-Betriebssystem blockierten Servicetyps, der die Audioaufnahme stummschaltete. Rückkehr zum standardmäßig gewährten FOREGROUND_SERVICE.
-- Dauerhafte Mikrofonfreigabe via AppOps ADB: automatische Vergabe von RECORD_AUDIO, OP_RECORD_AUDIO und Opcode 27 für lückenlose freihändige Spracherkennung.
-- Ausfallsichere automatische Audiowiederherstellung (CarAudioEngine): automatische Reinitialisierung des Mikrofon-Streams bei temporären Systemunterbrechungen.
-- Vordergrund-Fensterpriorität: schwebendes 3D-Widget / Maskottchen sichert dauerhafte Audioaktivität gegen Energiesparmodi.
+- Direkte ADAS-Steuerung im schwebenden Widget (OFF- & ON-Tasten):
+- OFF-Taste (ADAS ausblenden): führt die vollständige 263-SPI-Frames-Maskierungssequenz direkt aus der Widget-Schublade aus.
+- ON-Taste (ADAS anzeigen): stellt den ursprünglichen ADAS-Rahmen auf dem Kombiinstrument sofort wieder her.
+- Kompaktes Design: zwei präzise angepasste Schaltflächen rechts neben « ADAS », die sich nahtlos in die bestehende Widget-Größe einfügen.
 
 ---
 

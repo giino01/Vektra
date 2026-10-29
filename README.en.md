@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.8** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.9** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.8
+## What is new in 2.0.9
 
-- BYD DiLink Microphone Bypass via ADB AppOps & Standard Foreground Service:
-- Removed FOREGROUND_SERVICE_MICROPHONE Conflict: eliminated the restricted service type that caused DiLink OS to revoke microphone access and mute the audio stream. Reverted to standard granted FOREGROUND_SERVICE.
-- Permanent AppOps Microphone Unlock: automated ADB injection of RECORD_AUDIO, OP_RECORD_AUDIO, and operation code 27 via local socket for uninterrupted hands-free listening.
-- Resilient Audio Stream Auto-Recovery (CarAudioEngine): self-healing recording loop automatically reconnects the microphone stream if interrupted by the car OS or during boot timing.
-- Foreground Window Priority: floating 3D mascot / widget maintains active window status to prevent battery-saver mic muting.
+- Direct ADAS Controls in Floating Widget (OFF & ON Buttons):
+- OFF Button (Hide ADAS): triggers the complete DashCast ADAS frame-hiding sequence (263 SPI frames) directly from the floating widget drawer.
+- ON Button (Show ADAS): restarts the cluster debug service and restores the original ADAS frame layout with one tap.
+- Compact & Seamless Layout: two perfectly sized touch buttons positioned right next to the "ADAS" label without modifying widget structure.
 
 ---
 
