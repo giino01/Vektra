@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.4** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
+**VERSION 2.0.5** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.4
+## Neu in 2.0.5
 
-- Härtung des Groq-Netzwerk-Stacks & Standardisierte mobile Header:
-- Robuster binärer HTTP-Stream: exakte Übertragungslänge via setFixedLengthStreamingMode zur Vermeidung von Chunked-Encoding-Problemen.
-- Standardisierter User-Agent: volle Kompatibilität mit Cloudflare- und API-Gateways.
-- Erweiterte Timeouts: auf 12s Verbindungs- und 15s Lesezeit für 4G-Mobilnetze erhöht.
-- Transparente Fehlerdiagnose: präzise Angabe des HTTP-Statuscodes bei Netzwerkproblemen.
+- Dauerhafte Behebung des Groq-404-Fehlers & Dynamische Modellerkennung:
+- Dynamische Modellerkennung: Live-Abfrage via /openai/v1/models ermittelt die tatsächlich freigeschalteten Chat-Modelle des Benutzerkontos und beseitigt 404-Fehler durch veraltete Modell-IDs.
+- Optimale Modellauswahl & Caching: automatische Bevorzugung des besten Modells (Llama 3.3 70B, Llama 3.1 8B, Mixtral usw.) mit lokaler Speicherung für blitzschnelle Reaktionszeiten.
+- Robuste Multi-Modell-Ausweichkette: nahtloser automatischer Wechsel zwischen Kandidaten bei Überlastung einzelner Inferenz-Cluster.
+- Transparente Modellanzeige: der aktive Modellname wird im vBot-Tab direkt neben dem Bestätigungs-Badge angezeigt.
+- Präzise Fehlerdiagnose: detaillierte Sprach- und Protokollmeldungen mit genauer Ursachenangabe des Servers.
 
 ---
 

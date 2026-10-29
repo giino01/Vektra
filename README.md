@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.4** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.5** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.4
+## Nouveautés de la 2.0.5
 
-- Renforcement de la pile réseau Groq & En-têtes mobiles standardisés :
-- Flux réseau HTTP robuste (Streaming binaire fixe) : envoi des requêtes avec taille de flux exacte (setFixedLengthStreamingMode) évitant le découpage en tronçons (chunked encoding) parfois rejeté par les passerelles mobiles.
-- En-tête User-Agent standardisé : compatibilité totale avec les passerelles Cloudflare et serveurs d'API.
-- Tolérance réseau accrue : timeouts étendus à 12 et 15 secondes pour les réseaux mobiles et connexions 4G.
-- Diagnostic d'erreur transparent : précision du code d'erreur HTTP en cas d'incident pour identifier immédiatement la source du blocage.
+- Résolution définitive de l'erreur 404 Groq & Découverte dynamique de modèles :
+- Découverte automatique des modèles actifs : interrogation à chaud de l'API Groq (/openai/v1/models) pour identifier en direct les modèles autorisés et actifs sur le compte de l'utilisateur (évite toute indisposition liée aux identifiants de modèles renommés ou dépréciés).
+- Sélection optimale & mise en cache : détection automatique du meilleur modèle disponible (Llama 3.3 70B en tête, suivi de Llama 3.1 8B, Mixtral ou équivalent) mémorisé localement pour des temps de réponse instantanés.
+- Cascade de repli multi-candidats : basculement de secours transparent et sans interruption entre modèles en cas d'indisponibilité temporaire d'un cluster d'inférence.
+- Affichage transparent du modèle : le nom du modèle actif est désormais affiché en clair dans l'onglet vBot à côté du badge de validation.
+- Diagnostic d'erreur précis : messages vocaux explicites rapportant la cause exacte renvoyée par le serveur en cas de rejet.
 
 ---
 

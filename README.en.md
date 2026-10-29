@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.4** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.5** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.4
+## What is new in 2.0.5
 
-- Groq Network Stack Hardening & Standardized Mobile Headers:
-- Robust HTTP Binary Streaming: exact payload length enforcement via setFixedLengthStreamingMode preventing chunked encoding rejections on mobile gateways.
-- Standardized User-Agent: full compatibility across Cloudflare edge routers and API servers.
-- Extended Timeouts: increased to 12s connect and 15s read for optimal mobile 4G tolerance.
-- Transparent Error Diagnostics: explicit HTTP status code reporting in case of any network incident.
+- Permanent Fix for Groq 404 Error & Dynamic Model Discovery:
+- Dynamic Model Discovery: live discovery via /openai/v1/models automatically resolves available, active chat models on the user's account, eliminating 404 errors caused by deprecated or renamed model IDs.
+- Optimal Model Selection & Caching: automatically prioritizes the highest-tier active LLM (Llama 3.3 70B, Llama 3.1 8B, Mixtral, etc.) and caches it locally for ultra-fast response times.
+- Multi-Candidate Resilient Failover: seamless sequential failover between active models ensures uninterrupted conversation if any specific cluster is unreachable.
+- Transparent Model Badge: active model name is now displayed directly on the vBot settings badge upon validation.
+- Enhanced Diagnostics: voice feedback and logs report precise server explanations in case of upstream API rejections.
 
 ---
 

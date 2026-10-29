@@ -1,56 +1,63 @@
 {
-  "version": "2.0.4",
-  "apk": "Vektra-2.0.4.apk",
-  "size": 48104048,
+  "version": "2.0.5",
+  "apk": "Vektra-2.0.5.apk",
+  "size": 48114256,
   "notes": [
-    "Renforcement de la pile réseau Groq & En-têtes mobiles standardisés :",
-    "Flux réseau HTTP robuste (Streaming binaire fixe) : envoi des requêtes avec taille de flux exacte (setFixedLengthStreamingMode) évitant le découpage en tronçons (chunked encoding) parfois rejeté par les passerelles mobiles.",
-    "En-tête User-Agent standardisé : compatibilité totale avec les passerelles Cloudflare et serveurs d'API.",
-    "Tolérance réseau accrue : timeouts étendus à 12 et 15 secondes pour les réseaux mobiles et connexions 4G.",
-    "Diagnostic d'erreur transparent : précision du code d'erreur HTTP en cas d'incident pour identifier immédiatement la source du blocage."
+    "Résolution définitive de l'erreur 404 Groq & Découverte dynamique de modèles :",
+    "Découverte automatique des modèles actifs : interrogation à chaud de l'API Groq (/openai/v1/models) pour identifier en direct les modèles autorisés et actifs sur le compte de l'utilisateur (évite toute indisposition liée aux identifiants de modèles renommés ou dépréciés).",
+    "Sélection optimale & mise en cache : détection automatique du meilleur modèle disponible (Llama 3.3 70B en tête, suivi de Llama 3.1 8B, Mixtral ou équivalent) mémorisé localement pour des temps de réponse instantanés.",
+    "Cascade de repli multi-candidats : basculement de secours transparent et sans interruption entre modèles en cas d'indisponibilité temporaire d'un cluster d'inférence.",
+    "Affichage transparent du modèle : le nom du modèle actif est désormais affiché en clair dans l'onglet vBot à côté du badge de validation.",
+    "Diagnostic d'erreur précis : messages vocaux explicites rapportant la cause exacte renvoyée par le serveur en cas de rejet."
   ],
   "notesByLang": {
     "fr": [
-      "Renforcement de la pile réseau Groq & En-têtes mobiles standardisés :",
-      "Flux réseau HTTP robuste (Streaming binaire fixe) : envoi des requêtes avec taille de flux exacte (setFixedLengthStreamingMode) évitant le découpage en tronçons (chunked encoding) parfois rejeté par les passerelles mobiles.",
-      "En-tête User-Agent standardisé : compatibilité totale avec les passerelles Cloudflare et serveurs d'API.",
-      "Tolérance réseau accrue : timeouts étendus à 12 et 15 secondes pour les réseaux mobiles et connexions 4G.",
-      "Diagnostic d'erreur transparent : précision du code d'erreur HTTP en cas d'incident pour identifier immédiatement la source du blocage."
+      "Résolution définitive de l'erreur 404 Groq & Découverte dynamique de modèles :",
+      "Découverte automatique des modèles actifs : interrogation à chaud de l'API Groq (/openai/v1/models) pour identifier en direct les modèles autorisés et actifs sur le compte de l'utilisateur (évite toute indisposition liée aux identifiants de modèles renommés ou dépréciés).",
+      "Sélection optimale & mise en cache : détection automatique du meilleur modèle disponible (Llama 3.3 70B en tête, suivi de Llama 3.1 8B, Mixtral ou équivalent) mémorisé localement pour des temps de réponse instantanés.",
+      "Cascade de repli multi-candidats : basculement de secours transparent et sans interruption entre modèles en cas d'indisponibilité temporaire d'un cluster d'inférence.",
+      "Affichage transparent du modèle : le nom du modèle actif est désormais affiché en clair dans l'onglet vBot à côté du badge de validation.",
+      "Diagnostic d'erreur précis : messages vocaux explicites rapportant la cause exacte renvoyée par le serveur en cas de rejet."
     ],
     "en": [
-      "Groq Network Stack Hardening & Standardized Mobile Headers:",
-      "Robust HTTP Binary Streaming: exact payload length enforcement via setFixedLengthStreamingMode preventing chunked encoding rejections on mobile gateways.",
-      "Standardized User-Agent: full compatibility across Cloudflare edge routers and API servers.",
-      "Extended Timeouts: increased to 12s connect and 15s read for optimal mobile 4G tolerance.",
-      "Transparent Error Diagnostics: explicit HTTP status code reporting in case of any network incident."
+      "Permanent Fix for Groq 404 Error & Dynamic Model Discovery:",
+      "Dynamic Model Discovery: live discovery via /openai/v1/models automatically resolves available, active chat models on the user's account, eliminating 404 errors caused by deprecated or renamed model IDs.",
+      "Optimal Model Selection & Caching: automatically prioritizes the highest-tier active LLM (Llama 3.3 70B, Llama 3.1 8B, Mixtral, etc.) and caches it locally for ultra-fast response times.",
+      "Multi-Candidate Resilient Failover: seamless sequential failover between active models ensures uninterrupted conversation if any specific cluster is unreachable.",
+      "Transparent Model Badge: active model name is now displayed directly on the vBot settings badge upon validation.",
+      "Enhanced Diagnostics: voice feedback and logs report precise server explanations in case of upstream API rejections."
     ],
     "it": [
-      "Rafforzamento della rete Groq & Intestazioni mobili standardizzate:",
-      "Streaming binario HTTP robusto: dimensione esatta del payload con setFixedLengthStreamingMode per evitare blocchi sui gateway mobili.",
-      "User-Agent standardizzato: massima compatibilità con Cloudflare e server API.",
-      "Timeout estesi: elevati a 12s connessione e 15s lettura per connessioni 4G lente.",
-      "Diagnostica trasparente: indicazione esatta del codice di errore HTTP in caso di anomalia."
+      "Risoluzione definitiva dell'errore 404 Groq & Scoperta dinamica dei modelli:",
+      "Scoperta dinamica dei modelli attivi: interrogazione in tempo reale di /openai/v1/models per identificare i modelli consentiti sull'account dell'utente, risolvendo definitivamente l'errore 404 da modelli ritirati o rinominati.",
+      "Selezione ottimale & memorizzazione locale: scelta automatica del miglior modello disponibile (Llama 3.3 70B, Llama 3.1 8B, Mixtral) salvato per risposte istantanee.",
+      "Failover resiliente multi-candidato: passaggio automatico e continuo ad altri modelli in caso di indisponibilità temporanea.",
+      "Visualizzazione trasparente del modello: il modello attivo viene mostrato direttamente accanto al badge nelle impostazioni vBot.",
+      "Diagnostica avanzata: messaggi vocali e registri precisi sulla causa esatta restituita dal server."
     ],
     "de": [
-      "Härtung des Groq-Netzwerk-Stacks & Standardisierte mobile Header:",
-      "Robuster binärer HTTP-Stream: exakte Übertragungslänge via setFixedLengthStreamingMode zur Vermeidung von Chunked-Encoding-Problemen.",
-      "Standardisierter User-Agent: volle Kompatibilität mit Cloudflare- und API-Gateways.",
-      "Erweiterte Timeouts: auf 12s Verbindungs- und 15s Lesezeit für 4G-Mobilnetze erhöht.",
-      "Transparente Fehlerdiagnose: präzise Angabe des HTTP-Statuscodes bei Netzwerkproblemen."
+      "Dauerhafte Behebung des Groq-404-Fehlers & Dynamische Modellerkennung:",
+      "Dynamische Modellerkennung: Live-Abfrage via /openai/v1/models ermittelt die tatsächlich freigeschalteten Chat-Modelle des Benutzerkontos und beseitigt 404-Fehler durch veraltete Modell-IDs.",
+      "Optimale Modellauswahl & Caching: automatische Bevorzugung des besten Modells (Llama 3.3 70B, Llama 3.1 8B, Mixtral usw.) mit lokaler Speicherung für blitzschnelle Reaktionszeiten.",
+      "Robuste Multi-Modell-Ausweichkette: nahtloser automatischer Wechsel zwischen Kandidaten bei Überlastung einzelner Inferenz-Cluster.",
+      "Transparente Modellanzeige: der aktive Modellname wird im vBot-Tab direkt neben dem Bestätigungs-Badge angezeigt.",
+      "Präzise Fehlerdiagnose: detaillierte Sprach- und Protokollmeldungen mit genauer Ursachenangabe des Servers."
     ],
     "pt": [
-      "Reforço da pilha de rede Groq & Cabeçalhos móveis padronizados:",
-      "Transmissão binária HTTP robusta: definição exata do tamanho via setFixedLengthStreamingMode evitando bloqueios de rede móvel.",
-      "User-Agent padronizado: total compatibilidade com Cloudflare e servidores de API.",
-      "Timeouts alargados: aumentados para 12s de ligação e 15s de leitura para redes 4G.",
-      "Diagnóstico transparente: indicação explícita do código HTTP em caso de falha."
+      "Resolução definitiva do erro 404 Groq & Descoberta dinâmica de modelos:",
+      "Descoberta dinâmica de modelos ativos: consulta em tempo real a /openai/v1/models para identificar os modelos disponíveis na conta do utilizador, eliminando o erro 404 devido a identificadores obsoletos.",
+      "Seleção ideal & memorização local: seleção automática do melhor modelo (Llama 3.3 70B, Llama 3.1 8B, Mixtral) armazenado localmente para respostas instantâneas.",
+      "Alternância resiliente multi-candidatos: transição transparente e contínua entre modelos em caso de indisponibilidade de um cluster.",
+      "Exibição transparente do modelo: o nome do modelo ativo é agora apresentado nas definições do vBot junto ao crachá de validação.",
+      "Diagnóstico preciso: feedback por voz com relato da causa exata devolvida pela API."
     ],
     "tr": [
-      "Groq Ağ Yığını Güçlendirmesi ve Standart Mobil Başlıklar:",
-      "Sağlam HTTP İkili Akışı: mobil ağlarda parça parça kodlama sorunlarını önlemek için setFixedLengthStreamingMode ile kesin yük boyutu belirleme.",
-      "Standart Kullanıcı Aracısı: Cloudflare ve API sunucuları ile tam uyumluluk.",
-      "Genişletilmiş Zaman Aşımları: 4G mobil ağlar için 12 saniye bağlantı ve 15 saniye okuma süresi.",
-      "Şeffaf Hata Tanılama: olası ağ sorunlarında açık HTTP durum kodu bildirimi."
+      "Groq 404 Hatasının Kesin Çözümü ve Dinamik Model Keşfi:",
+      "Dinamik Model Keşfi: kullanıcının hesabındaki aktif modelleri doğrudan /openai/v1/models üzerinden sorgulayarak eski veya yeniden adlandırılmış model kimliklerinden kaynaklanan 404 hatasını tamamen ortadan kaldırır.",
+      "Optimum Model Seçimi ve Önbellekleme: mevcut en yüksek performanslı modeli (Llama 3.3 70B, Llama 3.1 8B, Mixtral vb.) otomatik seçer ve anında yanıt için yerel olarak saklar.",
+      "Çoklu Aday Yedekleme Zinciri: herhangi bir sunucu kümesinde kesinti olması durumunda alternatif modellere kesintisiz geçiş sağlar.",
+      "Şeffaf Model Göstergesi: aktif model adı artık vBot sekmesinde doğrulama rozetinin yanında açıkça gösterilir.",
+      "Ayrıntılı Hata Bildirimi: API reddi durumunda sunucunun ilettiği kesin nedeni sesli ve günlük olarak raporlar."
     ]
   }
 }

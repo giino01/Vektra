@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.0.4** · pubblicata il 29 ottobre 2026 · 45.9 MB
+**VERSIONE 2.0.5** · pubblicata il 29 ottobre 2026 · 45.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.0.4
+## Novità della 2.0.5
 
-- Rafforzamento della rete Groq & Intestazioni mobili standardizzate:
-- Streaming binario HTTP robusto: dimensione esatta del payload con setFixedLengthStreamingMode per evitare blocchi sui gateway mobili.
-- User-Agent standardizzato: massima compatibilità con Cloudflare e server API.
-- Timeout estesi: elevati a 12s connessione e 15s lettura per connessioni 4G lente.
-- Diagnostica trasparente: indicazione esatta del codice di errore HTTP in caso di anomalia.
+- Risoluzione definitiva dell'errore 404 Groq & Scoperta dinamica dei modelli:
+- Scoperta dinamica dei modelli attivi: interrogazione in tempo reale di /openai/v1/models per identificare i modelli consentiti sull'account dell'utente, risolvendo definitivamente l'errore 404 da modelli ritirati o rinominati.
+- Selezione ottimale & memorizzazione locale: scelta automatica del miglior modello disponibile (Llama 3.3 70B, Llama 3.1 8B, Mixtral) salvato per risposte istantanee.
+- Failover resiliente multi-candidato: passaggio automatico e continuo ad altri modelli in caso di indisponibilità temporanea.
+- Visualizzazione trasparente del modello: il modello attivo viene mostrato direttamente accanto al badge nelle impostazioni vBot.
+- Diagnostica avanzata: messaggi vocali e registri precisi sulla causa esatta restituita dal server.
 
 ---
 
