@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.0.6** · publicada a 29 de outubro de 2026 · 45.9 MB
+**VERSÃO 2.0.7** · publicada a 29 de outubro de 2026 · 45.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,17 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.0.6
+## Novidades da 2.0.7
 
-- Eliminação da voz lenta & Elocução natural e dinâmica (Homem & Mulher):
-- Cadência acelerada e espontânea (1.15x): sem voz arrastada; o assistente fala agora com o ritmo fluido e natural de um diálogo humano.
-- Tom natural (Pitch otimizado): calibrado em 0.94 (homem) e 1.04 (mulher), eliminando distorções de áudio no Android.
-- Resposta imediata (Silêncio 600ms): tempo de espera reduzido após o fim da fala.
-- Escuta ativa autónoma no veículo (BYD DiLink & Segundo plano):
-- Bypass do SpeechRecognizer OEM da BYD: contorna o serviço nativo bloqueado da BYD, ativando diretamente o CarAudioEngine (PCM 16 kHz + Groq Whisper).
-- Fonte de áudio direta da cabine: AudioSource.DEFAULT e MIC para captação limpa no microfone de teto.
-- Microfone contínuo em segundo plano: serviço com FOREGROUND_SERVICE_MICROPHONE e permissões ADB para escuta constante sobre o GPS.
-- Reconhecimento fonético amplo: suporte robusto a variações (« Vektra », « Vectra », « Vector »).
+- Ativação 100% mãos livres por voz & Calibração acústica de cabine BYD (Sem botões):
+- Eliminação do limite rígido de VAD: removido o piso estático de 600 RMS. O limiar adapta-se agora dinamicamente ao ruído de fundo real do automóvel.
+- Pré-amplificação digital PCM (Ganho 2.5x): compensação da distância do microfone de teto para uma transcrição precisa pelo Whisper sem esforço vocal.
+- Compatibilidade multi-frequência Qualcomm DiLink (16 kHz / 48 kHz): suporte universal com decimação automática 3:1 a 48 kHz.
+- Despertar vocal puro: ativação imediata chamando « Vektra » sem tocar no volante nem no ecrã.
 
 ---
 

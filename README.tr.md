@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.0.6** · yayın tarihi 29 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.0.7** · yayın tarihi 29 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,17 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.0.6
+## Yenilikler: 2.0.7
 
-- Yavaş Konuşmanın Giderilmesi ve Doğal Dinamik Ses (Erkek & Kadın):
-- Hızlandırılmış Dinamik Tempo (1.15x): ağır konuşma sona erdi; asistan artık gerçek bir insan gibi akıcı ve doğal konuşuyor.
-- Doğal Ses Tonu (Optimize Edilmiş Perde): erkek için 0.94 ve kadın için 1.04 perde ayarı ile uzayan ses efektleri tamamen kaldırıldı.
-- Hızlı Tepki (600ms Sessizlik): cümle sonu algılama süresi kısaltılarak bekleme süresi ortadan kaldırıldı.
-- Araç İçinde Otonom Mikrofon Dinleme (BYD DiLink ve Arka Plan):
-- BYD OEM SpeechRecognizer Atlatma: kilitli fabrika ses motoru baypas edilerek bağımsız CarAudioEngine (16 kHz PCM + Groq Whisper) devreye sokuldu.
-- Doğrudan Tavan Mikrofonu Kaynağı: araç içi tavan mikrofonunu yakalamak için DEFAULT ve MIC ses kaynakları önceliklendirildi.
-- Arka Planda Kesintisiz Dinleme: navigasyon ve diğer uygulamaların üzerinde sürekli dinleme için FOREGROUND_SERVICE_MICROPHONE entegre edildi.
-- Genişletilmiş Fonetik Uyandırma: (« Vektra », « Vectra », « Vector », « Vektor ») telaffuz varyasyonları desteklendi.
+- %100 Eller Serbest Sesle Uyandırma ve BYD Kabin Akustik Kalibrasyonu (Düğmesiz):
+- Sabit VAD Eşik Değerinin Kaldırılması: tavan mikrofonunu engelleyen 600 RMS taban eşiği kaldırılarak ortam gürültüsüne tam uyarlamalı dinamik algılama sağlandı.
+- PCM Dijital Ön Amplifikasyon (2.5x Kazanç): tavan mikrofonunun mesafesini telafi ederek sesinizi yükseltmeden Whisper tarafından net algılanmasını sağlar.
+- Evrensel Qualcomm DiLink Çoklu Frekans Desteği (16 kHz / 48 kHz): 48 kHz donanımlarda 3:1 otomatik örnekleme ile tam uyumluluk.
+- Doğrudan Sesle Tetikleme: herhangi bir düğmeye basmadan sürücü koltuğundan yalnızca "Vektra" diyerek anında uyandırma.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.6** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.7** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.6
+## Nouveautés de la 2.0.7
 
-- Suppression du ralenti vocal & Élocution naturelle vive (Homme & Femme) :
-- Cadence dynamique accélérée (1.15x) : fini la voix au ralenti, l'assistant parle désormais avec le rythme vif, fluide et naturel d'une véritable conversation humaine.
-- Timbre et hauteur naturels (Pitch optimisé) : pitch calibré à 0.94 pour la voix homme et 1.04 pour la voix femme, éliminant totalement l'effet de distorsion traînante sur Android.
-- Réactivité accrue (Silence 600ms) : détection resserrée de la fin de phrase pour supprimer les temps d'attente superflus.
-- Écoute active autonome dans la voiture (BYD DiLink & Tâche de fond) :
-- Bypass du SpeechRecognizer OEM BYD : contournement direct du service vocal constructeur verrouillé sur la tablette BYD, au profit exclusif de notre moteur autonome CarAudioEngine (AudioRecord direct 16 kHz Mono PCM + Whisper LPU).
-- Source audio habitacle directe : sélection de AudioSource.DEFAULT et MIC (validées par OverDrive et DashVoice) garantissant la capture nette du microphone de plafonnier sans filtrage DSP OEM.
-- Écoute continue en arrière-plan : service de premier plan configuré avec FOREGROUND_SERVICE_MICROPHONE et permissions ADB automatiques pour écouter en continu par-dessus Waze, Maps et Spotify.
-- Tolérance phonétique de réveil : prise en compte élargie des variantes de transcription Whisper (« Vektra », « Vectra », « Vector », « Vektor », « Vekta »).
+- Réveil 100% vocal mains libres & Calibrage acoustique habitacle BYD (Sans aucun bouton) :
+- Suppression du plancher rigide de détection VAD : élimination du seuil fixe à 600 RMS qui ignorait la voix du conducteur à 1 mètre du plafonnier. Le seuil est désormais 100% relatif et calibré en temps réel sur le bruit de fond réel de la voiture.
+- Pré-amplification logicielle PCM (Gain numérique 2.5x) : compensation directe de l'atténuation physique du micro de toit BYD. Le flux audio envoyé à Whisper est net, puissant et parfaitement intelligible sans hausser la voix.
+- Multi-fréquence native Qualcomm Snapdragon (16 kHz / 48 kHz) : compatibilité universelle avec le pilote audio DiLink, avec décimation matérielle 3:1 automatique en 48 kHz.
+- Détection ultra-sensible au mot « Vektra » : réveil instantané purement à la voix depuis le siège conducteur, sans jamais avoir à toucher le volant ni l'écran.
 
 ---
 

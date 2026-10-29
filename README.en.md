@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.6** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.7** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.6
+## What is new in 2.0.7
 
-- Eliminated Voice Slow-Motion & Natural Dynamic Cadence (Male & Female) :
-- Accelerated Conversational Pace (1.15x): no more sluggish speech; the assistant now responds with the lively, smooth, and natural cadence of a real human dialogue.
-- Natural Pitch Formatting: optimized pitch (0.94 male, 1.04 female) eliminates Android TTS time-stretching and drawling sound.
-- Snappy Responsiveness (600ms Silence): reduced speech-end silence detection threshold removes awkward waiting pauses.
-- Autonomous In-Cabin Voice Capture (BYD DiLink & Background Mic) :
-- BYD OEM SpeechRecognizer Bypass: directly bypasses the car's locked system speech recognizer on DiLink, activating the standalone CarAudioEngine (16 kHz Mono PCM + Groq Whisper LPU).
-- Direct Cabin Audio Routing: prioritized AudioSource.DEFAULT and MIC (proven in OverDrive and DashVoice) directly feeding from the interior roof microphone without OEM DSP muting.
-- Persistent Background Microphone: foreground service enabled with FOREGROUND_SERVICE_MICROPHONE and automated ADB AppOps grants to keep listening over navigation apps.
-- Expanded Phonetic Wake-Word Matching: robust transcription matching for variants ("Vektra", "Vectra", "Vector", "Vektor", "Vekta").
+- 100% Hands-Free Voice Wake-Up & In-Cabin Acoustic Calibration (Zero Buttons Required):
+- Removed Rigid VAD Noise Floor: eliminated the legacy 600 RMS hard floor that ignored driver speech captured from the ceiling mic 1 meter away. Gating is now 100% dynamic and adapts in real time to the car's ambient noise.
+- PCM Digital Pre-Amp (2.5x Gain Boost): compensates for interior roof microphone distance. Audio streams delivered to Whisper are crisp and easily transcribed without needing to raise your voice.
+- Universal Qualcomm DiLink Multi-Rate Support (16 kHz / 48 kHz): automatic fallback with 3:1 integer decimation ensures smooth audio capture across all Snapdragon head unit variants.
+- Instant Hotword Trigger: purely voice-activated "Vektra" wake-up from the driver's seat with zero physical button interaction.
 
 ---
 

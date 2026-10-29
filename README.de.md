@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.6** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
+**VERSION 2.0.7** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.6
+## Neu in 2.0.7
 
-- Beseitigung der verlangsamten Stimme & Natürliche dynamische Aussprache (Mann & Frau):
-- Beschleunigtes Sprechtempo (1.15x): kein träges Sprechen mehr; vBot antwortet flüssig und lebendig wie ein menschlicher Beifahrer.
-- Natürliche Tonhöhe (Optimierter Pitch): Pitch auf 0.94 (männlich) und 1.04 (weiblich) eingestellt, wodurch Verzerrungen und Dehnungen vermieden werden.
-- Blitzschnelle Reaktion (600ms Stille): verkürzte Sprechendepause für ansatzlose Dialoge.
-- Autonome Sprachaufnahme im Fahrzeug (BYD DiLink & Hintergrund):
-- Bypass des gesperrten BYD-OEM-SpeechRecognizers: umgeht den herstellereigenen Spracherkennungsdienst zugunsten von CarAudioEngine (16 kHz Mono PCM + Groq Whisper).
-- Direkte Mikrofonquelle: priorisiert DEFAULT und MIC für ungefilterte Aufnahme über das Dachmikrofon.
-- Dauerhafte Hintergrundaufnahme: FOREGROUND_SERVICE_MICROPHONE hält das Mikrofon über Navigations-Apps aktiv.
-- Erweiterte phonetische Aktivierung: robuste Erkennung von (« Vektra », « Vectra », « Vector » usw.).
+- 100 % freihändige Sprachaktivierung & Akustische Innenraumkalibrierung (Ohne Tasten):
+- Beseitigung starrer VAD-Schwellenwerte: die feste Grenze von 600 RMS wurde entfernt. Die Schwelle passt sich nun dynamisch an das reale Hintergrundgeräusch des Fahrzeugs an.
+- Digitale PCM-Vorverstärkung (2.5x Gain): gleicht die Distanz zum Deckenmikrofon aus, sodass Whisper die Stimme klar und deutlich ohne Rufen erfasst.
+- Qualcomm Snapdragon Mehrfrequenz-Unterstützung (16 kHz / 48 kHz): nahtlose automatische 3:1-Dezimierung für alle DiLink-Hardwaregenerationen.
+- Reine Sprachaktivierung: sofortiges Aufwecken mit « Vektra » direkt vom Fahrersitz ohne Tastendruck.
 
 ---
 
