@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 1.9.13** · veröffentlicht am 28. Oktober 2026 · 45.8 MB
+**VERSION 2.0.0** · veröffentlicht am 29. Oktober 2026 · 45.8 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 1.9.13
+## Neu in 2.0.0
 
-- Exakte Vektra-Farbpalette der offiziellen Modelltafel:
-- Mattes Karbonschwarz: Vollständiger Ersatz des Cyanblaus auf Unteranzug, Hals, Flanken und Gelenken durch tiefes Karbonschwarz (#10141E).
-- Königsblaue elektrische Neonstreifen (#0077FF bis #0088FF): Leuchtende Ziernähte an Beinen und Armen, Augenoptik und Ohrenturbinen im intensiven elektrischen Blau.
-- Perlweißes Rüstungsdesign: Reine weiße Rüstungsplatten mit silbernen Akzenten.
-- Schlichte Brustpanzerung: Entfernung des kreisförmigen Vektra-Logos auf der Brust für eine athletische Panzeroptik.
-- Harmonisierte Beleuchtung: Bodenhalo und Umgebungslicht auf elektrisches Blau umgestellt.
+- Intelligenter Sprachassistent vBot Vektra & Groq KI-Integration (Llama 3.3):
+- Sofortige Rufantwort („Ja, mein Herr?“): verzögerungsfreie Rückmeldung mit Ihrem konfigurierten Anrufenamen.
+- Sprachgesteuerter Standby & Aufwecken: Sagen Sie „Vektra, geh in den Standby“ für absolute Ruhe; „Vektra, wach auf“ zur Reaktivierung.
+- Fahrzeugsteuerung per Sprache: Klima, Fahrmodi (Sport, Eco, Normal), Display-Themen und Telemetriedaten.
+- Kostenlose KI-Unterhaltung mit Groq: Natürliche Gespräche mit 500 Wörtern pro Sekunde.
+- Keine störenden Fahrwarnungen mehr: Wiederholte Brems- und Beschleunigungsansagen vollständig entfernt.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 1.9.13** · publiée le 28 octobre 2026 · 45.8 Mo
+**VERSION 2.0.0** · publiée le 29 octobre 2026 · 45.8 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,16 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 1.9.13
+## Nouveautés de la 2.0.0
 
-- Palette de couleurs exacte de la planche officielle Vektra :
-- Sous-combinaison noir carbone mat : élimination intégrale du cyan sur la sous-combinaison, le cou, les flancs, l'abdomen et les jointures, remplacé par un noir carbone profond (#10141E) fidèle à la photo.
-- Liserés et optiques bleu électrique royal (#0077FF à #0088FF) : les coutures lumineuses des jambes et des bras, les optiques de la visière et les turbines d'oreilles s'illuminent désormais du véritable bleu électrique néon intense de la planche de référence.
-- Armure blanc nacré immaculé : plaques pectorales, d'épaules et jambières en blanc pur et reflets métalliques argentés.
-- Plastron épuré : retrait du médaillon circulaire avec logo « Vektra » sur la poitrine pour mettre en valeur les lignes athlétiques planes de l'armure.
-- Éclairage d'ambiance harmonisé : passage du halo au sol et des reflets lumineux au bleu électrique signature.
+- Assistant vocal intelligent vBot Vektra & Intégration Groq IA (Llama 3.3) :
+- Interpellation instantanée (« Oui, Monsieur ? ») : réponse immédiate sans latence réseau personnalisée selon votre nom d'appel ([Prefs.vbotCallName]).
+- Mise en veille vocale et réveil sécurisé : dites « Vektra, mets-toi en veille » pour couper l'écoute et éviter les déclenchements accidentels en discutant ; dites « Vektra, réveille-toi » pour réactiver vBot.
+- Commandes du véhicule à la voix : climatisation au demi-degré, modes de conduite (Sport, Éco, Normal), thèmes du combiné (Carbone 3D, Aston, VektraUI), télémétrie de bord (batterie, autonomie, pneus) et contrôle multimédia.
+- Conversation libre illimitée avec Groq (100% gratuit) : connectez votre clé Groq gratuite pour discuter de tout et de rien naturellement à 500 mots/seconde.
+- Mode hors-ligne cinématique : en l'absence de réseau 4G, les commandes de bord restent actives et vBot annonce poliment l'état de la connexion.
+- Suppression des alertes vocales intempestives : élimination des annonces répétitives lors des freinages et accélérations pour un habitacle calme et silencieux.
+- Refonte de l'onglet vBot : suppression des téléchargements de packs vocaux, choix de voix épuré (Homme ou Femme), bouton d'accès direct à la console Groq et guide complet d'utilisation.
 
 ---
 

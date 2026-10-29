@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 1.9.13** · pubblicata il 28 ottobre 2026 · 45.8 MB
+**VERSIONE 2.0.0** · pubblicata il 29 ottobre 2026 · 45.8 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 1.9.13
+## Novità della 2.0.0
 
-- Palette colori esatta della tavola ufficiale Vektra:
-- Sotto-tuta nero carbonio opaco: eliminato totalmente il ciano su sotto-tuta, fianchi e articolazioni, sostituito con nero carbonio profondo (#10141E).
-- Profili LED blu elettrico (#0077FF - #0088FF): cuciture luminose, ottiche visiera e turbine auricolari nel blu elettrico intenso della foto ufficiale.
-- Armatura bianco perlato: placche toraciche e gambali bianchi con riflessi metallici.
-- Torace pulito: rimosso il medaglione circolare con logo Vektra sul petto per valorizzare la corazza pettorale atletica.
-- Illuminazione coordinata: alone a terra e luci ambientali impostati sul blu elettrico.
+- Assistente vocale intelligente vBot Vektra & Integrazione Groq IA (Llama 3.3):
+- Risposta istantanea alla chiamata ("Sì, signore?"): riscontro immediato a latenza zero personalizzato col tuo nome.
+- Standby e risveglio vocale: dì "Vektra, vai in standby" per silenziare l'ascolto durante le conversazioni; dì "Vektra, svegliati" per riattivarlo.
+- Controllo vocale dell'auto: climatizzazione, modalità di guida (Sport, Eco, Normal), temi cruscotto e telemetria pneumatici/batteria.
+- Conversazione libera gratuita con Groq: risposte istantanee a 500 parole/secondo per parlare di ogni argomento.
+- Guida silenziosa: rimosse le notifiche vocali ripetitive in frenata e accelerazione.
 
 ---
 

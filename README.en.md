@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 1.9.13** · released on 28 October 2026 · 45.8 MB
+**VERSION 2.0.0** · released on 29 October 2026 · 45.8 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,16 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 1.9.13
+## What is new in 2.0.0
 
-- Exact Official Vektra Color Palette from Reference Sheet:
-- Matte Carbon Black Undersuit: completely replaced all cyan on the undersuit, neck, flanks, abdomen, and joints with deep midnight carbon black (#10141E) matching the official character sheet.
-- Royal Electric Blue Neon Trim (#0077FF to #0088FF): leg and arm light seams, visor eye optics, and ear turbine rings now shine in rich electric neon blue.
-- Pristine Pearl White Armor: bright white chest, shoulder, and leg armor plates with sleek silver bevels.
-- Clean Chest Armor: removed the circular "Vektra" chest badge to highlight the sculpted athletic masculine chest plate.
-- Harmonized Environment Lighting: ground halo reflection and rim lighting updated from cyan to signature electric blue.
+- vBot Vektra Smart Voice Assistant & Groq AI Integration (Llama 3.3):
+- Instant Call Response ("Yes, sir?"): zero-latency immediate acknowledgment customized to your chosen call name.
+- Voice Standby & Wakeup: say "Vektra, go to sleep" to mute listening during cabin conversations; say "Vektra, wake up" to resume.
+- Hands-Free Vehicle Control: climate temperature, driving modes (Sport, Eco, Normal), cluster themes (Carbon 3D, Aston, VektraUI), battery/tyre telemetry and media playback.
+- Free Unlimited AI Conversation with Groq: connect your free Groq API key for natural discussion at 500 words/second.
+- Cinematic Offline Mode: vehicle controls remain fully operational without 4G, with an elegant connection status notice.
+- No Unwanted Driving Alerts: removed repetitive braking and acceleration audio interruptions for a serene cabin experience.
+- Streamlined vBot Tab: removed voice pack downloads, simplified voice selector (Male or Female), direct Groq console link button and built-in user guide.
 
 ---
 

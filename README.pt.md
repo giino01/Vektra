@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 1.9.13** · publicada a 28 de outubro de 2026 · 45.8 MB
+**VERSÃO 2.0.0** · publicada a 29 de outubro de 2026 · 45.8 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-1.9.13.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 1.9.13
+## Novidades da 2.0.0
 
-- Paleta de cores exata da prancha oficial Vektra:
-- Fato interior em preto carbono mate: remoção completa do ciano no fato interior, flancos e articulações, substituído por preto profundo (#10141E).
-- Linhas néon azul elétrico (#0077FF a #0088FF): costuras luminosas, óticas da viseira e turbinas auriculares no azul elétrico vibrante da fotografia.
-- Armadura branco pérola: placas peitorais e perneiras em branco puro com detalhes prateados.
-- Peito esculpido: remoção do medalhão circular com texto Vektra no peito para destacar o peitoral atlético.
-- Iluminação harmonizada: auréola de solo e reflexos no azul elétrico de assinatura.
+- Assistente de voz inteligente vBot Vektra & Integração Groq IA (Llama 3.3):
+- Resposta imediata ao chamar ("Sim, senhor?"): confirmação instantânea personalizada com o seu nome.
+- Modo de suspensão e reativação: diga "Vektra, entra em suspensão" para silenciar; diga "Vektra, acorda" para reativar.
+- Comandos do veículo por voz: ar condicionado, modos de condução, temas do painel e telemetria de bateria/pneus.
+- Conversação livre com Groq: IA ultra-rápida a 500 palavras/segundo totalmente gratuita.
+- Habitáculo tranquilo: remoção dos alertas sonoros repetitivos de travagem e aceleração.
 
 ---
 
