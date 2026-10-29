@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.5** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.6** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,17 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.5
+## Nouveautés de la 2.0.6
 
-- Résolution définitive de l'erreur 404 Groq & Découverte dynamique de modèles :
-- Découverte automatique des modèles actifs : interrogation à chaud de l'API Groq (/openai/v1/models) pour identifier en direct les modèles autorisés et actifs sur le compte de l'utilisateur (évite toute indisposition liée aux identifiants de modèles renommés ou dépréciés).
-- Sélection optimale & mise en cache : détection automatique du meilleur modèle disponible (Llama 3.3 70B en tête, suivi de Llama 3.1 8B, Mixtral ou équivalent) mémorisé localement pour des temps de réponse instantanés.
-- Cascade de repli multi-candidats : basculement de secours transparent et sans interruption entre modèles en cas d'indisponibilité temporaire d'un cluster d'inférence.
-- Affichage transparent du modèle : le nom du modèle actif est désormais affiché en clair dans l'onglet vBot à côté du badge de validation.
-- Diagnostic d'erreur précis : messages vocaux explicites rapportant la cause exacte renvoyée par le serveur en cas de rejet.
+- Suppression du ralenti vocal & Élocution naturelle vive (Homme & Femme) :
+- Cadence dynamique accélérée (1.15x) : fini la voix au ralenti, l'assistant parle désormais avec le rythme vif, fluide et naturel d'une véritable conversation humaine.
+- Timbre et hauteur naturels (Pitch optimisé) : pitch calibré à 0.94 pour la voix homme et 1.04 pour la voix femme, éliminant totalement l'effet de distorsion traînante sur Android.
+- Réactivité accrue (Silence 600ms) : détection resserrée de la fin de phrase pour supprimer les temps d'attente superflus.
+- Écoute active autonome dans la voiture (BYD DiLink & Tâche de fond) :
+- Bypass du SpeechRecognizer OEM BYD : contournement direct du service vocal constructeur verrouillé sur la tablette BYD, au profit exclusif de notre moteur autonome CarAudioEngine (AudioRecord direct 16 kHz Mono PCM + Whisper LPU).
+- Source audio habitacle directe : sélection de AudioSource.DEFAULT et MIC (validées par OverDrive et DashVoice) garantissant la capture nette du microphone de plafonnier sans filtrage DSP OEM.
+- Écoute continue en arrière-plan : service de premier plan configuré avec FOREGROUND_SERVICE_MICROPHONE et permissions ADB automatiques pour écouter en continu par-dessus Waze, Maps et Spotify.
+- Tolérance phonétique de réveil : prise en compte élargie des variantes de transcription Whisper (« Vektra », « Vectra », « Vector », « Vektor », « Vekta »).
 
 ---
 

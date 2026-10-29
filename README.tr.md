@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.0.5** · yayın tarihi 29 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.0.6** · yayın tarihi 29 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,14 +103,17 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.0.5
+## Yenilikler: 2.0.6
 
-- Groq 404 Hatasının Kesin Çözümü ve Dinamik Model Keşfi:
-- Dinamik Model Keşfi: kullanıcının hesabındaki aktif modelleri doğrudan /openai/v1/models üzerinden sorgulayarak eski veya yeniden adlandırılmış model kimliklerinden kaynaklanan 404 hatasını tamamen ortadan kaldırır.
-- Optimum Model Seçimi ve Önbellekleme: mevcut en yüksek performanslı modeli (Llama 3.3 70B, Llama 3.1 8B, Mixtral vb.) otomatik seçer ve anında yanıt için yerel olarak saklar.
-- Çoklu Aday Yedekleme Zinciri: herhangi bir sunucu kümesinde kesinti olması durumunda alternatif modellere kesintisiz geçiş sağlar.
-- Şeffaf Model Göstergesi: aktif model adı artık vBot sekmesinde doğrulama rozetinin yanında açıkça gösterilir.
-- Ayrıntılı Hata Bildirimi: API reddi durumunda sunucunun ilettiği kesin nedeni sesli ve günlük olarak raporlar.
+- Yavaş Konuşmanın Giderilmesi ve Doğal Dinamik Ses (Erkek & Kadın):
+- Hızlandırılmış Dinamik Tempo (1.15x): ağır konuşma sona erdi; asistan artık gerçek bir insan gibi akıcı ve doğal konuşuyor.
+- Doğal Ses Tonu (Optimize Edilmiş Perde): erkek için 0.94 ve kadın için 1.04 perde ayarı ile uzayan ses efektleri tamamen kaldırıldı.
+- Hızlı Tepki (600ms Sessizlik): cümle sonu algılama süresi kısaltılarak bekleme süresi ortadan kaldırıldı.
+- Araç İçinde Otonom Mikrofon Dinleme (BYD DiLink ve Arka Plan):
+- BYD OEM SpeechRecognizer Atlatma: kilitli fabrika ses motoru baypas edilerek bağımsız CarAudioEngine (16 kHz PCM + Groq Whisper) devreye sokuldu.
+- Doğrudan Tavan Mikrofonu Kaynağı: araç içi tavan mikrofonunu yakalamak için DEFAULT ve MIC ses kaynakları önceliklendirildi.
+- Arka Planda Kesintisiz Dinleme: navigasyon ve diğer uygulamaların üzerinde sürekli dinleme için FOREGROUND_SERVICE_MICROPHONE entegre edildi.
+- Genişletilmiş Fonetik Uyandırma: (« Vektra », « Vectra », « Vector », « Vektor ») telaffuz varyasyonları desteklendi.
 
 ---
 

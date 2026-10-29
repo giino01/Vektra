@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.5** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.6** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,17 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.5
+## What is new in 2.0.6
 
-- Permanent Fix for Groq 404 Error & Dynamic Model Discovery:
-- Dynamic Model Discovery: live discovery via /openai/v1/models automatically resolves available, active chat models on the user's account, eliminating 404 errors caused by deprecated or renamed model IDs.
-- Optimal Model Selection & Caching: automatically prioritizes the highest-tier active LLM (Llama 3.3 70B, Llama 3.1 8B, Mixtral, etc.) and caches it locally for ultra-fast response times.
-- Multi-Candidate Resilient Failover: seamless sequential failover between active models ensures uninterrupted conversation if any specific cluster is unreachable.
-- Transparent Model Badge: active model name is now displayed directly on the vBot settings badge upon validation.
-- Enhanced Diagnostics: voice feedback and logs report precise server explanations in case of upstream API rejections.
+- Eliminated Voice Slow-Motion & Natural Dynamic Cadence (Male & Female) :
+- Accelerated Conversational Pace (1.15x): no more sluggish speech; the assistant now responds with the lively, smooth, and natural cadence of a real human dialogue.
+- Natural Pitch Formatting: optimized pitch (0.94 male, 1.04 female) eliminates Android TTS time-stretching and drawling sound.
+- Snappy Responsiveness (600ms Silence): reduced speech-end silence detection threshold removes awkward waiting pauses.
+- Autonomous In-Cabin Voice Capture (BYD DiLink & Background Mic) :
+- BYD OEM SpeechRecognizer Bypass: directly bypasses the car's locked system speech recognizer on DiLink, activating the standalone CarAudioEngine (16 kHz Mono PCM + Groq Whisper LPU).
+- Direct Cabin Audio Routing: prioritized AudioSource.DEFAULT and MIC (proven in OverDrive and DashVoice) directly feeding from the interior roof microphone without OEM DSP muting.
+- Persistent Background Microphone: foreground service enabled with FOREGROUND_SERVICE_MICROPHONE and automated ADB AppOps grants to keep listening over navigation apps.
+- Expanded Phonetic Wake-Word Matching: robust transcription matching for variants ("Vektra", "Vectra", "Vector", "Vektor", "Vekta").
 
 ---
 

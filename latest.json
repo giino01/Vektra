@@ -1,63 +1,84 @@
 {
-  "version": "2.0.5",
-  "apk": "Vektra-2.0.5.apk",
-  "size": 48114256,
+  "version": "2.0.6",
+  "apk": "Vektra-2.0.6.apk",
+  "size": 48117048,
   "notes": [
-    "Résolution définitive de l'erreur 404 Groq & Découverte dynamique de modèles :",
-    "Découverte automatique des modèles actifs : interrogation à chaud de l'API Groq (/openai/v1/models) pour identifier en direct les modèles autorisés et actifs sur le compte de l'utilisateur (évite toute indisposition liée aux identifiants de modèles renommés ou dépréciés).",
-    "Sélection optimale & mise en cache : détection automatique du meilleur modèle disponible (Llama 3.3 70B en tête, suivi de Llama 3.1 8B, Mixtral ou équivalent) mémorisé localement pour des temps de réponse instantanés.",
-    "Cascade de repli multi-candidats : basculement de secours transparent et sans interruption entre modèles en cas d'indisponibilité temporaire d'un cluster d'inférence.",
-    "Affichage transparent du modèle : le nom du modèle actif est désormais affiché en clair dans l'onglet vBot à côté du badge de validation.",
-    "Diagnostic d'erreur précis : messages vocaux explicites rapportant la cause exacte renvoyée par le serveur en cas de rejet."
+    "Suppression du ralenti vocal & Élocution naturelle vive (Homme & Femme) :",
+    "Cadence dynamique accélérée (1.15x) : fini la voix au ralenti, l'assistant parle désormais avec le rythme vif, fluide et naturel d'une véritable conversation humaine.",
+    "Timbre et hauteur naturels (Pitch optimisé) : pitch calibré à 0.94 pour la voix homme et 1.04 pour la voix femme, éliminant totalement l'effet de distorsion traînante sur Android.",
+    "Réactivité accrue (Silence 600ms) : détection resserrée de la fin de phrase pour supprimer les temps d'attente superflus.",
+    "Écoute active autonome dans la voiture (BYD DiLink & Tâche de fond) :",
+    "Bypass du SpeechRecognizer OEM BYD : contournement direct du service vocal constructeur verrouillé sur la tablette BYD, au profit exclusif de notre moteur autonome CarAudioEngine (AudioRecord direct 16 kHz Mono PCM + Whisper LPU).",
+    "Source audio habitacle directe : sélection de AudioSource.DEFAULT et MIC (validées par OverDrive et DashVoice) garantissant la capture nette du microphone de plafonnier sans filtrage DSP OEM.",
+    "Écoute continue en arrière-plan : service de premier plan configuré avec FOREGROUND_SERVICE_MICROPHONE et permissions ADB automatiques pour écouter en continu par-dessus Waze, Maps et Spotify.",
+    "Tolérance phonétique de réveil : prise en compte élargie des variantes de transcription Whisper (« Vektra », « Vectra », « Vector », « Vektor », « Vekta »)."
   ],
   "notesByLang": {
     "fr": [
-      "Résolution définitive de l'erreur 404 Groq & Découverte dynamique de modèles :",
-      "Découverte automatique des modèles actifs : interrogation à chaud de l'API Groq (/openai/v1/models) pour identifier en direct les modèles autorisés et actifs sur le compte de l'utilisateur (évite toute indisposition liée aux identifiants de modèles renommés ou dépréciés).",
-      "Sélection optimale & mise en cache : détection automatique du meilleur modèle disponible (Llama 3.3 70B en tête, suivi de Llama 3.1 8B, Mixtral ou équivalent) mémorisé localement pour des temps de réponse instantanés.",
-      "Cascade de repli multi-candidats : basculement de secours transparent et sans interruption entre modèles en cas d'indisponibilité temporaire d'un cluster d'inférence.",
-      "Affichage transparent du modèle : le nom du modèle actif est désormais affiché en clair dans l'onglet vBot à côté du badge de validation.",
-      "Diagnostic d'erreur précis : messages vocaux explicites rapportant la cause exacte renvoyée par le serveur en cas de rejet."
+      "Suppression du ralenti vocal & Élocution naturelle vive (Homme & Femme) :",
+      "Cadence dynamique accélérée (1.15x) : fini la voix au ralenti, l'assistant parle désormais avec le rythme vif, fluide et naturel d'une véritable conversation humaine.",
+      "Timbre et hauteur naturels (Pitch optimisé) : pitch calibré à 0.94 pour la voix homme et 1.04 pour la voix femme, éliminant totalement l'effet de distorsion traînante sur Android.",
+      "Réactivité accrue (Silence 600ms) : détection resserrée de la fin de phrase pour supprimer les temps d'attente superflus.",
+      "Écoute active autonome dans la voiture (BYD DiLink & Tâche de fond) :",
+      "Bypass du SpeechRecognizer OEM BYD : contournement direct du service vocal constructeur verrouillé sur la tablette BYD, au profit exclusif de notre moteur autonome CarAudioEngine (AudioRecord direct 16 kHz Mono PCM + Whisper LPU).",
+      "Source audio habitacle directe : sélection de AudioSource.DEFAULT et MIC (validées par OverDrive et DashVoice) garantissant la capture nette du microphone de plafonnier sans filtrage DSP OEM.",
+      "Écoute continue en arrière-plan : service de premier plan configuré avec FOREGROUND_SERVICE_MICROPHONE et permissions ADB automatiques pour écouter en continu par-dessus Waze, Maps et Spotify.",
+      "Tolérance phonétique de réveil : prise en compte élargie des variantes de transcription Whisper (« Vektra », « Vectra », « Vector », « Vektor », « Vekta »)."
     ],
     "en": [
-      "Permanent Fix for Groq 404 Error & Dynamic Model Discovery:",
-      "Dynamic Model Discovery: live discovery via /openai/v1/models automatically resolves available, active chat models on the user's account, eliminating 404 errors caused by deprecated or renamed model IDs.",
-      "Optimal Model Selection & Caching: automatically prioritizes the highest-tier active LLM (Llama 3.3 70B, Llama 3.1 8B, Mixtral, etc.) and caches it locally for ultra-fast response times.",
-      "Multi-Candidate Resilient Failover: seamless sequential failover between active models ensures uninterrupted conversation if any specific cluster is unreachable.",
-      "Transparent Model Badge: active model name is now displayed directly on the vBot settings badge upon validation.",
-      "Enhanced Diagnostics: voice feedback and logs report precise server explanations in case of upstream API rejections."
+      "Eliminated Voice Slow-Motion & Natural Dynamic Cadence (Male & Female) :",
+      "Accelerated Conversational Pace (1.15x): no more sluggish speech; the assistant now responds with the lively, smooth, and natural cadence of a real human dialogue.",
+      "Natural Pitch Formatting: optimized pitch (0.94 male, 1.04 female) eliminates Android TTS time-stretching and drawling sound.",
+      "Snappy Responsiveness (600ms Silence): reduced speech-end silence detection threshold removes awkward waiting pauses.",
+      "Autonomous In-Cabin Voice Capture (BYD DiLink & Background Mic) :",
+      "BYD OEM SpeechRecognizer Bypass: directly bypasses the car's locked system speech recognizer on DiLink, activating the standalone CarAudioEngine (16 kHz Mono PCM + Groq Whisper LPU).",
+      "Direct Cabin Audio Routing: prioritized AudioSource.DEFAULT and MIC (proven in OverDrive and DashVoice) directly feeding from the interior roof microphone without OEM DSP muting.",
+      "Persistent Background Microphone: foreground service enabled with FOREGROUND_SERVICE_MICROPHONE and automated ADB AppOps grants to keep listening over navigation apps.",
+      "Expanded Phonetic Wake-Word Matching: robust transcription matching for variants (\"Vektra\", \"Vectra\", \"Vector\", \"Vektor\", \"Vekta\")."
     ],
     "it": [
-      "Risoluzione definitiva dell'errore 404 Groq & Scoperta dinamica dei modelli:",
-      "Scoperta dinamica dei modelli attivi: interrogazione in tempo reale di /openai/v1/models per identificare i modelli consentiti sull'account dell'utente, risolvendo definitivamente l'errore 404 da modelli ritirati o rinominati.",
-      "Selezione ottimale & memorizzazione locale: scelta automatica del miglior modello disponibile (Llama 3.3 70B, Llama 3.1 8B, Mixtral) salvato per risposte istantanee.",
-      "Failover resiliente multi-candidato: passaggio automatico e continuo ad altri modelli in caso di indisponibilità temporanea.",
-      "Visualizzazione trasparente del modello: il modello attivo viene mostrato direttamente accanto al badge nelle impostazioni vBot.",
-      "Diagnostica avanzata: messaggi vocali e registri precisi sulla causa esatta restituita dal server."
+      "Rimozione della voce lenta & Eloquio naturale e dinamico (Uomo & Donna):",
+      "Cadenza dinamica accelerata (1.15x): eliminato il rallentamento della voce; l'assistente parla ora con il ritmo naturale e scorrevole di una vera persona.",
+      "Tono e altezza naturali (Pitch ottimizzato): pitch calibrato a 0.94 (uomo) e 1.04 (donna) senza allungamenti audio artificiali.",
+      "Reattività immediata (Silenzio 600ms): rilevamento rapido di fine battuta per azzerare le pause di attesa.",
+      "Ascolto attivo autonomo nell'abitacolo (BYD DiLink & Background):",
+      "Bypass SpeechRecognizer OEM BYD: aggiramento del servizio vocale di fabbrica bloccato, attivando direttamente il motore autonomo CarAudioEngine (PCM 16 kHz + Groq Whisper).",
+      "Sorgente audio abitacolo diretta: instradamento prioritario su DEFAULT e MIC per catturare direttamente il microfono della plafoniera.",
+      "Microfono continuo in background: servizio con FOREGROUND_SERVICE_MICROPHONE e permessi ADB per ascolto attivo sopra altre app.",
+      "Riconoscimento fonetico allargato: tolleranza alle varianti di trascrizione (\"Vektra\", \"Vectra\", \"Vector\", \"Vektor\")."
     ],
     "de": [
-      "Dauerhafte Behebung des Groq-404-Fehlers & Dynamische Modellerkennung:",
-      "Dynamische Modellerkennung: Live-Abfrage via /openai/v1/models ermittelt die tatsächlich freigeschalteten Chat-Modelle des Benutzerkontos und beseitigt 404-Fehler durch veraltete Modell-IDs.",
-      "Optimale Modellauswahl & Caching: automatische Bevorzugung des besten Modells (Llama 3.3 70B, Llama 3.1 8B, Mixtral usw.) mit lokaler Speicherung für blitzschnelle Reaktionszeiten.",
-      "Robuste Multi-Modell-Ausweichkette: nahtloser automatischer Wechsel zwischen Kandidaten bei Überlastung einzelner Inferenz-Cluster.",
-      "Transparente Modellanzeige: der aktive Modellname wird im vBot-Tab direkt neben dem Bestätigungs-Badge angezeigt.",
-      "Präzise Fehlerdiagnose: detaillierte Sprach- und Protokollmeldungen mit genauer Ursachenangabe des Servers."
+      "Beseitigung der verlangsamten Stimme & Natürliche dynamische Aussprache (Mann & Frau):",
+      "Beschleunigtes Sprechtempo (1.15x): kein träges Sprechen mehr; vBot antwortet flüssig und lebendig wie ein menschlicher Beifahrer.",
+      "Natürliche Tonhöhe (Optimierter Pitch): Pitch auf 0.94 (männlich) und 1.04 (weiblich) eingestellt, wodurch Verzerrungen und Dehnungen vermieden werden.",
+      "Blitzschnelle Reaktion (600ms Stille): verkürzte Sprechendepause für ansatzlose Dialoge.",
+      "Autonome Sprachaufnahme im Fahrzeug (BYD DiLink & Hintergrund):",
+      "Bypass des gesperrten BYD-OEM-SpeechRecognizers: umgeht den herstellereigenen Spracherkennungsdienst zugunsten von CarAudioEngine (16 kHz Mono PCM + Groq Whisper).",
+      "Direkte Mikrofonquelle: priorisiert DEFAULT und MIC für ungefilterte Aufnahme über das Dachmikrofon.",
+      "Dauerhafte Hintergrundaufnahme: FOREGROUND_SERVICE_MICROPHONE hält das Mikrofon über Navigations-Apps aktiv.",
+      "Erweiterte phonetische Aktivierung: robuste Erkennung von (« Vektra », « Vectra », « Vector » usw.)."
     ],
     "pt": [
-      "Resolução definitiva do erro 404 Groq & Descoberta dinâmica de modelos:",
-      "Descoberta dinâmica de modelos ativos: consulta em tempo real a /openai/v1/models para identificar os modelos disponíveis na conta do utilizador, eliminando o erro 404 devido a identificadores obsoletos.",
-      "Seleção ideal & memorização local: seleção automática do melhor modelo (Llama 3.3 70B, Llama 3.1 8B, Mixtral) armazenado localmente para respostas instantâneas.",
-      "Alternância resiliente multi-candidatos: transição transparente e contínua entre modelos em caso de indisponibilidade de um cluster.",
-      "Exibição transparente do modelo: o nome do modelo ativo é agora apresentado nas definições do vBot junto ao crachá de validação.",
-      "Diagnóstico preciso: feedback por voz com relato da causa exata devolvida pela API."
+      "Eliminação da voz lenta & Elocução natural e dinâmica (Homem & Mulher):",
+      "Cadência acelerada e espontânea (1.15x): sem voz arrastada; o assistente fala agora com o ritmo fluido e natural de um diálogo humano.",
+      "Tom natural (Pitch otimizado): calibrado em 0.94 (homem) e 1.04 (mulher), eliminando distorções de áudio no Android.",
+      "Resposta imediata (Silêncio 600ms): tempo de espera reduzido após o fim da fala.",
+      "Escuta ativa autónoma no veículo (BYD DiLink & Segundo plano):",
+      "Bypass do SpeechRecognizer OEM da BYD: contorna o serviço nativo bloqueado da BYD, ativando diretamente o CarAudioEngine (PCM 16 kHz + Groq Whisper).",
+      "Fonte de áudio direta da cabine: AudioSource.DEFAULT e MIC para captação limpa no microfone de teto.",
+      "Microfone contínuo em segundo plano: serviço com FOREGROUND_SERVICE_MICROPHONE e permissões ADB para escuta constante sobre o GPS.",
+      "Reconhecimento fonético amplo: suporte robusto a variações (« Vektra », « Vectra », « Vector »)."
     ],
     "tr": [
-      "Groq 404 Hatasının Kesin Çözümü ve Dinamik Model Keşfi:",
-      "Dinamik Model Keşfi: kullanıcının hesabındaki aktif modelleri doğrudan /openai/v1/models üzerinden sorgulayarak eski veya yeniden adlandırılmış model kimliklerinden kaynaklanan 404 hatasını tamamen ortadan kaldırır.",
-      "Optimum Model Seçimi ve Önbellekleme: mevcut en yüksek performanslı modeli (Llama 3.3 70B, Llama 3.1 8B, Mixtral vb.) otomatik seçer ve anında yanıt için yerel olarak saklar.",
-      "Çoklu Aday Yedekleme Zinciri: herhangi bir sunucu kümesinde kesinti olması durumunda alternatif modellere kesintisiz geçiş sağlar.",
-      "Şeffaf Model Göstergesi: aktif model adı artık vBot sekmesinde doğrulama rozetinin yanında açıkça gösterilir.",
-      "Ayrıntılı Hata Bildirimi: API reddi durumunda sunucunun ilettiği kesin nedeni sesli ve günlük olarak raporlar."
+      "Yavaş Konuşmanın Giderilmesi ve Doğal Dinamik Ses (Erkek & Kadın):",
+      "Hızlandırılmış Dinamik Tempo (1.15x): ağır konuşma sona erdi; asistan artık gerçek bir insan gibi akıcı ve doğal konuşuyor.",
+      "Doğal Ses Tonu (Optimize Edilmiş Perde): erkek için 0.94 ve kadın için 1.04 perde ayarı ile uzayan ses efektleri tamamen kaldırıldı.",
+      "Hızlı Tepki (600ms Sessizlik): cümle sonu algılama süresi kısaltılarak bekleme süresi ortadan kaldırıldı.",
+      "Araç İçinde Otonom Mikrofon Dinleme (BYD DiLink ve Arka Plan):",
+      "BYD OEM SpeechRecognizer Atlatma: kilitli fabrika ses motoru baypas edilerek bağımsız CarAudioEngine (16 kHz PCM + Groq Whisper) devreye sokuldu.",
+      "Doğrudan Tavan Mikrofonu Kaynağı: araç içi tavan mikrofonunu yakalamak için DEFAULT ve MIC ses kaynakları önceliklendirildi.",
+      "Arka Planda Kesintisiz Dinleme: navigasyon ve diğer uygulamaların üzerinde sürekli dinleme için FOREGROUND_SERVICE_MICROPHONE entegre edildi.",
+      "Genişletilmiş Fonetik Uyandırma: (« Vektra », « Vectra », « Vector », « Vektor ») telaffuz varyasyonları desteklendi."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.0.5** · pubblicata il 29 ottobre 2026 · 45.9 MB
+**VERSIONE 2.0.6** · pubblicata il 29 ottobre 2026 · 45.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,17 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.0.5
+## Novità della 2.0.6
 
-- Risoluzione definitiva dell'errore 404 Groq & Scoperta dinamica dei modelli:
-- Scoperta dinamica dei modelli attivi: interrogazione in tempo reale di /openai/v1/models per identificare i modelli consentiti sull'account dell'utente, risolvendo definitivamente l'errore 404 da modelli ritirati o rinominati.
-- Selezione ottimale & memorizzazione locale: scelta automatica del miglior modello disponibile (Llama 3.3 70B, Llama 3.1 8B, Mixtral) salvato per risposte istantanee.
-- Failover resiliente multi-candidato: passaggio automatico e continuo ad altri modelli in caso di indisponibilità temporanea.
-- Visualizzazione trasparente del modello: il modello attivo viene mostrato direttamente accanto al badge nelle impostazioni vBot.
-- Diagnostica avanzata: messaggi vocali e registri precisi sulla causa esatta restituita dal server.
+- Rimozione della voce lenta & Eloquio naturale e dinamico (Uomo & Donna):
+- Cadenza dinamica accelerata (1.15x): eliminato il rallentamento della voce; l'assistente parla ora con il ritmo naturale e scorrevole di una vera persona.
+- Tono e altezza naturali (Pitch ottimizzato): pitch calibrato a 0.94 (uomo) e 1.04 (donna) senza allungamenti audio artificiali.
+- Reattività immediata (Silenzio 600ms): rilevamento rapido di fine battuta per azzerare le pause di attesa.
+- Ascolto attivo autonomo nell'abitacolo (BYD DiLink & Background):
+- Bypass SpeechRecognizer OEM BYD: aggiramento del servizio vocale di fabbrica bloccato, attivando direttamente il motore autonomo CarAudioEngine (PCM 16 kHz + Groq Whisper).
+- Sorgente audio abitacolo diretta: instradamento prioritario su DEFAULT e MIC per catturare direttamente il microfono della plafoniera.
+- Microfono continuo in background: servizio con FOREGROUND_SERVICE_MICROPHONE e permessi ADB per ascolto attivo sopra altre app.
+- Riconoscimento fonetico allargato: tolleranza alle varianti di trascrizione ("Vektra", "Vectra", "Vector", "Vektor").
 
 ---
 

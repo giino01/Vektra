@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.5** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
+**VERSION 2.0.6** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,17 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.5
+## Neu in 2.0.6
 
-- Dauerhafte Behebung des Groq-404-Fehlers & Dynamische Modellerkennung:
-- Dynamische Modellerkennung: Live-Abfrage via /openai/v1/models ermittelt die tatsächlich freigeschalteten Chat-Modelle des Benutzerkontos und beseitigt 404-Fehler durch veraltete Modell-IDs.
-- Optimale Modellauswahl & Caching: automatische Bevorzugung des besten Modells (Llama 3.3 70B, Llama 3.1 8B, Mixtral usw.) mit lokaler Speicherung für blitzschnelle Reaktionszeiten.
-- Robuste Multi-Modell-Ausweichkette: nahtloser automatischer Wechsel zwischen Kandidaten bei Überlastung einzelner Inferenz-Cluster.
-- Transparente Modellanzeige: der aktive Modellname wird im vBot-Tab direkt neben dem Bestätigungs-Badge angezeigt.
-- Präzise Fehlerdiagnose: detaillierte Sprach- und Protokollmeldungen mit genauer Ursachenangabe des Servers.
+- Beseitigung der verlangsamten Stimme & Natürliche dynamische Aussprache (Mann & Frau):
+- Beschleunigtes Sprechtempo (1.15x): kein träges Sprechen mehr; vBot antwortet flüssig und lebendig wie ein menschlicher Beifahrer.
+- Natürliche Tonhöhe (Optimierter Pitch): Pitch auf 0.94 (männlich) und 1.04 (weiblich) eingestellt, wodurch Verzerrungen und Dehnungen vermieden werden.
+- Blitzschnelle Reaktion (600ms Stille): verkürzte Sprechendepause für ansatzlose Dialoge.
+- Autonome Sprachaufnahme im Fahrzeug (BYD DiLink & Hintergrund):
+- Bypass des gesperrten BYD-OEM-SpeechRecognizers: umgeht den herstellereigenen Spracherkennungsdienst zugunsten von CarAudioEngine (16 kHz Mono PCM + Groq Whisper).
+- Direkte Mikrofonquelle: priorisiert DEFAULT und MIC für ungefilterte Aufnahme über das Dachmikrofon.
+- Dauerhafte Hintergrundaufnahme: FOREGROUND_SERVICE_MICROPHONE hält das Mikrofon über Navigations-Apps aktiv.
+- Erweiterte phonetische Aktivierung: robuste Erkennung von (« Vektra », « Vectra », « Vector » usw.).
 
 ---
 
