@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.0** · veröffentlicht am 29. Oktober 2026 · 45.8 MB
+**VERSION 2.0.1** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.0
+## Neu in 2.0.1
 
-- Intelligenter Sprachassistent vBot Vektra & Groq KI-Integration (Llama 3.3):
-- Sofortige Rufantwort („Ja, mein Herr?“): verzögerungsfreie Rückmeldung mit Ihrem konfigurierten Anrufenamen.
-- Sprachgesteuerter Standby & Aufwecken: Sagen Sie „Vektra, geh in den Standby“ für absolute Ruhe; „Vektra, wach auf“ zur Reaktivierung.
-- Fahrzeugsteuerung per Sprache: Klima, Fahrmodi (Sport, Eco, Normal), Display-Themen und Telemetriedaten.
-- Kostenlose KI-Unterhaltung mit Groq: Natürliche Gespräche mit 500 Wörtern pro Sekunde.
-- Keine störenden Fahrwarnungen mehr: Wiederholte Brems- und Beschleunigungsansagen vollständig entfernt.
+- Korrekturen und Verbesserungen für den vBot Vektra Sprachassistenten:
+- Mikrofon-Berechtigung (RECORD_AUDIO): im Manifest deklariert und beim Start via lokalem ADB automatisch erteilt.
+- Kontinuierliche Erkennung von « Vektra »: dauerhafter Hintergrund-Hörzyklus mit flüssigem automatischem Reaktivieren.
+- Unabhängige Sprachausgabe (Keine OEM-Autostimme mehr!): vollständige autonome Wiedergabe via MediaPlayer mit Echtzeit-Tonhöhenanpassung, ohne das BYD-Standard-TTS zu nutzen.
+- Echtzeit-Test für Groq-API-Schlüssel: neue Schaltfläche « ⚡ Groq-API-Schlüssel testen » mit sofortiger Statusanzeige.
+- Audio Ducking: Musiklautstärke wird während der Sprachausgabe automatisch abgesenkt.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.0.0** · publicada a 29 de outubro de 2026 · 45.8 MB
+**VERSÃO 2.0.1** · publicada a 29 de outubro de 2026 · 45.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.0.0
+## Novidades da 2.0.1
 
-- Assistente de voz inteligente vBot Vektra & Integração Groq IA (Llama 3.3):
-- Resposta imediata ao chamar ("Sim, senhor?"): confirmação instantânea personalizada com o seu nome.
-- Modo de suspensão e reativação: diga "Vektra, entra em suspensão" para silenciar; diga "Vektra, acorda" para reativar.
-- Comandos do veículo por voz: ar condicionado, modos de condução, temas do painel e telemetria de bateria/pneus.
-- Conversação livre com Groq: IA ultra-rápida a 500 palavras/segundo totalmente gratuita.
-- Habitáculo tranquilo: remoção dos alertas sonoros repetitivos de travagem e aceleração.
+- Correções e melhorias no assistente de voz vBot Vektra:
+- Permissão de microfone (RECORD_AUDIO): adicionada ao manifesto e concedida automaticamente por ADB no arranque.
+- Escuta contínua de « Vektra »: ciclo de reconhecimento vocal em segundo plano com reativação automática constante.
+- Voz independente (Sem a voz original do carro!): síntese 100% autónoma via MediaPlayer com afinação de frequência de hardware (voz masculina grave / feminina clara), contornando o motor OEM da BYD.
+- Teste de chave API Groq em tempo real: botão « ⚡ Testar chave API Groq » com validação imediata e distintivo de estado.
+- Audio Ducking: música do veículo diminui de volume suavemente durante as falas do assistente.
 
 ---
 

@@ -1,69 +1,63 @@
 {
-  "version": "2.0.0",
-  "apk": "Vektra-2.0.0.apk",
-  "size": 48064372,
+  "version": "2.0.1",
+  "apk": "Vektra-2.0.1.apk",
+  "size": 48086756,
   "notes": [
-    "Assistant vocal intelligent vBot Vektra & Intégration Groq IA (Llama 3.3) :",
-    "Interpellation instantanée (« Oui, Monsieur ? ») : réponse immédiate sans latence réseau personnalisée selon votre nom d'appel ([Prefs.vbotCallName]).",
-    "Mise en veille vocale et réveil sécurisé : dites « Vektra, mets-toi en veille » pour couper l'écoute et éviter les déclenchements accidentels en discutant ; dites « Vektra, réveille-toi » pour réactiver vBot.",
-    "Commandes du véhicule à la voix : climatisation au demi-degré, modes de conduite (Sport, Éco, Normal), thèmes du combiné (Carbone 3D, Aston, VektraUI), télémétrie de bord (batterie, autonomie, pneus) et contrôle multimédia.",
-    "Conversation libre illimitée avec Groq (100% gratuit) : connectez votre clé Groq gratuite pour discuter de tout et de rien naturellement à 500 mots/seconde.",
-    "Mode hors-ligne cinématique : en l'absence de réseau 4G, les commandes de bord restent actives et vBot annonce poliment l'état de la connexion.",
-    "Suppression des alertes vocales intempestives : élimination des annonces répétitives lors des freinages et accélérations pour un habitacle calme et silencieux.",
-    "Refonte de l'onglet vBot : suppression des téléchargements de packs vocaux, choix de voix épuré (Homme ou Femme), bouton d'accès direct à la console Groq et guide complet d'utilisation."
+    "Correction et optimisation de l'assistant vocal vBot Vektra :",
+    "Permission Microphone (RECORD_AUDIO) : déclaration dans le manifeste et octroi automatique par ADB au premier lancement pour une activation immédiate sans blocage.",
+    "Écoute continue et détection de « Vektra » : boucle de reconnaissance vocale permanente en arrière-plan avec réarmement automatique fluide et sans latence.",
+    "Voix indépendante (Adieu la voix d'origine de la voiture !) : synthèse vocale 100% autonome via MediaPlayer et modulation fréquentielle matérielle (voix masculine grave et posée / voix féminine claire) sans jamais déclencher le moteur vocal OEM de la BYD.",
+    "Test de la clé API Groq en temps réel : bouton dédié « ⚡ Tester la clé API Groq » dans l'onglet vBot avec validation instantanée et badge de statut (Vert = active & opérationnelle).",
+    "Gestion Audio Ducking : atténuation automatique de la musique pendant les échanges avec l'assistant."
   ],
   "notesByLang": {
     "fr": [
-      "Assistant vocal intelligent vBot Vektra & Intégration Groq IA (Llama 3.3) :",
-      "Interpellation instantanée (« Oui, Monsieur ? ») : réponse immédiate sans latence réseau personnalisée selon votre nom d'appel ([Prefs.vbotCallName]).",
-      "Mise en veille vocale et réveil sécurisé : dites « Vektra, mets-toi en veille » pour couper l'écoute et éviter les déclenchements accidentels en discutant ; dites « Vektra, réveille-toi » pour réactiver vBot.",
-      "Commandes du véhicule à la voix : climatisation au demi-degré, modes de conduite (Sport, Éco, Normal), thèmes du combiné (Carbone 3D, Aston, VektraUI), télémétrie de bord (batterie, autonomie, pneus) et contrôle multimédia.",
-      "Conversation libre illimitée avec Groq (100% gratuit) : connectez votre clé Groq gratuite pour discuter de tout et de rien naturellement à 500 mots/seconde.",
-      "Mode hors-ligne cinématique : en l'absence de réseau 4G, les commandes de bord restent actives et vBot annonce poliment l'état de la connexion.",
-      "Suppression des alertes vocales intempestives : élimination des annonces répétitives lors des freinages et accélérations pour un habitacle calme et silencieux.",
-      "Refonte de l'onglet vBot : suppression des téléchargements de packs vocaux, choix de voix épuré (Homme ou Femme), bouton d'accès direct à la console Groq et guide complet d'utilisation."
+      "Correction et optimisation de l'assistant vocal vBot Vektra :",
+      "Permission Microphone (RECORD_AUDIO) : déclaration dans le manifeste et octroi automatique par ADB au premier lancement pour une activation immédiate sans blocage.",
+      "Écoute continue et détection de « Vektra » : boucle de reconnaissance vocale permanente en arrière-plan avec réarmement automatique fluide et sans latence.",
+      "Voix indépendante (Adieu la voix d'origine de la voiture !) : synthèse vocale 100% autonome via MediaPlayer et modulation fréquentielle matérielle (voix masculine grave et posée / voix féminine claire) sans jamais déclencher le moteur vocal OEM de la BYD.",
+      "Test de la clé API Groq en temps réel : bouton dédié « ⚡ Tester la clé API Groq » dans l'onglet vBot avec validation instantanée et badge de statut (Vert = active & opérationnelle).",
+      "Gestion Audio Ducking : atténuation automatique de la musique pendant les échanges avec l'assistant."
     ],
     "en": [
-      "vBot Vektra Smart Voice Assistant & Groq AI Integration (Llama 3.3):",
-      "Instant Call Response (\"Yes, sir?\"): zero-latency immediate acknowledgment customized to your chosen call name.",
-      "Voice Standby & Wakeup: say \"Vektra, go to sleep\" to mute listening during cabin conversations; say \"Vektra, wake up\" to resume.",
-      "Hands-Free Vehicle Control: climate temperature, driving modes (Sport, Eco, Normal), cluster themes (Carbon 3D, Aston, VektraUI), battery/tyre telemetry and media playback.",
-      "Free Unlimited AI Conversation with Groq: connect your free Groq API key for natural discussion at 500 words/second.",
-      "Cinematic Offline Mode: vehicle controls remain fully operational without 4G, with an elegant connection status notice.",
-      "No Unwanted Driving Alerts: removed repetitive braking and acceleration audio interruptions for a serene cabin experience.",
-      "Streamlined vBot Tab: removed voice pack downloads, simplified voice selector (Male or Female), direct Groq console link button and built-in user guide."
+      "vBot Vektra Voice Assistant Fixes & Enhancements:",
+      "Microphone Permission (RECORD_AUDIO): added to manifest and auto-granted via local ADB on startup for immediate out-of-the-box operation.",
+      "Continuous Hotword Listening: persistent ambient listener for \"Vektra\" with seamless automatic re-arming loop.",
+      "Independent Speech Engine (No more OEM car voice!): 100% autonomous audio synthesis via MediaPlayer with real-time hardware pitch tuning (deep masculine / bright feminine tone), completely bypassing the car's native TTS engine.",
+      "Real-Time Groq API Key Verification: added \"⚡ Test Groq API Key\" button with instant validation and live status badge.",
+      "Audio Ducking: vehicle music volume automatically ducks during assistant interactions."
     ],
     "it": [
-      "Assistente vocale intelligente vBot Vektra & Integrazione Groq IA (Llama 3.3):",
-      "Risposta istantanea alla chiamata (\"Sì, signore?\"): riscontro immediato a latenza zero personalizzato col tuo nome.",
-      "Standby e risveglio vocale: dì \"Vektra, vai in standby\" per silenziare l'ascolto durante le conversazioni; dì \"Vektra, svegliati\" per riattivarlo.",
-      "Controllo vocale dell'auto: climatizzazione, modalità di guida (Sport, Eco, Normal), temi cruscotto e telemetria pneumatici/batteria.",
-      "Conversazione libera gratuita con Groq: risposte istantanee a 500 parole/secondo per parlare di ogni argomento.",
-      "Guida silenziosa: rimosse le notifiche vocali ripetitive in frenata e accelerazione."
+      "Correzioni e ottimizzazioni per l'assistente vocale vBot Vektra:",
+      "Autorizzazione microfono (RECORD_AUDIO): inclusa nel manifesto e concessa automaticamente tramite ADB all'avvio.",
+      "Ascolto continuo del comando vocale « Vektra »: ciclo di ascolto in background con riarmo continuo.",
+      "Voce indipendente (Mai più la voce di fabbrica dell'auto!): sintesi autonoma con MediaPlayer e modulazione vocale hardware (timbro maschile profondo o femminile chiaro), escludendo del tutto il motore OEM BYD.",
+      "Verifica in tempo reale della chiave API Groq: nuovo pulsante « ⚡ Testa chiave API Groq » con feedback istantaneo e badge di stato.",
+      "Audio Ducking: la musica si abbassa automaticamente durante le risposte dell'assistente."
     ],
     "de": [
-      "Intelligenter Sprachassistent vBot Vektra & Groq KI-Integration (Llama 3.3):",
-      "Sofortige Rufantwort („Ja, mein Herr?“): verzögerungsfreie Rückmeldung mit Ihrem konfigurierten Anrufenamen.",
-      "Sprachgesteuerter Standby & Aufwecken: Sagen Sie „Vektra, geh in den Standby“ für absolute Ruhe; „Vektra, wach auf“ zur Reaktivierung.",
-      "Fahrzeugsteuerung per Sprache: Klima, Fahrmodi (Sport, Eco, Normal), Display-Themen und Telemetriedaten.",
-      "Kostenlose KI-Unterhaltung mit Groq: Natürliche Gespräche mit 500 Wörtern pro Sekunde.",
-      "Keine störenden Fahrwarnungen mehr: Wiederholte Brems- und Beschleunigungsansagen vollständig entfernt."
+      "Korrekturen und Verbesserungen für den vBot Vektra Sprachassistenten:",
+      "Mikrofon-Berechtigung (RECORD_AUDIO): im Manifest deklariert und beim Start via lokalem ADB automatisch erteilt.",
+      "Kontinuierliche Erkennung von « Vektra »: dauerhafter Hintergrund-Hörzyklus mit flüssigem automatischem Reaktivieren.",
+      "Unabhängige Sprachausgabe (Keine OEM-Autostimme mehr!): vollständige autonome Wiedergabe via MediaPlayer mit Echtzeit-Tonhöhenanpassung, ohne das BYD-Standard-TTS zu nutzen.",
+      "Echtzeit-Test für Groq-API-Schlüssel: neue Schaltfläche « ⚡ Groq-API-Schlüssel testen » mit sofortiger Statusanzeige.",
+      "Audio Ducking: Musiklautstärke wird während der Sprachausgabe automatisch abgesenkt."
     ],
     "pt": [
-      "Assistente de voz inteligente vBot Vektra & Integração Groq IA (Llama 3.3):",
-      "Resposta imediata ao chamar (\"Sim, senhor?\"): confirmação instantânea personalizada com o seu nome.",
-      "Modo de suspensão e reativação: diga \"Vektra, entra em suspensão\" para silenciar; diga \"Vektra, acorda\" para reativar.",
-      "Comandos do veículo por voz: ar condicionado, modos de condução, temas do painel e telemetria de bateria/pneus.",
-      "Conversação livre com Groq: IA ultra-rápida a 500 palavras/segundo totalmente gratuita.",
-      "Habitáculo tranquilo: remoção dos alertas sonoros repetitivos de travagem e aceleração."
+      "Correções e melhorias no assistente de voz vBot Vektra:",
+      "Permissão de microfone (RECORD_AUDIO): adicionada ao manifesto e concedida automaticamente por ADB no arranque.",
+      "Escuta contínua de « Vektra »: ciclo de reconhecimento vocal em segundo plano com reativação automática constante.",
+      "Voz independente (Sem a voz original do carro!): síntese 100% autónoma via MediaPlayer com afinação de frequência de hardware (voz masculina grave / feminina clara), contornando o motor OEM da BYD.",
+      "Teste de chave API Groq em tempo real: botão « ⚡ Testar chave API Groq » com validação imediata e distintivo de estado.",
+      "Audio Ducking: música do veículo diminui de volume suavemente durante as falas do assistente."
     ],
     "tr": [
-      "vBot Vektra Akıllı Sesli Asistan & Groq Yapay Zeka Entegrasyonu (Llama 3.3):",
-      "Anında Yanıt (\"Evet, efendim?\"): Çağrı adınıza göre özelleştirilmiş sıfır gecikmeli yanıt.",
-      "Sesli Uyku ve Uyanma: Araç içi sohbetlerde yanlış algılamayı önlemek için \"Vektra, uyku moduna geç\"; yeniden başlatmak için \"Vektra, uyan\" deyin.",
-      "Sesle Araç Kontrolü: Klima sıcaklığı, sürüş modları (Sport, Eko, Normal), gösterge temaları ve lastik/batarya durumu.",
-      "Groq ile Ücretsiz Sohbet: 500 kelime/saniye hızında sınırsız serbest sohbet.",
-      "Sessiz ve Konforlu Sürüş: Ani fren ve hızlanmalardaki tekrarlayan sesli uyarılar tamamen kaldırıldı."
+      "vBot Vektra Sesli Asistan Düzeltmeleri ve İyileştirmeleri:",
+      "Mikrofon İzni (RECORD_AUDIO): bildirime eklendi ve başlangıçta yerel ADB üzerinden otomatik olarak verildi.",
+      "Sürekli « Vektra » Dinleme: arka planda akıcı otomatik yeniden başlatma döngüsüyle kesintisiz ortam dinlemesi.",
+      "Bağımsız Ses Motoru (Araç fabrika sesine son!): MediaPlayer ve gerçek zamanlı donanım frekans modülasyonuyla tamamen bağımsız ses sentezi, BYD OEM motorunu tamamen atlar.",
+      "Gerçek Zamanlı Groq API Anahtarı Doğrulaması: anında doğrulama ve durum rozeti sağlayan « ⚡ Groq API Anahtarını Test Et » düğmesi.",
+      "Audio Ducking: asistan konuşurken araç müziği otomatik olarak kısılır."
     ]
   }
 }

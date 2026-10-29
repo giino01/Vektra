@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.0.0** · yayın tarihi 29 Ekim 2026 · 45.8 MB
+**SÜRÜM 2.0.1** · yayın tarihi 29 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,14 +103,14 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.0.0
+## Yenilikler: 2.0.1
 
-- vBot Vektra Akıllı Sesli Asistan & Groq Yapay Zeka Entegrasyonu (Llama 3.3):
-- Anında Yanıt ("Evet, efendim?"): Çağrı adınıza göre özelleştirilmiş sıfır gecikmeli yanıt.
-- Sesli Uyku ve Uyanma: Araç içi sohbetlerde yanlış algılamayı önlemek için "Vektra, uyku moduna geç"; yeniden başlatmak için "Vektra, uyan" deyin.
-- Sesle Araç Kontrolü: Klima sıcaklığı, sürüş modları (Sport, Eko, Normal), gösterge temaları ve lastik/batarya durumu.
-- Groq ile Ücretsiz Sohbet: 500 kelime/saniye hızında sınırsız serbest sohbet.
-- Sessiz ve Konforlu Sürüş: Ani fren ve hızlanmalardaki tekrarlayan sesli uyarılar tamamen kaldırıldı.
+- vBot Vektra Sesli Asistan Düzeltmeleri ve İyileştirmeleri:
+- Mikrofon İzni (RECORD_AUDIO): bildirime eklendi ve başlangıçta yerel ADB üzerinden otomatik olarak verildi.
+- Sürekli « Vektra » Dinleme: arka planda akıcı otomatik yeniden başlatma döngüsüyle kesintisiz ortam dinlemesi.
+- Bağımsız Ses Motoru (Araç fabrika sesine son!): MediaPlayer ve gerçek zamanlı donanım frekans modülasyonuyla tamamen bağımsız ses sentezi, BYD OEM motorunu tamamen atlar.
+- Gerçek Zamanlı Groq API Anahtarı Doğrulaması: anında doğrulama ve durum rozeti sağlayan « ⚡ Groq API Anahtarını Test Et » düğmesi.
+- Audio Ducking: asistan konuşurken araç müziği otomatik olarak kısılır.
 
 ---
 

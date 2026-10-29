@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.0** · publiée le 29 octobre 2026 · 45.8 Mo
+**VERSION 2.0.1** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,16 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.0
+## Nouveautés de la 2.0.1
 
-- Assistant vocal intelligent vBot Vektra & Intégration Groq IA (Llama 3.3) :
-- Interpellation instantanée (« Oui, Monsieur ? ») : réponse immédiate sans latence réseau personnalisée selon votre nom d'appel ([Prefs.vbotCallName]).
-- Mise en veille vocale et réveil sécurisé : dites « Vektra, mets-toi en veille » pour couper l'écoute et éviter les déclenchements accidentels en discutant ; dites « Vektra, réveille-toi » pour réactiver vBot.
-- Commandes du véhicule à la voix : climatisation au demi-degré, modes de conduite (Sport, Éco, Normal), thèmes du combiné (Carbone 3D, Aston, VektraUI), télémétrie de bord (batterie, autonomie, pneus) et contrôle multimédia.
-- Conversation libre illimitée avec Groq (100% gratuit) : connectez votre clé Groq gratuite pour discuter de tout et de rien naturellement à 500 mots/seconde.
-- Mode hors-ligne cinématique : en l'absence de réseau 4G, les commandes de bord restent actives et vBot annonce poliment l'état de la connexion.
-- Suppression des alertes vocales intempestives : élimination des annonces répétitives lors des freinages et accélérations pour un habitacle calme et silencieux.
-- Refonte de l'onglet vBot : suppression des téléchargements de packs vocaux, choix de voix épuré (Homme ou Femme), bouton d'accès direct à la console Groq et guide complet d'utilisation.
+- Correction et optimisation de l'assistant vocal vBot Vektra :
+- Permission Microphone (RECORD_AUDIO) : déclaration dans le manifeste et octroi automatique par ADB au premier lancement pour une activation immédiate sans blocage.
+- Écoute continue et détection de « Vektra » : boucle de reconnaissance vocale permanente en arrière-plan avec réarmement automatique fluide et sans latence.
+- Voix indépendante (Adieu la voix d'origine de la voiture !) : synthèse vocale 100% autonome via MediaPlayer et modulation fréquentielle matérielle (voix masculine grave et posée / voix féminine claire) sans jamais déclencher le moteur vocal OEM de la BYD.
+- Test de la clé API Groq en temps réel : bouton dédié « ⚡ Tester la clé API Groq » dans l'onglet vBot avec validation instantanée et badge de statut (Vert = active & opérationnelle).
+- Gestion Audio Ducking : atténuation automatique de la musique pendant les échanges avec l'assistant.
 
 ---
 

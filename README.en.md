@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.0** · released on 29 October 2026 · 45.8 MB
+**VERSION 2.0.1** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,16 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.0
+## What is new in 2.0.1
 
-- vBot Vektra Smart Voice Assistant & Groq AI Integration (Llama 3.3):
-- Instant Call Response ("Yes, sir?"): zero-latency immediate acknowledgment customized to your chosen call name.
-- Voice Standby & Wakeup: say "Vektra, go to sleep" to mute listening during cabin conversations; say "Vektra, wake up" to resume.
-- Hands-Free Vehicle Control: climate temperature, driving modes (Sport, Eco, Normal), cluster themes (Carbon 3D, Aston, VektraUI), battery/tyre telemetry and media playback.
-- Free Unlimited AI Conversation with Groq: connect your free Groq API key for natural discussion at 500 words/second.
-- Cinematic Offline Mode: vehicle controls remain fully operational without 4G, with an elegant connection status notice.
-- No Unwanted Driving Alerts: removed repetitive braking and acceleration audio interruptions for a serene cabin experience.
-- Streamlined vBot Tab: removed voice pack downloads, simplified voice selector (Male or Female), direct Groq console link button and built-in user guide.
+- vBot Vektra Voice Assistant Fixes & Enhancements:
+- Microphone Permission (RECORD_AUDIO): added to manifest and auto-granted via local ADB on startup for immediate out-of-the-box operation.
+- Continuous Hotword Listening: persistent ambient listener for "Vektra" with seamless automatic re-arming loop.
+- Independent Speech Engine (No more OEM car voice!): 100% autonomous audio synthesis via MediaPlayer with real-time hardware pitch tuning (deep masculine / bright feminine tone), completely bypassing the car's native TTS engine.
+- Real-Time Groq API Key Verification: added "⚡ Test Groq API Key" button with instant validation and live status badge.
+- Audio Ducking: vehicle music volume automatically ducks during assistant interactions.
 
 ---
 
