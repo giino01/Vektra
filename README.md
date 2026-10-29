@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.1** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.2** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.1
+## Nouveautés de la 2.0.2
 
-- Correction et optimisation de l'assistant vocal vBot Vektra :
-- Permission Microphone (RECORD_AUDIO) : déclaration dans le manifeste et octroi automatique par ADB au premier lancement pour une activation immédiate sans blocage.
-- Écoute continue et détection de « Vektra » : boucle de reconnaissance vocale permanente en arrière-plan avec réarmement automatique fluide et sans latence.
-- Voix indépendante (Adieu la voix d'origine de la voiture !) : synthèse vocale 100% autonome via MediaPlayer et modulation fréquentielle matérielle (voix masculine grave et posée / voix féminine claire) sans jamais déclencher le moteur vocal OEM de la BYD.
-- Test de la clé API Groq en temps réel : bouton dédié « ⚡ Tester la clé API Groq » dans l'onglet vBot avec validation instantanée et badge de statut (Vert = active & opérationnelle).
-- Gestion Audio Ducking : atténuation automatique de la musique pendant les échanges avec l'assistant.
+- Assistant vocal vBot Vektra — Mode Embarqué Natif BYD & Validation Groq :
+- Moteur Audio Embarqué Autonome (CarAudioEngine) : l'écoute de « Vektra » et des commandes vocales fonctionne désormais directement sur la tablette BYD sans nécessiter les services Google (GMS) ni aucune application externe. Capture directe du flux microphone via AudioRecord 16 kHz Mono avec seuil VAD adaptatif au bruit de l'habitacle et pré-roll de 300 ms.
+- Transcription Instantanée Groq Whisper : transcription vocale ultra-rapide (~180 ms) sur puces LPU pour convertir fidèlement les instructions vocales en texte.
+- Correctif et Nettoyage de la Clé API Groq : assainissement automatique des clés collées (retrait des guillemets accidentels, espaces et préfixes "Bearer "), validation réseau directe et statut permanent « ✓ Active & Vérifiée ».
+- Permissions Système Renforcées (AppOps) : octroi automatique par ADB de RECORD_AUDIO et OP_RECORD_AUDIO garantissant la transmission matérielle du microphone sous DiLink / Android 10.
 
 ---
 

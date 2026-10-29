@@ -1,63 +1,56 @@
 {
-  "version": "2.0.1",
-  "apk": "Vektra-2.0.1.apk",
-  "size": 48086756,
+  "version": "2.0.2",
+  "apk": "Vektra-2.0.2.apk",
+  "size": 48101060,
   "notes": [
-    "Correction et optimisation de l'assistant vocal vBot Vektra :",
-    "Permission Microphone (RECORD_AUDIO) : déclaration dans le manifeste et octroi automatique par ADB au premier lancement pour une activation immédiate sans blocage.",
-    "Écoute continue et détection de « Vektra » : boucle de reconnaissance vocale permanente en arrière-plan avec réarmement automatique fluide et sans latence.",
-    "Voix indépendante (Adieu la voix d'origine de la voiture !) : synthèse vocale 100% autonome via MediaPlayer et modulation fréquentielle matérielle (voix masculine grave et posée / voix féminine claire) sans jamais déclencher le moteur vocal OEM de la BYD.",
-    "Test de la clé API Groq en temps réel : bouton dédié « ⚡ Tester la clé API Groq » dans l'onglet vBot avec validation instantanée et badge de statut (Vert = active & opérationnelle).",
-    "Gestion Audio Ducking : atténuation automatique de la musique pendant les échanges avec l'assistant."
+    "Assistant vocal vBot Vektra — Mode Embarqué Natif BYD & Validation Groq :",
+    "Moteur Audio Embarqué Autonome (CarAudioEngine) : l'écoute de « Vektra » et des commandes vocales fonctionne désormais directement sur la tablette BYD sans nécessiter les services Google (GMS) ni aucune application externe. Capture directe du flux microphone via AudioRecord 16 kHz Mono avec seuil VAD adaptatif au bruit de l'habitacle et pré-roll de 300 ms.",
+    "Transcription Instantanée Groq Whisper : transcription vocale ultra-rapide (~180 ms) sur puces LPU pour convertir fidèlement les instructions vocales en texte.",
+    "Correctif et Nettoyage de la Clé API Groq : assainissement automatique des clés collées (retrait des guillemets accidentels, espaces et préfixes \"Bearer \"), validation réseau directe et statut permanent « ✓ Active & Vérifiée ».",
+    "Permissions Système Renforcées (AppOps) : octroi automatique par ADB de RECORD_AUDIO et OP_RECORD_AUDIO garantissant la transmission matérielle du microphone sous DiLink / Android 10."
   ],
   "notesByLang": {
     "fr": [
-      "Correction et optimisation de l'assistant vocal vBot Vektra :",
-      "Permission Microphone (RECORD_AUDIO) : déclaration dans le manifeste et octroi automatique par ADB au premier lancement pour une activation immédiate sans blocage.",
-      "Écoute continue et détection de « Vektra » : boucle de reconnaissance vocale permanente en arrière-plan avec réarmement automatique fluide et sans latence.",
-      "Voix indépendante (Adieu la voix d'origine de la voiture !) : synthèse vocale 100% autonome via MediaPlayer et modulation fréquentielle matérielle (voix masculine grave et posée / voix féminine claire) sans jamais déclencher le moteur vocal OEM de la BYD.",
-      "Test de la clé API Groq en temps réel : bouton dédié « ⚡ Tester la clé API Groq » dans l'onglet vBot avec validation instantanée et badge de statut (Vert = active & opérationnelle).",
-      "Gestion Audio Ducking : atténuation automatique de la musique pendant les échanges avec l'assistant."
+      "Assistant vocal vBot Vektra — Mode Embarqué Natif BYD & Validation Groq :",
+      "Moteur Audio Embarqué Autonome (CarAudioEngine) : l'écoute de « Vektra » et des commandes vocales fonctionne désormais directement sur la tablette BYD sans nécessiter les services Google (GMS) ni aucune application externe. Capture directe du flux microphone via AudioRecord 16 kHz Mono avec seuil VAD adaptatif au bruit de l'habitacle et pré-roll de 300 ms.",
+      "Transcription Instantanée Groq Whisper : transcription vocale ultra-rapide (~180 ms) sur puces LPU pour convertir fidèlement les instructions vocales en texte.",
+      "Correctif et Nettoyage de la Clé API Groq : assainissement automatique des clés collées (retrait des guillemets accidentels, espaces et préfixes \"Bearer \"), validation réseau directe et statut permanent « ✓ Active & Vérifiée ».",
+      "Permissions Système Renforcées (AppOps) : octroi automatique par ADB de RECORD_AUDIO et OP_RECORD_AUDIO garantissant la transmission matérielle du microphone sous DiLink / Android 10."
     ],
     "en": [
-      "vBot Vektra Voice Assistant Fixes & Enhancements:",
-      "Microphone Permission (RECORD_AUDIO): added to manifest and auto-granted via local ADB on startup for immediate out-of-the-box operation.",
-      "Continuous Hotword Listening: persistent ambient listener for \"Vektra\" with seamless automatic re-arming loop.",
-      "Independent Speech Engine (No more OEM car voice!): 100% autonomous audio synthesis via MediaPlayer with real-time hardware pitch tuning (deep masculine / bright feminine tone), completely bypassing the car's native TTS engine.",
-      "Real-Time Groq API Key Verification: added \"⚡ Test Groq API Key\" button with instant validation and live status badge.",
-      "Audio Ducking: vehicle music volume automatically ducks during assistant interactions."
+      "vBot Vektra Voice Assistant — Native In-Car BYD Mode & Groq Fixes:",
+      "Standalone In-Car Audio Engine (CarAudioEngine): \"Vektra\" wake word and voice commands now operate natively on the BYD tablet without requiring Google Play Services or any third-party app. Direct 16 kHz Mono AudioRecord hardware capture with adaptive cabin noise floor VAD and 300 ms pre-roll.",
+      "Instant Groq Whisper Transcription: lightning-fast speech-to-text (~180 ms) running on Groq LPUs for zero-latency in-cabin transcription.",
+      "Groq API Key Sanitization & Direct Verification: automatic cleanup of pasted keys (stripping accidental quotes, whitespace, or \"Bearer \" prefixes), direct /models ping, and persistent \"✓ Active & Verified\" badge.",
+      "Reinforced AppOps Permissions: local ADB auto-grants both RECORD_AUDIO and OP_RECORD_AUDIO ensuring the hardware mic stream is never muted under Android 10 DiLink."
     ],
     "it": [
-      "Correzioni e ottimizzazioni per l'assistente vocale vBot Vektra:",
-      "Autorizzazione microfono (RECORD_AUDIO): inclusa nel manifesto e concessa automaticamente tramite ADB all'avvio.",
-      "Ascolto continuo del comando vocale « Vektra »: ciclo di ascolto in background con riarmo continuo.",
-      "Voce indipendente (Mai più la voce di fabbrica dell'auto!): sintesi autonoma con MediaPlayer e modulazione vocale hardware (timbro maschile profondo o femminile chiaro), escludendo del tutto il motore OEM BYD.",
-      "Verifica in tempo reale della chiave API Groq: nuovo pulsante « ⚡ Testa chiave API Groq » con feedback istantaneo e badge di stato.",
-      "Audio Ducking: la musica si abbassa automaticamente durante le risposte dell'assistente."
+      "Assistente vocale vBot Vektra — Modalità Nativa BYD & Correzione Groq:",
+      "Motore Audio Nativo di Bordo (CarAudioEngine): l'ascolto di « Vektra » e dei comandi vocali ora funziona direttamente sul tablet BYD senza servizi Google (GMS) né app esterne. Acquisizione hardware diretta a 16 kHz Mono tramite AudioRecord con VAD adattivo ai rumori dell'abitacolo e pre-roll di 300 ms.",
+      "Trascrizione Istantanea Groq Whisper: riconoscimento vocale ultrarapido (~180 ms) su chip LPU Groq per una reattività immediata.",
+      "Sanificazione e Convalida Chiave Groq: pulizia automatica di virgolette e spazi accidentali, verifica di rete diretta e badge « ✓ Attiva & Verificata ».",
+      "Autorizzazioni di Sistema AppOps: concessione automatica via ADB di RECORD_AUDIO e OP_RECORD_AUDIO per garantire il flusso microfonico sotto Android 10 DiLink."
     ],
     "de": [
-      "Korrekturen und Verbesserungen für den vBot Vektra Sprachassistenten:",
-      "Mikrofon-Berechtigung (RECORD_AUDIO): im Manifest deklariert und beim Start via lokalem ADB automatisch erteilt.",
-      "Kontinuierliche Erkennung von « Vektra »: dauerhafter Hintergrund-Hörzyklus mit flüssigem automatischem Reaktivieren.",
-      "Unabhängige Sprachausgabe (Keine OEM-Autostimme mehr!): vollständige autonome Wiedergabe via MediaPlayer mit Echtzeit-Tonhöhenanpassung, ohne das BYD-Standard-TTS zu nutzen.",
-      "Echtzeit-Test für Groq-API-Schlüssel: neue Schaltfläche « ⚡ Groq-API-Schlüssel testen » mit sofortiger Statusanzeige.",
-      "Audio Ducking: Musiklautstärke wird während der Sprachausgabe automatisch abgesenkt."
+      "vBot Vektra Sprachassistent — Nativer BYD-Fahrzeugmodus & Groq-Korrektur:",
+      "Autonome Fahrzeug-Audio-Engine (CarAudioEngine): die Erkennung von « Vektra » und Sprachbefehlen läuft jetzt direkt auf dem BYD-Tablet ohne Google-Dienste oder Zusatz-Apps. Direkte Hardware-Aufnahme mit AudioRecord (16 kHz Mono), adaptiver Kabinengeräusch-VAD und 300 ms Pre-Roll.",
+      "Sofortige Groq-Whisper-Transkription: ultraschnelle Spracherkennung (~180 ms) auf Groq-LPUs für verzögerungsfreie Sprachbefehle.",
+      "Bereinigung und Verifizierung des Groq-Schlüssels: automatisches Entfernen von Anführungszeichen, Leerzeichen und \"Bearer \"-Präfixen, direkte Modellabfrage und Status-Badge « ✓ Aktiv & Verifiziert ».",
+      "Erweiterte AppOps-Berechtigungen: automatische Freigabe von RECORD_AUDIO und OP_RECORD_AUDIO via lokalem ADB für DiLink / Android 10."
     ],
     "pt": [
-      "Correções e melhorias no assistente de voz vBot Vektra:",
-      "Permissão de microfone (RECORD_AUDIO): adicionada ao manifesto e concedida automaticamente por ADB no arranque.",
-      "Escuta contínua de « Vektra »: ciclo de reconhecimento vocal em segundo plano com reativação automática constante.",
-      "Voz independente (Sem a voz original do carro!): síntese 100% autónoma via MediaPlayer com afinação de frequência de hardware (voz masculina grave / feminina clara), contornando o motor OEM da BYD.",
-      "Teste de chave API Groq em tempo real: botão « ⚡ Testar chave API Groq » com validação imediata e distintivo de estado.",
-      "Audio Ducking: música do veículo diminui de volume suavemente durante as falas do assistente."
+      "Assistente de Voz vBot Vektra — Modo Nativo BYD & Correção Groq:",
+      "Motor de Áudio Integrado Autónomo (CarAudioEngine): o reconhecimento da palavra-chave « Vektra » e dos comandos de voz opera agora nativamente no tablet BYD sem necessidade dos serviços Google nem aplicações externas. Captura direta por AudioRecord a 16 kHz Mono com VAD adaptativo ao ruído da cabine e pré-roll de 300 ms.",
+      "Transcrição Instantânea Groq Whisper: transcrição de voz ultrarrápida (~180 ms) em chips LPU da Groq para resposta imediata.",
+      "Sanitização e Validação da Chave Groq: limpeza automática de aspas acidentais, espaços e prefixos \"Bearer \", validação direta e distintivo permanente « ✓ Ativa & Verificada ».",
+      "Permissões de Sistema AppOps: concessão automática por ADB de RECORD_AUDIO e OP_RECORD_AUDIO assegurando o fluxo de microfone no Android 10 DiLink."
     ],
     "tr": [
-      "vBot Vektra Sesli Asistan Düzeltmeleri ve İyileştirmeleri:",
-      "Mikrofon İzni (RECORD_AUDIO): bildirime eklendi ve başlangıçta yerel ADB üzerinden otomatik olarak verildi.",
-      "Sürekli « Vektra » Dinleme: arka planda akıcı otomatik yeniden başlatma döngüsüyle kesintisiz ortam dinlemesi.",
-      "Bağımsız Ses Motoru (Araç fabrika sesine son!): MediaPlayer ve gerçek zamanlı donanım frekans modülasyonuyla tamamen bağımsız ses sentezi, BYD OEM motorunu tamamen atlar.",
-      "Gerçek Zamanlı Groq API Anahtarı Doğrulaması: anında doğrulama ve durum rozeti sağlayan « ⚡ Groq API Anahtarını Test Et » düğmesi.",
-      "Audio Ducking: asistan konuşurken araç müziği otomatik olarak kısılır."
+      "vBot Vektra Sesli Asistan — BYD Yerel Araç Modu ve Groq Düzeltmeleri:",
+      "Bağımsız Yerel Araç Ses Motoru (CarAudioEngine): « Vektra » uyandırma kelimesi ve sesli komutlar artık Google hizmetlerine veya harici uygulamalara ihtiyaç duymadan doğrudan BYD tabletinde çalışır. Kabin gürültüsüne uyarlanabilir VAD ve 300 ms ön-arabellek ile doğrudan 16 kHz Mono AudioRecord donanım kaydı.",
+      "Anında Groq Whisper Metne Dönüştürme: sıfır gecikmeli kabin içi etkileşim için Groq LPU yongalarında ultra hızlı (~180 ms) ses tanıma.",
+      "Groq Anahtarı Temizleme ve Doğrulama: yapıştırılan anahtarlardaki tırnak işaretlerini, boşlukları ve \"Bearer \" öneklerini otomatik temizleme, doğrudan ağ kontrolü ve kalıcı « ✓ Aktif & Doğrulandı » rozeti.",
+      "Güçlendirilmiş AppOps İzinleri: Android 10 DiLink altında mikrofon akışının kesilmemesini sağlayan RECORD_AUDIO ve OP_RECORD_AUDIO yerel ADB otomatik yetkilendirmesi."
     ]
   }
 }

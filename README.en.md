@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.1** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.2** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.1
+## What is new in 2.0.2
 
-- vBot Vektra Voice Assistant Fixes & Enhancements:
-- Microphone Permission (RECORD_AUDIO): added to manifest and auto-granted via local ADB on startup for immediate out-of-the-box operation.
-- Continuous Hotword Listening: persistent ambient listener for "Vektra" with seamless automatic re-arming loop.
-- Independent Speech Engine (No more OEM car voice!): 100% autonomous audio synthesis via MediaPlayer with real-time hardware pitch tuning (deep masculine / bright feminine tone), completely bypassing the car's native TTS engine.
-- Real-Time Groq API Key Verification: added "⚡ Test Groq API Key" button with instant validation and live status badge.
-- Audio Ducking: vehicle music volume automatically ducks during assistant interactions.
+- vBot Vektra Voice Assistant — Native In-Car BYD Mode & Groq Fixes:
+- Standalone In-Car Audio Engine (CarAudioEngine): "Vektra" wake word and voice commands now operate natively on the BYD tablet without requiring Google Play Services or any third-party app. Direct 16 kHz Mono AudioRecord hardware capture with adaptive cabin noise floor VAD and 300 ms pre-roll.
+- Instant Groq Whisper Transcription: lightning-fast speech-to-text (~180 ms) running on Groq LPUs for zero-latency in-cabin transcription.
+- Groq API Key Sanitization & Direct Verification: automatic cleanup of pasted keys (stripping accidental quotes, whitespace, or "Bearer " prefixes), direct /models ping, and persistent "✓ Active & Verified" badge.
+- Reinforced AppOps Permissions: local ADB auto-grants both RECORD_AUDIO and OP_RECORD_AUDIO ensuring the hardware mic stream is never muted under Android 10 DiLink.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.0.1** · pubblicata il 29 ottobre 2026 · 45.9 MB
+**VERSIONE 2.0.2** · pubblicata il 29 ottobre 2026 · 45.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,13 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.0.1
+## Novità della 2.0.2
 
-- Correzioni e ottimizzazioni per l'assistente vocale vBot Vektra:
-- Autorizzazione microfono (RECORD_AUDIO): inclusa nel manifesto e concessa automaticamente tramite ADB all'avvio.
-- Ascolto continuo del comando vocale « Vektra »: ciclo di ascolto in background con riarmo continuo.
-- Voce indipendente (Mai più la voce di fabbrica dell'auto!): sintesi autonoma con MediaPlayer e modulazione vocale hardware (timbro maschile profondo o femminile chiaro), escludendo del tutto il motore OEM BYD.
-- Verifica in tempo reale della chiave API Groq: nuovo pulsante « ⚡ Testa chiave API Groq » con feedback istantaneo e badge di stato.
-- Audio Ducking: la musica si abbassa automaticamente durante le risposte dell'assistente.
+- Assistente vocale vBot Vektra — Modalità Nativa BYD & Correzione Groq:
+- Motore Audio Nativo di Bordo (CarAudioEngine): l'ascolto di « Vektra » e dei comandi vocali ora funziona direttamente sul tablet BYD senza servizi Google (GMS) né app esterne. Acquisizione hardware diretta a 16 kHz Mono tramite AudioRecord con VAD adattivo ai rumori dell'abitacolo e pre-roll di 300 ms.
+- Trascrizione Istantanea Groq Whisper: riconoscimento vocale ultrarapido (~180 ms) su chip LPU Groq per una reattività immediata.
+- Sanificazione e Convalida Chiave Groq: pulizia automatica di virgolette e spazi accidentali, verifica di rete diretta e badge « ✓ Attiva & Verificata ».
+- Autorizzazioni di Sistema AppOps: concessione automatica via ADB di RECORD_AUDIO e OP_RECORD_AUDIO per garantire il flusso microfonico sotto Android 10 DiLink.
 
 ---
 
