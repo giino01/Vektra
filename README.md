@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.3** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.4** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.3
+## Nouveautés de la 2.0.4
 
-- Résolution de l'indisposition de réponse Groq IA & Résilience Conversationnelle :
-- Suppression du conflit de schéma d'outils (tool_use_failed) : élimination du bloc tools JSON qui provoquait une erreur HTTP 400 sur les requêtes conversationnelles libres. L'assistant répond désormais à toute question instantanément et sans message d'indisposition.
-- Repli automatique haute disponibilité (Dual-Model Failover) : basculement transparent et immédiat de llama-3.3-70b-versatile vers llama-3.1-8b-instant en cas de charge ou de limitation de débit sur Groq.
-- Pilotage matériel naturel : interprétation fluide des actions de bord (climatisation, modes de conduite, thèmes de combiné) intégrées aux réponses conversationnelles sans perturber le modèle.
-- Récupération de génération (failed_generation) : récupération de secours automatique des textes générés pour garantir une réponse orale en toute circonstance.
+- Renforcement de la pile réseau Groq & En-têtes mobiles standardisés :
+- Flux réseau HTTP robuste (Streaming binaire fixe) : envoi des requêtes avec taille de flux exacte (setFixedLengthStreamingMode) évitant le découpage en tronçons (chunked encoding) parfois rejeté par les passerelles mobiles.
+- En-tête User-Agent standardisé : compatibilité totale avec les passerelles Cloudflare et serveurs d'API.
+- Tolérance réseau accrue : timeouts étendus à 12 et 15 secondes pour les réseaux mobiles et connexions 4G.
+- Diagnostic d'erreur transparent : précision du code d'erreur HTTP en cas d'incident pour identifier immédiatement la source du blocage.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.0.3** · publicada a 29 de outubro de 2026 · 45.9 MB
+**VERSÃO 2.0.4** · publicada a 29 de outubro de 2026 · 45.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.0.3
+## Novidades da 2.0.4
 
-- Correção da indisponibilidade temporária da IA Groq & Resiliência Conversacional:
-- Conflito de ferramentas resolvido (tool_use_failed): eliminação do esquema JSON tools que causava erro HTTP 400 em conversas livres. O assistente responde agora a todas as perguntas sem avisos de indisponibilidade.
-- Failover de duplo modelo: transição automática e transparente de llama-3.3-70b-versatile para llama-3.1-8b-instant em caso de tráfego intenso.
-- Controlo veicular natural: extração de ações de bordo (ar condicionado, modos de condução, temas) nas respostas.
-- Recuperação de geração: extração de segurança de texto para garantir sempre o retorno por voz.
+- Reforço da pilha de rede Groq & Cabeçalhos móveis padronizados:
+- Transmissão binária HTTP robusta: definição exata do tamanho via setFixedLengthStreamingMode evitando bloqueios de rede móvel.
+- User-Agent padronizado: total compatibilidade com Cloudflare e servidores de API.
+- Timeouts alargados: aumentados para 12s de ligação e 15s de leitura para redes 4G.
+- Diagnóstico transparente: indicação explícita do código HTTP em caso de falha.
 
 ---
 

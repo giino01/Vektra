@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.3** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.4** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.3
+## What is new in 2.0.4
 
-- Groq AI "Temporary Unavailability" Fix & Conversational Resilience:
-- Resolved Tool Calling Conflict (tool_use_failed): removed rigid tools JSON schema payload that triggered Groq HTTP 400 errors during open-ended conversations. The assistant now answers questions instantly without reporting unavailability.
-- Dual-Model Failover: automatic, seamless fallback from llama-3.3-70b-versatile to llama-3.1-8b-instant during peak traffic or rate-limiting events.
-- Natural In-Cabin Action Parsing: fluid vehicle command extraction (AC, drive modes, cluster themes) directly within conversational replies.
-- Generation Rescue: automatic extraction from failed_generation error bodies ensures voice output is never dropped.
+- Groq Network Stack Hardening & Standardized Mobile Headers:
+- Robust HTTP Binary Streaming: exact payload length enforcement via setFixedLengthStreamingMode preventing chunked encoding rejections on mobile gateways.
+- Standardized User-Agent: full compatibility across Cloudflare edge routers and API servers.
+- Extended Timeouts: increased to 12s connect and 15s read for optimal mobile 4G tolerance.
+- Transparent Error Diagnostics: explicit HTTP status code reporting in case of any network incident.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.0.3** · pubblicata il 29 ottobre 2026 · 45.9 MB
+**VERSIONE 2.0.4** · pubblicata il 29 ottobre 2026 · 45.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.0.3
+## Novità della 2.0.4
 
-- Risoluzione errore indisponibilità IA Groq & Resilienza di conversazione:
-- Risolto conflitto strumenti (tool_use_failed): rimosso lo schema JSON tools che causava l'errore HTTP 400 nelle conversazioni libere. L'assistente risponde ora a ogni domanda senza messaggi di indisposizione.
-- Failover a doppio modello: passaggio automatico e trasparente da llama-3.3-70b-versatile a llama-3.1-8b-instant in caso di carico di rete o limiti di frequenza.
-- Controllo veicolo naturale: gestione integrata dei comandi auto (clima, modalità di guida, temi) nelle risposte vocali.
-- Recupero generazioni: salvataggio automatico delle risposte per garantire sempre la risposta a voce.
+- Rafforzamento della rete Groq & Intestazioni mobili standardizzate:
+- Streaming binario HTTP robusto: dimensione esatta del payload con setFixedLengthStreamingMode per evitare blocchi sui gateway mobili.
+- User-Agent standardizzato: massima compatibilità con Cloudflare e server API.
+- Timeout estesi: elevati a 12s connessione e 15s lettura per connessioni 4G lente.
+- Diagnostica trasparente: indicazione esatta del codice di errore HTTP in caso di anomalia.
 
 ---
 

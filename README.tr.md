@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.0.3** · yayın tarihi 29 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.0.4** · yayın tarihi 29 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.0.3
+## Yenilikler: 2.0.4
 
-- Groq Yapay Zeka "Geçici Hizmet Kesintisi" Düzeltmesi ve Konuşma Direnci:
-- Araç Çakışması Giderildi (tool_use_failed): serbest konuşmalarda HTTP 400 hatasına neden olan tools JSON şeması kaldırıldı. Asistan artık kesinti uyarısı vermeden tüm soruları anında yanıtlar.
-- Çift Modelli Yedekleme: yoğunluk veya kota aşımı durumunda llama-3.3-70b-versatile modelinden anında llama-3.1-8b-instant modeline otomatik geçiş.
-- Doğal Araç Kontrolü: klima, sürüş modları ve gösterge teması komutlarının sesli yanıtlara akıcı entegrasyonu.
-- Üretim Kurtarma: sesli yanıtın hiçbir zaman kaybolmamasını sağlayan otomatik metin kurtarma mekanizması.
+- Groq Ağ Yığını Güçlendirmesi ve Standart Mobil Başlıklar:
+- Sağlam HTTP İkili Akışı: mobil ağlarda parça parça kodlama sorunlarını önlemek için setFixedLengthStreamingMode ile kesin yük boyutu belirleme.
+- Standart Kullanıcı Aracısı: Cloudflare ve API sunucuları ile tam uyumluluk.
+- Genişletilmiş Zaman Aşımları: 4G mobil ağlar için 12 saniye bağlantı ve 15 saniye okuma süresi.
+- Şeffaf Hata Tanılama: olası ağ sorunlarında açık HTTP durum kodu bildirimi.
 
 ---
 

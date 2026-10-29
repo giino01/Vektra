@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.3** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
+**VERSION 2.0.4** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.3
+## Neu in 2.0.4
 
-- Behebung der vorübergehenden Groq-KI-Verfügbarkeitsstörung & Konversations-Resilienz:
-- Tool-Konflikt behoben (tool_use_failed): Entfernung des starren tools-JSON-Schemas, das bei freien Dialogen den HTTP-400-Fehler verursachte. Der Assistent antwortet nun sofort auf jede Frage.
-- Dual-Modell-Failover: automatischer, nahtloser Wechsel von llama-3.3-70b-versatile zu llama-3.1-8b-instant bei Auslastung oder Limitierung.
-- Natürliche Fahrzeugsteuerung: flüssige Erkennung von Fahrzeugaktionen (Klima, Fahrmodi, Tachothemen) in Sprachantworten.
-- Generierungs-Rettung: automatische Wiederherstellung von Antworten für eine unterbrechungsfreie Sprachausgabe.
+- Härtung des Groq-Netzwerk-Stacks & Standardisierte mobile Header:
+- Robuster binärer HTTP-Stream: exakte Übertragungslänge via setFixedLengthStreamingMode zur Vermeidung von Chunked-Encoding-Problemen.
+- Standardisierter User-Agent: volle Kompatibilität mit Cloudflare- und API-Gateways.
+- Erweiterte Timeouts: auf 12s Verbindungs- und 15s Lesezeit für 4G-Mobilnetze erhöht.
+- Transparente Fehlerdiagnose: präzise Angabe des HTTP-Statuscodes bei Netzwerkproblemen.
 
 ---
 

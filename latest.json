@@ -1,56 +1,56 @@
 {
-  "version": "2.0.3",
-  "apk": "Vektra-2.0.3.apk",
-  "size": 48102736,
+  "version": "2.0.4",
+  "apk": "Vektra-2.0.4.apk",
+  "size": 48104048,
   "notes": [
-    "Résolution de l'indisposition de réponse Groq IA & Résilience Conversationnelle :",
-    "Suppression du conflit de schéma d'outils (tool_use_failed) : élimination du bloc tools JSON qui provoquait une erreur HTTP 400 sur les requêtes conversationnelles libres. L'assistant répond désormais à toute question instantanément et sans message d'indisposition.",
-    "Repli automatique haute disponibilité (Dual-Model Failover) : basculement transparent et immédiat de llama-3.3-70b-versatile vers llama-3.1-8b-instant en cas de charge ou de limitation de débit sur Groq.",
-    "Pilotage matériel naturel : interprétation fluide des actions de bord (climatisation, modes de conduite, thèmes de combiné) intégrées aux réponses conversationnelles sans perturber le modèle.",
-    "Récupération de génération (failed_generation) : récupération de secours automatique des textes générés pour garantir une réponse orale en toute circonstance."
+    "Renforcement de la pile réseau Groq & En-têtes mobiles standardisés :",
+    "Flux réseau HTTP robuste (Streaming binaire fixe) : envoi des requêtes avec taille de flux exacte (setFixedLengthStreamingMode) évitant le découpage en tronçons (chunked encoding) parfois rejeté par les passerelles mobiles.",
+    "En-tête User-Agent standardisé : compatibilité totale avec les passerelles Cloudflare et serveurs d'API.",
+    "Tolérance réseau accrue : timeouts étendus à 12 et 15 secondes pour les réseaux mobiles et connexions 4G.",
+    "Diagnostic d'erreur transparent : précision du code d'erreur HTTP en cas d'incident pour identifier immédiatement la source du blocage."
   ],
   "notesByLang": {
     "fr": [
-      "Résolution de l'indisposition de réponse Groq IA & Résilience Conversationnelle :",
-      "Suppression du conflit de schéma d'outils (tool_use_failed) : élimination du bloc tools JSON qui provoquait une erreur HTTP 400 sur les requêtes conversationnelles libres. L'assistant répond désormais à toute question instantanément et sans message d'indisposition.",
-      "Repli automatique haute disponibilité (Dual-Model Failover) : basculement transparent et immédiat de llama-3.3-70b-versatile vers llama-3.1-8b-instant en cas de charge ou de limitation de débit sur Groq.",
-      "Pilotage matériel naturel : interprétation fluide des actions de bord (climatisation, modes de conduite, thèmes de combiné) intégrées aux réponses conversationnelles sans perturber le modèle.",
-      "Récupération de génération (failed_generation) : récupération de secours automatique des textes générés pour garantir une réponse orale en toute circonstance."
+      "Renforcement de la pile réseau Groq & En-têtes mobiles standardisés :",
+      "Flux réseau HTTP robuste (Streaming binaire fixe) : envoi des requêtes avec taille de flux exacte (setFixedLengthStreamingMode) évitant le découpage en tronçons (chunked encoding) parfois rejeté par les passerelles mobiles.",
+      "En-tête User-Agent standardisé : compatibilité totale avec les passerelles Cloudflare et serveurs d'API.",
+      "Tolérance réseau accrue : timeouts étendus à 12 et 15 secondes pour les réseaux mobiles et connexions 4G.",
+      "Diagnostic d'erreur transparent : précision du code d'erreur HTTP en cas d'incident pour identifier immédiatement la source du blocage."
     ],
     "en": [
-      "Groq AI \"Temporary Unavailability\" Fix & Conversational Resilience:",
-      "Resolved Tool Calling Conflict (tool_use_failed): removed rigid tools JSON schema payload that triggered Groq HTTP 400 errors during open-ended conversations. The assistant now answers questions instantly without reporting unavailability.",
-      "Dual-Model Failover: automatic, seamless fallback from llama-3.3-70b-versatile to llama-3.1-8b-instant during peak traffic or rate-limiting events.",
-      "Natural In-Cabin Action Parsing: fluid vehicle command extraction (AC, drive modes, cluster themes) directly within conversational replies.",
-      "Generation Rescue: automatic extraction from failed_generation error bodies ensures voice output is never dropped."
+      "Groq Network Stack Hardening & Standardized Mobile Headers:",
+      "Robust HTTP Binary Streaming: exact payload length enforcement via setFixedLengthStreamingMode preventing chunked encoding rejections on mobile gateways.",
+      "Standardized User-Agent: full compatibility across Cloudflare edge routers and API servers.",
+      "Extended Timeouts: increased to 12s connect and 15s read for optimal mobile 4G tolerance.",
+      "Transparent Error Diagnostics: explicit HTTP status code reporting in case of any network incident."
     ],
     "it": [
-      "Risoluzione errore indisponibilità IA Groq & Resilienza di conversazione:",
-      "Risolto conflitto strumenti (tool_use_failed): rimosso lo schema JSON tools che causava l'errore HTTP 400 nelle conversazioni libere. L'assistente risponde ora a ogni domanda senza messaggi di indisposizione.",
-      "Failover a doppio modello: passaggio automatico e trasparente da llama-3.3-70b-versatile a llama-3.1-8b-instant in caso di carico di rete o limiti di frequenza.",
-      "Controllo veicolo naturale: gestione integrata dei comandi auto (clima, modalità di guida, temi) nelle risposte vocali.",
-      "Recupero generazioni: salvataggio automatico delle risposte per garantire sempre la risposta a voce."
+      "Rafforzamento della rete Groq & Intestazioni mobili standardizzate:",
+      "Streaming binario HTTP robusto: dimensione esatta del payload con setFixedLengthStreamingMode per evitare blocchi sui gateway mobili.",
+      "User-Agent standardizzato: massima compatibilità con Cloudflare e server API.",
+      "Timeout estesi: elevati a 12s connessione e 15s lettura per connessioni 4G lente.",
+      "Diagnostica trasparente: indicazione esatta del codice di errore HTTP in caso di anomalia."
     ],
     "de": [
-      "Behebung der vorübergehenden Groq-KI-Verfügbarkeitsstörung & Konversations-Resilienz:",
-      "Tool-Konflikt behoben (tool_use_failed): Entfernung des starren tools-JSON-Schemas, das bei freien Dialogen den HTTP-400-Fehler verursachte. Der Assistent antwortet nun sofort auf jede Frage.",
-      "Dual-Modell-Failover: automatischer, nahtloser Wechsel von llama-3.3-70b-versatile zu llama-3.1-8b-instant bei Auslastung oder Limitierung.",
-      "Natürliche Fahrzeugsteuerung: flüssige Erkennung von Fahrzeugaktionen (Klima, Fahrmodi, Tachothemen) in Sprachantworten.",
-      "Generierungs-Rettung: automatische Wiederherstellung von Antworten für eine unterbrechungsfreie Sprachausgabe."
+      "Härtung des Groq-Netzwerk-Stacks & Standardisierte mobile Header:",
+      "Robuster binärer HTTP-Stream: exakte Übertragungslänge via setFixedLengthStreamingMode zur Vermeidung von Chunked-Encoding-Problemen.",
+      "Standardisierter User-Agent: volle Kompatibilität mit Cloudflare- und API-Gateways.",
+      "Erweiterte Timeouts: auf 12s Verbindungs- und 15s Lesezeit für 4G-Mobilnetze erhöht.",
+      "Transparente Fehlerdiagnose: präzise Angabe des HTTP-Statuscodes bei Netzwerkproblemen."
     ],
     "pt": [
-      "Correção da indisponibilidade temporária da IA Groq & Resiliência Conversacional:",
-      "Conflito de ferramentas resolvido (tool_use_failed): eliminação do esquema JSON tools que causava erro HTTP 400 em conversas livres. O assistente responde agora a todas as perguntas sem avisos de indisponibilidade.",
-      "Failover de duplo modelo: transição automática e transparente de llama-3.3-70b-versatile para llama-3.1-8b-instant em caso de tráfego intenso.",
-      "Controlo veicular natural: extração de ações de bordo (ar condicionado, modos de condução, temas) nas respostas.",
-      "Recuperação de geração: extração de segurança de texto para garantir sempre o retorno por voz."
+      "Reforço da pilha de rede Groq & Cabeçalhos móveis padronizados:",
+      "Transmissão binária HTTP robusta: definição exata do tamanho via setFixedLengthStreamingMode evitando bloqueios de rede móvel.",
+      "User-Agent padronizado: total compatibilidade com Cloudflare e servidores de API.",
+      "Timeouts alargados: aumentados para 12s de ligação e 15s de leitura para redes 4G.",
+      "Diagnóstico transparente: indicação explícita do código HTTP em caso de falha."
     ],
     "tr": [
-      "Groq Yapay Zeka \"Geçici Hizmet Kesintisi\" Düzeltmesi ve Konuşma Direnci:",
-      "Araç Çakışması Giderildi (tool_use_failed): serbest konuşmalarda HTTP 400 hatasına neden olan tools JSON şeması kaldırıldı. Asistan artık kesinti uyarısı vermeden tüm soruları anında yanıtlar.",
-      "Çift Modelli Yedekleme: yoğunluk veya kota aşımı durumunda llama-3.3-70b-versatile modelinden anında llama-3.1-8b-instant modeline otomatik geçiş.",
-      "Doğal Araç Kontrolü: klima, sürüş modları ve gösterge teması komutlarının sesli yanıtlara akıcı entegrasyonu.",
-      "Üretim Kurtarma: sesli yanıtın hiçbir zaman kaybolmamasını sağlayan otomatik metin kurtarma mekanizması."
+      "Groq Ağ Yığını Güçlendirmesi ve Standart Mobil Başlıklar:",
+      "Sağlam HTTP İkili Akışı: mobil ağlarda parça parça kodlama sorunlarını önlemek için setFixedLengthStreamingMode ile kesin yük boyutu belirleme.",
+      "Standart Kullanıcı Aracısı: Cloudflare ve API sunucuları ile tam uyumluluk.",
+      "Genişletilmiş Zaman Aşımları: 4G mobil ağlar için 12 saniye bağlantı ve 15 saniye okuma süresi.",
+      "Şeffaf Hata Tanılama: olası ağ sorunlarında açık HTTP durum kodu bildirimi."
     ]
   }
 }
