@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.0.7** · yayın tarihi 29 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.0.8** · yayın tarihi 29 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.0.7
+## Yenilikler: 2.0.8
 
-- %100 Eller Serbest Sesle Uyandırma ve BYD Kabin Akustik Kalibrasyonu (Düğmesiz):
-- Sabit VAD Eşik Değerinin Kaldırılması: tavan mikrofonunu engelleyen 600 RMS taban eşiği kaldırılarak ortam gürültüsüne tam uyarlamalı dinamik algılama sağlandı.
-- PCM Dijital Ön Amplifikasyon (2.5x Kazanç): tavan mikrofonunun mesafesini telafi ederek sesinizi yükseltmeden Whisper tarafından net algılanmasını sağlar.
-- Evrensel Qualcomm DiLink Çoklu Frekans Desteği (16 kHz / 48 kHz): 48 kHz donanımlarda 3:1 otomatik örnekleme ile tam uyumluluk.
-- Doğrudan Sesle Tetikleme: herhangi bir düğmeye basmadan sürücü koltuğundan yalnızca "Vektra" diyerek anında uyandırma.
+- ADB AppOps ve Standart Ön Plan Servisi ile BYD DiLink Mikrofon Kısıtlaması Aşımı:
+- FOREGROUND_SERVICE_MICROPHONE Çakışmasının Giderilmesi: DiLink işletim sistemi tarafından iptal edilen ve mikrofonu sessize alan kısıtlı servis tipi kaldırılarak standart FOREGROUND_SERVICE yapısına dönüldü.
+- ADB AppOps ile Kalıcı Mikrofon Erişimi: kesintisiz eller serbest dinleme için yerel ADB üzerinden RECORD_AUDIO, OP_RECORD_AUDIO ve 27 numaralı op kodu otomatik tanımlandı.
+- Dirençli Otomatik Ses Akışı Kurtarma (CarAudioEngine): sistem kesintilerinde veya açılış gecikmelerinde mikrofon kaydını otomatik olarak yeniden başlatan akıllı döngü.
+- Ön Plan Pencere Önceliği: 3D maskot / kayan widget sayesinde sistemin mikrofonu uykuya alması önlenir.
 
 ---
 

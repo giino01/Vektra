@@ -1,56 +1,56 @@
 {
-  "version": "2.0.7",
-  "apk": "Vektra-2.0.7.apk",
-  "size": 48118856,
+  "version": "2.0.8",
+  "apk": "Vektra-2.0.8.apk",
+  "size": 48124492,
   "notes": [
-    "Réveil 100% vocal mains libres & Calibrage acoustique habitacle BYD (Sans aucun bouton) :",
-    "Suppression du plancher rigide de détection VAD : élimination du seuil fixe à 600 RMS qui ignorait la voix du conducteur à 1 mètre du plafonnier. Le seuil est désormais 100% relatif et calibré en temps réel sur le bruit de fond réel de la voiture.",
-    "Pré-amplification logicielle PCM (Gain numérique 2.5x) : compensation directe de l'atténuation physique du micro de toit BYD. Le flux audio envoyé à Whisper est net, puissant et parfaitement intelligible sans hausser la voix.",
-    "Multi-fréquence native Qualcomm Snapdragon (16 kHz / 48 kHz) : compatibilité universelle avec le pilote audio DiLink, avec décimation matérielle 3:1 automatique en 48 kHz.",
-    "Détection ultra-sensible au mot « Vektra » : réveil instantané purement à la voix depuis le siège conducteur, sans jamais avoir à toucher le volant ni l'écran."
+    "Contournement des restrictions microphone BYD DiLink via AppOps ADB & Service standard :",
+    "Suppression du conflit FOREGROUND_SERVICE_MICROPHONE : élimination du type de service qui était révoqué d'office par la ROM DiLink et mutait le microphone. Retour au FOREGROUND_SERVICE standard autorisé.",
+    "Déverrouillage permanent du micro via AppOps ADB : injection automatisée des autorisations RECORD_AUDIO, OP_RECORD_AUDIO et code d'opération 27 (appops set et cmd appops set) pour un accès continu sans interruption ni boîte de dialogue.",
+    "Auto-rétablissement résilient du flux audio (CarAudioEngine) : boucle de reconnexion automatique en cas de coupure du flux audio par le système ou de démarrage différé d'ADB.",
+    "Maintien de la priorité premier plan : la mascotte Three.js / widget flottant assure l'immunité contre la mise en sommeil par le gestionnaire d'énergie BYD."
   ],
   "notesByLang": {
     "fr": [
-      "Réveil 100% vocal mains libres & Calibrage acoustique habitacle BYD (Sans aucun bouton) :",
-      "Suppression du plancher rigide de détection VAD : élimination du seuil fixe à 600 RMS qui ignorait la voix du conducteur à 1 mètre du plafonnier. Le seuil est désormais 100% relatif et calibré en temps réel sur le bruit de fond réel de la voiture.",
-      "Pré-amplification logicielle PCM (Gain numérique 2.5x) : compensation directe de l'atténuation physique du micro de toit BYD. Le flux audio envoyé à Whisper est net, puissant et parfaitement intelligible sans hausser la voix.",
-      "Multi-fréquence native Qualcomm Snapdragon (16 kHz / 48 kHz) : compatibilité universelle avec le pilote audio DiLink, avec décimation matérielle 3:1 automatique en 48 kHz.",
-      "Détection ultra-sensible au mot « Vektra » : réveil instantané purement à la voix depuis le siège conducteur, sans jamais avoir à toucher le volant ni l'écran."
+      "Contournement des restrictions microphone BYD DiLink via AppOps ADB & Service standard :",
+      "Suppression du conflit FOREGROUND_SERVICE_MICROPHONE : élimination du type de service qui était révoqué d'office par la ROM DiLink et mutait le microphone. Retour au FOREGROUND_SERVICE standard autorisé.",
+      "Déverrouillage permanent du micro via AppOps ADB : injection automatisée des autorisations RECORD_AUDIO, OP_RECORD_AUDIO et code d'opération 27 (appops set et cmd appops set) pour un accès continu sans interruption ni boîte de dialogue.",
+      "Auto-rétablissement résilient du flux audio (CarAudioEngine) : boucle de reconnexion automatique en cas de coupure du flux audio par le système ou de démarrage différé d'ADB.",
+      "Maintien de la priorité premier plan : la mascotte Three.js / widget flottant assure l'immunité contre la mise en sommeil par le gestionnaire d'énergie BYD."
     ],
     "en": [
-      "100% Hands-Free Voice Wake-Up & In-Cabin Acoustic Calibration (Zero Buttons Required):",
-      "Removed Rigid VAD Noise Floor: eliminated the legacy 600 RMS hard floor that ignored driver speech captured from the ceiling mic 1 meter away. Gating is now 100% dynamic and adapts in real time to the car's ambient noise.",
-      "PCM Digital Pre-Amp (2.5x Gain Boost): compensates for interior roof microphone distance. Audio streams delivered to Whisper are crisp and easily transcribed without needing to raise your voice.",
-      "Universal Qualcomm DiLink Multi-Rate Support (16 kHz / 48 kHz): automatic fallback with 3:1 integer decimation ensures smooth audio capture across all Snapdragon head unit variants.",
-      "Instant Hotword Trigger: purely voice-activated \"Vektra\" wake-up from the driver's seat with zero physical button interaction."
+      "BYD DiLink Microphone Bypass via ADB AppOps & Standard Foreground Service:",
+      "Removed FOREGROUND_SERVICE_MICROPHONE Conflict: eliminated the restricted service type that caused DiLink OS to revoke microphone access and mute the audio stream. Reverted to standard granted FOREGROUND_SERVICE.",
+      "Permanent AppOps Microphone Unlock: automated ADB injection of RECORD_AUDIO, OP_RECORD_AUDIO, and operation code 27 via local socket for uninterrupted hands-free listening.",
+      "Resilient Audio Stream Auto-Recovery (CarAudioEngine): self-healing recording loop automatically reconnects the microphone stream if interrupted by the car OS or during boot timing.",
+      "Foreground Window Priority: floating 3D mascot / widget maintains active window status to prevent battery-saver mic muting."
     ],
     "it": [
-      "Attivazione vocale 100% a mani libere & Calibrazione acustica abitacolo BYD (Senza pulsanti):",
-      "Rimozione della soglia fissa VAD: eliminato il blocco fisso a 600 RMS che ignorava la voce dal microfono a soffitto. La soglia si adatta ora in tempo reale al rumore reale dell'auto.",
-      "Preamplificazione software PCM (Guadagno 2.5x): bilanciamento della distanza dal microfono di bordo per una trascrizione perfetta con Whisper senza alzare la voce.",
-      "Supporto multi-frequenza Qualcomm DiLink (16 kHz / 48 kHz): compatibilità universale con decimazione automatica 3:1 a 48 kHz.",
-      "Risveglio vocale istantaneo: attivazione immediata pronunciando \"Vektra\" senza toccare alcun comando."
+      "Bypass delle restrizioni microfono BYD DiLink tramite AppOps ADB e Servizio Standard:",
+      "Risoluzione del conflitto FOREGROUND_SERVICE_MICROPHONE: rimossa la dichiarazione revocata da DiLink che silenziava l'audio. Ripristinato il normale FOREGROUND_SERVICE autorizzato.",
+      "Sblocco continuo del microfono via AppOps ADB: assegnazione automatica di RECORD_AUDIO, OP_RECORD_AUDIO e opcode 27 per un ascolto vocale fluido e continuo.",
+      "Riconnessione automatica resiliente (CarAudioEngine): riavvio automatico della cattura microfonica in caso di interruzione temporanea del sistema.",
+      "Priorità di primo piano: la mascotte Three.js / widget mantiene la visibilità evitando lo standby del microfono."
     ],
     "de": [
-      "100 % freihändige Sprachaktivierung & Akustische Innenraumkalibrierung (Ohne Tasten):",
-      "Beseitigung starrer VAD-Schwellenwerte: die feste Grenze von 600 RMS wurde entfernt. Die Schwelle passt sich nun dynamisch an das reale Hintergrundgeräusch des Fahrzeugs an.",
-      "Digitale PCM-Vorverstärkung (2.5x Gain): gleicht die Distanz zum Deckenmikrofon aus, sodass Whisper die Stimme klar und deutlich ohne Rufen erfasst.",
-      "Qualcomm Snapdragon Mehrfrequenz-Unterstützung (16 kHz / 48 kHz): nahtlose automatische 3:1-Dezimierung für alle DiLink-Hardwaregenerationen.",
-      "Reine Sprachaktivierung: sofortiges Aufwecken mit « Vektra » direkt vom Fahrersitz ohne Tastendruck."
+      "BYD DiLink Mikrofon-Bypass über ADB AppOps & Standard-Vordergrunddienst:",
+      "FOREGROUND_SERVICE_MICROPHONE-Konflikt behoben: Beseitigung des vom DiLink-Betriebssystem blockierten Servicetyps, der die Audioaufnahme stummschaltete. Rückkehr zum standardmäßig gewährten FOREGROUND_SERVICE.",
+      "Dauerhafte Mikrofonfreigabe via AppOps ADB: automatische Vergabe von RECORD_AUDIO, OP_RECORD_AUDIO und Opcode 27 für lückenlose freihändige Spracherkennung.",
+      "Ausfallsichere automatische Audiowiederherstellung (CarAudioEngine): automatische Reinitialisierung des Mikrofon-Streams bei temporären Systemunterbrechungen.",
+      "Vordergrund-Fensterpriorität: schwebendes 3D-Widget / Maskottchen sichert dauerhafte Audioaktivität gegen Energiesparmodi."
     ],
     "pt": [
-      "Ativação 100% mãos livres por voz & Calibração acústica de cabine BYD (Sem botões):",
-      "Eliminação do limite rígido de VAD: removido o piso estático de 600 RMS. O limiar adapta-se agora dinamicamente ao ruído de fundo real do automóvel.",
-      "Pré-amplificação digital PCM (Ganho 2.5x): compensação da distância do microfone de teto para uma transcrição precisa pelo Whisper sem esforço vocal.",
-      "Compatibilidade multi-frequência Qualcomm DiLink (16 kHz / 48 kHz): suporte universal com decimação automática 3:1 a 48 kHz.",
-      "Despertar vocal puro: ativação imediata chamando « Vektra » sem tocar no volante nem no ecrã."
+      "Desbloqueio do microfone BYD DiLink via AppOps ADB e Serviço Padrão:",
+      "Resolução do conflito FOREGROUND_SERVICE_MICROPHONE: remoção do tipo de serviço que era revogado pelo DiLink e silenciava a captura de voz. Regresso ao FOREGROUND_SERVICE padrão autorizado.",
+      "Permissão contínua de microfone via AppOps ADB: injeção automática de RECORD_AUDIO, OP_RECORD_AUDIO e opcode 27 para escuta contínua sem botões.",
+      "Recuperação automática resiliente do áudio (CarAudioEngine): reconexão contínua em caso de reinicialização do fluxo pelo sistema do veículo.",
+      "Prioridade de primeiro plano: mascote / widget flutuante garante imunidade contra suspensão de energia."
     ],
     "tr": [
-      "%100 Eller Serbest Sesle Uyandırma ve BYD Kabin Akustik Kalibrasyonu (Düğmesiz):",
-      "Sabit VAD Eşik Değerinin Kaldırılması: tavan mikrofonunu engelleyen 600 RMS taban eşiği kaldırılarak ortam gürültüsüne tam uyarlamalı dinamik algılama sağlandı.",
-      "PCM Dijital Ön Amplifikasyon (2.5x Kazanç): tavan mikrofonunun mesafesini telafi ederek sesinizi yükseltmeden Whisper tarafından net algılanmasını sağlar.",
-      "Evrensel Qualcomm DiLink Çoklu Frekans Desteği (16 kHz / 48 kHz): 48 kHz donanımlarda 3:1 otomatik örnekleme ile tam uyumluluk.",
-      "Doğrudan Sesle Tetikleme: herhangi bir düğmeye basmadan sürücü koltuğundan yalnızca \"Vektra\" diyerek anında uyandırma."
+      "ADB AppOps ve Standart Ön Plan Servisi ile BYD DiLink Mikrofon Kısıtlaması Aşımı:",
+      "FOREGROUND_SERVICE_MICROPHONE Çakışmasının Giderilmesi: DiLink işletim sistemi tarafından iptal edilen ve mikrofonu sessize alan kısıtlı servis tipi kaldırılarak standart FOREGROUND_SERVICE yapısına dönüldü.",
+      "ADB AppOps ile Kalıcı Mikrofon Erişimi: kesintisiz eller serbest dinleme için yerel ADB üzerinden RECORD_AUDIO, OP_RECORD_AUDIO ve 27 numaralı op kodu otomatik tanımlandı.",
+      "Dirençli Otomatik Ses Akışı Kurtarma (CarAudioEngine): sistem kesintilerinde veya açılış gecikmelerinde mikrofon kaydını otomatik olarak yeniden başlatan akıllı döngü.",
+      "Ön Plan Pencere Önceliği: 3D maskot / kayan widget sayesinde sistemin mikrofonu uykuya alması önlenir."
     ]
   }
 }

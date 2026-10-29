@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.7** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
+**VERSION 2.0.8** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.7
+## Neu in 2.0.8
 
-- 100 % freihändige Sprachaktivierung & Akustische Innenraumkalibrierung (Ohne Tasten):
-- Beseitigung starrer VAD-Schwellenwerte: die feste Grenze von 600 RMS wurde entfernt. Die Schwelle passt sich nun dynamisch an das reale Hintergrundgeräusch des Fahrzeugs an.
-- Digitale PCM-Vorverstärkung (2.5x Gain): gleicht die Distanz zum Deckenmikrofon aus, sodass Whisper die Stimme klar und deutlich ohne Rufen erfasst.
-- Qualcomm Snapdragon Mehrfrequenz-Unterstützung (16 kHz / 48 kHz): nahtlose automatische 3:1-Dezimierung für alle DiLink-Hardwaregenerationen.
-- Reine Sprachaktivierung: sofortiges Aufwecken mit « Vektra » direkt vom Fahrersitz ohne Tastendruck.
+- BYD DiLink Mikrofon-Bypass über ADB AppOps & Standard-Vordergrunddienst:
+- FOREGROUND_SERVICE_MICROPHONE-Konflikt behoben: Beseitigung des vom DiLink-Betriebssystem blockierten Servicetyps, der die Audioaufnahme stummschaltete. Rückkehr zum standardmäßig gewährten FOREGROUND_SERVICE.
+- Dauerhafte Mikrofonfreigabe via AppOps ADB: automatische Vergabe von RECORD_AUDIO, OP_RECORD_AUDIO und Opcode 27 für lückenlose freihändige Spracherkennung.
+- Ausfallsichere automatische Audiowiederherstellung (CarAudioEngine): automatische Reinitialisierung des Mikrofon-Streams bei temporären Systemunterbrechungen.
+- Vordergrund-Fensterpriorität: schwebendes 3D-Widget / Maskottchen sichert dauerhafte Audioaktivität gegen Energiesparmodi.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.0.7** · publicada a 29 de outubro de 2026 · 45.9 MB
+**VERSÃO 2.0.8** · publicada a 29 de outubro de 2026 · 45.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.0.7
+## Novidades da 2.0.8
 
-- Ativação 100% mãos livres por voz & Calibração acústica de cabine BYD (Sem botões):
-- Eliminação do limite rígido de VAD: removido o piso estático de 600 RMS. O limiar adapta-se agora dinamicamente ao ruído de fundo real do automóvel.
-- Pré-amplificação digital PCM (Ganho 2.5x): compensação da distância do microfone de teto para uma transcrição precisa pelo Whisper sem esforço vocal.
-- Compatibilidade multi-frequência Qualcomm DiLink (16 kHz / 48 kHz): suporte universal com decimação automática 3:1 a 48 kHz.
-- Despertar vocal puro: ativação imediata chamando « Vektra » sem tocar no volante nem no ecrã.
+- Desbloqueio do microfone BYD DiLink via AppOps ADB e Serviço Padrão:
+- Resolução do conflito FOREGROUND_SERVICE_MICROPHONE: remoção do tipo de serviço que era revogado pelo DiLink e silenciava a captura de voz. Regresso ao FOREGROUND_SERVICE padrão autorizado.
+- Permissão contínua de microfone via AppOps ADB: injeção automática de RECORD_AUDIO, OP_RECORD_AUDIO e opcode 27 para escuta contínua sem botões.
+- Recuperação automática resiliente do áudio (CarAudioEngine): reconexão contínua em caso de reinicialização do fluxo pelo sistema do veículo.
+- Prioridade de primeiro plano: mascote / widget flutuante garante imunidade contra suspensão de energia.
 
 ---
 

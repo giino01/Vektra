@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.7** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.8** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.7
+## What is new in 2.0.8
 
-- 100% Hands-Free Voice Wake-Up & In-Cabin Acoustic Calibration (Zero Buttons Required):
-- Removed Rigid VAD Noise Floor: eliminated the legacy 600 RMS hard floor that ignored driver speech captured from the ceiling mic 1 meter away. Gating is now 100% dynamic and adapts in real time to the car's ambient noise.
-- PCM Digital Pre-Amp (2.5x Gain Boost): compensates for interior roof microphone distance. Audio streams delivered to Whisper are crisp and easily transcribed without needing to raise your voice.
-- Universal Qualcomm DiLink Multi-Rate Support (16 kHz / 48 kHz): automatic fallback with 3:1 integer decimation ensures smooth audio capture across all Snapdragon head unit variants.
-- Instant Hotword Trigger: purely voice-activated "Vektra" wake-up from the driver's seat with zero physical button interaction.
+- BYD DiLink Microphone Bypass via ADB AppOps & Standard Foreground Service:
+- Removed FOREGROUND_SERVICE_MICROPHONE Conflict: eliminated the restricted service type that caused DiLink OS to revoke microphone access and mute the audio stream. Reverted to standard granted FOREGROUND_SERVICE.
+- Permanent AppOps Microphone Unlock: automated ADB injection of RECORD_AUDIO, OP_RECORD_AUDIO, and operation code 27 via local socket for uninterrupted hands-free listening.
+- Resilient Audio Stream Auto-Recovery (CarAudioEngine): self-healing recording loop automatically reconnects the microphone stream if interrupted by the car OS or during boot timing.
+- Foreground Window Priority: floating 3D mascot / widget maintains active window status to prevent battery-saver mic muting.
 
 ---
 

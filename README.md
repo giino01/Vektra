@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.7** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.8** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.7
+## Nouveautés de la 2.0.8
 
-- Réveil 100% vocal mains libres & Calibrage acoustique habitacle BYD (Sans aucun bouton) :
-- Suppression du plancher rigide de détection VAD : élimination du seuil fixe à 600 RMS qui ignorait la voix du conducteur à 1 mètre du plafonnier. Le seuil est désormais 100% relatif et calibré en temps réel sur le bruit de fond réel de la voiture.
-- Pré-amplification logicielle PCM (Gain numérique 2.5x) : compensation directe de l'atténuation physique du micro de toit BYD. Le flux audio envoyé à Whisper est net, puissant et parfaitement intelligible sans hausser la voix.
-- Multi-fréquence native Qualcomm Snapdragon (16 kHz / 48 kHz) : compatibilité universelle avec le pilote audio DiLink, avec décimation matérielle 3:1 automatique en 48 kHz.
-- Détection ultra-sensible au mot « Vektra » : réveil instantané purement à la voix depuis le siège conducteur, sans jamais avoir à toucher le volant ni l'écran.
+- Contournement des restrictions microphone BYD DiLink via AppOps ADB & Service standard :
+- Suppression du conflit FOREGROUND_SERVICE_MICROPHONE : élimination du type de service qui était révoqué d'office par la ROM DiLink et mutait le microphone. Retour au FOREGROUND_SERVICE standard autorisé.
+- Déverrouillage permanent du micro via AppOps ADB : injection automatisée des autorisations RECORD_AUDIO, OP_RECORD_AUDIO et code d'opération 27 (appops set et cmd appops set) pour un accès continu sans interruption ni boîte de dialogue.
+- Auto-rétablissement résilient du flux audio (CarAudioEngine) : boucle de reconnexion automatique en cas de coupure du flux audio par le système ou de démarrage différé d'ADB.
+- Maintien de la priorité premier plan : la mascotte Three.js / widget flottant assure l'immunité contre la mise en sommeil par le gestionnaire d'énergie BYD.
 
 ---
 
