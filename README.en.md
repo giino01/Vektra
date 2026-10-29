@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.0.2** · released on 29 October 2026 · 45.9 MB
+**VERSION 2.0.3** · released on 29 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.0.2
+## What is new in 2.0.3
 
-- vBot Vektra Voice Assistant — Native In-Car BYD Mode & Groq Fixes:
-- Standalone In-Car Audio Engine (CarAudioEngine): "Vektra" wake word and voice commands now operate natively on the BYD tablet without requiring Google Play Services or any third-party app. Direct 16 kHz Mono AudioRecord hardware capture with adaptive cabin noise floor VAD and 300 ms pre-roll.
-- Instant Groq Whisper Transcription: lightning-fast speech-to-text (~180 ms) running on Groq LPUs for zero-latency in-cabin transcription.
-- Groq API Key Sanitization & Direct Verification: automatic cleanup of pasted keys (stripping accidental quotes, whitespace, or "Bearer " prefixes), direct /models ping, and persistent "✓ Active & Verified" badge.
-- Reinforced AppOps Permissions: local ADB auto-grants both RECORD_AUDIO and OP_RECORD_AUDIO ensuring the hardware mic stream is never muted under Android 10 DiLink.
+- Groq AI "Temporary Unavailability" Fix & Conversational Resilience:
+- Resolved Tool Calling Conflict (tool_use_failed): removed rigid tools JSON schema payload that triggered Groq HTTP 400 errors during open-ended conversations. The assistant now answers questions instantly without reporting unavailability.
+- Dual-Model Failover: automatic, seamless fallback from llama-3.3-70b-versatile to llama-3.1-8b-instant during peak traffic or rate-limiting events.
+- Natural In-Cabin Action Parsing: fluid vehicle command extraction (AC, drive modes, cluster themes) directly within conversational replies.
+- Generation Rescue: automatic extraction from failed_generation error bodies ensures voice output is never dropped.
 
 ---
 

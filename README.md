@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.2** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.0.3** · publiée le 29 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.2
+## Nouveautés de la 2.0.3
 
-- Assistant vocal vBot Vektra — Mode Embarqué Natif BYD & Validation Groq :
-- Moteur Audio Embarqué Autonome (CarAudioEngine) : l'écoute de « Vektra » et des commandes vocales fonctionne désormais directement sur la tablette BYD sans nécessiter les services Google (GMS) ni aucune application externe. Capture directe du flux microphone via AudioRecord 16 kHz Mono avec seuil VAD adaptatif au bruit de l'habitacle et pré-roll de 300 ms.
-- Transcription Instantanée Groq Whisper : transcription vocale ultra-rapide (~180 ms) sur puces LPU pour convertir fidèlement les instructions vocales en texte.
-- Correctif et Nettoyage de la Clé API Groq : assainissement automatique des clés collées (retrait des guillemets accidentels, espaces et préfixes "Bearer "), validation réseau directe et statut permanent « ✓ Active & Vérifiée ».
-- Permissions Système Renforcées (AppOps) : octroi automatique par ADB de RECORD_AUDIO et OP_RECORD_AUDIO garantissant la transmission matérielle du microphone sous DiLink / Android 10.
+- Résolution de l'indisposition de réponse Groq IA & Résilience Conversationnelle :
+- Suppression du conflit de schéma d'outils (tool_use_failed) : élimination du bloc tools JSON qui provoquait une erreur HTTP 400 sur les requêtes conversationnelles libres. L'assistant répond désormais à toute question instantanément et sans message d'indisposition.
+- Repli automatique haute disponibilité (Dual-Model Failover) : basculement transparent et immédiat de llama-3.3-70b-versatile vers llama-3.1-8b-instant en cas de charge ou de limitation de débit sur Groq.
+- Pilotage matériel naturel : interprétation fluide des actions de bord (climatisation, modes de conduite, thèmes de combiné) intégrées aux réponses conversationnelles sans perturber le modèle.
+- Récupération de génération (failed_generation) : récupération de secours automatique des textes générés pour garantir une réponse orale en toute circonstance.
 
 ---
 

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.0.2** · yayın tarihi 29 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.0.3** · yayın tarihi 29 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.0.2
+## Yenilikler: 2.0.3
 
-- vBot Vektra Sesli Asistan — BYD Yerel Araç Modu ve Groq Düzeltmeleri:
-- Bağımsız Yerel Araç Ses Motoru (CarAudioEngine): « Vektra » uyandırma kelimesi ve sesli komutlar artık Google hizmetlerine veya harici uygulamalara ihtiyaç duymadan doğrudan BYD tabletinde çalışır. Kabin gürültüsüne uyarlanabilir VAD ve 300 ms ön-arabellek ile doğrudan 16 kHz Mono AudioRecord donanım kaydı.
-- Anında Groq Whisper Metne Dönüştürme: sıfır gecikmeli kabin içi etkileşim için Groq LPU yongalarında ultra hızlı (~180 ms) ses tanıma.
-- Groq Anahtarı Temizleme ve Doğrulama: yapıştırılan anahtarlardaki tırnak işaretlerini, boşlukları ve "Bearer " öneklerini otomatik temizleme, doğrudan ağ kontrolü ve kalıcı « ✓ Aktif & Doğrulandı » rozeti.
-- Güçlendirilmiş AppOps İzinleri: Android 10 DiLink altında mikrofon akışının kesilmemesini sağlayan RECORD_AUDIO ve OP_RECORD_AUDIO yerel ADB otomatik yetkilendirmesi.
+- Groq Yapay Zeka "Geçici Hizmet Kesintisi" Düzeltmesi ve Konuşma Direnci:
+- Araç Çakışması Giderildi (tool_use_failed): serbest konuşmalarda HTTP 400 hatasına neden olan tools JSON şeması kaldırıldı. Asistan artık kesinti uyarısı vermeden tüm soruları anında yanıtlar.
+- Çift Modelli Yedekleme: yoğunluk veya kota aşımı durumunda llama-3.3-70b-versatile modelinden anında llama-3.1-8b-instant modeline otomatik geçiş.
+- Doğal Araç Kontrolü: klima, sürüş modları ve gösterge teması komutlarının sesli yanıtlara akıcı entegrasyonu.
+- Üretim Kurtarma: sesli yanıtın hiçbir zaman kaybolmamasını sağlayan otomatik metin kurtarma mekanizması.
 
 ---
 

@@ -1,56 +1,56 @@
 {
-  "version": "2.0.2",
-  "apk": "Vektra-2.0.2.apk",
-  "size": 48101060,
+  "version": "2.0.3",
+  "apk": "Vektra-2.0.3.apk",
+  "size": 48102736,
   "notes": [
-    "Assistant vocal vBot Vektra — Mode Embarqué Natif BYD & Validation Groq :",
-    "Moteur Audio Embarqué Autonome (CarAudioEngine) : l'écoute de « Vektra » et des commandes vocales fonctionne désormais directement sur la tablette BYD sans nécessiter les services Google (GMS) ni aucune application externe. Capture directe du flux microphone via AudioRecord 16 kHz Mono avec seuil VAD adaptatif au bruit de l'habitacle et pré-roll de 300 ms.",
-    "Transcription Instantanée Groq Whisper : transcription vocale ultra-rapide (~180 ms) sur puces LPU pour convertir fidèlement les instructions vocales en texte.",
-    "Correctif et Nettoyage de la Clé API Groq : assainissement automatique des clés collées (retrait des guillemets accidentels, espaces et préfixes \"Bearer \"), validation réseau directe et statut permanent « ✓ Active & Vérifiée ».",
-    "Permissions Système Renforcées (AppOps) : octroi automatique par ADB de RECORD_AUDIO et OP_RECORD_AUDIO garantissant la transmission matérielle du microphone sous DiLink / Android 10."
+    "Résolution de l'indisposition de réponse Groq IA & Résilience Conversationnelle :",
+    "Suppression du conflit de schéma d'outils (tool_use_failed) : élimination du bloc tools JSON qui provoquait une erreur HTTP 400 sur les requêtes conversationnelles libres. L'assistant répond désormais à toute question instantanément et sans message d'indisposition.",
+    "Repli automatique haute disponibilité (Dual-Model Failover) : basculement transparent et immédiat de llama-3.3-70b-versatile vers llama-3.1-8b-instant en cas de charge ou de limitation de débit sur Groq.",
+    "Pilotage matériel naturel : interprétation fluide des actions de bord (climatisation, modes de conduite, thèmes de combiné) intégrées aux réponses conversationnelles sans perturber le modèle.",
+    "Récupération de génération (failed_generation) : récupération de secours automatique des textes générés pour garantir une réponse orale en toute circonstance."
   ],
   "notesByLang": {
     "fr": [
-      "Assistant vocal vBot Vektra — Mode Embarqué Natif BYD & Validation Groq :",
-      "Moteur Audio Embarqué Autonome (CarAudioEngine) : l'écoute de « Vektra » et des commandes vocales fonctionne désormais directement sur la tablette BYD sans nécessiter les services Google (GMS) ni aucune application externe. Capture directe du flux microphone via AudioRecord 16 kHz Mono avec seuil VAD adaptatif au bruit de l'habitacle et pré-roll de 300 ms.",
-      "Transcription Instantanée Groq Whisper : transcription vocale ultra-rapide (~180 ms) sur puces LPU pour convertir fidèlement les instructions vocales en texte.",
-      "Correctif et Nettoyage de la Clé API Groq : assainissement automatique des clés collées (retrait des guillemets accidentels, espaces et préfixes \"Bearer \"), validation réseau directe et statut permanent « ✓ Active & Vérifiée ».",
-      "Permissions Système Renforcées (AppOps) : octroi automatique par ADB de RECORD_AUDIO et OP_RECORD_AUDIO garantissant la transmission matérielle du microphone sous DiLink / Android 10."
+      "Résolution de l'indisposition de réponse Groq IA & Résilience Conversationnelle :",
+      "Suppression du conflit de schéma d'outils (tool_use_failed) : élimination du bloc tools JSON qui provoquait une erreur HTTP 400 sur les requêtes conversationnelles libres. L'assistant répond désormais à toute question instantanément et sans message d'indisposition.",
+      "Repli automatique haute disponibilité (Dual-Model Failover) : basculement transparent et immédiat de llama-3.3-70b-versatile vers llama-3.1-8b-instant en cas de charge ou de limitation de débit sur Groq.",
+      "Pilotage matériel naturel : interprétation fluide des actions de bord (climatisation, modes de conduite, thèmes de combiné) intégrées aux réponses conversationnelles sans perturber le modèle.",
+      "Récupération de génération (failed_generation) : récupération de secours automatique des textes générés pour garantir une réponse orale en toute circonstance."
     ],
     "en": [
-      "vBot Vektra Voice Assistant — Native In-Car BYD Mode & Groq Fixes:",
-      "Standalone In-Car Audio Engine (CarAudioEngine): \"Vektra\" wake word and voice commands now operate natively on the BYD tablet without requiring Google Play Services or any third-party app. Direct 16 kHz Mono AudioRecord hardware capture with adaptive cabin noise floor VAD and 300 ms pre-roll.",
-      "Instant Groq Whisper Transcription: lightning-fast speech-to-text (~180 ms) running on Groq LPUs for zero-latency in-cabin transcription.",
-      "Groq API Key Sanitization & Direct Verification: automatic cleanup of pasted keys (stripping accidental quotes, whitespace, or \"Bearer \" prefixes), direct /models ping, and persistent \"✓ Active & Verified\" badge.",
-      "Reinforced AppOps Permissions: local ADB auto-grants both RECORD_AUDIO and OP_RECORD_AUDIO ensuring the hardware mic stream is never muted under Android 10 DiLink."
+      "Groq AI \"Temporary Unavailability\" Fix & Conversational Resilience:",
+      "Resolved Tool Calling Conflict (tool_use_failed): removed rigid tools JSON schema payload that triggered Groq HTTP 400 errors during open-ended conversations. The assistant now answers questions instantly without reporting unavailability.",
+      "Dual-Model Failover: automatic, seamless fallback from llama-3.3-70b-versatile to llama-3.1-8b-instant during peak traffic or rate-limiting events.",
+      "Natural In-Cabin Action Parsing: fluid vehicle command extraction (AC, drive modes, cluster themes) directly within conversational replies.",
+      "Generation Rescue: automatic extraction from failed_generation error bodies ensures voice output is never dropped."
     ],
     "it": [
-      "Assistente vocale vBot Vektra — Modalità Nativa BYD & Correzione Groq:",
-      "Motore Audio Nativo di Bordo (CarAudioEngine): l'ascolto di « Vektra » e dei comandi vocali ora funziona direttamente sul tablet BYD senza servizi Google (GMS) né app esterne. Acquisizione hardware diretta a 16 kHz Mono tramite AudioRecord con VAD adattivo ai rumori dell'abitacolo e pre-roll di 300 ms.",
-      "Trascrizione Istantanea Groq Whisper: riconoscimento vocale ultrarapido (~180 ms) su chip LPU Groq per una reattività immediata.",
-      "Sanificazione e Convalida Chiave Groq: pulizia automatica di virgolette e spazi accidentali, verifica di rete diretta e badge « ✓ Attiva & Verificata ».",
-      "Autorizzazioni di Sistema AppOps: concessione automatica via ADB di RECORD_AUDIO e OP_RECORD_AUDIO per garantire il flusso microfonico sotto Android 10 DiLink."
+      "Risoluzione errore indisponibilità IA Groq & Resilienza di conversazione:",
+      "Risolto conflitto strumenti (tool_use_failed): rimosso lo schema JSON tools che causava l'errore HTTP 400 nelle conversazioni libere. L'assistente risponde ora a ogni domanda senza messaggi di indisposizione.",
+      "Failover a doppio modello: passaggio automatico e trasparente da llama-3.3-70b-versatile a llama-3.1-8b-instant in caso di carico di rete o limiti di frequenza.",
+      "Controllo veicolo naturale: gestione integrata dei comandi auto (clima, modalità di guida, temi) nelle risposte vocali.",
+      "Recupero generazioni: salvataggio automatico delle risposte per garantire sempre la risposta a voce."
     ],
     "de": [
-      "vBot Vektra Sprachassistent — Nativer BYD-Fahrzeugmodus & Groq-Korrektur:",
-      "Autonome Fahrzeug-Audio-Engine (CarAudioEngine): die Erkennung von « Vektra » und Sprachbefehlen läuft jetzt direkt auf dem BYD-Tablet ohne Google-Dienste oder Zusatz-Apps. Direkte Hardware-Aufnahme mit AudioRecord (16 kHz Mono), adaptiver Kabinengeräusch-VAD und 300 ms Pre-Roll.",
-      "Sofortige Groq-Whisper-Transkription: ultraschnelle Spracherkennung (~180 ms) auf Groq-LPUs für verzögerungsfreie Sprachbefehle.",
-      "Bereinigung und Verifizierung des Groq-Schlüssels: automatisches Entfernen von Anführungszeichen, Leerzeichen und \"Bearer \"-Präfixen, direkte Modellabfrage und Status-Badge « ✓ Aktiv & Verifiziert ».",
-      "Erweiterte AppOps-Berechtigungen: automatische Freigabe von RECORD_AUDIO und OP_RECORD_AUDIO via lokalem ADB für DiLink / Android 10."
+      "Behebung der vorübergehenden Groq-KI-Verfügbarkeitsstörung & Konversations-Resilienz:",
+      "Tool-Konflikt behoben (tool_use_failed): Entfernung des starren tools-JSON-Schemas, das bei freien Dialogen den HTTP-400-Fehler verursachte. Der Assistent antwortet nun sofort auf jede Frage.",
+      "Dual-Modell-Failover: automatischer, nahtloser Wechsel von llama-3.3-70b-versatile zu llama-3.1-8b-instant bei Auslastung oder Limitierung.",
+      "Natürliche Fahrzeugsteuerung: flüssige Erkennung von Fahrzeugaktionen (Klima, Fahrmodi, Tachothemen) in Sprachantworten.",
+      "Generierungs-Rettung: automatische Wiederherstellung von Antworten für eine unterbrechungsfreie Sprachausgabe."
     ],
     "pt": [
-      "Assistente de Voz vBot Vektra — Modo Nativo BYD & Correção Groq:",
-      "Motor de Áudio Integrado Autónomo (CarAudioEngine): o reconhecimento da palavra-chave « Vektra » e dos comandos de voz opera agora nativamente no tablet BYD sem necessidade dos serviços Google nem aplicações externas. Captura direta por AudioRecord a 16 kHz Mono com VAD adaptativo ao ruído da cabine e pré-roll de 300 ms.",
-      "Transcrição Instantânea Groq Whisper: transcrição de voz ultrarrápida (~180 ms) em chips LPU da Groq para resposta imediata.",
-      "Sanitização e Validação da Chave Groq: limpeza automática de aspas acidentais, espaços e prefixos \"Bearer \", validação direta e distintivo permanente « ✓ Ativa & Verificada ».",
-      "Permissões de Sistema AppOps: concessão automática por ADB de RECORD_AUDIO e OP_RECORD_AUDIO assegurando o fluxo de microfone no Android 10 DiLink."
+      "Correção da indisponibilidade temporária da IA Groq & Resiliência Conversacional:",
+      "Conflito de ferramentas resolvido (tool_use_failed): eliminação do esquema JSON tools que causava erro HTTP 400 em conversas livres. O assistente responde agora a todas as perguntas sem avisos de indisponibilidade.",
+      "Failover de duplo modelo: transição automática e transparente de llama-3.3-70b-versatile para llama-3.1-8b-instant em caso de tráfego intenso.",
+      "Controlo veicular natural: extração de ações de bordo (ar condicionado, modos de condução, temas) nas respostas.",
+      "Recuperação de geração: extração de segurança de texto para garantir sempre o retorno por voz."
     ],
     "tr": [
-      "vBot Vektra Sesli Asistan — BYD Yerel Araç Modu ve Groq Düzeltmeleri:",
-      "Bağımsız Yerel Araç Ses Motoru (CarAudioEngine): « Vektra » uyandırma kelimesi ve sesli komutlar artık Google hizmetlerine veya harici uygulamalara ihtiyaç duymadan doğrudan BYD tabletinde çalışır. Kabin gürültüsüne uyarlanabilir VAD ve 300 ms ön-arabellek ile doğrudan 16 kHz Mono AudioRecord donanım kaydı.",
-      "Anında Groq Whisper Metne Dönüştürme: sıfır gecikmeli kabin içi etkileşim için Groq LPU yongalarında ultra hızlı (~180 ms) ses tanıma.",
-      "Groq Anahtarı Temizleme ve Doğrulama: yapıştırılan anahtarlardaki tırnak işaretlerini, boşlukları ve \"Bearer \" öneklerini otomatik temizleme, doğrudan ağ kontrolü ve kalıcı « ✓ Aktif & Doğrulandı » rozeti.",
-      "Güçlendirilmiş AppOps İzinleri: Android 10 DiLink altında mikrofon akışının kesilmemesini sağlayan RECORD_AUDIO ve OP_RECORD_AUDIO yerel ADB otomatik yetkilendirmesi."
+      "Groq Yapay Zeka \"Geçici Hizmet Kesintisi\" Düzeltmesi ve Konuşma Direnci:",
+      "Araç Çakışması Giderildi (tool_use_failed): serbest konuşmalarda HTTP 400 hatasına neden olan tools JSON şeması kaldırıldı. Asistan artık kesinti uyarısı vermeden tüm soruları anında yanıtlar.",
+      "Çift Modelli Yedekleme: yoğunluk veya kota aşımı durumunda llama-3.3-70b-versatile modelinden anında llama-3.1-8b-instant modeline otomatik geçiş.",
+      "Doğal Araç Kontrolü: klima, sürüş modları ve gösterge teması komutlarının sesli yanıtlara akıcı entegrasyonu.",
+      "Üretim Kurtarma: sesli yanıtın hiçbir zaman kaybolmamasını sağlayan otomatik metin kurtarma mekanizması."
     ]
   }
 }

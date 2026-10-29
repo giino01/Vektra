@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.0.2** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
+**VERSION 2.0.3** · veröffentlicht am 29. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.0.3.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.0.2
+## Neu in 2.0.3
 
-- vBot Vektra Sprachassistent — Nativer BYD-Fahrzeugmodus & Groq-Korrektur:
-- Autonome Fahrzeug-Audio-Engine (CarAudioEngine): die Erkennung von « Vektra » und Sprachbefehlen läuft jetzt direkt auf dem BYD-Tablet ohne Google-Dienste oder Zusatz-Apps. Direkte Hardware-Aufnahme mit AudioRecord (16 kHz Mono), adaptiver Kabinengeräusch-VAD und 300 ms Pre-Roll.
-- Sofortige Groq-Whisper-Transkription: ultraschnelle Spracherkennung (~180 ms) auf Groq-LPUs für verzögerungsfreie Sprachbefehle.
-- Bereinigung und Verifizierung des Groq-Schlüssels: automatisches Entfernen von Anführungszeichen, Leerzeichen und "Bearer "-Präfixen, direkte Modellabfrage und Status-Badge « ✓ Aktiv & Verifiziert ».
-- Erweiterte AppOps-Berechtigungen: automatische Freigabe von RECORD_AUDIO und OP_RECORD_AUDIO via lokalem ADB für DiLink / Android 10.
+- Behebung der vorübergehenden Groq-KI-Verfügbarkeitsstörung & Konversations-Resilienz:
+- Tool-Konflikt behoben (tool_use_failed): Entfernung des starren tools-JSON-Schemas, das bei freien Dialogen den HTTP-400-Fehler verursachte. Der Assistent antwortet nun sofort auf jede Frage.
+- Dual-Modell-Failover: automatischer, nahtloser Wechsel von llama-3.3-70b-versatile zu llama-3.1-8b-instant bei Auslastung oder Limitierung.
+- Natürliche Fahrzeugsteuerung: flüssige Erkennung von Fahrzeugaktionen (Klima, Fahrmodi, Tachothemen) in Sprachantworten.
+- Generierungs-Rettung: automatische Wiederherstellung von Antworten für eine unterbrechungsfreie Sprachausgabe.
 
 ---
 
