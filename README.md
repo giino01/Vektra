@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.6** · publiée le 30 octobre 2026 · 46.0 Mo
+**VERSION 2.1.7** · publiée le 30 octobre 2026 · 46.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.6
+## Nouveautés de la 2.1.7
 
-- Réactivité instantanée « au tac au tac », ouverture de toutes les applications du véhicule, Hyper-Intelligence contextuelle & attribution créateur (Gino) :
-- Zéro latence « au tac au tac » (rapidité naturelle humaine) :
-- Pré-chauffage anticipé du tunnel WebSocket TLS EdgeNeuralTts dès les premières syllabes prononcées par le conducteur + maintien de la connexion WebSocket ouverte entre les phrases (~90 ms de synthèse au lieu de 750 ms).
-- Pipelining de la première phrase : sur les réponses de plusieurs phrases, Vektra commence à parler dès la 1re phrase pendant que la suite est synthétisée en parallèle.
-- Détection de fin de parole accélérée à 300 ms, rognage automatique du silence final et réutilisation des connexions TLS 1.3 (Keep-Alive) vers Groq Whisper & Llama 3.3.
-- Fenêtre de dialogue continu (8 s) après chaque réponse pour enchaîner les répliques naturellement sans devoir répéter « Vektra » à chaque phrase.
-- Ouverture vocale de toutes les applications installées dans le véhicule : Vektra scanne dynamiquement toutes les applications présentes sur la tablette BYD et peut lancer n'importe laquelle à la voix (« Ouvre Spotify », « Lance Waze », « Ouvre YouTube », « Lance Netflix », « Ouvre la caméra 360 », « Ouvre les paramètres », ou toute autre application installée).
-- Hyper-Intelligence contextuelle (Mémoire multi-tours + Télémétrie + GPS + Date/Heure) : Vektra conserve désormais la mémoire des échanges précédents (suivi de conversation, pronoms, demandes en chaîne) et connaît l'heure exacte, la position GPS, l'état complet du véhicule et la liste des applications installées.
-- Identité & Créateur : toute question sur la création, l'origine, le concepteur ou le développeur de Vektra attribue fièrement sa création à Gino (et le prénom « Gino » a été retiré de la liste prédéfinie des noms d'appel dans l'onglet vBot pour tous les utilisateurs).
+- Suppression du mode conversation continue & retour immédiat en veille par mot-clé :
+- Fin de l'attente après réponse : une fois qu'une action est exécutée ou qu'une réponse est prononcée par l'assistant, l'écoute active se coupe immédiatement. L'assistant ne reste plus en attente continue de demandes.
+- Déclenchement uniquement à l'appel : vBot Vektra s'active uniquement sur interpellation explicite (« Vektra », clic sur la mascotte ou appui sur le bouton vocal du volant), traite la demande formulée, puis repasse immédiatement en veille silencieuse.
+- Restauration instantanée du son média : le volume du haut-parleur média normal (STREAM_MUSIC) est immédiatement rétabli à 100 % dès la fin de la parole de l'assistant.
 
 ---
 

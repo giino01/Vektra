@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.1.6** · veröffentlicht am 30. Oktober 2026 · 46.0 MB
+**VERSION 2.1.7** · veröffentlicht am 30. Oktober 2026 · 46.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.1.6
+## Neu in 2.1.7
 
-- Sofortige Reaktionszeit in Echtzeit, Starten aller installierten Fahrzeug-Apps, kontextbezogene Hyper-Intelligenz & Schöpfer-Zuordnung (Gino):
-- Null Latenz: vorgewärmter persistenter EdgeNeuralTts-TLS-WebSocket, Satz-Pipelining, 300-ms-Sprachende-Erkennung und Multi-Turn-Gesprächsgedächtnis.
-- Sprachstart jeder auf dem BYD-Tablet installierten App (Spotify, Waze, YouTube, Netflix, 360°-Kamera, Einstellungen usw.).
-- Schöpfer: alle Fragen zur Entwicklung von Vektra verweisen auf Gino (und „Gino“ wurde aus der Standard-Anredeliste im vBot-Tab entfernt).
+- Deaktivierung des kontinuierlichen Konversationsmodus & sofortige Rückkehr in den Standby:
+- Kein Nachhören nach der Antwort: Nach Ausführung der Aktion oder Beendigung der Sprachantwort wird das aktive Zuhören sofort beendet. Der Assistent wartet nicht mehr im kontinuierlichen Modus auf weitere Befehle.
+- Aktivierung nur auf Zuruf: vBot Vektra reagiert nur auf den Aktivierungsruf („Vektra“, Antippen des Maskottchens oder Lenkrad-Sprachtaste), führt den Befehl aus und wechselt sofort in den Ruhezustand.
+- Sofortige Wiederherstellung der Medienlautstärke: Die normale Lautstärke (STREAM_MUSIC) wird sofort nach Ende der Sprachausgabe wiederhergestellt.
 
 ---
 

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.1.6** · yayın tarihi 30 Ekim 2026 · 46.0 MB
+**SÜRÜM 2.1.7** · yayın tarihi 30 Ekim 2026 · 46.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,12 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.1.6
+## Yenilikler: 2.1.7
 
-- Sıfır Gecikmeli Anında Yanıt, Araçtaki Tüm Uygulamaları Sesle Açma, Bağlamsal Hiper-Zeka ve Yaratıcı Atfı (Gino):
-- Sıfır Gecikme: önceden ısıtılmış kalıcı EdgeNeuralTts TLS WebSocket, ilk cümle akışı, 300 ms konuşma sonu algılama ve çok turlu sohbet hafızası.
-- BYD Tabletteki Tüm Yüklü Uygulamaları Sesle Açma (Spotify, Waze, YouTube, Netflix, 360 Kamera, Ayarlar vb.).
-- Yaratıcı: Vektra'nın yaratıcısı hakkındaki tüm sorular Gino'yu referans gösterir (ve vBot sekmesindeki varsayılan hitap listesi sadeleştirildi).
+- Sürekli Konuşma Modunun Kapatılması ve Bekleme Moduna Anında Dönüş:
+- Yanıttan Sonra Dinlemeyi Sonlandırma: Bir işlem tamamlandığında veya yanıt verildiğinde aktif dinleme hemen kapatılır. Asistan artık açık kalıp yeni komut beklemez.
+- Yalnızca Çağrı ile Tetikleme: vBot Vektra yalnızca doğrudan çağrıldığında ("Vektra", maskota dokunma veya direksiyon ses düğmesi) etkinleşir, isteği yerine getirir ve derhal sessiz bekleme moduna geçer.
+- Medya Sesinin Anında Geri Yüklenmesi: Normal medya sesi (STREAM_MUSIC), asistan konuşmasını bitirdiği anda eski seviyesine döner.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.1.6** · publicada a 30 de outubro de 2026 · 46.0 MB
+**VERSÃO 2.1.7** · publicada a 30 de outubro de 2026 · 46.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,12 +103,12 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.1.6
+## Novidades da 2.1.7
 
-- Resposta instantânea sem latência, abertura de todas as aplicações instaladas no veículo, Hiper-Inteligência contextual e atribuição ao criador (Gino):
-- Latência zero: WebSocket TLS EdgeNeuralTts persistente pré-aquecido, pipelining da primeira frase, deteção de fim de fala em 300 ms e memória conversacional multi-turno.
-- Abertura por voz de qualquer aplicação instalada no tablet BYD (Spotify, Waze, YouTube, Netflix, Câmara 360, Definições, etc.).
-- Criador: qualquer pergunta sobre a criação do Vektra atribui a autoria a Gino (e "Gino" foi removido da lista predefinida de nomes de chamada no separador vBot).
+- Desativação do modo de conversação contínua e retorno imediato ao modo de espera:
+- Fim da escuta residual: após executar uma ação ou concluir uma resposta vocal, a escuta ativa é imediatamente encerrada. O assistente não permanece em escuta contínua.
+- Ativação apenas por comando: o vBot Vektra ativa-se apenas mediante chamada explícita ("Vektra", toque na mascote ou botão no volante), executa o pedido e volta de imediato ao modo de espera silencioso.
+- Restauro imediato do volume multimédia: o volume normal (STREAM_MUSIC) é restaurado assim que o assistente termina de falar.
 
 ---
 
