@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.1.5** · veröffentlicht am 30. Oktober 2026 · 46.0 MB
+**VERSION 2.1.6** · veröffentlicht am 30. Oktober 2026 · 46.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.1.5
+## Neu in 2.1.6
 
-- Sprachsteuerung zum Deaktivieren der Projektion (Original-BYD-Kombiinstrument wiederherstellen) & ADB-Hardware-Agent (BydAdbHardwareAgent uid=2000) für alle Fahrzeugbefehle:
-- Projektion per Sprachbefehl beenden & Original-Kombiinstrument wiederherstellen: mit „Vektra, désactive la projection“ oder „Remets le combiné d'origine“ wird das originale BYD-Kombiinstrument sofort wiederhergestellt.
-- Alle Fahrzeugbefehle laufen jetzt über den privilegierten ADB-Hardware-Agenten (BydAdbHardwareAgent) (Fenster setAllWindowState, Schiebedach, HEV / EV-Modus, Fahrprofile, 2-Phasen-Klimasteuerung, Sitze, Drehbildschirm).
+- Sofortige Reaktionszeit in Echtzeit, Starten aller installierten Fahrzeug-Apps, kontextbezogene Hyper-Intelligenz & Schöpfer-Zuordnung (Gino):
+- Null Latenz: vorgewärmter persistenter EdgeNeuralTts-TLS-WebSocket, Satz-Pipelining, 300-ms-Sprachende-Erkennung und Multi-Turn-Gesprächsgedächtnis.
+- Sprachstart jeder auf dem BYD-Tablet installierten App (Spotify, Waze, YouTube, Netflix, 360°-Kamera, Einstellungen usw.).
+- Schöpfer: alle Fragen zur Entwicklung von Vektra verweisen auf Gino (und „Gino“ wurde aus der Standard-Anredeliste im vBot-Tab entfernt).
 
 ---
 

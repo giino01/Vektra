@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.5** · publiée le 30 octobre 2026 · 46.0 Mo
+**VERSION 2.1.6** · publiée le 30 octobre 2026 · 46.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,17 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.5
+## Nouveautés de la 2.1.6
 
-- Désactivation vocale de la projection (retour au combiné BYD d'origine) & Agent matériel ADB BydAdbHardwareAgent (uid=2000) pour toutes les commandes véhicule :
-- Activation et désactivation de la projection par la voix + retour au combiné d'origine : vous pouvez désormais dire « Vektra, désactive la projection », « Coupe la projection », « Arrête la projection » ou « Remets le combiné à l'état d'origine » / « Remets le combiné d'origine » pour stopper immédiatement la projection et rétablir l'écran conducteur BYD d'origine (et « Active la projection » / « Projette le combiné » pour la relancer).
-- Exécution de toutes les commandes véhicule via l'Agent matériel ADB (BydAdbHardwareAgent) : toutes les actions matérielles (ouverture/fermeture des vitres individuelles ou globales via setAllWindowState(fl, fr, rl, rr) et setBodyWindowCtrlState, toit ouvrant, store de toit, passage en mode HEV / EV, modes Sport/Éco/Normal/Neige, climatisation en 2 phases BYD setAcTemperature, ventilation, sièges chauffants/ventilés, écran rotatif, coffre, rétroviseurs, portes) passent désormais simultanément par le Looper principal avec réinjection du contexte permissif mContext et par l'agent privilégié ADB app_process (uid=2000).
+- Réactivité instantanée « au tac au tac », ouverture de toutes les applications du véhicule, Hyper-Intelligence contextuelle & attribution créateur (Gino) :
+- Zéro latence « au tac au tac » (rapidité naturelle humaine) :
+- Pré-chauffage anticipé du tunnel WebSocket TLS EdgeNeuralTts dès les premières syllabes prononcées par le conducteur + maintien de la connexion WebSocket ouverte entre les phrases (~90 ms de synthèse au lieu de 750 ms).
+- Pipelining de la première phrase : sur les réponses de plusieurs phrases, Vektra commence à parler dès la 1re phrase pendant que la suite est synthétisée en parallèle.
+- Détection de fin de parole accélérée à 300 ms, rognage automatique du silence final et réutilisation des connexions TLS 1.3 (Keep-Alive) vers Groq Whisper & Llama 3.3.
+- Fenêtre de dialogue continu (8 s) après chaque réponse pour enchaîner les répliques naturellement sans devoir répéter « Vektra » à chaque phrase.
+- Ouverture vocale de toutes les applications installées dans le véhicule : Vektra scanne dynamiquement toutes les applications présentes sur la tablette BYD et peut lancer n'importe laquelle à la voix (« Ouvre Spotify », « Lance Waze », « Ouvre YouTube », « Lance Netflix », « Ouvre la caméra 360 », « Ouvre les paramètres », ou toute autre application installée).
+- Hyper-Intelligence contextuelle (Mémoire multi-tours + Télémétrie + GPS + Date/Heure) : Vektra conserve désormais la mémoire des échanges précédents (suivi de conversation, pronoms, demandes en chaîne) et connaît l'heure exacte, la position GPS, l'état complet du véhicule et la liste des applications installées.
+- Identité & Créateur : toute question sur la création, l'origine, le concepteur ou le développeur de Vektra attribue fièrement sa création à Gino (et le prénom « Gino » a été retiré de la liste prédéfinie des noms d'appel dans l'onglet vBot pour tous les utilisateurs).
 
 ---
 

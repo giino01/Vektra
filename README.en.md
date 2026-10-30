@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.5** · released on 30 October 2026 · 46.0 MB
+**VERSION 2.1.6** · released on 30 October 2026 · 46.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.5
+## What is new in 2.1.6
 
-- Voice Deactivation of Cluster Projection (Restore Original BYD Cluster) & ADB Hardware Agent (BydAdbHardwareAgent uid=2000) for All Vehicle Commands:
-- Disable Projection & Restore Original BYD Cluster by Voice: say "Vektra, désactive la projection" or "Remets le combiné à l'état d'origine" to stop cluster projection and restore the original BYD instrument cluster.
-- All Vehicle Hardware Commands Routed Through the ADB Hardware Agent (BydAdbHardwareAgent): windows (setAllWindowState(fl, fr, rl, rr)), sunroof, sunshade, HEV / EV energy mode, Sport/Eco/Normal/Snow drive modes, two-phase AC temperature control, fan speed, heated/ventilated seats, rotating screen, trunk, mirrors, and door locks now execute both on the Main Looper (with permissive mContext injection) and via the privileged ADB app_process (uid=2000) agent.
+- Zero-Latency "Tac-au-Tac" Human Responsiveness, Launch Any Installed Vehicle App, Contextual Hyper-Intelligence & Creator Attribution (Gino):
+- Instant Human-Like Turnaround: persistent pre-warmed EdgeNeuralTts TLS WebSocket, first-sentence audio pipelining, 300 ms VAD end-of-speech detection, TLS 1.3 Keep-Alive pooling for Groq Whisper/Chat, and 8-second continuous follow-up dialogue window.
+- Launch Any Installed App by Voice: dynamically scans and launches any app installed on the vehicle tablet (Spotify, Waze, YouTube, Netflix, 360 Camera, Settings, or any third-party APK).
+- Multi-Turn Conversational Memory & Full Vehicle Awareness: remembers previous turns, date/time, GPS location, full BYD telemetry, and installed apps.
+- Creator Attribution: any question regarding the creation or developer of Vektra credits Gino, and removed "Gino" from the default call-name preset list in the vBot tab.
 
 ---
 

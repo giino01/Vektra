@@ -1,42 +1,60 @@
 {
-  "version": "2.1.5",
-  "apk": "Vektra-2.1.5.apk",
-  "size": 48243008,
+  "version": "2.1.6",
+  "apk": "Vektra-2.1.6.apk",
+  "size": 48273840,
   "notes": [
-    "Désactivation vocale de la projection (retour au combiné BYD d'origine) & Agent matériel ADB BydAdbHardwareAgent (uid=2000) pour toutes les commandes véhicule :",
-    "Activation et désactivation de la projection par la voix + retour au combiné d'origine : vous pouvez désormais dire « Vektra, désactive la projection », « Coupe la projection », « Arrête la projection » ou « Remets le combiné à l'état d'origine » / « Remets le combiné d'origine » pour stopper immédiatement la projection et rétablir l'écran conducteur BYD d'origine (et « Active la projection » / « Projette le combiné » pour la relancer).",
-    "Exécution de toutes les commandes véhicule via l'Agent matériel ADB (BydAdbHardwareAgent) : toutes les actions matérielles (ouverture/fermeture des vitres individuelles ou globales via setAllWindowState(fl, fr, rl, rr) et setBodyWindowCtrlState, toit ouvrant, store de toit, passage en mode HEV / EV, modes Sport/Éco/Normal/Neige, climatisation en 2 phases BYD setAcTemperature, ventilation, sièges chauffants/ventilés, écran rotatif, coffre, rétroviseurs, portes) passent désormais simultanément par le Looper principal avec réinjection du contexte permissif mContext et par l'agent privilégié ADB app_process (uid=2000)."
+    "Réactivité instantanée « au tac au tac », ouverture de toutes les applications du véhicule, Hyper-Intelligence contextuelle & attribution créateur (Gino) :",
+    "Zéro latence « au tac au tac » (rapidité naturelle humaine) :",
+    "Pré-chauffage anticipé du tunnel WebSocket TLS EdgeNeuralTts dès les premières syllabes prononcées par le conducteur + maintien de la connexion WebSocket ouverte entre les phrases (~90 ms de synthèse au lieu de 750 ms).",
+    "Pipelining de la première phrase : sur les réponses de plusieurs phrases, Vektra commence à parler dès la 1re phrase pendant que la suite est synthétisée en parallèle.",
+    "Détection de fin de parole accélérée à 300 ms, rognage automatique du silence final et réutilisation des connexions TLS 1.3 (Keep-Alive) vers Groq Whisper & Llama 3.3.",
+    "Fenêtre de dialogue continu (8 s) après chaque réponse pour enchaîner les répliques naturellement sans devoir répéter « Vektra » à chaque phrase.",
+    "Ouverture vocale de toutes les applications installées dans le véhicule : Vektra scanne dynamiquement toutes les applications présentes sur la tablette BYD et peut lancer n'importe laquelle à la voix (« Ouvre Spotify », « Lance Waze », « Ouvre YouTube », « Lance Netflix », « Ouvre la caméra 360 », « Ouvre les paramètres », ou toute autre application installée).",
+    "Hyper-Intelligence contextuelle (Mémoire multi-tours + Télémétrie + GPS + Date/Heure) : Vektra conserve désormais la mémoire des échanges précédents (suivi de conversation, pronoms, demandes en chaîne) et connaît l'heure exacte, la position GPS, l'état complet du véhicule et la liste des applications installées.",
+    "Identité & Créateur : toute question sur la création, l'origine, le concepteur ou le développeur de Vektra attribue fièrement sa création à Gino (et le prénom « Gino » a été retiré de la liste prédéfinie des noms d'appel dans l'onglet vBot pour tous les utilisateurs)."
   ],
   "notesByLang": {
     "fr": [
-      "Désactivation vocale de la projection (retour au combiné BYD d'origine) & Agent matériel ADB BydAdbHardwareAgent (uid=2000) pour toutes les commandes véhicule :",
-      "Activation et désactivation de la projection par la voix + retour au combiné d'origine : vous pouvez désormais dire « Vektra, désactive la projection », « Coupe la projection », « Arrête la projection » ou « Remets le combiné à l'état d'origine » / « Remets le combiné d'origine » pour stopper immédiatement la projection et rétablir l'écran conducteur BYD d'origine (et « Active la projection » / « Projette le combiné » pour la relancer).",
-      "Exécution de toutes les commandes véhicule via l'Agent matériel ADB (BydAdbHardwareAgent) : toutes les actions matérielles (ouverture/fermeture des vitres individuelles ou globales via setAllWindowState(fl, fr, rl, rr) et setBodyWindowCtrlState, toit ouvrant, store de toit, passage en mode HEV / EV, modes Sport/Éco/Normal/Neige, climatisation en 2 phases BYD setAcTemperature, ventilation, sièges chauffants/ventilés, écran rotatif, coffre, rétroviseurs, portes) passent désormais simultanément par le Looper principal avec réinjection du contexte permissif mContext et par l'agent privilégié ADB app_process (uid=2000)."
+      "Réactivité instantanée « au tac au tac », ouverture de toutes les applications du véhicule, Hyper-Intelligence contextuelle & attribution créateur (Gino) :",
+      "Zéro latence « au tac au tac » (rapidité naturelle humaine) :",
+      "Pré-chauffage anticipé du tunnel WebSocket TLS EdgeNeuralTts dès les premières syllabes prononcées par le conducteur + maintien de la connexion WebSocket ouverte entre les phrases (~90 ms de synthèse au lieu de 750 ms).",
+      "Pipelining de la première phrase : sur les réponses de plusieurs phrases, Vektra commence à parler dès la 1re phrase pendant que la suite est synthétisée en parallèle.",
+      "Détection de fin de parole accélérée à 300 ms, rognage automatique du silence final et réutilisation des connexions TLS 1.3 (Keep-Alive) vers Groq Whisper & Llama 3.3.",
+      "Fenêtre de dialogue continu (8 s) après chaque réponse pour enchaîner les répliques naturellement sans devoir répéter « Vektra » à chaque phrase.",
+      "Ouverture vocale de toutes les applications installées dans le véhicule : Vektra scanne dynamiquement toutes les applications présentes sur la tablette BYD et peut lancer n'importe laquelle à la voix (« Ouvre Spotify », « Lance Waze », « Ouvre YouTube », « Lance Netflix », « Ouvre la caméra 360 », « Ouvre les paramètres », ou toute autre application installée).",
+      "Hyper-Intelligence contextuelle (Mémoire multi-tours + Télémétrie + GPS + Date/Heure) : Vektra conserve désormais la mémoire des échanges précédents (suivi de conversation, pronoms, demandes en chaîne) et connaît l'heure exacte, la position GPS, l'état complet du véhicule et la liste des applications installées.",
+      "Identité & Créateur : toute question sur la création, l'origine, le concepteur ou le développeur de Vektra attribue fièrement sa création à Gino (et le prénom « Gino » a été retiré de la liste prédéfinie des noms d'appel dans l'onglet vBot pour tous les utilisateurs)."
     ],
     "en": [
-      "Voice Deactivation of Cluster Projection (Restore Original BYD Cluster) & ADB Hardware Agent (BydAdbHardwareAgent uid=2000) for All Vehicle Commands:",
-      "Disable Projection & Restore Original BYD Cluster by Voice: say \"Vektra, désactive la projection\" or \"Remets le combiné à l'état d'origine\" to stop cluster projection and restore the original BYD instrument cluster.",
-      "All Vehicle Hardware Commands Routed Through the ADB Hardware Agent (BydAdbHardwareAgent): windows (setAllWindowState(fl, fr, rl, rr)), sunroof, sunshade, HEV / EV energy mode, Sport/Eco/Normal/Snow drive modes, two-phase AC temperature control, fan speed, heated/ventilated seats, rotating screen, trunk, mirrors, and door locks now execute both on the Main Looper (with permissive mContext injection) and via the privileged ADB app_process (uid=2000) agent."
+      "Zero-Latency \"Tac-au-Tac\" Human Responsiveness, Launch Any Installed Vehicle App, Contextual Hyper-Intelligence & Creator Attribution (Gino):",
+      "Instant Human-Like Turnaround: persistent pre-warmed EdgeNeuralTts TLS WebSocket, first-sentence audio pipelining, 300 ms VAD end-of-speech detection, TLS 1.3 Keep-Alive pooling for Groq Whisper/Chat, and 8-second continuous follow-up dialogue window.",
+      "Launch Any Installed App by Voice: dynamically scans and launches any app installed on the vehicle tablet (Spotify, Waze, YouTube, Netflix, 360 Camera, Settings, or any third-party APK).",
+      "Multi-Turn Conversational Memory & Full Vehicle Awareness: remembers previous turns, date/time, GPS location, full BYD telemetry, and installed apps.",
+      "Creator Attribution: any question regarding the creation or developer of Vektra credits Gino, and removed \"Gino\" from the default call-name preset list in the vBot tab."
     ],
     "it": [
-      "Disattivazione vocale della proiezione (ripristino cruscotto originale BYD) e Agente Hardware ADB (BydAdbHardwareAgent uid=2000) per tutti i comandi veicolo:",
-      "Disattiva la proiezione e ripristina il cruscotto originale con la voce: dì « Vektra, désactive la projection » o « Remets le combiné d'origine » per tornare al quadro strumenti originale BYD.",
-      "Tutti i comandi fisici del veicolo passano ora tramite l'Agente ADB (BydAdbHardwareAgent) (finestrini setAllWindowState, tetto apribile, modalità HEV / EV, Sport/Eco/Normal, climatizzatore bifase, sedili, rotazione schermo)."
+      "Reattività istantanea naturale, apertura di tutte le app installate nel veicolo, Iper-Intelligenza contestuale e attribuzione creatore (Gino):",
+      "Zero latenza: WebSocket TLS EdgeNeuralTts persistente pre-riscaldato, pipelining della prima frase, rilevamento fine parlato a 300 ms e memoria conversazionale multi-turno.",
+      "Apertura vocale di qualsiasi applicazione installata sul tablet BYD (Spotify, Waze, YouTube, Netflix, Fotocamera 360, Impostazioni, ecc.).",
+      "Identità e Creatore: ogni domanda sulla creazione di Vektra accredita Gino, rimuovendo \"Gino\" dai nomi di chiamata predefiniti nella scheda vBot."
     ],
     "de": [
-      "Sprachsteuerung zum Deaktivieren der Projektion (Original-BYD-Kombiinstrument wiederherstellen) & ADB-Hardware-Agent (BydAdbHardwareAgent uid=2000) für alle Fahrzeugbefehle:",
-      "Projektion per Sprachbefehl beenden & Original-Kombiinstrument wiederherstellen: mit „Vektra, désactive la projection“ oder „Remets le combiné d'origine“ wird das originale BYD-Kombiinstrument sofort wiederhergestellt.",
-      "Alle Fahrzeugbefehle laufen jetzt über den privilegierten ADB-Hardware-Agenten (BydAdbHardwareAgent) (Fenster setAllWindowState, Schiebedach, HEV / EV-Modus, Fahrprofile, 2-Phasen-Klimasteuerung, Sitze, Drehbildschirm)."
+      "Sofortige Reaktionszeit in Echtzeit, Starten aller installierten Fahrzeug-Apps, kontextbezogene Hyper-Intelligenz & Schöpfer-Zuordnung (Gino):",
+      "Null Latenz: vorgewärmter persistenter EdgeNeuralTts-TLS-WebSocket, Satz-Pipelining, 300-ms-Sprachende-Erkennung und Multi-Turn-Gesprächsgedächtnis.",
+      "Sprachstart jeder auf dem BYD-Tablet installierten App (Spotify, Waze, YouTube, Netflix, 360°-Kamera, Einstellungen usw.).",
+      "Schöpfer: alle Fragen zur Entwicklung von Vektra verweisen auf Gino (und „Gino“ wurde aus der Standard-Anredeliste im vBot-Tab entfernt)."
     ],
     "pt": [
-      "Desativação por voz da projeção (restaurar painel original BYD) e Agente de Hardware ADB (BydAdbHardwareAgent uid=2000) para todos os comandos do veículo:",
-      "Desative a projeção e restaure o painel original por voz: diga « Vektra, désactive la projection » ou « Remets le combiné d'origine » para restaurar o quadrante original BYD.",
-      "Todos os comandos físicos do veículo passam agora pelo Agente ADB (BydAdbHardwareAgent) (vidros setAllWindowState, teto de abrir, modo HEV / EV, modos de condução, climatização em 2 fases, bancos, ecrã rotativo)."
+      "Resposta instantânea sem latência, abertura de todas as aplicações instaladas no veículo, Hiper-Inteligência contextual e atribuição ao criador (Gino):",
+      "Latência zero: WebSocket TLS EdgeNeuralTts persistente pré-aquecido, pipelining da primeira frase, deteção de fim de fala em 300 ms e memória conversacional multi-turno.",
+      "Abertura por voz de qualquer aplicação instalada no tablet BYD (Spotify, Waze, YouTube, Netflix, Câmara 360, Definições, etc.).",
+      "Criador: qualquer pergunta sobre a criação do Vektra atribui a autoria a Gino (e \"Gino\" foi removido da lista predefinida de nomes de chamada no separador vBot)."
     ],
     "tr": [
-      "Projeksiyonu Sesle Kapatma (Orijinal BYD Gösterge Panelini Geri Yükleme) ve Tüm Araç Komutları İçin ADB Donanım Ajanı (BydAdbHardwareAgent uid=2000):",
-      "Sesli Komutla Projeksiyonu Kapatma ve Orijinal Göstergeye Dönme: « Vektra, désactive la projection » veya « Remets le combiné d'origine » diyerek orijinal BYD gösterge paneline dönebilirsiniz.",
-      "Tüm Araç Donanım Komutları Artık ADB Donanım Ajanı (BydAdbHardwareAgent) Üzerinden Çalışır (camlar setAllWindowState, sunroof, HEV / EV modu, sürüş modları, 2 aşamalı klima kontrolü, koltuklar, döner ekran)."
+      "Sıfır Gecikmeli Anında Yanıt, Araçtaki Tüm Uygulamaları Sesle Açma, Bağlamsal Hiper-Zeka ve Yaratıcı Atfı (Gino):",
+      "Sıfır Gecikme: önceden ısıtılmış kalıcı EdgeNeuralTts TLS WebSocket, ilk cümle akışı, 300 ms konuşma sonu algılama ve çok turlu sohbet hafızası.",
+      "BYD Tabletteki Tüm Yüklü Uygulamaları Sesle Açma (Spotify, Waze, YouTube, Netflix, 360 Kamera, Ayarlar vb.).",
+      "Yaratıcı: Vektra'nın yaratıcısı hakkındaki tüm sorular Gino'yu referans gösterir (ve vBot sekmesindeki varsayılan hitap listesi sadeleştirildi)."
     ]
   }
 }
