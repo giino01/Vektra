@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.1.1** · pubblicata il 30 ottobre 2026 · 45.9 MB
+**VERSIONE 2.1.2** · pubblicata il 30 ottobre 2026 · 45.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.1.1
+## Novità della 2.1.2
 
-- Correzione del risveglio vocale con chiave API Groq inserita (vBot Vektra):
-- Risveglio vocale istantaneo a 0 ms (« Sì, Gino? »): attiva il risveglio vocale immediato alla chiamata « Vektra » anche con chiave Groq configurata, aprendo una finestra di ascolto attivo di 15 secondi verso Groq Whisper e Llama 3.3.
-- Eliminato lo standby involontario: rimosse le frasi di standby dal prompt Whisper che causavano la disattivazione automatica dell'assistente.
-- Coda di trascrizione dedicata e watchdog MediaPlayer: separazione dei thread Whisper / Chat e sblocco garantito del microfono dopo ogni risposta vocale.
+- Correzione dell'errore HTTP 400 invalid_multipart_form verso Groq Whisper in auto:
+- Separatore MIME boundary strettamente alfanumerico (RFC 2046): rimosso il prefisso == nel boundary che causava il rifiuto HTTP 400 da parte del parser MIME di Groq.
+- Invio multipart/form-data pre-bufferizzato a lunghezza fissa: calcolo esatto del Content-Length per i file WAV catturati da CarAudioEngine.
 
 ---
 

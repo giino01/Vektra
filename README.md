@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.1** · publiée le 30 octobre 2026 · 45.9 Mo
+**VERSION 2.1.2** · publiée le 30 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.1
+## Nouveautés de la 2.1.2
 
-- Correction du réveil vocal avec clé API Groq activée (vBot Vektra) :
-- Réveil vocal instantané en 0 ms (« Oui, Gino ? ») : utilise la même détection vocale locale immédiate sur l'interpellation « Vektra » lorsque la clé Groq est renseignée, puis ouvre la fenêtre d'écoute active de 15 secondes vers Groq Whisper et Llama 3.3.
-- Suppression de l'auto-mise en veille involontaire : retrait des mots-clés de veille du prompt d'amorçage Whisper qui provoquaient une hallucination « mets-toi en veille » et désactivaient l'assistant dès l'ajout de la clé Groq.
-- File de transcription dédiée & Sécurité anti-blocage MediaPlayer : séparation des fils d'exécution Whisper / Chat et ajout d'un chien de garde sur la fin de lecture audio pour que le microphone se réactive systématiquement après « Oui, Gino ? ».
+- Correction de l'erreur HTTP 400 invalid_multipart_form vers Groq Whisper en voiture :
+- Séparateur MIME boundary strictement alphanumérique (RFC 2046) : suppression du préfixe == dans boundary (==VektraBoundary... générait boundary===..., rejeté en HTTP 400 par le parseur MIME de Groq).
+- Envoi multipart/form-data pré-tamponné à taille fixe : calcul exact du Content-Length (setFixedLengthStreamingMode) avant l'envoi du fichier WAV capturé par CarAudioEngine sur le canal VOICE_RECOGNITION.
 
 ---
 

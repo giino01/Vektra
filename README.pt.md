@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.1.1** · publicada a 30 de outubro de 2026 · 45.9 MB
+**VERSÃO 2.1.2** · publicada a 30 de outubro de 2026 · 45.9 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.1.1
+## Novidades da 2.1.2
 
-- Correção do despertar por voz com chave API Groq configurada (vBot Vektra):
-- Despertar vocal instantâneo em 0 ms (« Sim, Gino? »): aciona a mesma deteção vocal imediata ao chamar « Vektra » com a chave Groq ativa, abrindo de seguida 15 segundos de escuta ativa para o Groq Whisper e Llama 3.3.
-- Eliminação da suspensão involuntária: remoção dos termos de suspensão do prompt Whisper que desativavam o assistente ao inserir a chave Groq.
-- Fila de transcrição dedicada e watchdog MediaPlayer: separação das filas Whisper / Chat e reativação garantida do microfone após cada resposta.
+- Correção do erro HTTP 400 invalid_multipart_form no Groq Whisper no veículo:
+- Separador MIME boundary estritamente alfanumérico (RFC 2046): remoção do prefixo == no boundary que causava erro HTTP 400 no analisador MIME da Groq.
+- Envio multipart/form-data pré-armazenado com tamanho fixo: cálculo exato do Content-Length para o ficheiro WAV capturado pelo CarAudioEngine.
 
 ---
 

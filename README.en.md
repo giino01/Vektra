@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.1** · released on 30 October 2026 · 45.9 MB
+**VERSION 2.1.2** · released on 30 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.1
+## What is new in 2.1.2
 
-- Fixed Voice Wake-Up When Groq API Key Is Configured (vBot Vektra):
-- Instant 0 ms Voice Wake-Up ("Yes, Gino?"): triggers the same immediate local wake-up response when calling "Vektra" with a Groq key configured, then opens a 15-second active listening window for Groq Whisper and Llama 3.3.
-- Eliminated Accidental Standby Lock: removed standby phrases from the Whisper context prompt that caused Whisper to hallucinate a standby command and deactivate Vektra as soon as the Groq key was set.
-- Dedicated Transcription Queue & MediaPlayer Watchdog: isolated Whisper and Chat executors and added a playback completion watchdog so the microphone always resumes listening right after Vektra speaks.
+- Fixed HTTP 400 invalid_multipart_form Error with Groq Whisper in Vehicle:
+- Strictly Alphanumeric MIME boundary (RFC 2046): removed the == prefix in boundary (==VektraBoundary... produced boundary===..., which was rejected with HTTP 400 by Groq's MIME parser).
+- Pre-Buffered Fixed-Length multipart/form-data Upload: computes exact Content-Length (setFixedLengthStreamingMode) when sending WAV audio captured by CarAudioEngine on VOICE_RECOGNITION.
 
 ---
 

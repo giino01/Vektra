@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.1.1** · yayın tarihi 30 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.1.2** · yayın tarihi 30 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.1.1
+## Yenilikler: 2.1.2
 
-- Groq API Anahtarı Girildiğinde Sesli Uyanma Sorununun Çözümü (vBot Vektra):
-- 0 ms Anında Sesli Uyanma (« Evet, Gino? »): Groq anahtarı etkinken « Vektra » çağrısında anında yerel uyanma yanıtı verir ve ardından Groq Whisper ile Llama 3.3 için 15 saniyelik aktif dinleme penceresi açar.
-- İstenmeyen Uyku Modu Kilidinin Kaldırılması: Whisper bağlam isteminden asistanı yanlışlıkla uyku moduna sokan ifadeler temizlendi.
-- Özel Transkripsiyon Kuyruğu ve MediaPlayer Koruyucusu: Whisper ve Sohbet iş parçacıkları ayrıldı ve her sesli yanıttan sonra mikrofonun kesintisiz devreye girmesi garanti altına alındı.
+- Araçta Groq Whisper HTTP 400 invalid_multipart_form Hatasının Çözümü:
+- Tamamen Alfasayısal MIME boundary (RFC 2046): Groq MIME ayrıştırıcısı tarafından HTTP 400 ile reddedilen == öneki kaldırıldı.
+- Sabit Uzunluklu Ön-Tamponlu multipart/form-data Gönderimi: CarAudioEngine tarafından yakalanan WAV ses dosyaları için kesin Content-Length hesaplaması eklendi.
 
 ---
 
