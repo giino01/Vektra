@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.1.3** · yayın tarihi 30 Ekim 2026 · 46.0 MB
+**SÜRÜM 2.1.4** · yayın tarihi 30 Ekim 2026 · 46.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.1.3
+## Yenilikler: 2.1.4
 
-- Tam BYD Araç Donanım Kontrolü, Kesintisiz Uzun Cümle Okuma ve Normal Hoparlör Sesini Otomatik Kısma:
-- Tüm Araç Donanımlarına Erişim: camlar, sunroof, tavan perdesi, tam klima kontrolü, ısıtmalı/soğutmalı koltuklar, direksiyon ısıtma, ekran döndürme, elektrikli bagaj, katlanır aynalar, ambiyans aydınlatma, kapı kilitleri ve canlı telemetri kontrolü.
-- Uzun Cümlelerin Kesilmesi Düzeltildi: uzun yanıtlar artık sonuna kadar kesintisiz okunur.
-- Normal Hoparlör (STREAM_MUSIC) Sesini Otomatik Kısma: Vektra'yı çağırdığınızda medya sesi %20'ye düşürülür, Navi hoparlörü %100'de kalır ve yanıt bitince medya sesi eski seviyesine döner.
+- Sadece « Vektra » Kelimesiyle Uyanma (Ağız Seslerinde Yanlış Tetikleme Yok), Çalışan Uyku Modu, Microsoft Edge Süper Doğal Ses ve Veri Silmeden Güncelleme:
+- Ağız Seslerinde Yanlış Tetiklemeye Son (Google Servisleri Olmayan BYD Tablet): Vektra artık tıpkı akıllı telefondaki gibi yalnızca gerçekten « Vektra » dediğinizde uyanır.
+- Güvenilir Uyku Modu (« Vektra, uyan » diyene kadar sessiz kalır).
+- Microsoft Edge Süper Doğal Neural Ses (AhmetNeural / EmelNeural) Sec-MS-GEC v2 protokolü ile geri getirildi.
+- Güncellemeler Arasında Veri Silmeye Gerek Yok: AppVersionMigrator tüm ayarlarınızı koruyarak eski önbellekleri otomatik temizler.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.1.3** · veröffentlicht am 30. Oktober 2026 · 46.0 MB
+**VERSION 2.1.4** · veröffentlicht am 30. Oktober 2026 · 46.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.1.3
+## Neu in 2.1.4
 
-- Vollständige BYD-Fahrzeugsteuerung, unterbrechungsfreie lange Sätze & automatische Medien-Lautstärkeabsenkung:
-- Zugriff auf alle Fahrzeugfunktionen: Sprachsteuerung für Fenster, Schiebedach, Sonnenschutzrollo, Klimaanlage, Sitzheizung/-belüftung, Lenkradheizung, Bildschirmdrehung, Kofferraum, Spiegel, Ambientebeleuchtung, Türverriegelung und Echtzeit-Telemetrie.
-- Kein Abschneiden langer Antworten mehr: sequenzielle MP3-Wiedergabe ohne 7-Sekunden-Begrenzung.
-- Automatische Absenkung des normalen Lautsprechers (STREAM_MUSIC) auf 20 % beim Aufrufen von Vektra, während der Navi-Lautsprecher bei 100 % bleibt.
+- Exklusives Aufwachen beim Wort „Vektra“, funktionierender Standby-Modus, super-natürliche Microsoft Edge Neural-Stimme & Updates ohne Datenverlust:
+- Kein falsches Auslösen bei Mundgeräuschen mehr (BYD-Tablet ohne Google-Dienste): Vektra reagiert genau wie auf dem Smartphone nur noch, wenn Sie wirklich „Vektra“ sagen.
+- Zuverlässiger Standby-Modus bis zum Befehl „Vektra, wach auf“.
+- Super-natürliche Microsoft Edge Neural-Stimme (ConradNeural / KatjaNeural) mit Sec-MS-GEC v2 wiederhergestellt.
+- Automatische Cache-Bereinigung bei jedem Update (AppVersionMigrator) ohne Verlust Ihrer persönlichen Einstellungen.
 
 ---
 

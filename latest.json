@@ -1,49 +1,56 @@
 {
-  "version": "2.1.3",
-  "apk": "Vektra-2.1.3.apk",
-  "size": 48206768,
+  "version": "2.1.4",
+  "apk": "Vektra-2.1.4.apk",
+  "size": 48225244,
   "notes": [
-    "Contrôle intégral des équipements BYD, lecture intégrale des phrases longues & atténuation automatique du haut-parleur normal :",
-    "Accès total aux équipements du véhicule (local + IA Groq Llama 3.3) : Vektra pilote désormais l'ouverture/fermeture/entrebâillement des fenêtres (toutes ou vitre par vitre), du toit ouvrant panoramique et du pare-soleil/rideau de toit, la climatisation complète (marche/arrêt/auto, température 15–32 °C, vitesse de soufflerie 1–7, dégivrage avant/arrière, recyclage d'air), les sièges chauffants et ventilés (conducteur/passager), le volant chauffant, la rotation de l'écran central, le coffre motorisé, les rétroviseurs rabattables, l'éclairage d'ambiance LED, le verrouillage des portes, les modes Sport/Éco/Normal/Neige, EV/HEV, la régénération et la télémétrie temps réel (batterie, autonomie EV + essence, 4 pressions de pneus en kPa, kilométrage, températures).",
-    "Fini les phrases longues coupées avant la fin : les réponses longues sont désormais découpées en segments MP3 autonomes joués séquentiellement de bout en bout (sans concaténation binaire d'en-têtes Xing/LAME ni coupure prématurée à 7 secondes).",
-    "Baisse automatique du volume du haut-parleur normal (STREAM_MUSIC) sans toucher au haut-parleur Navi (STREAM_NAVI) : dès que vous appelez Vektra, le volume de la musique/radio se baisse physiquement à 20 % pendant votre question et pendant la réponse de Vektra, puis remonte automatiquement à son niveau initial."
+    "Déclenchement exclusif sur le mot « Vektra » (zéro faux réveil sur les sons de bouche), mode veille fonctionnel, voix Microsoft Edge Super-Naturelle & mises à jour sans effacer les données :",
+    "Fini les déclenchements intempestifs sur chaque bruit de bouche (tablette BYD sans services Google) : suppression du réveil aveugle par niveau sonore RMS et filtrage des bruits non vocaux (no_speech_prob / avg_logprob). Exactement comme sur smartphone, Vektra ne se réveille désormais que lorsque vous prononcez réellement son nom « Vektra ».",
+    "Mode veille (« Mets-toi en veille ») 100 % fonctionnel et persistant : reconnaissance de toutes les formulations naturelles (« mets-toi en veille », « met-toi en veille », « mets en veille », « mode veille », « va dormir », « silence ») et maintien strict de la veille jusqu'à l'ordre « Vektra, réveille-toi ».",
+    "Voix Microsoft Edge Super-Naturelle (HenriNeural & DeniseNeural) rétablie : intégration du nouveau protocole Sec-MS-GEC v2 (2-143.0.3650.75 CS64-SHA256) offrant une voix humaine ultra-naturelle pour l'homme (style J.A.R.V.I.S.) et la femme dans les 6 langues.",
+    "Fini l'obligation d'« Effacer les données » après chaque mise à jour : nouveau gestionnaire AppVersionMigrator qui purge automatiquement tous les anciens caches (voix, WebView 3D, code_cache) et accorde les nouvelles permissions BYD dès qu'une nouvelle version est installée, tout en conservant 100 % de vos réglages personnels (clé Groq, thèmes, favoris GPS, etc.)."
   ],
   "notesByLang": {
     "fr": [
-      "Contrôle intégral des équipements BYD, lecture intégrale des phrases longues & atténuation automatique du haut-parleur normal :",
-      "Accès total aux équipements du véhicule (local + IA Groq Llama 3.3) : Vektra pilote désormais l'ouverture/fermeture/entrebâillement des fenêtres (toutes ou vitre par vitre), du toit ouvrant panoramique et du pare-soleil/rideau de toit, la climatisation complète (marche/arrêt/auto, température 15–32 °C, vitesse de soufflerie 1–7, dégivrage avant/arrière, recyclage d'air), les sièges chauffants et ventilés (conducteur/passager), le volant chauffant, la rotation de l'écran central, le coffre motorisé, les rétroviseurs rabattables, l'éclairage d'ambiance LED, le verrouillage des portes, les modes Sport/Éco/Normal/Neige, EV/HEV, la régénération et la télémétrie temps réel (batterie, autonomie EV + essence, 4 pressions de pneus en kPa, kilométrage, températures).",
-      "Fini les phrases longues coupées avant la fin : les réponses longues sont désormais découpées en segments MP3 autonomes joués séquentiellement de bout en bout (sans concaténation binaire d'en-têtes Xing/LAME ni coupure prématurée à 7 secondes).",
-      "Baisse automatique du volume du haut-parleur normal (STREAM_MUSIC) sans toucher au haut-parleur Navi (STREAM_NAVI) : dès que vous appelez Vektra, le volume de la musique/radio se baisse physiquement à 20 % pendant votre question et pendant la réponse de Vektra, puis remonte automatiquement à son niveau initial."
+      "Déclenchement exclusif sur le mot « Vektra » (zéro faux réveil sur les sons de bouche), mode veille fonctionnel, voix Microsoft Edge Super-Naturelle & mises à jour sans effacer les données :",
+      "Fini les déclenchements intempestifs sur chaque bruit de bouche (tablette BYD sans services Google) : suppression du réveil aveugle par niveau sonore RMS et filtrage des bruits non vocaux (no_speech_prob / avg_logprob). Exactement comme sur smartphone, Vektra ne se réveille désormais que lorsque vous prononcez réellement son nom « Vektra ».",
+      "Mode veille (« Mets-toi en veille ») 100 % fonctionnel et persistant : reconnaissance de toutes les formulations naturelles (« mets-toi en veille », « met-toi en veille », « mets en veille », « mode veille », « va dormir », « silence ») et maintien strict de la veille jusqu'à l'ordre « Vektra, réveille-toi ».",
+      "Voix Microsoft Edge Super-Naturelle (HenriNeural & DeniseNeural) rétablie : intégration du nouveau protocole Sec-MS-GEC v2 (2-143.0.3650.75 CS64-SHA256) offrant une voix humaine ultra-naturelle pour l'homme (style J.A.R.V.I.S.) et la femme dans les 6 langues.",
+      "Fini l'obligation d'« Effacer les données » après chaque mise à jour : nouveau gestionnaire AppVersionMigrator qui purge automatiquement tous les anciens caches (voix, WebView 3D, code_cache) et accorde les nouvelles permissions BYD dès qu'une nouvelle version est installée, tout en conservant 100 % de vos réglages personnels (clé Groq, thèmes, favoris GPS, etc.)."
     ],
     "en": [
-      "Full BYD Vehicle Equipment Control, Complete Long-Sentence Playback & Automatic Normal Speaker Ducking:",
-      "Complete Vehicle Hardware Access (Local + Groq Llama 3.3 AI): Vektra now controls windows (all or individual open/close/ventilate), panoramic sunroof (open/close/tilt), roof sunshade, full AC (on/off/auto, 15–32 °C temperature, fan speed 1–7, front/rear defrost, air recirculation), heated & ventilated seats, heated steering wheel, center screen rotation, power trunk, folding mirrors, ambient lighting, door locks, Sport/Eco/Normal/Snow modes, EV/HEV energy mode, regen braking, and live telemetry.",
-      "Fixed Long Sentences Cutting Off: multi-sentence responses are now played sequentially as standalone MP3 segments rather than byte-concatenating Xing/LAME headers or capping playback at 7 seconds.",
-      "Automatic Normal Speaker (STREAM_MUSIC) Volume Lowering: calling Vektra physically lowers the normal media speaker volume to 20% while keeping the headrest Navi speaker (STREAM_NAVI) at 100%, then restores media volume once Vektra finishes."
+      "Strict \"Vektra\" Wake-Word Detection (No False Triggers on Mouth Sounds), Working Standby Mode, Microsoft Edge Super-Natural Neural TTS & Zero-Reset Updates:",
+      "No More False Wake-Ups on Mouth Sounds (BYD Tablet Without Google Services): removed blind RMS wake-up shortcuts and added Whisper non-speech filtering (no_speech_prob), so Vektra only wakes up when you actually say \"Vektra\", just like on a smartphone.",
+      "Reliable Standby Mode (\"Mets-toi en veille\" / \"Go to sleep\"): recognizes all natural standby phrasings and stays in standby until you say \"Vektra, wake up\".",
+      "Restored Microsoft Edge Super-Natural Neural TTS: implemented the 2026 Sec-MS-GEC v2 (2-143.0.3650.75) authentication token for lifelike Neural voices (HenriNeural / DeniseNeural and all 6 languages).",
+      "No More Clearing App Data Between Updates: AppVersionMigrator automatically purges stale voice, WebView, and code caches and grants new BYD permissions on version upgrade while preserving 100% of your personal settings."
     ],
     "it": [
-      "Controllo completo degli equipaggiamenti BYD, riproduzione integrale delle frasi lunghe e abbassamento automatico del volume media:",
-      "Accesso totale alla vettura: controllo vocale di finestrini, tetto apribile, tendina parasole, climatizzatore completo, sedili riscaldati/ventilati, volante riscaldato, rotazione schermo, baule elettrico, specchietti, luci ambiente, serrature e telemetria in tempo reale.",
-      "Nessuna interruzione sulle frasi lunghe: riproduzione sequenziale fluida fino alla fine della frase.",
-      "Abbassamento automatico dell'altoparlante normale (STREAM_MUSIC) al 20% quando chiami Vektra, mantenendo l'altoparlante Navi al 100%."
+      "Attivazione esclusiva con la parola « Vektra », modalità standby funzionante, voce Microsoft Edge Super-Naturale e aggiornamenti senza cancellare i dati:",
+      "Zero falsi risvegli sui suoni della bocca (tablet BYD senza GMS): Vektra risponde solo quando pronunci davvero « Vektra », proprio come sullo smartphone.",
+      "Modalità standby affidabile fino al comando « Vektra, svegliati ».",
+      "Voce Microsoft Edge Neural super-naturale (DiegoNeural / ElsaNeural) ripristinata con protocollo Sec-MS-GEC v2.",
+      "Pulizia automatica della cache ad ogni aggiornamento (AppVersionMigrator) mantenendo tutte le impostazioni personali."
     ],
     "de": [
-      "Vollständige BYD-Fahrzeugsteuerung, unterbrechungsfreie lange Sätze & automatische Medien-Lautstärkeabsenkung:",
-      "Zugriff auf alle Fahrzeugfunktionen: Sprachsteuerung für Fenster, Schiebedach, Sonnenschutzrollo, Klimaanlage, Sitzheizung/-belüftung, Lenkradheizung, Bildschirmdrehung, Kofferraum, Spiegel, Ambientebeleuchtung, Türverriegelung und Echtzeit-Telemetrie.",
-      "Kein Abschneiden langer Antworten mehr: sequenzielle MP3-Wiedergabe ohne 7-Sekunden-Begrenzung.",
-      "Automatische Absenkung des normalen Lautsprechers (STREAM_MUSIC) auf 20 % beim Aufrufen von Vektra, während der Navi-Lautsprecher bei 100 % bleibt."
+      "Exklusives Aufwachen beim Wort „Vektra“, funktionierender Standby-Modus, super-natürliche Microsoft Edge Neural-Stimme & Updates ohne Datenverlust:",
+      "Kein falsches Auslösen bei Mundgeräuschen mehr (BYD-Tablet ohne Google-Dienste): Vektra reagiert genau wie auf dem Smartphone nur noch, wenn Sie wirklich „Vektra“ sagen.",
+      "Zuverlässiger Standby-Modus bis zum Befehl „Vektra, wach auf“.",
+      "Super-natürliche Microsoft Edge Neural-Stimme (ConradNeural / KatjaNeural) mit Sec-MS-GEC v2 wiederhergestellt.",
+      "Automatische Cache-Bereinigung bei jedem Update (AppVersionMigrator) ohne Verlust Ihrer persönlichen Einstellungen."
     ],
     "pt": [
-      "Controlo total dos equipamentos BYD, leitura completa de frases longas e redução automática do volume multimédia:",
-      "Acesso completo ao veículo: controlo por voz de janelas, teto de abrir, cortina do teto, ar condicionado completo, bancos aquecidos/ventilados, volante aquecido, rotação do ecrã, mala elétrica, espelhos, luz ambiente, portas e telemetria em tempo real.",
-      "Fim do corte em frases longas: reprodução sequencial completa até ao fim da resposta.",
-      "Redução automática do altifalante normal (STREAM_MUSIC) para 20% ao chamar a Vektra, mantendo o altifalante Navi a 100%."
+      "Ativação exclusiva com a palavra « Vektra », modo de espera funcional, voz Microsoft Edge Super-Natural e atualizações sem apagar dados:",
+      "Sem ativações falsas com sons da boca (tablet BYD sem serviços Google): a Vektra só acorda quando diz realmente « Vektra », tal como no smartphone.",
+      "Modo de espera fiável até ao comando « Vektra, acorda ».",
+      "Voz Microsoft Edge Neural super-natural (DuarteNeural / RaquelNeural) restaurada com protocolo Sec-MS-GEC v2.",
+      "Limpeza automática de cache a cada atualização (AppVersionMigrator) preservando 100% das suas definições."
     ],
     "tr": [
-      "Tam BYD Araç Donanım Kontrolü, Kesintisiz Uzun Cümle Okuma ve Normal Hoparlör Sesini Otomatik Kısma:",
-      "Tüm Araç Donanımlarına Erişim: camlar, sunroof, tavan perdesi, tam klima kontrolü, ısıtmalı/soğutmalı koltuklar, direksiyon ısıtma, ekran döndürme, elektrikli bagaj, katlanır aynalar, ambiyans aydınlatma, kapı kilitleri ve canlı telemetri kontrolü.",
-      "Uzun Cümlelerin Kesilmesi Düzeltildi: uzun yanıtlar artık sonuna kadar kesintisiz okunur.",
-      "Normal Hoparlör (STREAM_MUSIC) Sesini Otomatik Kısma: Vektra'yı çağırdığınızda medya sesi %20'ye düşürülür, Navi hoparlörü %100'de kalır ve yanıt bitince medya sesi eski seviyesine döner."
+      "Sadece « Vektra » Kelimesiyle Uyanma (Ağız Seslerinde Yanlış Tetikleme Yok), Çalışan Uyku Modu, Microsoft Edge Süper Doğal Ses ve Veri Silmeden Güncelleme:",
+      "Ağız Seslerinde Yanlış Tetiklemeye Son (Google Servisleri Olmayan BYD Tablet): Vektra artık tıpkı akıllı telefondaki gibi yalnızca gerçekten « Vektra » dediğinizde uyanır.",
+      "Güvenilir Uyku Modu (« Vektra, uyan » diyene kadar sessiz kalır).",
+      "Microsoft Edge Süper Doğal Neural Ses (AhmetNeural / EmelNeural) Sec-MS-GEC v2 protokolü ile geri getirildi.",
+      "Güncellemeler Arasında Veri Silmeye Gerek Yok: AppVersionMigrator tüm ayarlarınızı koruyarak eski önbellekleri otomatik temizler."
     ]
   }
 }

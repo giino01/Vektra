@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.3** · released on 30 October 2026 · 46.0 MB
+**VERSION 2.1.4** · released on 30 October 2026 · 46.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.3
+## What is new in 2.1.4
 
-- Full BYD Vehicle Equipment Control, Complete Long-Sentence Playback & Automatic Normal Speaker Ducking:
-- Complete Vehicle Hardware Access (Local + Groq Llama 3.3 AI): Vektra now controls windows (all or individual open/close/ventilate), panoramic sunroof (open/close/tilt), roof sunshade, full AC (on/off/auto, 15–32 °C temperature, fan speed 1–7, front/rear defrost, air recirculation), heated & ventilated seats, heated steering wheel, center screen rotation, power trunk, folding mirrors, ambient lighting, door locks, Sport/Eco/Normal/Snow modes, EV/HEV energy mode, regen braking, and live telemetry.
-- Fixed Long Sentences Cutting Off: multi-sentence responses are now played sequentially as standalone MP3 segments rather than byte-concatenating Xing/LAME headers or capping playback at 7 seconds.
-- Automatic Normal Speaker (STREAM_MUSIC) Volume Lowering: calling Vektra physically lowers the normal media speaker volume to 20% while keeping the headrest Navi speaker (STREAM_NAVI) at 100%, then restores media volume once Vektra finishes.
+- Strict "Vektra" Wake-Word Detection (No False Triggers on Mouth Sounds), Working Standby Mode, Microsoft Edge Super-Natural Neural TTS & Zero-Reset Updates:
+- No More False Wake-Ups on Mouth Sounds (BYD Tablet Without Google Services): removed blind RMS wake-up shortcuts and added Whisper non-speech filtering (no_speech_prob), so Vektra only wakes up when you actually say "Vektra", just like on a smartphone.
+- Reliable Standby Mode ("Mets-toi en veille" / "Go to sleep"): recognizes all natural standby phrasings and stays in standby until you say "Vektra, wake up".
+- Restored Microsoft Edge Super-Natural Neural TTS: implemented the 2026 Sec-MS-GEC v2 (2-143.0.3650.75) authentication token for lifelike Neural voices (HenriNeural / DeniseNeural and all 6 languages).
+- No More Clearing App Data Between Updates: AppVersionMigrator automatically purges stale voice, WebView, and code caches and grants new BYD permissions on version upgrade while preserving 100% of your personal settings.
 
 ---
 
