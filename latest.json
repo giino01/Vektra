@@ -1,56 +1,42 @@
 {
-  "version": "2.1.4",
-  "apk": "Vektra-2.1.4.apk",
-  "size": 48225244,
+  "version": "2.1.5",
+  "apk": "Vektra-2.1.5.apk",
+  "size": 48243008,
   "notes": [
-    "Déclenchement exclusif sur le mot « Vektra » (zéro faux réveil sur les sons de bouche), mode veille fonctionnel, voix Microsoft Edge Super-Naturelle & mises à jour sans effacer les données :",
-    "Fini les déclenchements intempestifs sur chaque bruit de bouche (tablette BYD sans services Google) : suppression du réveil aveugle par niveau sonore RMS et filtrage des bruits non vocaux (no_speech_prob / avg_logprob). Exactement comme sur smartphone, Vektra ne se réveille désormais que lorsque vous prononcez réellement son nom « Vektra ».",
-    "Mode veille (« Mets-toi en veille ») 100 % fonctionnel et persistant : reconnaissance de toutes les formulations naturelles (« mets-toi en veille », « met-toi en veille », « mets en veille », « mode veille », « va dormir », « silence ») et maintien strict de la veille jusqu'à l'ordre « Vektra, réveille-toi ».",
-    "Voix Microsoft Edge Super-Naturelle (HenriNeural & DeniseNeural) rétablie : intégration du nouveau protocole Sec-MS-GEC v2 (2-143.0.3650.75 CS64-SHA256) offrant une voix humaine ultra-naturelle pour l'homme (style J.A.R.V.I.S.) et la femme dans les 6 langues.",
-    "Fini l'obligation d'« Effacer les données » après chaque mise à jour : nouveau gestionnaire AppVersionMigrator qui purge automatiquement tous les anciens caches (voix, WebView 3D, code_cache) et accorde les nouvelles permissions BYD dès qu'une nouvelle version est installée, tout en conservant 100 % de vos réglages personnels (clé Groq, thèmes, favoris GPS, etc.)."
+    "Désactivation vocale de la projection (retour au combiné BYD d'origine) & Agent matériel ADB BydAdbHardwareAgent (uid=2000) pour toutes les commandes véhicule :",
+    "Activation et désactivation de la projection par la voix + retour au combiné d'origine : vous pouvez désormais dire « Vektra, désactive la projection », « Coupe la projection », « Arrête la projection » ou « Remets le combiné à l'état d'origine » / « Remets le combiné d'origine » pour stopper immédiatement la projection et rétablir l'écran conducteur BYD d'origine (et « Active la projection » / « Projette le combiné » pour la relancer).",
+    "Exécution de toutes les commandes véhicule via l'Agent matériel ADB (BydAdbHardwareAgent) : toutes les actions matérielles (ouverture/fermeture des vitres individuelles ou globales via setAllWindowState(fl, fr, rl, rr) et setBodyWindowCtrlState, toit ouvrant, store de toit, passage en mode HEV / EV, modes Sport/Éco/Normal/Neige, climatisation en 2 phases BYD setAcTemperature, ventilation, sièges chauffants/ventilés, écran rotatif, coffre, rétroviseurs, portes) passent désormais simultanément par le Looper principal avec réinjection du contexte permissif mContext et par l'agent privilégié ADB app_process (uid=2000)."
   ],
   "notesByLang": {
     "fr": [
-      "Déclenchement exclusif sur le mot « Vektra » (zéro faux réveil sur les sons de bouche), mode veille fonctionnel, voix Microsoft Edge Super-Naturelle & mises à jour sans effacer les données :",
-      "Fini les déclenchements intempestifs sur chaque bruit de bouche (tablette BYD sans services Google) : suppression du réveil aveugle par niveau sonore RMS et filtrage des bruits non vocaux (no_speech_prob / avg_logprob). Exactement comme sur smartphone, Vektra ne se réveille désormais que lorsque vous prononcez réellement son nom « Vektra ».",
-      "Mode veille (« Mets-toi en veille ») 100 % fonctionnel et persistant : reconnaissance de toutes les formulations naturelles (« mets-toi en veille », « met-toi en veille », « mets en veille », « mode veille », « va dormir », « silence ») et maintien strict de la veille jusqu'à l'ordre « Vektra, réveille-toi ».",
-      "Voix Microsoft Edge Super-Naturelle (HenriNeural & DeniseNeural) rétablie : intégration du nouveau protocole Sec-MS-GEC v2 (2-143.0.3650.75 CS64-SHA256) offrant une voix humaine ultra-naturelle pour l'homme (style J.A.R.V.I.S.) et la femme dans les 6 langues.",
-      "Fini l'obligation d'« Effacer les données » après chaque mise à jour : nouveau gestionnaire AppVersionMigrator qui purge automatiquement tous les anciens caches (voix, WebView 3D, code_cache) et accorde les nouvelles permissions BYD dès qu'une nouvelle version est installée, tout en conservant 100 % de vos réglages personnels (clé Groq, thèmes, favoris GPS, etc.)."
+      "Désactivation vocale de la projection (retour au combiné BYD d'origine) & Agent matériel ADB BydAdbHardwareAgent (uid=2000) pour toutes les commandes véhicule :",
+      "Activation et désactivation de la projection par la voix + retour au combiné d'origine : vous pouvez désormais dire « Vektra, désactive la projection », « Coupe la projection », « Arrête la projection » ou « Remets le combiné à l'état d'origine » / « Remets le combiné d'origine » pour stopper immédiatement la projection et rétablir l'écran conducteur BYD d'origine (et « Active la projection » / « Projette le combiné » pour la relancer).",
+      "Exécution de toutes les commandes véhicule via l'Agent matériel ADB (BydAdbHardwareAgent) : toutes les actions matérielles (ouverture/fermeture des vitres individuelles ou globales via setAllWindowState(fl, fr, rl, rr) et setBodyWindowCtrlState, toit ouvrant, store de toit, passage en mode HEV / EV, modes Sport/Éco/Normal/Neige, climatisation en 2 phases BYD setAcTemperature, ventilation, sièges chauffants/ventilés, écran rotatif, coffre, rétroviseurs, portes) passent désormais simultanément par le Looper principal avec réinjection du contexte permissif mContext et par l'agent privilégié ADB app_process (uid=2000)."
     ],
     "en": [
-      "Strict \"Vektra\" Wake-Word Detection (No False Triggers on Mouth Sounds), Working Standby Mode, Microsoft Edge Super-Natural Neural TTS & Zero-Reset Updates:",
-      "No More False Wake-Ups on Mouth Sounds (BYD Tablet Without Google Services): removed blind RMS wake-up shortcuts and added Whisper non-speech filtering (no_speech_prob), so Vektra only wakes up when you actually say \"Vektra\", just like on a smartphone.",
-      "Reliable Standby Mode (\"Mets-toi en veille\" / \"Go to sleep\"): recognizes all natural standby phrasings and stays in standby until you say \"Vektra, wake up\".",
-      "Restored Microsoft Edge Super-Natural Neural TTS: implemented the 2026 Sec-MS-GEC v2 (2-143.0.3650.75) authentication token for lifelike Neural voices (HenriNeural / DeniseNeural and all 6 languages).",
-      "No More Clearing App Data Between Updates: AppVersionMigrator automatically purges stale voice, WebView, and code caches and grants new BYD permissions on version upgrade while preserving 100% of your personal settings."
+      "Voice Deactivation of Cluster Projection (Restore Original BYD Cluster) & ADB Hardware Agent (BydAdbHardwareAgent uid=2000) for All Vehicle Commands:",
+      "Disable Projection & Restore Original BYD Cluster by Voice: say \"Vektra, désactive la projection\" or \"Remets le combiné à l'état d'origine\" to stop cluster projection and restore the original BYD instrument cluster.",
+      "All Vehicle Hardware Commands Routed Through the ADB Hardware Agent (BydAdbHardwareAgent): windows (setAllWindowState(fl, fr, rl, rr)), sunroof, sunshade, HEV / EV energy mode, Sport/Eco/Normal/Snow drive modes, two-phase AC temperature control, fan speed, heated/ventilated seats, rotating screen, trunk, mirrors, and door locks now execute both on the Main Looper (with permissive mContext injection) and via the privileged ADB app_process (uid=2000) agent."
     ],
     "it": [
-      "Attivazione esclusiva con la parola « Vektra », modalità standby funzionante, voce Microsoft Edge Super-Naturale e aggiornamenti senza cancellare i dati:",
-      "Zero falsi risvegli sui suoni della bocca (tablet BYD senza GMS): Vektra risponde solo quando pronunci davvero « Vektra », proprio come sullo smartphone.",
-      "Modalità standby affidabile fino al comando « Vektra, svegliati ».",
-      "Voce Microsoft Edge Neural super-naturale (DiegoNeural / ElsaNeural) ripristinata con protocollo Sec-MS-GEC v2.",
-      "Pulizia automatica della cache ad ogni aggiornamento (AppVersionMigrator) mantenendo tutte le impostazioni personali."
+      "Disattivazione vocale della proiezione (ripristino cruscotto originale BYD) e Agente Hardware ADB (BydAdbHardwareAgent uid=2000) per tutti i comandi veicolo:",
+      "Disattiva la proiezione e ripristina il cruscotto originale con la voce: dì « Vektra, désactive la projection » o « Remets le combiné d'origine » per tornare al quadro strumenti originale BYD.",
+      "Tutti i comandi fisici del veicolo passano ora tramite l'Agente ADB (BydAdbHardwareAgent) (finestrini setAllWindowState, tetto apribile, modalità HEV / EV, Sport/Eco/Normal, climatizzatore bifase, sedili, rotazione schermo)."
     ],
     "de": [
-      "Exklusives Aufwachen beim Wort „Vektra“, funktionierender Standby-Modus, super-natürliche Microsoft Edge Neural-Stimme & Updates ohne Datenverlust:",
-      "Kein falsches Auslösen bei Mundgeräuschen mehr (BYD-Tablet ohne Google-Dienste): Vektra reagiert genau wie auf dem Smartphone nur noch, wenn Sie wirklich „Vektra“ sagen.",
-      "Zuverlässiger Standby-Modus bis zum Befehl „Vektra, wach auf“.",
-      "Super-natürliche Microsoft Edge Neural-Stimme (ConradNeural / KatjaNeural) mit Sec-MS-GEC v2 wiederhergestellt.",
-      "Automatische Cache-Bereinigung bei jedem Update (AppVersionMigrator) ohne Verlust Ihrer persönlichen Einstellungen."
+      "Sprachsteuerung zum Deaktivieren der Projektion (Original-BYD-Kombiinstrument wiederherstellen) & ADB-Hardware-Agent (BydAdbHardwareAgent uid=2000) für alle Fahrzeugbefehle:",
+      "Projektion per Sprachbefehl beenden & Original-Kombiinstrument wiederherstellen: mit „Vektra, désactive la projection“ oder „Remets le combiné d'origine“ wird das originale BYD-Kombiinstrument sofort wiederhergestellt.",
+      "Alle Fahrzeugbefehle laufen jetzt über den privilegierten ADB-Hardware-Agenten (BydAdbHardwareAgent) (Fenster setAllWindowState, Schiebedach, HEV / EV-Modus, Fahrprofile, 2-Phasen-Klimasteuerung, Sitze, Drehbildschirm)."
     ],
     "pt": [
-      "Ativação exclusiva com a palavra « Vektra », modo de espera funcional, voz Microsoft Edge Super-Natural e atualizações sem apagar dados:",
-      "Sem ativações falsas com sons da boca (tablet BYD sem serviços Google): a Vektra só acorda quando diz realmente « Vektra », tal como no smartphone.",
-      "Modo de espera fiável até ao comando « Vektra, acorda ».",
-      "Voz Microsoft Edge Neural super-natural (DuarteNeural / RaquelNeural) restaurada com protocolo Sec-MS-GEC v2.",
-      "Limpeza automática de cache a cada atualização (AppVersionMigrator) preservando 100% das suas definições."
+      "Desativação por voz da projeção (restaurar painel original BYD) e Agente de Hardware ADB (BydAdbHardwareAgent uid=2000) para todos os comandos do veículo:",
+      "Desative a projeção e restaure o painel original por voz: diga « Vektra, désactive la projection » ou « Remets le combiné d'origine » para restaurar o quadrante original BYD.",
+      "Todos os comandos físicos do veículo passam agora pelo Agente ADB (BydAdbHardwareAgent) (vidros setAllWindowState, teto de abrir, modo HEV / EV, modos de condução, climatização em 2 fases, bancos, ecrã rotativo)."
     ],
     "tr": [
-      "Sadece « Vektra » Kelimesiyle Uyanma (Ağız Seslerinde Yanlış Tetikleme Yok), Çalışan Uyku Modu, Microsoft Edge Süper Doğal Ses ve Veri Silmeden Güncelleme:",
-      "Ağız Seslerinde Yanlış Tetiklemeye Son (Google Servisleri Olmayan BYD Tablet): Vektra artık tıpkı akıllı telefondaki gibi yalnızca gerçekten « Vektra » dediğinizde uyanır.",
-      "Güvenilir Uyku Modu (« Vektra, uyan » diyene kadar sessiz kalır).",
-      "Microsoft Edge Süper Doğal Neural Ses (AhmetNeural / EmelNeural) Sec-MS-GEC v2 protokolü ile geri getirildi.",
-      "Güncellemeler Arasında Veri Silmeye Gerek Yok: AppVersionMigrator tüm ayarlarınızı koruyarak eski önbellekleri otomatik temizler."
+      "Projeksiyonu Sesle Kapatma (Orijinal BYD Gösterge Panelini Geri Yükleme) ve Tüm Araç Komutları İçin ADB Donanım Ajanı (BydAdbHardwareAgent uid=2000):",
+      "Sesli Komutla Projeksiyonu Kapatma ve Orijinal Göstergeye Dönme: « Vektra, désactive la projection » veya « Remets le combiné d'origine » diyerek orijinal BYD gösterge paneline dönebilirsiniz.",
+      "Tüm Araç Donanım Komutları Artık ADB Donanım Ajanı (BydAdbHardwareAgent) Üzerinden Çalışır (camlar setAllWindowState, sunroof, HEV / EV modu, sürüş modları, 2 aşamalı klima kontrolü, koltuklar, döner ekran)."
     ]
   }
 }

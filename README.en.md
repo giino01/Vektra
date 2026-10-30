@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.4** · released on 30 October 2026 · 46.0 MB
+**VERSION 2.1.5** · released on 30 October 2026 · 46.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.4
+## What is new in 2.1.5
 
-- Strict "Vektra" Wake-Word Detection (No False Triggers on Mouth Sounds), Working Standby Mode, Microsoft Edge Super-Natural Neural TTS & Zero-Reset Updates:
-- No More False Wake-Ups on Mouth Sounds (BYD Tablet Without Google Services): removed blind RMS wake-up shortcuts and added Whisper non-speech filtering (no_speech_prob), so Vektra only wakes up when you actually say "Vektra", just like on a smartphone.
-- Reliable Standby Mode ("Mets-toi en veille" / "Go to sleep"): recognizes all natural standby phrasings and stays in standby until you say "Vektra, wake up".
-- Restored Microsoft Edge Super-Natural Neural TTS: implemented the 2026 Sec-MS-GEC v2 (2-143.0.3650.75) authentication token for lifelike Neural voices (HenriNeural / DeniseNeural and all 6 languages).
-- No More Clearing App Data Between Updates: AppVersionMigrator automatically purges stale voice, WebView, and code caches and grants new BYD permissions on version upgrade while preserving 100% of your personal settings.
+- Voice Deactivation of Cluster Projection (Restore Original BYD Cluster) & ADB Hardware Agent (BydAdbHardwareAgent uid=2000) for All Vehicle Commands:
+- Disable Projection & Restore Original BYD Cluster by Voice: say "Vektra, désactive la projection" or "Remets le combiné à l'état d'origine" to stop cluster projection and restore the original BYD instrument cluster.
+- All Vehicle Hardware Commands Routed Through the ADB Hardware Agent (BydAdbHardwareAgent): windows (setAllWindowState(fl, fr, rl, rr)), sunroof, sunshade, HEV / EV energy mode, Sport/Eco/Normal/Snow drive modes, two-phase AC temperature control, fan speed, heated/ventilated seats, rotating screen, trunk, mirrors, and door locks now execute both on the Main Looper (with permissive mContext injection) and via the privileged ADB app_process (uid=2000) agent.
 
 ---
 

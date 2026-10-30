@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.1.4** · pubblicata il 30 ottobre 2026 · 46.0 MB
+**VERSIONE 2.1.5** · pubblicata il 30 ottobre 2026 · 46.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.1.4
+## Novità della 2.1.5
 
-- Attivazione esclusiva con la parola « Vektra », modalità standby funzionante, voce Microsoft Edge Super-Naturale e aggiornamenti senza cancellare i dati:
-- Zero falsi risvegli sui suoni della bocca (tablet BYD senza GMS): Vektra risponde solo quando pronunci davvero « Vektra », proprio come sullo smartphone.
-- Modalità standby affidabile fino al comando « Vektra, svegliati ».
-- Voce Microsoft Edge Neural super-naturale (DiegoNeural / ElsaNeural) ripristinata con protocollo Sec-MS-GEC v2.
-- Pulizia automatica della cache ad ogni aggiornamento (AppVersionMigrator) mantenendo tutte le impostazioni personali.
+- Disattivazione vocale della proiezione (ripristino cruscotto originale BYD) e Agente Hardware ADB (BydAdbHardwareAgent uid=2000) per tutti i comandi veicolo:
+- Disattiva la proiezione e ripristina il cruscotto originale con la voce: dì « Vektra, désactive la projection » o « Remets le combiné d'origine » per tornare al quadro strumenti originale BYD.
+- Tutti i comandi fisici del veicolo passano ora tramite l'Agente ADB (BydAdbHardwareAgent) (finestrini setAllWindowState, tetto apribile, modalità HEV / EV, Sport/Eco/Normal, climatizzatore bifase, sedili, rotazione schermo).
 
 ---
 

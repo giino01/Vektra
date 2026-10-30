@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.4** · publiée le 30 octobre 2026 · 46.0 Mo
+**VERSION 2.1.5** · publiée le 30 octobre 2026 · 46.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.4
+## Nouveautés de la 2.1.5
 
-- Déclenchement exclusif sur le mot « Vektra » (zéro faux réveil sur les sons de bouche), mode veille fonctionnel, voix Microsoft Edge Super-Naturelle & mises à jour sans effacer les données :
-- Fini les déclenchements intempestifs sur chaque bruit de bouche (tablette BYD sans services Google) : suppression du réveil aveugle par niveau sonore RMS et filtrage des bruits non vocaux (no_speech_prob / avg_logprob). Exactement comme sur smartphone, Vektra ne se réveille désormais que lorsque vous prononcez réellement son nom « Vektra ».
-- Mode veille (« Mets-toi en veille ») 100 % fonctionnel et persistant : reconnaissance de toutes les formulations naturelles (« mets-toi en veille », « met-toi en veille », « mets en veille », « mode veille », « va dormir », « silence ») et maintien strict de la veille jusqu'à l'ordre « Vektra, réveille-toi ».
-- Voix Microsoft Edge Super-Naturelle (HenriNeural & DeniseNeural) rétablie : intégration du nouveau protocole Sec-MS-GEC v2 (2-143.0.3650.75 CS64-SHA256) offrant une voix humaine ultra-naturelle pour l'homme (style J.A.R.V.I.S.) et la femme dans les 6 langues.
-- Fini l'obligation d'« Effacer les données » après chaque mise à jour : nouveau gestionnaire AppVersionMigrator qui purge automatiquement tous les anciens caches (voix, WebView 3D, code_cache) et accorde les nouvelles permissions BYD dès qu'une nouvelle version est installée, tout en conservant 100 % de vos réglages personnels (clé Groq, thèmes, favoris GPS, etc.).
+- Désactivation vocale de la projection (retour au combiné BYD d'origine) & Agent matériel ADB BydAdbHardwareAgent (uid=2000) pour toutes les commandes véhicule :
+- Activation et désactivation de la projection par la voix + retour au combiné d'origine : vous pouvez désormais dire « Vektra, désactive la projection », « Coupe la projection », « Arrête la projection » ou « Remets le combiné à l'état d'origine » / « Remets le combiné d'origine » pour stopper immédiatement la projection et rétablir l'écran conducteur BYD d'origine (et « Active la projection » / « Projette le combiné » pour la relancer).
+- Exécution de toutes les commandes véhicule via l'Agent matériel ADB (BydAdbHardwareAgent) : toutes les actions matérielles (ouverture/fermeture des vitres individuelles ou globales via setAllWindowState(fl, fr, rl, rr) et setBodyWindowCtrlState, toit ouvrant, store de toit, passage en mode HEV / EV, modes Sport/Éco/Normal/Neige, climatisation en 2 phases BYD setAcTemperature, ventilation, sièges chauffants/ventilés, écran rotatif, coffre, rétroviseurs, portes) passent désormais simultanément par le Looper principal avec réinjection du contexte permissif mContext et par l'agent privilégié ADB app_process (uid=2000).
 
 ---
 

@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.1.4** · publicada a 30 de outubro de 2026 · 46.0 MB
+**VERSÃO 2.1.5** · publicada a 30 de outubro de 2026 · 46.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.1.4
+## Novidades da 2.1.5
 
-- Ativação exclusiva com a palavra « Vektra », modo de espera funcional, voz Microsoft Edge Super-Natural e atualizações sem apagar dados:
-- Sem ativações falsas com sons da boca (tablet BYD sem serviços Google): a Vektra só acorda quando diz realmente « Vektra », tal como no smartphone.
-- Modo de espera fiável até ao comando « Vektra, acorda ».
-- Voz Microsoft Edge Neural super-natural (DuarteNeural / RaquelNeural) restaurada com protocolo Sec-MS-GEC v2.
-- Limpeza automática de cache a cada atualização (AppVersionMigrator) preservando 100% das suas definições.
+- Desativação por voz da projeção (restaurar painel original BYD) e Agente de Hardware ADB (BydAdbHardwareAgent uid=2000) para todos os comandos do veículo:
+- Desative a projeção e restaure o painel original por voz: diga « Vektra, désactive la projection » ou « Remets le combiné d'origine » para restaurar o quadrante original BYD.
+- Todos os comandos físicos do veículo passam agora pelo Agente ADB (BydAdbHardwareAgent) (vidros setAllWindowState, teto de abrir, modo HEV / EV, modos de condução, climatização em 2 fases, bancos, ecrã rotativo).
 
 ---
 

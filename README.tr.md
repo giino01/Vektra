@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.1.4** · yayın tarihi 30 Ekim 2026 · 46.0 MB
+**SÜRÜM 2.1.5** · yayın tarihi 30 Ekim 2026 · 46.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.1.4
+## Yenilikler: 2.1.5
 
-- Sadece « Vektra » Kelimesiyle Uyanma (Ağız Seslerinde Yanlış Tetikleme Yok), Çalışan Uyku Modu, Microsoft Edge Süper Doğal Ses ve Veri Silmeden Güncelleme:
-- Ağız Seslerinde Yanlış Tetiklemeye Son (Google Servisleri Olmayan BYD Tablet): Vektra artık tıpkı akıllı telefondaki gibi yalnızca gerçekten « Vektra » dediğinizde uyanır.
-- Güvenilir Uyku Modu (« Vektra, uyan » diyene kadar sessiz kalır).
-- Microsoft Edge Süper Doğal Neural Ses (AhmetNeural / EmelNeural) Sec-MS-GEC v2 protokolü ile geri getirildi.
-- Güncellemeler Arasında Veri Silmeye Gerek Yok: AppVersionMigrator tüm ayarlarınızı koruyarak eski önbellekleri otomatik temizler.
+- Projeksiyonu Sesle Kapatma (Orijinal BYD Gösterge Panelini Geri Yükleme) ve Tüm Araç Komutları İçin ADB Donanım Ajanı (BydAdbHardwareAgent uid=2000):
+- Sesli Komutla Projeksiyonu Kapatma ve Orijinal Göstergeye Dönme: « Vektra, désactive la projection » veya « Remets le combiné d'origine » diyerek orijinal BYD gösterge paneline dönebilirsiniz.
+- Tüm Araç Donanım Komutları Artık ADB Donanım Ajanı (BydAdbHardwareAgent) Üzerinden Çalışır (camlar setAllWindowState, sunroof, HEV / EV modu, sürüş modları, 2 aşamalı klima kontrolü, koltuklar, döner ekran).
 
 ---
 
