@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.1.2** · pubblicata il 30 ottobre 2026 · 45.9 MB
+**VERSIONE 2.1.3** · pubblicata il 30 ottobre 2026 · 46.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.1.2
+## Novità della 2.1.3
 
-- Correzione dell'errore HTTP 400 invalid_multipart_form verso Groq Whisper in auto:
-- Separatore MIME boundary strettamente alfanumerico (RFC 2046): rimosso il prefisso == nel boundary che causava il rifiuto HTTP 400 da parte del parser MIME di Groq.
-- Invio multipart/form-data pre-bufferizzato a lunghezza fissa: calcolo esatto del Content-Length per i file WAV catturati da CarAudioEngine.
+- Controllo completo degli equipaggiamenti BYD, riproduzione integrale delle frasi lunghe e abbassamento automatico del volume media:
+- Accesso totale alla vettura: controllo vocale di finestrini, tetto apribile, tendina parasole, climatizzatore completo, sedili riscaldati/ventilati, volante riscaldato, rotazione schermo, baule elettrico, specchietti, luci ambiente, serrature e telemetria in tempo reale.
+- Nessuna interruzione sulle frasi lunghe: riproduzione sequenziale fluida fino alla fine della frase.
+- Abbassamento automatico dell'altoparlante normale (STREAM_MUSIC) al 20% quando chiami Vektra, mantenendo l'altoparlante Navi al 100%.
 
 ---
 

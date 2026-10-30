@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.1.2** · publicada a 30 de outubro de 2026 · 45.9 MB
+**VERSÃO 2.1.3** · publicada a 30 de outubro de 2026 · 46.0 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.1.2
+## Novidades da 2.1.3
 
-- Correção do erro HTTP 400 invalid_multipart_form no Groq Whisper no veículo:
-- Separador MIME boundary estritamente alfanumérico (RFC 2046): remoção do prefixo == no boundary que causava erro HTTP 400 no analisador MIME da Groq.
-- Envio multipart/form-data pré-armazenado com tamanho fixo: cálculo exato do Content-Length para o ficheiro WAV capturado pelo CarAudioEngine.
+- Controlo total dos equipamentos BYD, leitura completa de frases longas e redução automática do volume multimédia:
+- Acesso completo ao veículo: controlo por voz de janelas, teto de abrir, cortina do teto, ar condicionado completo, bancos aquecidos/ventilados, volante aquecido, rotação do ecrã, mala elétrica, espelhos, luz ambiente, portas e telemetria em tempo real.
+- Fim do corte em frases longas: reprodução sequencial completa até ao fim da resposta.
+- Redução automática do altifalante normal (STREAM_MUSIC) para 20% ao chamar a Vektra, mantendo o altifalante Navi a 100%.
 
 ---
 

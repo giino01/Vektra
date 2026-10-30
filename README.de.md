@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.1.2** · veröffentlicht am 30. Oktober 2026 · 45.9 MB
+**VERSION 2.1.3** · veröffentlicht am 30. Oktober 2026 · 46.0 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.1.2
+## Neu in 2.1.3
 
-- Behebung des HTTP-400-Fehlers invalid_multipart_form bei Groq Whisper im Fahrzeug:
-- Rein alphanumerischer MIME-boundary (RFC 2046): Entfernung des ==-Präfixes im boundary, das vom Groq-MIME-Parser mit HTTP 400 abgelehnt wurde.
-- Vorgepufferter multipart/form-data-Upload mit fester Länge: exakte Content-Length-Übertragung der von CarAudioEngine aufgenommenen WAV-Audiodaten.
+- Vollständige BYD-Fahrzeugsteuerung, unterbrechungsfreie lange Sätze & automatische Medien-Lautstärkeabsenkung:
+- Zugriff auf alle Fahrzeugfunktionen: Sprachsteuerung für Fenster, Schiebedach, Sonnenschutzrollo, Klimaanlage, Sitzheizung/-belüftung, Lenkradheizung, Bildschirmdrehung, Kofferraum, Spiegel, Ambientebeleuchtung, Türverriegelung und Echtzeit-Telemetrie.
+- Kein Abschneiden langer Antworten mehr: sequenzielle MP3-Wiedergabe ohne 7-Sekunden-Begrenzung.
+- Automatische Absenkung des normalen Lautsprechers (STREAM_MUSIC) auf 20 % beim Aufrufen von Vektra, während der Navi-Lautsprecher bei 100 % bleibt.
 
 ---
 

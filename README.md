@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.2** · publiée le 30 octobre 2026 · 45.9 Mo
+**VERSION 2.1.3** · publiée le 30 octobre 2026 · 46.0 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.2
+## Nouveautés de la 2.1.3
 
-- Correction de l'erreur HTTP 400 invalid_multipart_form vers Groq Whisper en voiture :
-- Séparateur MIME boundary strictement alphanumérique (RFC 2046) : suppression du préfixe == dans boundary (==VektraBoundary... générait boundary===..., rejeté en HTTP 400 par le parseur MIME de Groq).
-- Envoi multipart/form-data pré-tamponné à taille fixe : calcul exact du Content-Length (setFixedLengthStreamingMode) avant l'envoi du fichier WAV capturé par CarAudioEngine sur le canal VOICE_RECOGNITION.
+- Contrôle intégral des équipements BYD, lecture intégrale des phrases longues & atténuation automatique du haut-parleur normal :
+- Accès total aux équipements du véhicule (local + IA Groq Llama 3.3) : Vektra pilote désormais l'ouverture/fermeture/entrebâillement des fenêtres (toutes ou vitre par vitre), du toit ouvrant panoramique et du pare-soleil/rideau de toit, la climatisation complète (marche/arrêt/auto, température 15–32 °C, vitesse de soufflerie 1–7, dégivrage avant/arrière, recyclage d'air), les sièges chauffants et ventilés (conducteur/passager), le volant chauffant, la rotation de l'écran central, le coffre motorisé, les rétroviseurs rabattables, l'éclairage d'ambiance LED, le verrouillage des portes, les modes Sport/Éco/Normal/Neige, EV/HEV, la régénération et la télémétrie temps réel (batterie, autonomie EV + essence, 4 pressions de pneus en kPa, kilométrage, températures).
+- Fini les phrases longues coupées avant la fin : les réponses longues sont désormais découpées en segments MP3 autonomes joués séquentiellement de bout en bout (sans concaténation binaire d'en-têtes Xing/LAME ni coupure prématurée à 7 secondes).
+- Baisse automatique du volume du haut-parleur normal (STREAM_MUSIC) sans toucher au haut-parleur Navi (STREAM_NAVI) : dès que vous appelez Vektra, le volume de la musique/radio se baisse physiquement à 20 % pendant votre question et pendant la réponse de Vektra, puis remonte automatiquement à son niveau initial.
 
 ---
 

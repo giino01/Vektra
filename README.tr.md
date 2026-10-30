@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.1.2** · yayın tarihi 30 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.1.3** · yayın tarihi 30 Ekim 2026 · 46.0 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.3.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,11 +103,12 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.1.2
+## Yenilikler: 2.1.3
 
-- Araçta Groq Whisper HTTP 400 invalid_multipart_form Hatasının Çözümü:
-- Tamamen Alfasayısal MIME boundary (RFC 2046): Groq MIME ayrıştırıcısı tarafından HTTP 400 ile reddedilen == öneki kaldırıldı.
-- Sabit Uzunluklu Ön-Tamponlu multipart/form-data Gönderimi: CarAudioEngine tarafından yakalanan WAV ses dosyaları için kesin Content-Length hesaplaması eklendi.
+- Tam BYD Araç Donanım Kontrolü, Kesintisiz Uzun Cümle Okuma ve Normal Hoparlör Sesini Otomatik Kısma:
+- Tüm Araç Donanımlarına Erişim: camlar, sunroof, tavan perdesi, tam klima kontrolü, ısıtmalı/soğutmalı koltuklar, direksiyon ısıtma, ekran döndürme, elektrikli bagaj, katlanır aynalar, ambiyans aydınlatma, kapı kilitleri ve canlı telemetri kontrolü.
+- Uzun Cümlelerin Kesilmesi Düzeltildi: uzun yanıtlar artık sonuna kadar kesintisiz okunur.
+- Normal Hoparlör (STREAM_MUSIC) Sesini Otomatik Kısma: Vektra'yı çağırdığınızda medya sesi %20'ye düşürülür, Navi hoparlörü %100'de kalır ve yanıt bitince medya sesi eski seviyesine döner.
 
 ---
 

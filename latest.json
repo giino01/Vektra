@@ -1,42 +1,49 @@
 {
-  "version": "2.1.2",
-  "apk": "Vektra-2.1.2.apk",
-  "size": 48159180,
+  "version": "2.1.3",
+  "apk": "Vektra-2.1.3.apk",
+  "size": 48206768,
   "notes": [
-    "Correction de l'erreur HTTP 400 invalid_multipart_form vers Groq Whisper en voiture :",
-    "Séparateur MIME boundary strictement alphanumérique (RFC 2046) : suppression du préfixe == dans boundary (==VektraBoundary... générait boundary===..., rejeté en HTTP 400 par le parseur MIME de Groq).",
-    "Envoi multipart/form-data pré-tamponné à taille fixe : calcul exact du Content-Length (setFixedLengthStreamingMode) avant l'envoi du fichier WAV capturé par CarAudioEngine sur le canal VOICE_RECOGNITION."
+    "Contrôle intégral des équipements BYD, lecture intégrale des phrases longues & atténuation automatique du haut-parleur normal :",
+    "Accès total aux équipements du véhicule (local + IA Groq Llama 3.3) : Vektra pilote désormais l'ouverture/fermeture/entrebâillement des fenêtres (toutes ou vitre par vitre), du toit ouvrant panoramique et du pare-soleil/rideau de toit, la climatisation complète (marche/arrêt/auto, température 15–32 °C, vitesse de soufflerie 1–7, dégivrage avant/arrière, recyclage d'air), les sièges chauffants et ventilés (conducteur/passager), le volant chauffant, la rotation de l'écran central, le coffre motorisé, les rétroviseurs rabattables, l'éclairage d'ambiance LED, le verrouillage des portes, les modes Sport/Éco/Normal/Neige, EV/HEV, la régénération et la télémétrie temps réel (batterie, autonomie EV + essence, 4 pressions de pneus en kPa, kilométrage, températures).",
+    "Fini les phrases longues coupées avant la fin : les réponses longues sont désormais découpées en segments MP3 autonomes joués séquentiellement de bout en bout (sans concaténation binaire d'en-têtes Xing/LAME ni coupure prématurée à 7 secondes).",
+    "Baisse automatique du volume du haut-parleur normal (STREAM_MUSIC) sans toucher au haut-parleur Navi (STREAM_NAVI) : dès que vous appelez Vektra, le volume de la musique/radio se baisse physiquement à 20 % pendant votre question et pendant la réponse de Vektra, puis remonte automatiquement à son niveau initial."
   ],
   "notesByLang": {
     "fr": [
-      "Correction de l'erreur HTTP 400 invalid_multipart_form vers Groq Whisper en voiture :",
-      "Séparateur MIME boundary strictement alphanumérique (RFC 2046) : suppression du préfixe == dans boundary (==VektraBoundary... générait boundary===..., rejeté en HTTP 400 par le parseur MIME de Groq).",
-      "Envoi multipart/form-data pré-tamponné à taille fixe : calcul exact du Content-Length (setFixedLengthStreamingMode) avant l'envoi du fichier WAV capturé par CarAudioEngine sur le canal VOICE_RECOGNITION."
+      "Contrôle intégral des équipements BYD, lecture intégrale des phrases longues & atténuation automatique du haut-parleur normal :",
+      "Accès total aux équipements du véhicule (local + IA Groq Llama 3.3) : Vektra pilote désormais l'ouverture/fermeture/entrebâillement des fenêtres (toutes ou vitre par vitre), du toit ouvrant panoramique et du pare-soleil/rideau de toit, la climatisation complète (marche/arrêt/auto, température 15–32 °C, vitesse de soufflerie 1–7, dégivrage avant/arrière, recyclage d'air), les sièges chauffants et ventilés (conducteur/passager), le volant chauffant, la rotation de l'écran central, le coffre motorisé, les rétroviseurs rabattables, l'éclairage d'ambiance LED, le verrouillage des portes, les modes Sport/Éco/Normal/Neige, EV/HEV, la régénération et la télémétrie temps réel (batterie, autonomie EV + essence, 4 pressions de pneus en kPa, kilométrage, températures).",
+      "Fini les phrases longues coupées avant la fin : les réponses longues sont désormais découpées en segments MP3 autonomes joués séquentiellement de bout en bout (sans concaténation binaire d'en-têtes Xing/LAME ni coupure prématurée à 7 secondes).",
+      "Baisse automatique du volume du haut-parleur normal (STREAM_MUSIC) sans toucher au haut-parleur Navi (STREAM_NAVI) : dès que vous appelez Vektra, le volume de la musique/radio se baisse physiquement à 20 % pendant votre question et pendant la réponse de Vektra, puis remonte automatiquement à son niveau initial."
     ],
     "en": [
-      "Fixed HTTP 400 invalid_multipart_form Error with Groq Whisper in Vehicle:",
-      "Strictly Alphanumeric MIME boundary (RFC 2046): removed the == prefix in boundary (==VektraBoundary... produced boundary===..., which was rejected with HTTP 400 by Groq's MIME parser).",
-      "Pre-Buffered Fixed-Length multipart/form-data Upload: computes exact Content-Length (setFixedLengthStreamingMode) when sending WAV audio captured by CarAudioEngine on VOICE_RECOGNITION."
+      "Full BYD Vehicle Equipment Control, Complete Long-Sentence Playback & Automatic Normal Speaker Ducking:",
+      "Complete Vehicle Hardware Access (Local + Groq Llama 3.3 AI): Vektra now controls windows (all or individual open/close/ventilate), panoramic sunroof (open/close/tilt), roof sunshade, full AC (on/off/auto, 15–32 °C temperature, fan speed 1–7, front/rear defrost, air recirculation), heated & ventilated seats, heated steering wheel, center screen rotation, power trunk, folding mirrors, ambient lighting, door locks, Sport/Eco/Normal/Snow modes, EV/HEV energy mode, regen braking, and live telemetry.",
+      "Fixed Long Sentences Cutting Off: multi-sentence responses are now played sequentially as standalone MP3 segments rather than byte-concatenating Xing/LAME headers or capping playback at 7 seconds.",
+      "Automatic Normal Speaker (STREAM_MUSIC) Volume Lowering: calling Vektra physically lowers the normal media speaker volume to 20% while keeping the headrest Navi speaker (STREAM_NAVI) at 100%, then restores media volume once Vektra finishes."
     ],
     "it": [
-      "Correzione dell'errore HTTP 400 invalid_multipart_form verso Groq Whisper in auto:",
-      "Separatore MIME boundary strettamente alfanumerico (RFC 2046): rimosso il prefisso == nel boundary che causava il rifiuto HTTP 400 da parte del parser MIME di Groq.",
-      "Invio multipart/form-data pre-bufferizzato a lunghezza fissa: calcolo esatto del Content-Length per i file WAV catturati da CarAudioEngine."
+      "Controllo completo degli equipaggiamenti BYD, riproduzione integrale delle frasi lunghe e abbassamento automatico del volume media:",
+      "Accesso totale alla vettura: controllo vocale di finestrini, tetto apribile, tendina parasole, climatizzatore completo, sedili riscaldati/ventilati, volante riscaldato, rotazione schermo, baule elettrico, specchietti, luci ambiente, serrature e telemetria in tempo reale.",
+      "Nessuna interruzione sulle frasi lunghe: riproduzione sequenziale fluida fino alla fine della frase.",
+      "Abbassamento automatico dell'altoparlante normale (STREAM_MUSIC) al 20% quando chiami Vektra, mantenendo l'altoparlante Navi al 100%."
     ],
     "de": [
-      "Behebung des HTTP-400-Fehlers invalid_multipart_form bei Groq Whisper im Fahrzeug:",
-      "Rein alphanumerischer MIME-boundary (RFC 2046): Entfernung des ==-Präfixes im boundary, das vom Groq-MIME-Parser mit HTTP 400 abgelehnt wurde.",
-      "Vorgepufferter multipart/form-data-Upload mit fester Länge: exakte Content-Length-Übertragung der von CarAudioEngine aufgenommenen WAV-Audiodaten."
+      "Vollständige BYD-Fahrzeugsteuerung, unterbrechungsfreie lange Sätze & automatische Medien-Lautstärkeabsenkung:",
+      "Zugriff auf alle Fahrzeugfunktionen: Sprachsteuerung für Fenster, Schiebedach, Sonnenschutzrollo, Klimaanlage, Sitzheizung/-belüftung, Lenkradheizung, Bildschirmdrehung, Kofferraum, Spiegel, Ambientebeleuchtung, Türverriegelung und Echtzeit-Telemetrie.",
+      "Kein Abschneiden langer Antworten mehr: sequenzielle MP3-Wiedergabe ohne 7-Sekunden-Begrenzung.",
+      "Automatische Absenkung des normalen Lautsprechers (STREAM_MUSIC) auf 20 % beim Aufrufen von Vektra, während der Navi-Lautsprecher bei 100 % bleibt."
     ],
     "pt": [
-      "Correção do erro HTTP 400 invalid_multipart_form no Groq Whisper no veículo:",
-      "Separador MIME boundary estritamente alfanumérico (RFC 2046): remoção do prefixo == no boundary que causava erro HTTP 400 no analisador MIME da Groq.",
-      "Envio multipart/form-data pré-armazenado com tamanho fixo: cálculo exato do Content-Length para o ficheiro WAV capturado pelo CarAudioEngine."
+      "Controlo total dos equipamentos BYD, leitura completa de frases longas e redução automática do volume multimédia:",
+      "Acesso completo ao veículo: controlo por voz de janelas, teto de abrir, cortina do teto, ar condicionado completo, bancos aquecidos/ventilados, volante aquecido, rotação do ecrã, mala elétrica, espelhos, luz ambiente, portas e telemetria em tempo real.",
+      "Fim do corte em frases longas: reprodução sequencial completa até ao fim da resposta.",
+      "Redução automática do altifalante normal (STREAM_MUSIC) para 20% ao chamar a Vektra, mantendo o altifalante Navi a 100%."
     ],
     "tr": [
-      "Araçta Groq Whisper HTTP 400 invalid_multipart_form Hatasının Çözümü:",
-      "Tamamen Alfasayısal MIME boundary (RFC 2046): Groq MIME ayrıştırıcısı tarafından HTTP 400 ile reddedilen == öneki kaldırıldı.",
-      "Sabit Uzunluklu Ön-Tamponlu multipart/form-data Gönderimi: CarAudioEngine tarafından yakalanan WAV ses dosyaları için kesin Content-Length hesaplaması eklendi."
+      "Tam BYD Araç Donanım Kontrolü, Kesintisiz Uzun Cümle Okuma ve Normal Hoparlör Sesini Otomatik Kısma:",
+      "Tüm Araç Donanımlarına Erişim: camlar, sunroof, tavan perdesi, tam klima kontrolü, ısıtmalı/soğutmalı koltuklar, direksiyon ısıtma, ekran döndürme, elektrikli bagaj, katlanır aynalar, ambiyans aydınlatma, kapı kilitleri ve canlı telemetri kontrolü.",
+      "Uzun Cümlelerin Kesilmesi Düzeltildi: uzun yanıtlar artık sonuna kadar kesintisiz okunur.",
+      "Normal Hoparlör (STREAM_MUSIC) Sesini Otomatik Kısma: Vektra'yı çağırdığınızda medya sesi %20'ye düşürülür, Navi hoparlörü %100'de kalır ve yanıt bitince medya sesi eski seviyesine döner."
     ]
   }
 }
