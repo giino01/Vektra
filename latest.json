@@ -1,49 +1,56 @@
 {
-  "version": "2.0.9",
-  "apk": "Vektra-2.0.9.apk",
-  "size": 48129776,
+  "version": "2.1.0",
+  "apk": "Vektra-2.1.0.apk",
+  "size": 48148504,
   "notes": [
-    "Contrôles ADAS directs dans le widget flottant (Boutons OFF & ON) :",
-    "Bouton OFF (Masquer ADAS) : exécute instantanément la séquence complète de masquage graphique ADAS (263 trames SPI DashCast) directement depuis le tiroir du widget flottant.",
-    "Bouton ON (Afficher ADAS) : relance le service de combiné et restaure l'affichage d'origine du cadre ADAS d'un seul geste.",
-    "Design compact et intégré : deux mini-touches tactiles parfaitement dimensionnées à droite du libellé « ADAS », respectant strictement la structure et le redimensionnement du widget."
+    "Réfection complète du moteur audio automobile Vektra (DiLink 3.0 / Android 10) :",
+    "Capture native VOICE_RECOGNITION & Détection anti-silence : bascule prioritaire sur le canal matériel de reconnaissance vocale (seul canal autorisé en arrière-plan par Android 10 pour un service d'accessibilité) avec bascule automatique instantanée si un canal renvoie un flux muet (zéros).",
+    "Déverrouillage UID AppOps & Rôle Assistant Système : octroi des permissions microphone en mode --uid (opérations 27 et 102 RECORD_AUDIO_HOTWORD), inscription de VEKTRA comme assistant vocal par défaut du véhicule et prise en charge du bouton vocal au volant.",
+    "Calibrage acoustique habitacle & Filtre passe-haut anti-moteur : correction du verrouillage du détecteur de voix (VAD) face au bruit de roulement et de ventilation, avec suivi adaptatif continu du bruit ambiant et pré-roll de 400 ms pour ne jamais tronquer le début de « Vektra ».",
+    "Anti-écho matériel & Réponse « Oui, Gino ? » pré-cachée (0 ms) : purge en temps réel du tampon micro pendant que Vektra parle pour éviter toute auto-écoute, et pré-génération locale de la voix d'accueil au démarrage."
   ],
   "notesByLang": {
     "fr": [
-      "Contrôles ADAS directs dans le widget flottant (Boutons OFF & ON) :",
-      "Bouton OFF (Masquer ADAS) : exécute instantanément la séquence complète de masquage graphique ADAS (263 trames SPI DashCast) directement depuis le tiroir du widget flottant.",
-      "Bouton ON (Afficher ADAS) : relance le service de combiné et restaure l'affichage d'origine du cadre ADAS d'un seul geste.",
-      "Design compact et intégré : deux mini-touches tactiles parfaitement dimensionnées à droite du libellé « ADAS », respectant strictement la structure et le redimensionnement du widget."
+      "Réfection complète du moteur audio automobile Vektra (DiLink 3.0 / Android 10) :",
+      "Capture native VOICE_RECOGNITION & Détection anti-silence : bascule prioritaire sur le canal matériel de reconnaissance vocale (seul canal autorisé en arrière-plan par Android 10 pour un service d'accessibilité) avec bascule automatique instantanée si un canal renvoie un flux muet (zéros).",
+      "Déverrouillage UID AppOps & Rôle Assistant Système : octroi des permissions microphone en mode --uid (opérations 27 et 102 RECORD_AUDIO_HOTWORD), inscription de VEKTRA comme assistant vocal par défaut du véhicule et prise en charge du bouton vocal au volant.",
+      "Calibrage acoustique habitacle & Filtre passe-haut anti-moteur : correction du verrouillage du détecteur de voix (VAD) face au bruit de roulement et de ventilation, avec suivi adaptatif continu du bruit ambiant et pré-roll de 400 ms pour ne jamais tronquer le début de « Vektra ».",
+      "Anti-écho matériel & Réponse « Oui, Gino ? » pré-cachée (0 ms) : purge en temps réel du tampon micro pendant que Vektra parle pour éviter toute auto-écoute, et pré-génération locale de la voix d'accueil au démarrage."
     ],
     "en": [
-      "Direct ADAS Controls in Floating Widget (OFF & ON Buttons):",
-      "OFF Button (Hide ADAS): triggers the complete DashCast ADAS frame-hiding sequence (263 SPI frames) directly from the floating widget drawer.",
-      "ON Button (Show ADAS): restarts the cluster debug service and restores the original ADAS frame layout with one tap.",
-      "Compact & Seamless Layout: two perfectly sized touch buttons positioned right next to the \"ADAS\" label without modifying widget structure."
+      "Complete Overhaul of the Vektra Automotive Audio Engine (DiLink 3.0 / Android 10):",
+      "Native VOICE_RECOGNITION Capture & Zero-Stream Detection: prioritizes the hardware voice recognition source (required by Android 10 AOSP for background accessibility audio capture) and automatically switches channels if a muted/zero stream is detected.",
+      "UID AppOps Unlock & System Assistant Role: grants UID-level microphone AppOps (--uid opcodes 27 and 102 RECORD_AUDIO_HOTWORD), registers VEKTRA as the default Android system assistant, and supports the steering wheel voice button.",
+      "Cabin Acoustic Calibration & High-Pass Road-Noise Filter: fixes the automotive VAD lockup caused by cabin/AC background noise, with continuous adaptive noise floor tracking and a 400 ms pre-roll buffer so \"Vektra\" is never clipped.",
+      "Hardware Anti-Echo & Pre-Cached 0 ms Wake-Up Voice: continuously drains the hardware ring buffer while Vektra speaks to prevent self-triggering, and pre-caches the wake-up prompt locally at startup."
     ],
     "it": [
-      "Controlli ADAS diretti nel widget mobile (Pulsanti OFF & ON):",
-      "Pulsante OFF (Nascondi ADAS): esegue istantaneamente la sequenza di mascheramento ADAS (263 frame SPI DashCast) dal cassetto del widget.",
-      "Pulsante ON (Mostra ADAS): ripristina la visualizzazione originale del quadro ADAS con un tocco.",
-      "Design compatto e integrato: pulsanti perfettamente adattati a destra dell'etichetta « ADAS » senza alterare la struttura del widget."
+      "Rifacimento completo del motore audio automobilistico Vektra (DiLink 3.0 / Android 10):",
+      "Cattura nativa VOICE_RECOGNITION e rilevamento flusso muto: priorità al canale hardware di riconoscimento vocale (richiesto da Android 10 in background) con cambio automatico di canale in caso di flusso silenziato.",
+      "Sblocco AppOps UID e ruolo Assistente di Sistema: permessi microfono concessi a livello --uid (codici 27 e 102), registrazione di VEKTRA come assistente predefinito del veicolo e supporto per il tasto vocale sul volante.",
+      "Calibrazione acustica abitacolo e filtro passa-alto: eliminato il blocco del rilevatore vocale (VAD) dovuto al rumore di marcia o climatizzatore, con adattamento continuo e pre-roll di 400 ms.",
+      "Anti-eco hardware e risposta istantanea pre-memorizzata (0 ms): svuotamento continuo del buffer audio mentre Vektra parla e pre-generazione locale del saluto di risveglio."
     ],
     "de": [
-      "Direkte ADAS-Steuerung im schwebenden Widget (OFF- & ON-Tasten):",
-      "OFF-Taste (ADAS ausblenden): führt die vollständige 263-SPI-Frames-Maskierungssequenz direkt aus der Widget-Schublade aus.",
-      "ON-Taste (ADAS anzeigen): stellt den ursprünglichen ADAS-Rahmen auf dem Kombiinstrument sofort wieder her.",
-      "Kompaktes Design: zwei präzise angepasste Schaltflächen rechts neben « ADAS », die sich nahtlos in die bestehende Widget-Größe einfügen."
+      "Komplette Überarbeitung der Vektra Automotive-Audio-Engine (DiLink 3.0 / Android 10):",
+      "Native VOICE_RECOGNITION-Aufnahme & Stummschaltungs-Erkennung: priorisiert den Hardware-Spracherkennungskanal (von Android 10 für Hintergrund-Eingabehilfen gefordert) und wechselt bei einem Null-Stream automatisch den Kanal.",
+      "UID-AppOps-Freigabe & System-Assistentenrolle: vergibt Mikrofonrechte auf --uid-Ebene (Opcodes 27 und 102), registriert VEKTRA als Standard-Sprachassistenten des Fahrzeugs und unterstützt die Sprachtaste am Lenkrad.",
+      "Innenraum-Kalibrierung & Hochpassfilter gegen Fahrgeräusche: behebt die VAD-Blockade durch Klima- und Abrollgeräusche mit adaptiver Rauschnachführung und 400 ms Pre-Roll-Puffer.",
+      "Hardware-Echosperre & vorgespeicherte 0-ms-Antwort: leert den Audio-Ringpuffer während der Sprachausgabe in Echtzeit und speichert die Begrüßungsstimme lokal beim Start vor."
     ],
     "pt": [
-      "Controlos ADAS diretos no widget flutuante (Botões OFF & ON):",
-      "Botão OFF (Ocultar ADAS): executa a sequência completa de ocultação do quadro ADAS (263 tramas SPI DashCast) a partir da gaveta do widget.",
-      "Botão ON (Mostrar ADAS): restaura a apresentação original do ADAS no painel de instrumentos com um simples toque.",
-      "Design compacto e integrado: dois botões táteis perfeitamente integrados à direita da etiqueta « ADAS » sem alterar a estrutura do widget."
+      "Reformulação completa do motor de áudio automóvel Vektra (DiLink 3.0 / Android 10):",
+      "Captura nativa VOICE_RECOGNITION e deteção de fluxo mudo: dá prioridade ao canal de reconhecimento de voz de hardware (exigido pelo Android 10 em segundo plano) com mudança automática de canal se o sinal estiver a zero.",
+      "Desbloqueio AppOps UID e papel de Assistente do Sistema: atribui permissões de microfone ao nível --uid (códigos 27 e 102), regista o VEKTRA como assistente padrão do veículo e suporta o botão de voz no volante.",
+      "Calibração acústica do habitáculo e filtro passa-alto: corrige o bloqueio do detetor de voz (VAD) causado pelo ruído de rolamento e ar condicionado, com ajuste adaptativo contínuo e pré-roll de 400 ms.",
+      "Anti-eco de hardware e resposta instantânea em cache (0 ms): esvazia continuamente o buffer enquanto o Vektra fala para evitar auto-escuta e pré-carrega a resposta de ativação no arranque."
     ],
     "tr": [
-      "Kayan Widget Üzerinde Doğrudan ADAS Kontrolleri (OFF ve ON Butonları):",
-      "OFF Butonu (ADAS Gizle): 263 SPI çerçeveli DashCast ADAS gizleme dizisini doğrudan kayan widget çekmecesinden tetikler.",
-      "ON Butonu (ADAS Göster): tek dokunuşla gösterge panelindeki orijinal ADAS çerçevesini geri yükler.",
-      "Kompakt ve Uyumlu Tasarım: widget yapısını bozmadan « ADAS » etiketinin hemen sağına yerleştirilmiş iki mini dokunmatik buton."
+      "Vektra Otomotiv Ses Motorunun Tamamen Yenilenmesi (DiLink 3.0 / Android 10):",
+      "Yerel VOICE_RECOGNITION Yakalama ve Sessiz Akış Algılama: Android 10 arka plan erişilebilirlik servisleri için zorunlu olan ses tanıma kanalına öncelik verir ve sessiz/sıfır akış algılandığında otomatik olarak alternatif kanala geçer.",
+      "UID AppOps Kilidi Açma ve Sistem Asistanı Rolü: --uid düzeyinde mikrofon izinlerini (op 27 ve 102) tanımlar, VEKTRA'yı aracın varsayılan sesli asistanı olarak kaydeder ve direksiyon ses düğmesini destekler.",
+      "Kabin Akustik Kalibrasyonu ve Yüksek Geçiren Filtre: yol ve klima gürültüsünden kaynaklanan VAD kilitlenmesini sürekli uyarlanabilir gürültü takibi ve 400 ms ön kayıt tamponu ile çözer.",
+      "Donanım Yankı Engelleme ve 0 ms Ön Bellekli Yanıt: Vektra konuşurken kendi sesini kaydetmemesi için ses tamponunu gerçek zamanlı boşaltır ve uyanma yanıtını açılışta yerel belleğe hazırlar."
     ]
   }
 }

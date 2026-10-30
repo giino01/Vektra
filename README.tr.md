@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.0.9** · yayın tarihi 29 Ekim 2026 · 45.9 MB
+**SÜRÜM 2.1.0** · yayın tarihi 30 Ekim 2026 · 45.9 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.0.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.1.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.0.9
+## Yenilikler: 2.1.0
 
-- Kayan Widget Üzerinde Doğrudan ADAS Kontrolleri (OFF ve ON Butonları):
-- OFF Butonu (ADAS Gizle): 263 SPI çerçeveli DashCast ADAS gizleme dizisini doğrudan kayan widget çekmecesinden tetikler.
-- ON Butonu (ADAS Göster): tek dokunuşla gösterge panelindeki orijinal ADAS çerçevesini geri yükler.
-- Kompakt ve Uyumlu Tasarım: widget yapısını bozmadan « ADAS » etiketinin hemen sağına yerleştirilmiş iki mini dokunmatik buton.
+- Vektra Otomotiv Ses Motorunun Tamamen Yenilenmesi (DiLink 3.0 / Android 10):
+- Yerel VOICE_RECOGNITION Yakalama ve Sessiz Akış Algılama: Android 10 arka plan erişilebilirlik servisleri için zorunlu olan ses tanıma kanalına öncelik verir ve sessiz/sıfır akış algılandığında otomatik olarak alternatif kanala geçer.
+- UID AppOps Kilidi Açma ve Sistem Asistanı Rolü: --uid düzeyinde mikrofon izinlerini (op 27 ve 102) tanımlar, VEKTRA'yı aracın varsayılan sesli asistanı olarak kaydeder ve direksiyon ses düğmesini destekler.
+- Kabin Akustik Kalibrasyonu ve Yüksek Geçiren Filtre: yol ve klima gürültüsünden kaynaklanan VAD kilitlenmesini sürekli uyarlanabilir gürültü takibi ve 400 ms ön kayıt tamponu ile çözer.
+- Donanım Yankı Engelleme ve 0 ms Ön Bellekli Yanıt: Vektra konuşurken kendi sesini kaydetmemesi için ses tamponunu gerçek zamanlı boşaltır ve uyanma yanıtını açılışta yerel belleğe hazırlar.
 
 ---
 

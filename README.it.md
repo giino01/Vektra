@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.0.9** · pubblicata il 29 ottobre 2026 · 45.9 MB
+**VERSIONE 2.1.0** · pubblicata il 30 ottobre 2026 · 45.9 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.0.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.0.9
+## Novità della 2.1.0
 
-- Controlli ADAS diretti nel widget mobile (Pulsanti OFF & ON):
-- Pulsante OFF (Nascondi ADAS): esegue istantaneamente la sequenza di mascheramento ADAS (263 frame SPI DashCast) dal cassetto del widget.
-- Pulsante ON (Mostra ADAS): ripristina la visualizzazione originale del quadro ADAS con un tocco.
-- Design compatto e integrato: pulsanti perfettamente adattati a destra dell'etichetta « ADAS » senza alterare la struttura del widget.
+- Rifacimento completo del motore audio automobilistico Vektra (DiLink 3.0 / Android 10):
+- Cattura nativa VOICE_RECOGNITION e rilevamento flusso muto: priorità al canale hardware di riconoscimento vocale (richiesto da Android 10 in background) con cambio automatico di canale in caso di flusso silenziato.
+- Sblocco AppOps UID e ruolo Assistente di Sistema: permessi microfono concessi a livello --uid (codici 27 e 102), registrazione di VEKTRA come assistente predefinito del veicolo e supporto per il tasto vocale sul volante.
+- Calibrazione acustica abitacolo e filtro passa-alto: eliminato il blocco del rilevatore vocale (VAD) dovuto al rumore di marcia o climatizzatore, con adattamento continuo e pre-roll di 400 ms.
+- Anti-eco hardware e risposta istantanea pre-memorizzata (0 ms): svuotamento continuo del buffer audio mentre Vektra parla e pre-generazione locale del saluto di risveglio.
 
 ---
 

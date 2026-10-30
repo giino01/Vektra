@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.0.9** · publiée le 29 octobre 2026 · 45.9 Mo
+**VERSION 2.1.0** · publiée le 30 octobre 2026 · 45.9 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.0.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.0.9
+## Nouveautés de la 2.1.0
 
-- Contrôles ADAS directs dans le widget flottant (Boutons OFF & ON) :
-- Bouton OFF (Masquer ADAS) : exécute instantanément la séquence complète de masquage graphique ADAS (263 trames SPI DashCast) directement depuis le tiroir du widget flottant.
-- Bouton ON (Afficher ADAS) : relance le service de combiné et restaure l'affichage d'origine du cadre ADAS d'un seul geste.
-- Design compact et intégré : deux mini-touches tactiles parfaitement dimensionnées à droite du libellé « ADAS », respectant strictement la structure et le redimensionnement du widget.
+- Réfection complète du moteur audio automobile Vektra (DiLink 3.0 / Android 10) :
+- Capture native VOICE_RECOGNITION & Détection anti-silence : bascule prioritaire sur le canal matériel de reconnaissance vocale (seul canal autorisé en arrière-plan par Android 10 pour un service d'accessibilité) avec bascule automatique instantanée si un canal renvoie un flux muet (zéros).
+- Déverrouillage UID AppOps & Rôle Assistant Système : octroi des permissions microphone en mode --uid (opérations 27 et 102 RECORD_AUDIO_HOTWORD), inscription de VEKTRA comme assistant vocal par défaut du véhicule et prise en charge du bouton vocal au volant.
+- Calibrage acoustique habitacle & Filtre passe-haut anti-moteur : correction du verrouillage du détecteur de voix (VAD) face au bruit de roulement et de ventilation, avec suivi adaptatif continu du bruit ambiant et pré-roll de 400 ms pour ne jamais tronquer le début de « Vektra ».
+- Anti-écho matériel & Réponse « Oui, Gino ? » pré-cachée (0 ms) : purge en temps réel du tampon micro pendant que Vektra parle pour éviter toute auto-écoute, et pré-génération locale de la voix d'accueil au démarrage.
 
 ---
 
