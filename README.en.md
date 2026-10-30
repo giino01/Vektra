@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.0** · released on 30 October 2026 · 45.9 MB
+**VERSION 2.1.1** · released on 30 October 2026 · 45.9 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.0
+## What is new in 2.1.1
 
-- Complete Overhaul of the Vektra Automotive Audio Engine (DiLink 3.0 / Android 10):
-- Native VOICE_RECOGNITION Capture & Zero-Stream Detection: prioritizes the hardware voice recognition source (required by Android 10 AOSP for background accessibility audio capture) and automatically switches channels if a muted/zero stream is detected.
-- UID AppOps Unlock & System Assistant Role: grants UID-level microphone AppOps (--uid opcodes 27 and 102 RECORD_AUDIO_HOTWORD), registers VEKTRA as the default Android system assistant, and supports the steering wheel voice button.
-- Cabin Acoustic Calibration & High-Pass Road-Noise Filter: fixes the automotive VAD lockup caused by cabin/AC background noise, with continuous adaptive noise floor tracking and a 400 ms pre-roll buffer so "Vektra" is never clipped.
-- Hardware Anti-Echo & Pre-Cached 0 ms Wake-Up Voice: continuously drains the hardware ring buffer while Vektra speaks to prevent self-triggering, and pre-caches the wake-up prompt locally at startup.
+- Fixed Voice Wake-Up When Groq API Key Is Configured (vBot Vektra):
+- Instant 0 ms Voice Wake-Up ("Yes, Gino?"): triggers the same immediate local wake-up response when calling "Vektra" with a Groq key configured, then opens a 15-second active listening window for Groq Whisper and Llama 3.3.
+- Eliminated Accidental Standby Lock: removed standby phrases from the Whisper context prompt that caused Whisper to hallucinate a standby command and deactivate Vektra as soon as the Groq key was set.
+- Dedicated Transcription Queue & MediaPlayer Watchdog: isolated Whisper and Chat executors and added a playback completion watchdog so the microphone always resumes listening right after Vektra speaks.
 
 ---
 

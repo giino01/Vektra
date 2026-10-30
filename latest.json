@@ -1,56 +1,49 @@
 {
-  "version": "2.1.0",
-  "apk": "Vektra-2.1.0.apk",
-  "size": 48148504,
+  "version": "2.1.1",
+  "apk": "Vektra-2.1.1.apk",
+  "size": 48158232,
   "notes": [
-    "Réfection complète du moteur audio automobile Vektra (DiLink 3.0 / Android 10) :",
-    "Capture native VOICE_RECOGNITION & Détection anti-silence : bascule prioritaire sur le canal matériel de reconnaissance vocale (seul canal autorisé en arrière-plan par Android 10 pour un service d'accessibilité) avec bascule automatique instantanée si un canal renvoie un flux muet (zéros).",
-    "Déverrouillage UID AppOps & Rôle Assistant Système : octroi des permissions microphone en mode --uid (opérations 27 et 102 RECORD_AUDIO_HOTWORD), inscription de VEKTRA comme assistant vocal par défaut du véhicule et prise en charge du bouton vocal au volant.",
-    "Calibrage acoustique habitacle & Filtre passe-haut anti-moteur : correction du verrouillage du détecteur de voix (VAD) face au bruit de roulement et de ventilation, avec suivi adaptatif continu du bruit ambiant et pré-roll de 400 ms pour ne jamais tronquer le début de « Vektra ».",
-    "Anti-écho matériel & Réponse « Oui, Gino ? » pré-cachée (0 ms) : purge en temps réel du tampon micro pendant que Vektra parle pour éviter toute auto-écoute, et pré-génération locale de la voix d'accueil au démarrage."
+    "Correction du réveil vocal avec clé API Groq activée (vBot Vektra) :",
+    "Réveil vocal instantané en 0 ms (« Oui, Gino ? ») : utilise la même détection vocale locale immédiate sur l'interpellation « Vektra » lorsque la clé Groq est renseignée, puis ouvre la fenêtre d'écoute active de 15 secondes vers Groq Whisper et Llama 3.3.",
+    "Suppression de l'auto-mise en veille involontaire : retrait des mots-clés de veille du prompt d'amorçage Whisper qui provoquaient une hallucination « mets-toi en veille » et désactivaient l'assistant dès l'ajout de la clé Groq.",
+    "File de transcription dédiée & Sécurité anti-blocage MediaPlayer : séparation des fils d'exécution Whisper / Chat et ajout d'un chien de garde sur la fin de lecture audio pour que le microphone se réactive systématiquement après « Oui, Gino ? »."
   ],
   "notesByLang": {
     "fr": [
-      "Réfection complète du moteur audio automobile Vektra (DiLink 3.0 / Android 10) :",
-      "Capture native VOICE_RECOGNITION & Détection anti-silence : bascule prioritaire sur le canal matériel de reconnaissance vocale (seul canal autorisé en arrière-plan par Android 10 pour un service d'accessibilité) avec bascule automatique instantanée si un canal renvoie un flux muet (zéros).",
-      "Déverrouillage UID AppOps & Rôle Assistant Système : octroi des permissions microphone en mode --uid (opérations 27 et 102 RECORD_AUDIO_HOTWORD), inscription de VEKTRA comme assistant vocal par défaut du véhicule et prise en charge du bouton vocal au volant.",
-      "Calibrage acoustique habitacle & Filtre passe-haut anti-moteur : correction du verrouillage du détecteur de voix (VAD) face au bruit de roulement et de ventilation, avec suivi adaptatif continu du bruit ambiant et pré-roll de 400 ms pour ne jamais tronquer le début de « Vektra ».",
-      "Anti-écho matériel & Réponse « Oui, Gino ? » pré-cachée (0 ms) : purge en temps réel du tampon micro pendant que Vektra parle pour éviter toute auto-écoute, et pré-génération locale de la voix d'accueil au démarrage."
+      "Correction du réveil vocal avec clé API Groq activée (vBot Vektra) :",
+      "Réveil vocal instantané en 0 ms (« Oui, Gino ? ») : utilise la même détection vocale locale immédiate sur l'interpellation « Vektra » lorsque la clé Groq est renseignée, puis ouvre la fenêtre d'écoute active de 15 secondes vers Groq Whisper et Llama 3.3.",
+      "Suppression de l'auto-mise en veille involontaire : retrait des mots-clés de veille du prompt d'amorçage Whisper qui provoquaient une hallucination « mets-toi en veille » et désactivaient l'assistant dès l'ajout de la clé Groq.",
+      "File de transcription dédiée & Sécurité anti-blocage MediaPlayer : séparation des fils d'exécution Whisper / Chat et ajout d'un chien de garde sur la fin de lecture audio pour que le microphone se réactive systématiquement après « Oui, Gino ? »."
     ],
     "en": [
-      "Complete Overhaul of the Vektra Automotive Audio Engine (DiLink 3.0 / Android 10):",
-      "Native VOICE_RECOGNITION Capture & Zero-Stream Detection: prioritizes the hardware voice recognition source (required by Android 10 AOSP for background accessibility audio capture) and automatically switches channels if a muted/zero stream is detected.",
-      "UID AppOps Unlock & System Assistant Role: grants UID-level microphone AppOps (--uid opcodes 27 and 102 RECORD_AUDIO_HOTWORD), registers VEKTRA as the default Android system assistant, and supports the steering wheel voice button.",
-      "Cabin Acoustic Calibration & High-Pass Road-Noise Filter: fixes the automotive VAD lockup caused by cabin/AC background noise, with continuous adaptive noise floor tracking and a 400 ms pre-roll buffer so \"Vektra\" is never clipped.",
-      "Hardware Anti-Echo & Pre-Cached 0 ms Wake-Up Voice: continuously drains the hardware ring buffer while Vektra speaks to prevent self-triggering, and pre-caches the wake-up prompt locally at startup."
+      "Fixed Voice Wake-Up When Groq API Key Is Configured (vBot Vektra):",
+      "Instant 0 ms Voice Wake-Up (\"Yes, Gino?\"): triggers the same immediate local wake-up response when calling \"Vektra\" with a Groq key configured, then opens a 15-second active listening window for Groq Whisper and Llama 3.3.",
+      "Eliminated Accidental Standby Lock: removed standby phrases from the Whisper context prompt that caused Whisper to hallucinate a standby command and deactivate Vektra as soon as the Groq key was set.",
+      "Dedicated Transcription Queue & MediaPlayer Watchdog: isolated Whisper and Chat executors and added a playback completion watchdog so the microphone always resumes listening right after Vektra speaks."
     ],
     "it": [
-      "Rifacimento completo del motore audio automobilistico Vektra (DiLink 3.0 / Android 10):",
-      "Cattura nativa VOICE_RECOGNITION e rilevamento flusso muto: priorità al canale hardware di riconoscimento vocale (richiesto da Android 10 in background) con cambio automatico di canale in caso di flusso silenziato.",
-      "Sblocco AppOps UID e ruolo Assistente di Sistema: permessi microfono concessi a livello --uid (codici 27 e 102), registrazione di VEKTRA come assistente predefinito del veicolo e supporto per il tasto vocale sul volante.",
-      "Calibrazione acustica abitacolo e filtro passa-alto: eliminato il blocco del rilevatore vocale (VAD) dovuto al rumore di marcia o climatizzatore, con adattamento continuo e pre-roll di 400 ms.",
-      "Anti-eco hardware e risposta istantanea pre-memorizzata (0 ms): svuotamento continuo del buffer audio mentre Vektra parla e pre-generazione locale del saluto di risveglio."
+      "Correzione del risveglio vocale con chiave API Groq inserita (vBot Vektra):",
+      "Risveglio vocale istantaneo a 0 ms (« Sì, Gino? »): attiva il risveglio vocale immediato alla chiamata « Vektra » anche con chiave Groq configurata, aprendo una finestra di ascolto attivo di 15 secondi verso Groq Whisper e Llama 3.3.",
+      "Eliminato lo standby involontario: rimosse le frasi di standby dal prompt Whisper che causavano la disattivazione automatica dell'assistente.",
+      "Coda di trascrizione dedicata e watchdog MediaPlayer: separazione dei thread Whisper / Chat e sblocco garantito del microfono dopo ogni risposta vocale."
     ],
     "de": [
-      "Komplette Überarbeitung der Vektra Automotive-Audio-Engine (DiLink 3.0 / Android 10):",
-      "Native VOICE_RECOGNITION-Aufnahme & Stummschaltungs-Erkennung: priorisiert den Hardware-Spracherkennungskanal (von Android 10 für Hintergrund-Eingabehilfen gefordert) und wechselt bei einem Null-Stream automatisch den Kanal.",
-      "UID-AppOps-Freigabe & System-Assistentenrolle: vergibt Mikrofonrechte auf --uid-Ebene (Opcodes 27 und 102), registriert VEKTRA als Standard-Sprachassistenten des Fahrzeugs und unterstützt die Sprachtaste am Lenkrad.",
-      "Innenraum-Kalibrierung & Hochpassfilter gegen Fahrgeräusche: behebt die VAD-Blockade durch Klima- und Abrollgeräusche mit adaptiver Rauschnachführung und 400 ms Pre-Roll-Puffer.",
-      "Hardware-Echosperre & vorgespeicherte 0-ms-Antwort: leert den Audio-Ringpuffer während der Sprachausgabe in Echtzeit und speichert die Begrüßungsstimme lokal beim Start vor."
+      "Korrektur der Sprachaktivierung bei hinterlegtem Groq-API-Schlüssel (vBot Vektra):",
+      "Sofortiges 0-ms-Aufwachen (« Ja, Gino? »): nutzt dieselbe verzögerungsfreie lokale Ruf-Erkennung bei aktivem Groq-Schlüssel und öffnet anschließend ein 15-Sekunden-Hörfenster für Groq Whisper und Llama 3.3.",
+      "Keine unbeabsichtigte Standby-Sperre mehr: Standby-Begriffe aus dem Whisper-Kontextprompt entfernt, die zuvor eine automatische Deaktivierung auslösten.",
+      "Eigene Transkriptions-Warteschlange & MediaPlayer-Watchdog: getrennte Threads für Whisper und Chat sowie automatische Mikrofon-Freigabe nach jeder Sprachausgabe."
     ],
     "pt": [
-      "Reformulação completa do motor de áudio automóvel Vektra (DiLink 3.0 / Android 10):",
-      "Captura nativa VOICE_RECOGNITION e deteção de fluxo mudo: dá prioridade ao canal de reconhecimento de voz de hardware (exigido pelo Android 10 em segundo plano) com mudança automática de canal se o sinal estiver a zero.",
-      "Desbloqueio AppOps UID e papel de Assistente do Sistema: atribui permissões de microfone ao nível --uid (códigos 27 e 102), regista o VEKTRA como assistente padrão do veículo e suporta o botão de voz no volante.",
-      "Calibração acústica do habitáculo e filtro passa-alto: corrige o bloqueio do detetor de voz (VAD) causado pelo ruído de rolamento e ar condicionado, com ajuste adaptativo contínuo e pré-roll de 400 ms.",
-      "Anti-eco de hardware e resposta instantânea em cache (0 ms): esvazia continuamente o buffer enquanto o Vektra fala para evitar auto-escuta e pré-carrega a resposta de ativação no arranque."
+      "Correção do despertar por voz com chave API Groq configurada (vBot Vektra):",
+      "Despertar vocal instantâneo em 0 ms (« Sim, Gino? »): aciona a mesma deteção vocal imediata ao chamar « Vektra » com a chave Groq ativa, abrindo de seguida 15 segundos de escuta ativa para o Groq Whisper e Llama 3.3.",
+      "Eliminação da suspensão involuntária: remoção dos termos de suspensão do prompt Whisper que desativavam o assistente ao inserir a chave Groq.",
+      "Fila de transcrição dedicada e watchdog MediaPlayer: separação das filas Whisper / Chat e reativação garantida do microfone após cada resposta."
     ],
     "tr": [
-      "Vektra Otomotiv Ses Motorunun Tamamen Yenilenmesi (DiLink 3.0 / Android 10):",
-      "Yerel VOICE_RECOGNITION Yakalama ve Sessiz Akış Algılama: Android 10 arka plan erişilebilirlik servisleri için zorunlu olan ses tanıma kanalına öncelik verir ve sessiz/sıfır akış algılandığında otomatik olarak alternatif kanala geçer.",
-      "UID AppOps Kilidi Açma ve Sistem Asistanı Rolü: --uid düzeyinde mikrofon izinlerini (op 27 ve 102) tanımlar, VEKTRA'yı aracın varsayılan sesli asistanı olarak kaydeder ve direksiyon ses düğmesini destekler.",
-      "Kabin Akustik Kalibrasyonu ve Yüksek Geçiren Filtre: yol ve klima gürültüsünden kaynaklanan VAD kilitlenmesini sürekli uyarlanabilir gürültü takibi ve 400 ms ön kayıt tamponu ile çözer.",
-      "Donanım Yankı Engelleme ve 0 ms Ön Bellekli Yanıt: Vektra konuşurken kendi sesini kaydetmemesi için ses tamponunu gerçek zamanlı boşaltır ve uyanma yanıtını açılışta yerel belleğe hazırlar."
+      "Groq API Anahtarı Girildiğinde Sesli Uyanma Sorununun Çözümü (vBot Vektra):",
+      "0 ms Anında Sesli Uyanma (« Evet, Gino? »): Groq anahtarı etkinken « Vektra » çağrısında anında yerel uyanma yanıtı verir ve ardından Groq Whisper ile Llama 3.3 için 15 saniyelik aktif dinleme penceresi açar.",
+      "İstenmeyen Uyku Modu Kilidinin Kaldırılması: Whisper bağlam isteminden asistanı yanlışlıkla uyku moduna sokan ifadeler temizlendi.",
+      "Özel Transkripsiyon Kuyruğu ve MediaPlayer Koruyucusu: Whisper ve Sohbet iş parçacıkları ayrıldı ve her sesli yanıttan sonra mikrofonun kesintisiz devreye girmesi garanti altına alındı."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.1.0** · veröffentlicht am 30. Oktober 2026 · 45.9 MB
+**VERSION 2.1.1** · veröffentlicht am 30. Oktober 2026 · 45.9 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.1.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.1.0
+## Neu in 2.1.1
 
-- Komplette Überarbeitung der Vektra Automotive-Audio-Engine (DiLink 3.0 / Android 10):
-- Native VOICE_RECOGNITION-Aufnahme & Stummschaltungs-Erkennung: priorisiert den Hardware-Spracherkennungskanal (von Android 10 für Hintergrund-Eingabehilfen gefordert) und wechselt bei einem Null-Stream automatisch den Kanal.
-- UID-AppOps-Freigabe & System-Assistentenrolle: vergibt Mikrofonrechte auf --uid-Ebene (Opcodes 27 und 102), registriert VEKTRA als Standard-Sprachassistenten des Fahrzeugs und unterstützt die Sprachtaste am Lenkrad.
-- Innenraum-Kalibrierung & Hochpassfilter gegen Fahrgeräusche: behebt die VAD-Blockade durch Klima- und Abrollgeräusche mit adaptiver Rauschnachführung und 400 ms Pre-Roll-Puffer.
-- Hardware-Echosperre & vorgespeicherte 0-ms-Antwort: leert den Audio-Ringpuffer während der Sprachausgabe in Echtzeit und speichert die Begrüßungsstimme lokal beim Start vor.
+- Korrektur der Sprachaktivierung bei hinterlegtem Groq-API-Schlüssel (vBot Vektra):
+- Sofortiges 0-ms-Aufwachen (« Ja, Gino? »): nutzt dieselbe verzögerungsfreie lokale Ruf-Erkennung bei aktivem Groq-Schlüssel und öffnet anschließend ein 15-Sekunden-Hörfenster für Groq Whisper und Llama 3.3.
+- Keine unbeabsichtigte Standby-Sperre mehr: Standby-Begriffe aus dem Whisper-Kontextprompt entfernt, die zuvor eine automatische Deaktivierung auslösten.
+- Eigene Transkriptions-Warteschlange & MediaPlayer-Watchdog: getrennte Threads für Whisper und Chat sowie automatische Mikrofon-Freigabe nach jeder Sprachausgabe.
 
 ---
 
