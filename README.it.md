@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.1.7** · pubblicata il 30 ottobre 2026 · 46.0 MB
+**VERSIONE 2.1.8** · pubblicata il 31 ottobre 2026 · 46.1 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.7.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.1.7
+## Novità della 2.1.8
 
-- Disattivazione della modalità conversazione continua e ritorno immediato in standby:
-- Nessuna attesa dopo la risposta: una volta eseguita l'azione o pronunciata la risposta, l'ascolto attivo si interrompe immediatamente senza rimanere in attesa di ulteriori richieste.
-- Attivazione solo su chiamata: vBot Vektra si attiva solo su richiesta esplicita ("Vektra", tocco sulla mascotte o pulsante vocale al volante), elabora la richiesta e torna subito in standby silenzioso.
-- Ripristino immediato del volume multimediale: il volume audio normale (STREAM_MUSIC) viene ripristinato non appena l'assistente finisce di parlare.
+- Controllo sensibilità microfono (VU-meter in tempo reale), scheda « Vektra Assistant IA » e rimozione del widget mascotte dai temi:
+- Regolazione del guadagno del microfono (da 0% a 250%) con 0% muto e 100% predefinito.
+- VU-meter live con gradiente Verde ➔ Giallo ➔ Rosso per calibrare visivamente la voce.
+- Scheda rinominata in « Vektra Assistant IA ».
+- Rimozione del widget mascotte dai temi del quadro strumenti.
 
 ---
 

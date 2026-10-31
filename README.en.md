@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.7** · released on 30 October 2026 · 46.0 MB
+**VERSION 2.1.8** · released on 31 October 2026 · 46.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.7
+## What is new in 2.1.8
 
-- Disabled Continuous Conversation Mode & Immediate Return to Wake-Word Standby:
-- No Lingering Listening Window: once an action is completed or a response is spoken, active listening immediately closes. The assistant no longer stays in continuous listening mode waiting for further prompts.
-- Wake-Word Only Trigger: vBot Vektra only activates upon explicit trigger ("Vektra", tapping the mascot, or pressing the steering wheel voice button), executes the single request, and immediately returns to silent standby.
-- Instant Media Sound Restoration: vehicle normal media volume (STREAM_MUSIC) is promptly restored as soon as the assistant finishes speaking.
+- Microphone Sensitivity Control (Live VU-Meter), "Vektra Assistant IA" Tab & Mascot Widget Removed from Themes:
+- Microphone Gain Control (0% to 250%): direct input gain adjustment from 0% (full mute) to 250% (100% default).
+- Live Gradient VU-Meter (Green ➔ Yellow ➔ Red): real-time microphone sound level gauge with Low, Optimal, and Saturation zones for precise visual calibration.
+- Tab Renamed: the assistant tab is now titled "Vektra Assistant IA".
+- Mascot Widget Removed from Themes: removed the mascot widget from instrument cluster themes (Carbone 3D, VektraUI), keeping the 3D overlay available for the tablet.
 
 ---
 

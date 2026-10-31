@@ -1,49 +1,56 @@
 {
-  "version": "2.1.7",
-  "apk": "Vektra-2.1.7.apk",
-  "size": 48275320,
+  "version": "2.1.8",
+  "apk": "Vektra-2.1.8.apk",
+  "size": 48288808,
   "notes": [
-    "Suppression du mode conversation continue & retour immédiat en veille par mot-clé :",
-    "Fin de l'attente après réponse : une fois qu'une action est exécutée ou qu'une réponse est prononcée par l'assistant, l'écoute active se coupe immédiatement. L'assistant ne reste plus en attente continue de demandes.",
-    "Déclenchement uniquement à l'appel : vBot Vektra s'active uniquement sur interpellation explicite (« Vektra », clic sur la mascotte ou appui sur le bouton vocal du volant), traite la demande formulée, puis repasse immédiatement en veille silencieuse.",
-    "Restauration instantanée du son média : le volume du haut-parleur média normal (STREAM_MUSIC) est immédiatement rétabli à 100 % dès la fin de la parole de l'assistant."
+    "Contrôle de sensibilité du micro (VU-mètre en direct), onglet « Vektra Assistant IA » & retrait du widget mascotte des thèmes :",
+    "Réglage du gain du micro (0 % à 250 %) : contrôle direct de l'amplification du micro du véhicule avec réglage de 0 % (muet absolu) à 250 % (100 % par défaut).",
+    "Jauge VU-mètre en direct (dégradé Vert ➔ Jaune ➔ Rouge) : affichage du niveau sonore capté en temps réel avec repères de zone (Faible, Optimal, Saturation) pour calibrer visuellement le micro selon votre voix et votre habitacle.",
+    "Renommage de l'onglet : l'onglet de l'assistant s'intitule désormais « Vektra Assistant IA ».",
+    "Retrait du widget mascotte des thèmes : le widget mascotte a été retiré des thèmes du combiné d'instruments (Carbone 3D, VektraUI), tout en préservant l'overlay 3D flottant sur la tablette."
   ],
   "notesByLang": {
     "fr": [
-      "Suppression du mode conversation continue & retour immédiat en veille par mot-clé :",
-      "Fin de l'attente après réponse : une fois qu'une action est exécutée ou qu'une réponse est prononcée par l'assistant, l'écoute active se coupe immédiatement. L'assistant ne reste plus en attente continue de demandes.",
-      "Déclenchement uniquement à l'appel : vBot Vektra s'active uniquement sur interpellation explicite (« Vektra », clic sur la mascotte ou appui sur le bouton vocal du volant), traite la demande formulée, puis repasse immédiatement en veille silencieuse.",
-      "Restauration instantanée du son média : le volume du haut-parleur média normal (STREAM_MUSIC) est immédiatement rétabli à 100 % dès la fin de la parole de l'assistant."
+      "Contrôle de sensibilité du micro (VU-mètre en direct), onglet « Vektra Assistant IA » & retrait du widget mascotte des thèmes :",
+      "Réglage du gain du micro (0 % à 250 %) : contrôle direct de l'amplification du micro du véhicule avec réglage de 0 % (muet absolu) à 250 % (100 % par défaut).",
+      "Jauge VU-mètre en direct (dégradé Vert ➔ Jaune ➔ Rouge) : affichage du niveau sonore capté en temps réel avec repères de zone (Faible, Optimal, Saturation) pour calibrer visuellement le micro selon votre voix et votre habitacle.",
+      "Renommage de l'onglet : l'onglet de l'assistant s'intitule désormais « Vektra Assistant IA ».",
+      "Retrait du widget mascotte des thèmes : le widget mascotte a été retiré des thèmes du combiné d'instruments (Carbone 3D, VektraUI), tout en préservant l'overlay 3D flottant sur la tablette."
     ],
     "en": [
-      "Disabled Continuous Conversation Mode & Immediate Return to Wake-Word Standby:",
-      "No Lingering Listening Window: once an action is completed or a response is spoken, active listening immediately closes. The assistant no longer stays in continuous listening mode waiting for further prompts.",
-      "Wake-Word Only Trigger: vBot Vektra only activates upon explicit trigger (\"Vektra\", tapping the mascot, or pressing the steering wheel voice button), executes the single request, and immediately returns to silent standby.",
-      "Instant Media Sound Restoration: vehicle normal media volume (STREAM_MUSIC) is promptly restored as soon as the assistant finishes speaking."
+      "Microphone Sensitivity Control (Live VU-Meter), \"Vektra Assistant IA\" Tab & Mascot Widget Removed from Themes:",
+      "Microphone Gain Control (0% to 250%): direct input gain adjustment from 0% (full mute) to 250% (100% default).",
+      "Live Gradient VU-Meter (Green ➔ Yellow ➔ Red): real-time microphone sound level gauge with Low, Optimal, and Saturation zones for precise visual calibration.",
+      "Tab Renamed: the assistant tab is now titled \"Vektra Assistant IA\".",
+      "Mascot Widget Removed from Themes: removed the mascot widget from instrument cluster themes (Carbone 3D, VektraUI), keeping the 3D overlay available for the tablet."
     ],
     "it": [
-      "Disattivazione della modalità conversazione continua e ritorno immediato in standby:",
-      "Nessuna attesa dopo la risposta: una volta eseguita l'azione o pronunciata la risposta, l'ascolto attivo si interrompe immediatamente senza rimanere in attesa di ulteriori richieste.",
-      "Attivazione solo su chiamata: vBot Vektra si attiva solo su richiesta esplicita (\"Vektra\", tocco sulla mascotte o pulsante vocale al volante), elabora la richiesta e torna subito in standby silenzioso.",
-      "Ripristino immediato del volume multimediale: il volume audio normale (STREAM_MUSIC) viene ripristinato non appena l'assistente finisce di parlare."
+      "Controllo sensibilità microfono (VU-meter in tempo reale), scheda « Vektra Assistant IA » e rimozione del widget mascotte dai temi:",
+      "Regolazione del guadagno del microfono (da 0% a 250%) con 0% muto e 100% predefinito.",
+      "VU-meter live con gradiente Verde ➔ Giallo ➔ Rosso per calibrare visivamente la voce.",
+      "Scheda rinominata in « Vektra Assistant IA ».",
+      "Rimozione del widget mascotte dai temi del quadro strumenti."
     ],
     "de": [
-      "Deaktivierung des kontinuierlichen Konversationsmodus & sofortige Rückkehr in den Standby:",
-      "Kein Nachhören nach der Antwort: Nach Ausführung der Aktion oder Beendigung der Sprachantwort wird das aktive Zuhören sofort beendet. Der Assistent wartet nicht mehr im kontinuierlichen Modus auf weitere Befehle.",
-      "Aktivierung nur auf Zuruf: vBot Vektra reagiert nur auf den Aktivierungsruf („Vektra“, Antippen des Maskottchens oder Lenkrad-Sprachtaste), führt den Befehl aus und wechselt sofort in den Ruhezustand.",
-      "Sofortige Wiederherstellung der Medienlautstärke: Die normale Lautstärke (STREAM_MUSIC) wird sofort nach Ende der Sprachausgabe wiederhergestellt."
+      "Mikrofon-Empfindlichkeitsregelung (Live-VU-Meter), Reiter „Vektra Assistant IA“ & Maskottchen-Widget aus Themes entfernt:",
+      "Mikrofon-Verstärkungsregelung (0 % bis 250 %) mit 0 % Stummschaltung und 100 % Standard.",
+      "Live-VU-Meter mit Farbverlauf Grün ➔ Gelb ➔ Rot zur visuellen Kalibrierung der Spracheingabe.",
+      "Reiter umbenannt in „Vektra Assistant IA“.",
+      "Maskottchen-Widget aus Kombiinstrument-Themes entfernt."
     ],
     "pt": [
-      "Desativação do modo de conversação contínua e retorno imediato ao modo de espera:",
-      "Fim da escuta residual: após executar uma ação ou concluir uma resposta vocal, a escuta ativa é imediatamente encerrada. O assistente não permanece em escuta contínua.",
-      "Ativação apenas por comando: o vBot Vektra ativa-se apenas mediante chamada explícita (\"Vektra\", toque na mascote ou botão no volante), executa o pedido e volta de imediato ao modo de espera silencioso.",
-      "Restauro imediato do volume multimédia: o volume normal (STREAM_MUSIC) é restaurado assim que o assistente termina de falar."
+      "Controlo de sensibilidade do microfone (VU-meter em tempo real), separador « Vektra Assistant IA » e remoção do widget mascote dos temas:",
+      "Ajuste do ganho do microfone (0% a 250%) com 0% mudo e 100% predefinido.",
+      "VU-meter dinâmico com gradiente Verde ➔ Amarelo ➔ Vermelho para calibração visual precisa.",
+      "Separador renomeado para « Vektra Assistant IA ».",
+      "Widget mascote removido dos temas do painel de instrumentos."
     ],
     "tr": [
-      "Sürekli Konuşma Modunun Kapatılması ve Bekleme Moduna Anında Dönüş:",
-      "Yanıttan Sonra Dinlemeyi Sonlandırma: Bir işlem tamamlandığında veya yanıt verildiğinde aktif dinleme hemen kapatılır. Asistan artık açık kalıp yeni komut beklemez.",
-      "Yalnızca Çağrı ile Tetikleme: vBot Vektra yalnızca doğrudan çağrıldığında (\"Vektra\", maskota dokunma veya direksiyon ses düğmesi) etkinleşir, isteği yerine getirir ve derhal sessiz bekleme moduna geçer.",
-      "Medya Sesinin Anında Geri Yüklenmesi: Normal medya sesi (STREAM_MUSIC), asistan konuşmasını bitirdiği anda eski seviyesine döner."
+      "Mikrofon Hassasiyeti Kontrolü (Canlı VU-Metre), « Vektra Assistant IA » Sekmesi ve Temalardan Maskot Widget'ının Kaldırılması:",
+      "Mikrofon Kazanç Ayarı (%0 - %250) ile %0 sessiz ve %100 varsayılan.",
+      "Canlı Gradyan VU-Metre (Yeşil ➔ Sarı ➔ Kırmızı) ile ses seviyesini görsel olarak kalibre etme.",
+      "Sekme Adı Değiştirildi: Sekme artık « Vektra Assistant IA » olarak adlandırıldı.",
+      "Gösterge temalarından maskot widget'ı kaldırıldı."
     ]
   }
 }

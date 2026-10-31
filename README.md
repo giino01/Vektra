@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.7** · publiée le 30 octobre 2026 · 46.0 Mo
+**VERSION 2.1.8** · publiée le 31 octobre 2026 · 46.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.7
+## Nouveautés de la 2.1.8
 
-- Suppression du mode conversation continue & retour immédiat en veille par mot-clé :
-- Fin de l'attente après réponse : une fois qu'une action est exécutée ou qu'une réponse est prononcée par l'assistant, l'écoute active se coupe immédiatement. L'assistant ne reste plus en attente continue de demandes.
-- Déclenchement uniquement à l'appel : vBot Vektra s'active uniquement sur interpellation explicite (« Vektra », clic sur la mascotte ou appui sur le bouton vocal du volant), traite la demande formulée, puis repasse immédiatement en veille silencieuse.
-- Restauration instantanée du son média : le volume du haut-parleur média normal (STREAM_MUSIC) est immédiatement rétabli à 100 % dès la fin de la parole de l'assistant.
+- Contrôle de sensibilité du micro (VU-mètre en direct), onglet « Vektra Assistant IA » & retrait du widget mascotte des thèmes :
+- Réglage du gain du micro (0 % à 250 %) : contrôle direct de l'amplification du micro du véhicule avec réglage de 0 % (muet absolu) à 250 % (100 % par défaut).
+- Jauge VU-mètre en direct (dégradé Vert ➔ Jaune ➔ Rouge) : affichage du niveau sonore capté en temps réel avec repères de zone (Faible, Optimal, Saturation) pour calibrer visuellement le micro selon votre voix et votre habitacle.
+- Renommage de l'onglet : l'onglet de l'assistant s'intitule désormais « Vektra Assistant IA ».
+- Retrait du widget mascotte des thèmes : le widget mascotte a été retiré des thèmes du combiné d'instruments (Carbone 3D, VektraUI), tout en préservant l'overlay 3D flottant sur la tablette.
 
 ---
 
