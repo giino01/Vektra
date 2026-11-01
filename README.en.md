@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.8** · released on 31 October 2026 · 46.1 MB
+**VERSION 2.1.9** · released on 1 November 2026 · 46.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,15 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.8
+## What is new in 2.1.9
 
-- Microphone Sensitivity Control (Live VU-Meter), "Vektra Assistant IA" Tab & Mascot Widget Removed from Themes:
-- Microphone Gain Control (0% to 250%): direct input gain adjustment from 0% (full mute) to 250% (100% default).
-- Live Gradient VU-Meter (Green ➔ Yellow ➔ Red): real-time microphone sound level gauge with Low, Optimal, and Saturation zones for precise visual calibration.
-- Tab Renamed: the assistant tab is now titled "Vektra Assistant IA".
-- Mascot Widget Removed from Themes: removed the mascot widget from instrument cluster themes (Carbone 3D, VektraUI), keeping the 3D overlay available for the tablet.
+- Rainbow Voice Wave Overlay, Built-in Free Web Search, Long-Term Memory & Grok-Style Uncensored Companion:
+- Visual Communication Effect (Rainbow Wave): animated fluid gradient wave at screen bottom reacting to voice and replies, with toggle in Assistant settings.
+- Built-in Generic & Free Web Search: integrated DuckDuckGo/Wikipedia engine without requiring any API key from members.
+- Extended Speech & Silence Listening: silence timeout increased to 1.8s and maximum recording length extended to 20s for uninterrupted long phrases.
+- Uncensored Freedom & Intimacy (Grok style): unmoderated, affectionate companion capable of open, intimate, and adult conversations without refusal.
+- Long-Term Memory: persistent local storage of user facts, preferences, and conversations.
+- UI Renaming: "Assistant virtuel" and "Assistance visuelle" in Vektra Assistant IA tab.
 
 ---
 

@@ -1,56 +1,70 @@
 {
-  "version": "2.1.8",
-  "apk": "Vektra-2.1.8.apk",
-  "size": 48288808,
+  "version": "2.1.9",
+  "apk": "Vektra-2.1.9.apk",
+  "size": 48314256,
   "notes": [
-    "Contrôle de sensibilité du micro (VU-mètre en direct), onglet « Vektra Assistant IA » & retrait du widget mascotte des thèmes :",
-    "Réglage du gain du micro (0 % à 250 %) : contrôle direct de l'amplification du micro du véhicule avec réglage de 0 % (muet absolu) à 250 % (100 % par défaut).",
-    "Jauge VU-mètre en direct (dégradé Vert ➔ Jaune ➔ Rouge) : affichage du niveau sonore capté en temps réel avec repères de zone (Faible, Optimal, Saturation) pour calibrer visuellement le micro selon votre voix et votre habitacle.",
-    "Renommage de l'onglet : l'onglet de l'assistant s'intitule désormais « Vektra Assistant IA ».",
-    "Retrait du widget mascotte des thèmes : le widget mascotte a été retiré des thèmes du combiné d'instruments (Carbone 3D, VektraUI), tout en préservant l'overlay 3D flottant sur la tablette."
+    "Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :",
+    "Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.",
+    "Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.",
+    "Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.",
+    "Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.",
+    "Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.",
+    "Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA."
   ],
   "notesByLang": {
     "fr": [
-      "Contrôle de sensibilité du micro (VU-mètre en direct), onglet « Vektra Assistant IA » & retrait du widget mascotte des thèmes :",
-      "Réglage du gain du micro (0 % à 250 %) : contrôle direct de l'amplification du micro du véhicule avec réglage de 0 % (muet absolu) à 250 % (100 % par défaut).",
-      "Jauge VU-mètre en direct (dégradé Vert ➔ Jaune ➔ Rouge) : affichage du niveau sonore capté en temps réel avec repères de zone (Faible, Optimal, Saturation) pour calibrer visuellement le micro selon votre voix et votre habitacle.",
-      "Renommage de l'onglet : l'onglet de l'assistant s'intitule désormais « Vektra Assistant IA ».",
-      "Retrait du widget mascotte des thèmes : le widget mascotte a été retiré des thèmes du combiné d'instruments (Carbone 3D, VektraUI), tout en préservant l'overlay 3D flottant sur la tablette."
+      "Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :",
+      "Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.",
+      "Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.",
+      "Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.",
+      "Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.",
+      "Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.",
+      "Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA."
     ],
     "en": [
-      "Microphone Sensitivity Control (Live VU-Meter), \"Vektra Assistant IA\" Tab & Mascot Widget Removed from Themes:",
-      "Microphone Gain Control (0% to 250%): direct input gain adjustment from 0% (full mute) to 250% (100% default).",
-      "Live Gradient VU-Meter (Green ➔ Yellow ➔ Red): real-time microphone sound level gauge with Low, Optimal, and Saturation zones for precise visual calibration.",
-      "Tab Renamed: the assistant tab is now titled \"Vektra Assistant IA\".",
-      "Mascot Widget Removed from Themes: removed the mascot widget from instrument cluster themes (Carbone 3D, VektraUI), keeping the 3D overlay available for the tablet."
+      "Rainbow Voice Wave Overlay, Built-in Free Web Search, Long-Term Memory & Grok-Style Uncensored Companion:",
+      "Visual Communication Effect (Rainbow Wave): animated fluid gradient wave at screen bottom reacting to voice and replies, with toggle in Assistant settings.",
+      "Built-in Generic & Free Web Search: integrated DuckDuckGo/Wikipedia engine without requiring any API key from members.",
+      "Extended Speech & Silence Listening: silence timeout increased to 1.8s and maximum recording length extended to 20s for uninterrupted long phrases.",
+      "Uncensored Freedom & Intimacy (Grok style): unmoderated, affectionate companion capable of open, intimate, and adult conversations without refusal.",
+      "Long-Term Memory: persistent local storage of user facts, preferences, and conversations.",
+      "UI Renaming: \"Assistant virtuel\" and \"Assistance visuelle\" in Vektra Assistant IA tab."
     ],
     "it": [
-      "Controllo sensibilità microfono (VU-meter in tempo reale), scheda « Vektra Assistant IA » e rimozione del widget mascotte dai temi:",
-      "Regolazione del guadagno del microfono (da 0% a 250%) con 0% muto e 100% predefinito.",
-      "VU-meter live con gradiente Verde ➔ Giallo ➔ Rosso per calibrare visivamente la voce.",
-      "Scheda rinominata in « Vektra Assistant IA ».",
-      "Rimozione del widget mascotte dai temi del quadro strumenti."
+      "Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :",
+      "Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.",
+      "Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.",
+      "Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.",
+      "Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.",
+      "Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.",
+      "Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA."
     ],
     "de": [
-      "Mikrofon-Empfindlichkeitsregelung (Live-VU-Meter), Reiter „Vektra Assistant IA“ & Maskottchen-Widget aus Themes entfernt:",
-      "Mikrofon-Verstärkungsregelung (0 % bis 250 %) mit 0 % Stummschaltung und 100 % Standard.",
-      "Live-VU-Meter mit Farbverlauf Grün ➔ Gelb ➔ Rot zur visuellen Kalibrierung der Spracheingabe.",
-      "Reiter umbenannt in „Vektra Assistant IA“.",
-      "Maskottchen-Widget aus Kombiinstrument-Themes entfernt."
+      "Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :",
+      "Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.",
+      "Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.",
+      "Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.",
+      "Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.",
+      "Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.",
+      "Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA."
     ],
     "pt": [
-      "Controlo de sensibilidade do microfone (VU-meter em tempo real), separador « Vektra Assistant IA » e remoção do widget mascote dos temas:",
-      "Ajuste do ganho do microfone (0% a 250%) com 0% mudo e 100% predefinido.",
-      "VU-meter dinâmico com gradiente Verde ➔ Amarelo ➔ Vermelho para calibração visual precisa.",
-      "Separador renomeado para « Vektra Assistant IA ».",
-      "Widget mascote removido dos temas do painel de instrumentos."
+      "Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :",
+      "Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.",
+      "Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.",
+      "Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.",
+      "Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.",
+      "Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.",
+      "Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA."
     ],
     "tr": [
-      "Mikrofon Hassasiyeti Kontrolü (Canlı VU-Metre), « Vektra Assistant IA » Sekmesi ve Temalardan Maskot Widget'ının Kaldırılması:",
-      "Mikrofon Kazanç Ayarı (%0 - %250) ile %0 sessiz ve %100 varsayılan.",
-      "Canlı Gradyan VU-Metre (Yeşil ➔ Sarı ➔ Kırmızı) ile ses seviyesini görsel olarak kalibre etme.",
-      "Sekme Adı Değiştirildi: Sekme artık « Vektra Assistant IA » olarak adlandırıldı.",
-      "Gösterge temalarından maskot widget'ı kaldırıldı."
+      "Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :",
+      "Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.",
+      "Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.",
+      "Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.",
+      "Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.",
+      "Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.",
+      "Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA."
     ]
   }
 }

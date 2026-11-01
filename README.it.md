@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.1.8** · pubblicata il 31 ottobre 2026 · 46.1 MB
+**VERSIONE 2.1.9** · pubblicata il 1 novembre 2026 · 46.1 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.1.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,15 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.1.8
+## Novità della 2.1.9
 
-- Controllo sensibilità microfono (VU-meter in tempo reale), scheda « Vektra Assistant IA » e rimozione del widget mascotte dai temi:
-- Regolazione del guadagno del microfono (da 0% a 250%) con 0% muto e 100% predefinito.
-- VU-meter live con gradiente Verde ➔ Giallo ➔ Rosso per calibrare visivamente la voce.
-- Scheda rinominata in « Vektra Assistant IA ».
-- Rimozione del widget mascotte dai temi del quadro strumenti.
+- Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :
+- Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.
+- Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.
+- Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.
+- Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.
+- Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.
+- Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA.
 
 ---
 

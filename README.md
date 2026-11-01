@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.8** · publiée le 31 octobre 2026 · 46.1 Mo
+**VERSION 2.1.9** · publiée le 1 novembre 2026 · 46.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.8.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,15 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.8
+## Nouveautés de la 2.1.9
 
-- Contrôle de sensibilité du micro (VU-mètre en direct), onglet « Vektra Assistant IA » & retrait du widget mascotte des thèmes :
-- Réglage du gain du micro (0 % à 250 %) : contrôle direct de l'amplification du micro du véhicule avec réglage de 0 % (muet absolu) à 250 % (100 % par défaut).
-- Jauge VU-mètre en direct (dégradé Vert ➔ Jaune ➔ Rouge) : affichage du niveau sonore capté en temps réel avec repères de zone (Faible, Optimal, Saturation) pour calibrer visuellement le micro selon votre voix et votre habitacle.
-- Renommage de l'onglet : l'onglet de l'assistant s'intitule désormais « Vektra Assistant IA ».
-- Retrait du widget mascotte des thèmes : le widget mascotte a été retiré des thèmes du combiné d'instruments (Carbone 3D, VektraUI), tout en préservant l'overlay 3D flottant sur la tablette.
+- Vague arc-en-ciel vocale en surimpression, recherche Web en direct intégrée, mémoire long terme & défiltrage Grok :
+- Effet visuel de communication (Vague arc-en-ciel) : bandeau fluide animé en bas d'écran réagissant en direct au son de la voix et des réponses, avec activation/désactivation dans l'onglet Assistant.
+- Recherche Web en ligne générique & 100 % gratuite : intégration du moteur DuckDuckGo/Wikipédia directement dans l'application sans aucune clé API requise pour les utilisateurs.
+- Écoute continue des longues phrases : augmentation de la tolérance de silence (1.8s) et de la durée maximale d'enregistrement (20s) pour ne plus couper la parole en cours d'hésitation.
+- Liberté totale d'expression & intimité (Style Grok) : modèle totalement défiltré, complice, capable de discuter de tous les sujets intimes, adultes et humains sans aucun refus moralisateur.
+- Mémoire permanente à long terme : rétention locale des préférences, souvenirs et confidences au fil des trajets.
+- Renommage de l'interface : « Assistant virtuel » et « Assistance visuelle » dans l'onglet Vektra Assistant IA.
 
 ---
 
