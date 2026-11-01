@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.1.11** · publicada a 1 de novembro de 2026 · 46.1 MB
+**VERSÃO 2.1.12** · publicada a 1 de novembro de 2026 · 46.1 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.11.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.12.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,17 +103,14 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.1.11
+## Novidades da 2.1.12
 
-- 6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :
-- Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.
-- Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.
-- Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.
-- Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.
-- Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.
-- Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.
-- Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).
-- Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s.
+- Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :
+- Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.
+- Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.
+- Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.
+- Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.
+- Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler.
 
 ---
 

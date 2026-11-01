@@ -1,84 +1,63 @@
 {
-  "version": "2.1.11",
-  "apk": "Vektra-2.1.11.apk",
-  "size": 48332008,
+  "version": "2.1.12",
+  "apk": "Vektra-2.1.12.apk",
+  "size": 48341216,
   "notes": [
-    "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
-    "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
-    "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
-    "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
-    "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
-    "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
-    "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
-    "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
-    "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
+    "Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :",
+    "Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.",
+    "Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.",
+    "Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.",
+    "Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.",
+    "Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler."
   ],
   "notesByLang": {
     "fr": [
-      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
-      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
-      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
-      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
-      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
-      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
-      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
-      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
-      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
+      "Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :",
+      "Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.",
+      "Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.",
+      "Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.",
+      "Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.",
+      "Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler."
     ],
     "en": [
-      "6 Complete Voice-Reactive Visual Communication Themes & Automatic Idle Dismissal:",
-      "Theme 1 (Rainbow Wave): fluid multi-colored spectral wave at screen bottom with gradient fill responding to voice loudness.",
-      "Theme 2 (J.A.R.V.I.S. Hologram): central translucent Arc Reactor watermark with counter-rotating segmented rings, HUD reticles, and pulsing core.",
-      "Theme 3 (3D Synaptic Sphere): 3D rotating holographic sphere of 38 neural nodes connected by synaptic energy sparks pulsing with speech.",
-      "Theme 4 (Quantum Scanner K.I.T.T.): horizontal cybernetic laser scan with incandescent beam head and dynamic frequency bars.",
-      "Theme 5 (Titanium Prism Line): ultra-clean luxury studio Hi-Fi acoustic signature with floating diamond micro-particles.",
-      "Theme 6 (Ambient Edge Glow): diffuse ambient aura surrounding screen edges (luxury automotive cockpit style), keeping center 100% clear.",
-      "Voice Dynamics & Automatic Dismissal: all themes scale their animation to voice volume and vanish completely (0% CPU, fully hidden) when Vektra is idle.",
-      "One-Tap Selector in Assistant Tab: cycle seamlessly through Theme 1 to Theme 6 with an instant 2.8s live preview."
+      "Robust BYD Hardware Control (Overdrive Style), True Action Sync, Ambient LEDs & Direct Web Search:",
+      "Manufacturer Permissions Unlocked via ADB (pm grant): automatic granting of all vehicle body permissions (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, etc.) through shell UID 2000, replicating Overdrive's method.",
+      "Real Vehicle Return Codes Validation: strict handling of negative return codes (-1 = rejection) to prevent false-positive command execution.",
+      "Voice Feedback Synchronized with Reality: Vektra verifies actual hardware execution before speaking, providing honest feedback if the car is off or ADB disconnected.",
+      "Cabin Ambient LED Synchronization: new option in Assistant settings to pulse door and dashboard ambient lighting with Vektra's voice, automatically restoring original settings when idle.",
+      "Instant Web Search Without Cutoff: removed the intermediate \"Searching online...\" voice prompt; Vektra now queries silently and answers directly in one seamless sentence."
     ],
     "it": [
-      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
-      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
-      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
-      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
-      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
-      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
-      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
-      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
-      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
+      "Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :",
+      "Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.",
+      "Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.",
+      "Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.",
+      "Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.",
+      "Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler."
     ],
     "de": [
-      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
-      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
-      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
-      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
-      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
-      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
-      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
-      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
-      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
+      "Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :",
+      "Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.",
+      "Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.",
+      "Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.",
+      "Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.",
+      "Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler."
     ],
     "pt": [
-      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
-      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
-      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
-      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
-      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
-      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
-      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
-      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
-      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
+      "Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :",
+      "Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.",
+      "Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.",
+      "Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.",
+      "Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.",
+      "Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler."
     ],
     "tr": [
-      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
-      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
-      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
-      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
-      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
-      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
-      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
-      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
-      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
+      "Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :",
+      "Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.",
+      "Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.",
+      "Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.",
+      "Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.",
+      "Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler."
     ]
   }
 }

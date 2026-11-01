@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.11** · released on 1 November 2026 · 46.1 MB
+**VERSION 2.1.12** · released on 1 November 2026 · 46.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.11.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.12.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,17 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.11
+## What is new in 2.1.12
 
-- 6 Complete Voice-Reactive Visual Communication Themes & Automatic Idle Dismissal:
-- Theme 1 (Rainbow Wave): fluid multi-colored spectral wave at screen bottom with gradient fill responding to voice loudness.
-- Theme 2 (J.A.R.V.I.S. Hologram): central translucent Arc Reactor watermark with counter-rotating segmented rings, HUD reticles, and pulsing core.
-- Theme 3 (3D Synaptic Sphere): 3D rotating holographic sphere of 38 neural nodes connected by synaptic energy sparks pulsing with speech.
-- Theme 4 (Quantum Scanner K.I.T.T.): horizontal cybernetic laser scan with incandescent beam head and dynamic frequency bars.
-- Theme 5 (Titanium Prism Line): ultra-clean luxury studio Hi-Fi acoustic signature with floating diamond micro-particles.
-- Theme 6 (Ambient Edge Glow): diffuse ambient aura surrounding screen edges (luxury automotive cockpit style), keeping center 100% clear.
-- Voice Dynamics & Automatic Dismissal: all themes scale their animation to voice volume and vanish completely (0% CPU, fully hidden) when Vektra is idle.
-- One-Tap Selector in Assistant Tab: cycle seamlessly through Theme 1 to Theme 6 with an instant 2.8s live preview.
+- Robust BYD Hardware Control (Overdrive Style), True Action Sync, Ambient LEDs & Direct Web Search:
+- Manufacturer Permissions Unlocked via ADB (pm grant): automatic granting of all vehicle body permissions (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, etc.) through shell UID 2000, replicating Overdrive's method.
+- Real Vehicle Return Codes Validation: strict handling of negative return codes (-1 = rejection) to prevent false-positive command execution.
+- Voice Feedback Synchronized with Reality: Vektra verifies actual hardware execution before speaking, providing honest feedback if the car is off or ADB disconnected.
+- Cabin Ambient LED Synchronization: new option in Assistant settings to pulse door and dashboard ambient lighting with Vektra's voice, automatically restoring original settings when idle.
+- Instant Web Search Without Cutoff: removed the intermediate "Searching online..." voice prompt; Vektra now queries silently and answers directly in one seamless sentence.
 
 ---
 
