@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.12** · released on 1 November 2026 · 46.1 MB
+**VERSION 2.1.13** · released on 1 November 2026 · 46.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.12.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.13.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.12
+## What is new in 2.1.13
 
-- Robust BYD Hardware Control (Overdrive Style), True Action Sync, Ambient LEDs & Direct Web Search:
-- Manufacturer Permissions Unlocked via ADB (pm grant): automatic granting of all vehicle body permissions (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, etc.) through shell UID 2000, replicating Overdrive's method.
-- Real Vehicle Return Codes Validation: strict handling of negative return codes (-1 = rejection) to prevent false-positive command execution.
-- Voice Feedback Synchronized with Reality: Vektra verifies actual hardware execution before speaking, providing honest feedback if the car is off or ADB disconnected.
-- Cabin Ambient LED Synchronization: new option in Assistant settings to pulse door and dashboard ambient lighting with Vektra's voice, automatically restoring original settings when idle.
-- Instant Web Search Without Cutoff: removed the intermediate "Searching online..." voice prompt; Vektra now queries silently and answers directly in one seamless sentence.
+- Dynamic Linguistic Mirroring, Belgian French Variant, Multilingual Hardware Voice Confirmations & Website Voice Commands Section:
+- Dynamic Linguistic Mirroring: Vektra analyzes and matches the driver's language register in real time (casual, slang, relaxed humor, or formal/technical precision).
+- Regional French Variant (Belgium vs France): new option in voice settings to choose between Belgian French (septante, nonante, authentic Belgian phrasing) and standard metropolitan French.
+- 100% Multilingual Direct Voice Hardware Confirmations: full native translations for all direct vehicle commands (sunroof, windows, climate, seats, modes, mirrors) matching the active voice language (French, English, Italian, German, Portuguese, Turkish).
+- Voice Commands Section on Official Vektra Website: comprehensive categorized cards on the public page for openings, thermal controls, driving modes, and AI.
+- Complete Voice Reference Update: updated VEKTRA_ASSISTANT_COMMANDES.txt with all vehicle commands, 6 visual themes, ambient LED sync, and direct DuckDuckGo search.
 
 ---
 

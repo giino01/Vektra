@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.12** · publiée le 1 novembre 2026 · 46.1 Mo
+**VERSION 2.1.13** · publiée le 1 novembre 2026 · 46.1 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.12.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.13.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,14 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.12
+## Nouveautés de la 2.1.13
 
-- Contrôle matériel BYD fiabilisé (Style Overdrive), synchronisation réelle des actions, LED d'ambiance & recherche Web directe :
-- Autorisations constructeur débloquées via ADB (pm grant) : attribution automatique de toutes les permissions carrosserie (BYDAUTO_BODYWORK_SET, AC_SET, LIGHT_SET, SETTING_SET, DOOR_LOCK_SET, etc.) via les privilèges de l'utilisateur shell (uid 2000), calqué sur le procédé d'Overdrive.
-- Détection des vrais codes retour du calculateur : filtrage strict des codes négatifs (-1 = refus / échec carrosserie) pour ne plus jamais déclarer réussie une action rejetée en silence par la voiture.
-- Synchronisation véridique de la voix de Vektra : l'assistant ne dit plus « C'est fait » à l'aveugle. En cas de refus physique (contact non mis en mode READY ou ADB inactif), Vektra avertit honnêtement le conducteur.
-- Synchronisation des LED d'ambiance de l'habitacle : nouvelle option dans l'onglet Assistant sous l'effet visuel pour faire pulser les rubans LED des portières et de la planche de bord en rythme avec la voix de Vektra, avec rétablissement automatique des réglages d'ambiance d'origine au repos.
-- Recherche Web instantanée et directe sans interruption : suppression de la phrase intermédiaire « Je recherche les informations en ligne... ». Vektra cherche en silence et répond directement en un seul bloc fluide (« Oui Gino, ... »), sans coupure ni besoin de le rappeler.
+- Miroir linguistique dynamique, variante francophone belge, confirmations multilingues & commandes vocales sur le site Web :
+- Miroir linguistique dynamique (Dynamic Mirroring) : Vektra analyse et calque intelligemment le registre de langue du conducteur en temps réel (détendu, familier, argotique ou sérieux/technique) avec le même niveau d'énergie, de complicité et de proximité.
+- Variante francophone (Belgique vs France) : nouveau sélecteur dédié dans les réglages vocaux permettant de basculer entre le français de Belgique (usage naturel des nombres « septante » et « nonante », tournures et expressions belges authentiques) et le français métropolitain standard.
+- Confirmations matérielles 100 % multilingues : traduction native intégrale de toutes les confirmations matérielles directes (toit ouvrant, vitres, stores, clim, sièges, modes, coffre, rétroviseurs) dans la langue du pack vocal vBot (Français, Anglais, Italien, Allemand, Portugais, Turc), éliminant définitivement la lecture de texte français avec un accent étranger.
+- Onglet Commandes Vocales sur le site Web officiel Vektra : nouvelle section interactive avec cartes thématiques catégorisées (Ouvrants, Climatisation, Conduite BYD, IA & Recherche Web).
+- Mise à jour complète du guide de commandes : actualisation exhaustive de VEKTRA_ASSISTANT_COMMANDES.txt avec les 6 thèmes visuels, la synchronisation LED ambiance et la recherche Web en direct.
 
 ---
 
