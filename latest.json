@@ -1,42 +1,84 @@
 {
-  "version": "2.1.10",
-  "apk": "Vektra-2.1.10.apk",
-  "size": 48318716,
+  "version": "2.1.11",
+  "apk": "Vektra-2.1.11.apk",
+  "size": 48332008,
   "notes": [
-    "Hologramme J.A.R.V.I.S. central translucide (Thème 2) & sélecteur de style visuel :",
-    "Hologramme réacteur J.A.R.V.I.S. (Thème 2) : nouvel affichage futuriste en filigrane translucide au centre de l'écran avec anneaux segmentés en contre-rotation, réticules technologiques HUD et cœur Arc Reactor réactif à la voix.",
-    "Bascule en un clic (Thème 1 / Thème 2) : sous-ligne ajoutée sous l'effet de communication dans l'onglet Assistant permettant de basculer d'un simple toucher entre la Vague (Thème 1) et l'Hologramme J.A.R.V.I.S. (Thème 2)."
+    "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
+    "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
+    "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
+    "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
+    "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
+    "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
+    "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
+    "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
+    "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
   ],
   "notesByLang": {
     "fr": [
-      "Hologramme J.A.R.V.I.S. central translucide (Thème 2) & sélecteur de style visuel :",
-      "Hologramme réacteur J.A.R.V.I.S. (Thème 2) : nouvel affichage futuriste en filigrane translucide au centre de l'écran avec anneaux segmentés en contre-rotation, réticules technologiques HUD et cœur Arc Reactor réactif à la voix.",
-      "Bascule en un clic (Thème 1 / Thème 2) : sous-ligne ajoutée sous l'effet de communication dans l'onglet Assistant permettant de basculer d'un simple toucher entre la Vague (Thème 1) et l'Hologramme J.A.R.V.I.S. (Thème 2)."
+      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
+      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
+      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
+      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
+      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
+      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
+      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
+      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
+      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
     ],
     "en": [
-      "Central Translucent J.A.R.V.I.S. Hologram (Theme 2) & Visual Style Selector:",
-      "J.A.R.V.I.S. Reactor Hologram (Theme 2): new futuristic translucent watermark display at screen center with counter-rotating segmented rings, HUD reticles, and voice-reactive Arc Reactor core.",
-      "One-Click Toggle (Theme 1 / Theme 2): sub-row under the communication effect in Assistant tab to switch between Rainbow Wave (Theme 1) and J.A.R.V.I.S. Hologram (Theme 2) with a single tap."
+      "6 Complete Voice-Reactive Visual Communication Themes & Automatic Idle Dismissal:",
+      "Theme 1 (Rainbow Wave): fluid multi-colored spectral wave at screen bottom with gradient fill responding to voice loudness.",
+      "Theme 2 (J.A.R.V.I.S. Hologram): central translucent Arc Reactor watermark with counter-rotating segmented rings, HUD reticles, and pulsing core.",
+      "Theme 3 (3D Synaptic Sphere): 3D rotating holographic sphere of 38 neural nodes connected by synaptic energy sparks pulsing with speech.",
+      "Theme 4 (Quantum Scanner K.I.T.T.): horizontal cybernetic laser scan with incandescent beam head and dynamic frequency bars.",
+      "Theme 5 (Titanium Prism Line): ultra-clean luxury studio Hi-Fi acoustic signature with floating diamond micro-particles.",
+      "Theme 6 (Ambient Edge Glow): diffuse ambient aura surrounding screen edges (luxury automotive cockpit style), keeping center 100% clear.",
+      "Voice Dynamics & Automatic Dismissal: all themes scale their animation to voice volume and vanish completely (0% CPU, fully hidden) when Vektra is idle.",
+      "One-Tap Selector in Assistant Tab: cycle seamlessly through Theme 1 to Theme 6 with an instant 2.8s live preview."
     ],
     "it": [
-      "Hologramme J.A.R.V.I.S. central translucide (Thème 2) & sélecteur de style visuel :",
-      "Hologramme réacteur J.A.R.V.I.S. (Thème 2) : nouvel affichage futuriste en filigrane translucide au centre de l'écran avec anneaux segmentés en contre-rotation, réticules technologiques HUD et cœur Arc Reactor réactif à la voix.",
-      "Bascule en un clic (Thème 1 / Thème 2) : sous-ligne ajoutée sous l'effet de communication dans l'onglet Assistant permettant de basculer d'un simple toucher entre la Vague (Thème 1) et l'Hologramme J.A.R.V.I.S. (Thème 2)."
+      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
+      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
+      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
+      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
+      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
+      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
+      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
+      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
+      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
     ],
     "de": [
-      "Hologramme J.A.R.V.I.S. central translucide (Thème 2) & sélecteur de style visuel :",
-      "Hologramme réacteur J.A.R.V.I.S. (Thème 2) : nouvel affichage futuriste en filigrane translucide au centre de l'écran avec anneaux segmentés en contre-rotation, réticules technologiques HUD et cœur Arc Reactor réactif à la voix.",
-      "Bascule en un clic (Thème 1 / Thème 2) : sous-ligne ajoutée sous l'effet de communication dans l'onglet Assistant permettant de basculer d'un simple toucher entre la Vague (Thème 1) et l'Hologramme J.A.R.V.I.S. (Thème 2)."
+      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
+      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
+      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
+      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
+      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
+      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
+      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
+      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
+      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
     ],
     "pt": [
-      "Hologramme J.A.R.V.I.S. central translucide (Thème 2) & sélecteur de style visuel :",
-      "Hologramme réacteur J.A.R.V.I.S. (Thème 2) : nouvel affichage futuriste en filigrane translucide au centre de l'écran avec anneaux segmentés en contre-rotation, réticules technologiques HUD et cœur Arc Reactor réactif à la voix.",
-      "Bascule en un clic (Thème 1 / Thème 2) : sous-ligne ajoutée sous l'effet de communication dans l'onglet Assistant permettant de basculer d'un simple toucher entre la Vague (Thème 1) et l'Hologramme J.A.R.V.I.S. (Thème 2)."
+      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
+      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
+      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
+      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
+      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
+      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
+      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
+      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
+      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
     ],
     "tr": [
-      "Hologramme J.A.R.V.I.S. central translucide (Thème 2) & sélecteur de style visuel :",
-      "Hologramme réacteur J.A.R.V.I.S. (Thème 2) : nouvel affichage futuriste en filigrane translucide au centre de l'écran avec anneaux segmentés en contre-rotation, réticules technologiques HUD et cœur Arc Reactor réactif à la voix.",
-      "Bascule en un clic (Thème 1 / Thème 2) : sous-ligne ajoutée sous l'effet de communication dans l'onglet Assistant permettant de basculer d'un simple toucher entre la Vague (Thème 1) et l'Hologramme J.A.R.V.I.S. (Thème 2)."
+      "6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :",
+      "Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.",
+      "Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.",
+      "Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.",
+      "Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.",
+      "Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.",
+      "Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.",
+      "Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).",
+      "Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s."
     ]
   }
 }

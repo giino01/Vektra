@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.10** · released on 1 November 2026 · 46.1 MB
+**VERSION 2.1.11** · released on 1 November 2026 · 46.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.10.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.11.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,17 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.10
+## What is new in 2.1.11
 
-- Central Translucent J.A.R.V.I.S. Hologram (Theme 2) & Visual Style Selector:
-- J.A.R.V.I.S. Reactor Hologram (Theme 2): new futuristic translucent watermark display at screen center with counter-rotating segmented rings, HUD reticles, and voice-reactive Arc Reactor core.
-- One-Click Toggle (Theme 1 / Theme 2): sub-row under the communication effect in Assistant tab to switch between Rainbow Wave (Theme 1) and J.A.R.V.I.S. Hologram (Theme 2) with a single tap.
+- 6 Complete Voice-Reactive Visual Communication Themes & Automatic Idle Dismissal:
+- Theme 1 (Rainbow Wave): fluid multi-colored spectral wave at screen bottom with gradient fill responding to voice loudness.
+- Theme 2 (J.A.R.V.I.S. Hologram): central translucent Arc Reactor watermark with counter-rotating segmented rings, HUD reticles, and pulsing core.
+- Theme 3 (3D Synaptic Sphere): 3D rotating holographic sphere of 38 neural nodes connected by synaptic energy sparks pulsing with speech.
+- Theme 4 (Quantum Scanner K.I.T.T.): horizontal cybernetic laser scan with incandescent beam head and dynamic frequency bars.
+- Theme 5 (Titanium Prism Line): ultra-clean luxury studio Hi-Fi acoustic signature with floating diamond micro-particles.
+- Theme 6 (Ambient Edge Glow): diffuse ambient aura surrounding screen edges (luxury automotive cockpit style), keeping center 100% clear.
+- Voice Dynamics & Automatic Dismissal: all themes scale their animation to voice volume and vanish completely (0% CPU, fully hidden) when Vektra is idle.
+- One-Tap Selector in Assistant Tab: cycle seamlessly through Theme 1 to Theme 6 with an instant 2.8s live preview.
 
 ---
 

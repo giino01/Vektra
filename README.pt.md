@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.1.10** · publicada a 1 de novembro de 2026 · 46.1 MB
+**VERSÃO 2.1.11** · publicada a 1 de novembro de 2026 · 46.1 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.10.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.1.11.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,17 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.1.10
+## Novidades da 2.1.11
 
-- Hologramme J.A.R.V.I.S. central translucide (Thème 2) & sélecteur de style visuel :
-- Hologramme réacteur J.A.R.V.I.S. (Thème 2) : nouvel affichage futuriste en filigrane translucide au centre de l'écran avec anneaux segmentés en contre-rotation, réticules technologiques HUD et cœur Arc Reactor réactif à la voix.
-- Bascule en un clic (Thème 1 / Thème 2) : sous-ligne ajoutée sous l'effet de communication dans l'onglet Assistant permettant de basculer d'un simple toucher entre la Vague (Thème 1) et l'Hologramme J.A.R.V.I.S. (Thème 2).
+- 6 thèmes visuels de communication complets réactifs à la voix & disparition automatique :
+- Thème 1 (Vague Arc-en-Ciel) : onde spectrale fluide multicolore en bas de l'écran avec remplissage dégradé réactif au timbre vocal.
+- Thème 2 (Hologramme J.A.R.V.I.S.) : réacteur Arc central en filigrane translucide avec anneaux segmentés en contre-rotation, mires HUD et cœur énergétique.
+- Thème 3 (Sphère Synaptique 3D) : sphère holographique en rotation 3D de 38 nœuds neurones reliés par des arcs d'énergie synaptiques qui pulsent avec la voix.
+- Thème 4 (Quantum Scanner K.I.T.T.) : balayage laser cybernétique horizontal avec tête de faisceau incandescente et égaliseur quantique réactif.
+- Thème 5 (Ligne Titane Prismatique) : signature acoustique ultra-épurée style studio Hi-Fi luxe, micro-particules diamantées flottantes.
+- Thème 6 (Halo d'Ambiance Contour) : éclairage d'ambiance diffus sur tout le pourtour de l'écran (style MBUX / cockpit de luxe), laissant le centre 100 % libre.
+- Dynamique vocale & disparition totale au repos : chaque thème module son intensité et son amplitude au son de la parole ; dès que l'assistance se termine ou que Vektra est au repos, l'overlay s'efface complètement (0 % CPU, transparence totale).
+- Sélecteur direct dans l'onglet Assistant : bascule cyclique de Thème 1 à Thème 6 d'un simple toucher avec aperçu animé immédiat de 2,8 s.
 
 ---
 
