@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.9** · released on 1 November 2026 · 46.1 MB
+**VERSION 2.1.10** · released on 1 November 2026 · 46.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.10.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,15 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.9
+## What is new in 2.1.10
 
-- Rainbow Voice Wave Overlay, Built-in Free Web Search, Long-Term Memory & Grok-Style Uncensored Companion:
-- Visual Communication Effect (Rainbow Wave): animated fluid gradient wave at screen bottom reacting to voice and replies, with toggle in Assistant settings.
-- Built-in Generic & Free Web Search: integrated DuckDuckGo/Wikipedia engine without requiring any API key from members.
-- Extended Speech & Silence Listening: silence timeout increased to 1.8s and maximum recording length extended to 20s for uninterrupted long phrases.
-- Uncensored Freedom & Intimacy (Grok style): unmoderated, affectionate companion capable of open, intimate, and adult conversations without refusal.
-- Long-Term Memory: persistent local storage of user facts, preferences, and conversations.
-- UI Renaming: "Assistant virtuel" and "Assistance visuelle" in Vektra Assistant IA tab.
+- Central Translucent J.A.R.V.I.S. Hologram (Theme 2) & Visual Style Selector:
+- J.A.R.V.I.S. Reactor Hologram (Theme 2): new futuristic translucent watermark display at screen center with counter-rotating segmented rings, HUD reticles, and voice-reactive Arc Reactor core.
+- One-Click Toggle (Theme 1 / Theme 2): sub-row under the communication effect in Assistant tab to switch between Rainbow Wave (Theme 1) and J.A.R.V.I.S. Hologram (Theme 2) with a single tap.
 
 ---
 
