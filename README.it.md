@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.2.0** · pubblicata il 2 novembre 2026 · 46.3 MB
+**VERSIONE 2.2.1** · pubblicata il 2 novembre 2026 · 46.3 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.2.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.2.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.2.0
+## Novità della 2.2.1
 
-- 10 langues complètes dans toute l'application : l'ensemble des écrans, boutons, réglages et compteurs de bord sont désormais disponibles en 10 langues avec l'arrivée du Néerlandais, de l'Espagnol, de l'Arabe et du Chinois.
-- Catalogue de 8 voix avec prénoms par langue : personnalisez la voix de vBot en choisissant parmi 4 voix féminines et 4 voix masculines ultra-naturelles (qualité Microsoft Neural), chacune identifiée par un vrai prénom (Henri, Denise, Éloïse, Alain, etc.).
-- Écoute immédiate des voix : testez directement chaque voix d'un simple toucher avant de faire votre choix grâce au bouton de pré-écoute intégré.
-- Améliorations d'affichage : prise en charge fluide de la lecture de droite à gauche pour l'Arabe et typographie soignée pour les caractères chinois sur les écrans du véhicule.
-- Correctifs de confort : mémorisation instantanée du choix de timbre vocal et meilleure réactivité générale de l'assistant de bord.
+- Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.
+- Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.
+- Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.
+- Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.
+- Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.
+- Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies.
 
 ---
 

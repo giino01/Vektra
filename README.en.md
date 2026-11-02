@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.0** · released on 2 November 2026 · 46.3 MB
+**VERSION 2.2.1** · released on 2 November 2026 · 46.3 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.0
+## What is new in 2.2.1
 
-- 10 Full Display Languages Across the Entire App: all dashboard screens, buttons, menus, and gauge clusters are now natively available in 10 languages with the arrival of Dutch, Spanish, Arabic, and Chinese.
-- Catalog of 8 Personas with Real Names Per Language: customize vBot's voice by choosing among 4 female and 4 male ultra-realistic voices (Microsoft Neural quality), each with a unique personality and name (Henri, Denise, Eloise, Christopher, Aria, etc.).
-- Instant Voice Preview: tap any voice to listen to an immediate sample before selecting your favorite onboard voice.
-- Display Enhancements: optimized right-to-left layout support for Arabic and crisp typography for Chinese characters on automotive displays.
-- Stability & Comfort Fixes: instantaneous saving of your preferred voice persona and improved assistant responsiveness.
+- New vBot Proactive Copilot: vBot evolves into a smart, benevolent driving copilot that speaks up proactively with helpful driving insights, keeping your eyes safely on the road.
+- Voice Parking Guidance (100% Voice Radars): calm and accurate voice announcement of obstacle distances in centimeters during maneuvers and reverse (80 cm, 60 cm, 40 cm, 30 cm and Stop!), without any visual overlay to keep your vehicle's 360° camera view 100% unobstructed.
+- Preventive Battery Monitoring: friendly voice warnings when battery level drops below 20% and 10%, along with cold-weather charging tips.
+- Tire & Road Safety Alerts: automatic black ice warning when outside temperature drops below 3°C, plus early detection of abnormal tire pressure drops.
+- Driver Fatigue Rest Alert: warm break suggestion after 2 hours of continuous driving.
+- Customizable Skills in AI Assistant Tab: toggle the Copilot on/off and configure each individual skill to suit your driving style.
 
 ---
 
