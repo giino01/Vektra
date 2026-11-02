@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.1.13** · released on 1 November 2026 · 46.1 MB
+**VERSION 2.2.0** · released on 2 November 2026 · 46.3 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.1.13.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.1.13
+## What is new in 2.2.0
 
-- Dynamic Linguistic Mirroring, Belgian French Variant, Multilingual Hardware Voice Confirmations & Website Voice Commands Section:
-- Dynamic Linguistic Mirroring: Vektra analyzes and matches the driver's language register in real time (casual, slang, relaxed humor, or formal/technical precision).
-- Regional French Variant (Belgium vs France): new option in voice settings to choose between Belgian French (septante, nonante, authentic Belgian phrasing) and standard metropolitan French.
-- 100% Multilingual Direct Voice Hardware Confirmations: full native translations for all direct vehicle commands (sunroof, windows, climate, seats, modes, mirrors) matching the active voice language (French, English, Italian, German, Portuguese, Turkish).
-- Voice Commands Section on Official Vektra Website: comprehensive categorized cards on the public page for openings, thermal controls, driving modes, and AI.
-- Complete Voice Reference Update: updated VEKTRA_ASSISTANT_COMMANDES.txt with all vehicle commands, 6 visual themes, ambient LED sync, and direct DuckDuckGo search.
+- 10 Full Display Languages Across the Entire App: all dashboard screens, buttons, menus, and gauge clusters are now natively available in 10 languages with the arrival of Dutch, Spanish, Arabic, and Chinese.
+- Catalog of 8 Personas with Real Names Per Language: customize vBot's voice by choosing among 4 female and 4 male ultra-realistic voices (Microsoft Neural quality), each with a unique personality and name (Henri, Denise, Eloise, Christopher, Aria, etc.).
+- Instant Voice Preview: tap any voice to listen to an immediate sample before selecting your favorite onboard voice.
+- Display Enhancements: optimized right-to-left layout support for Arabic and crisp typography for Chinese characters on automotive displays.
+- Stability & Comfort Fixes: instantaneous saving of your preferred voice persona and improved assistant responsiveness.
 
 ---
 

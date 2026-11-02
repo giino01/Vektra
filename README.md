@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.1.13** · publiée le 1 novembre 2026 · 46.1 Mo
+**VERSION 2.2.0** · publiée le 2 novembre 2026 · 46.3 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.1.13.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.2.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.1.13
+## Nouveautés de la 2.2.0
 
-- Miroir linguistique dynamique, variante francophone belge, confirmations multilingues & commandes vocales sur le site Web :
-- Miroir linguistique dynamique (Dynamic Mirroring) : Vektra analyse et calque intelligemment le registre de langue du conducteur en temps réel (détendu, familier, argotique ou sérieux/technique) avec le même niveau d'énergie, de complicité et de proximité.
-- Variante francophone (Belgique vs France) : nouveau sélecteur dédié dans les réglages vocaux permettant de basculer entre le français de Belgique (usage naturel des nombres « septante » et « nonante », tournures et expressions belges authentiques) et le français métropolitain standard.
-- Confirmations matérielles 100 % multilingues : traduction native intégrale de toutes les confirmations matérielles directes (toit ouvrant, vitres, stores, clim, sièges, modes, coffre, rétroviseurs) dans la langue du pack vocal vBot (Français, Anglais, Italien, Allemand, Portugais, Turc), éliminant définitivement la lecture de texte français avec un accent étranger.
-- Onglet Commandes Vocales sur le site Web officiel Vektra : nouvelle section interactive avec cartes thématiques catégorisées (Ouvrants, Climatisation, Conduite BYD, IA & Recherche Web).
-- Mise à jour complète du guide de commandes : actualisation exhaustive de VEKTRA_ASSISTANT_COMMANDES.txt avec les 6 thèmes visuels, la synchronisation LED ambiance et la recherche Web en direct.
+- 10 langues complètes dans toute l'application : l'ensemble des écrans, boutons, réglages et compteurs de bord sont désormais disponibles en 10 langues avec l'arrivée du Néerlandais, de l'Espagnol, de l'Arabe et du Chinois.
+- Catalogue de 8 voix avec prénoms par langue : personnalisez la voix de vBot en choisissant parmi 4 voix féminines et 4 voix masculines ultra-naturelles (qualité Microsoft Neural), chacune identifiée par un vrai prénom (Henri, Denise, Éloïse, Alain, etc.).
+- Écoute immédiate des voix : testez directement chaque voix d'un simple toucher avant de faire votre choix grâce au bouton de pré-écoute intégré.
+- Améliorations d'affichage : prise en charge fluide de la lecture de droite à gauche pour l'Arabe et typographie soignée pour les caractères chinois sur les écrans du véhicule.
+- Correctifs de confort : mémorisation instantanée du choix de timbre vocal et meilleure réactivité générale de l'assistant de bord.
 
 ---
 
