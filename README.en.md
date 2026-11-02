@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.2** · released on 2 November 2026 · 46.4 MB
+**VERSION 2.2.3** · released on 2 November 2026 · 46.3 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,16 +103,10 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.2
+## What is new in 2.2.3
 
-- The assistant is now called “Assistant”: the name “vBot” is gone throughout the app in favor of a clearer name.
-- Better understanding in noise: your voice is now separated from cabin noise (road, blower, music) so commands are understood the first time.
-- Door and trunk safety while driving: when the gear lever is in D, opening or locking the doors and opening the trunk are blocked. Shift to neutral or park to use them again.
-- The car only obeys your voice: an answer coming from a web search can never, on its own, act on the car.
-- Rain coming? The Assistant offers to close the windows: “Rain expected, shall I close the windows?” — just say “yes” and it closes the windows and roof.
-- Essential commands work without internet: A/C, windows, locking, “go to sleep”… respond even in a tunnel or a car park.
-- Deep sleep when the car is off: microphone and network are cut as soon as the car is off, to protect the 12 V battery and your privacy. An option lets you keep the Assistant awake while parked if you prefer.
-- Unified switches: every on/off setting now uses the same elegant “pill” switch across the whole app.
+- Faster Assistant, near-instant reply: the Assistant now realizes you've finished speaking much sooner and follows up with the answer or action almost immediately, for a natural, human-like exchange.
+- “Noise reduction” fix: the microphone noise-reduction option, which could make the app crash, has been removed. The Assistant listens reliably again.
 
 ---
 

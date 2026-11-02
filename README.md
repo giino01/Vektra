@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.2.2** · publiée le 2 novembre 2026 · 46.4 Mo
+**VERSION 2.2.3** · publiée le 2 novembre 2026 · 46.3 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.2.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.2.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,16 +103,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.2.2
+## Nouveautés de la 2.2.3
 
-- L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.
-- Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.
-- Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.
-- Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.
-- Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.
-- Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.
-- Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.
-- Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application.
+- Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.
+- Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable.
 
 ---
 
