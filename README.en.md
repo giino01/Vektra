@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.1** · released on 2 November 2026 · 46.3 MB
+**VERSION 2.2.2** · released on 2 November 2026 · 46.4 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,16 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.1
+## What is new in 2.2.2
 
-- New vBot Proactive Copilot: vBot evolves into a smart, benevolent driving copilot that speaks up proactively with helpful driving insights, keeping your eyes safely on the road.
-- Voice Parking Guidance (100% Voice Radars): calm and accurate voice announcement of obstacle distances in centimeters during maneuvers and reverse (80 cm, 60 cm, 40 cm, 30 cm and Stop!), without any visual overlay to keep your vehicle's 360° camera view 100% unobstructed.
-- Preventive Battery Monitoring: friendly voice warnings when battery level drops below 20% and 10%, along with cold-weather charging tips.
-- Tire & Road Safety Alerts: automatic black ice warning when outside temperature drops below 3°C, plus early detection of abnormal tire pressure drops.
-- Driver Fatigue Rest Alert: warm break suggestion after 2 hours of continuous driving.
-- Customizable Skills in AI Assistant Tab: toggle the Copilot on/off and configure each individual skill to suit your driving style.
+- The assistant is now called “Assistant”: the name “vBot” is gone throughout the app in favor of a clearer name.
+- Better understanding in noise: your voice is now separated from cabin noise (road, blower, music) so commands are understood the first time.
+- Door and trunk safety while driving: when the gear lever is in D, opening or locking the doors and opening the trunk are blocked. Shift to neutral or park to use them again.
+- The car only obeys your voice: an answer coming from a web search can never, on its own, act on the car.
+- Rain coming? The Assistant offers to close the windows: “Rain expected, shall I close the windows?” — just say “yes” and it closes the windows and roof.
+- Essential commands work without internet: A/C, windows, locking, “go to sleep”… respond even in a tunnel or a car park.
+- Deep sleep when the car is off: microphone and network are cut as soon as the car is off, to protect the 12 V battery and your privacy. An option lets you keep the Assistant awake while parked if you prefer.
+- Unified switches: every on/off setting now uses the same elegant “pill” switch across the whole app.
 
 ---
 

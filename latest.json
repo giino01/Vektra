@@ -1,95 +1,117 @@
 {
-  "version": "2.2.1",
-  "apk": "Vektra-2.2.1.apk",
-  "size": 48573240,
+  "version": "2.2.2",
+  "apk": "Vektra-2.2.2.apk",
+  "size": 48602956,
   "notes": [
-    "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-    "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-    "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-    "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-    "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-    "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+    "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+    "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+    "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+    "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+    "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+    "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+    "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+    "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
   ],
   "notesByLang": {
     "fr": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "en": [
-      "New vBot Proactive Copilot: vBot evolves into a smart, benevolent driving copilot that speaks up proactively with helpful driving insights, keeping your eyes safely on the road.",
-      "Voice Parking Guidance (100% Voice Radars): calm and accurate voice announcement of obstacle distances in centimeters during maneuvers and reverse (80 cm, 60 cm, 40 cm, 30 cm and Stop!), without any visual overlay to keep your vehicle's 360° camera view 100% unobstructed.",
-      "Preventive Battery Monitoring: friendly voice warnings when battery level drops below 20% and 10%, along with cold-weather charging tips.",
-      "Tire & Road Safety Alerts: automatic black ice warning when outside temperature drops below 3°C, plus early detection of abnormal tire pressure drops.",
-      "Driver Fatigue Rest Alert: warm break suggestion after 2 hours of continuous driving.",
-      "Customizable Skills in AI Assistant Tab: toggle the Copilot on/off and configure each individual skill to suit your driving style."
+      "The assistant is now called “Assistant”: the name “vBot” is gone throughout the app in favor of a clearer name.",
+      "Better understanding in noise: your voice is now separated from cabin noise (road, blower, music) so commands are understood the first time.",
+      "Door and trunk safety while driving: when the gear lever is in D, opening or locking the doors and opening the trunk are blocked. Shift to neutral or park to use them again.",
+      "The car only obeys your voice: an answer coming from a web search can never, on its own, act on the car.",
+      "Rain coming? The Assistant offers to close the windows: “Rain expected, shall I close the windows?” — just say “yes” and it closes the windows and roof.",
+      "Essential commands work without internet: A/C, windows, locking, “go to sleep”… respond even in a tunnel or a car park.",
+      "Deep sleep when the car is off: microphone and network are cut as soon as the car is off, to protect the 12 V battery and your privacy. An option lets you keep the Assistant awake while parked if you prefer.",
+      "Unified switches: every on/off setting now uses the same elegant “pill” switch across the whole app."
     ],
     "nl": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "de": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "es": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "it": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "pt": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "ar": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "tr": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ],
     "zh": [
-      "Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.",
-      "Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.",
-      "Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.",
-      "Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.",
-      "Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.",
-      "Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies."
+      "L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.",
+      "Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.",
+      "Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.",
+      "Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.",
+      "Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.",
+      "Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.",
+      "Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.",
+      "Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application."
     ]
   }
 }

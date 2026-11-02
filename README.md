@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.2.1** · publiée le 2 novembre 2026 · 46.3 Mo
+**VERSION 2.2.2** · publiée le 2 novembre 2026 · 46.4 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.2.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.2.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,16 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.2.1
+## Nouveautés de la 2.2.2
 
-- Nouveau Copilote Proactif vBot : vBot devient un véritable copilote de bord intelligent qui prend la parole avec bienveillance et pertinence sans que vous n'ayez besoin de lui demander, tout en gardant les yeux sur la route.
-- Guidage vocal de stationnement (Radars 100 % vocal) : annonce vocale dynamique et apaisante des distances en centimètres lors des manœuvres et de la marche arrière (80 cm, 60 cm, 40 cm, 30 cm et Stop !), sans aucun bandeau ni pollution visuelle pour laisser la caméra 360° d'origine totalement dégagée.
-- Surveillance préventive de la batterie : alertes douces sous le seuil de 20 % et 10 % avec conseils d'anticipation pour la recharge rapide en hiver par grand froid.
-- Surveillance de la route et des pneus : alerte automatique en cas de risque de verglas dès que la température chute sous 3°C, et détection précoce d'une perte anormale de pression des pneus.
-- Alerte pause anti-fatigue : suggestion chaleureuse de faire une pause détente après 2 heures de conduite ininterrompue.
-- Réglages sur-mesure dans l'onglet Assistant IA : activez ou désactivez le Copilote ou chacune de ses compétences selon vos envies.
+- L'assistant s'appelle désormais « Assistant » : le nom « vBot » disparaît partout dans l'application au profit d'un nom plus clair.
+- Il vous comprend mieux dans le bruit : votre voix est désormais isolée des bruits de l'habitacle (route, soufflerie, musique) pour des commandes comprises du premier coup.
+- Sécurité portes et coffre en roulant : quand le levier est sur D, l'ouverture ou le verrouillage des portes et l'ouverture du coffre sont bloqués. Repassez au point mort ou en P pour les réutiliser.
+- Les commandes de la voiture n'obéissent qu'à votre voix : une réponse issue d'une recherche sur internet ne peut jamais, à elle seule, agir sur la voiture.
+- Pluie en approche ? L'Assistant propose de fermer les vitres : « Pluie prévue, je ferme les vitres ? » — répondez simplement « oui » et il ferme vitres et toit.
+- Les commandes essentielles fonctionnent sans internet : clim, vitres, verrouillage, « mets-toi en veille »… répondent même en tunnel ou au parking.
+- Veille profonde quand la voiture dort : micro et connexion coupés dès que la voiture est éteinte, pour préserver la batterie 12 V et votre tranquillité. Une option permet de garder l'Assistant éveillé au parking si vous le souhaitez.
+- Des interrupteurs unifiés : tous les réglages oui/non adoptent le même bel interrupteur « pilule » dans toute l'application.
 
 ---
 
