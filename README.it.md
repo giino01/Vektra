@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.2.4** · pubblicata il 2 novembre 2026 · 46.4 MB
+**VERSIONE 2.2.5** · pubblicata il 2 novembre 2026 · 46.4 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.2.4.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.2.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.2.4
+## Novità della 2.2.5
 
-- L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.
-- Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).
-- Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).
-- Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).
-- Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture).
+- Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).
+- Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.
+- Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).
+- Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.
+- Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.
+- Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran.
 
 ---
 

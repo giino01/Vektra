@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.4** · released on 2 November 2026 · 46.4 MB
+**VERSION 2.2.5** · released on 2 November 2026 · 46.4 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,14 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.4
+## What is new in 2.2.5
 
-- The Assistant now voice-controls many more features: trunk, door locking, sunroof, sunshade, mirrors, daytime running lights, cabin reading light, child lock, wireless charger, ambient lighting… on top of what already existed.
-- Trunk and doors fixed: opening the trunk and locking/unlocking the doors finally work (they were using the wrong internal command).
-- Each window individually or all at once: "open the driver window", "close the rear-right window", "open all windows"… and you can also ask for a percentage ("open my window halfway", "sunroof to 30%").
-- Percentage for windows, sunroof and sunshade; the trunk stays open / close / stop (the vehicle has no percentage positioning for the tailgate).
-- Ambient lighting alive again: it turns on, changes, and reacts to your voice (in steps, within what the car allows).
+- Ajout : a single tap on the screen while Vektra is listening or speaking stops everything at once (cancel a wrong trigger, make it quiet, or unstick it).
+- Ajout : simpler rain alert — Vektra just reminds you to close the windows, without asking anything or staying on screen.
+- Correctif : Vektra no longer cuts you off — it waits until you finish your sentence (no more "open the window…" opening all of them).
+- Correctif : "close the window" no longer triggers standby by mistake. Standby now only answers "Vektra, go to sleep" and "Vektra, wake up", in every language.
+- Correctif : faster dialogue in the car — shorter, natural replies and a pre-warmed connection.
+- Correctif : the copilot visual no longer stays stuck in the middle of the screen.
 
 ---
 
