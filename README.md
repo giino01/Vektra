@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.2.3** · publiée le 2 novembre 2026 · 46.3 Mo
+**VERSION 2.2.4** · publiée le 2 novembre 2026 · 46.4 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.2.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.2.4.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.2.3
+## Nouveautés de la 2.2.4
 
-- Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.
-- Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable.
+- L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.
+- Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).
+- Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).
+- Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).
+- Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture).
 
 ---
 

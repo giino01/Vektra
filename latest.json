@@ -1,51 +1,84 @@
 {
-  "version": "2.2.3",
-  "apk": "Vektra-2.2.3.apk",
-  "size": 48599172,
+  "version": "2.2.4",
+  "apk": "Vektra-2.2.4.apk",
+  "size": 48608076,
   "notes": [
-    "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-    "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+    "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+    "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+    "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+    "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+    "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
   ],
   "notesByLang": {
     "fr": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "en": [
-      "Faster Assistant, near-instant reply: the Assistant now realizes you've finished speaking much sooner and follows up with the answer or action almost immediately, for a natural, human-like exchange.",
-      "“Noise reduction” fix: the microphone noise-reduction option, which could make the app crash, has been removed. The Assistant listens reliably again."
+      "The Assistant now voice-controls many more features: trunk, door locking, sunroof, sunshade, mirrors, daytime running lights, cabin reading light, child lock, wireless charger, ambient lighting… on top of what already existed.",
+      "Trunk and doors fixed: opening the trunk and locking/unlocking the doors finally work (they were using the wrong internal command).",
+      "Each window individually or all at once: \"open the driver window\", \"close the rear-right window\", \"open all windows\"… and you can also ask for a percentage (\"open my window halfway\", \"sunroof to 30%\").",
+      "Percentage for windows, sunroof and sunshade; the trunk stays open / close / stop (the vehicle has no percentage positioning for the tailgate).",
+      "Ambient lighting alive again: it turns on, changes, and reacts to your voice (in steps, within what the car allows)."
     ],
     "nl": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "de": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "es": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "it": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "pt": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "ar": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "tr": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ],
     "zh": [
-      "Assistant plus rapide, réponse quasi instantanée : l'Assistant comprend que vous avez fini de parler bien plus vite et enchaîne la réponse ou l'action presque sans attente, pour un échange naturel comme avec un humain.",
-      "Correctif « Réduction de bruit » : l'option de réduction de bruit du micro, qui pouvait faire planter l'application, a été retirée. L'Assistant écoute de nouveau de façon stable."
+      "L'Assistant commande désormais bien plus d'équipements à la voix : coffre, verrouillage des portes, toit ouvrant, store, rétroviseurs, feux de jour, plafonnier, sécurité enfant, chargeur sans fil, éclairage d'ambiance… en plus de ce qui existait déjà.",
+      "Coffre et portes réparés : l'ouverture du coffre et le verrouillage/déverrouillage des portes fonctionnent enfin (ils utilisaient la mauvaise commande interne).",
+      "Chaque vitre séparément ou toutes d'un coup : « ouvre la vitre conducteur », « ferme la vitre arrière droite », « ouvre toutes les vitres »… et tu peux aussi demander un pourcentage (« ouvre ma vitre à moitié », « toit ouvrant à 30 % »).",
+      "Pourcentage pour les vitres, le toit et le store ; le coffre reste en ouvrir / fermer / stop (le véhicule ne permet pas de pourcentage pour le hayon).",
+      "Éclairage d'ambiance de nouveau vivant : l'ambiance s'allume, change et réagit à la voix (par paliers, selon ce que permet la voiture)."
     ]
   }
 }

@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.3** · released on 2 November 2026 · 46.3 MB
+**VERSION 2.2.4** · released on 2 November 2026 · 46.4 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.3
+## What is new in 2.2.4
 
-- Faster Assistant, near-instant reply: the Assistant now realizes you've finished speaking much sooner and follows up with the answer or action almost immediately, for a natural, human-like exchange.
-- “Noise reduction” fix: the microphone noise-reduction option, which could make the app crash, has been removed. The Assistant listens reliably again.
+- The Assistant now voice-controls many more features: trunk, door locking, sunroof, sunshade, mirrors, daytime running lights, cabin reading light, child lock, wireless charger, ambient lighting… on top of what already existed.
+- Trunk and doors fixed: opening the trunk and locking/unlocking the doors finally work (they were using the wrong internal command).
+- Each window individually or all at once: "open the driver window", "close the rear-right window", "open all windows"… and you can also ask for a percentage ("open my window halfway", "sunroof to 30%").
+- Percentage for windows, sunroof and sunshade; the trunk stays open / close / stop (the vehicle has no percentage positioning for the tailgate).
+- Ambient lighting alive again: it turns on, changes, and reacts to your voice (in steps, within what the car allows).
 
 ---
 
