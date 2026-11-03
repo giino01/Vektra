@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.2.7** · veröffentlicht am 3. November 2026 · 46.4 MB
+**VERSION 2.2.8** · veröffentlicht am 3. November 2026 · 46.4 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.2.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.2.8.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.2.7
+## Neu in 2.2.8
 
-- Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.
-- Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.
-- Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.
-- Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.
-- Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page.
+- Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.
+- Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.
+- Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil.
 
 ---
 

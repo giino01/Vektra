@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.2.7** · yayın tarihi 3 Kasım 2026 · 46.4 MB
+**SÜRÜM 2.2.8** · yayın tarihi 3 Kasım 2026 · 46.4 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.2.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.2.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.2.7
+## Yenilikler: 2.2.8
 
-- Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.
-- Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.
-- Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.
-- Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.
-- Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page.
+- Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.
+- Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.
+- Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil.
 
 ---
 

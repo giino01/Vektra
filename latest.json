@@ -1,84 +1,62 @@
 {
-  "version": "2.2.7",
-  "apk": "Vektra-2.2.7.apk",
-  "size": 48637776,
+  "version": "2.2.8",
+  "apk": "Vektra-2.2.8.apk",
+  "size": 48646284,
   "notes": [
-    "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-    "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-    "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-    "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-    "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+    "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+    "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+    "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "en": [
-      "Ajout : pick your favorite navigation app and favorite music app in the Assistant tab, from the list of all apps installed in the car.",
-      "Ajout : \"Vektra, take me to this address\" sends the destination to your navigation app and starts guidance.",
-      "Ajout : \"Vektra, play this music\" starts playback in your music app.",
-      "Ajout : a button to immediately test that the chosen app responds.",
-      "Correctif : the explanation card at the bottom of the Assistant tab was removed to lighten the page."
+      "Correctif : on some vehicles the projection appeared in a small window in the middle of the cluster, with the original display still visible around it. It now fills the whole screen.",
+      "Correctif : better detection of the cluster display on tablets that expose several of them.",
+      "Ajout : the check report now shows the detected cluster type and the window size obtained, so a reduced display can be diagnosed at a glance."
     ],
     "nl": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "de": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "es": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "it": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "pt": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "ar": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "tr": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ],
     "zh": [
-      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
-      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
-      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
-      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
-      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
+      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
+      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
+      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
     ]
   }
 }
