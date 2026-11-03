@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.2.9** · pubblicata il 3 novembre 2026 · 46.5 MB
+**VERSIONE 2.3.0** · pubblicata il 3 novembre 2026 · 46.4 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.2.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.3.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,9 +103,30 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.2.9
+## Novità della 2.3.0
 
-- VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote
+- Ajout : plusieurs demandes dans une seule phrase — « ferme les vitres et mets la clim à 21 et allume mon siège ».
+- Ajout : se reprendre sans tout répéter — « ouvre l'arrière droite… non, l'arrière gauche ».
+- Ajout : actions différées — « dans 10 minutes, ferme les vitres ».
+- Ajout : rappels — « rappelle-moi de prendre le colis en arrivant ».
+- Ajout : règles dictées à la voix — « s'il pleut, ferme les vitres ».
+- Ajout : mémoire des habitudes, qui te rappelle ce que tu demandes souvent au même moment.
+- Ajout : recherche d'une borne de recharge à la voix, avec guidage lancé dans ton application de navigation.
+- Ajout : questions sur la voiture — un bouton, un témoin au tableau de bord, le réglage d'une fonction.
+- Ajout : mode explique-moi, qui déroule une manipulation une étape à la fois.
+- Ajout : traduction à la voix, prononcée dans la bonne langue.
+- Ajout : calculs, pourcentages et conversions traités sans réseau.
+- Ajout : réponses de recherche résumées en deux phrases.
+- Ajout : histoires pour les enfants et quiz en famille sur les longs trajets.
+- Ajout : coach d'éco-conduite à la demande, avec un seul conseil à la fois.
+- Ajout : caractère de l'assistant au choix — minimal, équilibré ou chaleureux.
+- Ajout : réponse dans la langue du passager qui parle, en option.
+- Ajout : alerte brouillard du copilote.
+- Ajout : rappel des feux quand la lumière baisse en roulant.
+- Ajout : annonce du passage hors-ligne et du retour du réseau.
+- Ajout : ligne « En attente » dans les réglages, pour voir et effacer ce qui est programmé.
+- Correctif : la voix sort désormais du haut-parleur de l'appui-tête conducteur pour tout le monde.
+- Correctif : réglages allégés — l'intro de projection, la cadence de lecture, la sortie audio et l'accès aux notifications ont quitté la page.
 
 ---
 
