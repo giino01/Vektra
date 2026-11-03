@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.2.5** · yayın tarihi 2 Kasım 2026 · 46.4 MB
+**SÜRÜM 2.2.6** · yayın tarihi 3 Kasım 2026 · 46.4 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.2.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.2.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,14 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.2.5
+## Yenilikler: 2.2.6
 
-- Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).
-- Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.
-- Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).
-- Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.
-- Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.
-- Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran.
+- Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).
+- Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question).
 
 ---
 

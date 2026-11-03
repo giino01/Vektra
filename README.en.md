@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.5** · released on 2 November 2026 · 46.4 MB
+**VERSION 2.2.6** · released on 3 November 2026 · 46.4 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,10 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.5
+## What is new in 2.2.6
 
-- Ajout : a single tap on the screen while Vektra is listening or speaking stops everything at once (cancel a wrong trigger, make it quiet, or unstick it).
-- Ajout : simpler rain alert — Vektra just reminds you to close the windows, without asking anything or staying on screen.
-- Correctif : Vektra no longer cuts you off — it waits until you finish your sentence (no more "open the window…" opening all of them).
-- Correctif : "close the window" no longer triggers standby by mistake. Standby now only answers "Vektra, go to sleep" and "Vektra, wake up", in every language.
-- Correctif : faster dialogue in the car — shorter, natural replies and a pre-warmed connection.
-- Correctif : the copilot visual no longer stays stuck in the middle of the screen.
+- Correctif : parking voice guidance finally works — Vektra now reads the reverse sensor distances correctly and announces the steps (80, 60, 40, 30 cm, Stop).
+- Correctif : the rain option label now matches what it actually does (just an alert, no question).
 
 ---
 

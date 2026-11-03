@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.2.5** · veröffentlicht am 2. November 2026 · 46.4 MB
+**VERSION 2.2.6** · veröffentlicht am 3. November 2026 · 46.4 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.2.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.2.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,14 +103,10 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.2.5
+## Neu in 2.2.6
 
-- Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).
-- Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.
-- Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).
-- Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.
-- Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.
-- Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran.
+- Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).
+- Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question).
 
 ---
 

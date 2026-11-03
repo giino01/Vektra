@@ -1,95 +1,51 @@
 {
-  "version": "2.2.5",
-  "apk": "Vektra-2.2.5.apk",
-  "size": 48612772,
+  "version": "2.2.6",
+  "apk": "Vektra-2.2.6.apk",
+  "size": 48612964,
   "notes": [
-    "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-    "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-    "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-    "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-    "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-    "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+    "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+    "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "en": [
-      "Ajout : a single tap on the screen while Vektra is listening or speaking stops everything at once (cancel a wrong trigger, make it quiet, or unstick it).",
-      "Ajout : simpler rain alert — Vektra just reminds you to close the windows, without asking anything or staying on screen.",
-      "Correctif : Vektra no longer cuts you off — it waits until you finish your sentence (no more \"open the window…\" opening all of them).",
-      "Correctif : \"close the window\" no longer triggers standby by mistake. Standby now only answers \"Vektra, go to sleep\" and \"Vektra, wake up\", in every language.",
-      "Correctif : faster dialogue in the car — shorter, natural replies and a pre-warmed connection.",
-      "Correctif : the copilot visual no longer stays stuck in the middle of the screen."
+      "Correctif : parking voice guidance finally works — Vektra now reads the reverse sensor distances correctly and announces the steps (80, 60, 40, 30 cm, Stop).",
+      "Correctif : the rain option label now matches what it actually does (just an alert, no question)."
     ],
     "nl": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "de": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "es": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "it": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "pt": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "ar": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "tr": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ],
     "zh": [
-      "Ajout : un simple clic à l'écran pendant que Vektra écoute ou parle arrête tout immédiatement (annuler un appel par erreur, la faire taire, ou la débloquer).",
-      "Ajout : alerte pluie plus simple — Vektra te prévient juste de penser à fermer les vitres, sans rien te demander ni rester affichée à l'écran.",
-      "Correctif : Vektra ne te coupe plus la parole — elle attend que tu finisses ta phrase (fini le « ouvre la vitre… » qui ouvrait toutes les vitres).",
-      "Correctif : « ferme la vitre / la fenêtre » ne déclenche plus la mise en veille par erreur. La veille ne répond plus qu'à « Vektra, mets-toi en veille » et « Vektra, réveille-toi », dans toutes les langues.",
-      "Correctif : dialogue plus rapide dans la voiture — réponses plus courtes et naturelles, et connexion préparée d'avance pour gagner du temps.",
-      "Correctif : le visuel du copilote ne reste plus bloqué au milieu de l'écran."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
+      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
     ]
   }
 }
