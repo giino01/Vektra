@@ -1,0 +1,369 @@
+================================================================================
+         VEKTRA ASSISTANT — FULL LIST OF CAPABILITIES & COMMANDS
+================================================================================
+
+Vektra Assistant is your J.A.R.V.I.S.-style on-board voice copilot, designed
+specifically for your BYD vehicle (DiLink 3.0 / 4.0) and Vektra 2.0.
+It has full access to every piece of hardware in the car, to real-time
+telemetry, to ADB system commands, to ambient lighting synchronisation and to
+Groq artificial intelligence (Llama 3.3 70B).
+
+--------------------------------------------------------------------------------
+1. WAKE WORD, CALLING IT & MEDIA VOLUME CONTROL
+--------------------------------------------------------------------------------
+• How to call it:
+  - Simply say: "Vektra" / "Hey Vektra" / "OK Vektra"
+  - Or state your request directly: "Vektra, open the sunroof"
+  - Or tap the voice status card in the Assistant tab or the 3D avatar.
+
+• Stop everything in one gesture:
+  - A single tap on the on-screen voice animation immediately cuts off the
+    current reply, cancels the request and closes the animation. Handy when
+    Vektra was triggered by mistake or won't stop.
+
+• Automatic ducking of the normal speaker (Media):
+  - As soon as you call Vektra, the normal speaker volume (radio, Spotify,
+    Bluetooth music — the STREAM_MUSIC stream) automatically drops to 20% while
+    you speak and while Vektra answers.
+  - The driver headrest speaker volume (Navi 14 stream) stays at 100% for
+    optimal voice clarity.
+  - As soon as Vektra finishes answering, media volume is restored smoothly.
+
+• Standby and voice wake-up:
+  - "Vektra, go to sleep" / "Go on standby"
+  - "Vektra, wake up"
+
+--------------------------------------------------------------------------------
+2. LANGUAGE PERSONALISATION, LANGUAGE MIRRORING & VARIANTS
+--------------------------------------------------------------------------------
+• Smart language mirroring (Dynamic Mirroring):
+  - Vektra detects and adapts in real time to the way you express yourself:
+    * Relaxed / casual / humorous tone: it replies in a warm, witty, lively and
+      complicit way, matching your energy.
+    * Serious / formal / technical tone: it adopts the stance of a chief
+      automotive engineer and elite copilot — surgical and concise.
+
+• Choice of French variant (Belgium or France):
+  - Configurable in the assistant settings (French variant):
+    * Belgium: natural, authentic use of the numbers "septante" (70) and
+      "nonante" (90), and Belgian idioms and turns of phrase.
+    * France: standard metropolitan French (soixante-dix, quatre-vingt-dix).
+
+• Full multilingual support (6 voice languages):
+  - System voice and replies available in French, English, Italian, German,
+    Portuguese and Turkish, with no foreign phonetics mixed in.
+
+--------------------------------------------------------------------------------
+3. COMMUNICATION VISUALS & AMBIENT LED SYNCHRONISATION
+--------------------------------------------------------------------------------
+• 6 voice-reactive visual themes:
+  - Theme 1: rainbow spectral wave at the bottom of the screen (Google Assistant / Siri).
+  - Theme 2: central J.A.R.V.I.S. reactor hologram with rotating rings.
+  - Theme 3: pulsing 3D synaptic sphere (Neural Sphere).
+  - Theme 4: horizontal laser Quantum Scanner, K.I.T.T. 2050 style.
+  - Theme 5: titanium prismatic line (audiophile Hi-Fi studio).
+  - Theme 6: diffuse ambient halo all around the screen edge.
+
+• Cabin ambient LED synchronisation:
+  - Enabled via the "Ambient LED synchronisation" setting:
+    The car's light bars pulse in real time to the rhythm of Vektra's voice via
+    ADB shell, then return to their original lighting.
+
+--------------------------------------------------------------------------------
+4. LIVE INTERNET SEARCH & UNFILTERED INTELLIGENCE
+--------------------------------------------------------------------------------
+• Unlimited real-time web search (via DuckDuckGo):
+  - Vektra consults the internet live and phrases its answer with no cut-offs or
+    pointless intermediate messages.
+  - Examples:
+    * "Vektra, what's the weather forecast for tomorrow in Brussels?"
+    * "Vektra, what was the score of Real Madrid's last match?"
+    * "Vektra, what's today's economic news?"
+
+• Freedom of expression & long-term memory (Grok style):
+  - Intelligence with no prudish filter or moralising censorship, able to
+    discuss any subject with authenticity, candour and complicity.
+  - Remembers names, habits, favourite destinations and preferences.
+
+--------------------------------------------------------------------------------
+5. POWER WINDOWS (Individual or global control)
+--------------------------------------------------------------------------------
+• All windows:
+  - "Vektra, open the windows" / "Open all the windows"
+  - "Vektra, close the windows" / "Close all the windows"
+  - "Vektra, crack the windows" / "Air out the car" (opens to 20%)
+  - "Vektra, open the windows halfway" / "Open the windows to 50%"
+
+• Window by window or by zone (5 targets: each of the 4 windows, or all):
+  - "Vektra, open the driver's window" / "Open my window"
+  - "Vektra, close the driver's window"
+  - "Vektra, open the passenger window" / "Close the passenger window"
+  - "Vektra, open the front left / front right window"
+  - "Vektra, open the rear left / rear right window"
+  - "Vektra, open the front windows" / "Close the front windows"
+  - "Vektra, open the rear windows" / "Close the rear windows"
+
+• Open by percentage, window by window:
+  - "Vektra, open the driver's window to 30%"
+  - "Vektra, open the rear right window to 70%"
+  - "Vektra, open all the windows to 40%"
+  - The percentage applies to a single window as well as to all of them.
+
+--------------------------------------------------------------------------------
+6. PANORAMIC SUNROOF & ROOF SUNSHADE
+--------------------------------------------------------------------------------
+• Powered sunroof:
+  - "Vektra, open the sunroof"
+  - "Vektra, close the sunroof"
+  - "Vektra, tilt the sunroof"
+  - "Vektra, stop the sunroof" (stops the movement in progress)
+  - "Vektra, open the sunroof to 50%" (open by percentage)
+
+• Roof sunshade / blind:
+  - "Vektra, open the sunshade" / "Open the roof blind"
+  - "Vektra, close the sunshade" / "Close the roof blind"
+  - "Vektra, stop the sunshade"
+  - "Vektra, open the sunshade to 30%" (open by percentage)
+
+--------------------------------------------------------------------------------
+7. AIR CONDITIONING, HEATING, DEFROST & VENTILATION
+--------------------------------------------------------------------------------
+• On / Off / Auto mode:
+  - "Vektra, turn on the air conditioning" / "Put the A/C on"
+  - "Vektra, turn off the air conditioning" / "Turn the A/C off"
+  - "Vektra, set the A/C to auto mode"
+
+• Precise temperature setting (15 °C to 32 °C):
+  - "Vektra, set the A/C to 21 degrees"
+  - "Vektra, set the temperature to 22.5 degrees"
+  - "Vektra, I'm hot" (automatically cools to 19.5 °C)
+  - "Vektra, I'm cold" (automatically heats to 24.5 °C)
+
+• Fan speed (levels 1 to 7):
+  - "Vektra, set the fan to 4" (from 1 to 7)
+  - "Vektra, set the fan to maximum" / "Lower the fan"
+
+• Defrost / demist & air recirculation:
+  - "Vektra, turn on the front defrost" / "Clear the fog"
+  - "Vektra, turn on the rear defrost"
+  - "Vektra, turn off the defrost"
+  - "Vektra, turn on air recirculation" / "Bring in outside air"
+
+--------------------------------------------------------------------------------
+8. HEATED SEATS, VENTILATED SEATS & HEATED STEERING WHEEL
+--------------------------------------------------------------------------------
+• Heated seats (driver, passenger or both — levels 1 to 3):
+  - "Vektra, turn on my heated seat"
+  - "Vektra, turn on the passenger heated seat"
+  - "Vektra, turn on both heated seats"
+  - "Vektra, set the heated seat to level 2"
+  - "Vektra, turn off the heated seats"
+
+• Ventilated / cooled seats:
+  - "Vektra, turn on my seat ventilation" / "Turn on the ventilated seats"
+  - "Vektra, turn on the passenger seat ventilation"
+  - "Vektra, turn off the seat ventilation"
+
+• Heated steering wheel:
+  - "Vektra, turn on the heated steering wheel"
+  - "Vektra, turn off the heated steering wheel"
+
+--------------------------------------------------------------------------------
+9. ROTATING SCREEN, TAILGATE, MIRRORS, DOORS & AMBIENT LED
+--------------------------------------------------------------------------------
+• Rotating the central DiLink screen (landscape / portrait):
+  - "Vektra, rotate the screen" / "Turn the screen"
+  - "Vektra, put the screen in portrait" / "Put the screen in landscape"
+
+• Powered trunk / tailgate:
+  - "Vektra, open the trunk"
+  - "Vektra, close the trunk"
+  - "Vektra, stop the trunk" (stops the tailgate mid-travel)
+  - The tailgate does not accept a percentage: it has no position command.
+
+• Exterior mirrors:
+  - "Vektra, fold the mirrors"
+  - "Vektra, unfold the mirrors"
+
+• Ambient LED lighting & doors:
+  - "Vektra, turn on the ambient lighting" / "Turn off the ambient lighting"
+  - "Vektra, set the ambient light to red" / "Switch the ambient to blue"
+    (recognised colours: red, orange, yellow, green, cyan, blue, purple, pink, white)
+  - "Vektra, dim the ambient lighting" / "Set the ambient to maximum"
+  - "Vektra, lock the doors" / "Unlock the doors"
+
+• Daytime running lights, dome light, child lock & wireless charging:
+  - "Vektra, turn on the daytime running lights" / "Turn off the daytime lights"
+  - "Vektra, turn on the dome light" / "Turn off the cabin light"
+  - "Vektra, enable the child lock" / "Disable the child lock"
+  - "Vektra, turn on the wireless charger" / "Turn off the wireless charging"
+
+• Safety guard while driving:
+  - When the gear is in D, locking and unlocking the doors as well as opening and
+    closing the trunk are refused: Vektra tells you instead of executing. Windows,
+    the roof and everything else remain controllable.
+  - This guard can be turned on and off in the assistant settings.
+
+--------------------------------------------------------------------------------
+10. DRIVE MODES, ENERGY (EV / HEV) & REGENERATION
+--------------------------------------------------------------------------------
+• Drive modes:
+  - "Vektra, switch to Sport mode"
+  - "Vektra, turn on Eco mode"
+  - "Vektra, go back to Normal mode"
+  - "Vektra, turn on Snow mode"
+
+• Electric / hybrid propulsion (DM-i) & regenerative braking:
+  - "Vektra, switch to EV mode" / "Go 100% electric"
+  - "Vektra, switch to HEV mode" / "Switch to hybrid mode"
+  - "Vektra, set regeneration to high" / "Standard regeneration"
+
+--------------------------------------------------------------------------------
+11. MEDIA, MUSIC & AUDIO VOLUME
+--------------------------------------------------------------------------------
+• Playback control:
+  - "Vektra, next track" / "Next song"
+  - "Vektra, previous track"
+  - "Vektra, pause the music" / "Stop the music"
+  - "Vektra, resume the music" / "Play the music again"
+
+• Volume control:
+  - "Vektra, turn it up" / "Increase the volume"
+  - "Vektra, turn it down" / "Lower the volume"
+  - "Vektra, mute" / "Unmute"
+
+--------------------------------------------------------------------------------
+12. INSTRUMENT CLUSTER, 3D THEMES & ADAS
+--------------------------------------------------------------------------------
+• Driver cluster themes:
+  - "Vektra, set the Carbon theme" (Carbon 3D)
+  - "Vektra, set the Aston theme" (Aston Luxury)
+  - "Vektra, set the VektraUI theme"
+
+• Cluster projection, return to original state & ADAS display:
+  - "Vektra, start the projection" / "Project the cluster" / "Launch the cluster"
+  - "Vektra, stop the projection" / "Turn off the projection"
+  - "Vektra, restore the original cluster" / "Put the cluster back to original"
+  - "Vektra, hide the ADAS" / "Show the ADAS"
+
+• Opening any app installed in the vehicle:
+  - "Vektra, open Spotify" / "Launch Waze" / "Open YouTube" / "Launch Netflix"
+  - "Vektra, open Google Maps" / "Open ABRP" / "Launch Coyote" / "Open Chrome"
+  - "Vektra, open the 360 camera" / "Open the radio" / "Open settings"
+  - "Vektra, open [the name of any app installed on the tablet]"
+  - "Vektra, which apps are installed?"
+
+--------------------------------------------------------------------------------
+13. FAVOURITE APPS: NAVIGATION & MUSIC BY VOICE
+--------------------------------------------------------------------------------
+• One-time setup:
+  - In the Assistant tab, two rows: "Favourite navigation app" and "Favourite
+    music app". Each opens the list of all the apps installed in the car; you
+    pick yours.
+  - Each window also offers "Test now" to immediately check that the app
+    responds properly.
+
+• Start navigation to an address:
+  - "Vektra, take me to the Grand-Place in Brussels"
+  - "Vektra, drive me to 12 Rue de la Station in Manage"
+  - "Vektra, navigate to Charleroi" / "Route to Namur"
+  - The address is located first, then sent to your favourite navigation app,
+    which starts the guidance.
+  - "Vektra, stop the navigation"
+
+• Play a specific track:
+  - "Vektra, play Thunderstruck by AC/DC"
+  - "Vektra, put on some jazz" / "Put on classical music"
+  - "Vektra, play the song Bohemian Rhapsody"
+  - The search is sent to your favourite music app.
+
+--------------------------------------------------------------------------------
+14. OFFLINE OPERATION & STANDBY
+--------------------------------------------------------------------------------
+• Essential commands without a network:
+  - When the car has no connection, the hardware commands keep working: windows,
+    roof, sunshade, trunk, doors, air conditioning, seats, lighting, drive modes,
+    navigation and music.
+  - It's free conversation, web search and AI-written replies that become
+    unavailable.
+  - Can be enabled in the assistant settings ("Offline commands").
+
+• Standby and wake-up:
+  - "Vektra, go to sleep" / "Vektra, go on standby"
+  - "Vektra, wake up"
+  - These two phrasings exist in all ten languages of the app. No other phrase
+    triggers standby: saying "close the window" does not put it to sleep.
+
+• Deep sleep, car switched off:
+  - When the ignition is cut, the assistant stops listening completely so as not
+    to drain the battery, and starts up again when the ignition is turned on.
+
+--------------------------------------------------------------------------------
+15. REAL-TIME BYD VEHICLE TELEMETRY
+--------------------------------------------------------------------------------
+• Questions about your BYD's live status:
+  - "Vektra, how much battery and range do I have left?"
+  - "Vektra, what's the tyre pressure?" (gives all 4 wheels in kPa)
+  - "Vektra, what's the car's mileage?"
+  - "Vektra, what's the outside temperature?"
+
+--------------------------------------------------------------------------------
+16. INTELLIGENCE, MEMORY & ADVANCED COMMANDS
+--------------------------------------------------------------------------------
+• Chain several commands in one sentence:
+  - "Vektra, close the windows, set the A/C to 21 and turn on my seat"
+  - Vektra does everything in order and confirms in a single sentence.
+
+• Correct yourself or undo right away:
+  - "Vektra, open the rear right window… no, the rear left"
+  - "Vektra, undo" (reverses the last action)
+
+• Delayed actions:
+  - "Vektra, in 10 minutes, close the windows"
+  - "Vektra, when I arrive, close the roof"
+
+• Reminders:
+  - "Vektra, remind me to take the parcel when I arrive"
+  - "Vektra, remind me to call the garage at the next start-up"
+
+• Rules dictated by voice:
+  - "Vektra, if it rains, close the windows"
+  - "Vektra, if it's cold, turn on my seat"
+  - Recognised conditions: rain, cold, hot, low battery, while driving, when parked, night.
+
+• Clear everything:
+  - "Vektra, forget your rules" / "Forget what's pending" / "Forget my habits"
+
+• Habit memory:
+  - Vektra remembers what you often ask at the same time and offers it to you.
+  - Can be enabled in the assistant settings.
+
+• Find a charging point:
+  - "Vektra, find me a charging point"
+  - Vektra searches, announces the point and starts guidance in your favourite navigation app.
+
+• Questions about the car:
+  - "Vektra, what's that warning light on the dashboard?"
+  - "Vektra, how do I set the regeneration?"
+
+• Explain-me mode (one step at a time):
+  - "Vektra, explain how to do …"
+
+• Spoken translation:
+  - "Vektra, how do you say 'where is the charging point' in Dutch?"
+
+• Calculations, percentages and conversions (no network needed):
+  - "Vektra, 45 euros divided by three plus a 10% tip?"
+
+• Summarised web search:
+  - Vektra answers in two sentences; say "cite your source" to get the source.
+
+• Eco-driving coach (on request):
+  - "Vektra, how am I driving?"
+
+• Assistant character (setting):
+  - Minimal, Balanced or Warm. Only changes how it answers, never what it can do.
+
+• Follow the spoken language (setting):
+  - Answers a passenger in their language, then returns to yours.
+================================================================================

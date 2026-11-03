@@ -1,0 +1,369 @@
+================================================================================
+         VEKTRA ASSISTANT — VOLLEDIGE LIJST VAN FUNCTIES & COMMANDO'S
+================================================================================
+
+Vektra Assistant is je ingebouwde spraakcopiloot in J.A.R.V.I.S.-stijl, speciaal
+ontworpen voor je BYD-voertuig (DiLink 3.0 / 4.0) en Vektra 2.0.
+Hij heeft volledige toegang tot alle apparatuur van de auto, tot realtime
+telemetrie, tot de ADB-systeemopdrachten, tot de synchronisatie van de
+sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
+
+--------------------------------------------------------------------------------
+1. WEKKEN, AANROEPEN & MEDIAVOLUMEREGELING
+--------------------------------------------------------------------------------
+• Hoe je hem aanroept:
+  - Zeg gewoon: "Vektra" / "Hey Vektra" / "OK Vektra"
+  - Of formuleer je verzoek meteen: "Vektra, open het schuifdak"
+  - Of tik op de spraakstatuskaart in het Assistant-tabblad of op de 3D-avatar.
+
+• Alles in één gebaar stoppen:
+  - Eén tik op de spraakanimatie op het scherm onderbreekt meteen het lopende
+    antwoord, annuleert het verzoek en sluit de animatie. Handig wanneer Vektra
+    per ongeluk werd geactiveerd of niet stopt.
+
+• Automatisch dempen van de gewone luidspreker (Media):
+  - Zodra je Vektra aanroept, daalt het volume van de gewone luidspreker (radio,
+    Spotify, Bluetooth-muziek — STREAM_MUSIC) automatisch naar 20% terwijl je
+    spreekt en terwijl Vektra antwoordt.
+  - Het volume van de hoofdsteunluidspreker van de bestuurder (Navi 14-stream)
+    blijft op 100% voor optimale spraakhelderheid.
+  - Zodra Vektra klaar is met antwoorden, wordt het mediavolume soepel hersteld.
+
+• In stand-by zetten en wekken met de stem:
+  - "Vektra, ga in stand-by" / "Ga slapen"
+  - "Vektra, word wakker"
+
+--------------------------------------------------------------------------------
+2. TAALPERSONALISATIE, TAALSPIEGELING & VARIANTEN
+--------------------------------------------------------------------------------
+• Slimme taalspiegeling (Dynamic Mirroring):
+  - Vektra herkent realtime hoe je je uitdrukt en past zich aan:
+    * Ontspannen / vertrouwelijke / humoristische toon: ze antwoordt verbonden,
+      warm, levendig en gevat, met dezelfde energie.
+    * Serieuze / formele / technische toon: ze neemt de houding aan van een
+      hoofdingenieur auto en elitecopiloot — chirurgisch en beknopt.
+
+• Keuze van de Franstalige variant (België of Frankrijk):
+  - Instelbaar in de assistentinstellingen (Franstalige variant):
+    * België: natuurlijk, authentiek gebruik van de getallen "septante" (70) en
+      "nonante" (90), en van Belgische uitdrukkingen.
+    * Frankrijk: standaard metropolitaans Frans (soixante-dix, quatre-vingt-dix).
+
+• Volledige meertalige ondersteuning (6 stemtalen):
+  - Systeemstem en -antwoorden beschikbaar in het Frans, Engels, Italiaans, Duits,
+    Portugees en Turks, zonder vermenging van vreemde fonetiek.
+
+--------------------------------------------------------------------------------
+3. COMMUNICATIEVISUALS & SYNCHRONISATIE VAN DE SFEER-LEDS
+--------------------------------------------------------------------------------
+• 6 spraakreactieve visuele thema's:
+  - Thema 1: regenboog-spectrale golf onderaan het scherm (Google Assistant / Siri).
+  - Thema 2: centraal J.A.R.V.I.S.-reactorhologram met draaiende ringen.
+  - Thema 3: pulserende synaptische 3D-bol (Neural Sphere).
+  - Thema 4: horizontale laser Quantum Scanner in K.I.T.T.-2050-stijl.
+  - Thema 5: titanium prismalijn (audiophile hifistudio).
+  - Thema 6: diffuse sfeerhalo rond de hele schermrand.
+
+• Synchronisatie van de sfeer-LEDs in het interieur:
+  - Ingeschakeld via de instelling "Synchronisatie sfeer-LEDs":
+    de lichtbalken van de auto pulseren realtime op het ritme van Vektra's stem
+    via ADB-shell en keren daarna terug naar hun oorspronkelijke verlichting.
+
+--------------------------------------------------------------------------------
+4. LIVE INTERNETZOEKEN & ONGEFILTERDE INTELLIGENTIE
+--------------------------------------------------------------------------------
+• Onbeperkt realtime webzoeken (via DuckDuckGo):
+  - Vektra raadpleegt internet live en formuleert haar antwoord zonder
+    onderbrekingen of overbodige tussenberichten.
+  - Voorbeelden:
+    * "Vektra, wat is het weer morgen in Brussel?"
+    * "Vektra, wat was de uitslag van de laatste match van Real Madrid?"
+    * "Vektra, wat is het economische nieuws van vandaag?"
+
+• Vrijheid van meningsuiting & langetermijngeheugen (Grok-stijl):
+  - Intelligentie zonder preuts filter of moraliserende censuur, in staat elk
+    onderwerp met authenticiteit, openhartigheid en verbondenheid te behandelen.
+  - Onthoudt namen, gewoonten, favoriete bestemmingen en voorkeuren.
+
+--------------------------------------------------------------------------------
+5. ELEKTRISCHE RAMEN (individuele of globale bediening)
+--------------------------------------------------------------------------------
+• Alle ramen:
+  - "Vektra, open de ramen" / "Open alle ramen"
+  - "Vektra, sluit de ramen" / "Sluit alle ramen"
+  - "Vektra, zet de ramen op een kier" / "Verlucht de auto" (opent tot 20%)
+  - "Vektra, open de ramen halverwege" / "Open de ramen tot 50%"
+
+• Raam per raam of per zone (5 doelen: elk van de 4 ramen, of alle):
+  - "Vektra, open het bestuurdersraam" / "Open mijn raam"
+  - "Vektra, sluit het bestuurdersraam"
+  - "Vektra, open het passagiersraam" / "Sluit het passagiersraam"
+  - "Vektra, open het raam vooraan links / vooraan rechts"
+  - "Vektra, open het raam achteraan links / achteraan rechts"
+  - "Vektra, open de voorramen" / "Sluit de voorramen"
+  - "Vektra, open de achterramen" / "Sluit de achterramen"
+
+• Openen in percentage, raam per raam:
+  - "Vektra, open het bestuurdersraam tot 30%"
+  - "Vektra, open het raam achteraan rechts tot 70%"
+  - "Vektra, open alle ramen tot 40%"
+  - Het percentage geldt zowel voor één raam als voor alle ramen.
+
+--------------------------------------------------------------------------------
+6. PANORAMISCH SCHUIFDAK & ZONNESCHERM VAN HET DAK
+--------------------------------------------------------------------------------
+• Gemotoriseerd schuifdak:
+  - "Vektra, open het schuifdak"
+  - "Vektra, sluit het schuifdak"
+  - "Vektra, zet het schuifdak op een kier"
+  - "Vektra, stop het schuifdak" (stopt de lopende beweging)
+  - "Vektra, open het schuifdak tot 50%" (openen in percentage)
+
+• Zonnescherm / rolgordijn van het dak:
+  - "Vektra, open het zonnescherm" / "Open het dakgordijn"
+  - "Vektra, sluit het zonnescherm" / "Sluit het dakgordijn"
+  - "Vektra, stop het zonnescherm"
+  - "Vektra, open het zonnescherm tot 30%" (openen in percentage)
+
+--------------------------------------------------------------------------------
+7. AIRCO, VERWARMING, ONTDOOIEN & VENTILATIE
+--------------------------------------------------------------------------------
+• Aan / Uit / Automatische modus:
+  - "Vektra, zet de airco aan" / "Zet de airco op"
+  - "Vektra, zet de airco uit"
+  - "Vektra, zet de airco op automatisch"
+
+• Precieze temperatuurinstelling (15 °C tot 32 °C):
+  - "Vektra, zet de airco op 21 graden"
+  - "Vektra, stel de temperatuur in op 22,5 graden"
+  - "Vektra, ik heb het warm" (koelt automatisch naar 19,5 °C)
+  - "Vektra, ik heb het koud" (verwarmt automatisch naar 24,5 °C)
+
+• Ventilatorsnelheid (niveaus 1 tot 7):
+  - "Vektra, zet de ventilatie op 4" (van 1 tot 7)
+  - "Vektra, zet de ventilatie op maximum" / "Verlaag de ventilatie"
+
+• Ontdooien / ontwasemen & luchtrecirculatie:
+  - "Vektra, zet de voorruitontdooiing aan" / "Haal de condens weg"
+  - "Vektra, zet de achterruitverwarming aan"
+  - "Vektra, zet de ontdooiing uit"
+  - "Vektra, zet de luchtrecirculatie aan" / "Zet op buitenlucht"
+
+--------------------------------------------------------------------------------
+8. STOELVERWARMING, STOELVENTILATIE & STUURVERWARMING
+--------------------------------------------------------------------------------
+• Verwarmde stoelen (bestuurder, passagier of beide — niveaus 1 tot 3):
+  - "Vektra, zet mijn stoelverwarming aan"
+  - "Vektra, zet de stoelverwarming van de passagier aan"
+  - "Vektra, zet beide stoelverwarmingen aan"
+  - "Vektra, zet de stoelverwarming op niveau 2"
+  - "Vektra, zet de stoelverwarmingen uit"
+
+• Geventileerde / verkoelende stoelen:
+  - "Vektra, zet mijn stoelventilatie aan" / "Zet de geventileerde stoelen aan"
+  - "Vektra, zet de stoelventilatie van de passagier aan"
+  - "Vektra, zet de stoelventilatie uit"
+
+• Stuurverwarming:
+  - "Vektra, zet de stuurverwarming aan"
+  - "Vektra, zet de stuurverwarming uit"
+
+--------------------------------------------------------------------------------
+9. DRAAIBAAR SCHERM, KOFFER, SPIEGELS, DEUREN & SFEER-LED
+--------------------------------------------------------------------------------
+• Het centrale DiLink-scherm draaien (liggend / staand):
+  - "Vektra, draai het scherm" / "Kantel het scherm"
+  - "Vektra, zet het scherm staand" / "Zet het scherm liggend"
+
+• Gemotoriseerde koffer / achterklep:
+  - "Vektra, open de koffer"
+  - "Vektra, sluit de koffer"
+  - "Vektra, stop de koffer" (stopt de achterklep halverwege)
+  - De achterklep aanvaardt geen percentage: hij heeft geen positiecommando.
+
+• Buitenspiegels:
+  - "Vektra, klap de spiegels in"
+  - "Vektra, klap de spiegels uit"
+
+• LED-sfeerverlichting & deuren:
+  - "Vektra, zet de sfeerverlichting aan" / "Zet de sfeerverlichting uit"
+  - "Vektra, zet de sfeer op rood" / "Zet de sfeer op blauw"
+    (herkende kleuren: rood, oranje, geel, groen, cyaan, blauw, paars, roze, wit)
+  - "Vektra, dim de sfeerverlichting" / "Zet de sfeer op maximum"
+  - "Vektra, vergrendel de deuren" / "Ontgrendel de deuren"
+
+• Dagrijlichten, plafondlamp, kinderslot & draadloos laden:
+  - "Vektra, zet de dagrijlichten aan" / "Zet de dagrijlichten uit"
+  - "Vektra, zet de plafondlamp aan" / "Zet het interieurlicht uit"
+  - "Vektra, activeer het kinderslot" / "Schakel het kinderslot uit"
+  - "Vektra, zet de draadloze lader aan" / "Zet het draadloos laden uit"
+
+• Veiligheidsvergrendeling tijdens het rijden:
+  - Wanneer de versnelling op D staat, worden het vergrendelen en ontgrendelen
+    van de deuren en het openen en sluiten van de koffer geweigerd: Vektra zegt
+    het je in plaats van het uit te voeren. Ramen, dak en de rest blijven bedienbaar.
+  - Deze vergrendeling schakel je in en uit in de assistentinstellingen.
+
+--------------------------------------------------------------------------------
+10. RIJMODI, ENERGIE (EV / HEV) & RECUPERATIE
+--------------------------------------------------------------------------------
+• Rijmodi:
+  - "Vektra, zet in de Sport-modus"
+  - "Vektra, zet de Eco-modus aan"
+  - "Vektra, zet weer de Normaal-modus"
+  - "Vektra, zet de Sneeuw-modus aan"
+
+• Elektrische / hybride aandrijving (DM-i) & regeneratief remmen:
+  - "Vektra, zet in de EV-modus" / "Zet op 100% elektrisch"
+  - "Vektra, zet in de HEV-modus" / "Zet in de hybridemodus"
+  - "Vektra, zet de recuperatie op hoog" / "Standaardrecuperatie"
+
+--------------------------------------------------------------------------------
+11. MEDIA, MUZIEK & AUDIOVOLUME
+--------------------------------------------------------------------------------
+• Afspeelbediening:
+  - "Vektra, volgend nummer" / "Volgend liedje"
+  - "Vektra, vorig nummer"
+  - "Vektra, pauzeer de muziek" / "Stop de muziek"
+  - "Vektra, hervat de muziek" / "Zet de muziek weer aan"
+
+• Volumebediening:
+  - "Vektra, zet luider" / "Verhoog het volume"
+  - "Vektra, zet stiller" / "Verlaag het volume"
+  - "Vektra, demp het geluid" / "Zet het geluid weer aan"
+
+--------------------------------------------------------------------------------
+12. INSTRUMENTENPANEEL, 3D-THEMA'S & ADAS
+--------------------------------------------------------------------------------
+• Thema's van het bestuurderspaneel:
+  - "Vektra, zet het Carbon-thema" (Carbon 3D)
+  - "Vektra, zet het Aston-thema" (Aston Luxury)
+  - "Vektra, zet het VektraUI-thema"
+
+• Projectie van het paneel, terug naar oorspronkelijke staat & ADAS-weergave:
+  - "Vektra, start de projectie" / "Projecteer het paneel" / "Start het paneel"
+  - "Vektra, stop de projectie" / "Zet de projectie uit"
+  - "Vektra, herstel het oorspronkelijke paneel" / "Zet het paneel terug"
+  - "Vektra, verberg de ADAS" / "Toon de ADAS"
+
+• Elke in het voertuig geïnstalleerde app openen:
+  - "Vektra, open Spotify" / "Start Waze" / "Open YouTube" / "Start Netflix"
+  - "Vektra, open Google Maps" / "Open ABRP" / "Start Coyote" / "Open Chrome"
+  - "Vektra, open de 360-camera" / "Open de radio" / "Open de instellingen"
+  - "Vektra, open [de naam van een op de tablet geïnstalleerde app]"
+  - "Vektra, welke apps zijn geïnstalleerd?"
+
+--------------------------------------------------------------------------------
+13. FAVORIETE APPS: NAVIGATIE & MUZIEK MET DE STEM
+--------------------------------------------------------------------------------
+• Eenmalige instelling:
+  - In het Assistant-tabblad twee regels: "Favoriete navigatie-app" en "Favoriete
+    muziek-app". Elke opent de lijst van alle in de auto geïnstalleerde apps; je
+    kiest de jouwe.
+  - Elk venster biedt ook "Nu testen" om meteen te controleren of de app goed
+    reageert.
+
+• Een navigatie naar een adres starten:
+  - "Vektra, breng me naar de Grote Markt in Brussel"
+  - "Vektra, breng me naar de Rue de la Station 12 in Manage"
+  - "Vektra, navigeer naar Charleroi" / "Route naar Namen"
+  - Het adres wordt eerst gelokaliseerd en daarna doorgegeven aan je favoriete
+    navigatie-app, die de begeleiding start.
+  - "Vektra, stop de navigatie"
+
+• Een specifiek nummer afspelen:
+  - "Vektra, speel Thunderstruck van AC/DC"
+  - "Vektra, zet wat jazz op" / "Zet klassieke muziek op"
+  - "Vektra, speel het nummer Bohemian Rhapsody"
+  - De zoekopdracht gaat naar je favoriete muziek-app.
+
+--------------------------------------------------------------------------------
+14. OFFLINE WERKING & STAND-BY
+--------------------------------------------------------------------------------
+• Essentiële commando's zonder netwerk:
+  - Wanneer de auto geen verbinding heeft, blijven de hardwarecommando's werken:
+    ramen, dak, zonnescherm, koffer, deuren, airco, stoelen, verlichting, rijmodi,
+    navigatie en muziek.
+  - Het vrije gesprek, het webzoeken en de door de kunstmatige intelligentie
+    opgestelde antwoorden worden onbeschikbaar.
+  - In te schakelen in de assistentinstellingen ("Offline commando's").
+
+• In stand-by zetten en wekken:
+  - "Vektra, ga in stand-by" / "Vektra, ga slapen"
+  - "Vektra, word wakker"
+  - Deze twee formuleringen bestaan in alle tien talen van de app. Geen enkele
+    andere zin activeert de stand-by: "sluit het raam" laat haar niet slapen.
+
+• Diepe slaap, auto uit:
+  - Bij het uitschakelen van het contact stopt de assistent volledig met luisteren
+    om de accu niet te belasten, en start weer bij het inschakelen van het contact.
+
+--------------------------------------------------------------------------------
+15. REALTIME TELEMETRIE VAN HET BYD-VOERTUIG
+--------------------------------------------------------------------------------
+• Vragen over de live status van je BYD:
+  - "Vektra, hoeveel batterij en bereik heb ik nog?"
+  - "Vektra, wat is de bandenspanning?" (geeft alle 4 de wielen in kPa)
+  - "Vektra, wat is de kilometerstand van de auto?"
+  - "Vektra, wat is de buitentemperatuur?"
+
+--------------------------------------------------------------------------------
+16. INTELLIGENTIE, GEHEUGEN & GEAVANCEERDE COMMANDO'S
+--------------------------------------------------------------------------------
+• Meerdere commando's in één zin aaneenschakelen:
+  - "Vektra, sluit de ramen, zet de airco op 21 en zet mijn stoel aan"
+  - Vektra voert alles op volgorde uit en bevestigt in één zin.
+
+• Jezelf meteen corrigeren of ongedaan maken:
+  - "Vektra, open het raam achteraan rechts… nee, achteraan links"
+  - "Vektra, ongedaan maken" (draait de laatste actie terug)
+
+• Uitgestelde acties:
+  - "Vektra, over 10 minuten de ramen sluiten"
+  - "Vektra, bij aankomst het dak sluiten"
+
+• Herinneringen:
+  - "Vektra, herinner me eraan het pakje mee te nemen bij aankomst"
+  - "Vektra, herinner me eraan de garage te bellen bij de volgende start"
+
+• Met de stem gedicteerde regels:
+  - "Vektra, als het regent, sluit de ramen"
+  - "Vektra, als het koud is, zet mijn stoel aan"
+  - Herkende voorwaarden: regen, koud, warm, lage batterij, tijdens het rijden, geparkeerd, nacht.
+
+• Alles wissen:
+  - "Vektra, vergeet je regels" / "Vergeet wat in behandeling is" / "Vergeet mijn gewoonten"
+
+• Gewoontegeheugen:
+  - Vektra onthoudt wat je vaak op hetzelfde moment vraagt en stelt het voor.
+  - In te schakelen in de assistentinstellingen.
+
+• Een laadpunt vinden:
+  - "Vektra, zoek een laadpunt voor me"
+  - Vektra zoekt, meldt het laadpunt en start de begeleiding in de favoriete navigatie-app.
+
+• Vragen over de auto:
+  - "Vektra, wat is dat waarschuwingslampje op het dashboard?"
+  - "Vektra, hoe stel je de recuperatie in?"
+
+• Leg-me-uit-modus (één stap tegelijk):
+  - "Vektra, leg me uit hoe ik …"
+
+• Vertaling met de stem:
+  - "Vektra, hoe zeg je 'waar is het laadpunt' in het Nederlands?"
+
+• Berekeningen, percentages en omrekeningen (zonder netwerk):
+  - "Vektra, 45 euro gedeeld door drie plus 10% fooi?"
+
+• Samengevatte webzoekopdracht:
+  - Vektra antwoordt in twee zinnen; zeg "noem je bron" voor de bron.
+
+• Eco-rijcoach (op verzoek):
+  - "Vektra, hoe rijd ik?"
+
+• Karakter van de assistent (instelling):
+  - Minimaal, Evenwichtig of Hartelijk. Verandert alleen hoe ze antwoordt, nooit wat ze kan.
+
+• De gesproken taal volgen (instelling):
+  - Antwoordt een passagier in zijn taal en keert daarna terug naar de jouwe.
+================================================================================

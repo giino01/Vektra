@@ -1,0 +1,369 @@
+================================================================================
+         VEKTRA ASSISTANT — LISTE COMPLÈTE DES CAPACITÉS & COMMANDES
+================================================================================
+
+Vektra Assistant est votre copilote vocal embarqué de style J.A.R.V.I.S. conçu
+spécifiquement pour votre véhicule BYD (DiLink 3.0 / 4.0) et Vektra 2.0.
+Elle dispose d'un accès complet à tous les équipements matériels de la voiture,
+à la télémétrie temps réel, aux commandes système ADB, à la synchronisation
+lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
+
+--------------------------------------------------------------------------------
+1. RÉVEIL, INTERPELLATION & CONTRÔLE DU VOLUME MÉDIA
+--------------------------------------------------------------------------------
+• Comment l'appeler :
+  - Dites simplement : « Vektra » / « Hey Vektra » / « Dis Vektra »
+  - Ou formulez votre demande directement : « Vektra, ouvre le toit ouvrant »
+  - Ou appuyez sur la carte de statut vocal dans l'onglet Assistant ou sur l'avatar 3D.
+
+• Tout arrêter d'un seul geste :
+  - Un simple appui sur l'animation vocale à l'écran coupe immédiatement la
+    réponse en cours, annule la demande et referme l'animation. Utile quand
+    Vektra a été appelée par erreur ou qu'elle ne s'arrête pas.
+
+• Atténuation automatique du haut-parleur normal (Média) :
+  - Dès que vous appelez Vektra, le volume du haut-parleur normal (radio,
+    Spotify, musique Bluetooth — flux STREAM_MUSIC) se baisse automatiquement
+    à 20 % pendant que vous parlez et pendant que Vektra vous répond.
+  - Le volume du haut-parleur d'appui-tête conducteur (flux Navi 14) reste à
+    100 % pour une clarté vocale optimale.
+  - Dès la fin de la réponse de Vektra, le volume média est restauré en douceur.
+
+• Mise en veille et réveil vocal :
+  - « Vektra, mets-toi en veille » / « Passe en veille »
+  - « Vektra, réveille-toi »
+
+--------------------------------------------------------------------------------
+2. PERSONNALISATION LINGUISTIQUE, MIROIR DE LANGAGE & VARIANTES
+--------------------------------------------------------------------------------
+• Miroir linguistique intelligent (Dynamic Mirroring) :
+  - Vektra détecte et s'adapte en temps réel à votre manière de vous exprimer :
+    * Ton détendu / familier / humour : elle vous répond de façon complice,
+      chaleureuse, piquante et vivante avec le même niveau d'énergie.
+    * Ton sérieux / soutenu / technique : elle adopte une posture d'ingénieur
+      en chef automobile et de copilote d'élite, chirurgicale et concise.
+
+• Choix de la variante francophone (Belgique ou France) :
+  - Configurable dans les réglages de l'assistant (Variante francophone) :
+    * Belgique : Utilisation naturelle et authentique des nombres « septante »
+      (70) et « nonante » (90), tournures et expressions idiomatiques belges.
+    * France : Français standard métropolitain (soixante-dix, quatre-vingt-dix).
+
+• Support multilingue complet (6 langues) :
+  - Voix et réponses système disponibles en Français, English, Italiano,
+    Deutsch, Português et Türkçe, sans mélange de phonétique étrangère.
+
+--------------------------------------------------------------------------------
+3. EFFETS VISUELS DE COMMUNICATION & SYNCHRONISATION DES LED D'AMBIANCE
+--------------------------------------------------------------------------------
+• 6 Thèmes visuels réactifs à la voix :
+  - Thème 1 : Vague spectrale arc-en-ciel en bas de l'écran (Google Assistant / Siri).
+  - Thème 2 : Hologramme réacteur J.A.R.V.I.S. central à anneaux rotatifs.
+  - Thème 3 : Sphère synaptique 3D (Neural Sphere) pulsante.
+  - Thème 4 : Quantum Scanner laser horizontal façon K.I.T.T. 2050.
+  - Thème 5 : Ligne prismatique titane (Studio Hi-Fi audiophile).
+  - Thème 6 : Halo d'ambiance diffus sur tout le pourtour de l'écran.
+
+• Synchronisation des LED d'ambiance de l'habitacle :
+  - Activée via le réglage « Synchronisation des LED d'ambiance » :
+    Les barres lumineuses de la voiture pulsent en temps réel au rythme
+    de la voix de Vektra via ADB shell, puis retrouvent leur éclairage d'origine.
+
+--------------------------------------------------------------------------------
+4. RECHERCHE INTERNET EN DIRECT & INTELLIGENCE SANS FILTRE
+--------------------------------------------------------------------------------
+• Recherche Web temps réel illimitée (via DuckDuckGo) :
+  - Vektra consulte Internet en direct et formule sa réponse sans aucune coupure
+    ni message intermédiaire inutile.
+  - Exemples :
+    * « Vektra, quelles sont les prévisions météo pour demain à Bruxelles ? »
+    * « Vektra, quel est le score du dernier match du Real Madrid ? »
+    * « Vektra, quelle est l'actualité économique aujourd'hui ? »
+
+• Liberté d'expression & Mémoire long-terme (Style Grok) :
+  - Intelligence sans filtre puritain ni censure moralisatrice, capable
+    d'aborder tous les sujets avec authenticité, franchise et complicité.
+  - Mémoire des prénoms, habitudes, destinations favorites et préférences.
+
+--------------------------------------------------------------------------------
+5. FENÊTRES / VITRES ÉLECTRIQUES (Contrôle individuel ou global)
+--------------------------------------------------------------------------------
+• Toutes les fenêtres :
+  - « Vektra, ouvre les fenêtres » / « Ouvre toutes les vitres »
+  - « Vektra, ferme les fenêtres » / « Ferme toutes les vitres »
+  - « Vektra, entrouvre les fenêtres » / « Aère la voiture » (ouverture à 20 %)
+  - « Vektra, ouvre les fenêtres à moitié » / « Ouvre les vitres à 50 % »
+
+• Vitre par vitre ou par zone (5 cibles : chacune des 4 vitres, ou toutes) :
+  - « Vektra, ouvre la vitre conducteur » / « Ouvre ma fenêtre »
+  - « Vektra, ferme la vitre conducteur »
+  - « Vektra, ouvre la vitre passager » / « Ferme la vitre passager »
+  - « Vektra, ouvre la fenêtre avant gauche / avant droite »
+  - « Vektra, ouvre la vitre arrière gauche / arrière droite »
+  - « Vektra, ouvre les vitres avant » / « Ferme les vitres avant »
+  - « Vektra, ouvre les vitres arrière » / « Ferme les vitres arrière »
+
+• Ouverture au pourcentage, vitre par vitre :
+  - « Vektra, ouvre la vitre conducteur à 30 % »
+  - « Vektra, ouvre la fenêtre arrière droite à 70 % »
+  - « Vektra, ouvre toutes les vitres à 40 % »
+  - Le pourcentage s'applique aussi bien à une seule vitre qu'à l'ensemble.
+
+--------------------------------------------------------------------------------
+6. TOIT OUVRANT PANORAMIQUE & STORE OCCULTANT (PARE-SOLEIL)
+--------------------------------------------------------------------------------
+• Toit ouvrant motorisé :
+  - « Vektra, ouvre le toit ouvrant »
+  - « Vektra, ferme le toit ouvrant »
+  - « Vektra, entrebâille le toit ouvrant » / « Incline le toit ouvrant »
+  - « Vektra, arrête le toit ouvrant » (stoppe le mouvement en cours)
+  - « Vektra, ouvre le toit ouvrant à 50 % » (ouverture au pourcentage)
+
+• Store occultant / Pare-soleil de toit :
+  - « Vektra, ouvre le pare-soleil » / « Ouvre le rideau de toit » / « Ouvre le store »
+  - « Vektra, ferme le pare-soleil » / « Ferme le rideau de toit » / « Ferme le store »
+  - « Vektra, arrête le store »
+  - « Vektra, ouvre le store à 30 % » (ouverture au pourcentage)
+
+--------------------------------------------------------------------------------
+7. CLIMATISATION, CHAUFFAGE, DÉGIVRAGE & VENTILATION
+--------------------------------------------------------------------------------
+• Marche / Arrêt / Mode Auto :
+  - « Vektra, allume la climatisation » / « Mets la clim »
+  - « Vektra, coupe la climatisation » / « Éteins la clim »
+  - « Vektra, mets la clim en mode auto »
+
+• Réglage précis de la température (15 °C à 32 °C) :
+  - « Vektra, mets la clim à 21 degrés »
+  - « Vektra, règle la température sur 22,5 degrés »
+  - « Vektra, j'ai chaud » (rafraîchit automatiquement à 19,5 °C)
+  - « Vektra, j'ai froid » (monte automatiquement le chauffage à 24,5 °C)
+
+• Vitesse de soufflerie (Niveaux 1 à 7) :
+  - « Vektra, mets la ventilation sur 4 » (de 1 à 7)
+  - « Vektra, mets la ventilation au maximum » / « Baisse la ventilation »
+
+• Dégivrage / Désembuage & Recyclage d'air :
+  - « Vektra, active le dégivrage avant » / « Enlève la buée »
+  - « Vektra, active le dégivrage arrière »
+  - « Vektra, coupe le dégivrage »
+  - « Vektra, active le recyclage d'air » / « Mets l'air extérieur »
+
+--------------------------------------------------------------------------------
+8. SIÈGES CHAUFFANTS, SIÈGES VENTILÉS & VOLANT CHAUFFANT
+--------------------------------------------------------------------------------
+• Sièges chauffants (Conducteur, Passager ou les deux — Niveaux 1 à 3) :
+  - « Vektra, allume mon siège chauffant »
+  - « Vektra, allume le siège chauffant passager »
+  - « Vektra, allume les deux sièges chauffants »
+  - « Vektra, mets le siège chauffant au niveau 2 »
+  - « Vektra, coupe les sièges chauffants »
+
+• Sièges ventilés / rafraîchissants :
+  - « Vektra, active la ventilation de mon siège » / « Allume les sièges ventilés »
+  - « Vektra, active la ventilation du siège passager »
+  - « Vektra, coupe la ventilation des sièges »
+
+• Volant chauffant :
+  - « Vektra, allume le volant chauffant »
+  - « Vektra, coupe le volant chauffant »
+
+--------------------------------------------------------------------------------
+9. ÉCRAN ROTATIF, COFFRE, RÉTROVISEURS, PORTES & AMBIANCE LED
+--------------------------------------------------------------------------------
+• Rotation de l'écran central DiLink (Paysage / Portrait) :
+  - « Vektra, tourne l'écran » / « Pivote l'écran »
+  - « Vektra, mets l'écran en portrait » / « Mets l'écran en paysage »
+
+• Coffre / Hayon motorisé :
+  - « Vektra, ouvre le coffre »
+  - « Vektra, ferme le coffre »
+  - « Vektra, arrête le coffre » (stoppe le hayon en cours de course)
+  - Le hayon n'accepte pas de pourcentage : il n'a pas de commande de position.
+
+• Rétroviseurs extérieurs :
+  - « Vektra, rabats les rétroviseurs » / « Plie les rétros »
+  - « Vektra, déplie les rétroviseurs » / « Ouvre les rétros »
+
+• Éclairage d'ambiance LED & Portes :
+  - « Vektra, allume l'éclairage d'ambiance » / « Éteins l'éclairage d'ambiance »
+  - « Vektra, mets l'ambiance en rouge » / « Passe l'ambiance en bleu »
+    (couleurs reconnues : rouge, orange, jaune, vert, cyan, bleu, violet, rose, blanc)
+  - « Vektra, baisse l'éclairage d'ambiance » / « Mets l'ambiance au maximum »
+  - « Vektra, verrouille les portes » / « Déverrouille les portes »
+
+• Feux de jour, plafonnier, sécurité enfant & charge sans fil :
+  - « Vektra, allume les feux de jour » / « Coupe les feux de jour »
+  - « Vektra, allume le plafonnier » / « Éteins la lumière de l'habitacle »
+  - « Vektra, active la sécurité enfant » / « Désactive la sécurité enfant »
+  - « Vektra, active le chargeur sans fil » / « Coupe la charge sans fil »
+
+• Garde-fou de sécurité en roulant :
+  - Quand le levier est sur D, le verrouillage et le déverrouillage des portes
+    ainsi que l'ouverture et la fermeture du coffre sont refusés : Vektra vous
+    le dit au lieu d'exécuter. Les vitres, le toit et le reste restent commandables.
+  - Ce garde-fou s'active et se désactive dans les réglages de l'assistant.
+
+--------------------------------------------------------------------------------
+10. MODES DE CONDUITE, ÉNERGIE (EV / HEV) & RÉGÉNÉRATION
+--------------------------------------------------------------------------------
+• Modes de conduite :
+  - « Vektra, passe en mode Sport »
+  - « Vektra, active le mode Éco »
+  - « Vektra, remets le mode Normal »
+  - « Vektra, active le mode Neige »
+
+• Propulsion Électrique / Hybride (DM-i) & Freinage régénératif :
+  - « Vektra, passe en mode EV » / « Passe en 100 % électrique »
+  - « Vektra, passe en mode HEV » / « Passe en mode hybride »
+  - « Vektra, mets la régénération sur élevée » / « Régénération standard »
+
+--------------------------------------------------------------------------------
+11. MÉDIAS, MUSIQUE & VOLUME AUDIO
+--------------------------------------------------------------------------------
+• Contrôle de lecture :
+  - « Vektra, piste suivante » / « Chanson suivante »
+  - « Vektra, piste précédente »
+  - « Vektra, mets la musique en pause » / « Coupe la musique »
+  - « Vektra, reprends la musique » / « Remets la musique »
+
+• Contrôle du volume sonore :
+  - « Vektra, monte le son » / « Augmente le volume »
+  - « Vektra, baisse le son » / « Diminue le volume »
+  - « Vektra, coupe le son » / « Remets le son »
+
+--------------------------------------------------------------------------------
+12. COMBINÉ D'INSTRUMENTATION, THÈMES 3D & ADAS
+--------------------------------------------------------------------------------
+• Thèmes du combiné conducteur :
+  - « Vektra, mets le thème Carbone » (Carbone 3D)
+  - « Vektra, mets le thème Aston » (Aston Luxury)
+  - « Vektra, mets le thème VektraUI »
+
+• Projection du combiné, retour à l'état d'origine & Affichage ADAS :
+  - « Vektra, active la projection » / « Projette le combiné » / « Lance le combiné »
+  - « Vektra, désactive la projection » / « Coupe la projection » / « Arrête la projection »
+  - « Vektra, remets le combiné d'origine » / « Remets le combiné à l'état d'origine »
+  - « Vektra, masque l'ADAS » / « Affiche l'ADAS »
+
+• Ouverture de toutes les applications installées dans le véhicule :
+  - « Vektra, ouvre Spotify » / « Lance Waze » / « Ouvre YouTube » / « Lance Netflix »
+  - « Vektra, ouvre Google Maps » / « Ouvre ABRP » / « Lance Coyote » / « Ouvre Chrome »
+  - « Vektra, ouvre la caméra 360 » / « Ouvre la radio » / « Ouvre les paramètres »
+  - « Vektra, ouvre [nom de n'importe quelle application installée sur la tablette] »
+  - « Vektra, quelles sont les applications installées ? »
+
+--------------------------------------------------------------------------------
+13. APPLICATIONS FAVORITES : NAVIGATION & MUSIQUE À LA VOIX
+--------------------------------------------------------------------------------
+• Réglage préalable (une seule fois) :
+  - Dans l'onglet Assistant, deux lignes : « Application navigation favorite »
+    et « Application musique favorite ». Chacune ouvre la liste de toutes les
+    applications installées dans la voiture ; vous choisissez la vôtre.
+  - Chaque fenêtre propose aussi « Tester maintenant » pour vérifier tout de
+    suite que l'application répond bien.
+
+• Lancer une navigation vers une adresse :
+  - « Vektra, emmène-moi à la Grand-Place de Bruxelles »
+  - « Vektra, conduis-moi au 12 rue de la Station à Manage »
+  - « Vektra, navigue vers Charleroi » / « Itinéraire vers Namur »
+  - L'adresse est d'abord localisée, puis transmise à votre application de
+    navigation favorite, qui démarre le guidage.
+  - « Vektra, arrête la navigation »
+
+• Jouer une musique précise :
+  - « Vektra, joue Thunderstruck d'AC/DC »
+  - « Vektra, mets du jazz » / « Mets de la musique classique »
+  - « Vektra, lance la chanson Bohemian Rhapsody »
+  - La recherche part dans votre application musicale favorite.
+
+--------------------------------------------------------------------------------
+14. FONCTIONNEMENT HORS-LIGNE & VEILLE
+--------------------------------------------------------------------------------
+• Commandes essentielles sans réseau :
+  - Quand la voiture n'a plus de connexion, les commandes matérielles
+    continuent de fonctionner : vitres, toit, store, coffre, portes, climatisation,
+    sièges, éclairage, modes de conduite, navigation et musique.
+  - Ce sont la conversation libre, la recherche Internet et les réponses
+    rédigées par l'intelligence artificielle qui deviennent indisponibles.
+  - Activable dans les réglages de l'assistant (« Commandes hors-ligne »).
+
+• Mise en veille et réveil :
+  - « Vektra, mets-toi en veille » / « Vektra, passe en veille »
+  - « Vektra, réveille-toi »
+  - Ces deux formulations existent dans les dix langues de l'application. Aucune
+    autre phrase ne déclenche la veille : dire « ferme la vitre » ne l'endort pas.
+
+• Veille profonde, voiture éteinte :
+  - À la coupure du contact, l'assistant cesse complètement d'écouter afin de ne
+    pas solliciter la batterie, et se remet en route à la mise du contact.
+
+--------------------------------------------------------------------------------
+15. TÉLÉMÉTRIE TEMPS RÉEL DU VÉHICULE BYD
+--------------------------------------------------------------------------------
+• Questions sur l'état en direct de votre BYD :
+  - « Vektra, combien me reste-t-il de batterie et d'autonomie ? »
+  - « Vektra, quelle est la pression des pneus ? » (donne les 4 roues en kPa)
+  - « Vektra, quel est le kilométrage de la voiture ? »
+  - « Vektra, quelle est la température extérieure ? »
+
+--------------------------------------------------------------------------------
+16. INTELLIGENCE, MÉMOIRE & COMMANDES AVANCÉES
+--------------------------------------------------------------------------------
+• Enchaîner plusieurs commandes dans une seule phrase :
+  - « Vektra, ferme les vitres, mets la clim à 21 et allume mon siège »
+  - Vektra exécute tout dans l'ordre et confirme en une seule phrase.
+
+• Se corriger ou annuler tout de suite :
+  - « Vektra, ouvre la vitre arrière droite… non, l'arrière gauche »
+  - « Vektra, annule » (revient sur la dernière action)
+
+• Actions différées :
+  - « Vektra, dans 10 minutes, ferme les vitres »
+  - « Vektra, à l'arrivée, ferme le toit »
+
+• Rappels :
+  - « Vektra, rappelle-moi de prendre le colis en arrivant »
+  - « Vektra, rappelle-moi d'appeler le garage au prochain démarrage »
+
+• Règles conditionnelles dictées à la voix :
+  - « Vektra, s'il pleut, ferme les vitres »
+  - « Vektra, s'il fait froid, allume mon siège »
+  - Conditions reconnues : pluie, froid, chaud, batterie basse, en roulant, à l'arrêt, nuit.
+
+• Tout effacer :
+  - « Vektra, oublie tes règles » / « Oublie ce qui est en attente » / « Oublie mes habitudes »
+
+• Mémoire des habitudes :
+  - Vektra retient ce que tu demandes souvent au même moment et te le propose.
+  - Activable dans les réglages de l'assistant.
+
+• Trouver une borne de recharge :
+  - « Vektra, trouve-moi une borne de recharge »
+  - Vektra cherche, annonce la borne et lance le guidage dans l'application de navigation favorite.
+
+• Questions sur la voiture :
+  - « Vektra, c'est quoi ce voyant au tableau de bord ? »
+  - « Vektra, comment se règle la régénération ? »
+
+• Mode explique-moi (une étape à la fois) :
+  - « Vektra, explique-moi comment faire … »
+
+• Traduction à la voix :
+  - « Vektra, comment on dit "où est la borne de recharge" en néerlandais ? »
+
+• Calculs, pourcentages et conversions (sans réseau) :
+  - « Vektra, 45 euros divisés par trois plus 10 % de pourboire ? »
+
+• Recherche web résumée :
+  - Vektra répond en deux phrases ; dis « cite ta source » pour obtenir la source.
+
+• Coach d'éco-conduite (à la demande) :
+  - « Vektra, comment je conduis ? »
+
+• Caractère de l'assistant (réglage) :
+  - Minimal, Équilibré ou Chaleureux. Ne change que la façon de répondre, jamais ce qu'elle sait faire.
+
+• Suivre la langue parlée (réglage) :
+  - Répond au passager dans sa langue, puis revient à la tienne.
+================================================================================

@@ -1,0 +1,369 @@
+================================================================================
+         VEKTRA ASSISTANT — TÜM YETENEKLER VE KOMUTLAR LİSTESİ
+================================================================================
+
+Vektra Assistant, BYD aracınız (DiLink 3.0 / 4.0) ve Vektra 2.0 için özel olarak
+tasarlanmış, J.A.R.V.I.S. tarzı araç içi sesli yardımcı pilotunuzdur.
+Aracın tüm donanımına, gerçek zamanlı telemetriye, ADB sistem komutlarına,
+ortam aydınlatması senkronizasyonuna ve Groq yapay zekâsına (Llama 3.3 70B) tam
+erişime sahiptir.
+
+--------------------------------------------------------------------------------
+1. UYANDIRMA, ÇAĞIRMA VE MEDYA SES SEVİYESİ KONTROLÜ
+--------------------------------------------------------------------------------
+• Nasıl çağrılır:
+  - Sadece söyleyin: «Vektra» / «Hey Vektra» / «OK Vektra»
+  - Ya da isteğinizi doğrudan söyleyin: «Vektra, sunroof'u aç»
+  - Ya da Assistant sekmesindeki sesli durum kartına veya 3D avatara dokunun.
+
+• Tek dokunuşla her şeyi durdurma:
+  - Ekrandaki ses animasyonuna tek dokunuş, devam eden yanıtı anında keser,
+    isteği iptal eder ve animasyonu kapatır. Vektra yanlışlıkla tetiklendiğinde
+    veya durmadığında kullanışlıdır.
+
+• Normal hoparlörün otomatik kısılması (Medya):
+  - Vektra'yı çağırdığınız anda, normal hoparlörün ses seviyesi (radyo, Spotify,
+    Bluetooth müzik — STREAM_MUSIC akışı) siz konuşurken ve Vektra yanıt verirken
+    otomatik olarak %20'ye düşer.
+  - Sürücü koltuk başlığı hoparlörünün ses seviyesi (Navi 14 akışı), en iyi ses
+    netliği için %100'de kalır.
+  - Vektra yanıtını bitirir bitirmez medya ses seviyesi yumuşakça geri yüklenir.
+
+• Beklemeye alma ve sesle uyandırma:
+  - «Vektra, beklemeye geç» / «Uyku moduna geç»
+  - «Vektra, uyan»
+
+--------------------------------------------------------------------------------
+2. DİL KİŞİSELLEŞTİRME, DİL YANSITMA VE VARYANTLAR
+--------------------------------------------------------------------------------
+• Akıllı dil yansıtma (Dynamic Mirroring):
+  - Vektra, kendinizi ifade etme biçiminizi gerçek zamanlı algılar ve uyum sağlar:
+    * Rahat / samimi / esprili ton: size aynı enerjiyle sıcak, canlı ve esprili
+      bir şekilde, içten bir tavırla yanıt verir.
+    * Ciddi / resmî / teknik ton: bir baş otomotiv mühendisi ve elit yardımcı
+      pilot duruşu takınır — net ve öz.
+
+• Fransızca varyantının seçimi (Belçika veya Fransa):
+  - Asistan ayarlarından yapılandırılabilir (Fransızca varyantı):
+    * Belçika: «septante» (70) ve «nonante» (90) sayılarının ve Belçika
+      deyimlerinin doğal, özgün kullanımı.
+    * Fransa: standart Fransa Fransızcası (soixante-dix, quatre-vingt-dix).
+
+• Tam çok dilli destek (6 ses dili):
+  - Sistem sesi ve yanıtları Fransızca, İngilizce, İtalyanca, Almanca, Portekizce
+    ve Türkçe olarak, yabancı fonetik karışımı olmadan sunulur.
+
+--------------------------------------------------------------------------------
+3. İLETİŞİM GÖRSELLERİ VE ORTAM LED SENKRONİZASYONU
+--------------------------------------------------------------------------------
+• Sese tepki veren 6 görsel tema:
+  - Tema 1: ekranın altında gökkuşağı spektral dalga (Google Assistant / Siri).
+  - Tema 2: dönen halkalı merkezî J.A.R.V.I.S. reaktör hologramı.
+  - Tema 3: nabız gibi atan 3D sinaptik küre (Neural Sphere).
+  - Tema 4: K.I.T.T. 2050 tarzı yatay lazer Quantum Scanner.
+  - Tema 5: titanyum prizmatik çizgi (audiophile Hi-Fi stüdyosu).
+  - Tema 6: ekranın tüm kenarında yayılan ortam halesi.
+
+• Kabin ortam LED'lerinin senkronizasyonu:
+  - «Ortam LED senkronizasyonu» ayarıyla etkinleştirilir:
+    aracın ışık çubukları ADB shell üzerinden Vektra'nın sesinin ritmine göre
+    gerçek zamanlı yanıp söner, sonra orijinal aydınlatmalarına döner.
+
+--------------------------------------------------------------------------------
+4. CANLI İNTERNET ARAMASI VE FİLTRESİZ ZEKÂ
+--------------------------------------------------------------------------------
+• Sınırsız gerçek zamanlı web araması (DuckDuckGo ile):
+  - Vektra interneti canlı tarar ve yanıtını hiçbir kesinti veya gereksiz ara
+    mesaj olmadan oluşturur.
+  - Örnekler:
+    * «Vektra, yarın Brüksel'de hava nasıl olacak?»
+    * «Vektra, Real Madrid'in son maçının skoru neydi?»
+    * «Vektra, bugünkü ekonomi haberleri neler?»
+
+• İfade özgürlüğü ve uzun süreli hafıza (Grok tarzı):
+  - Ahlakçı sansür veya çekingen filtre olmadan, her konuyu özgünlük, açık sözlülük
+    ve samimiyetle ele alabilen bir zekâ.
+  - İsimleri, alışkanlıkları, favori hedefleri ve tercihleri hatırlar.
+
+--------------------------------------------------------------------------------
+5. ELEKTRİKLİ CAMLAR (tekil veya toplu kontrol)
+--------------------------------------------------------------------------------
+• Tüm camlar:
+  - «Vektra, camları aç» / «Tüm camları aç»
+  - «Vektra, camları kapat» / «Tüm camları kapat»
+  - «Vektra, camları birazcık aç» / «Arabayı havalandır» (%20 açılır)
+  - «Vektra, camları yarıya aç» / «Camları %50 aç»
+
+• Cam cam veya bölgeye göre (5 hedef: 4 camın her biri ya da tümü):
+  - «Vektra, sürücü camını aç» / «Camımı aç»
+  - «Vektra, sürücü camını kapat»
+  - «Vektra, yolcu camını aç» / «Yolcu camını kapat»
+  - «Vektra, sol ön / sağ ön camı aç»
+  - «Vektra, sol arka / sağ arka camı aç»
+  - «Vektra, ön camları aç» / «Ön camları kapat»
+  - «Vektra, arka camları aç» / «Arka camları kapat»
+
+• Yüzdeyle açma, cam cam:
+  - «Vektra, sürücü camını %30 aç»
+  - «Vektra, sağ arka camı %70 aç»
+  - «Vektra, tüm camları %40 aç»
+  - Yüzde, tek bir cama da tüm camlara da uygulanır.
+
+--------------------------------------------------------------------------------
+6. PANORAMİK SUNROOF VE TAVAN GÜNEŞLİĞİ
+--------------------------------------------------------------------------------
+• Motorlu sunroof:
+  - «Vektra, sunroof'u aç»
+  - «Vektra, sunroof'u kapat»
+  - «Vektra, sunroof'u arala»
+  - «Vektra, sunroof'u durdur» (devam eden hareketi durdurur)
+  - «Vektra, sunroof'u %50 aç» (yüzdeyle açma)
+
+• Tavan güneşliği / perdesi:
+  - «Vektra, güneşliği aç» / «Tavan perdesini aç»
+  - «Vektra, güneşliği kapat» / «Tavan perdesini kapat»
+  - «Vektra, güneşliği durdur»
+  - «Vektra, güneşliği %30 aç» (yüzdeyle açma)
+
+--------------------------------------------------------------------------------
+7. KLİMA, ISITMA, BUZ ÇÖZME VE HAVALANDIRMA
+--------------------------------------------------------------------------------
+• Açma / Kapama / Otomatik mod:
+  - «Vektra, klimayı aç» / «Klimayı çalıştır»
+  - «Vektra, klimayı kapat»
+  - «Vektra, klimayı otomatiğe al»
+
+• Hassas sıcaklık ayarı (15 °C - 32 °C):
+  - «Vektra, klimayı 21 dereceye ayarla»
+  - «Vektra, sıcaklığı 22,5 dereceye ayarla»
+  - «Vektra, sıcakladım» (otomatik 19,5 °C'ye soğutur)
+  - «Vektra, üşüdüm» (otomatik 24,5 °C'ye ısıtır)
+
+• Fan hızı (1 - 7 seviye):
+  - «Vektra, havalandırmayı 4'e al» (1'den 7'ye)
+  - «Vektra, havalandırmayı maksimuma al» / «Havalandırmayı azalt»
+
+• Buz çözme / buğu giderme ve hava devir-daimi:
+  - «Vektra, ön cam buz çözücüyü aç» / «Buğuyu gider»
+  - «Vektra, arka cam buz çözücüyü aç»
+  - «Vektra, buz çözmeyi kapat»
+  - «Vektra, hava devir-daimini aç» / «Dış havayı al»
+
+--------------------------------------------------------------------------------
+8. KOLTUK ISITMA, KOLTUK HAVALANDIRMA VE DİREKSİYON ISITMA
+--------------------------------------------------------------------------------
+• Isıtmalı koltuklar (sürücü, yolcu veya her ikisi — 1 - 3 seviye):
+  - «Vektra, koltuğumu ısıt»
+  - «Vektra, yolcu koltuğunu ısıt»
+  - «Vektra, her iki koltuğu da ısıt»
+  - «Vektra, koltuk ısıtmayı 2. seviyeye al»
+  - «Vektra, koltuk ısıtmaları kapat»
+
+• Havalandırmalı / serinletmeli koltuklar:
+  - «Vektra, koltuğumun havalandırmasını aç» / «Havalandırmalı koltukları aç»
+  - «Vektra, yolcu koltuğunun havalandırmasını aç»
+  - «Vektra, koltuk havalandırmasını kapat»
+
+• Isıtmalı direksiyon:
+  - «Vektra, direksiyon ısıtmasını aç»
+  - «Vektra, direksiyon ısıtmasını kapat»
+
+--------------------------------------------------------------------------------
+9. DÖNEN EKRAN, BAGAJ, AYNALAR, KAPILAR VE ORTAM LED'İ
+--------------------------------------------------------------------------------
+• Merkezî DiLink ekranını döndürme (yatay / dikey):
+  - «Vektra, ekranı döndür» / «Ekranı çevir»
+  - «Vektra, ekranı dikey yap» / «Ekranı yatay yap»
+
+• Motorlu bagaj / arka kapı:
+  - «Vektra, bagajı aç»
+  - «Vektra, bagajı kapat»
+  - «Vektra, bagajı durdur» (arka kapıyı hareket hâlindeyken durdurur)
+  - Arka kapı yüzde kabul etmez: konum komutu yoktur.
+
+• Dış aynalar:
+  - «Vektra, aynaları katla»
+  - «Vektra, aynaları aç»
+
+• LED ortam aydınlatması ve kapılar:
+  - «Vektra, ortam aydınlatmasını aç» / «Ortam aydınlatmasını kapat»
+  - «Vektra, ortamı kırmızı yap» / «Ortamı maviye geçir»
+    (tanınan renkler: kırmızı, turuncu, sarı, yeşil, camgöbeği, mavi, mor, pembe, beyaz)
+  - «Vektra, ortam aydınlatmasını kıs» / «Ortamı maksimuma al»
+  - «Vektra, kapıları kilitle» / «Kapıların kilidini aç»
+
+• Gündüz farları, tavan lambası, çocuk kilidi ve kablosuz şarj:
+  - «Vektra, gündüz farlarını aç» / «Gündüz farlarını kapat»
+  - «Vektra, tavan lambasını aç» / «Kabin ışığını kapat»
+  - «Vektra, çocuk kilidini etkinleştir» / «Çocuk kilidini devre dışı bırak»
+  - «Vektra, kablosuz şarjı aç» / «Kablosuz şarjı kapat»
+
+• Sürüş sırasında güvenlik koruması:
+  - Vites D konumundayken kapıların kilitlenmesi/açılması ile bagajın açılması ve
+    kapatılması reddedilir: Vektra uygulamak yerine size söyler. Camlar, tavan ve
+    geri kalan her şey komut edilebilir kalır.
+  - Bu koruma, asistan ayarlarından açılıp kapatılır.
+
+--------------------------------------------------------------------------------
+10. SÜRÜŞ MODLARI, ENERJİ (EV / HEV) VE REJENERASYON
+--------------------------------------------------------------------------------
+• Sürüş modları:
+  - «Vektra, Sport moduna geç»
+  - «Vektra, Eco modunu aç»
+  - «Vektra, Normal moda dön»
+  - «Vektra, Kar modunu aç»
+
+• Elektrikli / hibrit tahrik (DM-i) ve rejeneratif frenleme:
+  - «Vektra, EV moduna geç» / «%100 elektriğe geç»
+  - «Vektra, HEV moduna geç» / «Hibrit moduna geç»
+  - «Vektra, rejenerasyonu yükseğe al» / «Standart rejenerasyon»
+
+--------------------------------------------------------------------------------
+11. MEDYA, MÜZİK VE SES SEVİYESİ
+--------------------------------------------------------------------------------
+• Oynatma kontrolü:
+  - «Vektra, sonraki parça» / «Sonraki şarkı»
+  - «Vektra, önceki parça»
+  - «Vektra, müziği duraklat» / «Müziği durdur»
+  - «Vektra, müziği devam ettir» / «Müziği tekrar çal»
+
+• Ses seviyesi kontrolü:
+  - «Vektra, sesi aç» / «Ses seviyesini artır»
+  - «Vektra, sesi kıs» / «Ses seviyesini azalt»
+  - «Vektra, sesi kapat» / «Sesi geri aç»
+
+--------------------------------------------------------------------------------
+12. GÖSTERGE PANELİ, 3D TEMALAR VE ADAS
+--------------------------------------------------------------------------------
+• Sürücü gösterge temaları:
+  - «Vektra, Carbon temasını uygula» (Carbon 3D)
+  - «Vektra, Aston temasını uygula» (Aston Luxury)
+  - «Vektra, VektraUI temasını uygula»
+
+• Gösterge yansıtması, orijinal duruma dönüş ve ADAS görünümü:
+  - «Vektra, yansıtmayı başlat» / «Göstergeyi yansıt» / «Göstergeyi çalıştır»
+  - «Vektra, yansıtmayı durdur» / «Yansıtmayı kapat»
+  - «Vektra, orijinal göstergeye dön» / «Göstergeyi orijinaline getir»
+  - «Vektra, ADAS'ı gizle» / «ADAS'ı göster»
+
+• Araçta yüklü herhangi bir uygulamayı açma:
+  - «Vektra, Spotify'ı aç» / «Waze'i başlat» / «YouTube'u aç» / «Netflix'i başlat»
+  - «Vektra, Google Maps'i aç» / «ABRP'yi aç» / «Coyote'u başlat» / «Chrome'u aç»
+  - «Vektra, 360 kamerayı aç» / «Radyoyu aç» / «Ayarları aç»
+  - «Vektra, [tablete yüklü herhangi bir uygulamanın adı] aç»
+  - «Vektra, hangi uygulamalar yüklü?»
+
+--------------------------------------------------------------------------------
+13. FAVORİ UYGULAMALAR: SESLE NAVİGASYON VE MÜZİK
+--------------------------------------------------------------------------------
+• Tek seferlik kurulum:
+  - Assistant sekmesinde iki satır: «Favori navigasyon uygulaması» ve «Favori
+    müzik uygulaması». Her biri araca yüklü tüm uygulamaların listesini açar;
+    kendi uygulamanızı seçersiniz.
+  - Her pencere ayrıca «Şimdi test et» seçeneği sunar; uygulamanın düzgün yanıt
+    verdiğini hemen görürsünüz.
+
+• Bir adrese navigasyon başlatma:
+  - «Vektra, beni Brüksel'deki Grand-Place'a götür»
+  - «Vektra, beni Manage'deki Rue de la Station 12'ye götür»
+  - «Vektra, Charleroi'ye yönlendir» / «Namur'a rota»
+  - Adres önce konumlandırılır, sonra favori navigasyon uygulamanıza aktarılır ve
+    yönlendirme başlar.
+  - «Vektra, navigasyonu durdur»
+
+• Belirli bir parçayı çalma:
+  - «Vektra, AC/DC'den Thunderstruck'ı çal»
+  - «Vektra, biraz caz çal» / «Klasik müzik çal»
+  - «Vektra, Bohemian Rhapsody şarkısını çal»
+  - Arama, favori müzik uygulamanıza gönderilir.
+
+--------------------------------------------------------------------------------
+14. ÇEVRİMDIŞI ÇALIŞMA VE BEKLEME
+--------------------------------------------------------------------------------
+• Ağ olmadan temel komutlar:
+  - Araç bağlantısız kaldığında donanım komutları çalışmaya devam eder: camlar,
+    tavan, güneşlik, bagaj, kapılar, klima, koltuklar, aydınlatma, sürüş modları,
+    navigasyon ve müzik.
+  - Serbest sohbet, web araması ve yapay zekânın yazdığı yanıtlar kullanılamaz
+    hâle gelir.
+  - Asistan ayarlarından etkinleştirilebilir («Çevrimdışı komutlar»).
+
+• Beklemeye alma ve uyandırma:
+  - «Vektra, beklemeye geç» / «Vektra, uyku moduna geç»
+  - «Vektra, uyan»
+  - Bu iki ifade uygulamanın on dilinde de vardır. Başka hiçbir cümle beklemeyi
+    tetiklemez: «camı kapat» demek onu uykuya almaz.
+
+• Derin uyku, araç kapalı:
+  - Kontak kapatıldığında asistan bataryayı yormamak için dinlemeyi tamamen durdurur
+    ve kontak açıldığında yeniden başlar.
+
+--------------------------------------------------------------------------------
+15. BYD ARACININ GERÇEK ZAMANLI TELEMETRİSİ
+--------------------------------------------------------------------------------
+• BYD'nizin canlı durumuyla ilgili sorular:
+  - «Vektra, ne kadar batarya ve menzilim kaldı?»
+  - «Vektra, lastik basıncı nedir?» (4 tekerleği de kPa olarak verir)
+  - «Vektra, aracın kilometresi nedir?»
+  - «Vektra, dış sıcaklık kaç derece?»
+
+--------------------------------------------------------------------------------
+16. ZEKÂ, HAFIZA VE GELİŞMİŞ KOMUTLAR
+--------------------------------------------------------------------------------
+• Tek cümlede birden fazla komut zincirleme:
+  - «Vektra, camları kapat, klimayı 21'e ayarla ve koltuğumu aç»
+  - Vektra her şeyi sırayla yapar ve tek bir cümleyle onaylar.
+
+• Hemen düzeltme veya geri alma:
+  - «Vektra, sağ arka camı aç… hayır, sol arkayı»
+  - «Vektra, geri al» (son işlemi geri alır)
+
+• Ertelenen işlemler:
+  - «Vektra, 10 dakika sonra camları kapat»
+  - «Vektra, vardığımda tavanı kapat»
+
+• Hatırlatmalar:
+  - «Vektra, vardığımda kargoyu almamı hatırlat»
+  - «Vektra, bir sonraki çalıştırmada servisi aramamı hatırlat»
+
+• Sesle söylenen kurallar:
+  - «Vektra, yağmur yağarsa camları kapat»
+  - «Vektra, hava soğuksa koltuğumu aç»
+  - Tanınan koşullar: yağmur, soğuk, sıcak, düşük batarya, sürüşte, park hâlinde, gece.
+
+• Her şeyi silme:
+  - «Vektra, kurallarını unut» / «Bekleyenleri unut» / «Alışkanlıklarımı unut»
+
+• Alışkanlık hafızası:
+  - Vektra aynı saatte sık istediklerini hatırlar ve sana önerir.
+  - Asistan ayarlarından etkinleştirilebilir.
+
+• Şarj istasyonu bulma:
+  - «Vektra, bana bir şarj istasyonu bul»
+  - Vektra arar, istasyonu bildirir ve favori navigasyon uygulamasında yönlendirmeyi başlatır.
+
+• Araçla ilgili sorular:
+  - «Vektra, göstergedeki şu uyarı ışığı nedir?»
+  - «Vektra, rejenerasyon nasıl ayarlanır?»
+
+• Anlat bana modu (adım adım):
+  - «Vektra, nasıl yapılacağını anlat …»
+
+• Sesli çeviri:
+  - «Vektra, Felemenkçe 'şarj istasyonu nerede' nasıl denir?»
+
+• Hesaplar, yüzdeler ve dönüşümler (ağ gerekmez):
+  - «Vektra, 45 euro üçe bölünür artı %10 bahşiş?»
+
+• Özetlenmiş web araması:
+  - Vektra iki cümleyle yanıtlar; kaynağı almak için «kaynağını belirt» de.
+
+• Ekonomik sürüş koçu (istek üzerine):
+  - «Vektra, nasıl sürüyorum?»
+
+• Asistanın karakteri (ayar):
+  - En az, Dengeli veya Sıcak. Yalnızca yanıt biçimini değiştirir, yapabildiklerini asla.
+
+• Konuşulan dili izleme (ayar):
+  - Yolcuya kendi dilinde yanıt verir, sonra senin diline döner.
+================================================================================
