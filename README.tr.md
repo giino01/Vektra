@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.2.8** · yayın tarihi 3 Kasım 2026 · 46.4 MB
+**SÜRÜM 2.2.9** · yayın tarihi 3 Kasım 2026 · 46.5 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.2.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.2.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,11 +103,9 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.2.8
+## Yenilikler: 2.2.9
 
-- Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.
-- Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.
-- Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil.
+- VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote
 
 ---
 

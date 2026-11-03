@@ -1,62 +1,40 @@
 {
-  "version": "2.2.8",
-  "apk": "Vektra-2.2.8.apk",
-  "size": 48646284,
+  "version": "2.2.9",
+  "apk": "Vektra-2.2.9.apk",
+  "size": 48711820,
   "notes": [
-    "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-    "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-    "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+    "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "en": [
-      "Correctif : on some vehicles the projection appeared in a small window in the middle of the cluster, with the original display still visible around it. It now fills the whole screen.",
-      "Correctif : better detection of the cluster display on tablets that expose several of them.",
-      "Ajout : the check report now shows the detected cluster type and the window size obtained, so a reduced display can be diagnosed at a glance."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "nl": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "de": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "es": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "it": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "pt": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "ar": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "tr": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ],
     "zh": [
-      "Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.",
-      "Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.",
-      "Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil."
+      "VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote"
     ]
   }
 }

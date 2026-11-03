@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.2.8** · publicada a 3 de novembro de 2026 · 46.4 MB
+**VERSÃO 2.2.9** · publicada a 3 de novembro de 2026 · 46.5 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.2.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.2.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.2.8
+## Novidades da 2.2.9
 
-- Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.
-- Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.
-- Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil.
+- VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote
 
 ---
 

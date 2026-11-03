@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.2.8** · pubblicata il 3 novembre 2026 · 46.4 MB
+**VERSIONE 2.2.9** · pubblicata il 3 novembre 2026 · 46.5 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.2.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.2.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.2.8
+## Novità della 2.2.9
 
-- Correctif : sur certains véhicules, la projection s'affichait dans une petite fenêtre au milieu du combiné, avec l'affichage d'origine visible autour. Elle occupe maintenant tout l'écran.
-- Correctif : meilleure détection de l'écran du combiné, pour les tablettes qui en proposent plusieurs.
-- Ajout : le rapport de contrôle indique le type de combiné détecté et la taille de fenêtre obtenue, pour diagnostiquer un affichage réduit en un coup d'œil.
+- VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote
 
 ---
 

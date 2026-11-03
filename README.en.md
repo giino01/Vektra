@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.8** · released on 3 November 2026 · 46.4 MB
+**VERSION 2.2.9** · released on 3 November 2026 · 46.5 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.8
+## What is new in 2.2.9
 
-- Correctif : on some vehicles the projection appeared in a small window in the middle of the cluster, with the original display still visible around it. It now fills the whole screen.
-- Correctif : better detection of the cluster display on tablets that expose several of them.
-- Ajout : the check report now shows the detected cluster type and the window size obtained, so a reduced display can be diagnosed at a glance.
+- VEKTRA 2.2.9 (WIP) : agenda, règles, habitudes, caractère, calcul local, borne de recharge, 3 alertes copilote
 
 ---
 
