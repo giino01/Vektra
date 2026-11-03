@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.2** · released on 3 November 2026 · 72.6 MB
+**VERSION 2.3.3** · released on 3 November 2026 · 72.6 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.3.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.2
+## What is new in 2.3.3
 
-- Ajout : pick your BYD model on first start, then any time in the settings — the powertrain (electric or hybrid) then adjusts on its own.
-- Ajout : the assistant knows your model and the standard dashboard warning lights, for more accurate answers about your car.
-- Ajout : optional offline voice recognition (beta) — the wake word and short commands can be understood right in the car, with no network, for less waiting.
+- Correctif : the speedometer needle is smoother and no longer stutters when the tablet is busy.
 
 ---
 

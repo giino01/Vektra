@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.3.2** · publicada a 3 de novembro de 2026 · 72.6 MB
+**VERSÃO 2.3.3** · publicada a 3 de novembro de 2026 · 72.6 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.3.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,9 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.3.2
+## Novidades da 2.3.3
 
-- Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.
-- Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.
-- Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente.
+- Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée.
 
 ---
 

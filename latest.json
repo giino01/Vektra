@@ -1,62 +1,40 @@
 {
-  "version": "2.3.2",
-  "apk": "Vektra-2.3.2.apk",
-  "size": 76165656,
+  "version": "2.3.3",
+  "apk": "Vektra-2.3.3.apk",
+  "size": 76165736,
   "notes": [
-    "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-    "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-    "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+    "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "en": [
-      "Ajout : pick your BYD model on first start, then any time in the settings — the powertrain (electric or hybrid) then adjusts on its own.",
-      "Ajout : the assistant knows your model and the standard dashboard warning lights, for more accurate answers about your car.",
-      "Ajout : optional offline voice recognition (beta) — the wake word and short commands can be understood right in the car, with no network, for less waiting."
+      "Correctif : the speedometer needle is smoother and no longer stutters when the tablet is busy."
     ],
     "nl": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "de": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "es": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "it": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "pt": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "ar": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "tr": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ],
     "zh": [
-      "Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.",
-      "Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.",
-      "Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente."
+      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
     ]
   }
 }
