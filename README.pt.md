@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.2.6** · publicada a 3 de novembro de 2026 · 46.4 MB
+**VERSÃO 2.2.7** · publicada a 3 de novembro de 2026 · 46.4 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.2.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.2.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,10 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.2.6
+## Novidades da 2.2.7
 
-- Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).
-- Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question).
+- Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.
+- Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.
+- Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.
+- Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.
+- Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page.
 
 ---
 

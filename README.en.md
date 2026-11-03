@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.2.6** · released on 3 November 2026 · 46.4 MB
+**VERSION 2.2.7** · released on 3 November 2026 · 46.4 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.2.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.2.6
+## What is new in 2.2.7
 
-- Correctif : parking voice guidance finally works — Vektra now reads the reverse sensor distances correctly and announces the steps (80, 60, 40, 30 cm, Stop).
-- Correctif : the rain option label now matches what it actually does (just an alert, no question).
+- Ajout : pick your favorite navigation app and favorite music app in the Assistant tab, from the list of all apps installed in the car.
+- Ajout : "Vektra, take me to this address" sends the destination to your navigation app and starts guidance.
+- Ajout : "Vektra, play this music" starts playback in your music app.
+- Ajout : a button to immediately test that the chosen app responds.
+- Correctif : the explanation card at the bottom of the Assistant tab was removed to lighten the page.
 
 ---
 

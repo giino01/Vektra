@@ -1,51 +1,84 @@
 {
-  "version": "2.2.6",
-  "apk": "Vektra-2.2.6.apk",
-  "size": 48612964,
+  "version": "2.2.7",
+  "apk": "Vektra-2.2.7.apk",
+  "size": 48637776,
   "notes": [
-    "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-    "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+    "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+    "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+    "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+    "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+    "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "en": [
-      "Correctif : parking voice guidance finally works — Vektra now reads the reverse sensor distances correctly and announces the steps (80, 60, 40, 30 cm, Stop).",
-      "Correctif : the rain option label now matches what it actually does (just an alert, no question)."
+      "Ajout : pick your favorite navigation app and favorite music app in the Assistant tab, from the list of all apps installed in the car.",
+      "Ajout : \"Vektra, take me to this address\" sends the destination to your navigation app and starts guidance.",
+      "Ajout : \"Vektra, play this music\" starts playback in your music app.",
+      "Ajout : a button to immediately test that the chosen app responds.",
+      "Correctif : the explanation card at the bottom of the Assistant tab was removed to lighten the page."
     ],
     "nl": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "de": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "es": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "it": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "pt": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "ar": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "tr": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ],
     "zh": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — Vektra lit désormais correctement les distances des capteurs de recul et annonce les paliers (80, 60, 40, 30 cm, Stop).",
-      "Correctif : le libellé de l'option pluie correspond à son vrai fonctionnement (simple alerte, sans question)."
+      "Ajout : choix de ton application de navigation favorite et de ton application de musique favorite dans l'onglet Assistant, avec la liste de toutes les applications installées dans la voiture.",
+      "Ajout : « Vektra, emmène-moi à telle adresse » envoie la destination à ton application de navigation et lance le guidage.",
+      "Ajout : « Vektra, joue telle musique » lance la lecture dans ton application de musique.",
+      "Ajout : un bouton pour tester tout de suite que l'application choisie répond bien.",
+      "Correctif : la fiche d'explications en bas de l'onglet Assistant a été retirée pour alléger la page."
     ]
   }
 }
