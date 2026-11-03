@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.0** · released on 3 November 2026 · 46.4 MB
+**VERSION 2.3.1** · released on 3 November 2026 · 46.4 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,30 +103,9 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.0
+## What is new in 2.3.1
 
-- Ajout : several requests in one sentence — "close the windows and set the climate to 21 and turn on my seat".
-- Ajout : correct yourself without repeating everything — "open the rear right… no, the rear left".
-- Ajout : delayed actions — "in 10 minutes, close the windows".
-- Ajout : reminders — "remind me to take the parcel when I arrive".
-- Ajout : rules dictated by voice — "if it rains, close the windows".
-- Ajout : habit memory, reminding you what you often ask at the same time of day.
-- Ajout : voice search for a charging point, with guidance started in your navigation app.
-- Ajout : questions about the car itself — a button, a dashboard light, how a function is set.
-- Ajout : explain-me mode, walking through a procedure one step at a time.
-- Ajout : spoken translation, pronounced in the right language.
-- Ajout : calculations, percentages and conversions handled without a network.
-- Ajout : search answers summarised in two sentences.
-- Ajout : stories for the children and family quizzes on long trips.
-- Ajout : eco-driving coach on request, with a single tip at a time.
-- Ajout : assistant character of your choice — minimal, balanced or warm.
-- Ajout : answers in the language of the passenger speaking, optional.
-- Ajout : copilot fog alert.
-- Ajout : lights reminder when the light drops while driving.
-- Ajout : announcement when the network drops and when it returns.
-- Ajout : a "Pending" row in the settings, to see and clear what is scheduled.
-- Correctif : the voice now comes out of the driver's headrest speaker for everyone.
-- Correctif : lighter settings — projection intro, read rate, audio output and notification access have left the page.
+- Ajout : the Assistant tab is now arranged in collapsible sections — tap a title to open it, tap again to close. Everything starts collapsed, and the voice assistant with the mic gain stay at the top.
 
 ---
 
