@@ -345,6 +345,7 @@ iluminación ambiental y a la inteligencia artificial Groq (Llama 3.3 70B).
 
 • Preguntas sobre el coche:
   - «Vektra, ¿qué es ese testigo del cuadro?»
+  - «Vektra, ¿qué modelo tengo?» / «¿Mi coche es eléctrico o híbrido?»
   - «Vektra, ¿cómo se ajusta la regeneración?»
 
 • Modo explícame (paso a paso):

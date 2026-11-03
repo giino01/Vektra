@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.3.1** · yayın tarihi 3 Kasım 2026 · 46.4 MB
+**SÜRÜM 2.3.2** · yayın tarihi 3 Kasım 2026 · 72.6 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.2.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -49,13 +49,13 @@ Her tema koyu ve açık olarak vardır. Açık arka plan, fotoğraf üzerinden �
 
 1. Uygulama dosyasını bu sayfadan tablete indirin.
 2. Açın ve kurulumu onaylayın. Android reddederse kullandığınız dosya yöneticisi için "bilinmeyen kaynaklar"a izin verin.
-3. VEKTRA'yı açın. İlk açılışta karşılama ekranı dili sorar.
-4. **Devam**'a dokunun. Ana ekran açılır.
+3. VEKTRA'yı açın. İlk açılışta karşılama ekranı önce dili, sonra araç modelinizi sorar.
+4. Dilini, ardından modelini seç; her adımda **Devam**'a dokun. Ana ekran açılır.
 5. Gönderilen ilk komut **"USB hata ayıklamaya izin verilsin mi?"** sorusunu getirir. **Her zaman izin ver**'i işaretleyip onaylayın. Bu yalnızca bir kez çıkar.
 
 ![Karşılama ekranı ve dil seçimi](img/accueil-langue.png)
 
-Altı dil mevcut: Fransızca, İngilizce, İtalyanca, Almanca, Brezilya Portekizcesi ve Türkçe.
+On dil mevcut: Fransızca, İngilizce, Felemenkçe, Almanca, İspanyolca, İtalyanca, Brezilya Portekizcesi, Arapça, Türkçe ve Çince.
 
 ## Göstergeyi açmak
 
@@ -103,9 +103,11 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.3.1
+## Yenilikler: 2.3.2
 
-- Ajout : l'onglet Assistant est rangé en sections repliables — un appui sur un titre l'ouvre, un autre le referme. Tout part replié, et l'assistant vocal avec le gain du micro restent en haut.
+- Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.
+- Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.
+- Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente.
 
 ---
 

@@ -344,6 +344,7 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
 
 • Questions sur la voiture :
   - « Vektra, c'est quoi ce voyant au tableau de bord ? »
+  - « Vektra, quel est mon modèle ? » / « Ma voiture est électrique ou hybride ? »
   - « Vektra, comment se règle la régénération ? »
 
 • Mode explique-moi (une étape à la fois) :

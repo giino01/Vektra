@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.1** · released on 3 November 2026 · 46.4 MB
+**VERSION 2.3.2** · released on 3 November 2026 · 72.6 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -49,13 +49,13 @@ Every theme exists in dark and light. The light background picks up the blue-gre
 
 1. Download the application file from this page, on the tablet.
 2. Open it and accept the installation. If Android refuses, allow "unknown sources" for the file manager you used.
-3. Open VEKTRA. On the very first start, the welcome screen asks for the language.
-4. Press **Continue**. The main screen opens.
+3. Open VEKTRA. On the very first start, the welcome screen asks for the language, then your car model.
+4. Pick your language then your model, pressing **Continue** at each step. The main screen opens.
 5. The first command sent will raise the prompt **"Allow USB debugging?"**. Tick **Always allow**, then accept. This prompt appears only once.
 
 ![Welcome screen and language choice](img/accueil-langue.png)
 
-Six languages are available: French, English, Italian, German, Brazilian Portuguese and Turkish.
+Ten languages are available: French, English, Dutch, German, Spanish, Italian, Brazilian Portuguese, Arabic, Turkish and Chinese.
 
 ## Turning the display on
 
@@ -103,9 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.1
+## What is new in 2.3.2
 
-- Ajout : the Assistant tab is now arranged in collapsible sections — tap a title to open it, tap again to close. Everything starts collapsed, and the voice assistant with the mic gain stay at the top.
+- Ajout : pick your BYD model on first start, then any time in the settings — the powertrain (electric or hybrid) then adjusts on its own.
+- Ajout : the assistant knows your model and the standard dashboard warning lights, for more accurate answers about your car.
+- Ajout : optional offline voice recognition (beta) — the wake word and short commands can be understood right in the car, with no network, for less waiting.
 
 ---
 

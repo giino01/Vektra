@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.3.1** · veröffentlicht am 3. November 2026 · 46.4 MB
+**VERSION 2.3.2** · veröffentlicht am 3. November 2026 · 72.6 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.3.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.3.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -49,13 +49,13 @@ Jedes Thema gibt es dunkel und hell. Der helle Hintergrund nimmt das Blaugrau de
 
 1. Lade die Anwendungsdatei von dieser Seite auf das Tablet.
 2. Öffne sie und bestätige die Installation. Lehnt Android ab, erlaube „unbekannte Quellen" für den verwendeten Dateimanager.
-3. Öffne VEKTRA. Beim allerersten Start fragt der Startbildschirm nach der Sprache.
-4. Tippe auf **Weiter**. Der Hauptbildschirm öffnet sich.
+3. Öffne VEKTRA. Beim allerersten Start fragt der Startbildschirm nach der Sprache, dann nach deinem Fahrzeugmodell.
+4. Wähle deine Sprache und dann dein Modell und tippe bei jedem Schritt auf **Weiter**. Der Hauptbildschirm öffnet sich.
 5. Beim ersten gesendeten Befehl erscheint die Abfrage **„USB-Debugging zulassen?"**. Setze das Häkchen bei **Immer zulassen** und bestätige. Sie erscheint nur einmal.
 
 ![Startbildschirm und Sprachwahl](img/accueil-langue.png)
 
-Sechs Sprachen stehen zur Verfügung: Französisch, Englisch, Italienisch, Deutsch, brasilianisches Portugiesisch und Türkisch.
+Zehn Sprachen stehen zur Verfügung: Französisch, Englisch, Niederländisch, Deutsch, Spanisch, Italienisch, brasilianisches Portugiesisch, Arabisch, Türkisch und Chinesisch.
 
 ## Anzeige einschalten
 
@@ -103,9 +103,11 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.3.1
+## Neu in 2.3.2
 
-- Ajout : l'onglet Assistant est rangé en sections repliables — un appui sur un titre l'ouvre, un autre le referme. Tout part replié, et l'assistant vocal avec le gain du micro restent en haut.
+- Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.
+- Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.
+- Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente.
 
 ---
 

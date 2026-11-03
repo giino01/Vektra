@@ -345,6 +345,7 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
 
 • Domande sull'auto:
   - «Vektra, cos'è quella spia sul quadro?»
+  - «Vektra, qual è il mio modello?» / «La mia auto è elettrica o ibrida?»
   - «Vektra, come si regola la rigenerazione?»
 
 • Modalità spiegami (un passo alla volta):

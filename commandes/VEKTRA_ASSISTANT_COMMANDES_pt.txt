@@ -345,6 +345,7 @@ inteligência artificial Groq (Llama 3.3 70B).
 
 • Perguntas sobre o carro:
   - «Vektra, o que é aquela luz no painel?»
+  - «Vektra, qual é o meu modelo?» / «O meu carro é elétrico ou híbrido?»
   - «Vektra, como se regula a regeneração?»
 
 • Modo explica-me (um passo de cada vez):

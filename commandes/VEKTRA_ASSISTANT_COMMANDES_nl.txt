@@ -344,6 +344,7 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
 
 • Vragen over de auto:
   - "Vektra, wat is dat waarschuwingslampje op het dashboard?"
+  - "Vektra, welk model rijd ik?" / "Is mijn auto elektrisch of hybride?"
   - "Vektra, hoe stel je de recuperatie in?"
 
 • Leg-me-uit-modus (één stap tegelijk):

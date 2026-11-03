@@ -346,6 +346,7 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
 
 • Fragen zum Auto:
   - „Vektra, was ist diese Warnleuchte im Kombiinstrument?"
+  - „Vektra, welches Modell fahre ich?" / „Ist mein Auto elektrisch oder Hybrid?"
   - „Vektra, wie stellt man die Rekuperation ein?"
 
 • Erklär-mir-Modus (Schritt für Schritt):

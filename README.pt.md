@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.3.1** · publicada a 3 de novembro de 2026 · 46.4 MB
+**VERSÃO 2.3.2** · publicada a 3 de novembro de 2026 · 72.6 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -49,13 +49,13 @@ Cada tema existe em escuro e em claro. O fundo claro retoma o azul-acinzentado d
 
 1. Transfere o ficheiro da aplicação a partir desta página, no tablet.
 2. Abre-o e aceita a instalação. Se o Android recusar, autoriza as «fontes desconhecidas» para o gestor de ficheiros usado.
-3. Abre o VEKTRA. No primeiro arranque, o ecrã inicial pergunta o idioma.
-4. Carrega em **Continuar**. Abre-se o ecrã principal.
+3. Abre o VEKTRA. No primeiro arranque, o ecrã inicial pergunta o idioma e depois o modelo do teu carro.
+4. Escolhe o idioma e depois o modelo, carregando em **Continuar** em cada passo. Abre-se o ecrã principal.
 5. O primeiro comando enviado fará aparecer o pedido **«Permitir depuração USB?»**. Assinala **Permitir sempre** e aceita. Só aparece uma vez.
 
 ![Ecrã inicial e escolha do idioma](img/accueil-langue.png)
 
-Estão disponíveis seis idiomas: francês, inglês, italiano, alemão, português do Brasil e turco.
+Estão disponíveis dez idiomas: francês, inglês, neerlandês, alemão, espanhol, italiano, português do Brasil, árabe, turco e chinês.
 
 ## Ativar a visualização
 
@@ -103,9 +103,11 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.3.1
+## Novidades da 2.3.2
 
-- Ajout : l'onglet Assistant est rangé en sections repliables — un appui sur un titre l'ouvre, un autre le referme. Tout part replié, et l'assistant vocal avec le gain du micro restent en haut.
+- Ajout : choix du modèle de ta BYD au premier démarrage, puis à tout moment dans les réglages — la motorisation (électrique ou hybride) s'ajuste alors toute seule.
+- Ajout : l'assistant connaît ton modèle et les témoins standard du tableau de bord, pour des réponses plus justes sur ta voiture.
+- Ajout : reconnaissance vocale hors-ligne en option (bêta) — le réveil et les commandes courtes peuvent être compris directement dans la voiture, sans réseau, pour moins d'attente.
 
 ---
 

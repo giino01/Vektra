@@ -344,6 +344,7 @@ Groq artificial intelligence (Llama 3.3 70B).
 
 • Questions about the car:
   - "Vektra, what's that warning light on the dashboard?"
+  - "Vektra, which model am I driving?" / "Is my car electric or hybrid?"
   - "Vektra, how do I set the regeneration?"
 
 • Explain-me mode (one step at a time):
