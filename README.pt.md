@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.3.3** · publicada a 3 de novembro de 2026 · 72.6 MB
+**VERSÃO 2.3.4** · publicada a 4 de novembro de 2026 · 72.6 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.3.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.4.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,9 +103,10 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.3.3
+## Novidades da 2.3.4
 
-- Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée.
+- Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.
+- Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué.
 
 ---
 

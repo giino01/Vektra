@@ -1,40 +1,51 @@
 {
-  "version": "2.3.3",
-  "apk": "Vektra-2.3.3.apk",
-  "size": 76165736,
+  "version": "2.3.4",
+  "apk": "Vektra-2.3.4.apk",
+  "size": 76165880,
   "notes": [
-    "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+    "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+    "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "en": [
-      "Correctif : the speedometer needle is smoother and no longer stutters when the tablet is busy."
+      "Ajout : the ambient lights now pulse to Vektra's voice when it speaks to you, on top of your own voice.",
+      "Correctif : the ambient-light flicker during voice exchanges is more pronounced."
     ],
     "nl": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "de": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "es": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "it": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "pt": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "ar": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "tr": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ],
     "zh": [
-      "Correctif : l'aiguille du compteur est plus fluide et ne saccade plus quand la tablette est chargée."
+      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
+      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
     ]
   }
 }
