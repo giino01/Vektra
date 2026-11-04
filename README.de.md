@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.3.5** · veröffentlicht am 4. November 2026 · 72.6 MB
+**VERSION 2.3.6** · veröffentlicht am 4. November 2026 · 72.7 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.3.5.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.3.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.3.5
+## Neu in 2.3.6
 
-- Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).
-- Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra.
+- Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.
+- Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).
+- Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.
+- Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.
+- Correctif : suppression du rappel des feux dans le copilote.
 
 ---
 

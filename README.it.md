@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.3.5** · pubblicata il 4 novembre 2026 · 72.6 MB
+**VERSIONE 2.3.6** · pubblicata il 4 novembre 2026 · 72.7 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.3.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.3.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,13 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.3.5
+## Novità della 2.3.6
 
-- Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).
-- Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra.
+- Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.
+- Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).
+- Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.
+- Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.
+- Correctif : suppression du rappel des feux dans le copilote.
 
 ---
 

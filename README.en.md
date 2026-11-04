@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.5** · released on 4 November 2026 · 72.6 MB
+**VERSION 2.3.6** · released on 4 November 2026 · 72.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.5
+## What is new in 2.3.6
 
-- Correctif : parking voice guidance now works — reverse sensors are read live with 3 clear voice prompts ("Stop!", "obstacle close", "obstacle detected", or silence when clear).
-- Ajout : ambient-light flicker during voice exchanges is significantly stronger and more dynamic with both your voice and Vektra's.
+- Ajout : continuous conversation with Vektra in settings — media volume stays lowered and auto-sleep after 5 seconds of silence.
+- Ajout : quick GPS reset and unfreeze button in settings if location freezes, plus system voice commands (Wi-Fi, Bluetooth, mobile data, GPS).
+- Ajout : trip voice summary when parked in P (distance, average consumption, battery level) and key fob low battery warning.
+- Ajout : proactive Snow mode voice advisory in freezing temperatures or snowfall.
+- Correctif : removed headlight reminder from proactive copilot.
 
 ---
 

@@ -1,51 +1,84 @@
 {
-  "version": "2.3.5",
-  "apk": "Vektra-2.3.5.apk",
-  "size": 76170176,
+  "version": "2.3.6",
+  "apk": "Vektra-2.3.6.apk",
+  "size": 76195204,
   "notes": [
-    "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-    "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+    "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+    "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+    "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+    "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+    "Correctif : suppression du rappel des feux dans le copilote."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "en": [
-      "Correctif : parking voice guidance now works — reverse sensors are read live with 3 clear voice prompts (\"Stop!\", \"obstacle close\", \"obstacle detected\", or silence when clear).",
-      "Ajout : ambient-light flicker during voice exchanges is significantly stronger and more dynamic with both your voice and Vektra's."
+      "Ajout : continuous conversation with Vektra in settings — media volume stays lowered and auto-sleep after 5 seconds of silence.",
+      "Ajout : quick GPS reset and unfreeze button in settings if location freezes, plus system voice commands (Wi-Fi, Bluetooth, mobile data, GPS).",
+      "Ajout : trip voice summary when parked in P (distance, average consumption, battery level) and key fob low battery warning.",
+      "Ajout : proactive Snow mode voice advisory in freezing temperatures or snowfall.",
+      "Correctif : removed headlight reminder from proactive copilot."
     ],
     "nl": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "de": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "es": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "it": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "pt": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "ar": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "tr": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ],
     "zh": [
-      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
-      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
+      "Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.",
+      "Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).",
+      "Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.",
+      "Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.",
+      "Correctif : suppression du rappel des feux dans le copilote."
     ]
   }
 }
