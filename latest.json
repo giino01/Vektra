@@ -1,51 +1,51 @@
 {
-  "version": "2.3.4",
-  "apk": "Vektra-2.3.4.apk",
-  "size": 76165880,
+  "version": "2.3.5",
+  "apk": "Vektra-2.3.5.apk",
+  "size": 76170176,
   "notes": [
-    "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-    "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+    "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+    "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "en": [
-      "Ajout : the ambient lights now pulse to Vektra's voice when it speaks to you, on top of your own voice.",
-      "Correctif : the ambient-light flicker during voice exchanges is more pronounced."
+      "Correctif : parking voice guidance now works — reverse sensors are read live with 3 clear voice prompts (\"Stop!\", \"obstacle close\", \"obstacle detected\", or silence when clear).",
+      "Ajout : ambient-light flicker during voice exchanges is significantly stronger and more dynamic with both your voice and Vektra's."
     ],
     "nl": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "de": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "es": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "it": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "pt": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "ar": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "tr": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ],
     "zh": [
-      "Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.",
-      "Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué."
+      "Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).",
+      "Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra."
     ]
   }
 }

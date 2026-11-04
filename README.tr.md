@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.3.4** · yayın tarihi 4 Kasım 2026 · 72.6 MB
+**SÜRÜM 2.3.5** · yayın tarihi 4 Kasım 2026 · 72.6 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,10 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.3.4
+## Yenilikler: 2.3.5
 
-- Ajout : les LED d'ambiance pulsent aussi au rythme de la voix de Vektra quand il te parle, en plus de ta propre voix.
-- Correctif : le scintillement des LED d'ambiance pendant les échanges vocaux est plus marqué.
+- Correctif : le guidage vocal au stationnement fonctionne enfin — les capteurs de recul sont écoutés en direct avec 3 annonces claires (« Stop ! », « obstacle proche », « obstacle détecté », ou silence si la voie est libre).
+- Ajout : le scintillement des LED d'ambiance pendant les échanges vocaux est nettement plus fort et contrasté avec ta voix et celle de Vektra.
 
 ---
 
