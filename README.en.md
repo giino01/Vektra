@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.6** · released on 4 November 2026 · 72.7 MB
+**VERSION 2.3.7** · released on 4 November 2026 · 72.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.6
+## What is new in 2.3.7
 
-- Ajout : continuous conversation with Vektra in settings — media volume stays lowered and auto-sleep after 5 seconds of silence.
-- Ajout : quick GPS reset and unfreeze button in settings if location freezes, plus system voice commands (Wi-Fi, Bluetooth, mobile data, GPS).
-- Ajout : trip voice summary when parked in P (distance, average consumption, battery level) and key fob low battery warning.
-- Ajout : proactive Snow mode voice advisory in freezing temperatures or snowfall.
-- Correctif : removed headlight reminder from proactive copilot.
+- Ajout : ambient lights turn bright red when Vektra speaks and blink to its voice.
+- Ajout : sharp, punchy ambient light blinking (levels 1 to 5 on front and rear zones) while keeping your original color when speaking to Vektra.
+- Correctif : accurate restore of the original ambient light color and brightness as soon as the voice interaction ends.
+- Correctif : cold reset of the GPS chip in settings and via voice (purging corrupt aiding data, re-injecting accurate time and fresh satellite ephemeris).
 
 ---
 

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.3.6** · yayın tarihi 4 Kasım 2026 · 72.7 MB
+**SÜRÜM 2.3.7** · yayın tarihi 4 Kasım 2026 · 72.7 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,12 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.3.6
+## Yenilikler: 2.3.7
 
-- Ajout : conversation continue avec Vektra dans les réglages — le volume média reste baissé et Vektra se remet en veille après 5 secondes de silence.
-- Ajout : bouton de réinitialisation et déblocage rapide du GPS dans les réglages en cas de localisation figée, et commandes vocales système (Wi-Fi, Bluetooth, données mobiles, GPS).
-- Ajout : bilan vocal de fin de trajet à l'arrêt en position P (distance, consommation moyenne, batterie restante) et surveillance de la pile de la clé.
-- Ajout : avertissement vocal préventif du mode Neige par temps de gel ou de neige.
-- Correctif : suppression du rappel des feux dans le copilote.
+- Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.
+- Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.
+- Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.
+- Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches).
 
 ---
 
