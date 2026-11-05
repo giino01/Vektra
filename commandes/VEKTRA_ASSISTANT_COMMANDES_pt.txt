@@ -195,11 +195,17 @@ inteligência artificial Groq (Llama 3.3 70B).
   - «Vektra, baixa a iluminação de ambiente» / «Põe o ambiente no máximo»
   - «Vektra, tranca as portas» / «Destranca as portas»
 
-• Luzes diurnas, luz de teto, bloqueio para crianças e carregamento sem fios:
+• Luzes diurnas, luz de teto, bloqueio para crianças, carregamento sem fios e sensores de estacionamento:
   - «Vektra, liga as luzes diurnas» / «Desliga as luzes diurnas»
   - «Vektra, liga a luz de teto» / «Desliga a luz do habitáculo»
   - «Vektra, ativa o bloqueio para crianças» / «Desativa o bloqueio para crianças»
   - «Vektra, liga o carregador sem fios» / «Desliga o carregamento sem fios»
+  - «Vektra, ativa os sensores de estacionamento» / «Liga o radar de marcha-atrás»
+  - «Vektra, desliga os sensores» / «Desativa o radar de estacionamento»
+
+• Seleção do motor de voz (interno BYD ou natural Microsoft):
+  - «Vektra, ativa a voz interna» / «Usa a voz BYD»
+  - «Vektra, ativa a voz Microsoft» / «Usa a voz natural»
 
 • Proteção de segurança em andamento:
   - Com a alavanca em D, o trancar e destrancar das portas, bem como abrir e

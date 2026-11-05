@@ -196,11 +196,17 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
   - „Vektra, dimme die Ambientebeleuchtung" / „Stelle das Ambiente auf Maximum"
   - „Vektra, verriegle die Türen" / „Entriegle die Türen"
 
-• Tagfahrlicht, Innenleuchte, Kindersicherung & kabelloses Laden:
+• Tagfahrlicht, Innenleuchte, Kindersicherung, kabelloses Laden & Parksensoren:
   - „Vektra, schalte das Tagfahrlicht ein" / „Schalte das Tagfahrlicht aus"
   - „Vektra, schalte die Innenleuchte ein" / „Schalte das Innenlicht aus"
   - „Vektra, aktiviere die Kindersicherung" / „Deaktiviere die Kindersicherung"
   - „Vektra, aktiviere das kabellose Laden" / „Schalte das kabellose Laden aus"
+  - „Vektra, aktiviere die Parksensoren" / „Schalte das Rückfahrradar ein"
+  - „Vektra, schalte die Parksensoren aus" / „Deaktiviere das Radar"
+
+• Auswahl des Sprachsystems (internes BYD oder natürliche Microsoft-Stimme):
+  - „Vektra, aktiviere die interne Stimme" / „Nutze die BYD-Stimme"
+  - „Vektra, aktiviere die Microsoft-Stimme" / „Nutze die natürliche Stimme"
 
 • Sicherheitssperre während der Fahrt:
   - Wenn der Hebel auf D steht, werden das Ver- und Entriegeln der Türen sowie das

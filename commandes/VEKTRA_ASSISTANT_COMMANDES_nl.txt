@@ -194,11 +194,17 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
   - "Vektra, dim de sfeerverlichting" / "Zet de sfeer op maximum"
   - "Vektra, vergrendel de deuren" / "Ontgrendel de deuren"
 
-• Dagrijlichten, plafondlamp, kinderslot & draadloos laden:
+• Dagrijlichten, plafondlamp, kinderslot, draadloos laden & parkeersensoren:
   - "Vektra, zet de dagrijlichten aan" / "Zet de dagrijlichten uit"
   - "Vektra, zet de plafondlamp aan" / "Zet het interieurlicht uit"
   - "Vektra, activeer het kinderslot" / "Schakel het kinderslot uit"
   - "Vektra, zet de draadloze lader aan" / "Zet het draadloos laden uit"
+  - "Vektra, activeer de parkeersensoren" / "Zet de achteruitrijradar aan"
+  - "Vektra, schakel de radar uit" / "Deactiveer parkeersensoren"
+
+• Keuze van spraakengine (interne BYD of natuurlijke Microsoft-stem):
+  - "Vektra, activeer de interne stem" / "Gebruik de BYD-stem"
+  - "Vektra, activeer de Microsoft-stem" / "Gebruik de natuurlijke stem"
 
 • Veiligheidsvergrendeling tijdens het rijden:
   - Wanneer de versnelling op D staat, worden het vergrendelen en ontgrendelen

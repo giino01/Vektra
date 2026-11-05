@@ -195,11 +195,17 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
   - «Vektra, abbassa l'illuminazione d'ambiente» / «Metti l'ambiente al massimo»
   - «Vektra, blocca le portiere» / «Sblocca le portiere»
 
-• Luci diurne, plafoniera, sicurezza bambini e ricarica wireless:
+• Luci diurne, plafoniera, sicurezza bambini, ricarica wireless e sensori di parcheggio:
   - «Vektra, accendi le luci diurne» / «Spegni le luci diurne»
   - «Vektra, accendi la plafoniera» / «Spegni la luce dell'abitacolo»
   - «Vektra, attiva la sicurezza bambini» / «Disattiva la sicurezza bambini»
   - «Vektra, attiva il caricatore wireless» / «Spegni la ricarica wireless»
+  - «Vektra, attiva i sensori di parcheggio» / «Accendi i radar»
+  - «Vektra, spegni i radar» / «Disattiva i sensori di parcheggio»
+
+• Scelta del motore vocale (interno BYD o naturale Microsoft):
+  - «Vektra, attiva la voce interna» / «Usa la voce BYD»
+  - «Vektra, attiva la voce Microsoft» / «Usa la voce naturale»
 
 • Blocco di sicurezza durante la marcia:
   - Con la marcia su D, il blocco e lo sblocco delle portiere e l'apertura e la

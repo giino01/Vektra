@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.9** · released on 5 November 2026 · 72.7 MB
+**VERSION 2.3.10** · released on 5 November 2026 · 72.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.10.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.9
+## What is new in 2.3.10
 
-- Fix: trip summary when parking in P position — dynamic, precise calculation of distance and real consumption for every trip, fixing the static audio repetition issue.
-- Fix: proactive parking radar voice guidance — live detection of parking maneuvers and responsive voice alerts (immediate Stop, close obstacle, detected obstacle) combining discrete sensors and distance measurements.
-- Add: dedicated voice commands to turn parking and reverse radars on or off hands-free.
-- Improvement: full vehicle hardware integration and fast communication across all car equipment (gearbox status, windows, climate, radar sensors, lights).
+- Add: toggle switch for car internal voice engine — one-tap switch to 100% local, ultra-responsive speech synthesis with zero network dependency.
+- Add: smart 800 ms voice fallback — automatically falls back to internal voice if online voice takes over 800 ms, completely eliminating silence and delays.
+- Fix: instant parking radar voice guidance — zero-latency obstacle warnings ("Stop!", "close obstacle", "detected obstacle") fully processed offline.
+- Fix: full Belgian French numbers — complete support for numbers 70-79 (septante...) and 90-99 (nonante...) across all assistant speech and trip summaries.
+- Add: voice commands to switch between internal car voice and Microsoft natural voice.
 
 ---
 

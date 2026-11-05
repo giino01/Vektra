@@ -194,11 +194,17 @@ erişime sahiptir.
   - «Vektra, ortam aydınlatmasını kıs» / «Ortamı maksimuma al»
   - «Vektra, kapıları kilitle» / «Kapıların kilidini aç»
 
-• Gündüz farları, tavan lambası, çocuk kilidi ve kablosuz şarj:
+• Gündüz farları, tavan lambası, çocuk kilidi, kablosuz şarj ve park sensörleri:
   - «Vektra, gündüz farlarını aç» / «Gündüz farlarını kapat»
   - «Vektra, tavan lambasını aç» / «Kabin ışığını kapat»
   - «Vektra, çocuk kilidini etkinleştir» / «Çocuk kilidini devre dışı bırak»
   - «Vektra, kablosuz şarjı aç» / «Kablosuz şarjı kapat»
+  - «Vektra, park sensörlerini aç» / «Geri görüş radarını etkinleştir»
+  - «Vektra, radarları kapat» / «Park radarını devre dışı bırak»
+
+• Ses motoru seçimi (dahili BYD veya Microsoft doğal ses):
+  - «Vektra, dahili sesi etkinleştir» / «BYD sesini kullan»
+  - «Vektra, Microsoft sesini aç» / «Doğal sesi kullan»
 
 • Sürüş sırasında güvenlik koruması:
   - Vites D konumundayken kapıların kilitlenmesi/açılması ile bagajın açılması ve

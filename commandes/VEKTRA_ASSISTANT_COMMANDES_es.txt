@@ -195,11 +195,17 @@ iluminación ambiental y a la inteligencia artificial Groq (Llama 3.3 70B).
   - «Vektra, baja la iluminación ambiental» / «Pon el ambiente al máximo»
   - «Vektra, bloquea las puertas» / «Desbloquea las puertas»
 
-• Luces diurnas, luz de techo, bloqueo infantil y carga inalámbrica:
+• Luces diurnas, luz de techo, bloqueo infantil, carga inalámbrica y sensores de aparcamiento:
   - «Vektra, enciende las luces diurnas» / «Apaga las luces diurnas»
   - «Vektra, enciende la luz de techo» / «Apaga la luz del habitáculo»
   - «Vektra, activa el bloqueo infantil» / «Desactiva el bloqueo infantil»
   - «Vektra, enciende el cargador inalámbrico» / «Apaga la carga inalámbrica»
+  - «Vektra, activa los sensores de aparcamiento» / «Enciende el radar de marcha atrás»
+  - «Vektra, apaga los sensores» / «Desactiva el radar de aparcamiento»
+
+• Selección del motor de voz (interno BYD o natural de Microsoft):
+  - «Vektra, activa la voz interna» / «Usa la voz de BYD»
+  - «Vektra, activa la voz de Microsoft» / «Usa la voz natural»
 
 • Protección de seguridad en marcha:
   - Con la palanca en D, el bloqueo y desbloqueo de las puertas, así como la

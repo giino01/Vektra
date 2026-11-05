@@ -202,6 +202,10 @@ Groq artificial intelligence (Llama 3.3 70B).
   - "Vektra, turn on the parking sensors" / "Turn on reverse radar"
   - "Vektra, turn off the parking sensors" / "Disable reverse radar"
 
+• Voice engine selection (BYD internal or Microsoft natural):
+  - "Vektra, enable internal voice" / "Use BYD voice"
+  - "Vektra, enable Microsoft voice" / "Use natural voice"
+
 • Safety guard while driving:
   - When the gear is in D, locking and unlocking the doors as well as opening and
     closing the trunk are refused: Vektra tells you instead of executing. Windows,

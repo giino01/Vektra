@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.3.9** · publiée le 5 novembre 2026 · 72.7 Mo
+**VERSION 2.3.10** · publiée le 5 novembre 2026 · 72.7 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.3.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.3.10.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.3.9
+## Nouveautés de la 2.3.10
 
-- Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.
-- Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.
-- Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.
-- Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage).
+- Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.
+- Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.
+- Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.
+- Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.
+- Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »).
 
 ---
 
