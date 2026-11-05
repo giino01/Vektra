@@ -1,0 +1,51 @@
+{
+  "version": "2.4.5",
+  "apk": "Vektra-2.4.5.apk",
+  "size": 48900749,
+  "notes": [
+    "Correctif : moteur vocal instantané en mémoire vive — diffusion directe sur le haut-parleur de navigation sans temps d'attente au réveil, pour le copilote et le guidage vocal de stationnement.",
+    "Ajout : synthétiseur vocal léger multilingue intégré — prise en charge immédiate des 10 langues de l'application même hors connexion."
+  ],
+  "notesByLang": {
+    "fr": [
+      "Correctif : moteur vocal instantané en mémoire vive — diffusion directe sur le haut-parleur de navigation sans temps d'attente au réveil, pour le copilote et le guidage vocal de stationnement.",
+      "Ajout : synthétiseur vocal léger multilingue intégré — prise en charge immédiate des 10 langues de l'application même hors connexion."
+    ],
+    "en": [
+      "Fix: instant in-memory voice engine — direct playback on the navigation speaker with zero wake-up delay for the copilot and parking voice guidance.",
+      "Add: built-in lightweight multilingual voice synthesizer — immediate support for all 10 application languages even offline."
+    ],
+    "nl": [
+      "Fix: directe stem-engine in het geheugen — rechtstreekse weergave op de navigatieluidspreker zonder vertraging bij het ontwaken, voor de copiloot en parkeerbegeleiding.",
+      "Add: ingebouwde lichtgewicht meertalige spraaksynthesizer — directe ondersteuning voor alle 10 talen van de app, zelfs offline."
+    ],
+    "de": [
+      "Fix: sofortige Sprach-Engine im Arbeitsspeicher — direkte Wiedergabe über den Navigationslautsprecher ohne Aufwachverzögerung für Copilot und Einparkhilfe.",
+      "Add: integrierter leichtgewichtiger mehrsprachiger Sprachsynthesizer — sofortige Unterstützung aller 10 App-Sprachen auch offline."
+    ],
+    "es": [
+      "Fix: motor de voz instantáneo en memoria — reproducción directa en el altavoz de navegación sin demoras al despertar, para el copiloto y la guía de aparcamiento.",
+      "Add: sintetizador de voz ligero multilingüe integrado — soporte inmediato para los 10 idiomas de la aplicación incluso sin conexión."
+    ],
+    "it": [
+      "Fix: motore vocale istantaneo in memoria — riproduzione diretta sull'altoparlante di navigazione senza attese al risveglio, per il copilota e la guida vocale al parcheggio.",
+      "Add: sintetizzatore vocale leggero multilingue integrato — supporto immediato per tutte le 10 lingue dell'app anche offline."
+    ],
+    "pt": [
+      "Fix: motor de voz instantâneo em memória — reprodução direta no altifalante de navegação sem atraso ao acordar, para o copiloto e orientação de estacionamento.",
+      "Add: sintetizador de voz leve multilingue integrado — suporte imediato para os 10 idiomas da aplicação mesmo offline."
+    ],
+    "ar": [
+      "Fix: محرك صوتي فوري في الذاكرة — بث مباشر عبر مكبر صوت الملاحة دون أي تأخير عند الاستيقاظ، للمساعد الذكي والتوجيه الصوتي لركن السيارة.",
+      "Add: مركب صوتي خفيف متعدد اللغات مدمج — دعم فوري لجميع لغات التطبيق العشر حتى بدون اتصال بالإنترنت."
+    ],
+    "tr": [
+      "Fix: bellek içi anında ses motoru — yardımcı pilot ve park sesli yönlendirmesi için uyanma gecikmesi olmadan doğrudan navigasyon hoparlöründen yayın.",
+      "Add: yerleşik hafif çok dilli ses sentezleyici — çevrimdışıyken bile uygulamanın 10 dilinin tamamı için anında destek."
+    ],
+    "zh": [
+      "Fix: 内存级极速闪存语音引擎 — 唤醒应答、副驾提醒与驻车雷达语音引导直接通过导航专属扬声器零延迟输出。",
+      "Add: 内置超轻量多语言离线语音合成器 — 全面支持应用内全部 10 种语言的实时发声。"
+    ]
+  }
+}
