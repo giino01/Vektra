@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.4.1** · veröffentlicht am 5. November 2026 · 72.8 MB
+**VERSION 2.4.2** · veröffentlicht am 5. November 2026 · 46.6 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.4.1
+## Neu in 2.4.2
 
-- Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).
-- Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.
-- Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données.
+- Add: dynamische Assistenten-Updates mit 1 Tippen — automatische Erkennung neuer Konfigurationen auf GitHub mit sofortigem Download ohne Neuinstallation der App.
+- Add: Live-Sprachstatusanzeige — zeigt sofort an, ob die Sprachdaten für die gewählte Sprache auf dem Tablet einsatzbereit sind.
+- Fix: deutliche Reduzierung der App-Größe — Entfernung redundanter Sprachbibliotheken für eine Einsparung von über 20 MB und rein lokale Sprachausgabe.
+- Fix: aufgeräumte Assistenten-Oberfläche — übersichtliche Konfiguration von Sprache, regionaler Variante und Aktivierungswort.
 
 ---
 

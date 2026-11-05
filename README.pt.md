@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.4.1** · publicada a 5 de novembro de 2026 · 72.8 MB
+**VERSÃO 2.4.2** · publicada a 5 de novembro de 2026 · 46.6 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.4.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.4.2.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.4.1
+## Novidades da 2.4.2
 
-- Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).
-- Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.
-- Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données.
+- Add: atualizações dinâmicas do assistente em 1 toque — detecção automática de novas configurações no GitHub com download instantâneo sem reinstalar o aplicativo.
+- Add: indicador de estado da voz em tempo real — mostra se os dados de voz para o idioma escolhido estão prontos no tablet.
+- Fix: redução significativa do tamanho da aplicação — remoção de bibliotecas redundantes economizando mais de 20 MB com voz interna rápida.
+- Fix: interface do assistente simplificada — navegação direta focada no idioma, variante regional e palavra de ativação.
 
 ---
 

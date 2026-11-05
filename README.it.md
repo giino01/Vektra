@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.4.1** · pubblicata il 5 novembre 2026 · 72.8 MB
+**VERSIONE 2.4.2** · pubblicata il 5 novembre 2026 · 46.6 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.2.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.4.1
+## Novità della 2.4.2
 
-- Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).
-- Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.
-- Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données.
+- Add: aggiornamenti dinamici dell'assistente in 1 tocco — rilevamento automatico delle nuove configurazioni da GitHub con download immediato senza reinstallare l'app.
+- Add: indicatore di stato vocale in tempo reale — mostra se i dati vocali per la lingua scelta sono pronti nel sistema del tablet.
+- Fix: riduzione del peso dell'applicazione — rimosse le librerie vocali superflue con un risparmio di oltre 20 MB e voce interna ultra-rapida.
+- Fix: interfaccia dell'assistente semplificata — rimozione delle opzioni superflue a favore di lingua, variante regionale e parola di attivazione.
 
 ---
 

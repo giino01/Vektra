@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.4.1** · publiée le 5 novembre 2026 · 72.8 Mo
+**VERSION 2.4.2** · publiée le 5 novembre 2026 · 46.6 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.4.1
+## Nouveautés de la 2.4.2
 
-- Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).
-- Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.
-- Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données.
+- Ajout : mises à jour dynamiques de l'assistant en 1 clic — détection automatique des nouvelles configurations et règles sur GitHub avec bouton de téléchargement instantané sans devoir réinstaller l'application.
+- Ajout : indicateur d'état vocal en direct — affiche immédiatement si les voix de la langue choisie sont bien installées et prêtes dans la tablette DiLink.
+- Correctif : allégement majeur de l'application — suppression des bibliothèques vocales superflues et passage à 100 % sur la voix interne pour un gain de plus de 20 Mo sur l'application.
+- Correctif : interface de l'assistant épurée — suppression des options encombrantes de genre et timbre au profit d'un choix clair de la langue, de la variante régionale et du mot de réveil.
 
 ---
 

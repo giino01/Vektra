@@ -1,62 +1,73 @@
 {
-  "version": "2.4.1",
-  "apk": "Vektra-2.4.1.apk",
-  "size": 76288352,
+  "version": "2.4.2",
+  "apk": "Vektra-2.4.2.apk",
+  "size": 48822813,
   "notes": [
-    "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-    "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-    "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+    "Ajout : mises à jour dynamiques de l'assistant en 1 clic — détection automatique des nouvelles configurations et règles sur GitHub avec bouton de téléchargement instantané sans devoir réinstaller l'application.",
+    "Ajout : indicateur d'état vocal en direct — affiche immédiatement si les voix de la langue choisie sont bien installées et prêtes dans la tablette DiLink.",
+    "Correctif : allégement majeur de l'application — suppression des bibliothèques vocales superflues et passage à 100 % sur la voix interne pour un gain de plus de 20 Mo sur l'application.",
+    "Correctif : interface de l'assistant épurée — suppression des options encombrantes de genre et timbre au profit d'un choix clair de la langue, de la variante régionale et du mot de réveil."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Ajout : mises à jour dynamiques de l'assistant en 1 clic — détection automatique des nouvelles configurations et règles sur GitHub avec bouton de téléchargement instantané sans devoir réinstaller l'application.",
+      "Ajout : indicateur d'état vocal en direct — affiche immédiatement si les voix de la langue choisie sont bien installées et prêtes dans la tablette DiLink.",
+      "Correctif : allégement majeur de l'application — suppression des bibliothèques vocales superflues et passage à 100 % sur la voix interne pour un gain de plus de 20 Mo sur l'application.",
+      "Correctif : interface de l'assistant épurée — suppression des options encombrantes de genre et timbre au profit d'un choix clair de la langue, de la variante régionale et du mot de réveil."
     ],
     "en": [
-      "Add: customizable multi-choice backup — freely select which items to export (display settings, voice & wake word, assistant memories, trips and optional API key).",
-      "Add: secure API key backup option — dedicated checkbox to include or exclude your private AI access key when creating a backup archive.",
-      "Fix: smart selective restore — built-in explorer shows the exact sections included in each backup file and restores only the selected modules."
+      "Add: 1-tap dynamic assistant updates — automatic detection of new configurations and rules from GitHub with instant download without reinstalling the app.",
+      "Add: live voice status indicator — clearly displays whether voice data for the selected language is ready in the DiLink system.",
+      "Fix: major app size reduction — removed redundant voice libraries and switched exclusively to the internal voice engine, reducing app size by over 20 MB.",
+      "Fix: clean streamlined assistant interface — removed cluttered persona and gender rows in favor of clear language, regional variant and wake word settings."
     ],
     "nl": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: dynamische assistent-updates in 1 tik — automatische detectie van nieuwe regels op GitHub met directe download zonder de app opnieuw te installeren.",
+      "Add: live stemstatusindicator — toont direct of de stemgegevens voor de gekozen taal op de tablet gereed zijn.",
+      "Fix: aanzienlijke verkleining van de app — overtollige spraakbibliotheken verwijderd voor meer dan 20 MB winst en directe lokale spraak.",
+      "Fix: overzichtelijke assistent-interface — eenvoudige instelling van taal, regionale variant en activeringswoord."
     ],
     "de": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: dynamische Assistenten-Updates mit 1 Tippen — automatische Erkennung neuer Konfigurationen auf GitHub mit sofortigem Download ohne Neuinstallation der App.",
+      "Add: Live-Sprachstatusanzeige — zeigt sofort an, ob die Sprachdaten für die gewählte Sprache auf dem Tablet einsatzbereit sind.",
+      "Fix: deutliche Reduzierung der App-Größe — Entfernung redundanter Sprachbibliotheken für eine Einsparung von über 20 MB und rein lokale Sprachausgabe.",
+      "Fix: aufgeräumte Assistenten-Oberfläche — übersichtliche Konfiguration von Sprache, regionaler Variante und Aktivierungswort."
     ],
     "es": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: actualizaciones dinámicas del asistente en 1 toque — detección automática de nuevas reglas en GitHub con descarga instantánea sin reinstalar la app.",
+      "Add: indicador de estado de voz en vivo — muestra si los datos de voz para el idioma elegido están listos en la tableta.",
+      "Fix: reducción notable del tamaño de la aplicación — eliminación de bibliotecas redundantes ahorrando más de 20 MB con voz local instantánea.",
+      "Fix: interfaz del asistente limpia y simplificada — configuración directa de idioma, variante regional y palabra de activación."
     ],
     "it": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: aggiornamenti dinamici dell'assistente in 1 tocco — rilevamento automatico delle nuove configurazioni da GitHub con download immediato senza reinstallare l'app.",
+      "Add: indicatore di stato vocale in tempo reale — mostra se i dati vocali per la lingua scelta sono pronti nel sistema del tablet.",
+      "Fix: riduzione del peso dell'applicazione — rimosse le librerie vocali superflue con un risparmio di oltre 20 MB e voce interna ultra-rapida.",
+      "Fix: interfaccia dell'assistente semplificata — rimozione delle opzioni superflue a favore di lingua, variante regionale e parola di attivazione."
     ],
     "pt": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: atualizações dinâmicas do assistente em 1 toque — detecção automática de novas configurações no GitHub com download instantâneo sem reinstalar o aplicativo.",
+      "Add: indicador de estado da voz em tempo real — mostra se os dados de voz para o idioma escolhido estão prontos no tablet.",
+      "Fix: redução significativa do tamanho da aplicação — remoção de bibliotecas redundantes economizando mais de 20 MB com voz interna rápida.",
+      "Fix: interface do assistente simplificada — navegação direta focada no idioma, variante regional e palavra de ativação."
     ],
     "ar": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: تحديثات ديناميكية للمساعد بنقرة واحدة — اكتشاف تلقائي للإعدادات الجديدة على GitHub مع تنزيل فوري دون الحاجة لإعادة تثبيت التطبيق.",
+      "Add: مؤشر مباشر لحالة الصوت — يوضح ما إذا كانت بيانات الصوت للغة المختارة مثبتة وجاهزة على الجهاز اللوحي.",
+      "Fix: تقليص كبير في حجم التطبيق — إزالة مكتبات الصوت الزائدة لتوفير أكثر من 20 ميغابايت مع اعتماد الصوت الداخلي السريع.",
+      "Fix: واجهة مساعد مبسطة وأنيقة — تركيز مباشر على اللغة والكلمة التنبيهية وإزالة الخيارات الزائدة."
     ],
     "tr": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: tek dokunuşla dinamik asistan güncellemeleri — uygulamayı yeniden yüklemeden GitHub'daki yeni kuralların otomatik algılanması ve anında indirilmesi.",
+      "Add: canlı ses durumu göstergesi — seçilen dil için ses verilerinin tablette hazır olup olmadığını anında gösterir.",
+      "Fix: uygulama boyutunda büyük hafifletme — gereksiz ses kütüphaneleri kaldırılarak uygulama boyutu 20 MB'tan fazla küçültüldü.",
+      "Fix: sadeleştirilmiş asistan arayüzü — dil, bölgesel varyant ve uyandırma kelimesine odaklanan temiz tasarım."
     ],
     "zh": [
-      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
-      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
-      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
+      "Add: 一键动态在线更新助手规则 — 自动检测GitHub端新规则配置并秒级下载生效，无需重新安装整车APP。",
+      "Add: 实时平板车载语音状态指示器 — 清晰显示当前所选语言的车载语音引擎数据是否已就绪。",
+      "Fix: 应用程序大幅轻量化瘦身 — 移除冗余离线识别库并全量启用车机本地高速语音合成，体积缩减逾 20 MB。",
+      "Fix: 智能助手设置页极简清爽 — 移除复杂声线与性别切换，专注呈现语言、方言变体及唤醒词配置。"
     ]
   }
 }

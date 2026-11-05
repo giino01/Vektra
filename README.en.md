@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.1** · released on 5 November 2026 · 72.8 MB
+**VERSION 2.4.2** · released on 5 November 2026 · 46.6 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.2.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,11 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.1
+## What is new in 2.4.2
 
-- Add: customizable multi-choice backup — freely select which items to export (display settings, voice & wake word, assistant memories, trips and optional API key).
-- Add: secure API key backup option — dedicated checkbox to include or exclude your private AI access key when creating a backup archive.
-- Fix: smart selective restore — built-in explorer shows the exact sections included in each backup file and restores only the selected modules.
+- Add: 1-tap dynamic assistant updates — automatic detection of new configurations and rules from GitHub with instant download without reinstalling the app.
+- Add: live voice status indicator — clearly displays whether voice data for the selected language is ready in the DiLink system.
+- Fix: major app size reduction — removed redundant voice libraries and switched exclusively to the internal voice engine, reducing app size by over 20 MB.
+- Fix: clean streamlined assistant interface — removed cluttered persona and gender rows in favor of clear language, regional variant and wake word settings.
 
 ---
 
