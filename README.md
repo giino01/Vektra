@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.4.0** · publiée le 5 novembre 2026 · 72.7 Mo
+**VERSION 2.4.1** · publiée le 5 novembre 2026 · 72.8 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.4.0
+## Nouveautés de la 2.4.1
 
-- Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.
-- Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.
-- Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.
-- Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.
-- Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut.
+- Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).
+- Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.
+- Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données.
 
 ---
 

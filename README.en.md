@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.0** · released on 5 November 2026 · 72.7 MB
+**VERSION 2.4.1** · released on 5 November 2026 · 72.8 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,11 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.0
+## What is new in 2.4.1
 
-- Add: full backup and restore — dedicated menu in Settings to export all your preferences and assistant memories into a timestamped file or restore your profile with one tap.
-- Add: built-in file explorer — browse, preview and restore your backups directly on the tablet screen without relying on native Android dialogs.
-- Add: centralized storage tree — all application data (offline maps, voice packs, sound clips and backups) are automatically organized in a clean directory at the root of your storage.
-- Add: customizable wake word — freely choose the name to wake up your assistant (Vektra, Jarvis, Friday, KITT or any custom name) via the Assistant tab or voice command.
-- Fix: instant personalized wake-up greeting — assistant directly greets you with your chosen call name on wake-up ("Yes, Gino?") with zero latency and no default fallback.
+- Add: customizable multi-choice backup — freely select which items to export (display settings, voice & wake word, assistant memories, trips and optional API key).
+- Add: secure API key backup option — dedicated checkbox to include or exclude your private AI access key when creating a backup archive.
+- Fix: smart selective restore — built-in explorer shows the exact sections included in each backup file and restores only the selected modules.
 
 ---
 

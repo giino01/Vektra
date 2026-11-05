@@ -1,84 +1,62 @@
 {
-  "version": "2.4.0",
-  "apk": "Vektra-2.4.0.apk",
-  "size": 76271620,
+  "version": "2.4.1",
+  "apk": "Vektra-2.4.1.apk",
+  "size": 76288352,
   "notes": [
-    "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-    "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-    "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-    "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-    "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+    "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+    "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+    "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "en": [
-      "Add: full backup and restore — dedicated menu in Settings to export all your preferences and assistant memories into a timestamped file or restore your profile with one tap.",
-      "Add: built-in file explorer — browse, preview and restore your backups directly on the tablet screen without relying on native Android dialogs.",
-      "Add: centralized storage tree — all application data (offline maps, voice packs, sound clips and backups) are automatically organized in a clean directory at the root of your storage.",
-      "Add: customizable wake word — freely choose the name to wake up your assistant (Vektra, Jarvis, Friday, KITT or any custom name) via the Assistant tab or voice command.",
-      "Fix: instant personalized wake-up greeting — assistant directly greets you with your chosen call name on wake-up (\"Yes, Gino?\") with zero latency and no default fallback."
+      "Add: customizable multi-choice backup — freely select which items to export (display settings, voice & wake word, assistant memories, trips and optional API key).",
+      "Add: secure API key backup option — dedicated checkbox to include or exclude your private AI access key when creating a backup archive.",
+      "Fix: smart selective restore — built-in explorer shows the exact sections included in each backup file and restores only the selected modules."
     ],
     "nl": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "de": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "es": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "it": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "pt": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "ar": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "tr": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ],
     "zh": [
-      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
-      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
-      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
-      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
-      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
+      "Ajout : sauvegarde personnalisée à choix multiple — cochez librement les éléments à exporter (réglages d'affichage, voix et réveil, souvenirs de l'assistant, trajets et clé API optionnelle).",
+      "Ajout : sauvegarde sécurisée de la clé API — option dédiée pour inclure ou exclure votre clé d'accès IA privée lors de la création d'une sauvegarde.",
+      "Correctif : restauration intelligente et détaillée — l'explorateur interne indique précisément les sections contenues dans chaque archive et les réapplique sans toucher aux autres données."
     ]
   }
 }
