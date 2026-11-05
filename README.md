@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.4.2** · publiée le 5 novembre 2026 · 46.6 Mo
+**VERSION 2.4.3** · publiée le 5 novembre 2026 · 46.6 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.2.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.4.2
+## Nouveautés de la 2.4.3
 
-- Ajout : mises à jour dynamiques de l'assistant en 1 clic — détection automatique des nouvelles configurations et règles sur GitHub avec bouton de téléchargement instantané sans devoir réinstaller l'application.
-- Ajout : indicateur d'état vocal en direct — affiche immédiatement si les voix de la langue choisie sont bien installées et prêtes dans la tablette DiLink.
-- Correctif : allégement majeur de l'application — suppression des bibliothèques vocales superflues et passage à 100 % sur la voix interne pour un gain de plus de 20 Mo sur l'application.
-- Correctif : interface de l'assistant épurée — suppression des options encombrantes de genre et timbre au profit d'un choix clair de la langue, de la variante régionale et du mot de réveil.
+- Correctif : mot de réveil exclusif — lorsqu'un nom personnalisé est défini (par exemple Jarvis), l'assistant ignore strictement l'ancien nom Vektra et n'écoute que le nouveau nom ; il répond à nouveau à Vektra dès que celui-ci est rétabli.
+- Ajout : alignement dynamique de l'identité — les confirmations vocales de mise en veille et l'identité de l'assistant adoptent automatiquement le mot d'appel choisi.
 
 ---
 

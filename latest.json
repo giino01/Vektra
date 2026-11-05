@@ -1,73 +1,51 @@
 {
-  "version": "2.4.2",
-  "apk": "Vektra-2.4.2.apk",
-  "size": 48822813,
+  "version": "2.4.3",
+  "apk": "Vektra-2.4.3.apk",
+  "size": 48828517,
   "notes": [
-    "Ajout : mises à jour dynamiques de l'assistant en 1 clic — détection automatique des nouvelles configurations et règles sur GitHub avec bouton de téléchargement instantané sans devoir réinstaller l'application.",
-    "Ajout : indicateur d'état vocal en direct — affiche immédiatement si les voix de la langue choisie sont bien installées et prêtes dans la tablette DiLink.",
-    "Correctif : allégement majeur de l'application — suppression des bibliothèques vocales superflues et passage à 100 % sur la voix interne pour un gain de plus de 20 Mo sur l'application.",
-    "Correctif : interface de l'assistant épurée — suppression des options encombrantes de genre et timbre au profit d'un choix clair de la langue, de la variante régionale et du mot de réveil."
+    "Correctif : mot de réveil exclusif — lorsqu'un nom personnalisé est défini (par exemple Jarvis), l'assistant ignore strictement l'ancien nom Vektra et n'écoute que le nouveau nom ; il répond à nouveau à Vektra dès que celui-ci est rétabli.",
+    "Ajout : alignement dynamique de l'identité — les confirmations vocales de mise en veille et l'identité de l'assistant adoptent automatiquement le mot d'appel choisi."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : mises à jour dynamiques de l'assistant en 1 clic — détection automatique des nouvelles configurations et règles sur GitHub avec bouton de téléchargement instantané sans devoir réinstaller l'application.",
-      "Ajout : indicateur d'état vocal en direct — affiche immédiatement si les voix de la langue choisie sont bien installées et prêtes dans la tablette DiLink.",
-      "Correctif : allégement majeur de l'application — suppression des bibliothèques vocales superflues et passage à 100 % sur la voix interne pour un gain de plus de 20 Mo sur l'application.",
-      "Correctif : interface de l'assistant épurée — suppression des options encombrantes de genre et timbre au profit d'un choix clair de la langue, de la variante régionale et du mot de réveil."
+      "Correctif : mot de réveil exclusif — lorsqu'un nom personnalisé est défini (par exemple Jarvis), l'assistant ignore strictement l'ancien nom Vektra et n'écoute que le nouveau nom ; il répond à nouveau à Vektra dès que celui-ci est rétabli.",
+      "Ajout : alignement dynamique de l'identité — les confirmations vocales de mise en veille et l'identité de l'assistant adoptent automatiquement le mot d'appel choisi."
     ],
     "en": [
-      "Add: 1-tap dynamic assistant updates — automatic detection of new configurations and rules from GitHub with instant download without reinstalling the app.",
-      "Add: live voice status indicator — clearly displays whether voice data for the selected language is ready in the DiLink system.",
-      "Fix: major app size reduction — removed redundant voice libraries and switched exclusively to the internal voice engine, reducing app size by over 20 MB.",
-      "Fix: clean streamlined assistant interface — removed cluttered persona and gender rows in favor of clear language, regional variant and wake word settings."
+      "Fix: exclusive custom wake word — when a custom name is set (such as Jarvis), the assistant strictly ignores the previous Vektra name and only listens to the chosen name; it responds to Vektra again whenever restored.",
+      "Add: dynamic identity alignment — standby voice confirmations and assistant AI identity now dynamically adopt the chosen wake word."
     ],
     "nl": [
-      "Add: dynamische assistent-updates in 1 tik — automatische detectie van nieuwe regels op GitHub met directe download zonder de app opnieuw te installeren.",
-      "Add: live stemstatusindicator — toont direct of de stemgegevens voor de gekozen taal op de tablet gereed zijn.",
-      "Fix: aanzienlijke verkleining van de app — overtollige spraakbibliotheken verwijderd voor meer dan 20 MB winst en directe lokale spraak.",
-      "Fix: overzichtelijke assistent-interface — eenvoudige instelling van taal, regionale variant en activeringswoord."
+      "Fix: exclusief activeringswoord — wanneer een aangepaste naam is ingesteld (zoals Jarvis), negeert de assistent de naam Vektra en luistert alleen naar de gekozen naam; reageert weer op Vektra zodra deze wordt hersteld.",
+      "Add: dynamische identiteitsafstemming — standby-spraakbevestigingen en AI-identiteit passen zich automatisch aan het gekozen activeringswoord aan."
     ],
     "de": [
-      "Add: dynamische Assistenten-Updates mit 1 Tippen — automatische Erkennung neuer Konfigurationen auf GitHub mit sofortigem Download ohne Neuinstallation der App.",
-      "Add: Live-Sprachstatusanzeige — zeigt sofort an, ob die Sprachdaten für die gewählte Sprache auf dem Tablet einsatzbereit sind.",
-      "Fix: deutliche Reduzierung der App-Größe — Entfernung redundanter Sprachbibliotheken für eine Einsparung von über 20 MB und rein lokale Sprachausgabe.",
-      "Fix: aufgeräumte Assistenten-Oberfläche — übersichtliche Konfiguration von Sprache, regionaler Variante und Aktivierungswort."
+      "Fix: exklusives benutzerdefiniertes Aktivierungswort — wenn ein eigener Name gewählt wird (z. B. Jarvis), ignoriert der Assistent Vektra vollständig und lauscht nur auf den neuen Namen; bei Rückstellung reagiert er wieder auf Vektra.",
+      "Add: dynamische Identitätsanpassung — Standby-Sprachbestätigungen und Assistenten-Identität übernehmen automatisch den gewählten Rufnamen."
     ],
     "es": [
-      "Add: actualizaciones dinámicas del asistente en 1 toque — detección automática de nuevas reglas en GitHub con descarga instantánea sin reinstalar la app.",
-      "Add: indicador de estado de voz en vivo — muestra si los datos de voz para el idioma elegido están listos en la tableta.",
-      "Fix: reducción notable del tamaño de la aplicación — eliminación de bibliotecas redundantes ahorrando más de 20 MB con voz local instantánea.",
-      "Fix: interfaz del asistente limpia y simplificada — configuración directa de idioma, variante regional y palabra de activación."
+      "Fix: palabra de activación exclusiva — al configurar un nombre personalizado (como Jarvis), el asistente ignora por completo el nombre Vektra y solo escucha el nombre elegido; responde de nuevo a Vektra si se restablece.",
+      "Add: alineación dinámica de identidad — las confirmaciones de espera por voz y la identidad del asistente adoptan automáticamente el nombre elegido."
     ],
     "it": [
-      "Add: aggiornamenti dinamici dell'assistente in 1 tocco — rilevamento automatico delle nuove configurazioni da GitHub con download immediato senza reinstallare l'app.",
-      "Add: indicatore di stato vocale in tempo reale — mostra se i dati vocali per la lingua scelta sono pronti nel sistema del tablet.",
-      "Fix: riduzione del peso dell'applicazione — rimosse le librerie vocali superflue con un risparmio di oltre 20 MB e voce interna ultra-rapida.",
-      "Fix: interfaccia dell'assistente semplificata — rimozione delle opzioni superflue a favore di lingua, variante regionale e parola di attivazione."
+      "Fix: parola di attivazione esclusiva — quando viene impostato un nome personalizzato (come Jarvis), l'assistente ignora il nome Vektra e ascolta solo il nome scelto; risponde di nuovo a Vektra se ripristinato.",
+      "Add: allineamento dinamico dell'identità — le conferme vocali di standby e l'identità dell'assistente adottano automaticamente il nome scelto."
     ],
     "pt": [
-      "Add: atualizações dinâmicas do assistente em 1 toque — detecção automática de novas configurações no GitHub com download instantâneo sem reinstalar o aplicativo.",
-      "Add: indicador de estado da voz em tempo real — mostra se os dados de voz para o idioma escolhido estão prontos no tablet.",
-      "Fix: redução significativa do tamanho da aplicação — remoção de bibliotecas redundantes economizando mais de 20 MB com voz interna rápida.",
-      "Fix: interface do assistente simplificada — navegação direta focada no idioma, variante regional e palavra de ativação."
+      "Fix: palavra de ativação exclusiva — ao configurar um nome personalizado (como Jarvis), o assistente ignora o nome Vektra e ouve apenas o novo nome; responde novamente a Vektra se restaurado.",
+      "Add: alinhamento dinâmico de identidade — as confirmações vocais de suspensão e a identidade do assistente adotam automaticamente o nome escolhido."
     ],
     "ar": [
-      "Add: تحديثات ديناميكية للمساعد بنقرة واحدة — اكتشاف تلقائي للإعدادات الجديدة على GitHub مع تنزيل فوري دون الحاجة لإعادة تثبيت التطبيق.",
-      "Add: مؤشر مباشر لحالة الصوت — يوضح ما إذا كانت بيانات الصوت للغة المختارة مثبتة وجاهزة على الجهاز اللوحي.",
-      "Fix: تقليص كبير في حجم التطبيق — إزالة مكتبات الصوت الزائدة لتوفير أكثر من 20 ميغابايت مع اعتماد الصوت الداخلي السريع.",
-      "Fix: واجهة مساعد مبسطة وأنيقة — تركيز مباشر على اللغة والكلمة التنبيهية وإزالة الخيارات الزائدة."
+      "Fix: كلمة تنبيه مخصصة حصرية — عند تعيين اسم مخصص (مثل Jarvis)، يتجاهل المساعد اسم Vektra تماماً ويستجيب للاسم المختار فقط؛ ويعود للاستجابة لاسم Vektra عند إعادة تعيينه.",
+      "Add: توافق ديناميكي للهوية — تعتمد تأكيدات وضع الاستعداد وهوية المساعد تلقائياً الاسم المختار."
     ],
     "tr": [
-      "Add: tek dokunuşla dinamik asistan güncellemeleri — uygulamayı yeniden yüklemeden GitHub'daki yeni kuralların otomatik algılanması ve anında indirilmesi.",
-      "Add: canlı ses durumu göstergesi — seçilen dil için ses verilerinin tablette hazır olup olmadığını anında gösterir.",
-      "Fix: uygulama boyutunda büyük hafifletme — gereksiz ses kütüphaneleri kaldırılarak uygulama boyutu 20 MB'tan fazla küçültüldü.",
-      "Fix: sadeleştirilmiş asistan arayüzü — dil, bölgesel varyant ve uyandırma kelimesine odaklanan temiz tasarım."
+      "Fix: özel uyandırma kelimesi — özel bir isim seçildiğinde (örneğin Jarvis), asistan Vektra adını tamamen yok sayarak yalnızca seçilen ada yanıt verir; geri yüklendiğinde tekrar Vektra adını dinler.",
+      "Add: dinamik kimlik uyumu — uyku modu onayları ve yapay zeka kimliği otomatik olarak seçilen uyandırma adını benimser."
     ],
     "zh": [
-      "Add: 一键动态在线更新助手规则 — 自动检测GitHub端新规则配置并秒级下载生效，无需重新安装整车APP。",
-      "Add: 实时平板车载语音状态指示器 — 清晰显示当前所选语言的车载语音引擎数据是否已就绪。",
-      "Fix: 应用程序大幅轻量化瘦身 — 移除冗余离线识别库并全量启用车机本地高速语音合成，体积缩减逾 20 MB。",
-      "Fix: 智能助手设置页极简清爽 — 移除复杂声线与性别切换，专注呈现语言、方言变体及唤醒词配置。"
+      "Fix: 专属自定义唤醒词隔离 — 设置自定义唤醒名称（如 Jarvis）后，助手将严格忽略原有的 Vektra 并不再对其响应；重新改回 Vektra 时即刻恢复原唤醒逻辑。",
+      "Add: 助手身份与休眠提示同步 — 待机语音确认和车载 AI 身份认知实时动态适配当前生效的唤醒词。"
     ]
   }
 }

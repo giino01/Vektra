@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.4.2** · veröffentlicht am 5. November 2026 · 46.6 MB
+**VERSION 2.4.3** · veröffentlicht am 5. November 2026 · 46.6 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.2.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.3.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,10 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.4.2
+## Neu in 2.4.3
 
-- Add: dynamische Assistenten-Updates mit 1 Tippen — automatische Erkennung neuer Konfigurationen auf GitHub mit sofortigem Download ohne Neuinstallation der App.
-- Add: Live-Sprachstatusanzeige — zeigt sofort an, ob die Sprachdaten für die gewählte Sprache auf dem Tablet einsatzbereit sind.
-- Fix: deutliche Reduzierung der App-Größe — Entfernung redundanter Sprachbibliotheken für eine Einsparung von über 20 MB und rein lokale Sprachausgabe.
-- Fix: aufgeräumte Assistenten-Oberfläche — übersichtliche Konfiguration von Sprache, regionaler Variante und Aktivierungswort.
+- Fix: exklusives benutzerdefiniertes Aktivierungswort — wenn ein eigener Name gewählt wird (z. B. Jarvis), ignoriert der Assistent Vektra vollständig und lauscht nur auf den neuen Namen; bei Rückstellung reagiert er wieder auf Vektra.
+- Add: dynamische Identitätsanpassung — Standby-Sprachbestätigungen und Assistenten-Identität übernehmen automatisch den gewählten Rufnamen.
 
 ---
 
