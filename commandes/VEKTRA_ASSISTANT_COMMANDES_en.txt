@@ -194,11 +194,13 @@ Groq artificial intelligence (Llama 3.3 70B).
   - "Vektra, dim the ambient lighting" / "Set the ambient to maximum"
   - "Vektra, lock the doors" / "Unlock the doors"
 
-• Daytime running lights, dome light, child lock & wireless charging:
+• Daytime running lights, dome light, child lock, wireless charging & radar:
   - "Vektra, turn on the daytime running lights" / "Turn off the daytime lights"
   - "Vektra, turn on the dome light" / "Turn off the cabin light"
   - "Vektra, enable the child lock" / "Disable the child lock"
   - "Vektra, turn on the wireless charger" / "Turn off the wireless charging"
+  - "Vektra, turn on the parking sensors" / "Turn on reverse radar"
+  - "Vektra, turn off the parking sensors" / "Disable reverse radar"
 
 • Safety guard while driving:
   - When the gear is in D, locking and unlocking the doors as well as opening and

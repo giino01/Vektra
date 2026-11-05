@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.3.8** · publicada a 5 de novembro de 2026 · 72.7 MB
+**VERSÃO 2.3.9** · publicada a 5 de novembro de 2026 · 72.7 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.3.8
+## Novidades da 2.3.9
 
-- Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.
-- Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.
-- Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.
-- Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.
-- Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume).
+- Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.
+- Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.
+- Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.
+- Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage).
 
 ---
 

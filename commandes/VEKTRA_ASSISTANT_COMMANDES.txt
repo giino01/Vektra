@@ -194,11 +194,13 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
   - « Vektra, baisse l'éclairage d'ambiance » / « Mets l'ambiance au maximum »
   - « Vektra, verrouille les portes » / « Déverrouille les portes »
 
-• Feux de jour, plafonnier, sécurité enfant & charge sans fil :
+• Feux de jour, plafonnier, sécurité enfant, charge sans fil & radars :
   - « Vektra, allume les feux de jour » / « Coupe les feux de jour »
   - « Vektra, allume le plafonnier » / « Éteins la lumière de l'habitacle »
   - « Vektra, active la sécurité enfant » / « Désactive la sécurité enfant »
   - « Vektra, active le chargeur sans fil » / « Coupe la charge sans fil »
+  - « Vektra, active le radar de recul » / « Allume les radars »
+  - « Vektra, coupe les radars » / « Désactive le radar de stationnement »
 
 • Garde-fou de sécurité en roulant :
   - Quand le levier est sur D, le verrouillage et le déverrouillage des portes

@@ -1,84 +1,73 @@
 {
-  "version": "2.3.8",
-  "apk": "Vektra-2.3.8.apk",
-  "size": 76204248,
+  "version": "2.3.9",
+  "apk": "Vektra-2.3.9.apk",
+  "size": 76208836,
   "notes": [
-    "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-    "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-    "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-    "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-    "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+    "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+    "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+    "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+    "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "en": [
-      "Correctif : ultra-responsive voice feedback — speech silence detection time cut in half for near-instant wakeup and conversational speed.",
-      "Correctif : completely removed wakeup delay by ensuring local audio cache matching.",
-      "Ajout : local pre-caching of all common vehicle action voice confirmations (windows, climate, doors, sunroof) for instantaneous replies without waiting on network.",
-      "Correctif : fast-fail network timeouts preventing multi-second stalls during cloud voice synthesis.",
-      "Ajout : enriched local command parsing for direct vehicle actions (all-in-one \"close everything\", climate, fan speed, fast volume adjustments)."
+      "Fix: trip summary when parking in P position — dynamic, precise calculation of distance and real consumption for every trip, fixing the static audio repetition issue.",
+      "Fix: proactive parking radar voice guidance — live detection of parking maneuvers and responsive voice alerts (immediate Stop, close obstacle, detected obstacle) combining discrete sensors and distance measurements.",
+      "Add: dedicated voice commands to turn parking and reverse radars on or off hands-free.",
+      "Improvement: full vehicle hardware integration and fast communication across all car equipment (gearbox status, windows, climate, radar sensors, lights)."
     ],
     "nl": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "de": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "es": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "it": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "pt": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "ar": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "tr": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ],
     "zh": [
-      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
-      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
-      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
-      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
-      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
+      "Correctif : bilan vocal de fin de trajet en position P — calcul dynamique et précis de la distance parcourue et de la consommation réelle pour chaque trajet, court ou long, en éliminant la répétition de l'ancien rapport figé.",
+      "Correctif : guidage vocal de stationnement et radars — détection en direct des manœuvres et annonce vocale réactive des obstacles (Stop immédiat, obstacle proche, obstacle détecté) avec prise en compte des capteurs et de la distance en centimètres.",
+      "Ajout : commandes vocales dédiées pour activer ou désactiver les radars de stationnement et de recul à la voix.",
+      "Amélioration : communication et réactivité instantanées de toutes les commandes d'équipements de la voiture (rapports de boîte, vitres, clim, radars, éclairage)."
     ]
   }
 }

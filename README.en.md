@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.8** · released on 5 November 2026 · 72.7 MB
+**VERSION 2.3.9** · released on 5 November 2026 · 72.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,12 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.8
+## What is new in 2.3.9
 
-- Correctif : ultra-responsive voice feedback — speech silence detection time cut in half for near-instant wakeup and conversational speed.
-- Correctif : completely removed wakeup delay by ensuring local audio cache matching.
-- Ajout : local pre-caching of all common vehicle action voice confirmations (windows, climate, doors, sunroof) for instantaneous replies without waiting on network.
-- Correctif : fast-fail network timeouts preventing multi-second stalls during cloud voice synthesis.
-- Ajout : enriched local command parsing for direct vehicle actions (all-in-one "close everything", climate, fan speed, fast volume adjustments).
+- Fix: trip summary when parking in P position — dynamic, precise calculation of distance and real consumption for every trip, fixing the static audio repetition issue.
+- Fix: proactive parking radar voice guidance — live detection of parking maneuvers and responsive voice alerts (immediate Stop, close obstacle, detected obstacle) combining discrete sensors and distance measurements.
+- Add: dedicated voice commands to turn parking and reverse radars on or off hands-free.
+- Improvement: full vehicle hardware integration and fast communication across all car equipment (gearbox status, windows, climate, radar sensors, lights).
 
 ---
 
