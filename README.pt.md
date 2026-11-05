@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.3.7** · publicada a 4 de novembro de 2026 · 72.7 MB
+**VERSÃO 2.3.8** · publicada a 5 de novembro de 2026 · 72.7 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.3.8.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.3.7
+## Novidades da 2.3.8
 
-- Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.
-- Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.
-- Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.
-- Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches).
+- Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.
+- Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.
+- Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.
+- Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.
+- Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume).
 
 ---
 

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.3.7** · yayın tarihi 4 Kasım 2026 · 72.7 MB
+**SÜRÜM 2.3.8** · yayın tarihi 5 Kasım 2026 · 72.7 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.3.8.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,12 +103,13 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.3.7
+## Yenilikler: 2.3.8
 
-- Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.
-- Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.
-- Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.
-- Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches).
+- Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.
+- Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.
+- Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.
+- Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.
+- Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume).
 
 ---
 

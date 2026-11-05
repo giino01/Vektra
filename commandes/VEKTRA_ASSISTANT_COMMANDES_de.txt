@@ -93,6 +93,8 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
 • Alle Fenster:
   - „Vektra, öffne die Fenster" / „Öffne alle Fenster"
   - „Vektra, schließe die Fenster" / „Schließe alle Fenster"
+  - „Vektra, alles schließen" / „Schließe das Auto" (schließt alle Fenster, Schiebedach, Sonnenblende und verriegelt Türen)
+  - „Vektra, alles öffnen" (öffnet alle Fenster und Sonnenblende)
   - „Vektra, öffne die Fenster einen Spalt" / „Lüfte das Auto" (Öffnung auf 20 %)
   - „Vektra, öffne die Fenster zur Hälfte" / „Öffne die Fenster auf 50 %"
 

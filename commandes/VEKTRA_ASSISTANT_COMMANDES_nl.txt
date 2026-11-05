@@ -91,6 +91,8 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
 • Alle ramen:
   - "Vektra, open de ramen" / "Open alle ramen"
   - "Vektra, sluit de ramen" / "Sluit alle ramen"
+  - "Vektra, sluit alles" / "Sluit de auto" (sluit alle ramen, schuifdak, zonnescherm en vergrendelt de deuren)
+  - "Vektra, open alles" (opent alle ramen en zonnescherm)
   - "Vektra, zet de ramen op een kier" / "Verlucht de auto" (opent tot 20%)
   - "Vektra, open de ramen halverwege" / "Open de ramen tot 50%"
 

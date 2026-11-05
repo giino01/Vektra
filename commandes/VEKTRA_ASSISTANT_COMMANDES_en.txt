@@ -91,6 +91,8 @@ Groq artificial intelligence (Llama 3.3 70B).
 • All windows:
   - "Vektra, open the windows" / "Open all the windows"
   - "Vektra, close the windows" / "Close all the windows"
+  - "Vektra, close everything" / "Close the car" (closes all windows, sunroof, sunshade and locks doors)
+  - "Vektra, open everything" (opens all windows and sunshade)
   - "Vektra, crack the windows" / "Air out the car" (opens to 20%)
   - "Vektra, open the windows halfway" / "Open the windows to 50%"
 

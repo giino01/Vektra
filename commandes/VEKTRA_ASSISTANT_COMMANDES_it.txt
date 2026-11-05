@@ -92,6 +92,8 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
 • Tutti i finestrini:
   - «Vektra, apri i finestrini» / «Apri tutti i finestrini»
   - «Vektra, chiudi i finestrini» / «Chiudi tutti i finestrini»
+  - «Vektra, chiudi tutto» / «Chiudi l'auto» (chiude tutti i finestrini, tettuccio, tendina e blocca le portiere)
+  - «Vektra, apri tutto» (apre tutti i finestrini e la tendina)
   - «Vektra, socchiudi i finestrini» / «Arieggia l'auto» (apertura al 20%)
   - «Vektra, apri i finestrini a metà» / «Apri i finestrini al 50%»
 

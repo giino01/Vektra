@@ -91,6 +91,8 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
 • Toutes les fenêtres :
   - « Vektra, ouvre les fenêtres » / « Ouvre toutes les vitres »
   - « Vektra, ferme les fenêtres » / « Ferme toutes les vitres »
+  - « Vektra, ferme tout » / « Ferme la voiture » (ferme toutes les vitres, le toit ouvrant, le store et verrouille les portes)
+  - « Vektra, ouvre tout » (ouvre toutes les vitres et le store de toit)
   - « Vektra, entrouvre les fenêtres » / « Aère la voiture » (ouverture à 20 %)
   - « Vektra, ouvre les fenêtres à moitié » / « Ouvre les vitres à 50 % »
 

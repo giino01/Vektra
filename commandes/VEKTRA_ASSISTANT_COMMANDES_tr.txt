@@ -91,6 +91,8 @@ erişime sahiptir.
 • Tüm camlar:
   - «Vektra, camları aç» / «Tüm camları aç»
   - «Vektra, camları kapat» / «Tüm camları kapat»
+  - «Vektra, her şeyi kapat» / «Arabayı kapat» (tüm camları, açılır tavanı, güneşliği kapatır ve kapıları kilitler)
+  - «Vektra, her şeyi aç» (tüm camları ve güneşliği açar)
   - «Vektra, camları birazcık aç» / «Arabayı havalandır» (%20 açılır)
   - «Vektra, camları yarıya aç» / «Camları %50 aç»
 

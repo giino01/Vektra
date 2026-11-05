@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.3.7** · released on 4 November 2026 · 72.7 MB
+**VERSION 2.3.8** · released on 5 November 2026 · 72.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.3.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,12 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.3.7
+## What is new in 2.3.8
 
-- Ajout : ambient lights turn bright red when Vektra speaks and blink to its voice.
-- Ajout : sharp, punchy ambient light blinking (levels 1 to 5 on front and rear zones) while keeping your original color when speaking to Vektra.
-- Correctif : accurate restore of the original ambient light color and brightness as soon as the voice interaction ends.
-- Correctif : cold reset of the GPS chip in settings and via voice (purging corrupt aiding data, re-injecting accurate time and fresh satellite ephemeris).
+- Correctif : ultra-responsive voice feedback — speech silence detection time cut in half for near-instant wakeup and conversational speed.
+- Correctif : completely removed wakeup delay by ensuring local audio cache matching.
+- Ajout : local pre-caching of all common vehicle action voice confirmations (windows, climate, doors, sunroof) for instantaneous replies without waiting on network.
+- Correctif : fast-fail network timeouts preventing multi-second stalls during cloud voice synthesis.
+- Ajout : enriched local command parsing for direct vehicle actions (all-in-one "close everything", climate, fan speed, fast volume adjustments).
 
 ---
 

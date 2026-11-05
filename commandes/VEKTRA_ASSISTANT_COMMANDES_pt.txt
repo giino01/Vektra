@@ -92,6 +92,8 @@ inteligência artificial Groq (Llama 3.3 70B).
 • Todos os vidros:
   - «Vektra, abre os vidros» / «Abre todos os vidros»
   - «Vektra, fecha os vidros» / «Fecha todos os vidros»
+  - «Vektra, fecha tudo» / «Fecha o carro» (fecha todas as janelas, teto solar, cortina e tranca as portas)
+  - «Vektra, abre tudo» (abre todas as janelas e a cortina)
   - «Vektra, entreabre os vidros» / «Areja o carro» (abertura a 20%)
   - «Vektra, abre os vidros a meio» / «Abre os vidros a 50%»
 

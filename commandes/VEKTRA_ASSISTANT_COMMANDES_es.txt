@@ -92,6 +92,8 @@ iluminación ambiental y a la inteligencia artificial Groq (Llama 3.3 70B).
 • Todas las ventanillas:
   - «Vektra, abre las ventanillas» / «Abre todas las ventanillas»
   - «Vektra, cierra las ventanillas» / «Cierra todas las ventanillas»
+  - «Vektra, cierra todo» / «Cierra el coche» (cierra todas las ventanillas, techo solar, parasol y bloquea las puertas)
+  - «Vektra, abre todo» (abre todas las ventanillas y el parasol)
   - «Vektra, entreabre las ventanillas» / «Ventila el coche» (apertura al 20%)
   - «Vektra, abre las ventanillas a la mitad» / «Abre las ventanillas al 50%»
 

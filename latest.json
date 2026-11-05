@@ -1,73 +1,84 @@
 {
-  "version": "2.3.7",
-  "apk": "Vektra-2.3.7.apk",
-  "size": 76199704,
+  "version": "2.3.8",
+  "apk": "Vektra-2.3.8.apk",
+  "size": 76204248,
   "notes": [
-    "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-    "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-    "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-    "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+    "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+    "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+    "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+    "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+    "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "en": [
-      "Ajout : ambient lights turn bright red when Vektra speaks and blink to its voice.",
-      "Ajout : sharp, punchy ambient light blinking (levels 1 to 5 on front and rear zones) while keeping your original color when speaking to Vektra.",
-      "Correctif : accurate restore of the original ambient light color and brightness as soon as the voice interaction ends.",
-      "Correctif : cold reset of the GPS chip in settings and via voice (purging corrupt aiding data, re-injecting accurate time and fresh satellite ephemeris)."
+      "Correctif : ultra-responsive voice feedback — speech silence detection time cut in half for near-instant wakeup and conversational speed.",
+      "Correctif : completely removed wakeup delay by ensuring local audio cache matching.",
+      "Ajout : local pre-caching of all common vehicle action voice confirmations (windows, climate, doors, sunroof) for instantaneous replies without waiting on network.",
+      "Correctif : fast-fail network timeouts preventing multi-second stalls during cloud voice synthesis.",
+      "Ajout : enriched local command parsing for direct vehicle actions (all-in-one \"close everything\", climate, fan speed, fast volume adjustments)."
     ],
     "nl": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "de": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "es": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "it": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "pt": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "ar": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "tr": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ],
     "zh": [
-      "Ajout : les LED d'ambiance passent automatiquement en rouge vif quand Vektra parle et clignotent au rythme de sa voix.",
-      "Ajout : clignotement franc et énergique des LED (niveaux 1 à 5 sur zones avant et arrière) avec la couleur d'origine préservée quand tu parles à Vektra.",
-      "Correctif : restauration exacte de la couleur d'origine et du niveau de luminosité initial des LED d'ambiance dès la fin de l'échange vocal.",
-      "Correctif : réinitialisation à froid de la puce GPS dans les réglages et à la voix (purge des données d'assistance corrompues, réinjection de l'heure et des éphémérides satellites fraîches)."
+      "Correctif : réponse vocale ultra-réactive — réduction de moitié du délai d'attente de fin de parole pour un réveil et un dialogue quasi instantanés.",
+      "Correctif : élimination totale de la latence au réveil grâce à la correspondance exacte du fichier audio en mémoire locale.",
+      "Ajout : pré-chargement en mémoire locale de toutes les confirmations vocales des actions de la voiture (vitres, clim, portes, toit) pour une réponse immédiate sans attendre Internet.",
+      "Correctif : bascule réseau rapide et sécurisée évitant tout blocage de plusieurs secondes lors des synthèses vocales en ligne.",
+      "Ajout : reconnaissance locale enrichie des commandes directes (fermeture totale « ferme tout », clim, ventilation, réglages rapides du volume)."
     ]
   }
 }
