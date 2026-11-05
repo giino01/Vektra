@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.4.3** · yayın tarihi 5 Kasım 2026 · 46.6 MB
+**SÜRÜM 2.4.4** · yayın tarihi 5 Kasım 2026 · 46.6 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.3.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.4.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,10 +103,10 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.4.3
+## Yenilikler: 2.4.4
 
-- Fix: özel uyandırma kelimesi — özel bir isim seçildiğinde (örneğin Jarvis), asistan Vektra adını tamamen yok sayarak yalnızca seçilen ada yanıt verir; geri yüklendiğinde tekrar Vektra adını dinler.
-- Add: dinamik kimlik uyumu — uyku modu onayları ve yapay zeka kimliği otomatik olarak seçilen uyandırma adını benimser.
+- Fix: yerel BYD (Cerence ARK) ses entegrasyonu — DiLink uyumsuzluğunu gidermek için navigasyon yayınları ve yerel ADB köprüsü üzerinden BydVoice (/system/app/BydVoice) doğrudan desteği.
+- Add: hibrit yüksek kaliteli yedek — araç yerel sesi ile yüksek çözünürlüklü sentez arasında kesintisiz otomatik geçiş.
 
 ---
 

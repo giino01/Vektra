@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.4.3** · publiée le 5 novembre 2026 · 46.6 Mo
+**VERSION 2.4.4** · publiée le 5 novembre 2026 · 46.6 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.3.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.4.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.4.3
+## Nouveautés de la 2.4.4
 
-- Correctif : mot de réveil exclusif — lorsqu'un nom personnalisé est défini (par exemple Jarvis), l'assistant ignore strictement l'ancien nom Vektra et n'écoute que le nouveau nom ; il répond à nouveau à Vektra dès que celui-ci est rétabli.
-- Ajout : alignement dynamique de l'identité — les confirmations vocales de mise en veille et l'identité de l'assistant adoptent automatiquement le mot d'appel choisi.
+- Correctif : intégration synthèse vocale native BYD (Cerence ARK) — prise en charge directe de l'assistant BydVoice (/system/app/BydVoice) via les diffusions de navigation et le pont ADB local pour résoudre le blocage de compatibilité sur DiLink.
+- Ajout : repli hybride haute fidélité — bascule automatique transparente entre la voix native du véhicule et la synthèse haute définition sans alourdir l'application.
 
 ---
 

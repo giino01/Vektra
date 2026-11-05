@@ -1,51 +1,51 @@
 {
-  "version": "2.4.3",
-  "apk": "Vektra-2.4.3.apk",
-  "size": 48828517,
+  "version": "2.4.4",
+  "apk": "Vektra-2.4.4.apk",
+  "size": 48862645,
   "notes": [
-    "Correctif : mot de réveil exclusif — lorsqu'un nom personnalisé est défini (par exemple Jarvis), l'assistant ignore strictement l'ancien nom Vektra et n'écoute que le nouveau nom ; il répond à nouveau à Vektra dès que celui-ci est rétabli.",
-    "Ajout : alignement dynamique de l'identité — les confirmations vocales de mise en veille et l'identité de l'assistant adoptent automatiquement le mot d'appel choisi."
+    "Correctif : intégration synthèse vocale native BYD (Cerence ARK) — prise en charge directe de l'assistant BydVoice (/system/app/BydVoice) via les diffusions de navigation et le pont ADB local pour résoudre le blocage de compatibilité sur DiLink.",
+    "Ajout : repli hybride haute fidélité — bascule automatique transparente entre la voix native du véhicule et la synthèse haute définition sans alourdir l'application."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : mot de réveil exclusif — lorsqu'un nom personnalisé est défini (par exemple Jarvis), l'assistant ignore strictement l'ancien nom Vektra et n'écoute que le nouveau nom ; il répond à nouveau à Vektra dès que celui-ci est rétabli.",
-      "Ajout : alignement dynamique de l'identité — les confirmations vocales de mise en veille et l'identité de l'assistant adoptent automatiquement le mot d'appel choisi."
+      "Correctif : intégration synthèse vocale native BYD (Cerence ARK) — prise en charge directe de l'assistant BydVoice (/system/app/BydVoice) via les diffusions de navigation et le pont ADB local pour résoudre le blocage de compatibilité sur DiLink.",
+      "Ajout : repli hybride haute fidélité — bascule automatique transparente entre la voix native du véhicule et la synthèse haute définition sans alourdir l'application."
     ],
     "en": [
-      "Fix: exclusive custom wake word — when a custom name is set (such as Jarvis), the assistant strictly ignores the previous Vektra name and only listens to the chosen name; it responds to Vektra again whenever restored.",
-      "Add: dynamic identity alignment — standby voice confirmations and assistant AI identity now dynamically adopt the chosen wake word."
+      "Fix: native BYD (Cerence ARK) voice integration — direct support for BydVoice (/system/app/BydVoice) via navigation broadcasts and local ADB bridge to resolve DiLink system incompatibility.",
+      "Add: hybrid high-fidelity fallback — seamless automatic transition between vehicle native voice and high-definition synthesis with zero added weight."
     ],
     "nl": [
-      "Fix: exclusief activeringswoord — wanneer een aangepaste naam is ingesteld (zoals Jarvis), negeert de assistent de naam Vektra en luistert alleen naar de gekozen naam; reageert weer op Vektra zodra deze wordt hersteld.",
-      "Add: dynamische identiteitsafstemming — standby-spraakbevestigingen en AI-identiteit passen zich automatisch aan het gekozen activeringswoord aan."
+      "Fix: native BYD (Cerence ARK) spraakintegratie — directe ondersteuning voor BydVoice (/system/app/BydVoice) via navigatie-uitzendingen en lokale ADB-bridge om DiLink-incompatibiliteit op te lossen.",
+      "Add: hybride high-fidelity fallback — naadloze automatische overgang tussen de eigen stem van de auto en high-definition synthese."
     ],
     "de": [
-      "Fix: exklusives benutzerdefiniertes Aktivierungswort — wenn ein eigener Name gewählt wird (z. B. Jarvis), ignoriert der Assistent Vektra vollständig und lauscht nur auf den neuen Namen; bei Rückstellung reagiert er wieder auf Vektra.",
-      "Add: dynamische Identitätsanpassung — Standby-Sprachbestätigungen und Assistenten-Identität übernehmen automatisch den gewählten Rufnamen."
+      "Fix: native BYD (Cerence ARK) Sprachintegration — direkte Unterstützung für BydVoice (/system/app/BydVoice) über Navigations-Broadcasts und lokale ADB-Bridge zur Behebung der DiLink-Inkompatibilität.",
+      "Add: hybrider High-Fidelity-Fallback — nahtloser automatischer Übergang zwischen nativer Fahrzeugstimme und hochauflösender Synthese."
     ],
     "es": [
-      "Fix: palabra de activación exclusiva — al configurar un nombre personalizado (como Jarvis), el asistente ignora por completo el nombre Vektra y solo escucha el nombre elegido; responde de nuevo a Vektra si se restablece.",
-      "Add: alineación dinámica de identidad — las confirmaciones de espera por voz y la identidad del asistente adoptan automáticamente el nombre elegido."
+      "Fix: integración de voz nativa BYD (Cerence ARK) — soporte directo a BydVoice (/system/app/BydVoice) mediante emisiones de navegación y puente ADB local para resolver la incompatibilidad en DiLink.",
+      "Add: repliegue híbrido de alta fidelidad — transición automática fluida entre la voz nativa del vehículo y la síntesis de alta definición."
     ],
     "it": [
-      "Fix: parola di attivazione esclusiva — quando viene impostato un nome personalizzato (come Jarvis), l'assistente ignora il nome Vektra e ascolta solo il nome scelto; risponde di nuovo a Vektra se ripristinato.",
-      "Add: allineamento dinamico dell'identità — le conferme vocali di standby e l'identità dell'assistente adottano automaticamente il nome scelto."
+      "Fix: integrazione vocale nativa BYD (Cerence ARK) — supporto diretto a BydVoice (/system/app/BydVoice) tramite broadcast di navigazione e bridge ADB per risolvere l'incompatibilità su DiLink.",
+      "Add: fallback ibrido ad alta fedeltà — passaggio automatico trasparente tra la voce nativa del veicolo e la sintesi ad alta definizione."
     ],
     "pt": [
-      "Fix: palavra de ativação exclusiva — ao configurar um nome personalizado (como Jarvis), o assistente ignora o nome Vektra e ouve apenas o novo nome; responde novamente a Vektra se restaurado.",
-      "Add: alinhamento dinâmico de identidade — as confirmações vocais de suspensão e a identidade do assistente adotam automaticamente o nome escolhido."
+      "Fix: integração de voz nativa BYD (Cerence ARK) — suporte direto ao BydVoice (/system/app/BydVoice) via transmissões de navegação e ponte ADB local resolvendo a incompatibilidade no DiLink.",
+      "Add: fallback híbrido de alta fidelidade — transição automática transparente entre a voz nativa do veículo e a síntese em alta definição."
     ],
     "ar": [
-      "Fix: كلمة تنبيه مخصصة حصرية — عند تعيين اسم مخصص (مثل Jarvis)، يتجاهل المساعد اسم Vektra تماماً ويستجيب للاسم المختار فقط؛ ويعود للاستجابة لاسم Vektra عند إعادة تعيينه.",
-      "Add: توافق ديناميكي للهوية — تعتمد تأكيدات وضع الاستعداد وهوية المساعد تلقائياً الاسم المختار."
+      "Fix: تكامل الصوت الأصلي لـ BYD (Cerence ARK) — دعم مباشر لـ BydVoice (/system/app/BydVoice) عبر بث الملاحة وجسر ADB المحلي لحل مشكلة عدم التوافق على DiLink.",
+      "Add: استجابة هجينة عالية الدقة — انتقال تلقائي سلس بين صوت السيارة الأصلي والتوليف عالي الدقة دون أي زيادة في الحجم."
     ],
     "tr": [
-      "Fix: özel uyandırma kelimesi — özel bir isim seçildiğinde (örneğin Jarvis), asistan Vektra adını tamamen yok sayarak yalnızca seçilen ada yanıt verir; geri yüklendiğinde tekrar Vektra adını dinler.",
-      "Add: dinamik kimlik uyumu — uyku modu onayları ve yapay zeka kimliği otomatik olarak seçilen uyandırma adını benimser."
+      "Fix: yerel BYD (Cerence ARK) ses entegrasyonu — DiLink uyumsuzluğunu gidermek için navigasyon yayınları ve yerel ADB köprüsü üzerinden BydVoice (/system/app/BydVoice) doğrudan desteği.",
+      "Add: hibrit yüksek kaliteli yedek — araç yerel sesi ile yüksek çözünürlüklü sentez arasında kesintisiz otomatik geçiş."
     ],
     "zh": [
-      "Fix: 专属自定义唤醒词隔离 — 设置自定义唤醒名称（如 Jarvis）后，助手将严格忽略原有的 Vektra 并不再对其响应；重新改回 Vektra 时即刻恢复原唤醒逻辑。",
-      "Add: 助手身份与休眠提示同步 — 待机语音确认和车载 AI 身份认知实时动态适配当前生效的唤醒词。"
+      "Fix: 适配比亚迪车机原生语音 (Cerence ARK) — 通过导航广播通道与本地 ADB 桥接直接驱动系统内置 BydVoice (/system/app/BydVoice)，彻底解决 DiLink 语音不兼容问题。",
+      "Add: 车机原生与高保真混合发声 — 支持车机原生车载音色与高清自然语音无缝自适应切换，安装包维持超轻量体积。"
     ]
   }
 }
