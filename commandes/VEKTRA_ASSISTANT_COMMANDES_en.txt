@@ -12,9 +12,18 @@ Groq artificial intelligence (Llama 3.3 70B).
 1. WAKE WORD, CALLING IT & MEDIA VOLUME CONTROL
 --------------------------------------------------------------------------------
 • How to call it:
-  - Simply say: "Vektra" / "Hey Vektra" / "OK Vektra"
+  - Simply say: "Vektra" / "Hey Vektra" / "OK Vektra" (or your custom wake word, e.g. "Jarvis")
   - Or state your request directly: "Vektra, open the sunroof"
   - Or tap the voice status card in the Assistant tab or the 3D avatar.
+
+• Custom wake word & user name:
+  - "Vektra, call me [your name]" (assistant directly answers "Yes, [your name]?" on wake-up)
+  - "Vektra, your wake name is Jarvis" (lets you wake it up by saying "Jarvis")
+  - Also configurable in the Assistant tab: "How the assistant calls you" and "Wake word".
+
+• Backup & Restore data (/sdcard/vektra/):
+  - Your maps, voice packs, audio and backups are stored in /sdcard/vektra/.
+  - Settings → "Backup & Restore" menu to create or restore timestamped archives with the internal file explorer.
 
 • Stop everything in one gesture:
   - A single tap on the on-screen voice animation immediately cuts off the

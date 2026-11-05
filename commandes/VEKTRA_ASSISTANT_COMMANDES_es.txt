@@ -12,9 +12,18 @@ iluminación ambiental y a la inteligencia artificial Groq (Llama 3.3 70B).
 1. ACTIVACIÓN, LLAMADA Y CONTROL DEL VOLUMEN MULTIMEDIA
 --------------------------------------------------------------------------------
 • Cómo llamarla:
-  - Di simplemente: «Vektra» / «Hey Vektra» / «OK Vektra»
+  - Di simplemente: «Vektra» / «Hey Vektra» / «OK Vektra» (o tu palabra de activación, ej. «Jarvis»)
   - O formula tu petición directamente: «Vektra, abre el techo solar»
   - O toca la tarjeta de estado de voz en la pestaña Assistant o el avatar 3D.
+
+• Palabra de activación y Nombre personalizado:
+  - «Vektra, llámame [tu nombre]» (responde directamente «¡Sí, [tu nombre]!» al activarse)
+  - «Vektra, tu nombre es Jarvis» (permite despertarla diciendo «Jarvis»)
+  - Ajustable también en la pestaña Assistant: «Nombre de llamada» y «Palabra de activación».
+
+• Copia de seguridad y Restauración (/sdcard/vektra/):
+  - Mapas, paquetes de voz, audio y copias de seguridad se guardan en /sdcard/vektra/.
+  - Menú Ajustes → «Copia de seguridad y Restauración» con explorador interno.
 
 • Detener todo con un solo gesto:
   - Un simple toque en la animación de voz en pantalla corta de inmediato la

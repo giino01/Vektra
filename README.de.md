@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.3.10** · veröffentlicht am 5. November 2026 · 72.7 MB
+**VERSION 2.4.0** · veröffentlicht am 5. November 2026 · 72.7 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.3.10.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,13 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.3.10
+## Neu in 2.4.0
 
-- Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.
-- Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.
-- Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.
-- Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.
-- Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »).
+- Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.
+- Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.
+- Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.
+- Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.
+- Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut.
 
 ---
 

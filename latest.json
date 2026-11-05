@@ -1,84 +1,84 @@
 {
-  "version": "2.3.10",
-  "apk": "Vektra-2.3.10.apk",
-  "size": 76225716,
+  "version": "2.4.0",
+  "apk": "Vektra-2.4.0.apk",
+  "size": 76271620,
   "notes": [
-    "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-    "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-    "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-    "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-    "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+    "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+    "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+    "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+    "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+    "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "en": [
-      "Add: toggle switch for car internal voice engine — one-tap switch to 100% local, ultra-responsive speech synthesis with zero network dependency.",
-      "Add: smart 800 ms voice fallback — automatically falls back to internal voice if online voice takes over 800 ms, completely eliminating silence and delays.",
-      "Fix: instant parking radar voice guidance — zero-latency obstacle warnings (\"Stop!\", \"close obstacle\", \"detected obstacle\") fully processed offline.",
-      "Fix: full Belgian French numbers — complete support for numbers 70-79 (septante...) and 90-99 (nonante...) across all assistant speech and trip summaries.",
-      "Add: voice commands to switch between internal car voice and Microsoft natural voice."
+      "Add: full backup and restore — dedicated menu in Settings to export all your preferences and assistant memories into a timestamped file or restore your profile with one tap.",
+      "Add: built-in file explorer — browse, preview and restore your backups directly on the tablet screen without relying on native Android dialogs.",
+      "Add: centralized storage tree — all application data (offline maps, voice packs, sound clips and backups) are automatically organized in a clean directory at the root of your storage.",
+      "Add: customizable wake word — freely choose the name to wake up your assistant (Vektra, Jarvis, Friday, KITT or any custom name) via the Assistant tab or voice command.",
+      "Fix: instant personalized wake-up greeting — assistant directly greets you with your chosen call name on wake-up (\"Yes, Gino?\") with zero latency and no default fallback."
     ],
     "nl": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "de": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "es": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "it": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "pt": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "ar": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "tr": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ],
     "zh": [
-      "Ajout : bouton de sélection pour le moteur vocal interne de la voiture — permet de basculer en un clic sur une synthèse vocale 100 % locale et ultra-réactive sans passer par Internet.",
-      "Ajout : repli vocal instantané — si la voix en ligne met plus de 800 ms à répondre en roulant, l'assistant bascule automatiquement sur la voix interne pour éliminer tout temps d'attente ou coupure.",
-      "Correctif : guidage vocal de stationnement 100 % fonctionnel et instantané — annonces d'obstacles immédiates (« Stop ! », « obstacle proche », « obstacle détecté ») en local sans dépendance réseau.",
-      "Correctif : chiffres belges intégraux — prise en compte de tous les nombres de 70 à 79 (septante...) et 90 à 99 (nonante...) dans toutes les réponses et bilans vocaux de l'assistant.",
-      "Ajout : commandes vocales pour activer ou désactiver la voix interne (« utilise la voix interne », « bascule sur la voix Microsoft »)."
+      "Ajout : sauvegarde et restauration complète — menu dédié dans les paramètres pour exporter vos réglages et la mémoire de l'assistant dans un fichier horodaté ou restaurer vos profils en un clic.",
+      "Ajout : explorateur de fichiers interne — visualisez, parcourez et restaurez directement vos sauvegardes sur la tablette sans passer par les menus Android d'origine.",
+      "Ajout : stockage centralisé à la racine — organisation automatique de toutes les données de l'application (cartes, packs vocaux, audio et sauvegardes) dans un dossier propre à la racine de la mémoire.",
+      "Ajout : mot de réveil personnalisable — choisissez librement le nom pour appeler votre assistant (Vektra, Jarvis, Vendredi, KITT ou le nom de votre choix) depuis l'onglet Assistant ou à la voix.",
+      "Correctif : nom d'appel au réveil immédiat — l'assistant prononce directement votre prénom ou nom choisi dès le réveil (« Oui Gino ? ») sans aucun délai ni retour sur l'ancien titre par défaut."
     ]
   }
 }

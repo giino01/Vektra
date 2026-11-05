@@ -12,9 +12,18 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
 1. RISVEGLIO, RICHIAMO E CONTROLLO DEL VOLUME MULTIMEDIALE
 --------------------------------------------------------------------------------
 • Come richiamarla:
-  - Di' semplicemente: «Vektra» / «Hey Vektra» / «OK Vektra»
+  - Di' semplicemente: «Vektra» / «Hey Vektra» / «OK Vektra» (o la tua parola di attivazione, es. «Jarvis»)
   - Oppure formula direttamente la richiesta: «Vektra, apri il tettuccio»
   - Oppure tocca la scheda di stato vocale nella scheda Assistant o l'avatar 3D.
+
+• Parola di attivazione & Nome personalizzato:
+  - «Vektra, chiamami [nome]» (risponde direttamente «Sì, [nome]?» al risveglio)
+  - «Vektra, il tuo nome è Jarvis» (permette di richiamarla dicendo «Jarvis»)
+  - Configurabile anche nella scheda Assistant: «Nome di chiamata» e «Parola di attivazione».
+
+• Backup e Ripristino (/sdcard/vektra/):
+  - Mappe, pacchetti vocali, audio e backup sono archiviati in /sdcard/vektra/.
+  - Menu Impostazioni → «Backup e Ripristino» con esploratore interno.
 
 • Fermare tutto con un solo gesto:
   - Un semplice tocco sull'animazione vocale a schermo interrompe subito la

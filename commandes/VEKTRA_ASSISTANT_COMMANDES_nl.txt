@@ -12,9 +12,18 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
 1. WEKKEN, AANROEPEN & MEDIAVOLUMEREGELING
 --------------------------------------------------------------------------------
 • Hoe je hem aanroept:
-  - Zeg gewoon: "Vektra" / "Hey Vektra" / "OK Vektra"
+  - Zeg gewoon: "Vektra" / "Hey Vektra" / "OK Vektra" (of je aangepaste activeringswoord, bijv. "Jarvis")
   - Of formuleer je verzoek meteen: "Vektra, open het schuifdak"
   - Of tik op de spraakstatuskaart in het Assistant-tabblad of op de 3D-avatar.
+
+• Aangepast activeringswoord & aanroepnaam:
+  - "Vektra, noem me [je naam]" (antwoordt bij het wekken direct "Ja, [je naam]?")
+  - "Vektra, je naam is Jarvis" (maakt het mogelijk om hem te wekken met "Jarvis")
+  - Ook instelbaar in het Assistant-tabblad: "Aanroepnaam" en "Activeringswoord".
+
+• Back-up & Herstel (/sdcard/vektra/):
+  - Kaarten, spraakpakketten, audio en back-ups worden opgeslagen in /sdcard/vektra/.
+  - Menu Instellingen → "Back-up & Herstel" met interne bestandsverkenner.
 
 • Alles in één gebaar stoppen:
   - Eén tik op de spraakanimatie op het scherm onderbreekt meteen het lopende

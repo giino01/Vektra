@@ -12,9 +12,18 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
 1. RÉVEIL, INTERPELLATION & CONTRÔLE DU VOLUME MÉDIA
 --------------------------------------------------------------------------------
 • Comment l'appeler :
-  - Dites simplement : « Vektra » / « Hey Vektra » / « Dis Vektra »
+  - Dites simplement : « Vektra » / « Hey Vektra » / « Dis Vektra » (ou votre nom de réveil personnalisé, ex. « Jarvis »)
   - Ou formulez votre demande directement : « Vektra, ouvre le toit ouvrant »
   - Ou appuyez sur la carte de statut vocal dans l'onglet Assistant ou sur l'avatar 3D.
+
+• Personnalisation du nom de réveil & nom d'appel :
+  - « Vektra, appelle-moi [votre nom] » (l'assistant répond directement « Oui [votre nom] ? » au réveil)
+  - « Vektra, appelle-toi Jarvis » / « Ton nom de réveil est Jarvis » (permet de la réveiller en disant « Jarvis »)
+  - Réglable aussi dans l'onglet Assistant : « Comment l'assistant vous appelle » et « Nom de réveil ».
+
+• Sauvegarde & Restauration des données (/sdcard/vektra/) :
+  - Vos cartes, packs vocaux, audio et sauvegardes sont stockés dans /sdcard/vektra/.
+  - Menu Paramètres → « Sauvegarde & Restauration » pour créer ou restaurer une archive horodatée via l'explorateur interne.
 
 • Tout arrêter d'un seul geste :
   - Un simple appui sur l'animation vocale à l'écran coupe immédiatement la

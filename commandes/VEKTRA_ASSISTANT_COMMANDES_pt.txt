@@ -12,9 +12,18 @@ inteligência artificial Groq (Llama 3.3 70B).
 1. ATIVAÇÃO, CHAMAMENTO E CONTROLO DO VOLUME DE MÉDIA
 --------------------------------------------------------------------------------
 • Como chamá-lo:
-  - Diz simplesmente: «Vektra» / «Hey Vektra» / «OK Vektra»
+  - Diz simplesmente: «Vektra» / «Hey Vektra» / «OK Vektra» (ou a tua palavra de ativação, ex. «Jarvis»)
   - Ou formula o pedido diretamente: «Vektra, abre o teto solar»
   - Ou toca no cartão de estado vocal no separador Assistant ou no avatar 3D.
+
+• Palavra de ativação & Nome personalizado:
+  - «Vektra, chama-me [nome]» (responde diretamente «Sim, [nome]?» ao acordar)
+  - «Vektra, o teu nome é Jarvis» (permite acordá-lo dizendo «Jarvis»)
+  - Configurável também no separador Assistant: «Nome de chamada» e «Palavra de ativação».
+
+• Cópia de segurança e Restauro (/sdcard/vektra/):
+  - Mapas, pacotes de voz, áudio e cópias são guardados em /sdcard/vektra/.
+  - Menu Definições → «Cópia e Restauro» com explorador interno.
 
 • Parar tudo com um só gesto:
   - Um simples toque na animação vocal no ecrã interrompe imediatamente a

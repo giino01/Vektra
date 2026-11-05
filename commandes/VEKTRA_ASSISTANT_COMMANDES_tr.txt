@@ -12,9 +12,18 @@ erişime sahiptir.
 1. UYANDIRMA, ÇAĞIRMA VE MEDYA SES SEVİYESİ KONTROLÜ
 --------------------------------------------------------------------------------
 • Nasıl çağrılır:
-  - Sadece söyleyin: «Vektra» / «Hey Vektra» / «OK Vektra»
+  - Sadece söyleyin: «Vektra» / «Hey Vektra» / «OK Vektra» (veya özel uyandırma adınız, örn. «Jarvis»)
   - Ya da isteğinizi doğrudan söyleyin: «Vektra, sunroof'u aç»
   - Ya da Assistant sekmesindeki sesli durum kartına veya 3D avatara dokunun.
+
+• Özel uyandırma adı & hitap adı:
+  - «Vektra, bana [adınız] de» (uyandığında doğrudan «Evet, [adınız]?» yanıtını verir)
+  - «Vektra, senin adın Jarvis» («Jarvis» diyerek uyandırmanızı sağlar)
+  - Assistant sekmesinden de ayarlanabilir: «Hitap adı» ve «Uyandırma adı».
+
+• Yedekleme ve Geri Yükleme (/sdcard/vektra/):
+  - Haritalar, ses paketleri, ses dosyaları ve yedekler /sdcard/vektra/ içinde saklanır.
+  - Ayarlar → «Yedekleme ve Geri Yükleme» menüsü ile dahili gezginden yönetin.
 
 • Tek dokunuşla her şeyi durdurma:
   - Ekrandaki ses animasyonuna tek dokunuş, devam eden yanıtı anında keser,

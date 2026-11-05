@@ -12,9 +12,18 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
 1. AUFWECKEN, ANSPRECHEN & MEDIEN-LAUTSTÄRKE
 --------------------------------------------------------------------------------
 • So rufst du ihn:
-  - Sag einfach: „Vektra" / „Hey Vektra" / „OK Vektra"
+  - Sag einfach: „Vektra" / „Hey Vektra" / „OK Vektra" (oder dein benutzerdefiniertes Aktivierungswort, z.B. „Jarvis")
   - Oder nenne direkt deinen Wunsch: „Vektra, öffne das Schiebedach"
   - Oder tippe auf die Sprachstatus-Karte im Assistant-Tab oder auf den 3D-Avatar.
+
+• Benutzerdefiniertes Aktivierungswort & Name:
+  - „Vektra, nenne mich [Name]“ (antwortet beim Aufwecken direkt „Ja, [Name]?“)
+  - „Vektra, dein Name ist Jarvis“ (erlaubt das Aufwecken mit „Jarvis“)
+  - Auch im Assistant-Tab einstellbar: Anrede und Aktivierungswort.
+
+• Sicherung & Wiederherstellung (/sdcard/vektra/):
+  - Karten, Sprachpakete, Audio und Sicherungen werden in /sdcard/vektra/ gespeichert.
+  - Einstellungen → „Sicherung & Wiederherstellung“ zum Erstellen oder Wiederherstellen.
 
 • Alles mit einer Geste stoppen:
   - Ein einfaches Antippen der Sprachanimation auf dem Bildschirm unterbricht
