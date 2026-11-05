@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.4** · released on 5 November 2026 · 46.6 MB
+**VERSION 2.4.5** · released on 5 November 2026 · 46.6 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.4.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,10 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.4
+## What is new in 2.4.5
 
-- Fix: native BYD (Cerence ARK) voice integration — direct support for BydVoice (/system/app/BydVoice) via navigation broadcasts and local ADB bridge to resolve DiLink system incompatibility.
-- Add: hybrid high-fidelity fallback — seamless automatic transition between vehicle native voice and high-definition synthesis with zero added weight.
+- Fix: instant in-memory voice engine — direct playback on the navigation speaker with zero wake-up delay for the copilot and parking voice guidance.
+- Add: built-in lightweight multilingual voice synthesizer — immediate support for all 10 application languages even offline.
 
 ---
 
