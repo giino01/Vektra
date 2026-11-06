@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.4.5** · pubblicata il 5 novembre 2026 · 46.6 MB
+**VERSIONE 2.4.6** · pubblicata il 6 novembre 2026 · 46.7 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.5.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,16 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.4.5
+## Novità della 2.4.6
 
-- Fix: motore vocale istantaneo in memoria — riproduzione diretta sull'altoparlante di navigazione senza attese al risveglio, per il copilota e la guida vocale al parcheggio.
-- Add: sintetizzatore vocale leggero multilingue integrato — supporto immediato per tutte le 10 lingue dell'app anche offline.
+- Add: nuova scheda Memo vocali e scritti — registrazione vocale o testuale, ascolto sull'altoparlante di navigazione e arresto della registrazione con un tocco sullo schermo.
+- Add: scheda Copilota dedicata con banner in tempo reale degli automatismi attivi e conto alla rovescia.
+- Add: avvisi vocali Autovelox (fissi, mobili, tutor, semafori) e Traffico a 500 metri e 100 metri in tutta Europa.
+- Add: 10 nuove funzioni automatiche del Copilota — ricircolo aria per picchi di inquinamento (30 s o 1 min), riscaldamento e ventilazione automatici del sedile conducente (10 min con rilevamento spegnimento manuale), spannamento preventivo con pioggia e freddo, modalità Eco automatica con batteria scarica, promemoria telefono in parcheggio, avviso calo brusco di temperatura, guida notturna, squilibrio pressione sullo stesso asse e celebrazione ogni 1.000 km.
+- Add: 9 nuove competenze vocali — calcolo autonomia andata e ritorno, controllo completo prima della partenza, presentazione dell'auto ai passeggeri, consulente pressione gomme, timer vocale, briefing di partenza, ricerca punti di interesse vicini, gestione memo e spannamento rapido di 3 minuti.
+- Add: previsioni meteo a 5 giorni in linguaggio naturale e ascolto continuo dopo ogni risposta o domanda dell'assistente.
+- Fix: chiusura individuale di ogni finestrino con comando vocale senza interruzione.
+- Fix: tolleranza di ascolto prolungata per domande lunghe, meteo di altre città e risposte garantite per domande complesse e ricerche sul web.
 
 ---
 

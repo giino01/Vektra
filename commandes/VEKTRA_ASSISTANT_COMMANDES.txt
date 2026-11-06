@@ -384,4 +384,39 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
 
 • Suivre la langue parlée (réglage) :
   - Répond au passager dans sa langue, puis revient à la tienne.
+
+--------------------------------------------------------------------------------
+17. NOUVELLES COMMANDES VOCALES AVANCÉES & MÉMOS VOCAUX/ÉCRITS
+--------------------------------------------------------------------------------
+• Calculateur d'autonomie aller-retour :
+  - « Vektra, est-ce que j'ai assez de batterie pour faire l'aller-retour vers Bruxelles ? »
+  - « Vektra, puis-je aller à Liège et revenir sans recharger ? »
+
+• Check-up complet du véhicule avant départ :
+  - « Vektra, fais un check-up complet de la voiture » / « Bilan avant départ »
+
+• Présentation VIP de la voiture aux passagers :
+  - « Vektra, présente la voiture à mes passagers » / « Mode démo VIP »
+
+• Conseiller pression des pneus personnalisé :
+  - « Vektra, combien dois-je rajouter dans mes pneus ? » / « Analyse la pression des pneus »
+
+• Minuteur vocal embarqué :
+  - « Vektra, mets un minuteur de 15 minutes » / « Annule le minuteur »
+
+• Briefing du départ :
+  - « Vektra, fais-moi le briefing du départ » / « Briefing du matin »
+
+• Recherche de commerces & points d'intérêt proches avec GPS :
+  - « Vektra, trouve une pharmacie à proximité » / « Où est la boulangerie la plus proche ? »
+  - « Vektra, trouve une station-service autour de moi »
+
+• Mémos vocaux (audio réel) & mémos écrits :
+  - « Vektra, prends un mémo » (Vektra vous demande si vous souhaitez un mémo vocal ou écrit ;
+    en mode vocal, un simple tap sur l'écran arrête Vektra et sauvegarde votre mémo vocal)
+  - « Vektra, note que je dois acheter du pain » (mémo écrit direct)
+  - « Vektra, joue mes mémos vocaux » / « Lis mes mémos » / « Efface tous mes mémos »
+
+• Mode anti-buée express (3 minutes) :
+  - « Vektra, j'ai de la buée » / « Active le mode anti-buée express »
 ================================================================================

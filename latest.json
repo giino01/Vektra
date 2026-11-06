@@ -1,51 +1,117 @@
 {
-  "version": "2.4.5",
-  "apk": "Vektra-2.4.5.apk",
-  "size": 48900749,
+  "version": "2.4.6",
+  "apk": "Vektra-2.4.6.apk",
+  "size": 49018341,
   "notes": [
-    "Correctif : moteur vocal instantané en mémoire vive — diffusion directe sur le haut-parleur de navigation sans temps d'attente au réveil, pour le copilote et le guidage vocal de stationnement.",
-    "Ajout : synthétiseur vocal léger multilingue intégré — prise en charge immédiate des 10 langues de l'application même hors connexion."
+    "Ajout : nouvel onglet Mémos vocaux et écrits — enregistrement de mémos à la voix ou au clavier, écoute directe sur le haut-parleur de navigation et arrêt de l'enregistrement d'un simple appui à l'écran.",
+    "Ajout : nouvel onglet Copilote dédié avec bandeau en direct des automatismes actifs et compte à rebours.",
+    "Ajout : alertes vocales Radars (fixes, mobiles, tronçons, feux rouges) et Trafic à 500 mètres puis 100 mètres dans toute l'Europe.",
+    "Ajout : 10 nouvelles fonctions automatiques du Copilote — recyclage d'air sur pic de pollution (30 s ou 1 min), préchauffage et ventilation automatiques du siège conducteur (10 min avec détection d'arrêt manuel), anti-buée préventif par temps froid et pluvieux, passage automatique en mode Éco sur batterie basse, rappel d'oubli du téléphone, alerte de chute brutale de température, alerte de conduite de nuit, déséquilibre de pression sur un même essieu et célébration des caps de 1 000 km.",
+    "Ajout : 9 nouvelles compétences vocales pour l'assistant — calculateur d'autonomie aller-retour, bilan complet avant départ, présentation de la voiture aux passagers, conseiller pression des pneus, minuteur vocal, briefing météo et trajet du départ, recherche de commerces proches, gestion vocale des mémos et désembuage express de 3 minutes.",
+    "Ajout : prévisions météo sur 5 jours en langage naturel et écoute continue après chaque réponse ou question de l'assistant.",
+    "Correctif : fermeture individuelle de chaque vitre à la voix sans interruption prématurée.",
+    "Correctif : tolérance d'écoute prolongée pour les questions longues, météo d'une autre ville et réponses garanties sur les questions complexes et recherches Web."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : moteur vocal instantané en mémoire vive — diffusion directe sur le haut-parleur de navigation sans temps d'attente au réveil, pour le copilote et le guidage vocal de stationnement.",
-      "Ajout : synthétiseur vocal léger multilingue intégré — prise en charge immédiate des 10 langues de l'application même hors connexion."
+      "Ajout : nouvel onglet Mémos vocaux et écrits — enregistrement de mémos à la voix ou au clavier, écoute directe sur le haut-parleur de navigation et arrêt de l'enregistrement d'un simple appui à l'écran.",
+      "Ajout : nouvel onglet Copilote dédié avec bandeau en direct des automatismes actifs et compte à rebours.",
+      "Ajout : alertes vocales Radars (fixes, mobiles, tronçons, feux rouges) et Trafic à 500 mètres puis 100 mètres dans toute l'Europe.",
+      "Ajout : 10 nouvelles fonctions automatiques du Copilote — recyclage d'air sur pic de pollution (30 s ou 1 min), préchauffage et ventilation automatiques du siège conducteur (10 min avec détection d'arrêt manuel), anti-buée préventif par temps froid et pluvieux, passage automatique en mode Éco sur batterie basse, rappel d'oubli du téléphone, alerte de chute brutale de température, alerte de conduite de nuit, déséquilibre de pression sur un même essieu et célébration des caps de 1 000 km.",
+      "Ajout : 9 nouvelles compétences vocales pour l'assistant — calculateur d'autonomie aller-retour, bilan complet avant départ, présentation de la voiture aux passagers, conseiller pression des pneus, minuteur vocal, briefing météo et trajet du départ, recherche de commerces proches, gestion vocale des mémos et désembuage express de 3 minutes.",
+      "Ajout : prévisions météo sur 5 jours en langage naturel et écoute continue après chaque réponse ou question de l'assistant.",
+      "Correctif : fermeture individuelle de chaque vitre à la voix sans interruption prématurée.",
+      "Correctif : tolérance d'écoute prolongée pour les questions longues, météo d'une autre ville et réponses garanties sur les questions complexes et recherches Web."
     ],
     "en": [
-      "Fix: instant in-memory voice engine — direct playback on the navigation speaker with zero wake-up delay for the copilot and parking voice guidance.",
-      "Add: built-in lightweight multilingual voice synthesizer — immediate support for all 10 application languages even offline."
+      "Add: new Voice & Text Memos tab — record voice or written memos, play them back on the navigation speaker, and stop voice recording with a single tap on the screen.",
+      "Add: dedicated Copilot tab with a live banner showing active timed automations and countdowns.",
+      "Add: voice alerts for speed cameras (fixed, mobile, average speed, red light) and traffic events at 500 meters and 100 meters across Europe.",
+      "Add: 10 new automatic Copilot features — air recirculation on pollution spikes (30 s or 1 min), automatic driver seat heating and ventilation (10 min with manual stop detection), preventive defogging in cold rainy weather, automatic Eco mode on low battery, phone reminder when parking, sudden temperature drop alert, night driving fatigue alert, same-axle tire pressure imbalance alert, and 1,000 km milestone celebrations.",
+      "Add: 9 new voice assistant skills — round-trip range calculator, full pre-departure vehicle check-up, VIP car presentation for passengers, tire pressure advisor, voice timer, departure briefing, nearby places search, voice memo management, and 3-minute express defogger.",
+      "Add: natural-language 5-day weather forecasts and continuous listening after each assistant answer or question.",
+      "Fix: individual window closing by voice without premature stop.",
+      "Fix: extended listening tolerance for long questions, weather queries for other cities, and guaranteed answers on complex questions and web searches."
     ],
     "nl": [
-      "Fix: directe stem-engine in het geheugen — rechtstreekse weergave op de navigatieluidspreker zonder vertraging bij het ontwaken, voor de copiloot en parkeerbegeleiding.",
-      "Add: ingebouwde lichtgewicht meertalige spraaksynthesizer — directe ondersteuning voor alle 10 talen van de app, zelfs offline."
+      "Add: nieuw tabblad Spraak- en Tekstmemo's — neem memo's op met uw stem of toetsenbord, beluister ze via de navigatieluidspreker en stop de opname met één tik op het scherm.",
+      "Add: speciaal Copiloot-tabblad met live overzicht van actieve automatiseringen en aftelklok.",
+      "Add: gesproken meldingen voor Flitspalen (vast, mobiel, trajectcontrole, roodlicht) en Verkeer op 500 meter en 100 meter in heel België en Europa.",
+      "Add: 10 nieuwe automatische Copiloot-functies — luchtcirculatie bij vervuilingspieken (30 s of 1 min), automatische stoelverwarming en stoelventilatie voor de bestuurder (10 min met detectie van handmatig uitschakelen), preventieve ontwaseming bij regen en kou, automatische Eco-modus bij lage batterij, telefoonherinnering bij parkeren, waarschuwing bij plotselinge temperatuurdaling, nachtelijke rij-waarschuwing, bandenspanningsverschil op dezelfde as en viering van elke 1.000 km.",
+      "Add: 9 nieuwe vaardigheden voor de spraakassistent — heen-en-terug rijbereikcalculator, volledige voertuigcontrole vóór vertrek, VIP-autopresentatie voor passagiers, bandenspanningsadviseur, spraaktimer, vertrek-briefing, zoeken naar winkels in de buurt, memobeheer en 3-minuten snel-ontwaseming.",
+      "Add: 5-daagse weersverwachting in natuurlijke taal en continu luisteren na elk antwoord of elke vraag van de assistent.",
+      "Fix: individueel sluiten van elk raam met spraak zonder voortijdige onderbreking.",
+      "Fix: langere luistertolerantie voor lange vragen, weerbericht voor andere steden en gegarandeerde antwoorden bij complexe vragen en webzoekopdrachten."
     ],
     "de": [
-      "Fix: sofortige Sprach-Engine im Arbeitsspeicher — direkte Wiedergabe über den Navigationslautsprecher ohne Aufwachverzögerung für Copilot und Einparkhilfe.",
-      "Add: integrierter leichtgewichtiger mehrsprachiger Sprachsynthesizer — sofortige Unterstützung aller 10 App-Sprachen auch offline."
+      "Add: neuer Tab für Sprach- und Textmemos — Aufnahme per Stimme oder Tastatur, Wiedergabe über den Navigationslautsprecher und Stoppen der Aufnahme durch einfaches Tippen auf den Bildschirm.",
+      "Add: eigener Copilot-Tab mit Live-Anzeige aktiver Zeitautomatiken und Countdown.",
+      "Add: Sprachwarnungen für Blitzer (fest, mobil, Abschnittskontrolle, Ampel) und Verkehr in 500 Metern und 100 Metern Entfernung in ganz Europa.",
+      "Add: 10 neue automatische Copilot-Funktionen — Umluft bei Schadstoffspitzen (30 s oder 1 Min.), automatische Sitzheizung und Sitzbelüftung für den Fahrer (10 Min. mit Erkennung manueller Abschaltung), vorbeugendes Entfeuchten bei Kälte und Regen, automatischer Eco-Modus bei niedrigem Akkustand, Telefon-Erinnerung beim Parken, Warnung bei plötzlichem Temperatursturz, Nachtfahr-Müdigkeitswarnung, Reifendruck-Ungleichgewicht auf derselben Achse und Feier jedes 1.000-km-Meilensteins.",
+      "Add: 9 neue Sprachassistent-Fähigkeiten — Hin- und Rückfahrt-Reichweitenrechner, kompletter Fahrzeug-Check vor der Abfahrt, VIP-Fahrzeugpräsentation für Mitfahrer, Reifendruckberater, Sprachtimer, Abfahrts-Briefing, Suche nach Geschäften in der Nähe, Sprachmemo-Verwaltung und 3-Minuten-Express-Entfeuchtung.",
+      "Add: 5-Tage-Wettervorhersage in natürlicher Sprache und kontinuierliches Zuhören nach jeder Antwort oder Rückfrage.",
+      "Fix: einzelnes Schließen jedes Fensters per Sprachbefehl ohne vorzeitigen Abbruch.",
+      "Fix: längere Zuhörtoleranz bei langen Fragen, Wetterabfragen für andere Städte und zuverlässige Antworten bei komplexen Fragen und Websuchen."
     ],
     "es": [
-      "Fix: motor de voz instantáneo en memoria — reproducción directa en el altavoz de navegación sin demoras al despertar, para el copiloto y la guía de aparcamiento.",
-      "Add: sintetizador de voz ligero multilingüe integrado — soporte inmediato para los 10 idiomas de la aplicación incluso sin conexión."
+      "Add: nueva pestaña de Notas de voz y texto — grabe notas hablando o escribiendo, escúchelas en el altavoz de navegación y detenga la grabación con un simple toque en la pantalla.",
+      "Add: pestaña Copiloto dedicada con indicador en vivo de automatismos activos y cuenta atrás.",
+      "Add: alertas por voz de Radares (fijos, móviles, de tramo, semáforo) y Tráfico a 500 metros y 100 metros en toda Europa.",
+      "Add: 10 nuevas funciones automáticas del Copiloto — recirculación de aire en picos de contaminación (30 s o 1 min), calefacción y ventilación automáticas del asiento del conductor (10 min con detección de apagado manual), desempañado preventivo con lluvia y frío, modo Eco automático con batería baja, recordatorio de teléfono al aparcar, alerta de caída brusca de temperatura, alerta de conducción nocturna, desequilibrio de presión en el mismo eje y celebración cada 1.000 km.",
+      "Add: 9 nuevas habilidades del asistente de voz — calculadora de autonomía de ida y vuelta, revisión completa antes de salir, presentación del coche a los pasajeros, asesor de presión de neumáticos, temporizador por voz, resumen de salida, búsqueda de comercios cercanos, gestión de notas y desempañado exprés de 3 minutos.",
+      "Add: previsión meteorológica de 5 días en lenguaje natural y escucha continua tras cada respuesta o pregunta del asistente.",
+      "Fix: cierre individual de cada ventanilla por voz sin interrupción prematura.",
+      "Fix: mayor tolerancia de escucha para preguntas largas, clima de otras ciudades y respuestas garantizadas en consultas complejas y búsquedas web."
     ],
     "it": [
-      "Fix: motore vocale istantaneo in memoria — riproduzione diretta sull'altoparlante di navigazione senza attese al risveglio, per il copilota e la guida vocale al parcheggio.",
-      "Add: sintetizzatore vocale leggero multilingue integrato — supporto immediato per tutte le 10 lingue dell'app anche offline."
+      "Add: nuova scheda Memo vocali e scritti — registrazione vocale o testuale, ascolto sull'altoparlante di navigazione e arresto della registrazione con un tocco sullo schermo.",
+      "Add: scheda Copilota dedicata con banner in tempo reale degli automatismi attivi e conto alla rovescia.",
+      "Add: avvisi vocali Autovelox (fissi, mobili, tutor, semafori) e Traffico a 500 metri e 100 metri in tutta Europa.",
+      "Add: 10 nuove funzioni automatiche del Copilota — ricircolo aria per picchi di inquinamento (30 s o 1 min), riscaldamento e ventilazione automatici del sedile conducente (10 min con rilevamento spegnimento manuale), spannamento preventivo con pioggia e freddo, modalità Eco automatica con batteria scarica, promemoria telefono in parcheggio, avviso calo brusco di temperatura, guida notturna, squilibrio pressione sullo stesso asse e celebrazione ogni 1.000 km.",
+      "Add: 9 nuove competenze vocali — calcolo autonomia andata e ritorno, controllo completo prima della partenza, presentazione dell'auto ai passeggeri, consulente pressione gomme, timer vocale, briefing di partenza, ricerca punti di interesse vicini, gestione memo e spannamento rapido di 3 minuti.",
+      "Add: previsioni meteo a 5 giorni in linguaggio naturale e ascolto continuo dopo ogni risposta o domanda dell'assistente.",
+      "Fix: chiusura individuale di ogni finestrino con comando vocale senza interruzione.",
+      "Fix: tolleranza di ascolto prolungata per domande lunghe, meteo di altre città e risposte garantite per domande complesse e ricerche sul web."
     ],
     "pt": [
-      "Fix: motor de voz instantâneo em memória — reprodução direta no altifalante de navegação sem atraso ao acordar, para o copiloto e orientação de estacionamento.",
-      "Add: sintetizador de voz leve multilingue integrado — suporte imediato para os 10 idiomas da aplicação mesmo offline."
+      "Add: novo separador de Memos de voz e texto — gravação por voz ou teclado, reprodução no altifalante de navegação e paragem da gravação com um simples toque no ecrã.",
+      "Add: separador Copiloto dedicado com faixa em tempo real dos automatismos ativos e contagem decrescente.",
+      "Add: alertas de voz de Radares (fixos, móveis, velocidade média, semáforo) e Trânsito a 500 metros e 100 metros em toda a Europa.",
+      "Add: 10 novas funções automáticas do Copiloto — recirculação de ar em picos de poluição (30 s ou 1 min), aquecimento e ventilação automáticos do banco do condutor (10 min com deteção de paragem manual), desembaciamento preventivo com chuva e frio, modo Eco automático com bateria fraca, lembrete de telemóvel ao estacionar, alerta de queda brusca de temperatura, alerta de condução noturna, desequilíbrio de pressão no mesmo eixo e celebração a cada 1.000 km.",
+      "Add: 9 novas competências de voz — calculadora de autonomia de ida e volta, verificação completa antes da partida, apresentação do veículo aos passageiros, consultor de pressão dos pneus, temporizador por voz, resumo de partida, pesquisa de locais próximos, gestão de memos e desembaciamento expresso de 3 minutos.",
+      "Add: previsão meteorológica para 5 dias em linguagem natural e escuta contínua após cada resposta ou pergunta do assistente.",
+      "Fix: fecho individual de cada vidro por voz sem interrupção.",
+      "Fix: maior tolerância de escuta em frases longas, meteorologia de outras cidades e respostas garantidas em perguntas complexas e pesquisas web."
     ],
     "ar": [
-      "Fix: محرك صوتي فوري في الذاكرة — بث مباشر عبر مكبر صوت الملاحة دون أي تأخير عند الاستيقاظ، للمساعد الذكي والتوجيه الصوتي لركن السيارة.",
-      "Add: مركب صوتي خفيف متعدد اللغات مدمج — دعم فوري لجميع لغات التطبيق العشر حتى بدون اتصال بالإنترنت."
+      "Add: علامة تبويب جديدة للمذكرات الصوتية والنصية — تسجيل المذكرات بالصوت أو الكتابة، والاستماع إليها عبر مكبر صوت الملاحة، وإيقاف التسجيل بلمسة واحدة على الشاشة.",
+      "Add: علامة تبويب مخصصة للمساعد الذكي (Copilot) مع شريط مباشر للمهام التلقائية النشطة والعد التنازلي.",
+      "Add: تنبيهات صوتية للرادارات (الثابتة، المتنقلة، متوسط السرعة، الإشارات الحمراء) وحركة المرور على بُعد 500 متر ثم 100 متر في جميع أنحاء أوروبا.",
+      "Add: 10 وظائف تلقائية جديدة للمساعد الذكي — تدوير الهواء عند ارتفاع التلوث (30 ثانية أو دقيقة)، تدفئة وتبريد مقعد السائق تلقائياً (10 دقائق مع اكتشاف الإيقاف اليدوي)، إزالة الضباب الوقائية في الطقس البارد والماطر، الوضع الاقتصادي التلقائي عند انخفاض البطارية، تذكير بالهاتف عند الاصطفاف، تنبيه الهبوط المفاجئ للحرارة، تنبيه القيادة الليلية، اختلال ضغط الإطارات على نفس المحور والاحتفال بكل 1000 كم.",
+      "Add: 9 مهارات صوتية جديدة — حاسبة مدى الذهاب والعودة، فحص شامل للسيارة قبل الانطلاق، تقديم السيارة للركاب، مستشار ضغط الإطارات، مؤقت صوتي، موجز الانطلاق، البحث عن الأماكن القريبة، إدارة المذكرات وإزالة الضباب السريعة لمدة 3 دقائق.",
+      "Add: توقعات الطقس لمدة 5 أيام بلغة طبيعية واستماع مستمر بعد كل إجابة أو سؤال من المساعد.",
+      "Fix: إغلاق كل نافذة على حدة بالأوامر الصوتية دون توقف مبكر.",
+      "Fix: مهلة استماع أطول للأسئلة الطويلة، وطقس المدن الأخرى، وإجابات مضمونة للأسئلة المعقدة والبحث عبر الإنترنت."
     ],
     "tr": [
-      "Fix: bellek içi anında ses motoru — yardımcı pilot ve park sesli yönlendirmesi için uyanma gecikmesi olmadan doğrudan navigasyon hoparlöründen yayın.",
-      "Add: yerleşik hafif çok dilli ses sentezleyici — çevrimdışıyken bile uygulamanın 10 dilinin tamamı için anında destek."
+      "Add: yeni Sesli ve Yazılı Notlar sekmesi — sesle veya klavyeyle not kaydedin, navigasyon hoparlöründen dinleyin ve ekrana tek dokunuşla kaydı durdurun.",
+      "Add: aktif zamanlayıcılı otomasyonları ve geri sayımı canlı gösteren özel Yardımcı Pilot sekmesi.",
+      "Add: Avrupa genelinde 500 metre ve 100 metre mesafede Radar (sabit, mobil, ortalama hız, kırmızı ışık) ve Trafik sesli uyarıları.",
+      "Add: 10 yeni otomatik Yardımcı Pilot işlevi — hava kirliliği artışında iç sirkülasyon (30 sn veya 1 dk), sürücü koltuğu otomatik ısıtma ve soğutma (manuel kapatma algılamalı 10 dk), soğuk ve yağışlı havada önleyici buğu çözme, düşük bataryada otomatik Eko modu, parkta telefon hatırlatıcısı, ani sıcaklık düşüşü uyarısı, gece sürüş uyarısı, aynı aks lastik basınç farkı uyarısı ve her 1.000 km kutlaması.",
+      "Add: 9 yeni sesli asistan yeteneği — gidiş-dönüş menzil hesaplayıcı, yola çıkmadan tam kontrol, yolculara araç tanıtımı, lastik basınç danışmanı, sesli zamanlayıcı, kalkış brifingi, yakındaki yerleri arama, sesli not yönetimi ve 3 dakikalık hızlı buğu çözme.",
+      "Add: doğal dilde 5 günlük hava durumu tahmini ve asistanın her yanıtından veya sorusundan sonra kesintisiz dinleme.",
+      "Fix: her camın sesli komutla yarıda kesilmeden tek tek kapatılması.",
+      "Fix: uzun sorular için uzatılmış dinleme süresi, başka şehirlerin hava durumu ve karmaşık sorular ile web aramalarında kesintisiz yanıt."
     ],
     "zh": [
-      "Fix: 内存级极速闪存语音引擎 — 唤醒应答、副驾提醒与驻车雷达语音引导直接通过导航专属扬声器零延迟输出。",
-      "Add: 内置超轻量多语言离线语音合成器 — 全面支持应用内全部 10 种语言的实时发声。"
+      "Add: 全新语音与文字备忘录标签页 — 支持语音或键盘记录备忘、通过导航专属扬声器回放，以及轻触屏幕即可停止录音并自动保存。",
+      "Add: 专属副驾 (Copilot) 标签页，实时显示当前激活的定时自动化任务与倒计时。",
+      "Add: 覆盖欧洲全境的测速雷达（固定、移动、区间测速、闯红灯）与实时路况 500 米及 100 米语音预警。",
+      "Add: 10 项全新副驾自动功能 — 污染高峰自动内循环（30 秒或 1 分钟）、主驾座椅自动加热与通风（10 分钟并支持手动关闭检测）、雨天低温预防性除雾、低电量自动切换经济模式、驻车忘带手机提醒、气温骤降预警、夜间疲劳驾驶提醒、同轴胎压失衡预警及每满 1,000 公里里程碑祝贺。",
+      "Add: 9 项全新语音助手技能 — 往返续航计算器、出发前全车自检、贵宾乘车介绍、胎压顾问、语音倒计时、出发简报、附近商家搜索、语音备忘录管理与 3 分钟快速除雾。",
+      "Add: 自然语言 5 天天气预报，以及助手回答或提问后自动保持连续倾听。",
+      "Fix: 语音单独关闭任意车窗不再中途停止。",
+      "Fix: 延长长句提问的倾听等待时间，支持查询其他城市天气，并确保复杂问题与网页搜索始终给出语音回答。"
     ]
   }
 }

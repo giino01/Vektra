@@ -385,4 +385,13 @@ iluminación ambiental y a la inteligencia artificial Groq (Llama 3.3 70B).
 
 • Seguir el idioma hablado (ajuste):
   - Responde al pasajero en su idioma y luego vuelve al tuyo.
+--------------------------------------------------------------------------------
+17. COMANDOS AVANZADOS Y NOTAS DE VOZ / ESCRITAS
+--------------------------------------------------------------------------------
+• Calculadora de autonomía ida y vuelta y chequeo completo:
+  - "Vektra, ¿tengo batería para ir y volver a Bruselas?" / "Haz un chequeo completo"
+• Presentación VIP, asesor de neumáticos, temporizador y briefing de salida:
+  - "Vektra, presenta el coche a mis pasajeros" / "Pon un temporizador de 15 minutos"
+• Puntos de interés cercanos, notas de voz/escritas y modo desempañado exprés (3 min):
+  - "Vektra, busca una farmacia cercana" / "Toma una nota" / "Reproduce mis notas de voz"
 ================================================================================

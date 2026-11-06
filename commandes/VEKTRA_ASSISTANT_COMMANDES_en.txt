@@ -384,4 +384,26 @@ Groq artificial intelligence (Llama 3.3 70B).
 
 • Follow the spoken language (setting):
   - Answers a passenger in their language, then returns to yours.
+--------------------------------------------------------------------------------
+17. ADVANCED VOICE SKILLS & VOICE/WRITTEN MEMOS
+--------------------------------------------------------------------------------
+• Round-trip battery range calculator:
+  - "Vektra, do I have enough battery for a round trip to Brussels?"
+• Full vehicle pre-departure check-up:
+  - "Vektra, run a full vehicle check-up"
+• VIP passenger greeting & car presentation:
+  - "Vektra, introduce the car to my passengers"
+• Personalized tire pressure advisor:
+  - "Vektra, how much air should I add to my tires?"
+• Voice countdown timer:
+  - "Vektra, set a timer for 15 minutes" / "Cancel the timer"
+• Departure briefing:
+  - "Vektra, give me the departure briefing"
+• Nearby POI & shop search with GPS:
+  - "Vektra, find the nearest pharmacy" / "Find a bakery nearby"
+• Voice & written memos:
+  - "Vektra, take a memo" (asks vocal or written; tap screen to save voice memo)
+  - "Vektra, play my voice memos" / "Read my memos" / "Delete all my memos"
+• 3-minute express anti-fog mode:
+  - "Vektra, the windshield is fogged up" / "Activate express anti-fog"
 ================================================================================

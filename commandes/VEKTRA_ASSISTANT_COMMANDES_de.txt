@@ -386,4 +386,15 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
 
 • Der gesprochenen Sprache folgen (Einstellung):
   - Antwortet dem Beifahrer in seiner Sprache und kehrt dann zu deiner zurück.
+--------------------------------------------------------------------------------
+17. ERWEITERTE SPRACHBEFEHLE & SPRACH-/TEXTMEMOS
+--------------------------------------------------------------------------------
+• Hin- und Rückfahrt-Reichweitenrechner:
+  - "Vektra, reicht der Akku für Hin- und Rückfahrt nach Brüssel?"
+• Vollständiger Fahrzeug-Check-up & VIP-Vorstellung:
+  - "Vektra, mach einen kompletten Fahrzeug-Check" / "Stell das Auto meinen Gästen vor"
+• Reifendruck-Berater, Sprach-Timer & Abfahrts-Briefing:
+  - "Vektra, Reifendruck prüfen" / "Timer auf 15 Minuten" / "Abfahrts-Briefing"
+• Geschäfte in der Nähe, Sprach-/Textmemos & Express-Antibeschlag (3 Min.):
+  - "Vektra, finde eine Apotheke in der Nähe" / "Nimm ein Memo auf" / "Spiele meine Sprachmemos ab"
 ================================================================================

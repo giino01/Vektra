@@ -384,4 +384,21 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
 
 • De gesproken taal volgen (instelling):
   - Antwoordt een passagier in zijn taal en keert daarna terug naar de jouwe.
+--------------------------------------------------------------------------------
+17. GEAVANCEERDE STEMFUNCTIES & SPRAAK-/TEKSTMEMO'S
+--------------------------------------------------------------------------------
+• Berekening rijbereik heen en terug:
+  - "Vektra, heb ik genoeg batterij voor heen en terug naar Brussel?"
+• Volledige voertuigcheck voor vertrek:
+  - "Vektra, doe een volledige check-up van de auto"
+• VIP-presentatie voor passagiers:
+  - "Vektra, stel de auto voor aan mijn passagiers"
+• Bandenspanningsadviseur:
+  - "Vektra, hoeveel lucht moet er bij in mijn banden?"
+• Spraaktimer:
+  - "Vektra, zet een timer op 15 minuten"
+• Vertrek-briefing & POI-zoekopdracht in de buurt:
+  - "Vektra, geef me de vertrekbriefing" / "Zoek een apotheek in de buurt"
+• Spraak- en tekstmemo's & Express anti-condens (3 min):
+  - "Vektra, neem een memo" / "Speel mijn spraakmemo's af" / "Express ontwaseming"
 ================================================================================

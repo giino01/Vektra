@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.5** · released on 5 November 2026 · 46.6 MB
+**VERSION 2.4.6** · released on 6 November 2026 · 46.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.5.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,16 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.5
+## What is new in 2.4.6
 
-- Fix: instant in-memory voice engine — direct playback on the navigation speaker with zero wake-up delay for the copilot and parking voice guidance.
-- Add: built-in lightweight multilingual voice synthesizer — immediate support for all 10 application languages even offline.
+- Add: new Voice & Text Memos tab — record voice or written memos, play them back on the navigation speaker, and stop voice recording with a single tap on the screen.
+- Add: dedicated Copilot tab with a live banner showing active timed automations and countdowns.
+- Add: voice alerts for speed cameras (fixed, mobile, average speed, red light) and traffic events at 500 meters and 100 meters across Europe.
+- Add: 10 new automatic Copilot features — air recirculation on pollution spikes (30 s or 1 min), automatic driver seat heating and ventilation (10 min with manual stop detection), preventive defogging in cold rainy weather, automatic Eco mode on low battery, phone reminder when parking, sudden temperature drop alert, night driving fatigue alert, same-axle tire pressure imbalance alert, and 1,000 km milestone celebrations.
+- Add: 9 new voice assistant skills — round-trip range calculator, full pre-departure vehicle check-up, VIP car presentation for passengers, tire pressure advisor, voice timer, departure briefing, nearby places search, voice memo management, and 3-minute express defogger.
+- Add: natural-language 5-day weather forecasts and continuous listening after each assistant answer or question.
+- Fix: individual window closing by voice without premature stop.
+- Fix: extended listening tolerance for long questions, weather queries for other cities, and guaranteed answers on complex questions and web searches.
 
 ---
 

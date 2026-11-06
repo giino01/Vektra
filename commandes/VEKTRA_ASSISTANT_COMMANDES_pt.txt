@@ -385,4 +385,13 @@ inteligência artificial Groq (Llama 3.3 70B).
 
 • Seguir a língua falada (definição):
   - Responde ao passageiro na língua dele e depois volta à tua.
+--------------------------------------------------------------------------------
+17. COMANDOS AVANÇADOS E MEMOS DE VOZ / ESCRITOS
+--------------------------------------------------------------------------------
+• Calculadora de autonomia ida e volta e check-up completo:
+  - "Vektra, tenho bateria para ir e voltar?" / "Faça um check-up completo do carro"
+• Apresentação VIP, consultor de pneus, temporizador de voz e briefing de partida:
+  - "Vektra, apresente o carro aos passageiros" / "Coloque um timer de 15 minutos"
+• Pontos de interesse próximos, memos de voz/escritos e desembaciamento expresso (3 min):
+  - "Vektra, encontre uma farmácia perto" / "Grave um lembrete" / "Toque meus memos de voz"
 ================================================================================

@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.4.5** · yayın tarihi 5 Kasım 2026 · 46.6 MB
+**SÜRÜM 2.4.6** · yayın tarihi 6 Kasım 2026 · 46.7 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.5.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,10 +103,16 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.4.5
+## Yenilikler: 2.4.6
 
-- Fix: bellek içi anında ses motoru — yardımcı pilot ve park sesli yönlendirmesi için uyanma gecikmesi olmadan doğrudan navigasyon hoparlöründen yayın.
-- Add: yerleşik hafif çok dilli ses sentezleyici — çevrimdışıyken bile uygulamanın 10 dilinin tamamı için anında destek.
+- Add: yeni Sesli ve Yazılı Notlar sekmesi — sesle veya klavyeyle not kaydedin, navigasyon hoparlöründen dinleyin ve ekrana tek dokunuşla kaydı durdurun.
+- Add: aktif zamanlayıcılı otomasyonları ve geri sayımı canlı gösteren özel Yardımcı Pilot sekmesi.
+- Add: Avrupa genelinde 500 metre ve 100 metre mesafede Radar (sabit, mobil, ortalama hız, kırmızı ışık) ve Trafik sesli uyarıları.
+- Add: 10 yeni otomatik Yardımcı Pilot işlevi — hava kirliliği artışında iç sirkülasyon (30 sn veya 1 dk), sürücü koltuğu otomatik ısıtma ve soğutma (manuel kapatma algılamalı 10 dk), soğuk ve yağışlı havada önleyici buğu çözme, düşük bataryada otomatik Eko modu, parkta telefon hatırlatıcısı, ani sıcaklık düşüşü uyarısı, gece sürüş uyarısı, aynı aks lastik basınç farkı uyarısı ve her 1.000 km kutlaması.
+- Add: 9 yeni sesli asistan yeteneği — gidiş-dönüş menzil hesaplayıcı, yola çıkmadan tam kontrol, yolculara araç tanıtımı, lastik basınç danışmanı, sesli zamanlayıcı, kalkış brifingi, yakındaki yerleri arama, sesli not yönetimi ve 3 dakikalık hızlı buğu çözme.
+- Add: doğal dilde 5 günlük hava durumu tahmini ve asistanın her yanıtından veya sorusundan sonra kesintisiz dinleme.
+- Fix: her camın sesli komutla yarıda kesilmeden tek tek kapatılması.
+- Fix: uzun sorular için uzatılmış dinleme süresi, başka şehirlerin hava durumu ve karmaşık sorular ile web aramalarında kesintisiz yanıt.
 
 ---
 

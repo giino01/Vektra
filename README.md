@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.4.5** · publiée le 5 novembre 2026 · 46.6 Mo
+**VERSION 2.4.6** · publiée le 6 novembre 2026 · 46.7 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.5.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,10 +103,16 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.4.5
+## Nouveautés de la 2.4.6
 
-- Correctif : moteur vocal instantané en mémoire vive — diffusion directe sur le haut-parleur de navigation sans temps d'attente au réveil, pour le copilote et le guidage vocal de stationnement.
-- Ajout : synthétiseur vocal léger multilingue intégré — prise en charge immédiate des 10 langues de l'application même hors connexion.
+- Ajout : nouvel onglet Mémos vocaux et écrits — enregistrement de mémos à la voix ou au clavier, écoute directe sur le haut-parleur de navigation et arrêt de l'enregistrement d'un simple appui à l'écran.
+- Ajout : nouvel onglet Copilote dédié avec bandeau en direct des automatismes actifs et compte à rebours.
+- Ajout : alertes vocales Radars (fixes, mobiles, tronçons, feux rouges) et Trafic à 500 mètres puis 100 mètres dans toute l'Europe.
+- Ajout : 10 nouvelles fonctions automatiques du Copilote — recyclage d'air sur pic de pollution (30 s ou 1 min), préchauffage et ventilation automatiques du siège conducteur (10 min avec détection d'arrêt manuel), anti-buée préventif par temps froid et pluvieux, passage automatique en mode Éco sur batterie basse, rappel d'oubli du téléphone, alerte de chute brutale de température, alerte de conduite de nuit, déséquilibre de pression sur un même essieu et célébration des caps de 1 000 km.
+- Ajout : 9 nouvelles compétences vocales pour l'assistant — calculateur d'autonomie aller-retour, bilan complet avant départ, présentation de la voiture aux passagers, conseiller pression des pneus, minuteur vocal, briefing météo et trajet du départ, recherche de commerces proches, gestion vocale des mémos et désembuage express de 3 minutes.
+- Ajout : prévisions météo sur 5 jours en langage naturel et écoute continue après chaque réponse ou question de l'assistant.
+- Correctif : fermeture individuelle de chaque vitre à la voix sans interruption prématurée.
+- Correctif : tolérance d'écoute prolongée pour les questions longues, météo d'une autre ville et réponses garanties sur les questions complexes et recherches Web.
 
 ---
 

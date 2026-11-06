@@ -384,4 +384,10 @@ erişime sahiptir.
 
 • Konuşulan dili izleme (ayar):
   - Yolcuya kendi dilinde yanıt verir, sonra senin diline döner.
+--------------------------------------------------------------------------------
+17. GELİŞMİŞ SESLİ KOMUTLAR VE SESLİ / YAZILI NOTLAR
+--------------------------------------------------------------------------------
+• Gidiş-dönüş menzil hesaplayıcı, tam araç kontrolü ve VIP yolcu tanıtımı
+• Lastik basıncı danışmanı, sesli zamanlayıcı, kalkış brifingi ve yakındaki yerleri arama
+• Sesli ve yazılı notlar ("Vektra, not al" / "Sesli notlarımı çal") ve 3 dk hızlı buğu çözme
 ================================================================================

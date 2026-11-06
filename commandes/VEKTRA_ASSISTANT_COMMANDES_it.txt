@@ -385,4 +385,13 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
 
 • Seguire la lingua parlata (impostazione):
   - Risponde al passeggero nella sua lingua, poi torna alla tua.
+--------------------------------------------------------------------------------
+17. COMANDI AVANZATI E MEMO VOCALI / SCRITTI
+--------------------------------------------------------------------------------
+• Calcolo autonomia andata/ritorno e check-up completo:
+  - "Vektra, ho abbastanza batteria per andata e ritorno?" / "Fai un check-up completo"
+• Presentazione VIP, consulente pneumatici, timer vocale e briefing di partenza:
+  - "Vektra, presenta l'auto ai passeggeri" / "Imposta un timer di 15 minuti"
+• Ricerca punti di interesse vicini, memo vocali/scritti e anti-appannamento express (3 min):
+  - "Vektra, trova una farmacia vicina" / "Prendi un memo" / "Riproduci i miei memo vocali"
 ================================================================================
