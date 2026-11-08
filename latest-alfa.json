@@ -1,73 +1,128 @@
 {
-  "version": "2.4.7-alfa1",
-  "apk": "Vektra-2.4.7-alfa1.apk",
-  "size": 49125877,
+  "version": "2.4.7-alfa2",
+  "apk": "Vektra-2.4.7-alfa2.apk",
+  "size": 49192901,
   "notes": [
-    "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-    "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-    "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-    "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+    "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+    "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+    "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+    "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+    "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+    "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+    "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+    "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+    "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "en": [
-      "Fix: voice EV ↔ HEV switching (\"switch to EV\", \"switch from HEV to EV\", \"switch to hybrid\") fixed with direct setEnergyMode(code) priority and phonetic variant recognition.",
-      "Fix: Eco, Normal, Sport drive modes and Snow / Sand / Mud terrain modes via setOperationMode and setRoadSurfacKind (BYD Seal U DM-i method).",
-      "Fix: full AI Assistant and Copilot access to real-time telemetry (all 4 tire pressures in bar/kPa, fuel level, electric and fuel consumption, cabin temperature, EV/HEV mode, and drive mode).",
-      "Fix: direct code-rendered visuals for the 3 themes (Carbon 3D, VektraUI, and Aston) for the website and Theme Store."
+      "Add: unified \"Cluster Projection ON/OFF\" switch that enables projection and automatically launches the selected theme after 2 seconds.",
+      "Add: automatic native BYD startup manager (com.byd.appstartmanagement) sync after every fresh install or update (public or alpha) to uncheck VEKTRA and close the native window.",
+      "Add: automatic restoration of the original BYD cluster screen when the car turns off and automatic resumption of projection + theme on next startup (\"Automatic projection startup\" in Settings).",
+      "Add: vocal Welcome Scene in the Copilot tab (Good morning/Good evening greeting + weather, range, tire, and memo briefing) and optional driver seat memory recall (1, 2, or 3) at startup.",
+      "Add: voice commands for driver seat memory position 1, 2, or 3 (\"set seat to position 1 / 2 / 3\") as well as \"Rest Mode\" when parked (\"rest mode\", \"recline seat\") and \"Driving Mode\" (\"driving mode\", \"upright seat\", \"disable rest mode\").",
+      "Add: \"Driver Profile\" button in the top-right header (Name, Home, Work, Family, Favorite seat, Preferred temperature, Personal notes) connected to voice GPS shortcuts (\"go home\", \"take me to work\").",
+      "Add: infinite persistent on-disk memory for Vektra Assistant (no expiration or fact limit, past conversation search, and direct \"remember that...\" voice command).",
+      "Add: professional reorganization of the Settings tab into 4 sections, moving automatic ADAS hiding into Settings, and self-updating Backup & Restore covering all data.",
+      "Fix: fixed radar/panorama listener LinkageError (final onDataChanged) on 13.1.32 firmwares (BYD Destroyer 05) and added immediate detection of 8.8\" Single-OS clusters without video bridge (no AutoContainerNative)."
     ],
     "nl": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "de": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "es": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "it": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "pt": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "ar": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "tr": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ],
     "zh": [
-      "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
-      "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
-      "Correctif : accès complet de l'Assistant IA et du Copilote aux données temps réel (pressions des 4 pneus en bars/kPa, niveau d'essence, consommations électrique et thermique, température habitacle, mode EV/HEV et mode de conduite).",
-      "Correctif : génération directe depuis le code des visuels des 3 thèmes (Carbone 3D, VektraUI et Aston) pour le site Web et le Theme Store."
+      "Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.",
+      "Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) exécuté après chaque première installation ou mise à jour (publique ou alpha) pour décocher automatiquement VEKTRA et refermer la fenêtre native.",
+      "Ajout : restauration automatique de l'écran BYD d'origine à l'extinction de la voiture et reprise automatique de la projection + thème au démarrage suivant (option « Démarrage automatique de la projection » dans Réglages).",
+      "Ajout : Scène de Bienvenue vocale dans l'onglet Copilote (salutation Bonjour/Bonsoir selon l'heure + briefing météo, autonomie, pneus et mémos) et rappel optionnel de la position mémoire du siège (1, 2 ou 3) au démarrage.",
+      "Ajout : commandes vocales pour la position mémoire du siège conducteur 1, 2 ou 3 (« mets le siège en position 1 / 2 / 3 ») ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).",
+      "Ajout : bouton « Profil Conducteur » en haut à droite de l'écran (Prénom, Domicile, Travail, Famille, Siège favori, Température de confort, Notes personnelles) relié aux raccourcis GPS vocaux (« rentre à la maison », « emmène-moi au travail »).",
+      "Ajout : mémoire permanente infinie sur disque pour l'Assistant Vektra (sans expiration ni limite de faits, recherche dans les échanges passés et commande directe « souviens-toi que… »).",
+      "Ajout : réorganisation professionnelle de l'onglet Réglages en 4 sections, déplacement du masquage ADAS automatique dans Réglages et sauvegarde/restauration auto-évolutive couvrant toutes les données.",
+      "Correctif : suppression de l'erreur LinkageError (onDataChanged final) des écouteurs radar/panorama sur les firmwares 13.1.32 (BYD Destroyer 05) et détection immédiate des combinés 8,8\" Single-OS sans pont vidéo (no AutoContainerNative)."
     ]
   }
 }
