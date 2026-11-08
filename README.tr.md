@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.4.6** · yayın tarihi 6 Kasım 2026 · 46.7 MB
+**SÜRÜM 2.4.7** · yayın tarihi 8 Kasım 2026 · 46.8 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -38,7 +38,7 @@ Her tema koyu ve açık olarak vardır. Açık arka plan, fotoğraf üzerinden �
 
 ## Gerekenler
 
-- **DiLink 3'lü bir BYD** (Android 10). Seal U DM-i üzerinde geliştirildi; diğer DiLink 3 modelleri doğrulanmadı.
+- Otomatik olarak algılanan **DiLink 3.0 (13.1.32 ve 13.1.33), DiLink 4.0 veya DiLink 5.0 / 5.1 donanımlı bir BYD**.
 - Tablet, **dışarıdan uygulama kurulumunu** kabul etmelidir (sideload).
 - Tablette **ağ üzerinden ADB hata ayıklama** etkin, 5555 numaralı bağlantı noktası. VEKTRA buna tabletin kendi üzerinden yerel olarak bağlanır — araçtan hiçbir şey dışarı çıkmaz.
 - Hava durumu ve güncellemeler için tablette internet bağlantısı. Geri kalan her şey çevrimdışı çalışır.
@@ -103,16 +103,15 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.4.6
+## Yenilikler: 2.4.7
 
-- Add: yeni Sesli ve Yazılı Notlar sekmesi — sesle veya klavyeyle not kaydedin, navigasyon hoparlöründen dinleyin ve ekrana tek dokunuşla kaydı durdurun.
-- Add: aktif zamanlayıcılı otomasyonları ve geri sayımı canlı gösteren özel Yardımcı Pilot sekmesi.
-- Add: Avrupa genelinde 500 metre ve 100 metre mesafede Radar (sabit, mobil, ortalama hız, kırmızı ışık) ve Trafik sesli uyarıları.
-- Add: 10 yeni otomatik Yardımcı Pilot işlevi — hava kirliliği artışında iç sirkülasyon (30 sn veya 1 dk), sürücü koltuğu otomatik ısıtma ve soğutma (manuel kapatma algılamalı 10 dk), soğuk ve yağışlı havada önleyici buğu çözme, düşük bataryada otomatik Eko modu, parkta telefon hatırlatıcısı, ani sıcaklık düşüşü uyarısı, gece sürüş uyarısı, aynı aks lastik basınç farkı uyarısı ve her 1.000 km kutlaması.
-- Add: 9 yeni sesli asistan yeteneği — gidiş-dönüş menzil hesaplayıcı, yola çıkmadan tam kontrol, yolculara araç tanıtımı, lastik basınç danışmanı, sesli zamanlayıcı, kalkış brifingi, yakındaki yerleri arama, sesli not yönetimi ve 3 dakikalık hızlı buğu çözme.
-- Add: doğal dilde 5 günlük hava durumu tahmini ve asistanın her yanıtından veya sorusundan sonra kesintisiz dinleme.
-- Fix: her camın sesli komutla yarıda kesilmeden tek tek kapatılması.
-- Fix: uzun sorular için uzatılmış dinleme süresi, başka şehirlerin hava durumu ve karmaşık sorular ile web aramalarında kesintisiz yanıt.
+- Add: 16 temanın tamamında yeni Uygulama widget'ı — Gösterge sekmesindeki açılır menüden tabletinizde yüklü herhangi bir uygulamayı (Waze, Google Maps, müzik vb.) veya Vektra Gezgini'ni seçin ve direksiyon arkasındaki ekrana canlı etkileşimli ayna olarak yansıtın.
+- Add: tablet ile gösterge arasında canlı dokunmatik senkronizasyon, uygulama tablette küçültülse bile göstergede kesintisiz görüntü ve Düzenleme modunda serbest boyutlandırma veya taşıma.
+- Add: BYD DiLink 3.0 (13.1.32 ve 13.1.33), DiLink 4.0 ve DiLink 5.0 / 5.1 araçlar (Avrupa, uluslararası ve Çin sürümleri) için genişletilmiş %100 otomatik gösterge yansıtma uyumluluğu.
+- Add: yalnızca geri viteste (R) veya 360° kamera açıldığında devreye giren, santimetre cinsinden mesafe bildiren yönlü 360° sesli park kılavuzu (P, N ve D konumlarında tam sessizlik).
+- Fix: müziği kısmadan veya kesmeden okunan Radar ve Trafik sesli uyarıları (500 m ve 100 m) ve 20 km yarıçaplı otomatik önbellek.
+- Fix: Yardımcı Pilot sekmesinde kapatılan her seçeneğin arka plan sürecinin tamamen durdurulması ve cam, açılır tavan veya güneşlik sesli komutlarında geri açılma sorununun giderilmesi.
+- Fix: sadeleştirilmiş Uygulama widget'ı harita önizlemesi ve araç çalıştığında gösterge ekranının otomatik uyandırılması.
 
 ---
 

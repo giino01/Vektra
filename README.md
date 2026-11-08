@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.4.6** · publiée le 6 novembre 2026 · 46.7 Mo
+**VERSION 2.4.7** · publiée le 8 novembre 2026 · 46.8 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -38,7 +38,7 @@ Chaque thème existe en sombre et en clair. Le fond clair reprend le bleu-gris d
 
 ## Ce qu'il faut
 
-- Un véhicule **BYD équipé de DiLink 3** (Android 10). Mis au point sur une Seal U DM-i ; les autres modèles DiLink 3 n'ont pas été vérifiés.
+- Un véhicule **BYD équipé de DiLink 3.0 (13.1.32 et 13.1.33), DiLink 4.0 ou DiLink 5.0 / 5.1**, reconnu automatiquement.
 - La tablette doit accepter l'**installation d'applications extérieures** (sideload).
 - Le **débogage ADB en réseau** actif sur la tablette, port 5555. VEKTRA s'y connecte en local, sur la tablette elle-même — rien ne sort du véhicule.
 - Une connexion internet sur la tablette pour la météo et les mises à jour. Tout le reste fonctionne hors ligne.
@@ -103,16 +103,15 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.4.6
+## Nouveautés de la 2.4.7
 
-- Ajout : nouvel onglet Mémos vocaux et écrits — enregistrement de mémos à la voix ou au clavier, écoute directe sur le haut-parleur de navigation et arrêt de l'enregistrement d'un simple appui à l'écran.
-- Ajout : nouvel onglet Copilote dédié avec bandeau en direct des automatismes actifs et compte à rebours.
-- Ajout : alertes vocales Radars (fixes, mobiles, tronçons, feux rouges) et Trafic à 500 mètres puis 100 mètres dans toute l'Europe.
-- Ajout : 10 nouvelles fonctions automatiques du Copilote — recyclage d'air sur pic de pollution (30 s ou 1 min), préchauffage et ventilation automatiques du siège conducteur (10 min avec détection d'arrêt manuel), anti-buée préventif par temps froid et pluvieux, passage automatique en mode Éco sur batterie basse, rappel d'oubli du téléphone, alerte de chute brutale de température, alerte de conduite de nuit, déséquilibre de pression sur un même essieu et célébration des caps de 1 000 km.
-- Ajout : 9 nouvelles compétences vocales pour l'assistant — calculateur d'autonomie aller-retour, bilan complet avant départ, présentation de la voiture aux passagers, conseiller pression des pneus, minuteur vocal, briefing météo et trajet du départ, recherche de commerces proches, gestion vocale des mémos et désembuage express de 3 minutes.
-- Ajout : prévisions météo sur 5 jours en langage naturel et écoute continue après chaque réponse ou question de l'assistant.
-- Correctif : fermeture individuelle de chaque vitre à la voix sans interruption prématurée.
-- Correctif : tolérance d'écoute prolongée pour les questions longues, météo d'une autre ville et réponses garanties sur les questions complexes et recherches Web.
+- Ajout : nouveau widget Application sur les 16 thèmes — sélectionnez n'importe quelle application installée sur votre tablette (Waze, Google Maps, Coyote, musique, etc.) ou le Navigateur Vektra depuis le menu déroulant de l'onglet Combiné et projetez-la en miroir interactif en direct derrière le volant.
+- Ajout : synchronisation tactile en direct entre la tablette et le combiné, maintien de l'affichage même si l'application est réduite sur la tablette, et redimensionnement ou déplacement libre du cadre en mode Édition.
+- Ajout : compatibilité de projection combiné étendue et 100 % automatique sur les véhicules BYD DiLink 3.0 (13.1.32 et 13.1.33), DiLink 4.0 et DiLink 5.0 / 5.1 (versions européennes, internationales et chinoises).
+- Ajout : guidage vocal de stationnement 360° directionnel (avant, arrière, côtés, angles) avec distance en centimètres, déclenché uniquement en marche arrière (R) ou à l'ouverture de la caméra 360° (silence total en position P, N et D).
+- Correctif : alertes vocales Radars routiers et Trafic (500 m et 100 m) diffusées sans baisser ni couper la musique en cours, avec mise en cache automatique dans un rayon de 20 km.
+- Correctif : coupure intégrale en tâche de fond de chaque option désactivée dans l'onglet Copilote et suppression de l'effet de rebond lors de l'ouverture ou de la fermeture des vitres, du toit ouvrant et du pare-soleil à la voix.
+- Correctif : aperçu de la carte du widget Application épuré et réveil automatique de l'affichage du combiné au démarrage du véhicule.
 
 ---
 

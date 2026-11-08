@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.4.6** · publicada a 6 de novembro de 2026 · 46.7 MB
+**VERSÃO 2.4.7** · publicada a 8 de novembro de 2026 · 46.8 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -38,7 +38,7 @@ Cada tema existe em escuro e em claro. O fundo claro retoma o azul-acinzentado d
 
 ## O que é preciso
 
-- Um **BYD com DiLink 3** (Android 10). Desenvolvido num Seal U DM-i; outros modelos DiLink 3 não foram verificados.
+- Um **BYD com DiLink 3.0 (13.1.32 e 13.1.33), DiLink 4.0 ou DiLink 5.0 / 5.1**, detetado automaticamente.
 - O tablet tem de aceitar a **instalação de aplicações externas** (sideload).
 - A **depuração ADB em rede** ativa no tablet, porta 5555. O VEKTRA liga-se localmente, no próprio tablet — nada sai do veículo.
 - Uma ligação à internet no tablet para a meteorologia e as atualizações. Tudo o resto funciona offline.
@@ -103,16 +103,15 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.4.6
+## Novidades da 2.4.7
 
-- Add: novo separador de Memos de voz e texto — gravação por voz ou teclado, reprodução no altifalante de navegação e paragem da gravação com um simples toque no ecrã.
-- Add: separador Copiloto dedicado com faixa em tempo real dos automatismos ativos e contagem decrescente.
-- Add: alertas de voz de Radares (fixos, móveis, velocidade média, semáforo) e Trânsito a 500 metros e 100 metros em toda a Europa.
-- Add: 10 novas funções automáticas do Copiloto — recirculação de ar em picos de poluição (30 s ou 1 min), aquecimento e ventilação automáticos do banco do condutor (10 min com deteção de paragem manual), desembaciamento preventivo com chuva e frio, modo Eco automático com bateria fraca, lembrete de telemóvel ao estacionar, alerta de queda brusca de temperatura, alerta de condução noturna, desequilíbrio de pressão no mesmo eixo e celebração a cada 1.000 km.
-- Add: 9 novas competências de voz — calculadora de autonomia de ida e volta, verificação completa antes da partida, apresentação do veículo aos passageiros, consultor de pressão dos pneus, temporizador por voz, resumo de partida, pesquisa de locais próximos, gestão de memos e desembaciamento expresso de 3 minutos.
-- Add: previsão meteorológica para 5 dias em linguagem natural e escuta contínua após cada resposta ou pergunta do assistente.
-- Fix: fecho individual de cada vidro por voz sem interrupção.
-- Fix: maior tolerância de escuta em frases longas, meteorologia de outras cidades e respostas garantidas em perguntas complexas e pesquisas web.
+- Add: novo widget Aplicação nos 16 temas — selecione qualquer aplicação instalada no tablet (Waze, Google Maps, música, etc.) ou o Navegador Vektra no menu pendente do separador Painel e projete-a em espelho interativo em tempo real atrás do volante.
+- Add: sincronização tátil em direto entre o tablet e o painel, manutenção da imagem mesmo com a aplicação minimizada no tablet e redimensionamento ou deslocação livre no modo Edição.
+- Add: compatibilidade de projeção no painel alargada e 100% automática para veículos BYD DiLink 3.0 (13.1.32 e 13.1.33), DiLink 4.0 e DiLink 5.0 / 5.1 (versões europeias, internacionais e chinesas).
+- Add: orientação vocal de estacionamento 360° direcional (frente, traseira, lados, cantos) com distância em centímetros, ativada apenas em marcha-atrás (R) ou ao abrir a câmara 360° (silêncio total em P, N e D).
+- Fix: alertas de voz de Radares e Trânsito (500 m e 100 m) reproduzidos sem baixar nem cortar a música em curso, com cache automática num raio de 20 km.
+- Fix: encerramento total em segundo plano de cada opção desativada no separador Copiloto e eliminação do recuo ao abrir ou fechar vidros, teto de abrir e cortina por voz.
+- Fix: pré-visualização limpa do mapa no widget Aplicação e ativação automática do painel ao ligar o veículo.
 
 ---
 

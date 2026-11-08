@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.4.6** · pubblicata il 6 novembre 2026 · 46.7 MB
+**VERSIONE 2.4.7** · pubblicata il 8 novembre 2026 · 46.8 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -38,7 +38,7 @@ Ogni tema esiste in scuro e in chiaro. Lo sfondo chiaro riprende il blu-grigio d
 
 ## Cosa serve
 
-- Un veicolo **BYD con DiLink 3** (Android 10). Messo a punto su una Seal U DM-i; gli altri modelli DiLink 3 non sono stati verificati.
+- Un veicolo **BYD con DiLink 3.0 (13.1.32 e 13.1.33), DiLink 4.0 o DiLink 5.0 / 5.1**, riconosciuto automaticamente.
 - Il tablet deve accettare l'**installazione di applicazioni esterne** (sideload).
 - Il **debug ADB in rete** attivo sul tablet, porta 5555. VEKTRA vi si collega in locale, sul tablet stesso — nulla esce dal veicolo.
 - Una connessione internet sul tablet per il meteo e gli aggiornamenti. Tutto il resto funziona offline.
@@ -103,16 +103,15 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.4.6
+## Novità della 2.4.7
 
-- Add: nuova scheda Memo vocali e scritti — registrazione vocale o testuale, ascolto sull'altoparlante di navigazione e arresto della registrazione con un tocco sullo schermo.
-- Add: scheda Copilota dedicata con banner in tempo reale degli automatismi attivi e conto alla rovescia.
-- Add: avvisi vocali Autovelox (fissi, mobili, tutor, semafori) e Traffico a 500 metri e 100 metri in tutta Europa.
-- Add: 10 nuove funzioni automatiche del Copilota — ricircolo aria per picchi di inquinamento (30 s o 1 min), riscaldamento e ventilazione automatici del sedile conducente (10 min con rilevamento spegnimento manuale), spannamento preventivo con pioggia e freddo, modalità Eco automatica con batteria scarica, promemoria telefono in parcheggio, avviso calo brusco di temperatura, guida notturna, squilibrio pressione sullo stesso asse e celebrazione ogni 1.000 km.
-- Add: 9 nuove competenze vocali — calcolo autonomia andata e ritorno, controllo completo prima della partenza, presentazione dell'auto ai passeggeri, consulente pressione gomme, timer vocale, briefing di partenza, ricerca punti di interesse vicini, gestione memo e spannamento rapido di 3 minuti.
-- Add: previsioni meteo a 5 giorni in linguaggio naturale e ascolto continuo dopo ogni risposta o domanda dell'assistente.
-- Fix: chiusura individuale di ogni finestrino con comando vocale senza interruzione.
-- Fix: tolleranza di ascolto prolungata per domande lunghe, meteo di altre città e risposte garantite per domande complesse e ricerche sul web.
+- Add: nuovo widget Applicazione su tutti i 16 temi — seleziona qualsiasi app installata sul tablet (Waze, Google Maps, musica, ecc.) o il Navigatore Vektra dal menu a tendina nella scheda Quadro e proiettala in modalità specchio interattivo in tempo reale dietro il volante.
+- Add: sincronizzazione touch in tempo reale tra tablet e quadro, mantenimento della visualizzazione anche con l'app ridotta a icona sul tablet e ridimensionamento o spostamento libero in modalità Modifica.
+- Add: compatibilità di proiezione sul quadro estesa e 100% automatica sui veicoli BYD DiLink 3.0 (13.1.32 e 13.1.33), DiLink 4.0 e DiLink 5.0 / 5.1 (versioni europee, internazionali e cinesi).
+- Add: guida vocale di parcheggio direzionale a 360° (anteriore, posteriore, lati, angoli) con distanza in centimetri, attivata esclusivamente in retromarcia (R) o all'apertura della telecamera 360° (silenzio totale in P, N e D).
+- Fix: avvisi vocali Autovelox e Traffico (500 m e 100 m) riprodotti senza abbassare né interrompere la musica, con cache automatica nel raggio di 20 km.
+- Fix: arresto completo in background di ogni opzione disattivata nella scheda Copilota ed eliminazione del rimbalzo durante apertura o chiusura vocale di finestrini, tetto apribile e tendina.
+- Fix: anteprima mappa del widget Applicazione essenziale e risveglio automatico del quadro strumenti all'avvio dell'auto.
 
 ---
 

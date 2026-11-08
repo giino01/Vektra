@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.4.6** · veröffentlicht am 6. November 2026 · 46.7 MB
+**VERSION 2.4.7** · veröffentlicht am 8. November 2026 · 46.8 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -38,7 +38,7 @@ Jedes Thema gibt es dunkel und hell. Der helle Hintergrund nimmt das Blaugrau de
 
 ## Was nötig ist
 
-- Ein **BYD mit DiLink 3** (Android 10). Entwickelt auf einem Seal U DM-i; andere DiLink-3-Modelle wurden nicht geprüft.
+- Ein **BYD mit DiLink 3.0 (13.1.32 und 13.1.33), DiLink 4.0 oder DiLink 5.0 / 5.1**, automatisch erkannt.
 - Das Tablet muss die **Installation fremder Anwendungen** zulassen (Sideload).
 - **ADB-Debugging über Netzwerk** auf dem Tablet aktiv, Port 5555. VEKTRA verbindet sich lokal auf dem Tablet selbst — nichts verlässt das Fahrzeug.
 - Eine Internetverbindung auf dem Tablet für Wetter und Aktualisierungen. Alles andere läuft offline.
@@ -103,16 +103,15 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.4.6
+## Neu in 2.4.7
 
-- Add: neuer Tab für Sprach- und Textmemos — Aufnahme per Stimme oder Tastatur, Wiedergabe über den Navigationslautsprecher und Stoppen der Aufnahme durch einfaches Tippen auf den Bildschirm.
-- Add: eigener Copilot-Tab mit Live-Anzeige aktiver Zeitautomatiken und Countdown.
-- Add: Sprachwarnungen für Blitzer (fest, mobil, Abschnittskontrolle, Ampel) und Verkehr in 500 Metern und 100 Metern Entfernung in ganz Europa.
-- Add: 10 neue automatische Copilot-Funktionen — Umluft bei Schadstoffspitzen (30 s oder 1 Min.), automatische Sitzheizung und Sitzbelüftung für den Fahrer (10 Min. mit Erkennung manueller Abschaltung), vorbeugendes Entfeuchten bei Kälte und Regen, automatischer Eco-Modus bei niedrigem Akkustand, Telefon-Erinnerung beim Parken, Warnung bei plötzlichem Temperatursturz, Nachtfahr-Müdigkeitswarnung, Reifendruck-Ungleichgewicht auf derselben Achse und Feier jedes 1.000-km-Meilensteins.
-- Add: 9 neue Sprachassistent-Fähigkeiten — Hin- und Rückfahrt-Reichweitenrechner, kompletter Fahrzeug-Check vor der Abfahrt, VIP-Fahrzeugpräsentation für Mitfahrer, Reifendruckberater, Sprachtimer, Abfahrts-Briefing, Suche nach Geschäften in der Nähe, Sprachmemo-Verwaltung und 3-Minuten-Express-Entfeuchtung.
-- Add: 5-Tage-Wettervorhersage in natürlicher Sprache und kontinuierliches Zuhören nach jeder Antwort oder Rückfrage.
-- Fix: einzelnes Schließen jedes Fensters per Sprachbefehl ohne vorzeitigen Abbruch.
-- Fix: längere Zuhörtoleranz bei langen Fragen, Wetterabfragen für andere Städte und zuverlässige Antworten bei komplexen Fragen und Websuchen.
+- Add: neues Anwendung-Widget in allen 16 Themen — wählen Sie eine beliebige auf dem Tablet installierte App (Waze, Google Maps, Musik usw.) oder den Vektra-Navigator im Dropdown-Menü des Kombi-Tabs und spiegeln Sie sie live und interaktiv hinter das Lenkrad.
+- Add: Live-Touch-Synchronisierung zwischen Tablet und Kombiinstrument, dauerhafte Anzeige auch bei minimierter App auf dem Tablet sowie freies Verschieben und Skalieren im Bearbeitungsmodus.
+- Add: erweiterte, 100 % automatische Kombi-Projektionskompatibilität für BYD-Fahrzeuge mit DiLink 3.0 (13.1.32 und 13.1.33), DiLink 4.0 sowie DiLink 5.0 / 5.1 (europäische, internationale und chinesische Versionen).
+- Add: richtungsbezogene 360°-Sprachführung beim Einparken (vorne, hinten, Seiten, Ecken) mit Zentimeterangabe, ausgelöst ausschließlich im Rückwärtsgang (R) oder bei aktiver 360°-Kamera (völlige Stille in P, N und D).
+- Fix: Blitzer- und Verkehrssprachwarnungen (500 m und 100 m) ohne Absenken oder Unterbrechen der Musikwiedergabe sowie automatischer 20-km-Umkreisspeicher.
+- Fix: vollständiges Beenden des Hintergrundprozesses für jede deaktivierte Option im Copilot-Tab und Beseitigung des Rücklaufeffekts beim Öffnen oder Schließen von Fenstern, Schiebedach und Sonnenschutz per Stimme.
+- Fix: aufgeräumte Kartenvorschau des Anwendung-Widgets und automatisches Aufwecken des Kombiinstruments beim Fahrzeugstart.
 
 ---
 

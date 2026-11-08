@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.6** · released on 6 November 2026 · 46.7 MB
+**VERSION 2.4.7** · released on 8 November 2026 · 46.8 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.6.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -38,7 +38,7 @@ Every theme exists in dark and light. The light background picks up the blue-gre
 
 ## What you need
 
-- A **BYD with DiLink 3** (Android 10). Developed on a Seal U DM-i; other DiLink 3 models have not been verified.
+- A **BYD with DiLink 3.0 (13.1.32 and 13.1.33), DiLink 4.0 or DiLink 5.0 / 5.1**, detected automatically.
 - The tablet must accept **installing outside applications** (sideload).
 - **Network ADB debugging** active on the tablet, port 5555. VEKTRA connects to it locally, on the tablet itself — nothing leaves the vehicle.
 - An internet connection on the tablet for weather and updates. Everything else works offline.
@@ -103,16 +103,15 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.6
+## What is new in 2.4.7
 
-- Add: new Voice & Text Memos tab — record voice or written memos, play them back on the navigation speaker, and stop voice recording with a single tap on the screen.
-- Add: dedicated Copilot tab with a live banner showing active timed automations and countdowns.
-- Add: voice alerts for speed cameras (fixed, mobile, average speed, red light) and traffic events at 500 meters and 100 meters across Europe.
-- Add: 10 new automatic Copilot features — air recirculation on pollution spikes (30 s or 1 min), automatic driver seat heating and ventilation (10 min with manual stop detection), preventive defogging in cold rainy weather, automatic Eco mode on low battery, phone reminder when parking, sudden temperature drop alert, night driving fatigue alert, same-axle tire pressure imbalance alert, and 1,000 km milestone celebrations.
-- Add: 9 new voice assistant skills — round-trip range calculator, full pre-departure vehicle check-up, VIP car presentation for passengers, tire pressure advisor, voice timer, departure briefing, nearby places search, voice memo management, and 3-minute express defogger.
-- Add: natural-language 5-day weather forecasts and continuous listening after each assistant answer or question.
-- Fix: individual window closing by voice without premature stop.
-- Fix: extended listening tolerance for long questions, weather queries for other cities, and guaranteed answers on complex questions and web searches.
+- Add: new Application widget across all 16 themes — select any app installed on your tablet (Waze, Google Maps, music apps, etc.) or the Vektra Navigator from the dropdown menu in the Cluster tab and project it as a live interactive mirror behind the steering wheel.
+- Add: live touch synchronization between the tablet and the cluster, continuous cluster display even when the app is minimized on the tablet, and free resizing or moving in Edit mode.
+- Add: expanded 100% automatic cluster projection compatibility across BYD DiLink 3.0 (13.1.32 and 13.1.33), DiLink 4.0, and DiLink 5.0 / 5.1 vehicles (European, international, and Chinese versions).
+- Add: directional 360° parking voice guidance (front, rear, sides, corners) with distance in centimeters, triggered strictly in Reverse (R) or when the 360° camera is open (complete silence in P, N, and D).
+- Fix: speed camera and traffic voice alerts (500 m and 100 m) played without lowering or interrupting music playback, with automatic 20 km radius offline caching.
+- Fix: complete background process shutdown for any disabled option in the Copilot tab, and elimination of bounce-back when opening or closing windows, sunroof, or sunshade by voice.
+- Fix: clean Application widget map preview and automatic cluster display wake-up at vehicle startup.
 
 ---
 
