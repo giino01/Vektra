@@ -1,40 +1,106 @@
 {
-  "version": "2.4.6-alfa4",
-  "apk": "Vektra-2.4.6-alfa4.apk",
-  "size": 49121795,
+  "version": "2.4.7",
+  "apk": "Vektra-2.4.7.apk",
+  "size": 49122349,
   "notes": [
-    "Corrections et améliorations."
+    "Ajout : nouveau widget Application sur les 16 thèmes — sélectionnez n'importe quelle application installée sur votre tablette (Waze, Google Maps, Coyote, musique, etc.) ou le Navigateur Vektra depuis le menu déroulant de l'onglet Combiné et projetez-la en miroir interactif en direct derrière le volant.",
+    "Ajout : synchronisation tactile en direct entre la tablette et le combiné, maintien de l'affichage même si l'application est réduite sur la tablette, et redimensionnement ou déplacement libre du cadre en mode Édition.",
+    "Ajout : compatibilité de projection combiné étendue et 100 % automatique sur les véhicules BYD DiLink 3.0 (13.1.32 et 13.1.33), DiLink 4.0 et DiLink 5.0 / 5.1 (versions européennes, internationales et chinoises).",
+    "Ajout : guidage vocal de stationnement 360° directionnel (avant, arrière, côtés, angles) avec distance en centimètres, déclenché uniquement en marche arrière (R) ou à l'ouverture de la caméra 360° (silence total en position P, N et D).",
+    "Correctif : alertes vocales Radars routiers et Trafic (500 m et 100 m) diffusées sans baisser ni couper la musique en cours, avec mise en cache automatique dans un rayon de 20 km.",
+    "Correctif : coupure intégrale en tâche de fond de chaque option désactivée dans l'onglet Copilote et suppression de l'effet de rebond lors de l'ouverture ou de la fermeture des vitres, du toit ouvrant et du pare-soleil à la voix.",
+    "Correctif : aperçu de la carte du widget Application épuré et réveil automatique de l'affichage du combiné au démarrage du véhicule."
   ],
   "notesByLang": {
     "fr": [
-      "Corrections et améliorations."
+      "Ajout : nouveau widget Application sur les 16 thèmes — sélectionnez n'importe quelle application installée sur votre tablette (Waze, Google Maps, Coyote, musique, etc.) ou le Navigateur Vektra depuis le menu déroulant de l'onglet Combiné et projetez-la en miroir interactif en direct derrière le volant.",
+      "Ajout : synchronisation tactile en direct entre la tablette et le combiné, maintien de l'affichage même si l'application est réduite sur la tablette, et redimensionnement ou déplacement libre du cadre en mode Édition.",
+      "Ajout : compatibilité de projection combiné étendue et 100 % automatique sur les véhicules BYD DiLink 3.0 (13.1.32 et 13.1.33), DiLink 4.0 et DiLink 5.0 / 5.1 (versions européennes, internationales et chinoises).",
+      "Ajout : guidage vocal de stationnement 360° directionnel (avant, arrière, côtés, angles) avec distance en centimètres, déclenché uniquement en marche arrière (R) ou à l'ouverture de la caméra 360° (silence total en position P, N et D).",
+      "Correctif : alertes vocales Radars routiers et Trafic (500 m et 100 m) diffusées sans baisser ni couper la musique en cours, avec mise en cache automatique dans un rayon de 20 km.",
+      "Correctif : coupure intégrale en tâche de fond de chaque option désactivée dans l'onglet Copilote et suppression de l'effet de rebond lors de l'ouverture ou de la fermeture des vitres, du toit ouvrant et du pare-soleil à la voix.",
+      "Correctif : aperçu de la carte du widget Application épuré et réveil automatique de l'affichage du combiné au démarrage du véhicule."
     ],
     "en": [
-      "Corrections et améliorations."
+      "Add: new Application widget across all 16 themes — select any app installed on your tablet (Waze, Google Maps, music apps, etc.) or the Vektra Navigator from the dropdown menu in the Cluster tab and project it as a live interactive mirror behind the steering wheel.",
+      "Add: live touch synchronization between the tablet and the cluster, continuous cluster display even when the app is minimized on the tablet, and free resizing or moving in Edit mode.",
+      "Add: expanded 100% automatic cluster projection compatibility across BYD DiLink 3.0 (13.1.32 and 13.1.33), DiLink 4.0, and DiLink 5.0 / 5.1 vehicles (European, international, and Chinese versions).",
+      "Add: directional 360° parking voice guidance (front, rear, sides, corners) with distance in centimeters, triggered strictly in Reverse (R) or when the 360° camera is open (complete silence in P, N, and D).",
+      "Fix: speed camera and traffic voice alerts (500 m and 100 m) played without lowering or interrupting music playback, with automatic 20 km radius offline caching.",
+      "Fix: complete background process shutdown for any disabled option in the Copilot tab, and elimination of bounce-back when opening or closing windows, sunroof, or sunshade by voice.",
+      "Fix: clean Application widget map preview and automatic cluster display wake-up at vehicle startup."
     ],
     "nl": [
-      "Corrections et améliorations."
+      "Add: nieuwe Applicatie-widget op alle 16 thema's — kies elke op uw tablet geïnstalleerde app (Waze, Google Maps, muziek enz.) of de Vektra-navigator via het keuzemenu op het tabblad Cluster en projecteer deze live en interactief achter het stuur.",
+      "Add: directe aanraaksynchronisatie tussen tablet en cluster, behoud van weergave zelfs wanneer de app op de tablet is geminimaliseerd, en vrij verplaatsen of schalen in de Bewerkmodus.",
+      "Add: uitgebreide, 100% automatische clusterprojectie voor BYD-voertuigen met DiLink 3.0 (13.1.32 en 13.1.33), DiLink 4.0 en DiLink 5.0 / 5.1 (Europese, internationale en Chinese versies).",
+      "Add: richtinggevoelige 360°-stembegeleiding bij het parkeren (voor, achter, zijkanten, hoeken) met afstand in centimeters, uitsluitend geactiveerd in de achteruitversnelling (R) of bij geopende 360°-camera (volledige stilte in P, N en D).",
+      "Fix: gesproken flitspaal- en verkeersmeldingen (500 m en 100 m) zonder het muziekvolume te verlagen of te onderbreken, met automatische cache in een straal van 20 km.",
+      "Fix: volledige uitschakeling op de achtergrond van elke uitgeschakelde optie op het tabblad Copiloot en verhelpen van het terugkeren bij het openen of sluiten van ramen, schuifdak en zonnescherm met spraak.",
+      "Fix: strakke kaartvoorvertoning van de Applicatie-widget en automatisch ontwaken van het clusterscherm bij het starten van de auto."
     ],
     "de": [
-      "Corrections et améliorations."
+      "Add: neues Anwendung-Widget in allen 16 Themen — wählen Sie eine beliebige auf dem Tablet installierte App (Waze, Google Maps, Musik usw.) oder den Vektra-Navigator im Dropdown-Menü des Kombi-Tabs und spiegeln Sie sie live und interaktiv hinter das Lenkrad.",
+      "Add: Live-Touch-Synchronisierung zwischen Tablet und Kombiinstrument, dauerhafte Anzeige auch bei minimierter App auf dem Tablet sowie freies Verschieben und Skalieren im Bearbeitungsmodus.",
+      "Add: erweiterte, 100 % automatische Kombi-Projektionskompatibilität für BYD-Fahrzeuge mit DiLink 3.0 (13.1.32 und 13.1.33), DiLink 4.0 sowie DiLink 5.0 / 5.1 (europäische, internationale und chinesische Versionen).",
+      "Add: richtungsbezogene 360°-Sprachführung beim Einparken (vorne, hinten, Seiten, Ecken) mit Zentimeterangabe, ausgelöst ausschließlich im Rückwärtsgang (R) oder bei aktiver 360°-Kamera (völlige Stille in P, N und D).",
+      "Fix: Blitzer- und Verkehrssprachwarnungen (500 m und 100 m) ohne Absenken oder Unterbrechen der Musikwiedergabe sowie automatischer 20-km-Umkreisspeicher.",
+      "Fix: vollständiges Beenden des Hintergrundprozesses für jede deaktivierte Option im Copilot-Tab und Beseitigung des Rücklaufeffekts beim Öffnen oder Schließen von Fenstern, Schiebedach und Sonnenschutz per Stimme.",
+      "Fix: aufgeräumte Kartenvorschau des Anwendung-Widgets und automatisches Aufwecken des Kombiinstruments beim Fahrzeugstart."
     ],
     "es": [
-      "Corrections et améliorations."
+      "Add: nuevo widget Aplicación en los 16 temas — selecciona cualquier aplicación instalada en tu tableta (Waze, Google Maps, música, etc.) o el Navegador Vektra desde el menú desplegable de la pestaña Cuadro y proyéctala en espejo interactivo en directo detrás del volante.",
+      "Add: sincronización táctil en vivo entre la tableta y el cuadro, mantenimiento de la pantalla en el cuadro aunque la app se minimice en la tableta y cambio de tamaño o posición libre en modo Edición.",
+      "Add: compatibilidad de proyección en el cuadro ampliada y 100 % automática en vehículos BYD DiLink 3.0 (13.1.32 y 13.1.33), DiLink 4.0 y DiLink 5.0 / 5.1 (versiones europeas, internacionales y chinas).",
+      "Add: guía por voz de aparcamiento direccional 360° (delante, detrás, laterales, esquinas) con distancia en centímetros, activada únicamente en marcha atrás (R) o al abrir la cámara 360° (silencio total en P, N y D).",
+      "Fix: alertas por voz de Radares y Tráfico (500 m y 100 m) reproducidas sin bajar ni cortar la música en curso, con caché automática en un radio de 20 km.",
+      "Fix: detención total en segundo plano de cada opción desactivada en la pestaña Copiloto y eliminación del rebote al abrir o cerrar ventanillas, techo solar y cortinilla por voz.",
+      "Fix: vista previa limpia del mapa en el widget Aplicación y despertar automático del cuadro al arrancar el vehículo."
     ],
     "it": [
-      "Corrections et améliorations."
+      "Add: nuovo widget Applicazione su tutti i 16 temi — seleziona qualsiasi app installata sul tablet (Waze, Google Maps, musica, ecc.) o il Navigatore Vektra dal menu a tendina nella scheda Quadro e proiettala in modalità specchio interattivo in tempo reale dietro il volante.",
+      "Add: sincronizzazione touch in tempo reale tra tablet e quadro, mantenimento della visualizzazione anche con l'app ridotta a icona sul tablet e ridimensionamento o spostamento libero in modalità Modifica.",
+      "Add: compatibilità di proiezione sul quadro estesa e 100% automatica sui veicoli BYD DiLink 3.0 (13.1.32 e 13.1.33), DiLink 4.0 e DiLink 5.0 / 5.1 (versioni europee, internazionali e cinesi).",
+      "Add: guida vocale di parcheggio direzionale a 360° (anteriore, posteriore, lati, angoli) con distanza in centimetri, attivata esclusivamente in retromarcia (R) o all'apertura della telecamera 360° (silenzio totale in P, N e D).",
+      "Fix: avvisi vocali Autovelox e Traffico (500 m e 100 m) riprodotti senza abbassare né interrompere la musica, con cache automatica nel raggio di 20 km.",
+      "Fix: arresto completo in background di ogni opzione disattivata nella scheda Copilota ed eliminazione del rimbalzo durante apertura o chiusura vocale di finestrini, tetto apribile e tendina.",
+      "Fix: anteprima mappa del widget Applicazione essenziale e risveglio automatico del quadro strumenti all'avvio dell'auto."
     ],
     "pt": [
-      "Corrections et améliorations."
+      "Add: novo widget Aplicação nos 16 temas — selecione qualquer aplicação instalada no tablet (Waze, Google Maps, música, etc.) ou o Navegador Vektra no menu pendente do separador Painel e projete-a em espelho interativo em tempo real atrás do volante.",
+      "Add: sincronização tátil em direto entre o tablet e o painel, manutenção da imagem mesmo com a aplicação minimizada no tablet e redimensionamento ou deslocação livre no modo Edição.",
+      "Add: compatibilidade de projeção no painel alargada e 100% automática para veículos BYD DiLink 3.0 (13.1.32 e 13.1.33), DiLink 4.0 e DiLink 5.0 / 5.1 (versões europeias, internacionais e chinesas).",
+      "Add: orientação vocal de estacionamento 360° direcional (frente, traseira, lados, cantos) com distância em centímetros, ativada apenas em marcha-atrás (R) ou ao abrir a câmara 360° (silêncio total em P, N e D).",
+      "Fix: alertas de voz de Radares e Trânsito (500 m e 100 m) reproduzidos sem baixar nem cortar a música em curso, com cache automática num raio de 20 km.",
+      "Fix: encerramento total em segundo plano de cada opção desativada no separador Copiloto e eliminação do recuo ao abrir ou fechar vidros, teto de abrir e cortina por voz.",
+      "Fix: pré-visualização limpa do mapa no widget Aplicação e ativação automática do painel ao ligar o veículo."
     ],
     "ar": [
-      "Corrections et améliorations."
+      "Add: أداة «التطبيق» الجديدة في جميع السمات الـ 16 — اختر أي تطبيق مثبّت على الجهاز اللوحي (Waze أو Google Maps أو تطبيقات الموسيقى وغيرها) أو ملاح Vektra من القائمة المنسدلة في تبويب لوحة العدّادات واعرضه كمرآة تفاعلية مباشرة خلف المقود.",
+      "Add: مزامنة لمس مباشرة بين الجهاز اللوحي ولوحة العدّادات، مع استمرار العرض حتى عند تصغير التطبيق على الشاشة الرئيسية وإمكانية تحريكه وتغيير حجمه بحرية في وضع التحرير.",
+      "Add: توافق موسّع وتلقائي بالكامل لعرض لوحة العدّادات على سيارات BYD بنظام DiLink 3.0 (13.1.32 و13.1.33) وDiLink 4.0 وDiLink 5.0 / 5.1 (الإصدارات الأوروبية والدولية والصينية).",
+      "Add: توجيه صوتي محيطي 360 درجة للاصطفاف بالسنتيمتر يعمل حصرياً عند تعشيق الرجوع للخلف (R) أو فتح كاميرا 360 درجة (صمت تام في أوضاع P وN وD).",
+      "Fix: تنبيهات الرادارات وحركة المرور الصوتية (500 متر و100 متر) دون خفض أو قطع الموسيقى، مع تخزين مؤقت تلقائي بنصف قطر 20 كم.",
+      "Fix: إيقاف كامل في الخلفية لأي خيار يتم تعطيله في تبويب المساعد الذكي، وإصلاح ارتداد النوافذ وفتحة السقف والستارة عند فتحها أو إغلاقها صوتياً.",
+      "Fix: معاينة خريطة نقية لأداة التطبيق وإيقاظ تلقائي لشاشة لوحة العدّادات عند تشغيل السيارة."
     ],
     "tr": [
-      "Corrections et améliorations."
+      "Add: 16 temanın tamamında yeni Uygulama widget'ı — Gösterge sekmesindeki açılır menüden tabletinizde yüklü herhangi bir uygulamayı (Waze, Google Maps, müzik vb.) veya Vektra Gezgini'ni seçin ve direksiyon arkasındaki ekrana canlı etkileşimli ayna olarak yansıtın.",
+      "Add: tablet ile gösterge arasında canlı dokunmatik senkronizasyon, uygulama tablette küçültülse bile göstergede kesintisiz görüntü ve Düzenleme modunda serbest boyutlandırma veya taşıma.",
+      "Add: BYD DiLink 3.0 (13.1.32 ve 13.1.33), DiLink 4.0 ve DiLink 5.0 / 5.1 araçlar (Avrupa, uluslararası ve Çin sürümleri) için genişletilmiş %100 otomatik gösterge yansıtma uyumluluğu.",
+      "Add: yalnızca geri viteste (R) veya 360° kamera açıldığında devreye giren, santimetre cinsinden mesafe bildiren yönlü 360° sesli park kılavuzu (P, N ve D konumlarında tam sessizlik).",
+      "Fix: müziği kısmadan veya kesmeden okunan Radar ve Trafik sesli uyarıları (500 m ve 100 m) ve 20 km yarıçaplı otomatik önbellek.",
+      "Fix: Yardımcı Pilot sekmesinde kapatılan her seçeneğin arka plan sürecinin tamamen durdurulması ve cam, açılır tavan veya güneşlik sesli komutlarında geri açılma sorununun giderilmesi.",
+      "Fix: sadeleştirilmiş Uygulama widget'ı harita önizlemesi ve araç çalıştığında gösterge ekranının otomatik uyandırılması."
     ],
     "zh": [
-      "Corrections et améliorations."
+      "Add: 全部 16 款主题新增「应用」小组件 —— 在仪表标签页的下拉菜单中选择平板上安装的任意应用（Waze、Google Maps、音乐应用等）或 Vektra 导航，即可将其作为实时交互镜像投射到方向盘后方的仪表屏。",
+      "Add: 平板与仪表屏实时触控同步，应用在平板上最小化时仪表投屏依然保持显示，并在编辑模式下支持自由缩放与移动。",
+      "Add: 仪表投屏兼容性全面扩展并实现 100% 自动适配，支持 BYD DiLink 3.0（13.1.32 与 13.1.33）、DiLink 4.0 及 DiLink 5.0 / 5.1 车型（欧洲版、国际版及中国版）。",
+      "Add: 360° 全方位厘米级驻车语音引导（前、后、侧方及四角），仅在挂入倒挡 (R) 或开启 360° 全景影像时触发（在 P、N、D 挡下保持完全静音）。",
+      "Fix: 测速雷达与路况语音预警（500 米与 100 米）播报时不压低或中断正在播放的音乐，并支持周围 20 公里自动离线缓存。",
+      "Fix: 在副驾标签页中关闭任意选项时彻底停止其后台进程，并修复语音开关车窗、天窗和遮阳帘时的回弹问题。",
+      "Fix: 精简「应用」小组件的地图预览画面，并在车辆启动时自动唤醒仪表原生显示服务。"
     ]
   }
 }
