@@ -1,7 +1,7 @@
 {
   "version": "2.4.7-alfa1",
   "apk": "Vektra-2.4.7-alfa1.apk",
-  "size": 49125853,
+  "size": 49125877,
   "notes": [
     "Correctif : bascule vocale EV ↔ HEV (« passe en EV », « passe de HEV à EV », « passe en hybride ») corrigée avec priorité à la signature directe setEnergyMode(code) et reconnaissance des variantes phonétiques (« E.V. », « H.E.V. »).",
     "Correctif : modes de conduite Éco, Normal, Sport et modes de terrain Neige / Sable / Boue via setOperationMode et setRoadSurfacKind (méthode BYD Seal U DM-i).",
