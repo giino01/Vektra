@@ -1,84 +1,62 @@
 {
-  "version": "2.4.9",
-  "apk": "Vektra-2.4.9.apk",
-  "size": 49388573,
+  "version": "2.4.9-alfa1",
+  "apk": "Vektra-2.4.9-alfa1.apk",
+  "size": 49389155,
   "notes": [
-    "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-    "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-    "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-    "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-    "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+    "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+    "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+    "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "en": [
-      "Fix: eliminated the double-toggle bug (unchecking then immediately re-checking VEKTRA) in the native BYD startup manager (com.byd.appstartmanagement) by enforcing a single toggle action per step with a 950 ms settle cooldown and stable state verification before closing.",
-      "Fix: full hardware recall of driver seat memory positions 1, 2, and 3 as well as Rest Mode / Driving Mode (added BYDAUTO_SEAT_*, BYDAUTO_CHAIR_*, and BYDAUTO_COMFORT_* manifest permissions, loaded BYD framework JARs under UID 2000, and invoked all matching seat memory methods across Setting, Bodywork, Seat, Chair, and Comfort devices).",
-      "Fix: resolved the Application widget projection staying stuck on the loading screen on the cluster and in Preview (prevented pkill from terminating AdbVirtualDisplayDaemon during startup, auto-launched the selected app immediately upon selection, and added hardware display screencap -d fallback for OpenGL/SurfaceView apps like Waze and Google Maps).",
-      "Fix: 100% localized voice responses and proactive Copilot announcements across all supported Assistant voice languages (Italian, English, German, Spanish, Dutch, Portuguese, Turkish, Arabic, Chinese), eliminating French sentences spoken with a foreign voice when UI language and Assistant voice language differ.",
-      "Add: \"BYD Blade\" UI theme with centered official vector BYD logo, Driver Profile hero card with custom photo/avatar, direct voice track playback on YT Music Morphe, and clean full-stage \"Preview: App Interaction\" mode with real-time touch injection and native BYD keyboard popup."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "nl": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "de": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "es": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "it": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "pt": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "ar": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "tr": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ],
     "zh": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
+      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
+      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
     ]
   }
 }
