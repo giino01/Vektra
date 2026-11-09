@@ -1,7 +1,7 @@
 {
   "version": "2.4.8-alfa2",
   "apk": "Vektra-2.4.8-alfa2.apk",
-  "size": 49275737,
+  "size": 49275745,
   "notes": [
     "Ajout : logo officiel « BYD » vectoriel centré dans l'en-tête supérieur à la fois sur le thème « BYD Blade » (ligne Rouge Blade ➔ Cyan Électrique) et sur le thème « Classique » (ligne Cyan ➔ Violet adaptée à la nuance du thème Classique).",
     "Ajout : démon d'écran virtuel privilégié ADB (AdbVirtualDisplayDaemon sous UID 2000 / shell) avec régulateur dynamique Auto-FPS (60 FPS ➔ 45 FPS ➔ 30 FPS ➔ 20 FPS) pour le widget Application (suppression du pop-up Waze de duplication d'écran, suppression de l'effet miroir infini et rapatriement automatique sur l'écran de la tablette à la fermeture).",
