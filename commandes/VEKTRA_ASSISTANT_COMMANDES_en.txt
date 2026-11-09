@@ -160,6 +160,10 @@ Groq artificial intelligence (Llama 3.3 70B).
   - "Vektra, turn off the defrost"
   - "Vektra, turn on air recirculation" / "Bring in outside air"
 
+• Rapid air purification (3-minute cycle, PM2.5 ionizer):
+  - "Vektra, purify the air" / "Start air purification"
+  - "Vektra, turn on the ionizer" / "Stop the purification"
+
 --------------------------------------------------------------------------------
 8. HEATED SEATS, VENTILATED SEATS & HEATED STEERING WHEEL
 --------------------------------------------------------------------------------

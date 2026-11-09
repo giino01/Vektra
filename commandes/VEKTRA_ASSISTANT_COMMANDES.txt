@@ -160,6 +160,10 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
   - « Vektra, coupe le dégivrage »
   - « Vektra, active le recyclage d'air » / « Mets l'air extérieur »
 
+• Purification rapide de l'air (cycle de 3 minutes, ioniseur PM2.5) :
+  - « Vektra, purifie l'air » / « Lance la purification de l'air »
+  - « Vektra, active l'ioniseur » / « Coupe la purification »
+
 --------------------------------------------------------------------------------
 8. SIÈGES CHAUFFANTS, SIÈGES VENTILÉS & VOLANT CHAUFFANT
 --------------------------------------------------------------------------------

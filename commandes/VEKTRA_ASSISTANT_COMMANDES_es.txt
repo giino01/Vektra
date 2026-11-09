@@ -161,6 +161,10 @@ iluminación ambiental y a la inteligencia artificial Groq (Llama 3.3 70B).
   - «Vektra, apaga el desempañador»
   - «Vektra, activa la recirculación de aire» / «Pon el aire exterior»
 
+• Purificación rápida del aire (ciclo de 3 minutos, ionizador PM2.5) :
+  - «Vektra, purifica el aire» / «Inicia la purificación del aire»
+  - «Vektra, activa el ionizador» / «Detén la purificación»
+
 --------------------------------------------------------------------------------
 8. ASIENTOS CALEFACTADOS, ASIENTOS VENTILADOS Y VOLANTE CALEFACTADO
 --------------------------------------------------------------------------------

@@ -1,84 +1,139 @@
 {
-  "version": "2.4.9",
-  "apk": "Vektra-2.4.9.apk",
-  "size": 49388585,
+  "version": "2.4.10",
+  "apk": "Vektra-2.4.10.apk",
+  "size": 49544222,
   "notes": [
-    "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-    "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-    "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-    "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-    "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+    "Ajout : projection d'une application sur le combiné — l'application choisie s'affiche enfin en plein écran derrière le volant, au lieu de rester noire.",
+    "Ajout : purification rapide de l'air — Vektra ferme le recyclage intérieur, lance l'ioniseur et pousse la ventilation pendant 3 minutes, puis revient tout seul au réglage normal.",
+    "Ajout : les radars fixes, les tronçons et les feux rouges de Belgique et des régions frontalières sont maintenant embarqués dans l'application. Vektra prévient à 500 m puis à 100 m même sans connexion. Les radars mobiles et le trafic en direct viennent s'ajouter quand la connexion le permet.",
+    "Correctif : l'assistant ne touche plus jamais au volume. Il ne le remonte plus tout seul à chaque fois qu'il parle : le niveau que tu as choisi est conservé.",
+    "Correctif : le passage entre le mode électrique et le mode hybride fonctionne de façon fiable.",
+    "Correctif : les sièges à mémoire (positions 1, 2 et 3) ainsi que les modes Repos et Conduite répondent correctement, y compris sur les sièges à deux mémoires.",
+    "Correctif : le désembuage express s'arrête bien tout seul au bout de 3 minutes.",
+    "Correctif : plus d'annonce inutile « alertes radars et trafic activées » à chaque démarrage. Vektra ne parle que lorsque la base des radars vient d'être mise à jour.",
+    "Correctif : la position est détectée plus vite et plus sûrement pour les alertes radars.",
+    "Correctif : les radars de recul (aide au stationnement) sont mieux détectés."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Ajout : projection d'une application sur le combiné — l'application choisie s'affiche enfin en plein écran derrière le volant, au lieu de rester noire.",
+      "Ajout : purification rapide de l'air — Vektra ferme le recyclage intérieur, lance l'ioniseur et pousse la ventilation pendant 3 minutes, puis revient tout seul au réglage normal.",
+      "Ajout : les radars fixes, les tronçons et les feux rouges de Belgique et des régions frontalières sont maintenant embarqués dans l'application. Vektra prévient à 500 m puis à 100 m même sans connexion. Les radars mobiles et le trafic en direct viennent s'ajouter quand la connexion le permet.",
+      "Correctif : l'assistant ne touche plus jamais au volume. Il ne le remonte plus tout seul à chaque fois qu'il parle : le niveau que tu as choisi est conservé.",
+      "Correctif : le passage entre le mode électrique et le mode hybride fonctionne de façon fiable.",
+      "Correctif : les sièges à mémoire (positions 1, 2 et 3) ainsi que les modes Repos et Conduite répondent correctement, y compris sur les sièges à deux mémoires.",
+      "Correctif : le désembuage express s'arrête bien tout seul au bout de 3 minutes.",
+      "Correctif : plus d'annonce inutile « alertes radars et trafic activées » à chaque démarrage. Vektra ne parle que lorsque la base des radars vient d'être mise à jour.",
+      "Correctif : la position est détectée plus vite et plus sûrement pour les alertes radars.",
+      "Correctif : les radars de recul (aide au stationnement) sont mieux détectés."
     ],
     "en": [
-      "Fix: eliminated the double-toggle bug (unchecking then immediately re-checking VEKTRA) in the native BYD startup manager (com.byd.appstartmanagement) by enforcing a single toggle action per step with a 950 ms settle cooldown and stable state verification before closing.",
-      "Fix: full hardware recall of driver seat memory positions 1, 2, and 3 as well as Rest Mode / Driving Mode (added BYDAUTO_SEAT_*, BYDAUTO_CHAIR_*, and BYDAUTO_COMFORT_* manifest permissions, loaded BYD framework JARs under UID 2000, and invoked all matching seat memory methods across Setting, Bodywork, Seat, Chair, and Comfort devices).",
-      "Fix: resolved the Application widget projection staying stuck on the loading screen on the cluster and in Preview (prevented pkill from terminating AdbVirtualDisplayDaemon during startup, auto-launched the selected app immediately upon selection, and added hardware display screencap -d fallback for OpenGL/SurfaceView apps like Waze and Google Maps).",
-      "Fix: 100% localized voice responses and proactive Copilot announcements across all supported Assistant voice languages (Italian, English, German, Spanish, Dutch, Portuguese, Turkish, Arabic, Chinese), eliminating French sentences spoken with a foreign voice when UI language and Assistant voice language differ.",
-      "Add: \"BYD Blade\" UI theme with centered official vector BYD logo, Driver Profile hero card with custom photo/avatar, direct voice track playback on YT Music Morphe, and clean full-stage \"Preview: App Interaction\" mode with real-time touch injection and native BYD keyboard popup."
+      "Add: project an application onto the cluster — the app you pick finally shows full screen behind the wheel, instead of staying black.",
+      "Add: rapid air purification — Vektra closes the cabin recirculation, starts the ionizer and raises the fan for 3 minutes, then returns to the normal setting on its own.",
+      "Add: fixed speed cameras, average-speed sections and red-light cameras for Belgium and the border regions are now built into the app. Vektra warns you at 500 m and again at 100 m even with no connection. Mobile cameras and live traffic are added on top whenever a connection is available.",
+      "Fix: the assistant never touches the volume any more. It no longer raises it by itself every time it speaks: the level you chose is kept.",
+      "Fix: switching between electric and hybrid mode now works reliably.",
+      "Fix: memory seats (positions 1, 2 and 3) and the Rest and Driving modes respond correctly, including on seats with two memories.",
+      "Fix: the express demisting now reliably stops by itself after 3 minutes.",
+      "Fix: no more pointless \"speed camera and traffic alerts enabled\" announcement at every start. Vektra only speaks when the camera database has just been updated.",
+      "Fix: your position is detected faster and more reliably for speed camera alerts.",
+      "Fix: the reversing sensors (parking aid) are detected more reliably."
     ],
     "nl": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Nieuw: een app projecteren op het instrumentenpaneel — de gekozen app verschijnt eindelijk schermvullend achter het stuur, in plaats van zwart te blijven.",
+      "Nieuw: snelle luchtzuivering — Vektra sluit de binnenluchtcirculatie, start de ionisator en zet de ventilatie 3 minuten hoger, en gaat daarna zelf terug naar de normale stand.",
+      "Nieuw: vaste flitsers, trajectcontroles en roodlichtcamera's van België en de grensregio's zitten nu in de app. Vektra waarschuwt op 500 m en opnieuw op 100 m, zelfs zonder verbinding. Mobiele flitsers en live verkeer komen erbij zodra er verbinding is.",
+      "Opgelost: de assistent raakt het volume nooit meer aan. Hij zet het niet meer zelf hoger telkens als hij spreekt: het niveau dat jij kiest blijft behouden.",
+      "Opgelost: het wisselen tussen elektrische en hybride modus werkt betrouwbaar.",
+      "Opgelost: memorystoelen (posities 1, 2 en 3) en de Rust- en Rijmodus reageren correct, ook op stoelen met twee geheugens.",
+      "Opgelost: het snelle ontwasemen stopt nu betrouwbaar van zichzelf na 3 minuten.",
+      "Opgelost: geen nutteloze melding «flitser- en verkeersmeldingen ingeschakeld» bij elke start. Vektra spreekt alleen wanneer de flitserdatabase net is bijgewerkt.",
+      "Opgelost: je positie wordt sneller en betrouwbaarder bepaald voor de flitsermeldingen.",
+      "Opgelost: de achteruitrijsensoren (parkeerhulp) worden beter gedetecteerd."
     ],
     "de": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Neu: Projektion einer Anwendung auf das Kombiinstrument — die gewählte App erscheint endlich im Vollbild hinter dem Lenkrad, statt schwarz zu bleiben.",
+      "Neu: schnelle Luftreinigung — Vektra schließt die Umluft, startet den Ionisator und erhöht die Lüftung für 3 Minuten, danach kehrt sie von selbst zur normalen Einstellung zurück.",
+      "Neu: feste Blitzer, Abschnittskontrollen und Rotlichtblitzer für Belgien und die Grenzregionen sind nun in der App enthalten. Vektra warnt bei 500 m und erneut bei 100 m, auch ohne Verbindung. Mobile Blitzer und Live-Verkehr kommen hinzu, sobald eine Verbindung besteht.",
+      "Korrektur: der Assistent verändert die Lautstärke nicht mehr. Er erhöht sie nicht mehr selbst bei jeder Ansage: die von dir gewählte Stufe bleibt erhalten.",
+      "Korrektur: der Wechsel zwischen Elektro- und Hybridmodus funktioniert zuverlässig.",
+      "Korrektur: Memory-Sitze (Positionen 1, 2 und 3) sowie Ruhe- und Fahrmodus reagieren korrekt, auch bei Sitzen mit zwei Speichern.",
+      "Korrektur: die Schnellentfeuchtung schaltet sich nach 3 Minuten zuverlässig selbst ab.",
+      "Korrektur: keine unnötige Ansage „Blitzer- und Verkehrswarnungen aktiviert\" bei jedem Start. Vektra spricht nur, wenn die Blitzerdatenbank gerade aktualisiert wurde.",
+      "Korrektur: die Position wird für Blitzerwarnungen schneller und zuverlässiger erkannt.",
+      "Korrektur: die Rückfahrsensoren (Einparkhilfe) werden besser erkannt."
     ],
     "es": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Novedad: proyección de una aplicación en el cuadro de mandos — la aplicación elegida se muestra por fin a pantalla completa detrás del volante, en lugar de quedarse en negro.",
+      "Novedad: purificación rápida del aire — Vektra cierra la recirculación interior, activa el ionizador y sube la ventilación durante 3 minutos, y luego vuelve sola al ajuste normal.",
+      "Novedad: los radares fijos, los tramos de velocidad media y los radares de semáforo de Bélgica y de las regiones fronterizas ya están integrados en la aplicación. Vektra avisa a 500 m y de nuevo a 100 m incluso sin conexión. Los radares móviles y el tráfico en directo se añaden cuando hay conexión.",
+      "Corrección: el asistente ya no toca nunca el volumen. Ya no lo sube por su cuenta cada vez que habla: se mantiene el nivel que tú has elegido.",
+      "Corrección: el cambio entre modo eléctrico e híbrido funciona de forma fiable.",
+      "Corrección: los asientos con memoria (posiciones 1, 2 y 3) y los modos Descanso y Conducción responden correctamente, también en asientos con dos memorias.",
+      "Corrección: el desempañado rápido se detiene solo de forma fiable al cabo de 3 minutos.",
+      "Corrección: se elimina el aviso inútil «alertas de radares y tráfico activadas» en cada arranque. Vektra solo habla cuando la base de datos de radares acaba de actualizarse.",
+      "Corrección: la posición se detecta más rápido y con más fiabilidad para los avisos de radares.",
+      "Corrección: los sensores de marcha atrás (ayuda al aparcamiento) se detectan mejor."
     ],
     "it": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Aggiunta: proiezione di un'applicazione sul quadro strumenti — l'app scelta appare finalmente a schermo intero dietro il volante, invece di restare nera.",
+      "Aggiunta: purificazione rapida dell'aria — Vektra chiude il ricircolo interno, avvia lo ionizzatore e aumenta la ventilazione per 3 minuti, poi torna da solo all'impostazione normale.",
+      "Aggiunta: gli autovelox fissi, i tratti a controllo di velocità media e i rilevatori ai semafori del Belgio e delle regioni di frontiera sono ora integrati nell'app. Vektra avvisa a 500 m e poi a 100 m anche senza connessione. Autovelox mobili e traffico in tempo reale si aggiungono quando la connessione lo consente.",
+      "Correzione: l'assistente non tocca più il volume. Non lo alza più da solo ogni volta che parla: il livello scelto da te viene mantenuto.",
+      "Correzione: il passaggio tra modalità elettrica e ibrida funziona in modo affidabile.",
+      "Correzione: i sedili a memoria (posizioni 1, 2 e 3) e le modalità Riposo e Guida rispondono correttamente, anche sui sedili con due memorie.",
+      "Correzione: lo sbrinamento rapido si interrompe da solo dopo 3 minuti.",
+      "Correzione: nessun annuncio inutile «avvisi autovelox e traffico attivati» a ogni avvio. Vektra parla solo quando la banca dati degli autovelox è appena stata aggiornata.",
+      "Correzione: la posizione viene rilevata più rapidamente e in modo più affidabile per gli avvisi autovelox.",
+      "Correzione: i sensori di retromarcia (aiuto al parcheggio) vengono rilevati meglio."
     ],
     "pt": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Novidade: projeção de uma aplicação no painel — a aplicação escolhida aparece finalmente em ecrã inteiro atrás do volante, em vez de ficar negra.",
+      "Novidade: purificação rápida do ar — a Vektra fecha a recirculação interior, liga o ionizador e aumenta a ventilação durante 3 minutos, voltando sozinha ao ajuste normal.",
+      "Novidade: os radares fixos, os trechos de velocidade média e os radares de semáforo da Bélgica e das regiões fronteiriças estão agora integrados na aplicação. A Vektra avisa a 500 m e de novo a 100 m mesmo sem ligação. Radares móveis e trânsito em direto juntam-se quando há ligação.",
+      "Correção: o assistente nunca mais altera o volume. Já não o aumenta sozinho sempre que fala: o nível que escolheste é mantido.",
+      "Correção: a mudança entre modo elétrico e híbrido funciona de forma fiável.",
+      "Correção: os assentos com memória (posições 1, 2 e 3) e os modos Descanso e Condução respondem corretamente, incluindo nos assentos com duas memórias.",
+      "Correção: o desembaciamento rápido desliga-se sozinho ao fim de 3 minutos.",
+      "Correção: sem anúncio inútil «alertas de radares e trânsito ativados» a cada arranque. A Vektra só fala quando a base de dados de radares acabou de ser atualizada.",
+      "Correção: a posição é detetada mais depressa e com mais fiabilidade para os alertas de radares.",
+      "Correção: os sensores de marcha-atrás (auxílio ao estacionamento) são melhor detetados."
     ],
     "ar": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "جديد: عرض تطبيق على لوحة العدادات — يظهر التطبيق المختار أخيرًا بملء الشاشة خلف المقود بدلاً من أن يبقى أسود.",
+      "جديد: تنقية سريعة للهواء — تغلق فيكترا إعادة التدوير الداخلي، وتشغّل المؤيّن وترفع التهوية لمدة 3 دقائق، ثم تعود وحدها إلى الإعداد الطبيعي.",
+      "جديد: رادارات السرعة الثابتة ومقاطع السرعة المتوسطة ورادارات الإشارة الحمراء في بلجيكا والمناطق الحدودية مدمجة الآن داخل التطبيق. تنبّهك فيكترا على مسافة 500 م ثم 100 م حتى بدون اتصال. وتُضاف الرادارات المتنقلة وحالة المرور المباشرة عند توفر الاتصال.",
+      "إصلاح: لم يعد المساعد يغيّر مستوى الصوت إطلاقًا. لم يعد يرفعه من تلقاء نفسه في كل مرة يتحدث: يبقى المستوى الذي اخترته.",
+      "إصلاح: التبديل بين الوضع الكهربائي والهجين يعمل بشكل موثوق.",
+      "إصلاح: المقاعد ذات الذاكرة (المواضع 1 و2 و3) وأوضاع الراحة والقيادة تستجيب بشكل صحيح، بما في ذلك المقاعد ذات ذاكرتين.",
+      "إصلاح: إزالة الضباب السريعة تتوقف وحدها بعد 3 دقائق بشكل موثوق.",
+      "إصلاح: لا مزيد من الإعلان غير المفيد «تم تنشيط تنبيهات الرادار والمرور» عند كل تشغيل. تتحدث فيكترا فقط عندما يتم تحديث قاعدة بيانات الرادارات.",
+      "إصلاح: يتم تحديد موقعك أسرع وبشكل أكثر موثوقية لتنبيهات الرادار.",
+      "إصلاح: يتم رصد مستشعرات الرجوع للخلف (مساعد الركن) بشكل أفضل."
     ],
     "tr": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "Yeni: gösterge paneline uygulama yansıtma — seçtiğin uygulama artık siyah kalmak yerine direksiyonun arkasında tam ekran görünüyor.",
+      "Yeni: hızlı hava temizleme — Vektra iç devridaimi kapatır, iyonizeri çalıştırır ve havalandırmayı 3 dakika yükseltir, ardından kendiliğinden normal ayara döner.",
+      "Yeni: Belçika ve sınır bölgelerindeki sabit radarlar, ortalama hız kesitleri ve kırmızı ışık radarları artık uygulamanın içinde. Vektra bağlantı olmasa bile 500 m'de ve yeniden 100 m'de uyarır. Mobil radarlar ve canlı trafik, bağlantı varsa buna eklenir.",
+      "Düzeltme: asistan artık sese hiç dokunmuyor. Her konuştuğunda sesi kendiliğinden yükseltmiyor: seçtiğin seviye korunuyor.",
+      "Düzeltme: elektrikli ve hibrit mod arasındaki geçiş güvenilir şekilde çalışıyor.",
+      "Düzeltme: hafızalı koltuklar (1, 2 ve 3 konumları) ile Dinlenme ve Sürüş modları, iki hafızalı koltuklarda da doğru yanıt veriyor.",
+      "Düzeltme: hızlı buğu giderme 3 dakika sonra kendiliğinden güvenilir biçimde kapanıyor.",
+      "Düzeltme: her açılışta gereksiz «radar ve trafik uyarıları etkin» duyurusu yok. Vektra yalnızca radar veritabanı yeni güncellendiğinde konuşur.",
+      "Düzeltme: radar uyarıları için konum daha hızlı ve daha güvenilir algılanıyor.",
+      "Düzeltme: geri vites sensörleri (park yardımı) daha iyi algılanıyor."
     ],
     "zh": [
-      "Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.",
-      "Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).",
-      "Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).",
-      "Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.",
-      "Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD."
+      "新增：将应用投射到仪表盘——所选应用终于能在方向盘后方全屏显示，不再是黑屏。",
+      "新增：快速空气净化——Vektra 关闭车内循环、启动负离子并将风量提升 3 分钟，随后自动恢复到正常设置。",
+      "新增：比利时及边境地区的固定测速、区间测速和红灯摄像头现已内置于应用中。即使没有网络，Vektra 也会在 500 米和 100 米处提醒你。有网络时会再叠加移动测速和实时路况。",
+      "修复：助手不再调整音量。它不会每次说话都自行调高音量，你设定的音量会被保留。",
+      "修复：纯电与混动模式之间的切换稳定可靠。",
+      "修复：记忆座椅（位置 1、2、3）以及休息模式与驾驶模式响应正确，双记忆座椅同样适用。",
+      "修复：快速除雾现在会在 3 分钟后可靠地自动关闭。",
+      "修复：不再于每次启动时播报无用的「测速与路况提醒已开启」。只有在测速数据库刚更新后，Vektra 才会提示。",
+      "修复：测速提醒的定位更快、更可靠。",
+      "修复：倒车雷达（泊车辅助）的识别更可靠。"
     ]
   }
 }

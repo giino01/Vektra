@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.4.9** · publiée le 9 novembre 2026 · 47.1 Mo
+**VERSION 2.4.10** · publiée le 9 novembre 2026 · 47.2 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.9.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,18 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.4.9
+## Nouveautés de la 2.4.10
 
-- Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.
-- Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).
-- Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).
-- Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.
-- Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD.
+- Ajout : projection d'une application sur le combiné — l'application choisie s'affiche enfin en plein écran derrière le volant, au lieu de rester noire.
+- Ajout : purification rapide de l'air — Vektra ferme le recyclage intérieur, lance l'ioniseur et pousse la ventilation pendant 3 minutes, puis revient tout seul au réglage normal.
+- Ajout : les radars fixes, les tronçons et les feux rouges de Belgique et des régions frontalières sont maintenant embarqués dans l'application. Vektra prévient à 500 m puis à 100 m même sans connexion. Les radars mobiles et le trafic en direct viennent s'ajouter quand la connexion le permet.
+- Correctif : l'assistant ne touche plus jamais au volume. Il ne le remonte plus tout seul à chaque fois qu'il parle : le niveau que tu as choisi est conservé.
+- Correctif : le passage entre le mode électrique et le mode hybride fonctionne de façon fiable.
+- Correctif : les sièges à mémoire (positions 1, 2 et 3) ainsi que les modes Repos et Conduite répondent correctement, y compris sur les sièges à deux mémoires.
+- Correctif : le désembuage express s'arrête bien tout seul au bout de 3 minutes.
+- Correctif : plus d'annonce inutile « alertes radars et trafic activées » à chaque démarrage. Vektra ne parle que lorsque la base des radars vient d'être mise à jour.
+- Correctif : la position est détectée plus vite et plus sûrement pour les alertes radars.
+- Correctif : les radars de recul (aide au stationnement) sont mieux détectés.
 
 ---
 

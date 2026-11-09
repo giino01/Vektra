@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.4.9** · pubblicata il 9 novembre 2026 · 47.1 MB
+**VERSIONE 2.4.10** · pubblicata il 9 novembre 2026 · 47.2 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.9.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,18 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.4.9
+## Novità della 2.4.10
 
-- Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.
-- Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).
-- Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).
-- Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.
-- Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD.
+- Aggiunta: proiezione di un'applicazione sul quadro strumenti — l'app scelta appare finalmente a schermo intero dietro il volante, invece di restare nera.
+- Aggiunta: purificazione rapida dell'aria — Vektra chiude il ricircolo interno, avvia lo ionizzatore e aumenta la ventilazione per 3 minuti, poi torna da solo all'impostazione normale.
+- Aggiunta: gli autovelox fissi, i tratti a controllo di velocità media e i rilevatori ai semafori del Belgio e delle regioni di frontiera sono ora integrati nell'app. Vektra avvisa a 500 m e poi a 100 m anche senza connessione. Autovelox mobili e traffico in tempo reale si aggiungono quando la connessione lo consente.
+- Correzione: l'assistente non tocca più il volume. Non lo alza più da solo ogni volta che parla: il livello scelto da te viene mantenuto.
+- Correzione: il passaggio tra modalità elettrica e ibrida funziona in modo affidabile.
+- Correzione: i sedili a memoria (posizioni 1, 2 e 3) e le modalità Riposo e Guida rispondono correttamente, anche sui sedili con due memorie.
+- Correzione: lo sbrinamento rapido si interrompe da solo dopo 3 minuti.
+- Correzione: nessun annuncio inutile «avvisi autovelox e traffico attivati» a ogni avvio. Vektra parla solo quando la banca dati degli autovelox è appena stata aggiornata.
+- Correzione: la posizione viene rilevata più rapidamente e in modo più affidabile per gli avvisi autovelox.
+- Correzione: i sensori di retromarcia (aiuto al parcheggio) vengono rilevati meglio.
 
 ---
 

@@ -161,6 +161,10 @@ inteligência artificial Groq (Llama 3.3 70B).
   - «Vektra, desliga o desembaciamento»
   - «Vektra, liga a recirculação do ar» / «Põe o ar exterior»
 
+• Purificação rápida do ar (ciclo de 3 minutos, ionizador PM2.5) :
+  - «Vektra, purifica o ar» / «Inicia a purificação do ar»
+  - «Vektra, liga o ionizador» / «Para a purificação»
+
 --------------------------------------------------------------------------------
 8. BANCOS AQUECIDOS, BANCOS VENTILADOS E VOLANTE AQUECIDO
 --------------------------------------------------------------------------------

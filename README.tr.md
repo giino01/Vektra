@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.4.9** · yayın tarihi 9 Kasım 2026 · 47.1 MB
+**SÜRÜM 2.4.10** · yayın tarihi 9 Kasım 2026 · 47.2 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.9.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,13 +103,18 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.4.9
+## Yenilikler: 2.4.10
 
-- Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.
-- Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).
-- Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).
-- Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.
-- Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD.
+- Yeni: gösterge paneline uygulama yansıtma — seçtiğin uygulama artık siyah kalmak yerine direksiyonun arkasında tam ekran görünüyor.
+- Yeni: hızlı hava temizleme — Vektra iç devridaimi kapatır, iyonizeri çalıştırır ve havalandırmayı 3 dakika yükseltir, ardından kendiliğinden normal ayara döner.
+- Yeni: Belçika ve sınır bölgelerindeki sabit radarlar, ortalama hız kesitleri ve kırmızı ışık radarları artık uygulamanın içinde. Vektra bağlantı olmasa bile 500 m'de ve yeniden 100 m'de uyarır. Mobil radarlar ve canlı trafik, bağlantı varsa buna eklenir.
+- Düzeltme: asistan artık sese hiç dokunmuyor. Her konuştuğunda sesi kendiliğinden yükseltmiyor: seçtiğin seviye korunuyor.
+- Düzeltme: elektrikli ve hibrit mod arasındaki geçiş güvenilir şekilde çalışıyor.
+- Düzeltme: hafızalı koltuklar (1, 2 ve 3 konumları) ile Dinlenme ve Sürüş modları, iki hafızalı koltuklarda da doğru yanıt veriyor.
+- Düzeltme: hızlı buğu giderme 3 dakika sonra kendiliğinden güvenilir biçimde kapanıyor.
+- Düzeltme: her açılışta gereksiz «radar ve trafik uyarıları etkin» duyurusu yok. Vektra yalnızca radar veritabanı yeni güncellendiğinde konuşur.
+- Düzeltme: radar uyarıları için konum daha hızlı ve daha güvenilir algılanıyor.
+- Düzeltme: geri vites sensörleri (park yardımı) daha iyi algılanıyor.
 
 ---
 

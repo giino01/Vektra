@@ -160,6 +160,10 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
   - "Vektra, zet de ontdooiing uit"
   - "Vektra, zet de luchtrecirculatie aan" / "Zet op buitenlucht"
 
+• Snelle luchtzuivering (cyclus van 3 minuten, PM2.5-ionisator):
+  - "Vektra, zuiver de lucht" / "Start de luchtzuivering"
+  - "Vektra, zet de ionisator aan" / "Stop de luchtzuivering"
+
 --------------------------------------------------------------------------------
 8. STOELVERWARMING, STOELVENTILATIE & STUURVERWARMING
 --------------------------------------------------------------------------------

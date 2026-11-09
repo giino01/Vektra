@@ -160,6 +160,10 @@ erişime sahiptir.
   - «Vektra, buz çözmeyi kapat»
   - «Vektra, hava devir-daimini aç» / «Dış havayı al»
 
+• Hızlı hava temizleme (3 dakikalık döngü, PM2.5 iyonizer):
+  - «Vektra, havayı temizle» / «Hava temizlemeyi başlat»
+  - «Vektra, iyonizeri aç» / «Temizlemeyi kapat»
+
 --------------------------------------------------------------------------------
 8. KOLTUK ISITMA, KOLTUK HAVALANDIRMA VE DİREKSİYON ISITMA
 --------------------------------------------------------------------------------

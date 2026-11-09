@@ -162,6 +162,10 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
   - „Vektra, schalte die Enteisung aus"
   - „Vektra, aktiviere die Umluft" / „Stelle auf Außenluft"
 
+• Schnelle Luftreinigung (3-Minuten-Zyklus, PM2.5-Ionisator):
+  - „Vektra, reinige die Luft" / „Starte die Luftreinigung"
+  - „Vektra, schalte den Ionisator ein" / „Stoppe die Luftreinigung"
+
 --------------------------------------------------------------------------------
 8. SITZHEIZUNG, SITZBELÜFTUNG & LENKRADHEIZUNG
 --------------------------------------------------------------------------------

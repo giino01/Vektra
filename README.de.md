@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.4.9** · veröffentlicht am 9. November 2026 · 47.1 MB
+**VERSION 2.4.10** · veröffentlicht am 9. November 2026 · 47.2 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.9.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,18 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.4.9
+## Neu in 2.4.10
 
-- Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.
-- Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).
-- Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).
-- Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.
-- Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD.
+- Neu: Projektion einer Anwendung auf das Kombiinstrument — die gewählte App erscheint endlich im Vollbild hinter dem Lenkrad, statt schwarz zu bleiben.
+- Neu: schnelle Luftreinigung — Vektra schließt die Umluft, startet den Ionisator und erhöht die Lüftung für 3 Minuten, danach kehrt sie von selbst zur normalen Einstellung zurück.
+- Neu: feste Blitzer, Abschnittskontrollen und Rotlichtblitzer für Belgien und die Grenzregionen sind nun in der App enthalten. Vektra warnt bei 500 m und erneut bei 100 m, auch ohne Verbindung. Mobile Blitzer und Live-Verkehr kommen hinzu, sobald eine Verbindung besteht.
+- Korrektur: der Assistent verändert die Lautstärke nicht mehr. Er erhöht sie nicht mehr selbst bei jeder Ansage: die von dir gewählte Stufe bleibt erhalten.
+- Korrektur: der Wechsel zwischen Elektro- und Hybridmodus funktioniert zuverlässig.
+- Korrektur: Memory-Sitze (Positionen 1, 2 und 3) sowie Ruhe- und Fahrmodus reagieren korrekt, auch bei Sitzen mit zwei Speichern.
+- Korrektur: die Schnellentfeuchtung schaltet sich nach 3 Minuten zuverlässig selbst ab.
+- Korrektur: keine unnötige Ansage „Blitzer- und Verkehrswarnungen aktiviert" bei jedem Start. Vektra spricht nur, wenn die Blitzerdatenbank gerade aktualisiert wurde.
+- Korrektur: die Position wird für Blitzerwarnungen schneller und zuverlässiger erkannt.
+- Korrektur: die Rückfahrsensoren (Einparkhilfe) werden besser erkannt.
 
 ---
 

@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.9** · released on 9 November 2026 · 47.1 MB
+**VERSION 2.4.10** · released on 9 November 2026 · 47.2 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,13 +103,18 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.9
+## What is new in 2.4.10
 
-- Fix: eliminated the double-toggle bug (unchecking then immediately re-checking VEKTRA) in the native BYD startup manager (com.byd.appstartmanagement) by enforcing a single toggle action per step with a 950 ms settle cooldown and stable state verification before closing.
-- Fix: full hardware recall of driver seat memory positions 1, 2, and 3 as well as Rest Mode / Driving Mode (added BYDAUTO_SEAT_*, BYDAUTO_CHAIR_*, and BYDAUTO_COMFORT_* manifest permissions, loaded BYD framework JARs under UID 2000, and invoked all matching seat memory methods across Setting, Bodywork, Seat, Chair, and Comfort devices).
-- Fix: resolved the Application widget projection staying stuck on the loading screen on the cluster and in Preview (prevented pkill from terminating AdbVirtualDisplayDaemon during startup, auto-launched the selected app immediately upon selection, and added hardware display screencap -d fallback for OpenGL/SurfaceView apps like Waze and Google Maps).
-- Fix: 100% localized voice responses and proactive Copilot announcements across all supported Assistant voice languages (Italian, English, German, Spanish, Dutch, Portuguese, Turkish, Arabic, Chinese), eliminating French sentences spoken with a foreign voice when UI language and Assistant voice language differ.
-- Add: "BYD Blade" UI theme with centered official vector BYD logo, Driver Profile hero card with custom photo/avatar, direct voice track playback on YT Music Morphe, and clean full-stage "Preview: App Interaction" mode with real-time touch injection and native BYD keyboard popup.
+- Add: project an application onto the cluster — the app you pick finally shows full screen behind the wheel, instead of staying black.
+- Add: rapid air purification — Vektra closes the cabin recirculation, starts the ionizer and raises the fan for 3 minutes, then returns to the normal setting on its own.
+- Add: fixed speed cameras, average-speed sections and red-light cameras for Belgium and the border regions are now built into the app. Vektra warns you at 500 m and again at 100 m even with no connection. Mobile cameras and live traffic are added on top whenever a connection is available.
+- Fix: the assistant never touches the volume any more. It no longer raises it by itself every time it speaks: the level you chose is kept.
+- Fix: switching between electric and hybrid mode now works reliably.
+- Fix: memory seats (positions 1, 2 and 3) and the Rest and Driving modes respond correctly, including on seats with two memories.
+- Fix: the express demisting now reliably stops by itself after 3 minutes.
+- Fix: no more pointless "speed camera and traffic alerts enabled" announcement at every start. Vektra only speaks when the camera database has just been updated.
+- Fix: your position is detected faster and more reliably for speed camera alerts.
+- Fix: the reversing sensors (parking aid) are detected more reliably.
 
 ---
 

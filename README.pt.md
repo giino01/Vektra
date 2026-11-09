@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.4.9** · publicada a 9 de novembro de 2026 · 47.1 MB
+**VERSÃO 2.4.10** · publicada a 9 de novembro de 2026 · 47.2 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.4.9.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,13 +103,18 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.4.9
+## Novidades da 2.4.10
 
-- Correctif : suppression du double basculement (décochage puis recochage immédiat) du Switch de VEKTRA dans l'application native BYD (com.byd.appstartmanagement) grâce à une action unique par étape avec temporisation anti-rebond de 950 ms et vérification d'état stable avant fermeture.
-- Correctif : activation matérielle complète des positions mémoire 1, 2 et 3 du siège conducteur ainsi que du Mode Repos / Mode Conduite (déclaration des permissions BYDAUTO_SEAT_*, BYDAUTO_CHAIR_* et BYDAUTO_COMFORT_* dans le Manifest, chargement des JAR framework BYD sous UID 2000 et invocation multi-contrôleurs Setting / Bodywork / Seat / Chair / Comfort).
-- Correctif : suppression du blocage sur l'écran de chargement du widget Application sur le combiné et dans l'Aperçu (correction de l'arrêt prématuré du démon AdbVirtualDisplayDaemon, lancement automatique dès la sélection d'une application, et capture de secours matérielle screencap -d pour les applications OpenGL/SurfaceView comme Waze ou Google Maps).
-- Correctif : traduction vocale 100 % native de l'Assistant Vektra et du Copilote dans toutes les langues (italien, anglais, allemand, espagnol, néerlandais, portugais, turc, arabe, chinois) sans phrases françaises résiduelles lorsque la langue de l'interface diffère de la langue vocale de l'Assistant.
-- Ajout : thème d'interface « BYD Blade » avec logo officiel BYD vectoriel, carte de présentation avec photo/avatar dans le Profil Conducteur, lecture musicale directe sur YT Music Morphe par commande vocale, et mode « Aperçu : Interaction App » épuré avec injection tactile temps réel et clavier natif BYD.
+- Novidade: projeção de uma aplicação no painel — a aplicação escolhida aparece finalmente em ecrã inteiro atrás do volante, em vez de ficar negra.
+- Novidade: purificação rápida do ar — a Vektra fecha a recirculação interior, liga o ionizador e aumenta a ventilação durante 3 minutos, voltando sozinha ao ajuste normal.
+- Novidade: os radares fixos, os trechos de velocidade média e os radares de semáforo da Bélgica e das regiões fronteiriças estão agora integrados na aplicação. A Vektra avisa a 500 m e de novo a 100 m mesmo sem ligação. Radares móveis e trânsito em direto juntam-se quando há ligação.
+- Correção: o assistente nunca mais altera o volume. Já não o aumenta sozinho sempre que fala: o nível que escolheste é mantido.
+- Correção: a mudança entre modo elétrico e híbrido funciona de forma fiável.
+- Correção: os assentos com memória (posições 1, 2 e 3) e os modos Descanso e Condução respondem corretamente, incluindo nos assentos com duas memórias.
+- Correção: o desembaciamento rápido desliga-se sozinho ao fim de 3 minutos.
+- Correção: sem anúncio inútil «alertas de radares e trânsito ativados» a cada arranque. A Vektra só fala quando a base de dados de radares acabou de ser atualizada.
+- Correção: a posição é detetada mais depressa e com mais fiabilidade para os alertas de radares.
+- Correção: os sensores de marcha-atrás (auxílio ao estacionamento) são melhor detetados.
 
 ---
 

@@ -161,6 +161,10 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
   - «Vektra, spegni lo sbrinamento»
   - «Vektra, attiva il ricircolo dell'aria» / «Metti l'aria esterna»
 
+• Purificazione rapida dell'aria (ciclo di 3 minuti, ionizzatore PM2.5) :
+  - «Vektra, purifica l'aria» / «Avvia la purificazione dell'aria»
+  - «Vektra, attiva lo ionizzatore» / «Ferma la purificazione»
+
 --------------------------------------------------------------------------------
 8. SEDILI RISCALDATI, SEDILI VENTILATI E VOLANTE RISCALDATO
 --------------------------------------------------------------------------------
