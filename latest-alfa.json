@@ -1,62 +1,73 @@
 {
-  "version": "2.4.9-alfa1",
-  "apk": "Vektra-2.4.9-alfa1.apk",
-  "size": 49389155,
+  "version": "2.4.9-alfa2",
+  "apk": "Vektra-2.4.9-alfa2.apk",
+  "size": 49444940,
   "notes": [
-    "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-    "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-    "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+    "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+    "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+    "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+    "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "en": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "nl": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "de": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "es": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "it": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "pt": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "ar": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "tr": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ],
     "zh": [
-      "Correctif : l'assistant ne force plus jamais le volume. Avant, à chaque prise de parole, il remontait le volume du haut-parleur à 75 % du maximum (ce qui tombait sur 7) ; désormais c'est entièrement toi qui choisis et gardes ton volume. À tester en voiture :",
-      "Mets le volume sur une valeur basse (ex. 3), parle à l'assistant : le volume doit rester sur 3 et ne plus sauter sur 7.",
-      "Vérifie que les alertes et la voix restent audibles au volume que tu as choisi."
+      "Correctif : les alertes radars fonctionnent enfin sans dépendre d'une connexion. Les radars fixes, tronçons et feux rouges de Belgique (et des zones frontalières) sont désormais embarqués dans l'application : Vektra alerte à 500 m puis à 100 m même si la voiture n'atteint pas les serveurs en direct. Les radars mobiles et le trafic en temps réel restent ajoutés par-dessus quand la connexion le permet. À tester en voiture :",
+      "Roule (≥ 5 km/h, pas en marche arrière) vers un radar fixe connu en Belgique : tu dois entendre l'annonce à 500 m puis le rappel à 100 m, même avec une mauvaise connexion.",
+      "Vérifie que l'interrupteur « Alertes Radars & Trafic » est activé dans l'onglet Copilote.",
+      "Le volume de ces annonces doit rester celui que TU as choisi (cf. alfa1)."
     ]
   }
 }
