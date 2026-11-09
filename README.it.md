@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.4.7** · pubblicata il 8 novembre 2026 · 46.8 MB
+**VERSIONE 2.4.8** · pubblicata il 9 novembre 2026 · 47.0 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.8.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -32,7 +32,7 @@ In Sport l'atmosfera diventa rossa, compare un badge `SPORT` e le tre cifre in b
 
 Il tasto **Tema** apre il **Theme Store** e scorre i temi installati. **Carbone 3D** è il tema integrato predefinito e **VektraUI** l'altro tema integrato; il tema **Aston** si scarica con un tocco. La scelta viene ricordata e torna all'accensione.
 
-![Lo stesso tema su sfondo chiaro](img/clair-theme-hyperos3d.png)
+![Lo stesso tema su sfondo chiaro](img/clair-theme-vektraui.png)
 
 Ogni tema esiste in scuro e in chiaro. Lo sfondo chiaro riprende il blu-grigio dell'interfaccia BYD, misurato su fotografia, perché l'app vi si fonda invece di esservi appoggiata. L'impostazione **Aspetto** sceglie l'uno, l'altro, o segue il tablet.
 
@@ -103,15 +103,16 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.4.7
+## Novità della 2.4.8
 
-- Add: nuovo widget Applicazione su tutti i 16 temi — seleziona qualsiasi app installata sul tablet (Waze, Google Maps, musica, ecc.) o il Navigatore Vektra dal menu a tendina nella scheda Quadro e proiettala in modalità specchio interattivo in tempo reale dietro il volante.
-- Add: sincronizzazione touch in tempo reale tra tablet e quadro, mantenimento della visualizzazione anche con l'app ridotta a icona sul tablet e ridimensionamento o spostamento libero in modalità Modifica.
-- Add: compatibilità di proiezione sul quadro estesa e 100% automatica sui veicoli BYD DiLink 3.0 (13.1.32 e 13.1.33), DiLink 4.0 e DiLink 5.0 / 5.1 (versioni europee, internazionali e cinesi).
-- Add: guida vocale di parcheggio direzionale a 360° (anteriore, posteriore, lati, angoli) con distanza in centimetri, attivata esclusivamente in retromarcia (R) o all'apertura della telecamera 360° (silenzio totale in P, N e D).
-- Fix: avvisi vocali Autovelox e Traffico (500 m e 100 m) riprodotti senza abbassare né interrompere la musica, con cache automatica nel raggio di 20 km.
-- Fix: arresto completo in background di ogni opzione disattivata nella scheda Copilota ed eliminazione del rimbalzo durante apertura o chiusura vocale di finestrini, tetto apribile e tendina.
-- Fix: anteprima mappa del widget Applicazione essenziale e risveglio automatico del quadro strumenti all'avvio dell'auto.
+- Ajout : bouton unique « Projection Combiné ON/OFF » unifiant l'activation de la projection et le lancement automatique du thème sélectionné après 2 secondes.
+- Ajout : projection des applications tierces (Waze, Google Maps, Coyote, musique, etc.) dans le widget Application éditable du combiné avec nouveau bouton « 👆 Interagir » ouvrant une fenêtre d'interaction directe en temps réel sur la tablette (avec fermeture par la croix ✕ en haut à droite).
+- Ajout : fenêtre interactive « 🎯 Configurer & Calibrer les Radars » dans l'onglet Copilote avec vue de dessus de la voiture, placement/échange des 8 capteurs et boutons « Par défaut », « Sauvegarder » et « Tester » (allumage d'un point vert sur la voiture et annonce vocale de chaque radar : « Avant gauche », « Arrière centre gauche », etc.).
+- Ajout : 3 alertes sonores de stationnement distinctes (1 carillon grave au vert, double carillon au jaune, triple pulsation urgente au rouge) couplées à la voix naturelle (suppression définitive du son robotique sur le signal rouge).
+- Ajout : commandes vocales directes et opérationnelles pour les positions mémoire 1, 2 et 3 du siège conducteur ainsi que le « Mode Repos » à l'arrêt (« mode repos », « couche le siège ») et le « Mode Conduite » (« mode conduite », « redresse le siège », « désactive le mode repos »).
+- Ajout : Scène de Bienvenue vocale au démarrage (Bonjour/Bonsoir + briefing météo, autonomie, pneus et mémos), bouton « Profil Conducteur » (Domicile, Travail, Siège favori, Confort), mémoire permanente infinie de l'Assistant et sauvegarde/restauration auto-évolutive intégrale.
+- Ajout : automatisme du gestionnaire natif BYD (com.byd.appstartmanagement) après installation ou mise à jour et restauration/reprise automatique de l'écran du combiné à l'extinction et au démarrage de la voiture.
+- Correctif : bascule vocale EV ↔ HEV, modes de conduite et de terrain, aperçu de la nouvelle carte Vektra Navigation 3D dans le Theme Store pour tous les thèmes, et compatibilité étendue des écouteurs radar/panorama sur les firmwares 13.1.32.
 
 ---
 

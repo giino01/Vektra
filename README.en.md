@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.7** · released on 8 November 2026 · 46.8 MB
+**VERSION 2.4.8** · released on 9 November 2026 · 47.0 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.7.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -32,7 +32,7 @@ In Sport the mood turns red, a `SPORT` badge appears and the three bottom figure
 
 The **Theme** key opens the **Theme Store** and cycles through the installed themes. **Carbone 3D** is the built-in default and **VektraUI** the other built-in theme; the **Aston** theme downloads in one tap. The choice is remembered and comes back at the next start.
 
-![The same theme on a light background](img/clair-theme-hyperos3d.png)
+![The same theme on a light background](img/clair-theme-vektraui.png)
 
 Every theme exists in dark and light. The light background picks up the blue-grey of the BYD overlay, measured from photographs, so the app blends into it instead of sitting on top. The **Appearance** setting picks one, the other, or follows the tablet.
 
@@ -103,15 +103,16 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.7
+## What is new in 2.4.8
 
-- Add: new Application widget across all 16 themes — select any app installed on your tablet (Waze, Google Maps, music apps, etc.) or the Vektra Navigator from the dropdown menu in the Cluster tab and project it as a live interactive mirror behind the steering wheel.
-- Add: live touch synchronization between the tablet and the cluster, continuous cluster display even when the app is minimized on the tablet, and free resizing or moving in Edit mode.
-- Add: expanded 100% automatic cluster projection compatibility across BYD DiLink 3.0 (13.1.32 and 13.1.33), DiLink 4.0, and DiLink 5.0 / 5.1 vehicles (European, international, and Chinese versions).
-- Add: directional 360° parking voice guidance (front, rear, sides, corners) with distance in centimeters, triggered strictly in Reverse (R) or when the 360° camera is open (complete silence in P, N, and D).
-- Fix: speed camera and traffic voice alerts (500 m and 100 m) played without lowering or interrupting music playback, with automatic 20 km radius offline caching.
-- Fix: complete background process shutdown for any disabled option in the Copilot tab, and elimination of bounce-back when opening or closing windows, sunroof, or sunshade by voice.
-- Fix: clean Application widget map preview and automatic cluster display wake-up at vehicle startup.
+- Add: unified "Cluster Projection ON/OFF" switch that enables projection and automatically launches the selected theme after 2 seconds.
+- Add: third-party app projection (Waze, Google Maps, music apps, etc.) inside the editable cluster Application widget with a new "👆 Interact" button opening a live touch interaction window on the tablet (with a top-right ✕ close button).
+- Add: interactive "🎯 Configure & Calibrate Radars" window in the Copilot tab featuring a top-down car view, 8-sensor placement/swapping, and "Default", "Save", and "Test" buttons (lighting up a green dot on the car while speaking each radar position: "Front left", "Rear center left", etc.).
+- Add: 3 distinct automotive parking radar chimes (1 warm chime on green, double chime on yellow, urgent triple pulse on red) paired with natural voice alerts (complete removal of robotic voice fallback on red).
+- Add: direct working voice commands for driver seat memory positions 1, 2, and 3 as well as "Rest Mode" when parked ("rest mode", "recline seat") and "Driving Mode" ("driving mode", "upright seat", "disable rest mode").
+- Add: vocal Welcome Scene at startup (Good morning/Good evening + weather, range, tire, and memo briefing), "Driver Profile" button (Home, Work, Favorite seat, Comfort), infinite persistent Assistant memory, and self-updating full Backup & Restore.
+- Add: automatic native BYD startup manager (com.byd.appstartmanagement) sync after install or update, and automatic restoration/resumption of the cluster screen on vehicle power-off and startup.
+- Fix: voice EV ↔ HEV switching, drive/terrain modes, new Vektra Navigation 3D map preview across all themes in the Theme Store, and expanded radar/panorama listener compatibility on 13.1.32 firmwares.
 
 ---
 
