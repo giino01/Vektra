@@ -1,7 +1,7 @@
 {
   "version": "2.4.8-alfa3",
   "apk": "Vektra-2.4.8-alfa3.apk",
-  "size": 49297045,
+  "size": 49297033,
   "notes": [
     "Correctif : bascule stricte du Switch de VEKTRA de la droite vers la gauche dans com.byd.appstartmanagement (alignement géométrique exact sur la ligne de VEKTRA sans jamais toucher VektraPon, clic + glissement du Switch de droite à gauche et vérification de l'état avant fermeture).",
     "Ajout : architecture d'écran virtuel DashCast dans AdbVirtualDisplayDaemon (com.android.shell sous UID 2000, IActivityTaskManager.setDisplayToSingleTaskInstance, launchAndForce avec surveillance anti-rebond Waze et envoi immédiat des frames sans blocage sur « Connexion au flux direct… »).",
