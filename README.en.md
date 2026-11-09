@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.8** · released on 9 November 2026 · 47.0 MB
+**VERSION 2.4.9** · released on 9 November 2026 · 47.1 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.8.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.9.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,16 +103,13 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.8
+## What is new in 2.4.9
 
-- Add: unified "Cluster Projection ON/OFF" switch that enables projection and automatically launches the selected theme after 2 seconds.
-- Add: third-party app projection (Waze, Google Maps, music apps, etc.) inside the editable cluster Application widget with a new "👆 Interact" button opening a live touch interaction window on the tablet (with a top-right ✕ close button).
-- Add: interactive "🎯 Configure & Calibrate Radars" window in the Copilot tab featuring a top-down car view, 8-sensor placement/swapping, and "Default", "Save", and "Test" buttons (lighting up a green dot on the car while speaking each radar position: "Front left", "Rear center left", etc.).
-- Add: 3 distinct automotive parking radar chimes (1 warm chime on green, double chime on yellow, urgent triple pulse on red) paired with natural voice alerts (complete removal of robotic voice fallback on red).
-- Add: direct working voice commands for driver seat memory positions 1, 2, and 3 as well as "Rest Mode" when parked ("rest mode", "recline seat") and "Driving Mode" ("driving mode", "upright seat", "disable rest mode").
-- Add: vocal Welcome Scene at startup (Good morning/Good evening + weather, range, tire, and memo briefing), "Driver Profile" button (Home, Work, Favorite seat, Comfort), infinite persistent Assistant memory, and self-updating full Backup & Restore.
-- Add: automatic native BYD startup manager (com.byd.appstartmanagement) sync after install or update, and automatic restoration/resumption of the cluster screen on vehicle power-off and startup.
-- Fix: voice EV ↔ HEV switching, drive/terrain modes, new Vektra Navigation 3D map preview across all themes in the Theme Store, and expanded radar/panorama listener compatibility on 13.1.32 firmwares.
+- Fix: eliminated the double-toggle bug (unchecking then immediately re-checking VEKTRA) in the native BYD startup manager (com.byd.appstartmanagement) by enforcing a single toggle action per step with a 950 ms settle cooldown and stable state verification before closing.
+- Fix: full hardware recall of driver seat memory positions 1, 2, and 3 as well as Rest Mode / Driving Mode (added BYDAUTO_SEAT_*, BYDAUTO_CHAIR_*, and BYDAUTO_COMFORT_* manifest permissions, loaded BYD framework JARs under UID 2000, and invoked all matching seat memory methods across Setting, Bodywork, Seat, Chair, and Comfort devices).
+- Fix: resolved the Application widget projection staying stuck on the loading screen on the cluster and in Preview (prevented pkill from terminating AdbVirtualDisplayDaemon during startup, auto-launched the selected app immediately upon selection, and added hardware display screencap -d fallback for OpenGL/SurfaceView apps like Waze and Google Maps).
+- Fix: 100% localized voice responses and proactive Copilot announcements across all supported Assistant voice languages (Italian, English, German, Spanish, Dutch, Portuguese, Turkish, Arabic, Chinese), eliminating French sentences spoken with a foreign voice when UI language and Assistant voice language differ.
+- Add: "BYD Blade" UI theme with centered official vector BYD logo, Driver Profile hero card with custom photo/avatar, direct voice track playback on YT Music Morphe, and clean full-stage "Preview: App Interaction" mode with real-time touch injection and native BYD keyboard popup.
 
 ---
 
