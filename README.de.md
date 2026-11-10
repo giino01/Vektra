@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.5.0** · veröffentlicht am 10. November 2026 · 47.7 MB
+**VERSION 2.5.1** · veröffentlicht am 10. November 2026 · 48.2 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,20 +103,16 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.5.0
+## Neu in 2.5.1
 
-- Neu: Vektra beantwortet deine Fragen zur App, zum Beispiel „Wie öffne ich das Fenster halb?“. Kennt sie die Antwort nicht, sagt sie es dir.
-- Neu: „Support kontaktieren“ in den Einstellungen. Ein Bericht über den Zustand der App und des Autos wird erstellt und per Telegram gesendet. Telegram muss im Auto installiert sein.
-- Neu: Die Einstellungen des Assistenten lassen sich jetzt ohne neue App-Version aktualisieren. Ein Fenster bietet es beim Öffnen an, oder unten im Tab KI-Assistent.
-- Neu: Blitzerwarnungen funktionieren jetzt in ganz Europa, auch ohne Verbindung.
-- Neu: Der Copilot warnt dich, wenn es dunkel wird und dein Licht aus ist.
-- Neu: aufgeräumte Kopfzeile mit dem Emblem „V E K T R A“ in der Mitte. Tippe darauf, um den Status der App zu sehen.
-- Korrektur: Vektra sagt nicht mehr „erledigt“, wenn das Auto nicht reagiert hat. Sie sagt dir, dass sie es nicht bestätigen konnte.
-- Korrektur: Manche Befehle konnten ein anderes Gerät als das gewünschte betätigen.
-- Korrektur: Der Bildschirm dreht sich nicht mehr zweimal.
-- Korrektur: Die Luftqualität im Innenraum wird wieder richtig gelesen.
-- Korrektur: Die Option „Fortlaufendes Gespräch“ wurde entfernt. Vektra hört nur noch zu, wenn sie dir eine Frage stellt.
-- Korrektur: Das Zurücksetzen des GPS, das nicht funktionierte, wurde entfernt.
+- Neu: Blitzer- und Verkehrswarnungen funktionieren wie bei einem echten Navi: Die Warnentfernung passt sich deinem Tempo an, und beim Passieren des Blitzers ertönt ein Piepton.
+- Neu: Abschnittskontrollen werden vom Anfang bis zum Ende verfolgt, mit Ansage deiner Durchschnittsgeschwindigkeit.
+- Neu: Vektra ignoriert Blitzer auf einer Parallelstraße oder in Gegenrichtung besser und nennt die Länge von Staus.
+- Neu: Im Copilot eine neue Gruppe „Blitzer & Verkehr“: Warnungen per Stimme oder Ton, Auswahl der Warnungsarten, Lautstärke von Stimme und Tönen.
+- Neu: Die europäische Blitzer-Datenbank aktualisiert sich jede Woche selbst; Datum und Uhrzeit des Ladens werden angezeigt.
+- Korrektur: Die Ansagen der Einparkhilfe starten während der Fahrt nicht mehr, und die Assistenten-Grafik erscheint während der Warnungen nicht mehr.
+- Korrektur: Vektra antwortet nicht mehr auf Englisch, wenn eine andere Sprache eingestellt ist.
+- Korrektur: Viele Texte der App sind jetzt in alle Sprachen übersetzt.
 
 ---
 

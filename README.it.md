@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.5.0** · pubblicata il 10 novembre 2026 · 47.7 MB
+**VERSIONE 2.5.1** · pubblicata il 10 novembre 2026 · 48.2 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,20 +103,16 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.5.0
+## Novità della 2.5.1
 
-- Aggiunta: Vektra risponde alle tue domande sull'app, per esempio «come apro il finestrino a metà?». Se non conosce la risposta, te lo dice.
-- Aggiunta: «Contatta il supporto» nelle Impostazioni. Viene creato un rapporto sullo stato dell'app e dell'auto, poi inviato con Telegram. Telegram deve essere installato nell'auto.
-- Aggiunta: le impostazioni dell'assistente ora si aggiornano senza una nuova versione dell'app. Una finestra te lo propone all'apertura, oppure in fondo alla scheda Assistente IA.
-- Aggiunta: gli avvisi autovelox ora funzionano in tutta Europa, anche senza connessione.
-- Aggiunta: il copilota ti avvisa quando fa buio e i fari sono spenti.
-- Aggiunta: nuova intestazione più pulita con l'emblema «V E K T R A» al centro. Toccalo per vedere lo stato dell'app.
-- Correzione: Vektra non dice più «fatto» quando l'auto non ha reagito. Ti avvisa che non ha potuto confermarlo.
-- Correzione: alcuni comandi potevano azionare un dispositivo diverso da quello richiesto.
-- Correzione: lo schermo non ruota più due volte.
-- Correzione: la qualità dell'aria nell'abitacolo viene di nuovo letta correttamente.
-- Correzione: l'opzione «Conversazione continua» è stata rimossa. Vektra resta in ascolto solo quando ti fa una domanda.
-- Correzione: il ripristino del GPS, che non funzionava, è stato rimosso.
+- Aggiunta: gli avvisi autovelox e traffico funzionano come un vero navigatore: la distanza dell'avviso si adatta alla velocità e un bip suona al passaggio dell'autovelox.
+- Aggiunta: i tutor vengono seguiti dall'inizio alla fine, con la velocità media annunciata.
+- Aggiunta: Vektra ignora meglio gli autovelox di una strada parallela o dell'altro senso di marcia e annuncia la lunghezza delle code.
+- Aggiunta: nel Copilota, un nuovo gruppo «Autovelox e traffico»: avvisi a voce o con suoni, scelta dei tipi di avviso, volume della voce e dei suoni.
+- Aggiunta: il database europeo degli autovelox si aggiorna da solo ogni settimana; data e ora di caricamento sono visibili.
+- Correzione: gli annunci dell'assistenza al parcheggio non partono più durante la guida e la grafica dell'assistente non compare più durante gli avvisi.
+- Correzione: Vektra non risponde più in inglese quando è impostata in un'altra lingua.
+- Correzione: molti testi dell'app sono ora tradotti in tutte le lingue.
 
 ---
 

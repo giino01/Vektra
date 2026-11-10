@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.5.0** · released on 10 November 2026 · 47.7 MB
+**VERSION 2.5.1** · released on 10 November 2026 · 48.2 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,20 +103,16 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.5.0
+## What is new in 2.5.1
 
-- Add: Vektra answers your questions about the app, for example “how do I open the window halfway?”. If she doesn't know the answer, she tells you.
-- Add: “Contact support” in Settings. A report on the state of the app and the car is created, then sent with Telegram. Telegram must be installed in the car.
-- Add: the assistant's settings can now be updated without a new version of the app. A window offers it when you open the app, or at the bottom of the AI Assistant tab.
-- Add: speed camera alerts now work all over Europe, even without a connection.
-- Add: the co-pilot warns you when it's getting dark and your headlights are off.
-- Add: a cleaner header with the “V E K T R A” emblem in the centre. Tap it to see the app's status.
-- Fix: Vektra no longer says “done” when the car didn't react. She tells you she couldn't confirm it.
-- Fix: some commands could operate a different piece of equipment than the one requested.
-- Fix: the screen no longer rotates twice.
-- Fix: cabin air quality is read correctly again.
-- Fix: the “Continuous conversation” option has been removed. Vektra only keeps listening when she asks you a question.
-- Fix: the GPS reset, which did not work, has been removed.
+- Add: speed camera and traffic alerts now work like a real GPS: the warning distance adapts to your speed, and a beep sounds as you pass the camera.
+- Add: average speed zones are followed from start to end, with your average speed announced.
+- Add: Vektra better ignores cameras on a parallel road or in the other direction, and announces the length of traffic jams.
+- Add: in the Co-pilot, a new “Speed cameras & traffic” group: voice or sound alerts, choice of alert types, voice and sound volume.
+- Add: the European speed camera database now updates itself every week; the date and time it was loaded are shown.
+- Fix: parking aid announcements no longer start while driving, and the assistant visual no longer appears during alerts.
+- Fix: Vektra no longer answers in English when it is set to another language.
+- Fix: many texts in the app are now translated into every language.
 
 ---
 

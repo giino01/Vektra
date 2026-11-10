@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.5.0** · publicada a 10 de novembro de 2026 · 47.7 MB
+**VERSÃO 2.5.1** · publicada a 10 de novembro de 2026 · 48.2 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,20 +103,16 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.5.0
+## Novidades da 2.5.1
 
-- Novidade: a Vektra responde às tuas perguntas sobre a aplicação, por exemplo «como abro a janela até meio?». Se não souber a resposta, diz-te.
-- Novidade: «Contactar o suporte» nas Definições. É criado um relatório sobre o estado da aplicação e do carro, enviado pelo Telegram. O Telegram tem de estar instalado no carro.
-- Novidade: as definições do assistente podem agora ser atualizadas sem nova versão da aplicação. Uma janela propõe-no ao abrir, ou no fundo do separador Assistente IA.
-- Novidade: os alertas de radares funcionam agora em toda a Europa, mesmo sem ligação.
-- Novidade: o copiloto avisa-te quando escurece e tens os faróis apagados.
-- Novidade: novo cabeçalho mais limpo com o emblema «V E K T R A» ao centro. Toca nele para ver o estado da aplicação.
-- Correção: a Vektra já não diz «feito» quando o carro não reagiu. Avisa-te de que não conseguiu confirmar.
-- Correção: alguns comandos podiam acionar um equipamento diferente do pedido.
-- Correção: o ecrã já não roda duas vezes.
-- Correção: a qualidade do ar no habitáculo volta a ser lida corretamente.
-- Correção: a opção «Conversa contínua» foi retirada. A Vektra só fica à escuta quando te faz uma pergunta.
-- Correção: a reinicialização do GPS, que não funcionava, foi retirada.
+- Novidade: os alertas de radares e trânsito funcionam como um verdadeiro GPS: a distância do aviso adapta-se à sua velocidade e soa um bip ao passar o radar.
+- Novidade: os radares de troço são seguidos do início ao fim, com a sua velocidade média anunciada.
+- Novidade: a Vektra ignora melhor os radares de uma estrada paralela ou do outro sentido e anuncia o comprimento das filas.
+- Novidade: no Copiloto, um novo grupo «Radares e trânsito»: alertas por voz ou por sons, escolha dos tipos de alerta, volume da voz e dos sons.
+- Novidade: a base europeia de radares atualiza-se sozinha todas as semanas; a data e a hora de carregamento são mostradas.
+- Correção: os avisos da assistência ao estacionamento já não começam em andamento e o visual da assistente já não aparece durante os alertas.
+- Correção: a Vektra já não responde em inglês quando está configurada noutra língua.
+- Correção: muitos textos da aplicação estão agora traduzidos em todas as línguas.
 
 ---
 

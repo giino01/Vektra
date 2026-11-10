@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.5.0** · yayın tarihi 10 Kasım 2026 · 47.7 MB
+**SÜRÜM 2.5.1** · yayın tarihi 10 Kasım 2026 · 48.2 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -103,20 +103,16 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.5.0
+## Yenilikler: 2.5.1
 
-- Yeni: Vektra uygulamayla ilgili sorularını yanıtlıyor, örneğin “camı yarıya kadar nasıl açarım?”. Yanıtı bilmiyorsa sana söylüyor.
-- Yeni: Ayarlar'da “Desteğe ulaş”. Uygulamanın ve aracın durumuyla ilgili bir rapor oluşturulur ve Telegram ile gönderilir. Araçta Telegram kurulu olmalıdır.
-- Yeni: asistanın ayarları artık uygulamanın yeni sürümü olmadan güncellenebiliyor. Açılışta bir pencere bunu önerir; Yapay zekâ asistanı sekmesinin en altında da bulunur.
-- Yeni: radar uyarıları artık bağlantı olmadan da tüm Avrupa'da çalışıyor.
-- Yeni: hava kararınca farların kapalıysa yardımcı pilot seni uyarıyor.
-- Yeni: ortasında “V E K T R A” amblemi bulunan daha sade bir üst bar. Uygulamanın durumunu görmek için ona dokun.
-- Düzeltme: araç tepki vermediğinde Vektra artık “tamam” demiyor. Doğrulayamadığını sana söylüyor.
-- Düzeltme: bazı komutlar istenenden farklı bir donanımı çalıştırabiliyordu.
-- Düzeltme: ekran artık iki kez dönmüyor.
-- Düzeltme: kabin içi hava kalitesi yeniden doğru okunuyor.
-- Düzeltme: “Kesintisiz sohbet” seçeneği kaldırıldı. Vektra yalnızca sana bir soru sorduğunda dinlemeye devam ediyor.
-- Düzeltme: çalışmayan GPS sıfırlama kaldırıldı.
+- Yeni: radar ve trafik uyarıları gerçek bir navigasyon gibi çalışıyor: uyarı mesafesi hızına göre ayarlanıyor ve radarı geçerken bip sesi çalıyor.
+- Yeni: ortalama hız bölümleri baştan sona izleniyor ve ortalama hızın söyleniyor.
+- Yeni: Vektra paralel yoldaki veya karşı yöndeki radarları daha iyi ayırt ediyor ve trafik sıkışıklığının uzunluğunu söylüyor.
+- Yeni: Yardımcı pilot'ta yeni bir “Radarlar ve trafik” grubu: sesli veya tonlu uyarılar, uyarı türlerinin seçimi, ses ve ton düzeyi.
+- Yeni: Avrupa radar veritabanı her hafta kendiliğinden güncelleniyor; yüklendiği tarih ve saat gösteriliyor.
+- Düzeltme: park yardımı duyuruları artık sürüş sırasında başlamıyor ve uyarılar sırasında asistan görseli görünmüyor.
+- Düzeltme: Vektra başka bir dile ayarlıyken artık İngilizce yanıt vermiyor.
+- Düzeltme: uygulamadaki birçok metin artık tüm dillere çevrildi.
 
 ---
 
