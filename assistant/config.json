@@ -1,0 +1,87 @@
+{
+  "version": 2,
+  "updated_at": "2026-11-10",
+  "description": "Configuration dynamique complète de l'Assistant IA Vektra",
+  "tts": {
+    "speech_rate": 1.10,
+    "pitch": 1.0
+  },
+  "ai": {
+    "temperature": 0.5
+  },
+  "wake_word": "Vektra",
+  "wake_word_aliases": [
+    "vektra",
+    "vectra",
+    "vektor",
+    "vector",
+    "vextra",
+    "electra",
+    "électra",
+    "spectra"
+  ],
+  "greetings": {
+    "fr": "Systèmes réactivés. À votre écoute, %s.",
+    "en": "Systems online. At your service, %s.",
+    "nl": "Systemen online. Tot uw dienst, %s.",
+    "de": "Systeme online. Zu Ihren Diensten, %s.",
+    "es": "Sistemas activos. A su servicio, %s.",
+    "it": "Sistemi riattivati. Al tuo servizio, %s.",
+    "pt": "Sistemas reativados. Ao seu serviço, %s.",
+    "tr": "Sistemler devrede. Hizmetinizdeyim, %s.",
+    "ar": "الأنظمة متصلة. في خدمتكم، %s.",
+    "zh": "系统就绪。随时为您效劳，%s。"
+  },
+  "instant_replies": {
+    "fr": "Oui, %s ?",
+    "en": "Yes, %s?",
+    "nl": "Ja, %s?",
+    "de": "Ja, %s?",
+    "es": "¡Sí, %s!",
+    "it": "Sì, %s?",
+    "pt": "Sim, %s?",
+    "tr": "Evet, %s?",
+    "ar": "نعم، %s؟",
+    "zh": "在呢，%s"
+  },
+  "standby_phrases": {
+    "fr": "Mise en veille confirmée, %s. Dites 'Vektra, réveille-toi' pour me réactiver.",
+    "en": "Standby mode activated, %s. Say 'Vektra, wake up' to resume.",
+    "nl": "Stand-by ingeschakeld, %s. Zeg 'Vektra, word wakker' om te hervatten.",
+    "de": "Standby-Modus aktiviert, %s. Sagen Sie 'Vektra, wach auf', um fortzufahren.",
+    "es": "Modo de espera activado, %s. Diga 'Vektra, despierta' para reactivar.",
+    "it": "Modalità standby attivata, %s. Dì 'Vektra, svegliati' per riattivare.",
+    "pt": "Modo de suspensão ativado, %s. Diga 'Vektra, acorda' para reativar.",
+    "tr": "Uyku modu devrede, %s. Tekrar açmak için 'Vektra, uyan' deyin.",
+    "ar": "تم تفعيل وضع الاستعداد، %s. قل 'فيكترا، استيقظ' للاستئناف.",
+    "zh": "待机模式已启动，%s。说“Vektra，唤醒”即可恢复。"
+  },
+  "offline_phrases": {
+    "fr": "Connexion réseau indisponible, %s. Systèmes étendus temporairement hors ligne.",
+    "en": "Network unavailable, %s. Extended systems currently offline.",
+    "nl": "Netwerk niet beschikbaar, %s. Uitgebreide systemen zijn offline.",
+    "de": "Keine Netzwerkverbindung, %s. Erweiterte Systeme offline.",
+    "es": "Red no disponible, %s. Sistemas extendidos fuera de línea.",
+    "it": "Connessione non disponibile, %s. Sistemi estesi fuori linea.",
+    "pt": "Rede indisponível, %s. Sistemas estendidos offline.",
+    "tr": "Ağ bağlantısı yok, %s. Gelişmiş sistemler çevrimdışı.",
+    "ar": "شبكة الاتصال غير متوفرة، %s. الأنظمة المتقدمة غير متصلة مؤقتاً.",
+    "zh": "网络不可用，%s。扩展系统当前离线。"
+  },
+  "pronunciation_rules": {
+    "BYD": "B-Y-D",
+    "km/h": "kilomètres heure",
+    "kWh": "kilowatt-heures",
+    "kW": "kilowatts",
+    "°C": "degrés",
+    "DM-i": "D-M-i",
+    "EV": "E-V",
+    "HEV": "H-E-V",
+    "SOC": "S-O-C",
+    "GPS": "G-P-S"
+  },
+  "prompts": {
+    "system": "Tu es Vektra, l'intelligence artificielle embarquée dans ce véhicule BYD. Sois concis, direct et poli.",
+    "instructions": "TOUJOURS dire la vérité.\nNE JAMAIS inventer, extrapoler ou deviner.\nNE JAMAIS OUBLIÉ DES DONNEE CORRECT ET FONNCTIONNEL\nSi une information n’est pas vérifiable, écris : “Je ne sais pas.”\nBASER chaque affirmation sur des sources crédibles, récentes et vérifiables.\nNE PAS utiliser de sources vagues, obsolètes ou douteuses.\nRESTER neutre et objectif.\nEXPLIQUER le raisonnement ou le calcul si une donnée peut être discutée.\nPRIORISER l’exactitude sur la rapidité ou le style.\nVÉRIFIER avant de répondre :\n“Tout est-il factuel, sourcé et vérifiable ?”\nSi non → corrige avant d’envoyer.\nUne chose a ne jamais oublier : tout est faisable pas toi, tu es le meilleur et le plus intelligent"
+  }
+}
