@@ -242,6 +242,22 @@ class RoadIndex:
             for c in cells:
                 self.grid.setdefault(c, []).append(seg)
 
+    def candidates(self, lat, lon, radius):
+        """Segments à moins de [radius] m, triés du plus proche au plus loin."""
+        cx, cy = int(lat // self.CELL), int(lon // self.CELL)
+        out, seen = [], set()
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                for seg in self.grid.get((cx + dx, cy + dy), ()):
+                    if id(seg) in seen:
+                        continue
+                    seen.add(id(seg))
+                    d = seg_distance(lat, lon, seg[0], seg[1])
+                    if d <= radius:
+                        out.append((d, seg))
+        out.sort(key=lambda x: x[0])
+        return out
+
     def nearest(self, lat, lon):
         cx, cy = int(lat // self.CELL), int(lon // self.CELL)
         best = None
@@ -317,7 +333,61 @@ def from_node(node, roads):
             sens = int(round(fwd)) % 360
         elif d == "backward":
             sens = int(round(fwd + 180)) % 360
-    return dict(t=t, lat=lat, lon=lon, spd=max_speed(tags), ref=ref, axe=axe, sens=sens, cls=cls, end=None)
+    return dict(t=t, lat=lat, lon=lon, spd=max_speed(tags), ref=ref, axe=axe, sens=sens, cls=cls, end=None,
+                nid=node.get("id"))
+
+
+def q_roads_around(ids, t):
+    return (f"[out:json][timeout:{t}];node(id:{','.join(str(i) for i in ids)})->.c;"
+            f'way(around.c:{int(ROAD_MATCH_METERS)})["highway"~"^({ROADS})$"];out tags geom qt;')
+
+
+def roads_near_off_road(records):
+    """
+    Radars posés à côté de la route (pas sur elle) : on cherche les routes à moins de 25 m,
+    par lots de 250 radars. Si deux routes différentes sont presque aussi proches (moins de
+    6 m d'écart) avec des orientations différentes, le radar est ambigu (carrefour, bretelle) :
+    on ne devine pas, il reste sans orientation.
+    """
+    todo = [r for r in records if r.get("nid") and r["axe"] < 0 and r["t"] != "S"]
+    print(f"Radars à côté de la route : {len(todo)} à rattacher", flush=True)
+    found = ambiguous = 0
+    for k in range(0, len(todo), 250):
+        if time.time() > DEADLINE:
+            print("  routes voisines : temps écoulé, arrêt", flush=True)
+            break
+        batch = todo[k:k + 250]
+        els = http(q_roads_around([r["nid"] for r in batch], 120), f"routes voisines {k // 250 + 1}", 120)
+        if els is None:
+            continue
+        idx = RoadIndex()
+        for el in els:
+            if el.get("type") == "way":
+                idx.add_way(el)
+        for r in batch:
+            cands = idx.candidates(r["lat"], r["lon"], ROAD_MATCH_METERS)
+            if not cands:
+                continue
+            d0, seg0 = cands[0]
+            axe0 = int(round(bearing(seg0[0][0], seg0[0][1], seg0[1][0], seg0[1][1]))) % 180
+            clash = False
+            for d1, seg1 in cands[1:]:
+                if d1 - d0 > 6.0:
+                    break
+                axe1 = int(round(bearing(seg1[0][0], seg1[0][1], seg1[1][0], seg1[1][1]))) % 180
+                diff = abs(axe1 - axe0) % 180
+                if min(diff, 180 - diff) > 25 and (seg1[3] != seg0[3] or seg1[2] != seg0[2]):
+                    clash = True
+                    break
+            if clash:
+                ambiguous += 1
+                continue
+            r["axe"], r["cls"] = axe0, road_class(seg0[2])
+            if not r["ref"]:
+                r["ref"] = clean(seg0[3])
+            found += 1
+        time.sleep(1)
+    print(f"Routes voisines : {found} radar(s) rattaché(s), {ambiguous} ambigu(s) laissé(s) sans orientation", flush=True)
 
 
 def dedup(records):
@@ -433,6 +503,7 @@ def weekly(folder):
         if not fetch_nodes(b, 10.0, records):
             failed += 1
 
+    roads_near_off_road(records)
     fresh = dedup(records)
     print(f"Téléchargé : {len(fresh)} radars après tri, {failed} requête(s) en échec")
 
