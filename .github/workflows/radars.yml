@@ -1,7 +1,7 @@
 # Base de radars Europe (OpenStreetMap) pour l'application VEKTRA.
 # Fabriquée chaque lundi à 02:17 UTC, ou à la demande (bouton « Run workflow »).
-# L'application télécharge radars/radars_europe.txt quand radars/radars_meta.json annonce
-# une version plus récente. Si les serveurs échouent, les radars déjà connus sont conservés.
+# L'application télécharge radars/radars_v2.txt (ou radars_europe.txt pour les versions
+# jusqu'à la 2.5.0) quand la fiche *_meta.json annonce une version plus récente. Si les serveurs échouent, les radars déjà connus sont conservés.
 name: Base radars Europe
 
 on:
@@ -19,21 +19,19 @@ concurrency:
 jobs:
   radars:
     runs-on: ubuntu-24.04
-    timeout-minutes: 75
+    timeout-minutes: 80
     steps:
       - uses: actions/checkout@v5
 
-      - name: Télécharger les radars d'Europe (OpenStreetMap)
+      - name: Télécharger les radars d'Europe (OpenStreetMap) et écrire les deux formats
         env:
           RADARS_MINUTES: "60"
-        run: python3 radars/build_radars.py fetch radars/radars_europe.txt
-
-      - name: Mettre à jour la fiche de version
         run: |
-          OUT=$(python3 radars/build_radars.py meta radars/radars_europe.txt radars/radars_meta.json)
-          echo "$OUT"
-          # Radars identiques : on n'enregistre pas un simple changement de date d'en-tête.
-          if echo "$OUT" | grep -q UNCHANGED; then git checkout -- radars/radars_europe.txt; fi
+          python3 radars/build_radars.py weekly radars
+          # Radars identiques (fiches inchangées) : on n'enregistre pas un simple changement de date d'en-tête.
+          if [ -z "$(git status --porcelain radars/radars_meta.json radars/radars_v2_meta.json)" ]; then
+            git checkout -- radars/radars_europe.txt radars/radars_v2.txt
+          fi
 
       - name: Enregistrer dans le dépôt
         run: |
