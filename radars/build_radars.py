@@ -82,9 +82,9 @@ def seg_distance(lat, lon, a, b):
 
 # ── Requêtes Overpass ───────────────────────────────────────────────────────
 
-def http(query, label, timeout):
+def http(query, label, timeout, endpoints=None):
     data = urllib.parse.urlencode({"data": query}).encode()
-    for ep in ENDPOINTS:
+    for ep in (endpoints or ENDPOINTS):
         if time.time() > DEADLINE:
             print(f"  {label} : temps écoulé, abandon", flush=True)
             return None
@@ -111,17 +111,52 @@ def q_relations(b, t):
 
 
 def q_nodes_with_roads(b, t):
-    # Radars + routes qui les portent (ou passent à moins de 25 m), avec leur tracé.
+    # Radars + routes qui les portent, avec leur tracé. (La recherche « à moins de 25 m » faisait
+    # dépasser le délai des serveurs sur les zones denses : seuls les radars posés sur la route
+    # reçoivent une orientation ; les autres gardent le sens donné par les relations.)
     return (f"[out:json][timeout:{t}];"
             f'(node["highway"="speed_camera"]{b};node["highway"="speed_display"]["speed_camera"]{b};)->.c;'
             ".c out qt;"
-            f'(way(bn.c)["highway"~"^({ROADS})$"];way(around.c:{int(ROAD_MATCH_METERS)})["highway"~"^({ROADS})$"];);'
+            f'way(bn.c)["highway"~"^({ROADS})$"];'
             "out tags geom qt;")
 
 
 def q_nodes_only(b, t):
     return (f"[out:json][timeout:{t}];"
             f'(node["highway"="speed_camera"]{b};node["highway"="speed_display"]["speed_camera"]{b};);out qt;')
+
+
+def split(b):
+    s_, w, n, e = (float(x) for x in b.strip("()").split(","))
+    ms, mw = (s_ + n) / 2, (w + e) / 2
+    return [f"({a},{c},{bb},{d})" for a, bb in ((s_, ms), (ms, n)) for c, d in ((w, mw), (mw, e))]
+
+
+def fetch_nodes(b, size, records):
+    """Radars d'une zone avec leurs routes ; zone trop lourde = coupée en 4 (jusqu'à 2,5°)."""
+    # Zone encore grande : un seul serveur essayé avant de la découper (gagne du temps).
+    eps = ENDPOINTS[:1] if size > 2.5 else None
+    els = http(q_nodes_with_roads(b, 170), f"radars + routes {b}", 170, eps)
+    if els is None and size > 2.5 and time.time() < DEADLINE:
+        ok = True
+        for sub_b in split(b):
+            ok = fetch_nodes(sub_b, size / 2, records) and ok
+        return ok
+    if els is None:
+        els = http(q_nodes_only(b, 120), f"radars seuls {b}", 120)
+    if els is None:
+        return False
+    roads = RoadIndex()
+    for el in els:
+        if el.get("type") == "way":
+            roads.add_way(el)
+    for el in els:
+        if el.get("type") == "node":
+            r = from_node(el, roads)
+            if r:
+                records.append(r)
+    time.sleep(1)
+    return True
 
 
 def tiles():
@@ -382,24 +417,10 @@ def weekly(folder):
             if r:
                 records.append(r)
 
-    # 2. Radars (nœuds) avec les routes qui les portent ; repli sans les routes si trop lourd.
+    # 2. Radars (nœuds) avec les routes qui les portent ; zone lourde découpée, repli sans les routes.
     for b in tiles():
-        els = http(q_nodes_with_roads(b, 170), f"radars + routes {b}", 170)
-        if els is None:
-            els = http(q_nodes_only(b, 120), f"radars seuls {b}", 120)
-        if els is None:
+        if not fetch_nodes(b, 10.0, records):
             failed += 1
-            continue
-        roads = RoadIndex()
-        for el in els:
-            if el.get("type") == "way":
-                roads.add_way(el)
-        for el in els:
-            if el.get("type") == "node":
-                r = from_node(el, roads)
-                if r:
-                    records.append(r)
-        time.sleep(1)
 
     fresh = dedup(records)
     print(f"Téléchargé : {len(fresh)} radars après tri, {failed} requête(s) en échec")

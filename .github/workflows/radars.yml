@@ -19,13 +19,13 @@ concurrency:
 jobs:
   radars:
     runs-on: ubuntu-24.04
-    timeout-minutes: 80
+    timeout-minutes: 200
     steps:
       - uses: actions/checkout@v5
 
       - name: Télécharger les radars d'Europe (OpenStreetMap) et écrire les deux formats
         env:
-          RADARS_MINUTES: "60"
+          RADARS_MINUTES: "170"
         run: |
           python3 radars/build_radars.py weekly radars
           # Radars identiques (fiches inchangées) : on n'enregistre pas un simple changement de date d'en-tête.
