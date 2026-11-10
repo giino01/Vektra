@@ -1,0 +1,49 @@
+# Base de radars Europe (OpenStreetMap) pour l'application VEKTRA.
+# Fabriquée chaque lundi à 02:17 UTC, ou à la demande (bouton « Run workflow »).
+# L'application télécharge radars/radars_europe.txt quand radars/radars_meta.json annonce
+# une version plus récente. Si les serveurs échouent, les radars déjà connus sont conservés.
+name: Base radars Europe
+
+on:
+  schedule:
+    - cron: "17 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radars
+  cancel-in-progress: false
+
+jobs:
+  radars:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Télécharger les radars d'Europe (OpenStreetMap)
+        env:
+          RADARS_MINUTES: "60"
+        run: python3 radars/build_radars.py fetch radars/radars_europe.txt
+
+      - name: Mettre à jour la fiche de version
+        run: |
+          OUT=$(python3 radars/build_radars.py meta radars/radars_europe.txt radars/radars_meta.json)
+          echo "$OUT"
+          # Radars identiques : on n'enregistre pas un simple changement de date d'en-tête.
+          if echo "$OUT" | grep -q UNCHANGED; then git checkout -- radars/radars_europe.txt; fi
+
+      - name: Enregistrer dans le dépôt
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add radars/
+          if git diff --cached --quiet; then echo "Aucun changement."; exit 0; fi
+          git commit -q -m "Base radars Europe : mise à jour hebdomadaire"
+          for i in 1 2 3 4; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 15
+          done
+          exit 1
