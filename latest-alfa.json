@@ -1,95 +1,106 @@
 {
-  "version": "2.5.0-alfa4",
-  "apk": "Vektra-2.5.0-alfa4.apk",
-  "size": 50258691,
+  "version": "2.5.0-alfa5",
+  "apk": "Vektra-2.5.0-alfa5.apk",
+  "size": 50267283,
   "notes": [
-    "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-    "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-    "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-    "Même chose avec le volume des sons d'alerte.",
-    "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-    "Alerte radar en roulant : pas de visuel de l'assistant."
+    "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+    "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+    "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+    "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+    "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+    "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+    "Mode Voix : la voix seule, sans son avant."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "en": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "nl": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "de": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "es": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "it": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "pt": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "ar": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "tr": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ],
     "zh": [
-      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
-      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
-      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
-      "Même chose avec le volume des sons d'alerte.",
-      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
-      "Alerte radar en roulant : pas de visuel de l'assistant."
+      "Correctif : les annonces des radars de stationnement ne partent plus en roulant. Elles ne viennent qu'en vraie manœuvre : marche arrière, ou caméra 360° affichée à 10 km/h au plus. Avant, un obstacle détecté sous 18 km/h suffisait (voiture devant toi dans un bouchon, par exemple). Si la vitesse n'est pas lue, seule la marche arrière déclenche les annonces.",
+      "Ajout : dans le Copilote, « Types d'alertes » : cases à cocher pour choisir ce que tu veux entendre (radars fixes, radars mobiles et contrôles, radars tronçons, feux rouges, travaux et routes fermées, bouchons, accidents, véhicules arrêtés et dangers). Un type décoché n'est plus annoncé du tout (tronçon décoché = pas de suivi de vitesse moyenne).",
+      "Changement : le mode « Voix » annonce seulement à la voix, sans son d'alerte avant. Le mode « Sons d'alerte » reste sans voix. Le bip au passage du radar (0 m) est gardé dans les deux modes. À tester en voiture :",
+      "Roule au pas derrière une voiture dans un bouchon : plus aucune annonce de stationnement.",
+      "Marche arrière avec obstacle : les annonces doivent toujours venir.",
+      "Décoche « Bouchons et ralentissements » : plus aucune annonce de bouchon.",
+      "Mode Voix : la voix seule, sans son avant."
     ]
   }
 }
