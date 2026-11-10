@@ -6,9 +6,9 @@
 
 Custom dashboard for the screen behind the steering wheel on BYD DiLink 3 vehicles.
 
-**VERSION 2.4.10** · released on 9 November 2026 · 47.2 MB
+**VERSION 2.5.0** · released on 10 November 2026 · 47.7 MB
 
-[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Project page**](https://giino01.github.io/Vektra/)
+[**Download the app**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Project page**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,18 +103,20 @@ VEKTRA checks by itself at every opening. When a version is available, a window 
 - **The update says "Unavailable".** The tablet could not reach the source. Check its internet connection, then try again: the exact reason is shown.
 - **Anything else.** Open *Control*, press *Copy the whole scan*, then send the text. It contains everything needed to understand.
 
-## What is new in 2.4.10
+## What is new in 2.5.0
 
-- Add: project an application onto the cluster — the app you pick finally shows full screen behind the wheel, instead of staying black.
-- Add: rapid air purification — Vektra closes the cabin recirculation, starts the ionizer and raises the fan for 3 minutes, then returns to the normal setting on its own.
-- Add: fixed speed cameras, average-speed sections and red-light cameras for Belgium and the border regions are now built into the app. Vektra warns you at 500 m and again at 100 m even with no connection. Mobile cameras and live traffic are added on top whenever a connection is available.
-- Fix: the assistant never touches the volume any more. It no longer raises it by itself every time it speaks: the level you chose is kept.
-- Fix: switching between electric and hybrid mode now works reliably.
-- Fix: memory seats (positions 1, 2 and 3) and the Rest and Driving modes respond correctly, including on seats with two memories.
-- Fix: the express demisting now reliably stops by itself after 3 minutes.
-- Fix: no more pointless "speed camera and traffic alerts enabled" announcement at every start. Vektra only speaks when the camera database has just been updated.
-- Fix: your position is detected faster and more reliably for speed camera alerts.
-- Fix: the reversing sensors (parking aid) are detected more reliably.
+- Add: Vektra answers your questions about the app, for example “how do I open the window halfway?”. If she doesn't know the answer, she tells you.
+- Add: “Contact support” in Settings. A report on the state of the app and the car is created, then sent with Telegram. Telegram must be installed in the car.
+- Add: the assistant's settings can now be updated without a new version of the app. A window offers it when you open the app, or at the bottom of the AI Assistant tab.
+- Add: speed camera alerts now work all over Europe, even without a connection.
+- Add: the co-pilot warns you when it's getting dark and your headlights are off.
+- Add: a cleaner header with the “V E K T R A” emblem in the centre. Tap it to see the app's status.
+- Fix: Vektra no longer says “done” when the car didn't react. She tells you she couldn't confirm it.
+- Fix: some commands could operate a different piece of equipment than the one requested.
+- Fix: the screen no longer rotates twice.
+- Fix: cabin air quality is read correctly again.
+- Fix: the “Continuous conversation” option has been removed. Vektra only keeps listening when she asks you a question.
+- Fix: the GPS reset, which did not work, has been removed.
 
 ---
 

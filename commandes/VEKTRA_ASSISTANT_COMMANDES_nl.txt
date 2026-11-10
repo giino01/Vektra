@@ -331,6 +331,11 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
 --------------------------------------------------------------------------------
 16. INTELLIGENTIE, GEHEUGEN & GEAVANCEERDE COMMANDO'S
 --------------------------------------------------------------------------------
+• Vragen over het gebruik van VEKTRA:
+  - “Vektra, hoe open ik het bestuurdersraam half?”
+  - “Vektra, hoe verander ik je naam?”
+  - Vektra antwoordt op basis van deze lijst met commando's. Staat het antwoord er niet in, dan zegt ze dat ze het niet weet.
+
 • Meerdere commando's in één zin aaneenschakelen:
   - "Vektra, sluit de ramen, zet de airco op 21 en zet mijn stoel aan"
   - Vektra voert alles op volgorde uit en bevestigt in één zin.

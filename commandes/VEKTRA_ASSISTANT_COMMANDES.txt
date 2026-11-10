@@ -331,6 +331,11 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
 --------------------------------------------------------------------------------
 16. INTELLIGENCE, MÉMOIRE & COMMANDES AVANCÉES
 --------------------------------------------------------------------------------
+• Questions sur l'utilisation de VEKTRA :
+  - « Vektra, comment j'ouvre la vitre conducteur à moitié ? »
+  - « Vektra, comment je change ton nom ? »
+  - Vektra répond à partir de cette liste de commandes. Si la réponse n'y est pas, elle dit qu'elle ne sait pas.
+
 • Enchaîner plusieurs commandes dans une seule phrase :
   - « Vektra, ferme les vitres, mets la clim à 21 et allume mon siège »
   - Vektra exécute tout dans l'ordre et confirme en une seule phrase.

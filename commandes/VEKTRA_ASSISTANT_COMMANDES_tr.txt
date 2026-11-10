@@ -331,6 +331,11 @@ erişime sahiptir.
 --------------------------------------------------------------------------------
 16. ZEKÂ, HAFIZA VE GELİŞMİŞ KOMUTLAR
 --------------------------------------------------------------------------------
+• VEKTRA'nın kullanımıyla ilgili sorular:
+  - “Vektra, sürücü camını yarıya kadar nasıl açarım?”
+  - “Vektra, adını nasıl değiştiririm?”
+  - Vektra bu komut listesine göre yanıt verir. Yanıt listede yoksa bilmediğini söyler.
+
 • Tek cümlede birden fazla komut zincirleme:
   - «Vektra, camları kapat, klimayı 21'e ayarla ve koltuğumu aç»
   - Vektra her şeyi sırayla yapar ve tek bir cümleyle onaylar.

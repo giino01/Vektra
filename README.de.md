@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.4.10** · veröffentlicht am 9. November 2026 · 47.2 MB
+**VERSION 2.5.0** · veröffentlicht am 10. November 2026 · 47.7 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,18 +103,20 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.4.10
+## Neu in 2.5.0
 
-- Neu: Projektion einer Anwendung auf das Kombiinstrument — die gewählte App erscheint endlich im Vollbild hinter dem Lenkrad, statt schwarz zu bleiben.
-- Neu: schnelle Luftreinigung — Vektra schließt die Umluft, startet den Ionisator und erhöht die Lüftung für 3 Minuten, danach kehrt sie von selbst zur normalen Einstellung zurück.
-- Neu: feste Blitzer, Abschnittskontrollen und Rotlichtblitzer für Belgien und die Grenzregionen sind nun in der App enthalten. Vektra warnt bei 500 m und erneut bei 100 m, auch ohne Verbindung. Mobile Blitzer und Live-Verkehr kommen hinzu, sobald eine Verbindung besteht.
-- Korrektur: der Assistent verändert die Lautstärke nicht mehr. Er erhöht sie nicht mehr selbst bei jeder Ansage: die von dir gewählte Stufe bleibt erhalten.
-- Korrektur: der Wechsel zwischen Elektro- und Hybridmodus funktioniert zuverlässig.
-- Korrektur: Memory-Sitze (Positionen 1, 2 und 3) sowie Ruhe- und Fahrmodus reagieren korrekt, auch bei Sitzen mit zwei Speichern.
-- Korrektur: die Schnellentfeuchtung schaltet sich nach 3 Minuten zuverlässig selbst ab.
-- Korrektur: keine unnötige Ansage „Blitzer- und Verkehrswarnungen aktiviert" bei jedem Start. Vektra spricht nur, wenn die Blitzerdatenbank gerade aktualisiert wurde.
-- Korrektur: die Position wird für Blitzerwarnungen schneller und zuverlässiger erkannt.
-- Korrektur: die Rückfahrsensoren (Einparkhilfe) werden besser erkannt.
+- Neu: Vektra beantwortet deine Fragen zur App, zum Beispiel „Wie öffne ich das Fenster halb?“. Kennt sie die Antwort nicht, sagt sie es dir.
+- Neu: „Support kontaktieren“ in den Einstellungen. Ein Bericht über den Zustand der App und des Autos wird erstellt und per Telegram gesendet. Telegram muss im Auto installiert sein.
+- Neu: Die Einstellungen des Assistenten lassen sich jetzt ohne neue App-Version aktualisieren. Ein Fenster bietet es beim Öffnen an, oder unten im Tab KI-Assistent.
+- Neu: Blitzerwarnungen funktionieren jetzt in ganz Europa, auch ohne Verbindung.
+- Neu: Der Copilot warnt dich, wenn es dunkel wird und dein Licht aus ist.
+- Neu: aufgeräumte Kopfzeile mit dem Emblem „V E K T R A“ in der Mitte. Tippe darauf, um den Status der App zu sehen.
+- Korrektur: Vektra sagt nicht mehr „erledigt“, wenn das Auto nicht reagiert hat. Sie sagt dir, dass sie es nicht bestätigen konnte.
+- Korrektur: Manche Befehle konnten ein anderes Gerät als das gewünschte betätigen.
+- Korrektur: Der Bildschirm dreht sich nicht mehr zweimal.
+- Korrektur: Die Luftqualität im Innenraum wird wieder richtig gelesen.
+- Korrektur: Die Option „Fortlaufendes Gespräch“ wurde entfernt. Vektra hört nur noch zu, wenn sie dir eine Frage stellt.
+- Korrektur: Das Zurücksetzen des GPS, das nicht funktionierte, wurde entfernt.
 
 ---
 

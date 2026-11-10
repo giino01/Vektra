@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.4.10** · publicada a 9 de novembro de 2026 · 47.2 MB
+**VERSÃO 2.5.0** · publicada a 10 de novembro de 2026 · 47.7 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -103,18 +103,20 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.4.10
+## Novidades da 2.5.0
 
-- Novidade: projeção de uma aplicação no painel — a aplicação escolhida aparece finalmente em ecrã inteiro atrás do volante, em vez de ficar negra.
-- Novidade: purificação rápida do ar — a Vektra fecha a recirculação interior, liga o ionizador e aumenta a ventilação durante 3 minutos, voltando sozinha ao ajuste normal.
-- Novidade: os radares fixos, os trechos de velocidade média e os radares de semáforo da Bélgica e das regiões fronteiriças estão agora integrados na aplicação. A Vektra avisa a 500 m e de novo a 100 m mesmo sem ligação. Radares móveis e trânsito em direto juntam-se quando há ligação.
-- Correção: o assistente nunca mais altera o volume. Já não o aumenta sozinho sempre que fala: o nível que escolheste é mantido.
-- Correção: a mudança entre modo elétrico e híbrido funciona de forma fiável.
-- Correção: os assentos com memória (posições 1, 2 e 3) e os modos Descanso e Condução respondem corretamente, incluindo nos assentos com duas memórias.
-- Correção: o desembaciamento rápido desliga-se sozinho ao fim de 3 minutos.
-- Correção: sem anúncio inútil «alertas de radares e trânsito ativados» a cada arranque. A Vektra só fala quando a base de dados de radares acabou de ser atualizada.
-- Correção: a posição é detetada mais depressa e com mais fiabilidade para os alertas de radares.
-- Correção: os sensores de marcha-atrás (auxílio ao estacionamento) são melhor detetados.
+- Novidade: a Vektra responde às tuas perguntas sobre a aplicação, por exemplo «como abro a janela até meio?». Se não souber a resposta, diz-te.
+- Novidade: «Contactar o suporte» nas Definições. É criado um relatório sobre o estado da aplicação e do carro, enviado pelo Telegram. O Telegram tem de estar instalado no carro.
+- Novidade: as definições do assistente podem agora ser atualizadas sem nova versão da aplicação. Uma janela propõe-no ao abrir, ou no fundo do separador Assistente IA.
+- Novidade: os alertas de radares funcionam agora em toda a Europa, mesmo sem ligação.
+- Novidade: o copiloto avisa-te quando escurece e tens os faróis apagados.
+- Novidade: novo cabeçalho mais limpo com o emblema «V E K T R A» ao centro. Toca nele para ver o estado da aplicação.
+- Correção: a Vektra já não diz «feito» quando o carro não reagiu. Avisa-te de que não conseguiu confirmar.
+- Correção: alguns comandos podiam acionar um equipamento diferente do pedido.
+- Correção: o ecrã já não roda duas vezes.
+- Correção: a qualidade do ar no habitáculo volta a ser lida corretamente.
+- Correção: a opção «Conversa contínua» foi retirada. A Vektra só fica à escuta quando te faz uma pergunta.
+- Correção: a reinicialização do GPS, que não funcionava, foi retirada.
 
 ---
 

@@ -332,6 +332,11 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
 --------------------------------------------------------------------------------
 16. INTELLIGENZA, MEMORIA E COMANDI AVANZATI
 --------------------------------------------------------------------------------
+• Domande sull'uso di VEKTRA:
+  - «Vektra, come apro a metà il finestrino del conducente?»
+  - «Vektra, come cambio il tuo nome?»
+  - Vektra risponde in base a questo elenco di comandi. Se la risposta non c'è, dice che non lo sa.
+
 • Concatenare più comandi in una sola frase:
   - «Vektra, chiudi i finestrini, metti il clima a 21 e accendi il mio sedile»
   - Vektra esegue tutto in ordine e conferma in un'unica frase.

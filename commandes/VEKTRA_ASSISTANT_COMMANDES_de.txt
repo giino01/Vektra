@@ -333,6 +333,11 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
 --------------------------------------------------------------------------------
 16. INTELLIGENZ, GEDÄCHTNIS & ERWEITERTE BEFEHLE
 --------------------------------------------------------------------------------
+• Fragen zur Nutzung von VEKTRA:
+  - „Vektra, wie öffne ich das Fahrerfenster zur Hälfte?“
+  - „Vektra, wie ändere ich deinen Namen?“
+  - Vektra antwortet anhand dieser Befehlsliste. Steht die Antwort nicht darin, sagt sie, dass sie es nicht weiß.
+
 • Mehrere Befehle in einem Satz verketten:
   - „Vektra, schließe die Fenster, stelle die Klima auf 21 und schalte meinen Sitz ein"
   - Vektra führt alles der Reihe nach aus und bestätigt in einem einzigen Satz.

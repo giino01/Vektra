@@ -331,6 +331,11 @@ Groq artificial intelligence (Llama 3.3 70B).
 --------------------------------------------------------------------------------
 16. INTELLIGENCE, MEMORY & ADVANCED COMMANDS
 --------------------------------------------------------------------------------
+• Questions about using VEKTRA:
+  - “Vektra, how do I open the driver window halfway?”
+  - “Vektra, how do I change your name?”
+  - Vektra answers from this list of commands. If the answer isn't in it, she says she doesn't know.
+
 • Chain several commands in one sentence:
   - "Vektra, close the windows, set the A/C to 21 and turn on my seat"
   - Vektra does everything in order and confirms in a single sentence.

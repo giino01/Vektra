@@ -332,6 +332,11 @@ inteligência artificial Groq (Llama 3.3 70B).
 --------------------------------------------------------------------------------
 16. INTELIGÊNCIA, MEMÓRIA E COMANDOS AVANÇADOS
 --------------------------------------------------------------------------------
+• Perguntas sobre a utilização do VEKTRA:
+  - «Vektra, como abro a janela do condutor até meio?»
+  - «Vektra, como mudo o teu nome?»
+  - A Vektra responde com base nesta lista de comandos. Se a resposta não estiver nela, diz que não sabe.
+
 • Encadear vários comandos numa só frase:
   - «Vektra, fecha os vidros, põe o ar a 21 e liga o meu banco»
   - O Vektra executa tudo por ordem e confirma numa única frase.

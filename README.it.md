@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.4.10** · pubblicata il 9 novembre 2026 · 47.2 MB
+**VERSIONE 2.5.0** · pubblicata il 10 novembre 2026 · 47.7 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.4.10.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.5.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -103,18 +103,20 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.4.10
+## Novità della 2.5.0
 
-- Aggiunta: proiezione di un'applicazione sul quadro strumenti — l'app scelta appare finalmente a schermo intero dietro il volante, invece di restare nera.
-- Aggiunta: purificazione rapida dell'aria — Vektra chiude il ricircolo interno, avvia lo ionizzatore e aumenta la ventilazione per 3 minuti, poi torna da solo all'impostazione normale.
-- Aggiunta: gli autovelox fissi, i tratti a controllo di velocità media e i rilevatori ai semafori del Belgio e delle regioni di frontiera sono ora integrati nell'app. Vektra avvisa a 500 m e poi a 100 m anche senza connessione. Autovelox mobili e traffico in tempo reale si aggiungono quando la connessione lo consente.
-- Correzione: l'assistente non tocca più il volume. Non lo alza più da solo ogni volta che parla: il livello scelto da te viene mantenuto.
-- Correzione: il passaggio tra modalità elettrica e ibrida funziona in modo affidabile.
-- Correzione: i sedili a memoria (posizioni 1, 2 e 3) e le modalità Riposo e Guida rispondono correttamente, anche sui sedili con due memorie.
-- Correzione: lo sbrinamento rapido si interrompe da solo dopo 3 minuti.
-- Correzione: nessun annuncio inutile «avvisi autovelox e traffico attivati» a ogni avvio. Vektra parla solo quando la banca dati degli autovelox è appena stata aggiornata.
-- Correzione: la posizione viene rilevata più rapidamente e in modo più affidabile per gli avvisi autovelox.
-- Correzione: i sensori di retromarcia (aiuto al parcheggio) vengono rilevati meglio.
+- Aggiunta: Vektra risponde alle tue domande sull'app, per esempio «come apro il finestrino a metà?». Se non conosce la risposta, te lo dice.
+- Aggiunta: «Contatta il supporto» nelle Impostazioni. Viene creato un rapporto sullo stato dell'app e dell'auto, poi inviato con Telegram. Telegram deve essere installato nell'auto.
+- Aggiunta: le impostazioni dell'assistente ora si aggiornano senza una nuova versione dell'app. Una finestra te lo propone all'apertura, oppure in fondo alla scheda Assistente IA.
+- Aggiunta: gli avvisi autovelox ora funzionano in tutta Europa, anche senza connessione.
+- Aggiunta: il copilota ti avvisa quando fa buio e i fari sono spenti.
+- Aggiunta: nuova intestazione più pulita con l'emblema «V E K T R A» al centro. Toccalo per vedere lo stato dell'app.
+- Correzione: Vektra non dice più «fatto» quando l'auto non ha reagito. Ti avvisa che non ha potuto confermarlo.
+- Correzione: alcuni comandi potevano azionare un dispositivo diverso da quello richiesto.
+- Correzione: lo schermo non ruota più due volte.
+- Correzione: la qualità dell'aria nell'abitacolo viene di nuovo letta correttamente.
+- Correzione: l'opzione «Conversazione continua» è stata rimossa. Vektra resta in ascolto solo quando ti fa una domanda.
+- Correzione: il ripristino del GPS, che non funzionava, è stato rimosso.
 
 ---
 
