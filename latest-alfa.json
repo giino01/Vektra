@@ -1,84 +1,95 @@
 {
-  "version": "2.5.0-alfa3",
-  "apk": "Vektra-2.5.0-alfa3.apk",
-  "size": 50250079,
+  "version": "2.5.0-alfa4",
+  "apk": "Vektra-2.5.0-alfa4.apk",
+  "size": 50258691,
   "notes": [
-    "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-    "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-    "Un bouchon sur ta route : annonce avec la longueur.",
-    "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-    "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+    "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+    "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+    "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+    "Même chose avec le volume des sons d'alerte.",
+    "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+    "Alerte radar en roulant : pas de visuel de l'assistant."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "en": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "nl": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "de": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "es": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "it": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "pt": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "ar": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "tr": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ],
     "zh": [
-      "Ajout : la longueur des bouchons est annoncée, arrondie : « Attention, ralentissement sur la route à 500 mètres. Sur 2,5 kilomètres. » (au 100 m près sous 1 km, au demi-kilomètre au-delà). Elle est calculée sur tout le tracé du bouchon fourni par Waze.",
-      "Ajout : filtre de sens pour les bouchons. À moins de 400 m, un bouchon dont le sens de circulation diffère de plus de 90° du tien (autre sens, route perpendiculaire) n'est plus annoncé. Le sens vient de l'ordre du tracé Waze (du début vers la fin du bouchon) ; si le tracé est trop court pour le calculer, le bouchon est annoncé comme avant. À tester en voiture :",
-      "Un bouchon sur ta route : annonce avec la longueur.",
-      "Un bouchon dans l'autre sens sur une route à deux chaussées : il ne doit plus être annoncé en rappel (la première annonce, de loin, peut encore venir).",
-      "Si les bouchons de ton sens ne sont plus annoncés du tout, dis-le-moi tout de suite : cela voudrait dire que le tracé Waze est dans l'autre ordre."
+      "Ajout : dans le Copilote, deux réglages « Volume des annonces vocales » et « Volume des sons d'alerte », de 10 % à 100 %. Ils s'appliquent aux radars, au trafic, aux tronçons, aux autres alertes du copilote et à l'aide au stationnement. Chaque choix fait entendre un exemple au nouveau volume. Le pourcentage est relatif au volume réglé dans la voiture : l'application ne monte jamais le volume du système (100 % = volume actuel de la voiture).",
+      "Correctif : le visuel de l'assistant ne s'affiche plus pendant les annonces du copilote (radars, trafic, tronçons, stationnement…), ni tant que l'aide au stationnement, la marche arrière ou la caméra est active. Il reste affiché quand c'est toi qui parles à Vektra. À tester en voiture :",
+      "Copilote > Volume des annonces vocales : choisis 50 %, l'exemple doit être plus bas ; une alerte radar doit ensuite sortir à ce volume.",
+      "Même chose avec le volume des sons d'alerte.",
+      "Marche arrière avec obstacle : les annonces doivent venir sans que le visuel de l'assistant apparaisse.",
+      "Alerte radar en roulant : pas de visuel de l'assistant."
     ]
   }
 }
