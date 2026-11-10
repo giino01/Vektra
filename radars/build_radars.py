@@ -132,6 +132,14 @@ def split(b):
     return [f"({a},{c},{bb},{d})" for a, bb in ((s_, ms), (ms, n)) for c, d in ((w, mw), (mw, e))]
 
 
+FAILED_BOXES = []
+
+
+def in_box(r, b):
+    s_, w, n, e = (float(x) for x in b.strip("()").split(","))
+    return s_ <= r["lat"] <= n and w <= r["lon"] <= e
+
+
 def fetch_nodes(b, size, records):
     """Radars d'une zone avec leurs routes ; zone trop lourde = coupée en 4 (jusqu'à 2,5°)."""
     # Zone encore grande : un seul serveur essayé avant de la découper (gagne du temps).
@@ -145,6 +153,7 @@ def fetch_nodes(b, size, records):
     if els is None:
         els = http(q_nodes_only(b, 120), f"radars seuls {b}", 120)
     if els is None:
+        FAILED_BOXES.append(b)
         return False
     roads = RoadIndex()
     for el in els:
@@ -389,7 +398,8 @@ def write_meta(data_path, meta_path):
     if old.get("sha256") == digest:
         print(f"{os.path.basename(data_path)} : radars identiques, fiche inchangée")
         return False
-    meta = {"version": int(time.strftime("%Y%m%d%H")), "date": time.strftime("%Y-%m-%d"),
+    meta = {"version": max(int(time.strftime("%Y%m%d%H%M")), int(old.get("version", 0)) + 1),
+            "date": time.strftime("%Y-%m-%d"),
             "count": len(rows), "sha256": digest}
     json.dump(meta, open(meta_path, "w", encoding="utf-8"), indent=2)
     print(f"{os.path.basename(meta_path)} : {meta}")
@@ -409,6 +419,7 @@ def weekly(folder):
             part = http(q_relations(b, 120), f"relations {b}", 120)
             if part is None:
                 failed += 1
+                FAILED_BOXES.append(b)
             else:
                 rels.extend(part)
     for rel in rels:
@@ -425,8 +436,10 @@ def weekly(folder):
     fresh = dedup(records)
     print(f"Téléchargé : {len(fresh)} radars après tri, {failed} requête(s) en échec")
 
-    # 3. Radars connus absents du téléchargement : conservés.
+    # 3. Radars connus situés dans une zone qui n'a pas pu être téléchargée : conservés.
+    #    Ailleurs, la base suit OpenStreetMap : un radar supprimé là-bas disparaît aussi ici.
     known = parse_existing(v2_path, True) or parse_existing(v1_path, False)
+    known = [r for r in known if any(in_box(r, b) for b in FAILED_BOXES)]
     merged = dedup(fresh + known)
     kept = len(merged) - len(fresh)
     print(f"Base existante : {kept} radar(s) absent(s) du téléchargement conservé(s)")
