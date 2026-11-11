@@ -1,107 +1,74 @@
 {
-  "version": "2.5.1-alfa4",
-  "apk": "Vektra-2.5.1-alfa4.apk",
-  "size": 51260676,
-  "sha256": "c0fbff75eea3ebe3ca9038caa72192ff8ea92ac39d255b259ab817593679e0bf",
+  "version": "2.5.1-alfa5",
+  "apk": "Vektra-2.5.1-alfa5.apk",
+  "size": 51260876,
+  "sha256": "3088b055d3b908c36c61ae6a2f3828fc0550a9fb34883bebe2d3773700526f0a",
   "notes": [
-    "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-    "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-    "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-    "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-    "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-    "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-    "VektraUI : plus de logo BYD dans l'arche de gauche."
+    "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+    "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+    "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+    "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "en": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "nl": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "de": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "es": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "it": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "pt": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "ar": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "tr": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ],
     "zh": [
-      "Ajout : Theme Store — deux onglets en haut, « Classique » et « Sealion 7 ».",
-      "Ajout : onglet Sealion 7 — « Carbon3D SEALION 7 » et « VektraUI SEALION 7 », visibles pour tous les modèles. Même thème que l'original, avec le fond de la couche principale accordé aux bandes du combiné du Sealion 7 : gris très clair en apparence claire, presque noir en sombre, et l'automatique suit la tablette. Pas de voile sur les bords. L'aperçu de chaque carte est dessiné par le vrai code du thème.",
-      "Changement : VektraUI (classique et SEALION 7) n'affiche plus le logo BYD au centre de l'arche de gauche. Carbone 3D garde le sien.",
-      "Les teintes du fond SEALION 7 viennent de photos du combiné : elles seront recalées sur une capture du vrai combiné si besoin. À tester :",
-      "Theme Store › Sealion 7 › Appliquer sur chacun des deux, en clair puis en sombre.",
-      "Revenir sur Classique › Carbone 3D : le fond bleu d'origine revient.",
-      "VektraUI : plus de logo BYD dans l'arche de gauche."
+      "Correctif : l'app se fermait en appuyant sur l'onglet « Sealion 7 » du Theme Store (la page se reconstruisait avec un élément d'affichage encore attaché à l'ancienne page). Trouvé par le nouveau contrôle automatique.",
+      "Changement : les cartes Carbon3D SEALION 7 et VektraUI SEALION 7 reprennent l'aperçu de leur thème classique (même thème, seul le fond change).",
+      "Ajout : contrôle automatique à chaque build — l'onglet « Sealion 7 » s'ouvre et affiche ses deux thèmes. À tester :",
+      "Theme Store › Sealion 7 sur le smartphone et dans la voiture : plus de fermeture, les deux cartes s'affichent."
     ]
   }
 }
