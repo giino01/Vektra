@@ -8,11 +8,11 @@
 
 3D themes, apps and navigation behind the wheel, a voice assistant and a speed-camera co-pilot. One single app, tested on Sealion 7, Seal, Seal U and Seal U DM-i.
 
-![VEKTRA 2.6.0](https://img.shields.io/badge/VEKTRA-2.6.0-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/languages-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/languages-10-FF4FD8?style=for-the-badge)
 
-[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
+[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
 
-<sub>VERSION 2.6.0 · 75.6 MB · released on 12 November 2026</sub>
+<sub>VERSION 2.6.1 · 75.6 MB · released on 12 November 2026</sub>
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -154,11 +154,11 @@ Each alert can be turned on or off in the app's Co-pilot tab.
 
 <div align="center">
 
-### VEKTRA 2.6.0
+### VEKTRA 2.6.1
 
 In 10 languages. Updates then arrive directly in the app.
 
-[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk)
+[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
 
 <sub>75.6 MB · Android 9 or later · BYD DiLink 3 · released on 12 November 2026</sub>
 
@@ -170,36 +170,9 @@ In 10 languages. Updates then arrive directly in the app.
 | **Co-pilot features** — Every alert and its settings. | [⬇ Download](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_en.txt) |
 | **Website** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### What is new in 2.6.0
+### What is new in 2.6.1
 
-- Good to know: after the update, no display mode is ticked. Go to the Cluster tab and tick yours before starting the projection.
-- Good to know: the first time you call “Vektra”, the app downloads about 40 MB once to recognise your language.
-- Add: 11 new themes in the Theme Store: Chassis, Orbit, Sport, Map, Horizon, Aurora, Chronograph, Energy, Sky, Carbone 3D+ and VektraUI+.
-- Add: Carbone 3D+, 3D dials under glass, and VektraUI+, neon arches.
-- Add: animated themes: Horizon's road flows with your speed, Aurora and Energy move, Sky shows the real weather.
-- Add: Map, Carbone 3D+ and VektraUI+ show your app (Waze, Google Maps…) or Navigation Vektra in the centre of the cluster.
-- Add: Edit: move, enlarge or hide every block of a theme, then save.
-- Add: the theme background blends into the cluster, in light and dark.
-- Add: Full screen app mode: only your app is shown on the cluster, to move and resize in Edit.
-- Add: Preview › Interaction App: adjust the size of the app and its text, and the size of the Vektra map. Only the cluster changes, never the tablet.
-- Add: new car controls, also by voice: windows (even in %), sunroof, blind, boot, locking, seat memory 1/2/3, climate by zone, ventilation, heated seats and steering wheel, lights, ambient lighting, wireless charger, drive mode, regeneration, mirrors, hazard lights, charge limit and scheduled charging.
-- Add: Copilot: alert when the 12 V battery is low.
-- Add: Classic and Blade themes: FUEL (DM-i hybrids), BATTERY and CABIN at the bottom left.
-- Add: nothing you say is sent to the internet before the word “Vektra”.
-- Add (SEALION7): two display profiles: Full screen (VEKTRA below the car's top band) or Small screen (your app in the right-hand window).
-- Add (SEALION7): a Sealion 7 version of every theme.
-- Add (SEALION7): car data: speed, P/R/N/D, battery, range, mileage, 12 V battery, charging, tyres and power.
-- Add (SEALION7): forced display: VEKTRA comes in front of the cluster's original navigation.
-- Fix (SEALION7): smooth speed and needle, with no lag.
-- Fix (SEALION7): the P/R/N/D gear is correct, and opening the doors and boot in D is blocked again.
-- Fix (SEALION7): the outside temperature no longer stays stuck at 0 °C.
-- Fix: Vektra answers straight away, even while music is playing.
-- Fix: seat memory: the seat goes all the way to its position without stopping halfway.
-- Fix: CABIN shows the real cabin temperature, not the climate setpoint.
-- Fix: projected app: all its windows go to the cluster, and Close stops it completely.
-- Fix: smoother app projection.
-- Fix: no more robotic voice at start-up.
-- Fix: the weather shows up quickly at start-up, with no default city.
+- Fix (SEALION7): no more black band under the car's top band: the theme and the app use the whole projection window.
 
 ---
 

@@ -8,11 +8,11 @@
 
 Thèmes 3D, applications et navigation derrière le volant, assistant vocal et copilote radars. Une seule application, testée sur Sealion 7, Seal, Seal U et Seal U DM-i.
 
-![VEKTRA 2.6.0](https://img.shields.io/badge/VEKTRA-2.6.0-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/langues-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/langues-10-FF4FD8?style=for-the-badge)
 
-[**⬇ Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) &nbsp;·&nbsp; [**🌐 Site web**](https://giino01.github.io/Vektra/)
+[**⬇ Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 Site web**](https://giino01.github.io/Vektra/)
 
-<sub>VERSION 2.6.0 · 75.6 Mo · publiée le 12 novembre 2026</sub>
+<sub>VERSION 2.6.1 · 75.6 Mo · publiée le 12 novembre 2026</sub>
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -154,11 +154,11 @@ Chaque alerte s'active ou se désactive dans l'onglet Copilote de l'application.
 
 <div align="center">
 
-### VEKTRA 2.6.0
+### VEKTRA 2.6.1
 
 En 10 langues. Les mises à jour arrivent ensuite directement dans l'application.
 
-[**⬇ Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk)
+[**⬇ Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
 
 <sub>75.6 Mo · Android 9 ou plus · BYD DiLink 3 · publiée le 12 novembre 2026</sub>
 
@@ -170,36 +170,9 @@ En 10 langues. Les mises à jour arrivent ensuite directement dans l'application
 | **Fonctions du copilote** — Toutes les alertes et leurs réglages. | [⬇ Télécharger](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE.txt) |
 | **Site web** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Nouveautés de la 2.6.0
+### Nouveautés de la 2.6.1
 
-- À savoir : après la mise à jour, aucun mode d'affichage n'est coché. Va dans l'onglet Combiné et coche le tien avant de lancer la projection.
-- À savoir : au premier appel « Vektra », l'application télécharge une seule fois environ 40 Mo pour reconnaître ta langue.
-- Ajout : 11 nouveaux thèmes dans le Theme Store : Châssis, Orbit, Sport, Carte, Horizon, Aurore, Chronographe, Énergie, Ciel, Carbone 3D+ et VektraUI+.
-- Ajout : Carbone 3D+, des cadrans 3D sous verre, et VektraUI+, des arches néon.
-- Ajout : thèmes animés : la route d'Horizon défile avec ta vitesse, Aurore et Énergie bougent, Ciel montre la météo réelle.
-- Ajout : Carte, Carbone 3D+ et VektraUI+ affichent ton application (Waze, Google Maps…) ou la Navigation Vektra au centre du combiné.
-- Ajout : Édition : déplace, agrandis ou masque chaque bloc d'un thème, puis enregistre.
-- Ajout : le fond des thèmes se raccorde au combiné, en clair comme en sombre.
-- Ajout : mode Plein écran app : seule ton application est affichée sur le combiné, à déplacer et redimensionner dans Édition.
-- Ajout : Aperçu interaction : règle la taille de l'application et de son texte, et la taille de la carte Vektra. Seul le combiné change, jamais la tablette.
-- Ajout : nouvelles commandes de la voiture, aussi à la voix : vitres (même en %), toit ouvrant, store, coffre, verrouillage, mémoire de siège 1/2/3, clim par zone, ventilation, sièges et volant chauffants, feux, éclairage d'ambiance, chargeur sans fil, mode de conduite, régénération, rétroviseurs, feux de détresse, limite de charge et recharge programmée.
-- Ajout : Copilote : alerte quand la batterie 12 V est faible.
-- Ajout : thèmes Classique et Blade : ESSENCE (hybrides DM-i), BATTERIE et HABITACLE en bas à gauche.
-- Ajout : rien de ce que tu dis n'est envoyé sur internet avant le mot « Vektra ».
-- Ajout (SEALION7) : deux profils d'affichage : Plein écran (VEKTRA sous la bande du haut de la voiture) ou Petit écran (ton application dans la fenêtre de droite).
-- Ajout (SEALION7) : une version Sealion 7 de chaque thème.
-- Ajout (SEALION7) : données de la voiture : vitesse, P/R/N/D, batterie, autonomie, kilométrage, batterie 12 V, recharge, pneus et puissance.
-- Ajout (SEALION7) : affichage forcé : VEKTRA passe devant la navigation d'origine du combiné.
-- Correctif (SEALION7) : vitesse et aiguille fluides, sans décalage.
-- Correctif (SEALION7) : le rapport P/R/N/D est juste, et l'ouverture des portes et du coffre en D est de nouveau bloquée.
-- Correctif (SEALION7) : la température extérieure ne reste plus bloquée à 0 °C.
-- Correctif : Vektra répond tout de suite, même quand la musique joue.
-- Correctif : mémoire de siège : le siège va jusqu'à sa position sans s'arrêter en route.
-- Correctif : HABITACLE affiche la vraie température de l'habitacle, et non la consigne de la clim.
-- Correctif : application projetée : toutes ses fenêtres vont sur le combiné, et Fermer l'arrête complètement.
-- Correctif : projection des applications plus fluide.
-- Correctif : plus de voix robotique au démarrage.
-- Correctif : la météo s'affiche vite au démarrage, sans ville par défaut.
+- Correctif (SEALION7) : plus de bande noire sous la bande de la voiture : le thème et l'application utilisent toute la fenêtre de projection.
 
 ---
 

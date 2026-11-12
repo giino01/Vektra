@@ -8,11 +8,11 @@
 
 3D-thema's, apps en navigatie achter het stuur, een spraakassistent en een flitspaal-copiloot. Eén enkele app, getest op Sealion 7, Seal, Seal U en Seal U DM-i.
 
-![VEKTRA 2.6.0](https://img.shields.io/badge/VEKTRA-2.6.0-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/talen-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/talen-10-FF4FD8?style=for-the-badge)
 
-[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
+[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
 
-<sub>VERSIE 2.6.0 · 75.6 MB · uitgebracht op 12 november 2026</sub>
+<sub>VERSIE 2.6.1 · 75.6 MB · uitgebracht op 12 november 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · **Nederlands** · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -154,11 +154,11 @@ Elke melding zet je aan of uit in het tabblad Copiloot van de app.
 
 <div align="center">
 
-### VEKTRA 2.6.0
+### VEKTRA 2.6.1
 
 In 10 talen. Updates komen daarna rechtstreeks in de app.
 
-[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk)
+[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
 
 <sub>75.6 MB · Android 9 of nieuwer · BYD DiLink 3 · uitgebracht op 12 november 2026</sub>
 
@@ -170,36 +170,9 @@ In 10 talen. Updates komen daarna rechtstreeks in de app.
 | **Functies van de copiloot** — Alle meldingen en hun instellingen. | [⬇ Downloaden](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_nl.txt) |
 | **Website** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Nieuw in 2.6.0
+### Nieuw in 2.6.1
 
-- Goed om te weten: na de update is geen weergavemodus aangevinkt. Ga naar het tabblad Instrumentenpaneel en vink de jouwe aan voordat je de projectie start.
-- Goed om te weten: de eerste keer dat je „Vektra” roept, downloadt de app eenmalig ongeveer 40 MB om je taal te herkennen.
-- Nieuw: 11 nieuwe thema's in de Theme Store: Chassis, Orbit, Sport, Kaart, Horizon, Noorderlicht, Chronograaf, Energie, Hemel, Carbone 3D+ en VektraUI+.
-- Nieuw: Carbone 3D+, 3D-wijzerplaten onder glas, en VektraUI+, neonbogen.
-- Nieuw: bewegende thema's: de weg van Horizon schuift mee met je snelheid, Noorderlicht en Energie bewegen, Hemel toont het echte weer.
-- Nieuw: Kaart, Carbone 3D+ en VektraUI+ tonen je app (Waze, Google Maps…) of Navigation Vektra in het midden van het paneel.
-- Nieuw: Bewerken: verplaats, vergroot of verberg elk blok van een thema en sla daarna op.
-- Nieuw: de achtergrond van de thema's sluit naadloos aan op het paneel, licht en donker.
-- Nieuw: modus App volledig scherm: alleen je app staat op het paneel, te verplaatsen en te schalen in Bewerken.
-- Nieuw: Voorbeeld › Interaction App: stel de grootte van de app en van de tekst in, en de grootte van de Vektra-kaart. Alleen het paneel verandert, nooit de tablet.
-- Nieuw: nieuwe autobediening, ook met je stem: ramen (ook in %), schuifdak, zonnescherm, koffer, vergrendeling, stoelgeheugen 1/2/3, klimaat per zone, ventilatie, verwarmde stoelen en stuur, verlichting, sfeerverlichting, draadloze lader, rijmodus, regeneratie, spiegels, alarmlichten, laadlimiet en gepland laden.
-- Nieuw: Copiloot: melding als de 12V-accu zwak is.
-- Nieuw: thema's Klassiek en Blade: BRANDSTOF (DM-i-hybrides), ACCU en INTERIEUR linksonder.
-- Nieuw: niets van wat je zegt gaat naar internet vóór het woord „Vektra”.
-- Nieuw (SEALION7): twee weergaveprofielen: Volledig scherm (VEKTRA onder de bovenste balk van de auto) of Klein scherm (je app in het rechtervenster).
-- Nieuw (SEALION7): een Sealion 7-versie van elk thema.
-- Nieuw (SEALION7): autogegevens: snelheid, P/R/N/D, accu, bereik, kilometerstand, 12V-accu, laden, banden en vermogen.
-- Nieuw (SEALION7): geforceerde weergave: VEKTRA komt vóór de originele navigatie van het paneel.
-- Opgelost (SEALION7): vloeiende snelheid en naald, zonder vertraging.
-- Opgelost (SEALION7): de versnelling P/R/N/D klopt, en het openen van deuren en koffer in D is weer geblokkeerd.
-- Opgelost (SEALION7): de buitentemperatuur blijft niet meer op 0 °C hangen.
-- Opgelost: Vektra antwoordt meteen, ook als er muziek speelt.
-- Opgelost: stoelgeheugen: de stoel gaat helemaal naar zijn positie zonder halverwege te stoppen.
-- Opgelost: INTERIEUR toont de echte interieurtemperatuur, niet de ingestelde klimaattemperatuur.
-- Opgelost: geprojecteerde app: al zijn vensters gaan naar het paneel en Sluiten stopt hem volledig.
-- Opgelost: vloeiendere projectie van apps.
-- Opgelost: geen robotstem meer bij het starten.
-- Opgelost: het weer verschijnt snel bij het starten, zonder standaardstad.
+- Opgelost (SEALION7): geen zwarte balk meer onder de balk van de auto: het thema en de app gebruiken het hele projectievenster.
 
 ---
 

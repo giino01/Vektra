@@ -8,11 +8,11 @@
 
 Direksiyonun arkasında 3D temalar, uygulamalar ve navigasyon; sesli asistan ve radar yardımcı pilotu. Sealion 7, Seal, Seal U ve Seal U DM-i üzerinde test edilmiş tek bir uygulama.
 
-![VEKTRA 2.6.0](https://img.shields.io/badge/VEKTRA-2.6.0-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/dil-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/dil-10-FF4FD8?style=for-the-badge)
 
-[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) &nbsp;·&nbsp; [**🌐 Web sitesi**](https://giino01.github.io/Vektra/)
+[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 Web sitesi**](https://giino01.github.io/Vektra/)
 
-<sub>SÜRÜM 2.6.0 · 75.6 MB · yayın tarihi 12 Kasım 2026</sub>
+<sub>SÜRÜM 2.6.1 · 75.6 MB · yayın tarihi 12 Kasım 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe** · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -154,11 +154,11 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 
 <div align="center">
 
-### VEKTRA 2.6.0
+### VEKTRA 2.6.1
 
 10 dilde. Güncellemeler daha sonra doğrudan uygulamaya gelir.
 
-[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk)
+[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
 
 <sub>75.6 MB · Android 9 veya üzeri · BYD DiLink 3 · yayın tarihi 12 Kasım 2026</sub>
 
@@ -170,36 +170,9 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 | **Yardımcı pilot özellikleri** — Tüm uyarılar ve ayarları. | [⬇ İndir](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_tr.txt) |
 | **Web sitesi** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Yenilikler: 2.6.0
+### Yenilikler: 2.6.1
 
-- Bilmen gereken: güncellemeden sonra hiçbir ekran modu işaretli değildir. Yansıtmayı başlatmadan önce Gösterge sekmesine gidip kendi modunu işaretle.
-- Bilmen gereken: “Vektra” diye ilk seslendiğinde uygulama dilini tanımak için yalnızca bir kez yaklaşık 40 MB indirir.
-- Yeni: Theme Store'da 11 yeni tema: Şasi, Orbit, Spor, Harita, Ufuk, Kutup Işığı, Kronograf, Enerji, Gökyüzü, Carbone 3D+ ve VektraUI+.
-- Yeni: Carbone 3D+ ile cam altında 3D göstergeler, VektraUI+ ile neon kemerler.
-- Yeni: hareketli temalar: Ufuk'taki yol hızınla birlikte akar, Kutup Işığı ve Enerji hareket eder, Gökyüzü gerçek hava durumunu gösterir.
-- Yeni: Harita, Carbone 3D+ ve VektraUI+ uygulamanı (Waze, Google Maps…) veya Navigation Vektra'yı panelin ortasında gösterir.
-- Yeni: Düzenle: bir temanın her bloğunu taşı, büyüt veya gizle, sonra kaydet.
-- Yeni: temaların arka planı açık ve koyu modda panelle uyumlu birleşir.
-- Yeni: Tam ekran uygulama modu: panelde yalnızca uygulaman gösterilir, Düzenle'de taşınıp boyutlandırılabilir.
-- Yeni: Önizleme › Interaction App: uygulamanın ve metninin boyutunu, Vektra haritasının boyutunu ayarla. Yalnızca panel değişir, tablet asla değişmez.
-- Yeni: sesle de kullanılabilen yeni araç komutları: camlar (% olarak da), açılır tavan, perde, bagaj, kilit, koltuk hafızası 1/2/3, bölgeye göre klima, havalandırma, ısıtmalı koltuklar ve direksiyon, farlar, ortam aydınlatması, kablosuz şarj, sürüş modu, rejenerasyon, aynalar, dörtlü flaşör, şarj sınırı ve zamanlanmış şarj.
-- Yeni: Yardımcı Pilot: 12 V akü zayıfladığında uyarı.
-- Yeni: Klasik ve Blade temaları: sol altta YAKIT (DM-i hibritler), BATARYA ve KABİN.
-- Yeni: “Vektra” kelimesinden önce söylediğin hiçbir şey internete gönderilmez.
-- Yeni (SEALION7): iki ekran profili: Tam ekran (VEKTRA aracın üst şeridinin altında) veya Küçük ekran (uygulaman sağdaki pencerede).
-- Yeni (SEALION7): her temanın Sealion 7 sürümü.
-- Yeni (SEALION7): araç verileri: hız, P/R/N/D, batarya, menzil, kilometre, 12 V akü, şarj, lastikler ve güç.
-- Yeni (SEALION7): zorunlu görüntü: VEKTRA panelin orijinal navigasyonunun önüne geçer.
-- Düzeltme (SEALION7): hız ve ibre akıcı, gecikmesiz.
-- Düzeltme (SEALION7): P/R/N/D vitesi doğru gösterilir ve D'de kapıların ve bagajın açılması yeniden engellenir.
-- Düzeltme (SEALION7): dış sıcaklık artık 0 °C'de takılı kalmıyor.
-- Düzeltme: Vektra müzik çalarken bile hemen yanıt verir.
-- Düzeltme: koltuk hafızası: koltuk yolda durmadan konumuna kadar gider.
-- Düzeltme: KABİN, klima ayarını değil gerçek kabin sıcaklığını gösterir.
-- Düzeltme: yansıtılan uygulama: tüm pencereleri panele gider ve Kapat onu tamamen durdurur.
-- Düzeltme: uygulama yansıtması daha akıcı.
-- Düzeltme: açılışta artık robotik ses yok.
-- Düzeltme: hava durumu açılışta hızla görünür, varsayılan şehir yok.
+- Düzeltme (SEALION7): aracın şeridinin altında artık siyah şerit yok: tema ve uygulama tüm yansıtma penceresini kullanır.
 
 ---
 

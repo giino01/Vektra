@@ -8,11 +8,11 @@
 
 方向盘后的 3D 主题、应用和导航，还有语音助手与测速副驾驶。一个应用，已在 Sealion 7、Seal、Seal U 和 Seal U DM-i 上测试。
 
-![VEKTRA 2.6.0](https://img.shields.io/badge/VEKTRA-2.6.0-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-10-FF4FD8?style=for-the-badge)
 
-[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) &nbsp;·&nbsp; [**🌐 网站**](https://giino01.github.io/Vektra/)
+[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 网站**](https://giino01.github.io/Vektra/)
 
-<sub>版本 2.6.0 · 75.6 MB · 发布于 2026年11月12日</sub>
+<sub>版本 2.6.1 · 75.6 MB · 发布于 2026年11月12日</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · **中文**
 
@@ -154,11 +154,11 @@ VEKTRA 会适配你 BYD 的仪表盘。
 
 <div align="center">
 
-### VEKTRA 2.6.0
+### VEKTRA 2.6.1
 
 支持 10 种语言。之后，更新会直接推送到应用中。
 
-[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk)
+[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
 
 <sub>75.6 MB · Android 9 或更高 · BYD DiLink 3 · 发布于 2026年11月12日</sub>
 
@@ -170,36 +170,9 @@ VEKTRA 会适配你 BYD 的仪表盘。
 | **副驾驶功能** — 全部提醒及其设置。 | [⬇ 下载](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_zh.txt) |
 | **网站** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### 新增内容 2.6.0
+### 新增内容 2.6.1
 
-- 须知：更新后不会勾选任何显示模式。开始投屏前，请在“仪表盘”标签页中勾选你的模式。
-- 须知：首次说“Vektra”时，应用会一次性下载约 40 MB 语言数据，用于识别你的语言。
-- 新增：Theme Store 新增 11 款主题：底盘、Orbit、运动、地图、地平线、极光、计时码表、能量、天空、Carbone 3D+ 和 VektraUI+。
-- 新增：Carbone 3D+（玻璃罩下的 3D 表盘）和 VektraUI+（霓虹弧环）。
-- 新增：动态主题：地平线的道路随车速流动，极光和能量会动，天空显示实时天气。
-- 新增：地图、Carbone 3D+ 和 VektraUI+ 会在仪表盘中央显示你的应用（Waze、Google 地图……）或 Navigation Vektra。
-- 新增：编辑：移动、放大或隐藏主题中的每个区块，然后保存。
-- 新增：主题背景与仪表盘自然衔接，浅色和深色均适用。
-- 新增：全屏应用模式：仪表盘上只显示你的应用，可在“编辑”中移动和调整大小。
-- 新增：预览 › Interaction App：调整应用及其文字大小，以及 Vektra 地图大小。只改变仪表盘，平板不受影响。
-- 新增：新的车辆控制，也可用语音：车窗（可按百分比）、天窗、遮阳帘、后备厢、门锁、座椅记忆 1/2/3、分区空调、通风、座椅与方向盘加热、车灯、氛围灯、无线充电、驾驶模式、能量回收、后视镜、双闪、充电上限和预约充电。
-- 新增：副驾驶：12V 蓄电池电量低时提醒。
-- 新增：经典和 Blade 主题：左下角显示燃油（DM-i 混动）、电池和车内温度。
-- 新增：说出“Vektra”之前，你说的任何内容都不会发送到网络。
-- 新增（SEALION7）：两种显示配置：全屏（VEKTRA 位于车辆顶部信息条下方）或小窗（你的应用显示在右侧窗口）。
-- 新增（SEALION7）：每款主题都有 Sealion 7 版本。
-- 新增（SEALION7）：车辆数据：车速、P/R/N/D、电池、续航、里程、12V 蓄电池、充电、胎压和功率。
-- 新增（SEALION7）：强制显示：VEKTRA 会显示在仪表盘原厂导航之上。
-- 修复（SEALION7）：车速和指针流畅，无延迟。
-- 修复（SEALION7）：P/R/N/D 挡位显示正确，D 挡时打开车门和后备厢再次被禁止。
-- 修复（SEALION7）：车外温度不再卡在 0 °C。
-- 修复：即使正在播放音乐，Vektra 也会立即回应。
-- 修复：座椅记忆：座椅会一直移动到记忆位置，不再中途停下。
-- 修复：车内温度显示真实的车内温度，而不是空调设定温度。
-- 修复：投屏应用：所有窗口都会显示在仪表盘上，“关闭”会彻底停止该应用。
-- 修复：应用投屏更流畅。
-- 修复：启动时不再出现机器人声音。
-- 修复：启动时天气快速显示，不再有默认城市。
+- 修复（SEALION7）：车辆信息条下方不再有黑色条带：主题和应用会使用整个投屏窗口。
 
 ---
 
