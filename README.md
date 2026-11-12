@@ -1,109 +1,176 @@
 <div align="center">
 
+<img src="img/th_carbonep_std_sombre.jpg" alt="VEKTRA" width="100%">
+
 # V E K T R A
 
-**Le combiné de ta BYD, à ta façon.**
+### Ton combiné BYD, comme tu l'as toujours voulu
 
-Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
+Thèmes 3D, applications et navigation derrière le volant, assistant vocal et copilote radars. Une seule application, testée sur Sealion 7, Seal, Seal U et Seal U DM-i.
 
-**VERSION 2.6.0** · publiée le 12 novembre 2026 · 75.6 Mo
+![VEKTRA 2.6.0](https://img.shields.io/badge/VEKTRA-2.6.0-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/langues-10-FF4FD8?style=for-the-badge)
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**⬇ Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) &nbsp;·&nbsp; [**🌐 Site web**](https://giino01.github.io/Vektra/)
 
-**Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
+<sub>VERSION 2.6.0 · 75.6 Mo · publiée le 12 novembre 2026</sub>
+
+**Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
 </div>
 
 ---
 
-## Aperçu
+## Compatibilité — Testé et approuvé
 
-![Le combiné en ambiance bleue](img/combine-normal.png)
+VEKTRA s'adapte au combiné de ta BYD.
 
-De gauche à droite : la date, le **compteur à aiguille** gradué jusqu'à 220 km/h, la **musique en cours** quelle que soit l'application qui la joue, trois chiffres choisis selon le mode, la **ligne de flux d'énergie** dont le point central part vers la droite en rouge quand la batterie se décharge et vers la gauche en vert quand elle se recharge, puis la **météo animée** et la **pression des quatre pneus** en bar.
-
-![Le combiné en ambiance rouge, mode Sport](img/combine-sport.png)
-
-En Sport, l'ambiance passe au rouge, une pastille `SPORT` apparaît et les trois chiffres du bas changent : puissance, régime moteur et position de l'accélérateur, à la place des consommations et de la batterie.
-
-> Les captures de cette page sont **dessinées par le code de la version publiée** à chaque publication, avec des valeurs de démonstration. Elles ne peuvent donc pas montrer une version plus ancienne que celle proposée ici.
-
-## Les thèmes
-
-La touche **Thème** ouvre le **Theme Store** et fait défiler les thèmes installés. **Carbone 3D** est le thème intégré par défaut et **VektraUI** l'autre thème intégré ; le thème **Aston** se télécharge en un geste. Le choix est retenu et revient à l'allumage.
-
-![Le même thème en fond clair](img/clair-theme-vektraui.png)
-
-Chaque thème existe en sombre et en clair. Le fond clair reprend le bleu-gris de la surcouche BYD, mesuré sur photo, pour que l'application se fonde dedans au lieu d'y être posée. Le réglage **Apparence** choisit l'un, l'autre, ou suit la tablette.
-
-## Ce qu'il faut
-
-- Un véhicule **BYD équipé de DiLink 3.0 (13.1.32 et 13.1.33), DiLink 4.0 ou DiLink 5.0 / 5.1**, reconnu automatiquement.
-- La tablette doit accepter l'**installation d'applications extérieures** (sideload).
-- Le **débogage ADB en réseau** actif sur la tablette, port 5555. VEKTRA s'y connecte en local, sur la tablette elle-même — rien ne sort du véhicule.
-- Une connexion internet sur la tablette pour la météo et les mises à jour. Tout le reste fonctionne hors ligne.
-
-**Pourquoi l'ADB.** Les commandes qui libèrent l'écran du combiné ne sont autorisées qu'à l'utilisateur `shell` d'Android. Une application ordinaire ne peut pas les envoyer. VEKTRA passe donc par l'ADB de la tablette, en local, pour obtenir ce droit.
-
-## Installation
-
-1. Télécharge le fichier de l'application depuis cette page, sur la tablette.
-2. Ouvre-le et accepte l'installation. Si Android refuse, autorise les « sources inconnues » pour le gestionnaire de fichiers utilisé.
-3. Ouvre VEKTRA. Au tout premier démarrage, l'écran d'accueil demande la langue, puis le modèle de ta voiture.
-4. Choisis ta langue puis ton modèle, en appuyant sur **Continuer** à chaque étape. L'écran principal s'ouvre.
-5. La première commande envoyée fera apparaître la demande **« Autoriser le débogage USB ? »**. Coche **Toujours autoriser**, puis accepte. Cette demande n'apparaît qu'une fois.
-
-![Écran d'accueil et choix de la langue](img/accueil-langue.png)
-
-Dix langues sont disponibles : français, anglais, néerlandais, allemand, espagnol, italien, portugais du Brésil, arabe, turc et chinois.
-
-## Activer l'affichage
-
-1. Dans la section **Contrôle**, appuie sur **Vérifier · ADB et diagnostic**. C'est ce qui déclenche l'autorisation de débogage et confirme que la connexion fonctionne.
-2. Reviens sur **Combiné** et appuie sur **Afficher sur le combiné**. Avant cela, coche un mode d'affichage : **Plein écran thème** ou **Plein écran app** (et **Petit écran** sur Sealion 7). Sans mode coché, la projection ne démarre pas, même au démarrage de la voiture.
-3. Le tableau de bord d'origine se met en veille, l'écran virtuel du combiné est créé, puis VEKTRA s'y affiche. L'opération prend une dizaine de secondes.
-4. L'aperçu au centre de la tablette montre en direct ce qui est dessiné derrière le volant. Le bouton **Aperçu** le replie si tu préfères un tableau d'état.
-
-**Pour revenir en arrière**, appuie sur **Revenir à l'origine** : le tableau de bord BYD reprend la main. Si jamais il ne revient pas, coupe puis remets le contact.
-
-## Le rail de gauche
-
-| Section | À quoi elle sert |
+| Modèle | Statut |
 | --- | --- |
-| **Combiné** | L'aperçu en direct, le bouton d'affichage, le choix de l'écran, du mode et du thème. |
-| **Contrôle** | Le relevé complet des équipements détectés, avec un bouton pour tout copier. |
-| **Journal** | Chaque commande envoyée et chaque réponse reçue. |
-| **Réglages** | Langue, apparence, démarrage automatique, accès musique, mises à jour, météo. |
+| **Sealion 7** | ✅ Testé et approuvé |
+| **Seal** | ✅ Testé et approuvé |
+| **Seal U** | ✅ Testé et approuvé |
+| **Seal U DM-i** | ✅ Testé et approuvé |
+| **Autres modèles** | ⏳ À confirmer |
 
-![Combiné](img/tablette-combine.png)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![Réglages](img/tablette-reglages.png)
+**SEAL · SEAL U · SEAL U DM-i** — Tout le combiné
 
-## Musique
+<img src="img/th_vektrap_std_sombre.jpg" alt="VektraUI+" width="100%">
 
-Pour afficher le morceau en cours, VEKTRA a besoin de l'**accès aux notifications** : c'est la règle d'Android pour lire les sessions audio. Appuie sur la ligne **Accès aux notifications** et l'application se l'accorde elle-même par l'ADB, sans rien effacer de la liste existante. Une fois accordé, le titre, l'artiste, la pochette et la progression s'affichent, **quelle que soit l'application qui joue** — radio, Bluetooth, ou une app installée.
+- **Plein écran thème** — le thème complet, avec ton application au centre
+- **Plein écran app** — Waze, Google Maps ou Navigation Vektra sur tout le combiné
+- Carburant et autonomie sur les hybrides DM-i
 
-## Démarrage et arrêt automatiques
+</td>
+<td width="50%" valign="top">
 
-Quand ce réglage est actif, VEKTRA prend le combiné dès que la voiture est allumée et le rend dès qu'elle est coupée. L'état du véhicule est lu **directement dans la voiture**, une fois par seconde : 0 éteint, 1 accessoires, 2 contact mis. Une coupure doit être confirmée deux fois d'affilée avant que l'écran soit rendu — un seul hoquet de la voiture ne doit pas faire disparaître l'affichage en pleine route.
+**SEALION 7** — Pensé pour son combiné
 
-## Apparence
+<img src="img/th_carbonep_s7_sombre.jpg" alt="Carbone 3D+ Sealion 7" width="100%">
 
-Sombre, claire, ou automatique — l'apparence suit alors celle de la tablette. Le réglage ne concerne que le combiné : l'écran de la tablette reste sombre en toutes circonstances, c'est un poste de pilotage.
+- **Plein écran** — VEKTRA sous la bande du haut de la voiture
+- **Petit écran** — une fenêtre à droite avec ton application
+- Une version Sealion 7 de chaque thème
+- Vitesse, rapport, batterie, pneus et puissance de la voiture
 
-## Mise à jour
+</td>
+</tr>
+</table>
 
-VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponible, une fenêtre affiche les nouveautés et propose **Plus tard** ou **Télécharger et installer**. Si tu acceptes, l'application se télécharge, s'installe par-dessus et se rouvre seule. Toutes les versions portent la **même signature** : une mise à jour remplace toujours la précédente sans qu'Android la refuse, et sans perdre les réglages.
+## Thèmes — 11 thèmes, en clair et en sombre
 
-## En cas de souci
+Applique-les en un geste, puis déplace chaque élément comme tu veux dans Édition.
 
-- **Le combiné reste figé.** Appuie sur *Revenir à l'origine*, puis réessaie. Si rien ne change, coupe et remets le contact.
-- **Aucune donnée, que des tirets.** Le SDK de la voiture n'a pas répondu. La section Contrôle dit lesquels des appareils sont joignables.
-- **La musique ne s'affiche pas.** L'accès aux notifications n'est pas accordé : voir plus haut. Vérifie aussi que quelque chose joue réellement.
-- **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
-- **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
+<table>
+<tr><td width="33%" valign="top"><img src="img/th_carbonep_std_sombre.jpg" alt="Carbone 3D+" width="100%"><br><b>Carbone 3D+</b><br><sub>Cadrans 3D sous verre</sub></td><td width="33%" valign="top"><img src="img/th_vektrap_std_sombre.jpg" alt="VektraUI+" width="100%"><br><b>VektraUI+</b><br><sub>Arches néon</sub></td><td width="33%" valign="top"><img src="img/th_chrono_std_sombre.jpg" alt="Chronographe" width="100%"><br><b>Chronographe</b><br><sub>Cadrans de montre</sub></td></tr>
+<tr><td width="33%" valign="top"><img src="img/th_horizon_std_sombre.jpg" alt="Horizon" width="100%"><br><b>Horizon</b><br><sub>La route défile avec ta vitesse</sub></td><td width="33%" valign="top"><img src="img/th_aurore_std_sombre.jpg" alt="Aurore" width="100%"><br><b>Aurore</b><br><sub>Aurore boréale animée</sub></td><td width="33%" valign="top"><img src="img/th_energie_std_sombre.jpg" alt="Énergie" width="100%"><br><b>Énergie</b><br><sub>Batterie en capsule de plasma</sub></td></tr>
+<tr><td width="33%" valign="top"><img src="img/th_ciel_std_clair.jpg" alt="Ciel" width="100%"><br><b>Ciel</b><br><sub>La météo réelle en fond</sub></td><td width="33%" valign="top"><img src="img/th_chassis_std_sombre.jpg" alt="Châssis" width="100%"><br><b>Châssis</b><br><sub>Pression de chaque pneu</sub></td><td width="33%" valign="top"><img src="img/th_carte_std_sombre.jpg" alt="Carte" width="100%"><br><b>Carte</b><br><sub>Ton application en grand</sub></td></tr>
+<tr><td width="33%" valign="top"><img src="img/th_orbit_std_sombre.jpg" alt="Orbit" width="100%"><br><b>Orbit</b><br><sub>Anneaux vitesse et batterie</sub></td><td width="33%" valign="top"><img src="img/th_sport_std_sombre.jpg" alt="Sport" width="100%"><br><b>Sport</b><br><sub>Couleurs du mode de conduite</sub></td></tr>
+</table>
 
-## Nouveautés de la 2.6.0
+## Applications
+
+**Waze, Google Maps ou la carte Vektra derrière le volant**
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Dans le thème**
+
+<img src="img/th_carte_std_sombre.jpg" alt="" width="100%">
+
+- Carte, Carbone 3D+ et VektraUI+ gardent tes compteurs autour de l'application
+- Navigation Vektra : la carte Vektra au centre du combiné
+
+</td>
+<td width="50%" valign="top">
+
+**Plein écran app**
+
+- Seule l'application est affichée sur le combiné
+- Déplace-la et redimensionne-la comme tu veux dans Édition
+- Taille de l'application et du texte réglables, seulement sur le combiné : la tablette ne change pas
+- Sealion 7 : aussi en Petit écran, dans la fenêtre de droite
+
+</td>
+</tr>
+</table>
+
+## Assistant · commandes
+
+**Toutes les commandes de Vektra** — Dis « Vektra », puis ta demande. Rien de ce que tu dis n'est envoyé sur internet avant le mot « Vektra ».
+
+| Catégorie | | Exemples |
+| --- | :---: | --- |
+| **Vitres** | 16 | « Vektra, ouvre les fenêtres » / « Ouvre toutes les vitres »<br>« Vektra, ferme les fenêtres » / « Ferme toutes les vitres »<br>« Vektra, ferme tout » / « Ferme la voiture » |
+| **Toit & store** | 9 | « Vektra, ouvre le toit ouvrant »<br>« Vektra, ferme le toit ouvrant »<br>« Vektra, entrebâille le toit ouvrant » / « Incline le toit ouvrant » |
+| **Climatisation** | 15 | « Vektra, allume la climatisation » / « Mets la clim »<br>« Vektra, coupe la climatisation » / « Éteins la clim »<br>« Vektra, mets la clim en mode auto » |
+| **Sièges & volant** | 10 | « Vektra, allume mon siège chauffant »<br>« Vektra, allume le siège chauffant passager »<br>« Vektra, allume les deux sièges chauffants » |
+| **Coffre, rétros & ambiance** | 20 | « Vektra, tourne l'écran » / « Pivote l'écran »<br>« Vektra, mets l'écran en portrait » / « Mets l'écran en paysage »<br>« Vektra, ouvre le coffre » |
+| **Conduite & énergie** | 21 | « Vektra, passe en mode Sport »<br>« Vektra, active le mode Éco »<br>« Vektra, remets le mode Normal » |
+| **Musique & volume** | 7 | « Vektra, piste suivante » / « Chanson suivante »<br>« Vektra, piste précédente »<br>« Vektra, mets la musique en pause » / « Coupe la musique » |
+| **Combiné & thèmes** | 12 | « Vektra, mets le thème Carbone »<br>« Vektra, mets le thème Aston »<br>« Vektra, mets le thème VektraUI » |
+| **Applications** | 6 | « Vektra, emmène-moi à la Grand-Place de Bruxelles »<br>« Vektra, navigue vers Charleroi » / « Itinéraire vers Namur »<br>« Vektra, arrête la navigation » |
+
+[**⬇ Télécharger la liste complète**](https://giino01.github.io/Vektra/commandes/VEKTRA_ASSISTANT_COMMANDES.txt)
+
+## Copilote — Ton copilote, toujours en éveil
+
+Chaque alerte s'active ou se désactive dans l'onglet Copilote de l'application.
+
+| Fonction | |
+| --- | --- |
+| **Alertes radars & trafic** | Radars fixes, mobiles, tronçons, feux rouges, travaux et ralentissements. Annonce environ 15 secondes avant (300, 500 ou 1000 m selon la vitesse), rappel plus près, bip au passage du radar. |
+| **Base radars** | Mise à jour automatiquement chaque semaine. |
+| **Types d'alertes** | Coche les alertes que tu veux entendre. |
+| **Guidage vocal de stationnement** | Annonce vocale des distances en manœuvre et marche arrière · 100 % vocal |
+| **Surveillance batterie & énergie** | Alertes préventives sous 20 % et conseils de recharge par grand froid |
+| **Alerte batterie 12 V faible** | Vektra prévient quand la tension de la batterie 12 V reste sous 11,8 V (si la voiture la donne). |
+| **Surveillance pneus & route** | Alerte perte de pression anormale et risque de verglas sous 3°C |
+| **Alerte pause anti-fatigue** | Suggestion bienveillante de pause après 2h de conduite continue |
+| **Pluie → alerte vitres** | Vektra te prévient de penser à fermer les vitres (simple alerte, sans question). |
+| **Alerte brouillard** | Prévient quand la météo signale du brouillard à ta position et que tu roules. Une alerte par trajet. |
+| **Annonce hors-ligne** | Dit quand le réseau tombe et ce qui reste possible, puis annonce son retour. |
+
+[**⬇ Télécharger la liste complète**](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE.txt)
+
+## Installation — Prêt en 7 étapes
+
+| # | Installation |
+| :---: | --- |
+| **1** | **Télécharge l'APK** — Au choix : avec le navigateur de la tablette, sur une clé USB, ou via Telegram sur la tablette. |
+| **2** | **Installe VEKTRA** — Ouvre le fichier téléchargé et confirme l'installation. |
+| **3** | **Accorde les permissions de l'application** — Accepte chaque autorisation demandée à la première ouverture. |
+| **4** | **Accorde les permissions ADB** — Accepte la demande d'autorisation ADB affichée par la tablette. |
+| **5** | ⏱ **Attends 30 secondes** — Après la première ouverture de VEKTRA, laisse la tablette environ 30 secondes sans y toucher. |
+| **6** | **Redémarre la tablette** — Un redémarrage, et tout est en place. |
+| **7** | ✅ **Choisis et lance** — Dans l'onglet Combiné : ton modèle, ton mode d'affichage, puis lance la projection. Les mises à jour se font ensuite directement dans l'application. |
+
+## Téléchargement
+
+<div align="center">
+
+### VEKTRA 2.6.0
+
+En 10 langues. Les mises à jour arrivent ensuite directement dans l'application.
+
+[**⬇ Télécharger l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk)
+
+<sub>75.6 Mo · Android 9 ou plus · BYD DiLink 3 · publiée le 12 novembre 2026</sub>
+
+</div>
+
+| Fonction | Téléchargement |
+| --- | --- |
+| **Commandes de l'assistant** — La liste complète, dans ta langue. | [⬇ Télécharger](https://giino01.github.io/Vektra/commandes/VEKTRA_ASSISTANT_COMMANDES.txt) |
+| **Fonctions du copilote** — Toutes les alertes et leurs réglages. | [⬇ Télécharger](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE.txt) |
+| **Site web** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
+
+### Nouveautés de la 2.6.0
 
 - À savoir : après la mise à jour, aucun mode d'affichage n'est coché. Va dans l'onglet Combiné et coche le tien avant de lancer la projection.
 - À savoir : au premier appel « Vektra », l'application télécharge une seule fois environ 40 Mo pour reconnaître ta langue.
@@ -136,4 +203,10 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 
 ---
 
-Projet personnel, sans aucun lien avec BYD. Installation et usage à tes risques. Les informations affichées viennent du système de la voiture et peuvent être inexactes : ne t'y fie jamais pour conduire.
+<div align="center">
+
+**VEKTRA · application indépendante, non affiliée à BYD**
+
+<sub>Projet personnel, sans aucun lien avec BYD. Installation et usage à tes risques. Les informations affichées viennent du système de la voiture et peuvent être inexactes : ne t'y fie jamais pour conduire.</sub>
+
+</div>

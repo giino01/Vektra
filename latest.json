@@ -1,8 +1,8 @@
 {
   "version": "2.6.0",
   "apk": "Vektra-2.6.0.apk",
-  "size": 79291763,
-  "sha256": "30a8a09a4f4bd603223ffb2b28ab74c924fdff9833b6c51cb6c8950566b4c508",
+  "size": 79291787,
+  "sha256": "214b70e42576f2b4084609a6637cd4b1be2ad5514255f3d2366c8217e3d8f1f6",
   "notes": [
     "À savoir : après la mise à jour, aucun mode d'affichage n'est coché. Va dans l'onglet Combiné et coche le tien avant de lancer la projection.",
     "À savoir : au premier appel « Vektra », l'application télécharge une seule fois environ 40 Mo pour reconnaître ta langue.",
