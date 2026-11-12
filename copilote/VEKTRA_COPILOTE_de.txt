@@ -1,0 +1,36 @@
+================================================================
+VEKTRA — Copilot-Funktionen
+================================================================
+
+• Blitzer- & Verkehrswarnungen
+  Feste und mobile Blitzer, Abschnittskontrollen, Rotlichtkameras, Baustellen und Staus. Ansage etwa 15 Sekunden vorher (300, 500 oder 1000 m je nach Tempo), Erinnerung näher, Piepton beim Passieren.
+
+• Blitzer-Datenbank
+  Wird jede Woche automatisch aktualisiert.
+
+• Warnungsarten
+  Hake die Warnungen an, die du hören willst.
+
+• Akustische Parkführung
+  Sprachansage der Parkabstände beim Rangieren und Rückwärtsfahren · 100 % Sprache
+
+• Batterie- & Energieüberwachung
+  Frühwarnungen unter 20 % und Ladetipps bei Kälte
+
+• Warnung schwache 12-V-Batterie
+  Vektra warnt, wenn die Spannung der 12-V-Batterie unter 11,8 V bleibt (falls das Auto sie liefert).
+
+• Reifen- & Straßenüberwachung
+  Warnung bei Druckverlust und Glatteisgefahr unter 3°C
+
+• Müdigkeitswarnung
+  Freundliche Pausenempfehlung nach 2 Stunden ununterbrochener Fahrt
+
+• Regen → Fenster-Hinweis
+  Vektra erinnert dich daran, die Fenster zu schließen (nur ein Hinweis, ohne Rückfrage).
+
+• Nebelwarnung
+  Warnt, wenn das Wetter an deinem Standort Nebel meldet, während du fährst. Einmal pro Fahrt.
+
+• Offline-Ansage
+  Meldet den Netzausfall und was weiterhin geht, und meldet die Rückkehr.

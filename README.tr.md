@@ -6,9 +6,9 @@
 
 BYD DiLink 3 araçlarda direksiyon arkasındaki ekran için özel gösterge paneli.
 
-**SÜRÜM 2.5.1** · yayın tarihi 10 Kasım 2026 · 48.2 MB
+**SÜRÜM 2.6.0** · yayın tarihi 12 Kasım 2026 · 75.6 MB
 
-[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
+[**Uygulamayı indir**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) · [**Proje sayfası**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe**
 
@@ -60,7 +60,7 @@ On dil mevcut: Fransızca, İngilizce, Felemenkçe, Almanca, İspanyolca, İtaly
 ## Göstergeyi açmak
 
 1. **Kontrol** bölümünde **Denetle · ADB ve tanılama**'ya dokunun. Hata ayıklama iznini bu tetikler ve bağlantının çalıştığını doğrular.
-2. **Gösterge**'ye dönün ve **Göstergede göster**'e dokunun.
+2. **Gösterge**'ye dönün ve **Göstergede göster**'e dokunun. Önce bir görüntü modu işaretleyin: **Tam ekran tema** veya **Tam ekran uygulama** (Sealion 7'de ayrıca **Küçük ekran**). Mod işaretlenmezse yansıtma, araç çalıştırıldığında bile başlamaz.
 3. Fabrika göstergesi uykuya geçer, sanal gösterge ekranı oluşturulur, ardından VEKTRA orada görünür. İşlem yaklaşık on saniye sürer.
 4. Tabletin ortasındaki önizleme, direksiyon arkasında çizileni canlı gösterir. **Önizleme** düğmesi, durum tablosunu tercih ederseniz bunu kapatır.
 
@@ -103,16 +103,36 @@ VEKTRA her açılışta kendisi denetler. Bir sürüm mevcut olduğunda bir penc
 - **Güncelleme "Kullanılamıyor" diyor.** Tablet kaynağa ulaşamadı. İnternet bağlantısını denetleyip yeniden deneyin: kesin neden görüntülenir.
 - **Başka bir şey.** *Kontrol*'ü açın, *Taramanın tamamını kopyala*'ya dokunun ve metni gönderin. Anlamak için gereken her şeyi içerir.
 
-## Yenilikler: 2.5.1
+## Yenilikler: 2.6.0
 
-- Yeni: radar ve trafik uyarıları gerçek bir navigasyon gibi çalışıyor: uyarı mesafesi hızına göre ayarlanıyor ve radarı geçerken bip sesi çalıyor.
-- Yeni: ortalama hız bölümleri baştan sona izleniyor ve ortalama hızın söyleniyor.
-- Yeni: Vektra paralel yoldaki veya karşı yöndeki radarları daha iyi ayırt ediyor ve trafik sıkışıklığının uzunluğunu söylüyor.
-- Yeni: Yardımcı pilot'ta yeni bir “Radarlar ve trafik” grubu: sesli veya tonlu uyarılar, uyarı türlerinin seçimi, ses ve ton düzeyi.
-- Yeni: Avrupa radar veritabanı her hafta kendiliğinden güncelleniyor; yüklendiği tarih ve saat gösteriliyor.
-- Düzeltme: park yardımı duyuruları artık sürüş sırasında başlamıyor ve uyarılar sırasında asistan görseli görünmüyor.
-- Düzeltme: Vektra başka bir dile ayarlıyken artık İngilizce yanıt vermiyor.
-- Düzeltme: uygulamadaki birçok metin artık tüm dillere çevrildi.
+- Bilmen gereken: güncellemeden sonra hiçbir ekran modu işaretli değildir. Yansıtmayı başlatmadan önce Gösterge sekmesine gidip kendi modunu işaretle.
+- Bilmen gereken: “Vektra” diye ilk seslendiğinde uygulama dilini tanımak için yalnızca bir kez yaklaşık 40 MB indirir.
+- Yeni: Theme Store'da 11 yeni tema: Şasi, Orbit, Spor, Harita, Ufuk, Kutup Işığı, Kronograf, Enerji, Gökyüzü, Carbone 3D+ ve VektraUI+.
+- Yeni: Carbone 3D+ ile cam altında 3D göstergeler, VektraUI+ ile neon kemerler.
+- Yeni: hareketli temalar: Ufuk'taki yol hızınla birlikte akar, Kutup Işığı ve Enerji hareket eder, Gökyüzü gerçek hava durumunu gösterir.
+- Yeni: Harita, Carbone 3D+ ve VektraUI+ uygulamanı (Waze, Google Maps…) veya Navigation Vektra'yı panelin ortasında gösterir.
+- Yeni: Düzenle: bir temanın her bloğunu taşı, büyüt veya gizle, sonra kaydet.
+- Yeni: temaların arka planı açık ve koyu modda panelle uyumlu birleşir.
+- Yeni: Tam ekran uygulama modu: panelde yalnızca uygulaman gösterilir, Düzenle'de taşınıp boyutlandırılabilir.
+- Yeni: Önizleme › Interaction App: uygulamanın ve metninin boyutunu, Vektra haritasının boyutunu ayarla. Yalnızca panel değişir, tablet asla değişmez.
+- Yeni: sesle de kullanılabilen yeni araç komutları: camlar (% olarak da), açılır tavan, perde, bagaj, kilit, koltuk hafızası 1/2/3, bölgeye göre klima, havalandırma, ısıtmalı koltuklar ve direksiyon, farlar, ortam aydınlatması, kablosuz şarj, sürüş modu, rejenerasyon, aynalar, dörtlü flaşör, şarj sınırı ve zamanlanmış şarj.
+- Yeni: Yardımcı Pilot: 12 V akü zayıfladığında uyarı.
+- Yeni: Klasik ve Blade temaları: sol altta YAKIT (DM-i hibritler), BATARYA ve KABİN.
+- Yeni: “Vektra” kelimesinden önce söylediğin hiçbir şey internete gönderilmez.
+- Yeni (SEALION7): iki ekran profili: Tam ekran (VEKTRA aracın üst şeridinin altında) veya Küçük ekran (uygulaman sağdaki pencerede).
+- Yeni (SEALION7): her temanın Sealion 7 sürümü.
+- Yeni (SEALION7): araç verileri: hız, P/R/N/D, batarya, menzil, kilometre, 12 V akü, şarj, lastikler ve güç.
+- Yeni (SEALION7): zorunlu görüntü: VEKTRA panelin orijinal navigasyonunun önüne geçer.
+- Düzeltme (SEALION7): hız ve ibre akıcı, gecikmesiz.
+- Düzeltme (SEALION7): P/R/N/D vitesi doğru gösterilir ve D'de kapıların ve bagajın açılması yeniden engellenir.
+- Düzeltme (SEALION7): dış sıcaklık artık 0 °C'de takılı kalmıyor.
+- Düzeltme: Vektra müzik çalarken bile hemen yanıt verir.
+- Düzeltme: koltuk hafızası: koltuk yolda durmadan konumuna kadar gider.
+- Düzeltme: KABİN, klima ayarını değil gerçek kabin sıcaklığını gösterir.
+- Düzeltme: yansıtılan uygulama: tüm pencereleri panele gider ve Kapat onu tamamen durdurur.
+- Düzeltme: uygulama yansıtması daha akıcı.
+- Düzeltme: açılışta artık robotik ses yok.
+- Düzeltme: hava durumu açılışta hızla görünür, varsayılan şehir yok.
 
 ---
 

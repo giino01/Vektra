@@ -194,7 +194,8 @@ Groq artificial intelligence (Llama 3.3 70B).
   - "Vektra, open the trunk"
   - "Vektra, close the trunk"
   - "Vektra, stop the trunk" (stops the tailgate mid-travel)
-  - The tailgate does not accept a percentage: it has no position command.
+  - "Vektra, open the trunk to 50%": the tailgate stops at the requested position,
+    only if the car reports its position; otherwise it opens fully.
 
 • Exterior mirrors:
   - "Vektra, fold the mirrors"
@@ -239,6 +240,30 @@ Groq artificial intelligence (Llama 3.3 70B).
   - "Vektra, switch to HEV mode" / "Switch to hybrid mode"
   - "Vektra, set regeneration to high" / "Standard regeneration"
 
+• Exterior lights:
+  - "Vektra, turn on the hazard lights" / "Turn off the hazard lights"
+  - "Vektra, set the headlights to auto" / "Turn on the low beams"
+  - "Vektra, turn on the parking lights" / "Turn off the headlights" (refused while driving)
+  - "Vektra, flash the headlights"
+  - "Vektra, set the ambient brightness to 50%"
+
+• Driving settings:
+  - "Vektra, turn on the mirror dip in reverse" / "Turn it off"
+  - "Vektra, set the steering to Sport" / "Comfort steering"
+  - "Vektra, set the brake pedal to Sport" / "Comfort brake"
+
+• Charging & battery:
+  - "Vektra, stop charging at 80%" / "Remove the charge limit"
+  - "Vektra, hold the battery at 40%" / "Hold the current level"
+    / "Stop holding the battery" (DM-i hybrids)
+  - "Vektra, turn on scheduled charging" / "Turn off scheduled charging"
+
+• Passenger, zones and chargers:
+  - "Vektra, set the passenger seat to position 2"
+    (seat memory positions are only recalled when stopped)
+  - "Vektra, set 22 degrees on the passenger side" / "Set 21 degrees everywhere"
+  - "Vektra, turn off the left wireless charger" / "Turn on the right one"
+
 --------------------------------------------------------------------------------
 11. MEDIA, MUSIC & AUDIO VOLUME
 --------------------------------------------------------------------------------
@@ -257,9 +282,9 @@ Groq artificial intelligence (Llama 3.3 70B).
 12. INSTRUMENT CLUSTER, 3D THEMES & ADAS
 --------------------------------------------------------------------------------
 • Driver cluster themes:
-  - "Vektra, set the Carbon theme" (Carbon 3D)
+  - "Vektra, set the Carbon theme" (Carbone 3D+)
   - "Vektra, set the Aston theme" (Aston Luxury)
-  - "Vektra, set the VektraUI theme"
+  - "Vektra, set the VektraUI theme" (VektraUI+)
 
 • Cluster projection, return to original state & ADAS display:
   - "Vektra, start the projection" / "Project the cluster" / "Launch the cluster"

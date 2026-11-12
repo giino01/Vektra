@@ -6,9 +6,9 @@
 
 Painel personalizado para o ecrã atrás do volante dos veículos BYD DiLink 3.
 
-**VERSÃO 2.5.1** · publicada a 10 de novembro de 2026 · 48.2 MB
+**VERSÃO 2.6.0** · publicada a 12 de novembro de 2026 · 75.6 MB
 
-[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
+[**Transferir a aplicação**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) · [**Página do projeto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md)
 
@@ -60,7 +60,7 @@ Estão disponíveis dez idiomas: francês, inglês, neerlandês, alemão, espanh
 ## Ativar a visualização
 
 1. Na secção **Controlo**, carrega em **Verificar · ADB e diagnóstico**. É o que despoleta a autorização de depuração e confirma que a ligação funciona.
-2. Volta a **Painel** e carrega em **Mostrar no painel**.
+2. Volta a **Painel** e carrega em **Mostrar no painel**. Antes, marca um modo de visualização: **Tema em ecrã inteiro** ou **Aplicação em ecrã inteiro** (e **Ecrã pequeno** no Sealion 7). Sem modo marcado, a projeção não arranca, nem ao ligar o carro.
 3. O painel original entra em suspensão, o ecrã virtual do painel é criado e o VEKTRA aparece nele. A operação demora uns dez segundos.
 4. A pré-visualização no centro do tablet mostra em direto o que é desenhado atrás do volante. O botão **Pré-visualização** fecha-a se preferires um quadro de estado.
 
@@ -103,16 +103,36 @@ O VEKTRA verifica sozinho a cada abertura. Quando há uma versão disponível, u
 - **A atualização diz «Indisponível».** O tablet não alcançou a fonte. Verifica a ligação à internet e tenta de novo: o motivo exato é mostrado.
 - **Outra coisa.** Abre *Controlo*, carrega em *Copiar todo o scan* e envia o texto. Contém tudo o que é preciso para perceber.
 
-## Novidades da 2.5.1
+## Novidades da 2.6.0
 
-- Novidade: os alertas de radares e trânsito funcionam como um verdadeiro GPS: a distância do aviso adapta-se à sua velocidade e soa um bip ao passar o radar.
-- Novidade: os radares de troço são seguidos do início ao fim, com a sua velocidade média anunciada.
-- Novidade: a Vektra ignora melhor os radares de uma estrada paralela ou do outro sentido e anuncia o comprimento das filas.
-- Novidade: no Copiloto, um novo grupo «Radares e trânsito»: alertas por voz ou por sons, escolha dos tipos de alerta, volume da voz e dos sons.
-- Novidade: a base europeia de radares atualiza-se sozinha todas as semanas; a data e a hora de carregamento são mostradas.
-- Correção: os avisos da assistência ao estacionamento já não começam em andamento e o visual da assistente já não aparece durante os alertas.
-- Correção: a Vektra já não responde em inglês quando está configurada noutra língua.
-- Correção: muitos textos da aplicação estão agora traduzidos em todas as línguas.
+- A saber: depois da atualização, nenhum modo de ecrã fica selecionado. Vai ao separador Painel e seleciona o teu antes de iniciar a projeção.
+- A saber: na primeira vez que chamas «Vektra», a app transfere uma única vez cerca de 40 MB para reconhecer o teu idioma.
+- Novidade: 11 novos temas na Theme Store: Chassi, Orbit, Sport, Mapa, Horizonte, Aurora, Cronógrafo, Energia, Céu, Carbone 3D+ e VektraUI+.
+- Novidade: Carbone 3D+, mostradores 3D sob vidro, e VektraUI+, arcos de néon.
+- Novidade: temas animados: a estrada do Horizonte passa com a tua velocidade, Aurora e Energia mexem-se, Céu mostra o tempo real.
+- Novidade: Mapa, Carbone 3D+ e VektraUI+ mostram a tua app (Waze, Google Maps…) ou a Navigation Vektra no centro do painel.
+- Novidade: Edição: move, aumenta ou esconde cada bloco de um tema e depois guarda.
+- Novidade: o fundo dos temas liga-se ao painel, em claro e em escuro.
+- Novidade: modo Aplicação em ecrã inteiro: só a tua app é mostrada no painel, para mover e redimensionar em Edição.
+- Novidade: Prévia › Interaction App: ajusta o tamanho da app e do seu texto, e o tamanho do mapa Vektra. Só o painel muda, nunca o tablet.
+- Novidade: novos comandos do carro, também por voz: vidros (até em %), tejadilho, cortina, mala, trancas, memória do banco 1/2/3, climatização por zona, ventilação, bancos e volante aquecidos, luzes, iluminação ambiente, carregador sem fios, modo de condução, regeneração, espelhos, luzes de emergência, limite de carga e carregamento programado.
+- Novidade: Copiloto: alerta quando a bateria de 12 V está fraca.
+- Novidade: temas Clássico e Blade: COMBUSTÍVEL (híbridos DM-i), BATERIA e HABITÁCULO em baixo à esquerda.
+- Novidade: nada do que dizes é enviado para a internet antes da palavra «Vektra».
+- Novidade (SEALION7): dois perfis de ecrã: Ecrã inteiro (VEKTRA por baixo da faixa superior do carro) ou Ecrã pequeno (a tua app na janela da direita).
+- Novidade (SEALION7): uma versão Sealion 7 de cada tema.
+- Novidade (SEALION7): dados do carro: velocidade, P/R/N/D, bateria, autonomia, quilometragem, bateria de 12 V, carregamento, pneus e potência.
+- Novidade (SEALION7): exibição forçada: o VEKTRA fica à frente da navegação original do painel.
+- Correção (SEALION7): velocidade e ponteiro fluidos, sem atraso.
+- Correção (SEALION7): a mudança P/R/N/D está correta, e a abertura das portas e da mala em D volta a estar bloqueada.
+- Correção (SEALION7): a temperatura exterior já não fica presa nos 0 °C.
+- Correção: a Vektra responde logo, mesmo com música a tocar.
+- Correção: memória do banco: o banco vai até à sua posição sem parar a meio.
+- Correção: HABITÁCULO mostra a verdadeira temperatura do habitáculo, e não a definida na climatização.
+- Correção: app projetada: todas as suas janelas vão para o painel, e Fechar termina-a por completo.
+- Correção: projeção das apps mais fluida.
+- Correção: acabou a voz robótica no arranque.
+- Correção: o tempo aparece depressa no arranque, sem cidade predefinida.
 
 ---
 

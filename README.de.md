@@ -6,9 +6,9 @@
 
 Individuelles Kombiinstrument für den Bildschirm hinter dem Lenkrad von BYD-DiLink-3-Fahrzeugen.
 
-**VERSION 2.5.1** · veröffentlicht am 10. November 2026 · 48.2 MB
+**VERSION 2.6.0** · veröffentlicht am 12. November 2026 · 75.6 MB
 
-[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
+[**Anwendung herunterladen**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) · [**Projektseite**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -60,7 +60,7 @@ Zehn Sprachen stehen zur Verfügung: Französisch, Englisch, Niederländisch, De
 ## Anzeige einschalten
 
 1. Tippe im Bereich **Kontrolle** auf **Prüfen · ADB und Diagnose**. Das löst die Debugging-Abfrage aus und bestätigt, dass die Verbindung steht.
-2. Gehe zurück zu **Kombiinstrument** und tippe auf **Auf dem Kombi anzeigen**.
+2. Gehe zurück zu **Kombiinstrument** und tippe auf **Auf dem Kombi anzeigen**. Wähle vorher einen Anzeigemodus: **Vollbild-Design** oder **Vollbild-App** (und **Kleiner Bildschirm** beim Sealion 7). Ohne gewählten Modus startet die Projektion nicht, auch nicht beim Start des Autos.
 3. Die Serienanzeige geht in den Ruhezustand, der virtuelle Kombi-Bildschirm wird erzeugt, dann erscheint VEKTRA darauf. Das dauert etwa zehn Sekunden.
 4. Die Vorschau in der Mitte des Tablets zeigt live, was hinter dem Lenkrad gezeichnet wird. Die Taste **Vorschau** klappt sie zu, wenn du lieber eine Statusübersicht hast.
 
@@ -103,16 +103,36 @@ VEKTRA prüft bei jedem Öffnen selbst. Ist eine Version verfügbar, zeigt ein F
 - **Die Aktualisierung meldet „Nicht verfügbar".** Das Tablet hat die Quelle nicht erreicht. Prüfe die Internetverbindung und versuche es erneut: der genaue Grund wird angezeigt.
 - **Etwas anderes.** Öffne *Kontrolle*, tippe auf *Ganzen Scan kopieren* und sende den Text. Er enthält alles Nötige zum Verstehen.
 
-## Neu in 2.5.1
+## Neu in 2.6.0
 
-- Neu: Blitzer- und Verkehrswarnungen funktionieren wie bei einem echten Navi: Die Warnentfernung passt sich deinem Tempo an, und beim Passieren des Blitzers ertönt ein Piepton.
-- Neu: Abschnittskontrollen werden vom Anfang bis zum Ende verfolgt, mit Ansage deiner Durchschnittsgeschwindigkeit.
-- Neu: Vektra ignoriert Blitzer auf einer Parallelstraße oder in Gegenrichtung besser und nennt die Länge von Staus.
-- Neu: Im Copilot eine neue Gruppe „Blitzer & Verkehr“: Warnungen per Stimme oder Ton, Auswahl der Warnungsarten, Lautstärke von Stimme und Tönen.
-- Neu: Die europäische Blitzer-Datenbank aktualisiert sich jede Woche selbst; Datum und Uhrzeit des Ladens werden angezeigt.
-- Korrektur: Die Ansagen der Einparkhilfe starten während der Fahrt nicht mehr, und die Assistenten-Grafik erscheint während der Warnungen nicht mehr.
-- Korrektur: Vektra antwortet nicht mehr auf Englisch, wenn eine andere Sprache eingestellt ist.
-- Korrektur: Viele Texte der App sind jetzt in alle Sprachen übersetzt.
+- Gut zu wissen: Nach dem Update ist kein Anzeigemodus angehakt. Öffne den Tab Kombiinstrument und hake deinen an, bevor du die Projektion startest.
+- Gut zu wissen: Beim ersten Ruf „Vektra“ lädt die App einmalig etwa 40 MB herunter, um deine Sprache zu erkennen.
+- Neu: 11 neue Themes im Theme Store: Chassis, Orbit, Sport, Karte, Horizont, Polarlicht, Chronograph, Energie, Himmel, Carbone 3D+ und VektraUI+.
+- Neu: Carbone 3D+ mit 3D-Anzeigen unter Glas und VektraUI+ mit Neon-Bögen.
+- Neu: animierte Themes: Die Straße von Horizont zieht mit deiner Geschwindigkeit vorbei, Polarlicht und Energie bewegen sich, Himmel zeigt das echte Wetter.
+- Neu: Karte, Carbone 3D+ und VektraUI+ zeigen deine App (Waze, Google Maps …) oder Navigation Vektra in der Mitte des Kombiinstruments.
+- Neu: Bearbeiten: Jeden Block eines Themes verschieben, vergrößern oder ausblenden, dann speichern.
+- Neu: Der Hintergrund der Themes geht nahtlos ins Kombiinstrument über, hell wie dunkel.
+- Neu: Modus Vollbild-App: Nur deine App wird auf dem Kombiinstrument angezeigt, unter „Bearbeiten“ verschiebbar und skalierbar.
+- Neu: Vorschau › Interaction App: Größe der App und ihres Textes sowie Größe der Vektra-Karte einstellen. Nur das Kombiinstrument ändert sich, nie das Tablet.
+- Neu: neue Fahrzeugfunktionen, auch per Sprache: Fenster (auch in %), Schiebedach, Rollo, Kofferraum, Verriegelung, Sitzspeicher 1/2/3, Klima nach Zone, Lüftung, Sitz- und Lenkradheizung, Licht, Ambientebeleuchtung, kabelloses Laden, Fahrmodus, Rekuperation, Spiegel, Warnblinker, Ladegrenze und geplantes Laden.
+- Neu: Copilot: Warnung, wenn die 12-V-Batterie schwach ist.
+- Neu: Themes Klassisch und Blade: KRAFTSTOFF (DM-i-Hybride), BATTERIE und INNENRAUM unten links.
+- Neu: Nichts, was du sagst, wird vor dem Wort „Vektra“ ins Internet gesendet.
+- Neu (SEALION7): zwei Anzeigeprofile: Vollbild (VEKTRA unter der oberen Leiste des Autos) oder Kleiner Bildschirm (deine App im rechten Fenster).
+- Neu (SEALION7): eine Sealion-7-Version jedes Themes.
+- Neu (SEALION7): Fahrzeugdaten: Geschwindigkeit, P/R/N/D, Batterie, Reichweite, Kilometerstand, 12-V-Batterie, Laden, Reifen und Leistung.
+- Neu (SEALION7): erzwungene Anzeige: VEKTRA legt sich vor die originale Navigation des Kombiinstruments.
+- Korrektur (SEALION7): flüssige Geschwindigkeit und Nadel, ohne Verzögerung.
+- Korrektur (SEALION7): Die Fahrstufe P/R/N/D stimmt, und das Öffnen von Türen und Kofferraum in D ist wieder gesperrt.
+- Korrektur (SEALION7): Die Außentemperatur bleibt nicht mehr bei 0 °C hängen.
+- Korrektur: Vektra antwortet sofort, auch während Musik läuft.
+- Korrektur: Sitzspeicher: Der Sitz fährt ganz bis zu seiner Position, ohne unterwegs stehen zu bleiben.
+- Korrektur: INNENRAUM zeigt die echte Innenraumtemperatur statt des Klima-Sollwerts.
+- Korrektur: projizierte App: Alle ihre Fenster gehen auf das Kombiinstrument, und Schließen beendet sie vollständig.
+- Korrektur: flüssigere Projektion der Apps.
+- Korrektur: keine Roboterstimme mehr beim Start.
+- Korrektur: Das Wetter erscheint beim Start schnell, ohne voreingestellte Stadt.
 
 ---
 

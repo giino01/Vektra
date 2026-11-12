@@ -1,0 +1,36 @@
+================================================================
+VEKTRA — Funzioni del copilota
+================================================================
+
+• Avvisi autovelox e traffico
+  Autovelox fissi, mobili, tutor, semafori, lavori e rallentamenti. Avviso circa 15 secondi prima (300, 500 o 1000 m secondo la velocità), promemoria più vicino, bip al passaggio.
+
+• Database autovelox
+  Aggiornato automaticamente ogni settimana.
+
+• Tipi di avviso
+  Seleziona gli avvisi che vuoi sentire.
+
+• Guida vocale al parcheggio
+  Annuncio vocale delle distanze in manovra e retromarcia · 100% vocale
+
+• Monitoraggio batteria ed energia
+  Avvisi preventivi sotto il 20% e consigli di ricarica con clima freddo
+
+• Avviso batteria 12 V scarica
+  Vektra avvisa quando la tensione della batteria 12 V resta sotto 11,8 V (se l'auto la fornisce).
+
+• Controllo pneumatici e strada
+  Avviso calo anomalo di pressione e rischio ghiaccio sotto i 3°C
+
+• Avviso pausa anti-fatica
+  Suggerimento di pausa dopo 2 ore di guida continua
+
+• Pioggia → avviso finestrini
+  Vektra ti ricorda di chiudere i finestrini (solo un avviso, senza domande).
+
+• Avviso nebbia
+  Avvisa quando il meteo segnala nebbia nella tua posizione mentre guidi. Una volta per viaggio.
+
+• Avviso fuori rete
+  Dice quando la rete cade e cosa resta possibile, poi annuncia il ritorno.

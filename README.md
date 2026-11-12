@@ -6,9 +6,9 @@
 
 Tableau de bord personnalisé pour l'écran derrière le volant des véhicules BYD DiLink 3.
 
-**VERSION 2.5.1** · publiée le 10 novembre 2026 · 48.2 Mo
+**VERSION 2.6.0** · publiée le 12 novembre 2026 · 75.6 Mo
 
-[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
+[**Télécharger l'application**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) · [**Page du projet**](https://giino01.github.io/Vektra/)
 
 **Français** · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -60,7 +60,7 @@ Dix langues sont disponibles : français, anglais, néerlandais, allemand, espag
 ## Activer l'affichage
 
 1. Dans la section **Contrôle**, appuie sur **Vérifier · ADB et diagnostic**. C'est ce qui déclenche l'autorisation de débogage et confirme que la connexion fonctionne.
-2. Reviens sur **Combiné** et appuie sur **Afficher sur le combiné**.
+2. Reviens sur **Combiné** et appuie sur **Afficher sur le combiné**. Avant cela, coche un mode d'affichage : **Plein écran thème** ou **Plein écran app** (et **Petit écran** sur Sealion 7). Sans mode coché, la projection ne démarre pas, même au démarrage de la voiture.
 3. Le tableau de bord d'origine se met en veille, l'écran virtuel du combiné est créé, puis VEKTRA s'y affiche. L'opération prend une dizaine de secondes.
 4. L'aperçu au centre de la tablette montre en direct ce qui est dessiné derrière le volant. Le bouton **Aperçu** le replie si tu préfères un tableau d'état.
 
@@ -103,16 +103,36 @@ VEKTRA vérifie toute seule à chaque ouverture. Quand une version est disponibl
 - **La mise à jour dit « Indisponible ».** La tablette n'a pas joint la source. Vérifie sa connexion internet, puis réessaie : la raison exacte s'affiche.
 - **Autre chose.** Ouvre *Contrôle*, appuie sur *Copier tout le scan*, puis envoie le texte. Il contient tout ce qu'il faut pour comprendre.
 
-## Nouveautés de la 2.5.1
+## Nouveautés de la 2.6.0
 
-- Ajout : les alertes radars et trafic fonctionnent comme un vrai GPS : la distance d'annonce s'adapte à ta vitesse, et un bip sonne au passage du radar.
-- Ajout : les radars tronçons sont suivis du début à la fin, avec ta vitesse moyenne annoncée.
-- Ajout : Vektra ignore mieux les radars d'une route parallèle ou de l'autre sens, et annonce la longueur des bouchons.
-- Ajout : dans le Copilote, un nouveau groupe « Radars & trafic » : alertes à la voix ou en sons, choix des types d'alertes, volume de la voix et des sons.
-- Ajout : la base des radars d'Europe se met à jour toute seule chaque semaine ; la date et l'heure de chargement sont affichées.
-- Correctif : les annonces de l'aide au stationnement ne se déclenchent plus en roulant, et le visuel de l'assistant ne s'affiche plus pendant les alertes.
-- Correctif : Vektra ne répond plus en anglais quand elle est réglée en français.
-- Correctif : de nombreux textes de l'application sont maintenant traduits dans toutes les langues.
+- À savoir : après la mise à jour, aucun mode d'affichage n'est coché. Va dans l'onglet Combiné et coche le tien avant de lancer la projection.
+- À savoir : au premier appel « Vektra », l'application télécharge une seule fois environ 40 Mo pour reconnaître ta langue.
+- Ajout : 11 nouveaux thèmes dans le Theme Store : Châssis, Orbit, Sport, Carte, Horizon, Aurore, Chronographe, Énergie, Ciel, Carbone 3D+ et VektraUI+.
+- Ajout : Carbone 3D+, des cadrans 3D sous verre, et VektraUI+, des arches néon.
+- Ajout : thèmes animés : la route d'Horizon défile avec ta vitesse, Aurore et Énergie bougent, Ciel montre la météo réelle.
+- Ajout : Carte, Carbone 3D+ et VektraUI+ affichent ton application (Waze, Google Maps…) ou la Navigation Vektra au centre du combiné.
+- Ajout : Édition : déplace, agrandis ou masque chaque bloc d'un thème, puis enregistre.
+- Ajout : le fond des thèmes se raccorde au combiné, en clair comme en sombre.
+- Ajout : mode Plein écran app : seule ton application est affichée sur le combiné, à déplacer et redimensionner dans Édition.
+- Ajout : Aperçu interaction : règle la taille de l'application et de son texte, et la taille de la carte Vektra. Seul le combiné change, jamais la tablette.
+- Ajout : nouvelles commandes de la voiture, aussi à la voix : vitres (même en %), toit ouvrant, store, coffre, verrouillage, mémoire de siège 1/2/3, clim par zone, ventilation, sièges et volant chauffants, feux, éclairage d'ambiance, chargeur sans fil, mode de conduite, régénération, rétroviseurs, feux de détresse, limite de charge et recharge programmée.
+- Ajout : Copilote : alerte quand la batterie 12 V est faible.
+- Ajout : thèmes Classique et Blade : ESSENCE (hybrides DM-i), BATTERIE et HABITACLE en bas à gauche.
+- Ajout : rien de ce que tu dis n'est envoyé sur internet avant le mot « Vektra ».
+- Ajout (SEALION7) : deux profils d'affichage : Plein écran (VEKTRA sous la bande du haut de la voiture) ou Petit écran (ton application dans la fenêtre de droite).
+- Ajout (SEALION7) : une version Sealion 7 de chaque thème.
+- Ajout (SEALION7) : données de la voiture : vitesse, P/R/N/D, batterie, autonomie, kilométrage, batterie 12 V, recharge, pneus et puissance.
+- Ajout (SEALION7) : affichage forcé : VEKTRA passe devant la navigation d'origine du combiné.
+- Correctif (SEALION7) : vitesse et aiguille fluides, sans décalage.
+- Correctif (SEALION7) : le rapport P/R/N/D est juste, et l'ouverture des portes et du coffre en D est de nouveau bloquée.
+- Correctif (SEALION7) : la température extérieure ne reste plus bloquée à 0 °C.
+- Correctif : Vektra répond tout de suite, même quand la musique joue.
+- Correctif : mémoire de siège : le siège va jusqu'à sa position sans s'arrêter en route.
+- Correctif : HABITACLE affiche la vraie température de l'habitacle, et non la consigne de la clim.
+- Correctif : application projetée : toutes ses fenêtres vont sur le combiné, et Fermer l'arrête complètement.
+- Correctif : projection des applications plus fluide.
+- Correctif : plus de voix robotique au démarrage.
+- Correctif : la météo s'affiche vite au démarrage, sans ville par défaut.
 
 ---
 

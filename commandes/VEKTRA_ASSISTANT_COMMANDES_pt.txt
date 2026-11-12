@@ -195,7 +195,8 @@ inteligência artificial Groq (Llama 3.3 70B).
   - «Vektra, abre a mala»
   - «Vektra, fecha a mala»
   - «Vektra, para a mala» (para a porta traseira a meio do curso)
-  - A porta traseira não aceita percentagem: não tem comando de posição.
+  - «Vektra, abre a mala a 50%»: a porta traseira para na posição pedida,
+    só se o carro indicar a sua posição; caso contrário abre totalmente.
 
 • Espelhos exteriores:
   - «Vektra, recolhe os espelhos»
@@ -240,6 +241,30 @@ inteligência artificial Groq (Llama 3.3 70B).
   - «Vektra, muda para o modo HEV» / «Passa ao modo híbrido»
   - «Vektra, põe a regeneração em alta» / «Regeneração padrão»
 
+• Iluminação exterior:
+  - «Vektra, liga os quatro piscas» / «Desliga os quatro piscas»
+  - «Vektra, põe os faróis em automático» / «Liga os médios»
+  - «Vektra, liga as luzes de presença» / «Desliga os faróis» (recusado em andamento)
+  - «Vektra, faz sinal de luzes»
+  - «Vektra, põe a luminosidade ambiente a 50%»
+
+• Ajustes de condução:
+  - «Vektra, ativa a descida do espelho em marcha-atrás» / «Desativa-a»
+  - «Vektra, põe a direção em Sport» / «Direção conforto»
+  - «Vektra, põe o pedal de travão em Sport» / «Travão conforto»
+
+• Carregamento e bateria:
+  - «Vektra, para o carregamento a 80%» / «Tira o limite de carga»
+  - «Vektra, mantém a bateria a 40%» / «Mantém o nível atual»
+    / «Para de manter a bateria» (híbridos DM-i)
+  - «Vektra, ativa o carregamento programado» / «Desativa o carregamento programado»
+
+• Passageiro, zonas e carregadores:
+  - «Vektra, põe o banco do passageiro na posição 2»
+    (as posições memorizadas dos bancos só são chamadas com o carro parado)
+  - «Vektra, põe 22 graus do lado do passageiro» / «Põe 21 graus em todo o lado»
+  - «Vektra, desliga o carregador sem fios da esquerda» / «Liga o da direita»
+
 --------------------------------------------------------------------------------
 11. MÉDIA, MÚSICA E VOLUME DE ÁUDIO
 --------------------------------------------------------------------------------
@@ -258,9 +283,9 @@ inteligência artificial Groq (Llama 3.3 70B).
 12. PAINEL DE INSTRUMENTOS, TEMAS 3D E ADAS
 --------------------------------------------------------------------------------
 • Temas do painel do condutor:
-  - «Vektra, põe o tema Carbon» (Carbon 3D)
+  - «Vektra, põe o tema Carbon» (Carbone 3D+)
   - «Vektra, põe o tema Aston» (Aston Luxury)
-  - «Vektra, põe o tema VektraUI»
+  - «Vektra, põe o tema VektraUI» (VektraUI+)
 
 • Projeção do painel, regresso ao estado original e visualização ADAS:
   - «Vektra, ativa a projeção» / «Projeta o painel» / «Inicia o painel»

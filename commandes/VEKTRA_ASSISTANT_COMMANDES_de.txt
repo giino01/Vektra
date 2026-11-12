@@ -196,7 +196,8 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
   - „Vektra, öffne den Kofferraum"
   - „Vektra, schließe den Kofferraum"
   - „Vektra, stoppe den Kofferraum" (stoppt die Heckklappe während der Bewegung)
-  - Die Heckklappe akzeptiert keinen Prozentwert: sie hat keinen Positionsbefehl.
+  - „Vektra, öffne den Kofferraum auf 50 %": die Heckklappe hält an der gewünschten Position,
+    nur wenn das Auto ihre Position meldet; sonst öffnet sie ganz.
 
 • Außenspiegel:
   - „Vektra, klappe die Spiegel an"
@@ -241,6 +242,30 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
   - „Vektra, wechsle in den HEV-Modus" / „Wechsle in den Hybridmodus"
   - „Vektra, stelle die Rekuperation auf hoch" / „Standard-Rekuperation"
 
+• Außenbeleuchtung:
+  - „Vektra, schalte die Warnblinker ein" / „Schalte die Warnblinker aus"
+  - „Vektra, stelle die Scheinwerfer auf Automatik" / „Schalte das Abblendlicht ein"
+  - „Vektra, schalte das Standlicht ein" / „Schalte die Scheinwerfer aus" (während der Fahrt abgelehnt)
+  - „Vektra, gib eine Lichthupe"
+  - „Vektra, stelle die Ambientehelligkeit auf 50 %"
+
+• Fahreinstellungen:
+  - „Vektra, aktiviere das Absenken des Spiegels beim Rückwärtsfahren" / „Deaktiviere es"
+  - „Vektra, stelle die Lenkung auf Sport" / „Lenkung Komfort"
+  - „Vektra, stelle das Bremspedal auf Sport" / „Bremse Komfort"
+
+• Laden & Batterie:
+  - „Vektra, beende das Laden bei 80 %" / „Entferne das Ladelimit"
+  - „Vektra, halte die Batterie bei 40 %" / „Halte den aktuellen Stand"
+    / „Beende das Halten der Batterie" (DM-i-Hybride)
+  - „Vektra, aktiviere das geplante Laden" / „Deaktiviere das geplante Laden"
+
+• Beifahrer, Zonen und Ladegeräte:
+  - „Vektra, stelle den Beifahrersitz auf Position 2"
+    (Sitzpositionen werden nur im Stand abgerufen)
+  - „Vektra, stelle 22 Grad auf der Beifahrerseite ein" / „Stelle überall 21 Grad ein"
+  - „Vektra, schalte das linke kabellose Ladegerät aus" / „Schalte das rechte ein"
+
 --------------------------------------------------------------------------------
 11. MEDIEN, MUSIK & AUDIO-LAUTSTÄRKE
 --------------------------------------------------------------------------------
@@ -259,9 +284,9 @@ auf die künstliche Intelligenz Groq (Llama 3.3 70B).
 12. KOMBIINSTRUMENT, 3D-THEMEN & ADAS
 --------------------------------------------------------------------------------
 • Themen des Fahrer-Kombiinstruments:
-  - „Vektra, stelle das Carbon-Thema ein" (Carbon 3D)
+  - „Vektra, stelle das Carbon-Thema ein" (Carbone 3D+)
   - „Vektra, stelle das Aston-Thema ein" (Aston Luxury)
-  - „Vektra, stelle das VektraUI-Thema ein"
+  - „Vektra, stelle das VektraUI-Thema ein" (VektraUI+)
 
 • Kombi-Projektion, Rückkehr zum Original & ADAS-Anzeige:
   - „Vektra, starte die Projektion" / „Projiziere das Kombi" / „Starte das Kombi"

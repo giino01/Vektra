@@ -194,7 +194,8 @@ erişime sahiptir.
   - «Vektra, bagajı aç»
   - «Vektra, bagajı kapat»
   - «Vektra, bagajı durdur» (arka kapıyı hareket hâlindeyken durdurur)
-  - Arka kapı yüzde kabul etmez: konum komutu yoktur.
+  - «Vektra, bagajı %50 aç»: arka kapı istenen konumda durur,
+    yalnızca araç konumunu bildiriyorsa; aksi hâlde tamamen açılır.
 
 • Dış aynalar:
   - «Vektra, aynaları katla»
@@ -239,6 +240,30 @@ erişime sahiptir.
   - «Vektra, HEV moduna geç» / «Hibrit moduna geç»
   - «Vektra, rejenerasyonu yükseğe al» / «Standart rejenerasyon»
 
+• Dış aydınlatma:
+  - «Vektra, dörtlüleri yak» / «Dörtlüleri kapat»
+  - «Vektra, farları otomatiğe al» / «Kısa farları yak»
+  - «Vektra, park lambalarını yak» / «Farları kapat» (sürüş sırasında reddedilir)
+  - «Vektra, selektör yap»
+  - «Vektra, ambiyans parlaklığını %50 yap»
+
+• Sürüş ayarları:
+  - «Vektra, geri viteste aynanın inmesini aç» / «Kapat»
+  - «Vektra, direksiyonu Sport yap» / «Konfor direksiyon»
+  - «Vektra, fren pedalını Sport yap» / «Konfor fren»
+
+• Şarj ve batarya:
+  - «Vektra, şarjı %80'de durdur» / «Şarj sınırını kaldır»
+  - «Vektra, bataryayı %40'ta tut» / «Mevcut seviyeyi koru»
+    / «Batarya korumayı durdur» (DM-i hibritler)
+  - «Vektra, zamanlı şarjı aç» / «Zamanlı şarjı kapat»
+
+• Yolcu, bölgeler ve şarj cihazları:
+  - «Vektra, yolcu koltuğunu 2. konuma al»
+    (koltuk hafıza konumları yalnızca araç dururken çağrılır)
+  - «Vektra, yolcu tarafını 22 derece yap» / «Her yeri 21 derece yap»
+  - «Vektra, soldaki kablosuz şarjı kapat» / «Sağdakini aç»
+
 --------------------------------------------------------------------------------
 11. MEDYA, MÜZİK VE SES SEVİYESİ
 --------------------------------------------------------------------------------
@@ -257,9 +282,9 @@ erişime sahiptir.
 12. GÖSTERGE PANELİ, 3D TEMALAR VE ADAS
 --------------------------------------------------------------------------------
 • Sürücü gösterge temaları:
-  - «Vektra, Carbon temasını uygula» (Carbon 3D)
+  - «Vektra, Carbon temasını uygula» (Carbone 3D+)
   - «Vektra, Aston temasını uygula» (Aston Luxury)
-  - «Vektra, VektraUI temasını uygula»
+  - «Vektra, VektraUI temasını uygula» (VektraUI+)
 
 • Gösterge yansıtması, orijinal duruma dönüş ve ADAS görünümü:
   - «Vektra, yansıtmayı başlat» / «Göstergeyi yansıt» / «Göstergeyi çalıştır»

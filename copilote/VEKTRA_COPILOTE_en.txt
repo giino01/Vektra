@@ -1,0 +1,36 @@
+================================================================
+VEKTRA — Co-pilot features
+================================================================
+
+• Speed camera & traffic alerts
+  Fixed, mobile, average-speed and red-light cameras, roadworks and slowdowns. Announced about 15 seconds ahead (300, 500 or 1000 m depending on speed), reminder closer, beep when passing the camera.
+
+• Speed camera database
+  Updated automatically every week.
+
+• Alert types
+  Tick the alerts you want to hear.
+
+• Voice Parking Guidance
+  Voice announcement of parking distances in maneuvers and reverse · 100% voice
+
+• Battery & Energy Monitoring
+  Preventive alerts under 20% and cold weather charging advice
+
+• Low 12 V battery alert
+  Vektra warns when the 12 V battery voltage stays below 11.8 V (if the car provides it).
+
+• Tires & Road Safety
+  Abnormal pressure drop and black ice risk under 3°C
+
+• Driver Fatigue Alert
+  Friendly break suggestion after 2 hours of continuous driving
+
+• Rain → window reminder
+  Vektra reminds you to close the windows (just an alert, no question asked).
+
+• Fog alert
+  Warns when the weather reports fog at your position while you are driving. Once per trip.
+
+• Offline announcement
+  Says when the network drops and what still works, then announces its return.

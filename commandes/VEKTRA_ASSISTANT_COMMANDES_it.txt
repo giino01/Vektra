@@ -195,7 +195,8 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
   - «Vektra, apri il bagagliaio»
   - «Vektra, chiudi il bagagliaio»
   - «Vektra, ferma il bagagliaio» (arresta il portellone a metà corsa)
-  - Il portellone non accetta percentuali: non ha un comando di posizione.
+  - «Vektra, apri il bagagliaio al 50%»: il portellone si ferma alla posizione richiesta,
+    solo se l'auto ne comunica la posizione; altrimenti si apre del tutto.
 
 • Specchietti esterni:
   - «Vektra, ripiega gli specchietti»
@@ -240,6 +241,30 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
   - «Vektra, passa in modalità HEV» / «Passa alla modalità ibrida»
   - «Vektra, metti la rigenerazione su alta» / «Rigenerazione standard»
 
+• Luci esterne:
+  - «Vektra, accendi le quattro frecce» / «Spegni le quattro frecce»
+  - «Vektra, metti i fari in automatico» / «Accendi gli anabbaglianti»
+  - «Vektra, accendi le luci di posizione» / «Spegni i fari» (rifiutato in marcia)
+  - «Vektra, fai un lampeggio dei fari»
+  - «Vektra, metti la luminosità dell'ambiente al 50%»
+
+• Impostazioni di guida:
+  - «Vektra, attiva l'abbassamento dello specchietto in retromarcia» / «Disattivalo»
+  - «Vektra, metti lo sterzo in Sport» / «Sterzo comfort»
+  - «Vektra, metti il pedale del freno in Sport» / «Freno comfort»
+
+• Ricarica e batteria:
+  - «Vektra, ferma la ricarica all'80%» / «Togli il limite di ricarica»
+  - «Vektra, mantieni la batteria al 40%» / «Mantieni il livello attuale»
+    / «Smetti di mantenere la batteria» (ibride DM-i)
+  - «Vektra, attiva la ricarica programmata» / «Disattiva la ricarica programmata»
+
+• Passeggero, zone e caricatori:
+  - «Vektra, metti il sedile del passeggero in posizione 2»
+    (le posizioni memorizzate dei sedili si richiamano solo da fermi)
+  - «Vektra, metti 22 gradi lato passeggero» / «Metti 21 gradi ovunque»
+  - «Vektra, spegni il caricatore wireless sinistro» / «Accendi quello destro»
+
 --------------------------------------------------------------------------------
 11. MEDIA, MUSICA E VOLUME AUDIO
 --------------------------------------------------------------------------------
@@ -258,9 +283,9 @@ delle luci d'ambiente e all'intelligenza artificiale Groq (Llama 3.3 70B).
 12. QUADRO STRUMENTI, TEMI 3D E ADAS
 --------------------------------------------------------------------------------
 • Temi del quadro conducente:
-  - «Vektra, metti il tema Carbon» (Carbon 3D)
+  - «Vektra, metti il tema Carbon» (Carbone 3D+)
   - «Vektra, metti il tema Aston» (Aston Luxury)
-  - «Vektra, metti il tema VektraUI»
+  - «Vektra, metti il tema VektraUI» (VektraUI+)
 
 • Proiezione del quadro, ritorno allo stato originale e visualizzazione ADAS:
   - «Vektra, attiva la proiezione» / «Proietta il quadro» / «Avvia il quadro»

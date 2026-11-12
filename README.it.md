@@ -6,9 +6,9 @@
 
 Cruscotto personalizzato per lo schermo dietro il volante dei veicoli BYD DiLink 3.
 
-**VERSIONE 2.5.1** · pubblicata il 10 novembre 2026 · 48.2 MB
+**VERSIONE 2.6.0** · pubblicata il 12 novembre 2026 · 75.6 MB
 
-[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.5.1.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
+[**Scarica l'applicazione**](https://giino01.github.io/Vektra/Vektra-2.6.0.apk) · [**Pagina del progetto**](https://giino01.github.io/Vektra/)
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md)
 
@@ -60,7 +60,7 @@ Sono disponibili dieci lingue: francese, inglese, olandese, tedesco, spagnolo, i
 ## Attivare la visualizzazione
 
 1. Nella sezione **Controllo**, premi **Verifica · ADB e diagnostica**. È ciò che attiva l'autorizzazione al debug e conferma che la connessione funziona.
-2. Torna su **Quadro** e premi **Mostra sul quadro**.
+2. Torna su **Quadro** e premi **Mostra sul quadro**. Prima, spunta una modalità di visualizzazione: **Tema a schermo intero** o **App a schermo intero** (e **Schermo piccolo** sulla Sealion 7). Senza modalità spuntata la proiezione non parte, nemmeno all'avvio dell'auto.
 3. Il quadro originale va in standby, viene creato lo schermo virtuale del quadro, poi VEKTRA vi compare. L'operazione richiede una decina di secondi.
 4. L'anteprima al centro del tablet mostra in diretta ciò che è disegnato dietro il volante. Il pulsante **Anteprima** la richiude se preferisci un quadro di stato.
 
@@ -103,16 +103,36 @@ VEKTRA controlla da sola a ogni apertura. Quando una versione è disponibile, un
 - **L'aggiornamento dice «Non disponibile».** Il tablet non ha raggiunto la fonte. Verifica la connessione internet, poi riprova: compare il motivo esatto.
 - **Altro.** Apri *Controllo*, premi *Copia tutta la scansione*, poi invia il testo. Contiene tutto il necessario per capire.
 
-## Novità della 2.5.1
+## Novità della 2.6.0
 
-- Aggiunta: gli avvisi autovelox e traffico funzionano come un vero navigatore: la distanza dell'avviso si adatta alla velocità e un bip suona al passaggio dell'autovelox.
-- Aggiunta: i tutor vengono seguiti dall'inizio alla fine, con la velocità media annunciata.
-- Aggiunta: Vektra ignora meglio gli autovelox di una strada parallela o dell'altro senso di marcia e annuncia la lunghezza delle code.
-- Aggiunta: nel Copilota, un nuovo gruppo «Autovelox e traffico»: avvisi a voce o con suoni, scelta dei tipi di avviso, volume della voce e dei suoni.
-- Aggiunta: il database europeo degli autovelox si aggiorna da solo ogni settimana; data e ora di caricamento sono visibili.
-- Correzione: gli annunci dell'assistenza al parcheggio non partono più durante la guida e la grafica dell'assistente non compare più durante gli avvisi.
-- Correzione: Vektra non risponde più in inglese quando è impostata in un'altra lingua.
-- Correzione: molti testi dell'app sono ora tradotti in tutte le lingue.
+- Da sapere: dopo l'aggiornamento nessuna modalità di visualizzazione è selezionata. Vai nella scheda Quadro e seleziona la tua prima di avviare la proiezione.
+- Da sapere: la prima volta che chiami «Vektra», l'app scarica una sola volta circa 40 MB per riconoscere la tua lingua.
+- Aggiunta: 11 nuovi temi nel Theme Store: Chassis, Orbit, Sport, Mappa, Orizzonte, Aurora, Cronografo, Energia, Cielo, Carbone 3D+ e VektraUI+.
+- Aggiunta: Carbone 3D+, quadranti 3D sotto vetro, e VektraUI+, archi al neon.
+- Aggiunta: temi animati: la strada di Orizzonte scorre con la tua velocità, Aurora ed Energia si muovono, Cielo mostra il meteo reale.
+- Aggiunta: Mappa, Carbone 3D+ e VektraUI+ mostrano la tua app (Waze, Google Maps…) o Navigation Vektra al centro del quadro.
+- Aggiunta: Modifica: sposta, ingrandisci o nascondi ogni blocco di un tema, poi salva.
+- Aggiunta: lo sfondo dei temi si raccorda al quadro, sia chiaro sia scuro.
+- Aggiunta: modalità App a schermo intero: sul quadro viene mostrata solo la tua app, da spostare e ridimensionare in Modifica.
+- Aggiunta: Anteprima › Interaction App: regola la dimensione dell'app e del suo testo, e la dimensione della mappa Vektra. Cambia solo il quadro, mai il tablet.
+- Aggiunta: nuovi comandi dell'auto, anche a voce: finestrini (anche in %), tetto apribile, tendina, bagagliaio, chiusura, memoria sedile 1/2/3, clima per zona, ventilazione, sedili e volante riscaldati, luci, luci ambiente, caricatore wireless, modalità di guida, rigenerazione, specchietti, luci di emergenza, limite di carica e ricarica programmata.
+- Aggiunta: Copilota: avviso quando la batteria 12 V è scarica.
+- Aggiunta: temi Classico e Blade: CARBURANTE (ibride DM-i), BATTERIA e ABITACOLO in basso a sinistra.
+- Aggiunta: nulla di ciò che dici viene inviato su internet prima della parola «Vektra».
+- Aggiunta (SEALION7): due profili di visualizzazione: Schermo intero (VEKTRA sotto la fascia superiore dell'auto) o Schermo piccolo (la tua app nella finestra a destra).
+- Aggiunta (SEALION7): una versione Sealion 7 di ogni tema.
+- Aggiunta (SEALION7): dati dell'auto: velocità, P/R/N/D, batteria, autonomia, chilometraggio, batteria 12 V, ricarica, pneumatici e potenza.
+- Aggiunta (SEALION7): visualizzazione forzata: VEKTRA passa davanti alla navigazione originale del quadro.
+- Correzione (SEALION7): velocità e lancetta fluide, senza ritardo.
+- Correzione (SEALION7): la marcia P/R/N/D è corretta e l'apertura di porte e bagagliaio in D è di nuovo bloccata.
+- Correzione (SEALION7): la temperatura esterna non resta più bloccata a 0 °C.
+- Correzione: Vektra risponde subito, anche con la musica in riproduzione.
+- Correzione: memoria sedile: il sedile arriva fino alla sua posizione senza fermarsi a metà.
+- Correzione: ABITACOLO mostra la vera temperatura dell'abitacolo, non quella impostata sul clima.
+- Correzione: app proiettata: tutte le sue finestre vanno sul quadro e Chiudi la arresta completamente.
+- Correzione: proiezione delle app più fluida.
+- Correzione: niente più voce robotica all'avvio.
+- Correzione: il meteo compare subito all'avvio, senza città predefinita.
 
 ---
 

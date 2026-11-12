@@ -1,0 +1,36 @@
+================================================================
+VEKTRA — Functies van de copiloot
+================================================================
+
+• Flitspaal- en verkeersmeldingen
+  Vaste en mobiele flitsers, trajectcontroles, roodlichtcamera's, wegenwerken en vertragingen. Melding ongeveer 15 seconden vooraf (300, 500 of 1000 m volgens snelheid), herinnering dichterbij, piep bij het passeren.
+
+• Flitspaaldatabase
+  Wordt elke week automatisch bijgewerkt.
+
+• Soorten meldingen
+  Vink de meldingen aan die je wilt horen.
+
+• Gesproken parkeerhulp
+  Gesproken afstandsmeldingen bij manoeuvreren en achteruitrijden · 100% spraak
+
+• Batterij- & energiebewaking
+  Preventieve meldingen onder 20% en laadadvies bij kou
+
+• Waarschuwing zwakke 12V-accu
+  Vektra waarschuwt als de spanning van de 12V-accu onder 11,8 V blijft (als de auto die doorgeeft).
+
+• Banden- & wegveiligheid
+  Waarschuwing bij drukverlies en kans op gladheid onder 3°C
+
+• Vermoeidheidswaarschuwing
+  Vriendelijke pauzesuggestie na 2 uur onafgebroken rijden
+
+• Regen → ramen-herinnering
+  Vektra herinnert je eraan de ramen te sluiten (gewoon een melding, zonder vraag).
+
+• Mistwaarschuwing
+  Waarschuwt wanneer het weerbericht mist meldt op je locatie terwijl je rijdt. Eén keer per rit.
+
+• Offline-melding
+  Meldt wanneer het netwerk wegvalt en wat nog werkt, en meldt de terugkeer.

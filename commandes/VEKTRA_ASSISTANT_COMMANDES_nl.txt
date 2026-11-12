@@ -194,7 +194,8 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
   - "Vektra, open de koffer"
   - "Vektra, sluit de koffer"
   - "Vektra, stop de koffer" (stopt de achterklep halverwege)
-  - De achterklep aanvaardt geen percentage: hij heeft geen positiecommando.
+  - "Vektra, open de koffer tot 50%": de achterklep stopt op de gevraagde positie,
+    alleen als de auto zijn positie doorgeeft; anders gaat hij volledig open.
 
 • Buitenspiegels:
   - "Vektra, klap de spiegels in"
@@ -239,6 +240,30 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
   - "Vektra, zet in de HEV-modus" / "Zet in de hybridemodus"
   - "Vektra, zet de recuperatie op hoog" / "Standaardrecuperatie"
 
+• Buitenverlichting:
+  - "Vektra, zet de alarmlichten aan" / "Zet de alarmlichten uit"
+  - "Vektra, zet de koplampen op automatisch" / "Zet het dimlicht aan"
+  - "Vektra, zet de standlichten aan" / "Zet de koplampen uit" (geweigerd tijdens het rijden)
+  - "Vektra, geef een lichtsignaal"
+  - "Vektra, zet de sfeerverlichting op 50%"
+
+• Rijinstellingen:
+  - "Vektra, zet het zakken van de spiegel bij achteruitrijden aan" / "Zet het uit"
+  - "Vektra, zet de besturing op Sport" / "Comfortbesturing"
+  - "Vektra, zet het rempedaal op Sport" / "Comfortrem"
+
+• Laden & batterij:
+  - "Vektra, stop het laden bij 80%" / "Verwijder de laadlimiet"
+  - "Vektra, houd de batterij op 40%" / "Houd het huidige niveau"
+    / "Stop met de batterij vasthouden" (DM-i-hybrides)
+  - "Vektra, zet gepland laden aan" / "Zet gepland laden uit"
+
+• Passagier, zones en laders:
+  - "Vektra, zet de passagiersstoel in positie 2"
+    (geheugenposities van de stoelen worden alleen bij stilstand opgeroepen)
+  - "Vektra, zet 22 graden aan de passagierskant" / "Zet overal 21 graden"
+  - "Vektra, zet de linker draadloze lader uit" / "Zet de rechter aan"
+
 --------------------------------------------------------------------------------
 11. MEDIA, MUZIEK & AUDIOVOLUME
 --------------------------------------------------------------------------------
@@ -257,9 +282,9 @@ sfeerverlichting en tot de kunstmatige intelligentie Groq (Llama 3.3 70B).
 12. INSTRUMENTENPANEEL, 3D-THEMA'S & ADAS
 --------------------------------------------------------------------------------
 • Thema's van het bestuurderspaneel:
-  - "Vektra, zet het Carbon-thema" (Carbon 3D)
+  - "Vektra, zet het Carbon-thema" (Carbone 3D+)
   - "Vektra, zet het Aston-thema" (Aston Luxury)
-  - "Vektra, zet het VektraUI-thema"
+  - "Vektra, zet het VektraUI-thema" (VektraUI+)
 
 • Projectie van het paneel, terug naar oorspronkelijke staat & ADAS-weergave:
   - "Vektra, start de projectie" / "Projecteer het paneel" / "Start het paneel"

@@ -1,0 +1,36 @@
+================================================================
+VEKTRA — Yardımcı pilot özellikleri
+================================================================
+
+• Radar ve trafik uyarıları
+  Sabit, mobil, ortalama hız ve kırmızı ışık radarları, yol çalışmaları ve yavaşlamalar. Yaklaşık 15 saniye önce (hıza göre 300, 500 veya 1000 m) uyarı, yaklaşınca hatırlatma, radarı geçerken bip.
+
+• Radar veritabanı
+  Her hafta otomatik güncellenir.
+
+• Uyarı türleri
+  Duymak istediğin uyarıları işaretle.
+
+• Sesli Park Kılavuzu
+  Manevra ve geri viteste mesafelerin sesli bildirimi · %100 sesli
+
+• Batarya ve Enerji Takibi
+  %20'nin altında erken uyarılar ve soğuk hava şarj tavsiyeleri
+
+• Zayıf 12 V akü uyarısı
+  Vektra, 12 V akü gerilimi 11,8 V'un altında kalırsa uyarır (araç bu değeri veriyorsa).
+
+• Lastik ve Yol Güvenliği
+  Anormal basınç düşüşü ve 3°C altında gizli buzlanma uyarısı
+
+• Yorgunluk Uyarısı
+  2 saatlik kesintisiz sürüşün ardından mola önerisi
+
+• Yağmur → cam uyarısı
+  Vektra camları kapatmanı hatırlatır (sadece bir uyarı, soru sormadan).
+
+• Sis uyarısı
+  Hava durumu bulunduğun yerde sis bildirdiğinde ve sürüş hâlindeyken uyarır. Yolculuk başına bir kez.
+
+• Çevrimdışı bildirimi
+  Ağ kesildiğinde neyin çalıştığını söyler, geri geldiğinde de bildirir.

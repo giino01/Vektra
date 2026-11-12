@@ -1,0 +1,36 @@
+================================================================
+VEKTRA — Fonctions du copilote
+================================================================
+
+• Alertes radars & trafic
+  Radars fixes, mobiles, tronçons, feux rouges, travaux et ralentissements. Annonce environ 15 secondes avant (300, 500 ou 1000 m selon la vitesse), rappel plus près, bip au passage du radar.
+
+• Base radars
+  Mise à jour automatiquement chaque semaine.
+
+• Types d'alertes
+  Coche les alertes que tu veux entendre.
+
+• Guidage vocal de stationnement
+  Annonce vocale des distances en manœuvre et marche arrière · 100 % vocal
+
+• Surveillance batterie & énergie
+  Alertes préventives sous 20 % et conseils de recharge par grand froid
+
+• Alerte batterie 12 V faible
+  Vektra prévient quand la tension de la batterie 12 V reste sous 11,8 V (si la voiture la donne).
+
+• Surveillance pneus & route
+  Alerte perte de pression anormale et risque de verglas sous 3°C
+
+• Alerte pause anti-fatigue
+  Suggestion bienveillante de pause après 2h de conduite continue
+
+• Pluie → alerte vitres
+  Vektra te prévient de penser à fermer les vitres (simple alerte, sans question).
+
+• Alerte brouillard
+  Prévient quand la météo signale du brouillard à ta position et que tu roules. Une alerte par trajet.
+
+• Annonce hors-ligne
+  Dit quand le réseau tombe et ce qui reste possible, puis annonce son retour.

@@ -194,7 +194,8 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
   - « Vektra, ouvre le coffre »
   - « Vektra, ferme le coffre »
   - « Vektra, arrête le coffre » (stoppe le hayon en cours de course)
-  - Le hayon n'accepte pas de pourcentage : il n'a pas de commande de position.
+  - « Vektra, ouvre le coffre à 50 % » : le hayon s'arrête à la position demandée,
+    seulement si la voiture donne sa position ; sinon il s'ouvre en entier.
 
 • Rétroviseurs extérieurs :
   - « Vektra, rabats les rétroviseurs » / « Plie les rétros »
@@ -239,6 +240,30 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
   - « Vektra, passe en mode HEV » / « Passe en mode hybride »
   - « Vektra, mets la régénération sur élevée » / « Régénération standard »
 
+• Éclairage extérieur :
+  - « Vektra, allume les feux de détresse » / « Coupe les feux de détresse »
+  - « Vektra, mets les phares en automatique » / « Allume les feux de croisement »
+  - « Vektra, mets les feux de position » / « Éteins les phares » (refusé en roulant)
+  - « Vektra, fais un appel de phares »
+  - « Vektra, mets la luminosité de l'ambiance à 50 % »
+
+• Réglages de conduite :
+  - « Vektra, active l'abaissement du rétroviseur en marche arrière » / « Désactive-le »
+  - « Vektra, mets la direction en mode Sport » / « Direction confort »
+  - « Vektra, mets la pédale de frein en mode Sport » / « Frein confort »
+
+• Recharge & batterie :
+  - « Vektra, arrête la recharge à 80 % » / « Enlève la limite de charge »
+  - « Vektra, garde la batterie à 40 % » / « Garde le niveau actuel »
+    / « Arrête le maintien de la batterie » (hybrides DM-i)
+  - « Vektra, active la recharge programmée » / « Désactive la recharge programmée »
+
+• Passager, zones et chargeurs :
+  - « Vektra, mets le siège passager en position 2 »
+    (les positions mémoire des sièges ne se rappellent qu'à l'arrêt)
+  - « Vektra, mets 22 degrés côté passager » / « Mets 21 degrés partout »
+  - « Vektra, coupe le chargeur sans fil de gauche » / « Active celui de droite »
+
 --------------------------------------------------------------------------------
 11. MÉDIAS, MUSIQUE & VOLUME AUDIO
 --------------------------------------------------------------------------------
@@ -257,9 +282,9 @@ lumineuse d'ambiance et à l'intelligence artificielle Groq (Llama 3.3 70B).
 12. COMBINÉ D'INSTRUMENTATION, THÈMES 3D & ADAS
 --------------------------------------------------------------------------------
 • Thèmes du combiné conducteur :
-  - « Vektra, mets le thème Carbone » (Carbone 3D)
+  - « Vektra, mets le thème Carbone » (Carbone 3D+)
   - « Vektra, mets le thème Aston » (Aston Luxury)
-  - « Vektra, mets le thème VektraUI »
+  - « Vektra, mets le thème VektraUI » (VektraUI+)
 
 • Projection du combiné, retour à l'état d'origine & Affichage ADAS :
   - « Vektra, active la projection » / « Projette le combiné » / « Lance le combiné »
