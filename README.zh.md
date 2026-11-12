@@ -8,11 +8,11 @@
 
 方向盘后的 3D 主题、应用和导航，还有语音助手与测速副驾驶。一个应用，已在 Sealion 7、Seal、Seal U 和 Seal U DM-i 上测试。
 
-![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-10-FF4FD8?style=for-the-badge)
 
-[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 网站**](https://giino01.github.io/Vektra/)
+[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 网站**](https://giino01.github.io/Vektra/)
 
-<sub>版本 2.6.1 · 75.6 MB · 发布于 2026年11月12日</sub>
+<sub>版本 2.6.2 · 75.6 MB · 发布于 2026年11月12日</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · **中文**
 
@@ -102,7 +102,7 @@ VEKTRA 会适配你 BYD 的仪表盘。
 
 ## 助手 · 指令
 
-**Vektra 的全部指令** — 先说“Vektra”，再说你的请求。在说出“Vektra”之前，你说的任何内容都不会发送到网络。
+**Vektra 的全部指令** — 先说“Vektra”，再说你的请求。
 
 | 类别 | | 示例 |
 | --- | :---: | --- |
@@ -154,11 +154,11 @@ VEKTRA 会适配你 BYD 的仪表盘。
 
 <div align="center">
 
-### VEKTRA 2.6.1
+### VEKTRA 2.6.2
 
 支持 10 种语言。之后，更新会直接推送到应用中。
 
-[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
+[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
 
 <sub>75.6 MB · Android 9 或更高 · BYD DiLink 3 · 发布于 2026年11月12日</sub>
 
@@ -170,9 +170,9 @@ VEKTRA 会适配你 BYD 的仪表盘。
 | **副驾驶功能** — 全部提醒及其设置。 | [⬇ 下载](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_zh.txt) |
 | **网站** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### 新增内容 2.6.1
+### 新增内容 2.6.2
 
-- 修复（SEALION7）：车辆信息条下方不再有黑色条带：主题和应用会使用整个投屏窗口。
+- 修复：Vektra 助手恢复为以前的工作方式：重新在线识别“Vektra”一词，无需下载语言包。
 
 ---
 

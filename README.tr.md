@@ -8,11 +8,11 @@
 
 Direksiyonun arkasında 3D temalar, uygulamalar ve navigasyon; sesli asistan ve radar yardımcı pilotu. Sealion 7, Seal, Seal U ve Seal U DM-i üzerinde test edilmiş tek bir uygulama.
 
-![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/dil-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/dil-10-FF4FD8?style=for-the-badge)
 
-[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 Web sitesi**](https://giino01.github.io/Vektra/)
+[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 Web sitesi**](https://giino01.github.io/Vektra/)
 
-<sub>SÜRÜM 2.6.1 · 75.6 MB · yayın tarihi 12 Kasım 2026</sub>
+<sub>SÜRÜM 2.6.2 · 75.6 MB · yayın tarihi 12 Kasım 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe** · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -102,7 +102,7 @@ Tek dokunuşla uygula, sonra Düzenle'de her öğeyi istediğin yere taşı.
 
 ## Asistan · komutlar
 
-**Vektra'nın tüm komutları** — “Vektra” de, sonra isteğini söyle. “Vektra” kelimesinden önce söylediğin hiçbir şey internete gönderilmez.
+**Vektra'nın tüm komutları** — “Vektra” de, sonra isteğini söyle.
 
 | Kategori | | Örnekler |
 | --- | :---: | --- |
@@ -154,11 +154,11 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 
 <div align="center">
 
-### VEKTRA 2.6.1
+### VEKTRA 2.6.2
 
 10 dilde. Güncellemeler daha sonra doğrudan uygulamaya gelir.
 
-[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
+[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
 
 <sub>75.6 MB · Android 9 veya üzeri · BYD DiLink 3 · yayın tarihi 12 Kasım 2026</sub>
 
@@ -170,9 +170,9 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 | **Yardımcı pilot özellikleri** — Tüm uyarılar ve ayarları. | [⬇ İndir](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_tr.txt) |
 | **Web sitesi** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Yenilikler: 2.6.1
+### Yenilikler: 2.6.2
 
-- Düzeltme (SEALION7): aracın şeridinin altında artık siyah şerit yok: tema ve uygulama tüm yansıtma penceresini kullanır.
+- Düzeltme: Vektra asistanı yeniden eskisi gibi çalışıyor: “Vektra” kelimesi dil indirmeden yeniden çevrimiçi tanınıyor.
 
 ---
 

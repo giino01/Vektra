@@ -8,11 +8,11 @@
 
 Temi 3D, app e navigazione dietro il volante, assistente vocale e copilota autovelox. Un'unica app, testata su Sealion 7, Seal, Seal U e Seal U DM-i.
 
-![VEKTRA 2.6.1](https://img.shields.io/badge/VEKTRA-2.6.1-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/lingue-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/lingue-10-FF4FD8?style=for-the-badge)
 
-[**⬇ Scarica l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk) &nbsp;·&nbsp; [**🌐 Sito web**](https://giino01.github.io/Vektra/)
+[**⬇ Scarica l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 Sito web**](https://giino01.github.io/Vektra/)
 
-<sub>VERSIONE 2.6.1 · 75.6 MB · pubblicata il 12 novembre 2026</sub>
+<sub>VERSIONE 2.6.2 · 75.6 MB · pubblicata il 12 novembre 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · **Italiano** · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -102,7 +102,7 @@ Applicali con un tocco, poi sposta ogni elemento come vuoi in Modifica.
 
 ## Assistente · comandi
 
-**Tutti i comandi di Vektra** — Di' «Vektra», poi la tua richiesta. Nulla di ciò che dici viene inviato su internet prima della parola «Vektra».
+**Tutti i comandi di Vektra** — Di' «Vektra», poi la tua richiesta.
 
 | Categoria | | Esempi |
 | --- | :---: | --- |
@@ -154,11 +154,11 @@ Ogni avviso si attiva o disattiva nella scheda Copilota dell'app.
 
 <div align="center">
 
-### VEKTRA 2.6.1
+### VEKTRA 2.6.2
 
 In 10 lingue. Gli aggiornamenti arrivano poi direttamente nell'app.
 
-[**⬇ Scarica l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.1.apk)
+[**⬇ Scarica l'APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
 
 <sub>75.6 MB · Android 9 o successivo · BYD DiLink 3 · pubblicata il 12 novembre 2026</sub>
 
@@ -170,9 +170,9 @@ In 10 lingue. Gli aggiornamenti arrivano poi direttamente nell'app.
 | **Funzioni del copilota** — Tutti gli avvisi e le loro impostazioni. | [⬇ Scarica](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_it.txt) |
 | **Sito web** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Novità della 2.6.1
+### Novità della 2.6.2
 
-- Correzione (SEALION7): niente più banda nera sotto la fascia dell'auto: il tema e l'app usano tutta la finestra di proiezione.
+- Correzione: l'assistente Vektra funziona di nuovo come prima: la parola «Vektra» viene di nuovo riconosciuta online, senza scaricare la lingua.
 
 ---
 

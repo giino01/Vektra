@@ -1,41 +1,41 @@
 {
-  "version": "2.6.1",
-  "apk": "Vektra-2.6.1.apk",
-  "size": 79292751,
-  "sha256": "7c027cc99c293c0f59d41381494a1a164e76c12667f0c0235429adedd913e8e0",
+  "version": "2.6.2",
+  "apk": "Vektra-2.6.2.apk",
+  "size": 79289183,
+  "sha256": "5ac7bbeba9f36def1b58bff7f3842516a6e856bb4c3bdd5b421c3f67e3475762",
   "notes": [
-    "Correctif (SEALION7) : plus de bande noire sous la bande de la voiture : le thème et l'application utilisent toute la fenêtre de projection."
+    "Correctif : l'assistant Vektra fonctionne de nouveau comme avant : le mot « Vektra » est de nouveau reconnu en ligne, sans téléchargement de langue."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif (SEALION7) : plus de bande noire sous la bande de la voiture : le thème et l'application utilisent toute la fenêtre de projection."
+      "Correctif : l'assistant Vektra fonctionne de nouveau comme avant : le mot « Vektra » est de nouveau reconnu en ligne, sans téléchargement de langue."
     ],
     "en": [
-      "Fix (SEALION7): no more black band under the car's top band: the theme and the app use the whole projection window."
+      "Fix: the Vektra assistant works again as before: the word “Vektra” is recognised online again, with no language download."
     ],
     "nl": [
-      "Opgelost (SEALION7): geen zwarte balk meer onder de balk van de auto: het thema en de app gebruiken het hele projectievenster."
+      "Opgelost: de Vektra-assistent werkt weer zoals vroeger: het woord „Vektra” wordt weer online herkend, zonder taaldownload."
     ],
     "de": [
-      "Korrektur (SEALION7): kein schwarzer Streifen mehr unter der Leiste des Autos: Theme und App nutzen das ganze Projektionsfenster."
+      "Korrektur: Der Vektra-Assistent funktioniert wieder wie früher: Das Wort „Vektra“ wird wieder online erkannt, ohne Sprachdownload."
     ],
     "es": [
-      "Corrección (SEALION7): se acabó la franja negra bajo la franja del coche: el tema y la aplicación usan toda la ventana de proyección."
+      "Corrección: el asistente Vektra vuelve a funcionar como antes: la palabra «Vektra» vuelve a reconocerse en línea, sin descargar el idioma."
     ],
     "it": [
-      "Correzione (SEALION7): niente più banda nera sotto la fascia dell'auto: il tema e l'app usano tutta la finestra di proiezione."
+      "Correzione: l'assistente Vektra funziona di nuovo come prima: la parola «Vektra» viene di nuovo riconosciuta online, senza scaricare la lingua."
     ],
     "pt": [
-      "Correção (SEALION7): acabou a faixa preta por baixo da faixa do carro: o tema e a app usam toda a janela de projeção."
+      "Correção: o assistente Vektra volta a funcionar como antes: a palavra «Vektra» volta a ser reconhecida online, sem transferir o idioma."
     ],
     "ar": [
-      "إصلاح (SEALION7): لا مزيد من الشريط الأسود أسفل شريط السيارة: تستخدم السمة والتطبيق نافذة العرض بالكامل."
+      "إصلاح: يعمل مساعد Vektra من جديد كما كان سابقاً: يُتعرَّف على كلمة «Vektra» عبر الإنترنت من جديد، دون تنزيل اللغة."
     ],
     "tr": [
-      "Düzeltme (SEALION7): aracın şeridinin altında artık siyah şerit yok: tema ve uygulama tüm yansıtma penceresini kullanır."
+      "Düzeltme: Vektra asistanı yeniden eskisi gibi çalışıyor: “Vektra” kelimesi dil indirmeden yeniden çevrimiçi tanınıyor."
     ],
     "zh": [
-      "修复（SEALION7）：车辆信息条下方不再有黑色条带：主题和应用会使用整个投屏窗口。"
+      "修复：Vektra 助手恢复为以前的工作方式：重新在线识别“Vektra”一词，无需下载语言包。"
     ]
   }
 }
