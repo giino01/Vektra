@@ -1,85 +1,118 @@
 {
-  "version": "2.5.1-alfa14",
-  "apk": "Vektra-2.5.1-alfa14.apk",
-  "size": 79246201,
-  "sha256": "cf9590fe3124a7b093039bad26122164779252c58ff0826bda53a13dc5bd6842",
+  "version": "2.5.1-alfa15",
+  "apk": "Vektra-2.5.1-alfa15.apk",
+  "size": 79275217,
+  "sha256": "768c292ecc8957b09de77166effc41687a9b253e957d1630230db70fd97f1313",
   "notes": [
-    "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-    "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-    "Contient aussi tout l'alfa13. À tester :",
-    "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-    "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+    "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+    "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+    "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+    "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+    "Contient aussi tout l'alfa14. À tester :",
+    "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+    "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+    "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "en": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "nl": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "de": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "es": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "it": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "pt": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "ar": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "tr": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ],
     "zh": [
-      "Correctif : météo des thèmes web — la température actuelle s'affiche de nouveau (elle affichait « — » alors que la ville et les prochaines heures s'affichaient). Tous les thèmes web, Classique et Sealion 7. Bug présent depuis l'alfa7.",
-      "Zone application des thèmes Carte, Carbone 3D+ et VektraUI+ : plus aucun fondu sur les bords ni voile ; l'application projetée ou la carte Navigation Vektra s'affiche nette, avec des coins arrondis nets, comme dans Carbone 3D natif.",
-      "Contient aussi tout l'alfa13. À tester :",
-      "Thème web avec un bloc météo (VektraUI+, Carbone 3D+, Orbit, Ciel…) : la température actuelle s'affiche à côté de la ville.",
-      "Carbone 3D+, VektraUI+ ou Carte avec une application projetée ou Navigation Vektra : bords nets, sans fondu, en Classique et en Sealion 7, en clair et en sombre."
+      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
+      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
+      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
+      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
+      "Contient aussi tout l'alfa14. À tester :",
+      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
+      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
+      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
     ]
   }
 }
