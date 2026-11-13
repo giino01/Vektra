@@ -1,118 +1,85 @@
 {
-  "version": "2.5.1-alfa15",
-  "apk": "Vektra-2.5.1-alfa15.apk",
-  "size": 79275217,
-  "sha256": "768c292ecc8957b09de77166effc41687a9b253e957d1630230db70fd97f1313",
+  "version": "2.6.2-alfa1",
+  "apk": "Vektra-2.6.2-alfa1.apk",
+  "size": 79291385,
+  "sha256": "84275aea2e5bbc2eda0733e2079927d8ae445e218c6f6b611ecd859c714cf474",
   "notes": [
-    "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-    "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-    "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-    "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-    "Contient aussi tout l'alfa14. À tester :",
-    "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-    "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-    "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+    "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+    "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+    "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+    "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+    "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
   ],
   "notesByLang": {
     "fr": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "en": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "nl": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "de": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "es": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "it": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "pt": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "ar": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "tr": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ],
     "zh": [
-      "Aperçu interaction : nouvelles lignes de réglage de l'application projetée, pour le mode en cours (Plein écran app, zone application du Plein écran thème, Petit écran Sealion 7), tous les modèles. Elles ne touchent que l'application sur le combiné : jamais les widgets du thème, jamais la tablette.",
-      "Application projetée (Waze, Google Maps…) : « Taille de l'application (dpi) » (aussi pour la zone application du Plein écran thème ; Auto = calcul d'origine) et « Taille du texte » (essai : appliquée seulement à l'écran du combiné ; si la voiture la refuse, la ligne se masque d'elle-même et la tablette ne change jamais).",
-      "Navigation Vektra : « Taille de la carte » (routes, icônes, flèche) et « Taille des textes de la carte » (noms des rues et des villes).",
-      "Rapport du support : densité et taille du texte de l'application projetée (acceptée ou refusée par la voiture).",
-      "Contient aussi tout l'alfa14. À tester :",
-      "Aperçu interaction avec Waze : changer le dpi puis la taille du texte, en Plein écran app, en Plein écran thème (Carbone 3D+, VektraUI+, Carte) et en Petit écran (Sealion 7). La tablette ne doit pas changer.",
-      "Si la ligne « Taille du texte » disparaît après un essai : la voiture la refuse (rapport du support : ligne « Application projetée »).",
-      "Aperçu interaction avec Navigation Vektra : taille de la carte et des textes de la carte."
+      "Mode de conduite (DiLink 3, hors profil Sealion 7) : la voiture renvoie le même code en NORMAL et en ECO. Ce code s'affiche maintenant « NORMAL/ECO » (couleur neutre) au lieu de « ECO » : tous les thèmes web, réponse de l'assistant (« quel mode ? »), rapport du support. SPORT inchangé. Profil Sealion 7 inchangé (ECO et NORMAL y sont distincts).",
+      "Édition : nouveau bouton « ⇄ Inverser vitesse / info » pour VektraUI+, Carbone 3D+, Chronographe et Orbit. Il échange l'information des deux grands compteurs (VektraUI+ et Carbone 3D+ : vitesse ↔ puissance ; Chronographe et Orbit : vitesse ↔ batterie). Les compteurs gardent leur place et leur forme (demi-arcs de VektraUI+, cadrans inclinés de Carbone 3D+). Réglage gardé par thème, en Classique et en Sealion 7 séparément ; Annuler revient en arrière, un second appui remet comme avant. À tester :",
+      "DiLink 3 : passer en ECO puis NORMAL : les thèmes web affichent « NORMAL/ECO » dans les deux cas ; SPORT s'affiche SPORT. Demander « Vektra, quel mode ? ».",
+      "Édition de VektraUI+, Carbone 3D+, Chronographe et Orbit : « Inverser », puis Enregistrer : le combiné montre la vitesse de l'autre côté. Essayer aussi Annuler.",
+      "Thèmes sans ce bouton (Horizon, Ciel…) : le bouton n'apparaît pas."
     ]
   }
 }
