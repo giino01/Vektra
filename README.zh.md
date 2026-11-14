@@ -8,11 +8,11 @@
 
 方向盘后的 3D 主题、应用和导航，还有语音助手与测速副驾驶。一个应用，已在 Sealion 7、Seal、Seal U 和 Seal U DM-i 上测试。
 
-![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.3](https://img.shields.io/badge/VEKTRA-2.6.3-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/%E7%A7%8D%E8%AF%AD%E8%A8%80-10-FF4FD8?style=for-the-badge)
 
-[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 网站**](https://giino01.github.io/Vektra/)
+[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk) &nbsp;·&nbsp; [**🌐 网站**](https://giino01.github.io/Vektra/)
 
-<sub>版本 2.6.2 · 75.6 MB · 发布于 2026年11月12日</sub>
+<sub>版本 2.6.3 · 75.9 MB · 发布于 2026年11月14日</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · **中文**
 
@@ -124,11 +124,15 @@ VEKTRA 会适配你 BYD 的仪表盘。
 
 | 功能 | |
 | --- | --- |
+| **仪表盘欢迎画面** | 启动时，仪表盘会显示 5 秒 VEKTRA 标志、“你好”和你的名字、电量、续航、天气和胎压状态，然后显示你的主题。 |
 | **测速与路况提醒** | 固定、流动、区间和闯红灯测速，以及施工和拥堵。约提前 15 秒提醒（按车速为 300、500 或 1000 米），靠近时再提醒，经过测速点时提示音。 |
 | **测速点数据库** | 每周自动更新。 |
 | **提醒类型** | 勾选你想听到的提醒。 |
+| **测速点数据来源** | 用于提醒和地图的数据库。数据 © OpenStreetMap · MapAtlas (mapatlas.eu) |
+| **提醒在仪表上的位置** | 测速 / 路况提醒在仪表上的位置。 |
 | **语音倒车泊车雷达** | 倒车及低速泊车实时语音距离播报 · 100% 纯语音零遮挡 |
 | **电池电量与续航预警** | 电量低于 20% 主动提醒及低温充电建议 |
+| **低电量：建议切换 ECO 模式（纯电 < 15 % / DM-i 混动 < 30 %）** | 达到阈值时，Vektra 会语音建议切换到 ECO 模式。驾驶模式绝不会自动更改。 |
 | **12V 电瓶电量低提醒** | 当 12V 电瓶电压持续低于 11.8V 时，Vektra 会提醒（如果车辆提供该数据）。 |
 | **胎压与路面安全预警** | 异常胎压突降与低于 3°C 道路结冰主动提醒 |
 | **疲劳驾驶与休息提醒** | 连续行驶超过 2 小时温馨提示停车休息 |
@@ -154,13 +158,13 @@ VEKTRA 会适配你 BYD 的仪表盘。
 
 <div align="center">
 
-### VEKTRA 2.6.2
+### VEKTRA 2.6.3
 
 支持 10 种语言。之后，更新会直接推送到应用中。
 
-[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
+[**⬇ 下载 APK**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk)
 
-<sub>75.6 MB · Android 9 或更高 · BYD DiLink 3 · 发布于 2026年11月12日</sub>
+<sub>75.9 MB · Android 9 或更高 · BYD DiLink 3 · 发布于 2026年11月14日</sub>
 
 </div>
 
@@ -170,9 +174,29 @@ VEKTRA 会适配你 BYD 的仪表盘。
 | **副驾驶功能** — 全部提醒及其设置。 | [⬇ 下载](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_zh.txt) |
 | **网站** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### 新增内容 2.6.2
+### 新增内容 2.6.3
 
-- 修复：Vektra 助手恢复为以前的工作方式：重新在线识别“Vektra”一词，无需下载语言包。
+- 新增：在 OpenStreetMap 之外加入 MapAtlas 测速点，覆盖整个欧洲（数据 © MapAtlas，mapatlas.eu，2024/05/21 采集）：共 69826 个测速点，原为 45099 个。两个数据库中都有的测速点只播报一次。
+- 新增：副驾驶 → 测速与路况 → “测速点数据来源”：可选 OpenStreetMap、MapAtlas 或两者，用于提醒和地图。
+- 新增：副驾驶 → 测速与路况 → “提醒在仪表上的位置”：把提醒拖到你想要的位置，仪表实时跟随。
+- 新增：每次提醒时仪表上显示提醒框（固定测速及你的车速、流动测速、区间测速及平均车速、闯红灯、施工、事故、停驶车辆、拥堵），浅色和深色主题下都清晰可读。
+- 新增：VEKTRA 地图：测速点和事件显示为真实的交通标志，拥堵显示为橙 → 红线条，缩小时聚合为气泡。
+- 新增：启动时仪表上显示 5 秒欢迎画面（问候、电量、续航、天气、胎压），可在 副驾驶 → 迎宾与欢迎场景 中设置。
+- 新增：在 P 挡时仪表上显示 10 秒“行程结束”卡片（里程、能耗、剩余电量）。
+- 新增：编辑新主题时，你移动的区块也会在仪表上实时移动。
+- 新增：编辑：为 VektraUI+、Carbone 3D+、计时表和 Orbit 新增“⇄ 交换车速 / 信息”按钮。
+- 修复：新主题更流畅：动画最高每秒 60 帧，车速、功率和挡位与原生主题同步；平板吃力时，动态背景会自动减轻。
+- 修复：减少误报测速：事件必须在你前方且在你的道路上；使用 VEKTRA 路线时，只播报路线上的提醒。
+- 修复：VEKTRA 地图更清晰：深色模式为午夜蓝并且道路更亮，浅色模式对比度更高，白色道路清晰可见。
+- 修复：地图主题：VEKTRA 地图上方不再显示文字。
+- 修复：低电量：VEKTRA 不再自行更改驾驶模式；低于 15%（纯电）或 30%（DM-i 混动）时，每次行程用语音建议一次切换到 ECO。
+- 修复：行程结束总结不再使用编造的数值：如果能耗未知，VEKTRA 会直接说明。
+- 修复：泊车雷达测试：重新绘制的车辆，车头朝上，雷达名称清晰可读。
+- 修复：DiLink 3：按下按钮后投屏启动更快。
+- 修复：DiLink 3：能耗（kWh/100）在主题上实时跟随驾驶。
+- 修复：DiLink 3：车辆在 NORMAL 和 ECO 下发送相同代码，因此模式显示为“NORMAL/ECO”。
+- 修复（SEALION7）：现在在 Sealion 7 上可以听到 VEKTRA 的语音和测速提醒。
+- 修复（SEALION7）：主题中的功率由高压电池的电压和电流计算得出。
 
 ---
 
@@ -181,5 +205,7 @@ VEKTRA 会适配你 BYD 的仪表盘。
 **VEKTRA · 独立应用，与 BYD 无关联**
 
 <sub>个人项目，与 BYD 无任何关联。安装和使用风险自负。所显示的信息来自车辆系统，可能不准确：切勿据此驾驶。</sub>
+
+<sub>测速点数据：© OpenStreetMap 贡献者（ODbL）· © MapAtlas，mapatlas.eu（CC BY 4.0）</sub>
 
 </div>

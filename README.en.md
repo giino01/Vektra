@@ -8,11 +8,11 @@
 
 3D themes, apps and navigation behind the wheel, a voice assistant and a speed-camera co-pilot. One single app, tested on Sealion 7, Seal, Seal U and Seal U DM-i.
 
-![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/languages-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.3](https://img.shields.io/badge/VEKTRA-2.6.3-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/languages-10-FF4FD8?style=for-the-badge)
 
-[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
+[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
 
-<sub>VERSION 2.6.2 · 75.6 MB · released on 12 November 2026</sub>
+<sub>VERSION 2.6.3 · 75.9 MB · released on 14 November 2026</sub>
 
 [Français](README.md) · **English** · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -124,11 +124,15 @@ Each alert can be turned on or off in the app's Co-pilot tab.
 
 | Feature | |
 | --- | --- |
+| **Welcome screen on the cluster** | At start-up, the cluster shows for 5 seconds the VEKTRA logo, “Hello” and your name, the battery, range, weather and tyre status, then your theme. |
 | **Speed camera & traffic alerts** | Fixed, mobile, average-speed and red-light cameras, roadworks and slowdowns. Announced about 15 seconds ahead (300, 500 or 1000 m depending on speed), reminder closer, beep when passing the camera. |
 | **Speed camera database** | Updated automatically every week. |
 | **Alert types** | Tick the alerts you want to hear. |
+| **Speed camera sources** | Databases used for alerts and the map. Data © OpenStreetMap · MapAtlas (mapatlas.eu) |
+| **Alert position on the cluster** | Where the speed camera / traffic alert sits on the cluster. |
 | **Voice Parking Guidance** | Voice announcement of parking distances in maneuvers and reverse · 100% voice |
 | **Battery & Energy Monitoring** | Preventive alerts under 20% and cold weather charging advice |
+| **Low battery: ECO mode suggestion (< 15 % EV / < 30 % DM-i hybrid)** | When the threshold is reached, Vektra suggests by voice switching to ECO mode. The drive mode is never changed on its own. |
 | **Low 12 V battery alert** | Vektra warns when the 12 V battery voltage stays below 11.8 V (if the car provides it). |
 | **Tires & Road Safety** | Abnormal pressure drop and black ice risk under 3°C |
 | **Driver Fatigue Alert** | Friendly break suggestion after 2 hours of continuous driving |
@@ -154,13 +158,13 @@ Each alert can be turned on or off in the app's Co-pilot tab.
 
 <div align="center">
 
-### VEKTRA 2.6.2
+### VEKTRA 2.6.3
 
 In 10 languages. Updates then arrive directly in the app.
 
-[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
+[**⬇ Download the APK**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk)
 
-<sub>75.6 MB · Android 9 or later · BYD DiLink 3 · released on 12 November 2026</sub>
+<sub>75.9 MB · Android 9 or later · BYD DiLink 3 · released on 14 November 2026</sub>
 
 </div>
 
@@ -170,9 +174,29 @@ In 10 languages. Updates then arrive directly in the app.
 | **Co-pilot features** — Every alert and its settings. | [⬇ Download](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_en.txt) |
 | **Website** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### What is new in 2.6.2
+### What is new in 2.6.3
 
-- Fix: the Vektra assistant works again as before: the word “Vektra” is recognised online again, with no language download.
+- Add: MapAtlas speed cameras on top of OpenStreetMap, for all of Europe (data © MapAtlas, mapatlas.eu, survey of 21/05/2024): 69,826 cameras instead of 45,099. A camera found in both databases is announced only once.
+- Add: Copilot → Speed cameras & traffic → “Speed camera sources”: OpenStreetMap, MapAtlas or both, for alerts and the map.
+- Add: Copilot → Speed cameras & traffic → “Alert position on the cluster”: drag the alert wherever you want, the cluster follows live.
+- Add: alert block on the cluster during every alert (fixed camera with your speed, mobile, average-speed section with your average, red light, roadworks, accident, stopped vehicle, traffic jam), readable on light and dark themes.
+- Add: VEKTRA map: speed cameras and events shown as real road signs, traffic jams as an orange → red line, grouped into bubbles when you zoom out.
+- Add: 5-second welcome screen on the cluster at start-up (hello, battery, range, weather, tyres), set in Copilot → Welcome & greeting scene.
+- Add: “Trip finished” card for 10 seconds on the cluster in P (distance, consumption, battery left).
+- Add: editing the new themes: the block you move also moves live on the cluster.
+- Add: editing: “⇄ Swap speed / info” button for VektraUI+, Carbone 3D+, Chronograph and Orbit.
+- Fix: smoother new themes: animations up to 60 frames per second, speed, power and gear at the pace of the original themes; if the tablet struggles, the animated background gets lighter on its own.
+- Fix: fewer false speed camera alerts: the event must be ahead of you and on your road; with a VEKTRA route, only those on the route are announced.
+- Fix: easier-to-read VEKTRA map: dark mode in midnight blue with lighter roads, light mode with more contrast and clearly visible white roads.
+- Fix: Map theme: no more text shown over the VEKTRA map.
+- Fix: low battery: VEKTRA no longer changes the driving mode on its own; below 15% (electric) or 30% (DM-i hybrid), it suggests switching to ECO by voice, once per trip.
+- Fix: end-of-trip summary with no made-up values: if the consumption is unknown, VEKTRA says so.
+- Fix: parking sensor test: new car drawing, front at the top, readable sensor names.
+- Fix: DiLink 3: projection starts faster after pressing the button.
+- Fix: DiLink 3: consumption (kWh/100) follows your driving live on the themes.
+- Fix: DiLink 3: the car sends the same code in NORMAL and ECO, so the mode is now shown as “NORMAL/ECO”.
+- Fix (SEALION7): VEKTRA's voice and speed camera alerts can now be heard on the Sealion 7.
+- Fix (SEALION7): theme power is calculated from the high-voltage battery's voltage and current.
 
 ---
 
@@ -181,5 +205,7 @@ In 10 languages. Updates then arrive directly in the app.
 **VEKTRA · independent app, not affiliated with BYD**
 
 <sub>Personal project, with no connection to BYD. Install and use at your own risk. The information shown comes from the car's system and may be inaccurate: never rely on it to drive.</sub>
+
+<sub>Speed camera data: © OpenStreetMap contributors (ODbL) · © MapAtlas, mapatlas.eu (CC BY 4.0)</sub>
 
 </div>

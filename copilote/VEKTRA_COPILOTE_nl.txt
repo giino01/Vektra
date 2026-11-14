@@ -2,6 +2,9 @@
 VEKTRA — Functies van de copiloot
 ================================================================
 
+• Welkomstscherm op het instrumentenpaneel
+  Bij het starten toont het instrumentenpaneel 5 seconden het VEKTRA-logo, „Hallo” en je naam, de accu, het bereik, het weer en de banden, daarna je thema.
+
 • Flitspaal- en verkeersmeldingen
   Vaste en mobiele flitsers, trajectcontroles, roodlichtcamera's, wegenwerken en vertragingen. Melding ongeveer 15 seconden vooraf (300, 500 of 1000 m volgens snelheid), herinnering dichterbij, piep bij het passeren.
 
@@ -11,11 +14,20 @@ VEKTRA — Functies van de copiloot
 • Soorten meldingen
   Vink de meldingen aan die je wilt horen.
 
+• Flitsbronnen
+  Databases voor meldingen en de kaart. Gegevens © OpenStreetMap · MapAtlas (mapatlas.eu)
+
+• Positie van de melding op de cluster
+  Waar de flits-/verkeersmelding op de cluster staat.
+
 • Gesproken parkeerhulp
   Gesproken afstandsmeldingen bij manoeuvreren en achteruitrijden · 100% spraak
 
 • Batterij- & energiebewaking
   Preventieve meldingen onder 20% en laadadvies bij kou
+
+• Lage accu: advies ECO-modus (< 15 % EV / < 30 % DM-i-hybride)
+  Bij de drempel stelt Vektra met de stem voor om naar ECO te schakelen. De rijmodus wordt nooit vanzelf gewijzigd.
 
 • Waarschuwing zwakke 12V-accu
   Vektra waarschuwt als de spanning van de 12V-accu onder 11,8 V blijft (als de auto die doorgeeft).

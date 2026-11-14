@@ -2,6 +2,9 @@
 VEKTRA — Fonctions du copilote
 ================================================================
 
+• Écran d'accueil sur le combiné
+  Au démarrage, le combiné affiche pendant 5 secondes le logo VEKTRA, « Bonjour » et votre nom, la batterie, l'autonomie, la météo et l'état des pneus, puis votre thème.
+
 • Alertes radars & trafic
   Radars fixes, mobiles, tronçons, feux rouges, travaux et ralentissements. Annonce environ 15 secondes avant (300, 500 ou 1000 m selon la vitesse), rappel plus près, bip au passage du radar.
 
@@ -11,11 +14,20 @@ VEKTRA — Fonctions du copilote
 • Types d'alertes
   Coche les alertes que tu veux entendre.
 
+• Sources radars
+  Bases utilisées pour les annonces et la carte. Données © OpenStreetMap · MapAtlas (mapatlas.eu)
+
+• Position de l'alerte sur le combiné
+  Place du bloc d'alerte radar / trafic sur le combiné.
+
 • Guidage vocal de stationnement
   Annonce vocale des distances en manœuvre et marche arrière · 100 % vocal
 
 • Surveillance batterie & énergie
   Alertes préventives sous 20 % et conseils de recharge par grand froid
+
+• Batterie basse : conseil de passer en mode ECO (< 15 % EV / < 30 % Hybride DM-i)
+  Quand le seuil est atteint, Vektra vous propose à la voix de passer en mode ECO. Le mode de conduite n'est jamais changé tout seul.
 
 • Alerte batterie 12 V faible
   Vektra prévient quand la tension de la batterie 12 V reste sous 11,8 V (si la voiture la donne).

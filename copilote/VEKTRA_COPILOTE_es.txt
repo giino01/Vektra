@@ -2,6 +2,9 @@
 VEKTRA — Funciones del copiloto
 ================================================================
 
+• Pantalla de bienvenida en el cuadro
+  Al arrancar, el cuadro muestra durante 5 segundos el logotipo VEKTRA, «Hola» y tu nombre, la batería, la autonomía, el tiempo y el estado de los neumáticos, y luego tu tema.
+
 • Avisos de radares y tráfico
   Radares fijos, móviles, de tramo y de semáforo, obras y retenciones. Aviso unos 15 segundos antes (300, 500 o 1000 m según la velocidad), recordatorio más cerca, pitido al pasar el radar.
 
@@ -11,11 +14,20 @@ VEKTRA — Funciones del copiloto
 • Tipos de aviso
   Marca los avisos que quieres oír.
 
+• Fuentes de radares
+  Bases usadas para los avisos y el mapa. Datos © OpenStreetMap · MapAtlas (mapatlas.eu)
+
+• Posición del aviso en el cuadro
+  Dónde aparece el aviso de radar / tráfico en el cuadro.
+
 • Guía de voz para aparcamiento
   Anuncio por voz de distancias en maniobras y marcha atrás · 100% voz
 
 • Monitorización de batería y energía
   Alertas preventivas por debajo del 20% y consejos de carga en frío
+
+• Batería baja: consejo de modo ECO (< 15 % EV / < 30 % híbrido DM-i)
+  Al alcanzar el umbral, Vektra te propone por voz pasar al modo ECO. El modo de conducción nunca se cambia solo.
 
 • Aviso de batería de 12 V baja
   Vektra avisa cuando la tensión de la batería de 12 V se queda por debajo de 11,8 V (si el coche la da).

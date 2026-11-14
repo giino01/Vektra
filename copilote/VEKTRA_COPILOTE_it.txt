@@ -2,6 +2,9 @@
 VEKTRA — Funzioni del copilota
 ================================================================
 
+• Schermata di benvenuto sul quadro
+  All'avvio, il quadro mostra per 5 secondi il logo VEKTRA, «Buongiorno» e il tuo nome, batteria, autonomia, meteo e stato dei pneumatici, poi il tuo tema.
+
 • Avvisi autovelox e traffico
   Autovelox fissi, mobili, tutor, semafori, lavori e rallentamenti. Avviso circa 15 secondi prima (300, 500 o 1000 m secondo la velocità), promemoria più vicino, bip al passaggio.
 
@@ -11,11 +14,20 @@ VEKTRA — Funzioni del copilota
 • Tipi di avviso
   Seleziona gli avvisi che vuoi sentire.
 
+• Fonti autovelox
+  Database usati per gli avvisi e la mappa. Dati © OpenStreetMap · MapAtlas (mapatlas.eu)
+
+• Posizione dell'avviso sul quadro
+  Dove appare l'avviso autovelox / traffico sul quadro.
+
 • Guida vocale al parcheggio
   Annuncio vocale delle distanze in manovra e retromarcia · 100% vocale
 
 • Monitoraggio batteria ed energia
   Avvisi preventivi sotto il 20% e consigli di ricarica con clima freddo
+
+• Batteria scarica: consiglio modalità ECO (< 15 % EV / < 30 % ibrida DM-i)
+  Raggiunta la soglia, Vektra ti suggerisce a voce di passare in modalità ECO. La modalità di guida non viene mai cambiata da sola.
 
 • Avviso batteria 12 V scarica
   Vektra avvisa quando la tensione della batteria 12 V resta sotto 11,8 V (se l'auto la fornisce).

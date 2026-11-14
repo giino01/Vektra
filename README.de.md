@@ -8,11 +8,11 @@
 
 3D-Themes, Apps und Navigation hinter dem Lenkrad, Sprachassistent und Blitzer-Copilot. Eine einzige App, getestet auf Sealion 7, Seal, Seal U und Seal U DM-i.
 
-![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/Sprachen-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.3](https://img.shields.io/badge/VEKTRA-2.6.3-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/Sprachen-10-FF4FD8?style=for-the-badge)
 
-[**⬇ APK herunterladen**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
+[**⬇ APK herunterladen**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
 
-<sub>VERSION 2.6.2 · 75.6 MB · veröffentlicht am 12. November 2026</sub>
+<sub>VERSION 2.6.3 · 75.9 MB · veröffentlicht am 14. November 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · **Deutsch** · [Português](README.pt.md) · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -124,11 +124,15 @@ Jede Warnung lässt sich im Copilot-Tab der App ein- oder ausschalten.
 
 | Funktion | |
 | --- | --- |
+| **Begrüßungsbildschirm im Kombiinstrument** | Beim Start zeigt das Kombiinstrument 5 Sekunden lang das VEKTRA-Logo, „Hallo“ und deinen Namen, Batterie, Reichweite, Wetter und Reifenzustand, danach dein Theme. |
 | **Blitzer- & Verkehrswarnungen** | Feste und mobile Blitzer, Abschnittskontrollen, Rotlichtkameras, Baustellen und Staus. Ansage etwa 15 Sekunden vorher (300, 500 oder 1000 m je nach Tempo), Erinnerung näher, Piepton beim Passieren. |
 | **Blitzer-Datenbank** | Wird jede Woche automatisch aktualisiert. |
 | **Warnungsarten** | Hake die Warnungen an, die du hören willst. |
+| **Blitzer-Quellen** | Datenbanken für Warnungen und Karte. Daten © OpenStreetMap · MapAtlas (mapatlas.eu) |
+| **Position der Warnung im Kombi** | Wo die Blitzer-/Verkehrswarnung im Kombi erscheint. |
 | **Akustische Parkführung** | Sprachansage der Parkabstände beim Rangieren und Rückwärtsfahren · 100 % Sprache |
 | **Batterie- & Energieüberwachung** | Frühwarnungen unter 20 % und Ladetipps bei Kälte |
+| **Niedriger Akku: Tipp ECO-Modus (< 15 % EV / < 30 % DM-i-Hybrid)** | Wird die Schwelle erreicht, schlägt Vektra per Sprache den ECO-Modus vor. Der Fahrmodus wird nie von selbst geändert. |
 | **Warnung schwache 12-V-Batterie** | Vektra warnt, wenn die Spannung der 12-V-Batterie unter 11,8 V bleibt (falls das Auto sie liefert). |
 | **Reifen- & Straßenüberwachung** | Warnung bei Druckverlust und Glatteisgefahr unter 3°C |
 | **Müdigkeitswarnung** | Freundliche Pausenempfehlung nach 2 Stunden ununterbrochener Fahrt |
@@ -154,13 +158,13 @@ Jede Warnung lässt sich im Copilot-Tab der App ein- oder ausschalten.
 
 <div align="center">
 
-### VEKTRA 2.6.2
+### VEKTRA 2.6.3
 
 In 10 Sprachen. Updates kommen danach direkt in der App an.
 
-[**⬇ APK herunterladen**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
+[**⬇ APK herunterladen**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk)
 
-<sub>75.6 MB · Android 9 oder neuer · BYD DiLink 3 · veröffentlicht am 12. November 2026</sub>
+<sub>75.9 MB · Android 9 oder neuer · BYD DiLink 3 · veröffentlicht am 14. November 2026</sub>
 
 </div>
 
@@ -170,9 +174,29 @@ In 10 Sprachen. Updates kommen danach direkt in der App an.
 | **Copilot-Funktionen** — Alle Warnungen und ihre Einstellungen. | [⬇ Herunterladen](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_de.txt) |
 | **Website** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Neu in 2.6.2
+### Neu in 2.6.3
 
-- Korrektur: Der Vektra-Assistent funktioniert wieder wie früher: Das Wort „Vektra“ wird wieder online erkannt, ohne Sprachdownload.
+- Neu: Blitzer von MapAtlas zusätzlich zu OpenStreetMap, für ganz Europa (Daten © MapAtlas, mapatlas.eu, Stand 21.05.2024): 69.826 Blitzer statt 45.099. Ein Blitzer, der in beiden Datenbanken steht, wird nur einmal angesagt.
+- Neu: Copilot → Blitzer & Verkehr → „Blitzer-Quellen“: OpenStreetMap, MapAtlas oder beide, für Ansagen und Karte.
+- Neu: Copilot → Blitzer & Verkehr → „Position der Warnung im Kombi“: Ziehe die Warnung, wohin du willst, das Kombi folgt live.
+- Neu: Warnblock im Kombi bei jeder Warnung (fester Blitzer mit deiner Geschwindigkeit, mobil, Abschnittskontrolle mit Durchschnitt, Rotlicht, Baustelle, Unfall, stehendes Fahrzeug, Stau), gut lesbar bei hellem und dunklem Theme.
+- Neu: VEKTRA-Karte: Blitzer und Ereignisse als echte Verkehrsschilder, Staus als orange → rote Linie, beim Herauszoomen in Blasen gruppiert.
+- Neu: 5-Sekunden-Begrüßungsbildschirm im Kombi beim Start (Hallo, Batterie, Reichweite, Wetter, Reifen), einstellbar unter Copilot → Empfang & Begrüßung.
+- Neu: Karte „Fahrt beendet“ 10 Sekunden im Kombi in P (Strecke, Verbrauch, Restbatterie).
+- Neu: Bearbeiten der neuen Themes: Der Block, den du verschiebst, bewegt sich live auch im Kombi.
+- Neu: Bearbeiten: Taste „⇄ Tempo / Info tauschen“ für VektraUI+, Carbone 3D+, Chronograph und Orbit.
+- Korrektur: flüssigere neue Themes: Animationen bis 60 Bilder pro Sekunde, Tempo, Leistung und Fahrstufe im Takt der Original-Themes; wenn das Tablet nicht mitkommt, wird der animierte Hintergrund von selbst leichter.
+- Korrektur: weniger falsche Blitzerwarnungen: Das Ereignis muss vor dir und auf deiner Straße liegen; mit einer VEKTRA-Route werden nur die auf der Route angesagt.
+- Korrektur: besser lesbare VEKTRA-Karte: dunkler Modus in Nachtblau mit helleren Straßen, heller Modus kontrastreicher mit klar erkennbaren weißen Straßen.
+- Korrektur: Theme Karte: kein Text mehr über der VEKTRA-Karte.
+- Korrektur: niedriger Akku: VEKTRA ändert den Fahrmodus nicht mehr selbst; unter 15 % (elektrisch) oder 30 % (DM-i-Hybrid) schlägt es per Sprache ECO vor, einmal pro Fahrt.
+- Korrektur: Fahrtzusammenfassung ohne erfundene Werte: Ist der Verbrauch unbekannt, sagt VEKTRA das.
+- Korrektur: Test der Parksensoren: neu gezeichnetes Auto, Front oben, lesbare Sensornamen.
+- Korrektur: DiLink 3: Die Projektion startet nach dem Tastendruck schneller.
+- Korrektur: DiLink 3: Der Verbrauch (kWh/100) folgt deiner Fahrt live in den Themes.
+- Korrektur: DiLink 3: Das Auto sendet in NORMAL und ECO denselben Code, der Modus wird daher als „NORMAL/ECO“ angezeigt.
+- Korrektur (SEALION7): VEKTRAs Stimme und die Blitzerwarnungen sind im Sealion 7 jetzt hörbar.
+- Korrektur (SEALION7): Die Leistung in den Themes wird aus Spannung und Strom der Hochvoltbatterie berechnet.
 
 ---
 
@@ -181,5 +205,7 @@ In 10 Sprachen. Updates kommen danach direkt in der App an.
 **VEKTRA · unabhängige App, nicht mit BYD verbunden**
 
 <sub>Privates Projekt, ohne jede Verbindung zu BYD. Installation und Nutzung auf eigene Gefahr. Die angezeigten Angaben stammen aus dem Fahrzeugsystem und können falsch sein: verlasse dich beim Fahren nie darauf.</sub>
+
+<sub>Blitzerdaten: © OpenStreetMap-Mitwirkende (ODbL) · © MapAtlas, mapatlas.eu (CC BY 4.0)</sub>
 
 </div>

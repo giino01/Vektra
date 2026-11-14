@@ -8,11 +8,11 @@
 
 Temas 3D, apps e navegação atrás do volante, assistente de voz e copiloto de radares. Uma só app, testada no Sealion 7, Seal, Seal U e Seal U DM-i.
 
-![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/idiomas-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.3](https://img.shields.io/badge/VEKTRA-2.6.3-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/idiomas-10-FF4FD8?style=for-the-badge)
 
-[**⬇ Transferir o APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 Site**](https://giino01.github.io/Vektra/)
+[**⬇ Transferir o APK**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk) &nbsp;·&nbsp; [**🌐 Site**](https://giino01.github.io/Vektra/)
 
-<sub>VERSÃO 2.6.2 · 75.6 MB · publicada a 12 de novembro de 2026</sub>
+<sub>VERSÃO 2.6.3 · 75.9 MB · publicada a 14 de novembro de 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · **Português** · [Türkçe](README.tr.md) · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -124,11 +124,15 @@ Cada alerta ativa-se ou desativa-se no separador Copiloto da app.
 
 | Função | |
 | --- | --- |
+| **Ecrã de boas-vindas no painel** | Ao arrancar, o painel mostra durante 5 segundos o logótipo VEKTRA, «Bom dia» e o teu nome, a bateria, a autonomia, o tempo e o estado dos pneus, e depois o teu tema. |
 | **Alertas de radares e trânsito** | Radares fixos, móveis, de troço e de semáforo, obras e abrandamentos. Aviso cerca de 15 segundos antes (300, 500 ou 1000 m conforme a velocidade), lembrete mais perto, bip ao passar o radar. |
 | **Base de radares** | Atualizada automaticamente todas as semanas. |
 | **Tipos de alerta** | Marca os alertas que queres ouvir. |
+| **Fontes de radares** | Bases usadas para os alertas e o mapa. Dados © OpenStreetMap · MapAtlas (mapatlas.eu) |
+| **Posição do alerta no painel** | Onde aparece o alerta de radar / trânsito no painel. |
 | **Orientação de estacionamento por voz** | Anúncio por voz das distâncias em manobras e marcha à ré · 100% voz |
 | **Monitoramento de bateria e energia** | Alertas preventivos abaixo de 20% e dicas de recarga no frio |
+| **Bateria baixa: conselho do modo ECO (< 15 % EV / < 30 % híbrido DM-i)** | Ao atingir o limiar, a Vektra sugere por voz passar para o modo ECO. O modo de condução nunca é alterado sozinho. |
 | **Alerta de bateria de 12 V fraca** | A Vektra avisa quando a tensão da bateria de 12 V fica abaixo de 11,8 V (se o carro a fornecer). |
 | **Segurança de pneus e pista** | Alerta de perda de pressão e risco de gelo abaixo de 3°C |
 | **Alerta de fadiga** | Sugestão amigável de parada após 2 horas de direção contínua |
@@ -154,13 +158,13 @@ Cada alerta ativa-se ou desativa-se no separador Copiloto da app.
 
 <div align="center">
 
-### VEKTRA 2.6.2
+### VEKTRA 2.6.3
 
 Em 10 idiomas. As atualizações chegam depois diretamente na app.
 
-[**⬇ Transferir o APK**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
+[**⬇ Transferir o APK**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk)
 
-<sub>75.6 MB · Android 9 ou superior · BYD DiLink 3 · publicada a 12 de novembro de 2026</sub>
+<sub>75.9 MB · Android 9 ou superior · BYD DiLink 3 · publicada a 14 de novembro de 2026</sub>
 
 </div>
 
@@ -170,9 +174,29 @@ Em 10 idiomas. As atualizações chegam depois diretamente na app.
 | **Funções do copiloto** — Todos os alertas e as suas definições. | [⬇ Transferir](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_pt.txt) |
 | **Site** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Novidades da 2.6.2
+### Novidades da 2.6.3
 
-- Correção: o assistente Vektra volta a funcionar como antes: a palavra «Vektra» volta a ser reconhecida online, sem transferir o idioma.
+- Novidade: radares do MapAtlas além do OpenStreetMap, para toda a Europa (dados © MapAtlas, mapatlas.eu, levantamento de 21/05/2024): 69 826 radares em vez de 45 099. Um radar presente nas duas bases só é anunciado uma vez.
+- Novidade: Copiloto → Radares e trânsito → «Fontes de radares»: OpenStreetMap, MapAtlas ou as duas, para os alertas e o mapa.
+- Novidade: Copiloto → Radares e trânsito → «Posição do alerta no painel»: arrasta o alerta para onde quiseres, o painel segue em direto.
+- Novidade: bloco de alerta no painel durante cada alerta (radar fixo com a tua velocidade, móvel, troço com a velocidade média, semáforo, obras, acidente, veículo parado, fila), legível em tema claro e escuro.
+- Novidade: mapa VEKTRA: radares e eventos como verdadeiros sinais de trânsito, filas como linha laranja → vermelha, agrupados em bolhas ao afastar o zoom.
+- Novidade: ecrã de boas-vindas de 5 segundos no painel ao arrancar (olá, bateria, autonomia, meteorologia, pneus), a regular em Copiloto → Receção e cena de boas-vindas.
+- Novidade: cartão «Viagem terminada» durante 10 segundos no painel em P (distância, consumo, bateria restante).
+- Novidade: edição dos novos temas: o bloco que moves também se move em direto no painel.
+- Novidade: edição: botão «⇄ Trocar velocidade / info» para VektraUI+, Carbone 3D+, Cronógrafo e Orbit.
+- Correção: novos temas mais fluidos: animações até 60 imagens por segundo, velocidade, potência e mudança ao ritmo dos temas originais; se o tablet tiver dificuldades, o fundo animado fica mais leve sozinho.
+- Correção: menos falsos alertas de radar: o evento tem de estar à tua frente e na tua estrada; com um itinerário VEKTRA, só são anunciados os do itinerário.
+- Correção: mapa VEKTRA mais legível: modo escuro azul-noite com estradas mais claras, modo claro mais contrastado com estradas brancas bem visíveis.
+- Correção: tema Mapa: já não aparece texto por cima do mapa VEKTRA.
+- Correção: bateria fraca: a VEKTRA já não muda sozinha o modo de condução; abaixo de 15% (elétrico) ou 30% (híbrido DM-i), propõe por voz passar a ECO, uma vez por viagem.
+- Correção: resumo de fim de viagem sem valores inventados: se o consumo não for conhecido, a VEKTRA diz isso.
+- Correção: teste dos sensores de estacionamento: novo carro desenhado, frente em cima, nomes dos sensores legíveis.
+- Correção: DiLink 3: a projeção arranca mais depressa depois de carregar no botão.
+- Correção: DiLink 3: o consumo (kWh/100) acompanha a condução em direto nos temas.
+- Correção: DiLink 3: o carro envia o mesmo código em NORMAL e ECO, por isso o modo aparece como «NORMAL/ECO».
+- Correção (SEALION7): a voz da VEKTRA e os alertas de radar já se ouvem no Sealion 7.
+- Correção (SEALION7): a potência dos temas é calculada a partir da tensão e da corrente da bateria de alta tensão.
 
 ---
 
@@ -181,5 +205,7 @@ Em 10 idiomas. As atualizações chegam depois diretamente na app.
 **VEKTRA · app independente, sem ligação à BYD**
 
 <sub>Projeto pessoal, sem qualquer ligação à BYD. Instalação e utilização por tua conta e risco. As informações mostradas vêm do sistema do carro e podem estar incorretas: nunca confies nelas para conduzir.</sub>
+
+<sub>Dados de radares: © colaboradores do OpenStreetMap (ODbL) · © MapAtlas, mapatlas.eu (CC BY 4.0)</sub>
 
 </div>

@@ -8,11 +8,11 @@
 
 Direksiyonun arkasında 3D temalar, uygulamalar ve navigasyon; sesli asistan ve radar yardımcı pilotu. Sealion 7, Seal, Seal U ve Seal U DM-i üzerinde test edilmiş tek bir uygulama.
 
-![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/dil-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.3](https://img.shields.io/badge/VEKTRA-2.6.3-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/dil-10-FF4FD8?style=for-the-badge)
 
-[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 Web sitesi**](https://giino01.github.io/Vektra/)
+[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk) &nbsp;·&nbsp; [**🌐 Web sitesi**](https://giino01.github.io/Vektra/)
 
-<sub>SÜRÜM 2.6.2 · 75.6 MB · yayın tarihi 12 Kasım 2026</sub>
+<sub>SÜRÜM 2.6.3 · 75.9 MB · yayın tarihi 14 Kasım 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · **Türkçe** · [Nederlands](README.nl.md) · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -124,11 +124,15 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 
 | Özellik | |
 | --- | --- |
+| **Göstergede karşılama ekranı** | Açılışta gösterge 5 saniye boyunca VEKTRA logosunu, “Merhaba” ve adını, bataryayı, menzili, hava durumunu ve lastik durumunu gösterir, sonra temana geçer. |
 | **Radar ve trafik uyarıları** | Sabit, mobil, ortalama hız ve kırmızı ışık radarları, yol çalışmaları ve yavaşlamalar. Yaklaşık 15 saniye önce (hıza göre 300, 500 veya 1000 m) uyarı, yaklaşınca hatırlatma, radarı geçerken bip. |
 | **Radar veritabanı** | Her hafta otomatik güncellenir. |
 | **Uyarı türleri** | Duymak istediğin uyarıları işaretle. |
+| **Radar kaynakları** | Uyarılar ve harita için kullanılan veritabanları. Veriler © OpenStreetMap · MapAtlas (mapatlas.eu) |
+| **Uyarının göstergedeki konumu** | Radar / trafik uyarısının göstergedeki yeri. |
 | **Sesli Park Kılavuzu** | Manevra ve geri viteste mesafelerin sesli bildirimi · %100 sesli |
 | **Batarya ve Enerji Takibi** | %20'nin altında erken uyarılar ve soğuk hava şarj tavsiyeleri |
+| **Düşük batarya: ECO modu önerisi (< %15 EV / < %30 DM-i hibrit)** | Eşiğe ulaşıldığında Vektra sesli olarak ECO moduna geçmeyi önerir. Sürüş modu asla kendiliğinden değiştirilmez. |
 | **Zayıf 12 V akü uyarısı** | Vektra, 12 V akü gerilimi 11,8 V'un altında kalırsa uyarır (araç bu değeri veriyorsa). |
 | **Lastik ve Yol Güvenliği** | Anormal basınç düşüşü ve 3°C altında gizli buzlanma uyarısı |
 | **Yorgunluk Uyarısı** | 2 saatlik kesintisiz sürüşün ardından mola önerisi |
@@ -154,13 +158,13 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 
 <div align="center">
 
-### VEKTRA 2.6.2
+### VEKTRA 2.6.3
 
 10 dilde. Güncellemeler daha sonra doğrudan uygulamaya gelir.
 
-[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
+[**⬇ APK'yı indir**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk)
 
-<sub>75.6 MB · Android 9 veya üzeri · BYD DiLink 3 · yayın tarihi 12 Kasım 2026</sub>
+<sub>75.9 MB · Android 9 veya üzeri · BYD DiLink 3 · yayın tarihi 14 Kasım 2026</sub>
 
 </div>
 
@@ -170,9 +174,29 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 | **Yardımcı pilot özellikleri** — Tüm uyarılar ve ayarları. | [⬇ İndir](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_tr.txt) |
 | **Web sitesi** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Yenilikler: 2.6.2
+### Yenilikler: 2.6.3
 
-- Düzeltme: Vektra asistanı yeniden eskisi gibi çalışıyor: “Vektra” kelimesi dil indirmeden yeniden çevrimiçi tanınıyor.
+- Yeni: OpenStreetMap'e ek olarak tüm Avrupa için MapAtlas radarları (veriler © MapAtlas, mapatlas.eu, 21/05/2024 tarihli): 45.099 yerine 69.826 radar. Her iki veritabanında bulunan bir radar yalnızca bir kez duyurulur.
+- Yeni: Yardımcı Pilot → Radarlar ve trafik → «Radar kaynakları»: uyarılar ve harita için OpenStreetMap, MapAtlas ya da ikisi.
+- Yeni: Yardımcı Pilot → Radarlar ve trafik → «Uyarının göstergedeki konumu»: uyarıyı istediğin yere sürükle, gösterge canlı olarak takip eder.
+- Yeni: her uyarıda göstergede uyarı kutusu (hızınla sabit radar, mobil, ortalama hızla koridor, kırmızı ışık, yol çalışması, kaza, duran araç, trafik sıkışıklığı), açık ve koyu temada okunaklı.
+- Yeni: VEKTRA haritası: radarlar ve olaylar gerçek trafik işaretleri olarak, sıkışıklıklar turuncu → kırmızı çizgi olarak, uzaklaştırınca baloncuklarda gruplanır.
+- Yeni: açılışta göstergede 5 saniyelik karşılama ekranı (merhaba, batarya, menzil, hava durumu, lastikler); Yardımcı Pilot → Karşılama bölümünden ayarlanır.
+- Yeni: P konumunda göstergede 10 saniyelik «Yolculuk bitti» kartı (mesafe, tüketim, kalan batarya).
+- Yeni: yeni temaları düzenleme: taşıdığın blok göstergede de canlı hareket eder.
+- Yeni: düzenleme: VektraUI+, Carbone 3D+, Kronograf ve Orbit için «⇄ Hız / bilgi değiştir» düğmesi.
+- Düzeltme: daha akıcı yeni temalar: saniyede 60 kareye kadar animasyon, hız, güç ve vites orijinal temalar kadar hızlı; tablet zorlanırsa hareketli arka plan kendiliğinden hafifler.
+- Düzeltme: daha az yanlış radar uyarısı: olay önünde ve yolunun üzerinde olmalı; VEKTRA rotasıyla yalnızca rota üzerindekiler duyurulur.
+- Düzeltme: daha okunaklı VEKTRA haritası: daha açık yollarla gece mavisi koyu mod, belirgin beyaz yollarla daha kontrastlı açık mod.
+- Düzeltme: Harita teması: VEKTRA haritasının üzerinde artık yazı görünmüyor.
+- Düzeltme: düşük batarya: VEKTRA sürüş modunu artık kendi başına değiştirmiyor; %15'in (elektrikli) veya %30'un (DM-i hibrit) altında, yolculuk başına bir kez sesli olarak ECO'ya geçmeyi öneriyor.
+- Düzeltme: uydurulmuş değer olmadan yolculuk sonu özeti: tüketim bilinmiyorsa VEKTRA bunu söyler.
+- Düzeltme: park sensörü testi: yeni çizilmiş araç, ön kısım yukarıda, okunaklı sensör adları.
+- Düzeltme: DiLink 3: düğmeye bastıktan sonra yansıtma daha hızlı başlıyor.
+- Düzeltme: DiLink 3: tüketim (kWh/100) temalarda sürüşü canlı olarak takip ediyor.
+- Düzeltme: DiLink 3: araç NORMAL ve ECO'da aynı kodu gönderiyor; bu yüzden mod «NORMAL/ECO» olarak gösteriliyor.
+- Düzeltme (SEALION7): VEKTRA'nın sesi ve radar uyarıları artık Sealion 7'de duyuluyor.
+- Düzeltme (SEALION7): temalardaki güç, yüksek voltaj bataryasının gerilimi ve akımından hesaplanıyor.
 
 ---
 
@@ -181,5 +205,7 @@ Her uyarı uygulamanın Yardımcı pilot sekmesinden açılıp kapatılır.
 **VEKTRA · bağımsız uygulama, BYD ile bağlantılı değildir**
 
 <sub>Kişisel bir proje, BYD ile hiçbir bağlantısı yoktur. Kurulum ve kullanım kendi sorumluluğunuzdadır. Gösterilen bilgiler aracın sisteminden gelir ve yanlış olabilir: araç kullanırken asla bunlara güvenmeyin.</sub>
+
+<sub>Radar verileri: © OpenStreetMap katkıcıları (ODbL) · © MapAtlas, mapatlas.eu (CC BY 4.0)</sub>
 
 </div>

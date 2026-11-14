@@ -2,6 +2,9 @@
 VEKTRA — Co-pilot features
 ================================================================
 
+• Welcome screen on the cluster
+  At start-up, the cluster shows for 5 seconds the VEKTRA logo, “Hello” and your name, the battery, range, weather and tyre status, then your theme.
+
 • Speed camera & traffic alerts
   Fixed, mobile, average-speed and red-light cameras, roadworks and slowdowns. Announced about 15 seconds ahead (300, 500 or 1000 m depending on speed), reminder closer, beep when passing the camera.
 
@@ -11,11 +14,20 @@ VEKTRA — Co-pilot features
 • Alert types
   Tick the alerts you want to hear.
 
+• Speed camera sources
+  Databases used for alerts and the map. Data © OpenStreetMap · MapAtlas (mapatlas.eu)
+
+• Alert position on the cluster
+  Where the speed camera / traffic alert sits on the cluster.
+
 • Voice Parking Guidance
   Voice announcement of parking distances in maneuvers and reverse · 100% voice
 
 • Battery & Energy Monitoring
   Preventive alerts under 20% and cold weather charging advice
+
+• Low battery: ECO mode suggestion (< 15 % EV / < 30 % DM-i hybrid)
+  When the threshold is reached, Vektra suggests by voice switching to ECO mode. The drive mode is never changed on its own.
 
 • Low 12 V battery alert
   Vektra warns when the 12 V battery voltage stays below 11.8 V (if the car provides it).

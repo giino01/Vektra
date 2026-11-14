@@ -2,6 +2,9 @@
 VEKTRA — Copilot-Funktionen
 ================================================================
 
+• Begrüßungsbildschirm im Kombiinstrument
+  Beim Start zeigt das Kombiinstrument 5 Sekunden lang das VEKTRA-Logo, „Hallo“ und deinen Namen, Batterie, Reichweite, Wetter und Reifenzustand, danach dein Theme.
+
 • Blitzer- & Verkehrswarnungen
   Feste und mobile Blitzer, Abschnittskontrollen, Rotlichtkameras, Baustellen und Staus. Ansage etwa 15 Sekunden vorher (300, 500 oder 1000 m je nach Tempo), Erinnerung näher, Piepton beim Passieren.
 
@@ -11,11 +14,20 @@ VEKTRA — Copilot-Funktionen
 • Warnungsarten
   Hake die Warnungen an, die du hören willst.
 
+• Blitzer-Quellen
+  Datenbanken für Warnungen und Karte. Daten © OpenStreetMap · MapAtlas (mapatlas.eu)
+
+• Position der Warnung im Kombi
+  Wo die Blitzer-/Verkehrswarnung im Kombi erscheint.
+
 • Akustische Parkführung
   Sprachansage der Parkabstände beim Rangieren und Rückwärtsfahren · 100 % Sprache
 
 • Batterie- & Energieüberwachung
   Frühwarnungen unter 20 % und Ladetipps bei Kälte
+
+• Niedriger Akku: Tipp ECO-Modus (< 15 % EV / < 30 % DM-i-Hybrid)
+  Wird die Schwelle erreicht, schlägt Vektra per Sprache den ECO-Modus vor. Der Fahrmodus wird nie von selbst geändert.
 
 • Warnung schwache 12-V-Batterie
   Vektra warnt, wenn die Spannung der 12-V-Batterie unter 11,8 V bleibt (falls das Auto sie liefert).

@@ -8,11 +8,11 @@
 
 3D-thema's, apps en navigatie achter het stuur, een spraakassistent en een flitspaal-copiloot. Eén enkele app, getest op Sealion 7, Seal, Seal U en Seal U DM-i.
 
-![VEKTRA 2.6.2](https://img.shields.io/badge/VEKTRA-2.6.2-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/talen-10-FF4FD8?style=for-the-badge)
+![VEKTRA 2.6.3](https://img.shields.io/badge/VEKTRA-2.6.3-00E5FF?style=for-the-badge) ![Sealion 7 · Seal · Seal U · Seal U DM-i](https://img.shields.io/badge/BYD-Sealion%207%20%C2%B7%20Seal%20%C2%B7%20Seal%20U%20%C2%B7%20Seal%20U%20DM--i-A66BFF?style=for-the-badge) ![10](https://img.shields.io/badge/talen-10-FF4FD8?style=for-the-badge)
 
-[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
+[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk) &nbsp;·&nbsp; [**🌐 Website**](https://giino01.github.io/Vektra/)
 
-<sub>VERSIE 2.6.2 · 75.6 MB · uitgebracht op 12 november 2026</sub>
+<sub>VERSIE 2.6.3 · 75.9 MB · uitgebracht op 14 november 2026</sub>
 
 [Français](README.md) · [English](README.en.md) · [Italiano](README.it.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [Türkçe](README.tr.md) · **Nederlands** · [Español](README.es.md) · [العربية](README.ar.md) · [中文](README.zh.md)
 
@@ -124,11 +124,15 @@ Elke melding zet je aan of uit in het tabblad Copiloot van de app.
 
 | Functie | |
 | --- | --- |
+| **Welkomstscherm op het instrumentenpaneel** | Bij het starten toont het instrumentenpaneel 5 seconden het VEKTRA-logo, „Hallo” en je naam, de accu, het bereik, het weer en de banden, daarna je thema. |
 | **Flitspaal- en verkeersmeldingen** | Vaste en mobiele flitsers, trajectcontroles, roodlichtcamera's, wegenwerken en vertragingen. Melding ongeveer 15 seconden vooraf (300, 500 of 1000 m volgens snelheid), herinnering dichterbij, piep bij het passeren. |
 | **Flitspaaldatabase** | Wordt elke week automatisch bijgewerkt. |
 | **Soorten meldingen** | Vink de meldingen aan die je wilt horen. |
+| **Flitsbronnen** | Databases voor meldingen en de kaart. Gegevens © OpenStreetMap · MapAtlas (mapatlas.eu) |
+| **Positie van de melding op de cluster** | Waar de flits-/verkeersmelding op de cluster staat. |
 | **Gesproken parkeerhulp** | Gesproken afstandsmeldingen bij manoeuvreren en achteruitrijden · 100% spraak |
 | **Batterij- & energiebewaking** | Preventieve meldingen onder 20% en laadadvies bij kou |
+| **Lage accu: advies ECO-modus (< 15 % EV / < 30 % DM-i-hybride)** | Bij de drempel stelt Vektra met de stem voor om naar ECO te schakelen. De rijmodus wordt nooit vanzelf gewijzigd. |
 | **Waarschuwing zwakke 12V-accu** | Vektra waarschuwt als de spanning van de 12V-accu onder 11,8 V blijft (als de auto die doorgeeft). |
 | **Banden- & wegveiligheid** | Waarschuwing bij drukverlies en kans op gladheid onder 3°C |
 | **Vermoeidheidswaarschuwing** | Vriendelijke pauzesuggestie na 2 uur onafgebroken rijden |
@@ -154,13 +158,13 @@ Elke melding zet je aan of uit in het tabblad Copiloot van de app.
 
 <div align="center">
 
-### VEKTRA 2.6.2
+### VEKTRA 2.6.3
 
 In 10 talen. Updates komen daarna rechtstreeks in de app.
 
-[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.2.apk)
+[**⬇ APK downloaden**](https://giino01.github.io/Vektra/Vektra-2.6.3.apk)
 
-<sub>75.6 MB · Android 9 of nieuwer · BYD DiLink 3 · uitgebracht op 12 november 2026</sub>
+<sub>75.9 MB · Android 9 of nieuwer · BYD DiLink 3 · uitgebracht op 14 november 2026</sub>
 
 </div>
 
@@ -170,9 +174,29 @@ In 10 talen. Updates komen daarna rechtstreeks in de app.
 | **Functies van de copiloot** — Alle meldingen en hun instellingen. | [⬇ Downloaden](https://giino01.github.io/Vektra/copilote/VEKTRA_COPILOTE_nl.txt) |
 | **Website** | [🌐 https://giino01.github.io/Vektra/](https://giino01.github.io/Vektra/) |
 
-### Nieuw in 2.6.2
+### Nieuw in 2.6.3
 
-- Opgelost: de Vektra-assistent werkt weer zoals vroeger: het woord „Vektra” wordt weer online herkend, zonder taaldownload.
+- Nieuw: flitspalen van MapAtlas naast OpenStreetMap, voor heel Europa (gegevens © MapAtlas, mapatlas.eu, stand van 21/05/2024): 69.826 flitspalen in plaats van 45.099. Een flitspaal die in beide databases staat, wordt maar één keer gemeld.
+- Nieuw: Copiloot → Flitsers en verkeer → „Flitsbronnen”: OpenStreetMap, MapAtlas of beide, voor de meldingen en de kaart.
+- Nieuw: Copiloot → Flitsers en verkeer → „Positie van de melding op de cluster”: sleep de melding waar je wilt, de cluster volgt live.
+- Nieuw: meldingsblok op de cluster bij elke melding (vaste flitspaal met je snelheid, mobiel, trajectcontrole met je gemiddelde, roodlicht, werken, ongeval, stilstaand voertuig, file), leesbaar in licht en donker thema.
+- Nieuw: VEKTRA-kaart: flitspalen en gebeurtenissen als echte verkeersborden, files als oranje → rode lijn, gegroepeerd in bellen als je uitzoomt.
+- Nieuw: welkomstscherm van 5 seconden op de cluster bij het starten (hallo, batterij, bereik, weer, banden), in te stellen via Copiloot → Ontvangst en welkomstscène.
+- Nieuw: kaart „Rit beëindigd” 10 seconden op de cluster in P (afstand, verbruik, resterende batterij).
+- Nieuw: bewerken van de nieuwe thema's: het blok dat je verplaatst, beweegt ook live op de cluster.
+- Nieuw: bewerken: knop „⇄ Snelheid / info wisselen” voor VektraUI+, Carbone 3D+, Chronograaf en Orbit.
+- Opgelost: vloeiendere nieuwe thema's: animaties tot 60 beelden per seconde, snelheid, vermogen en versnelling op het ritme van de originele thema's; als de tablet het moeilijk heeft, wordt de bewegende achtergrond vanzelf lichter.
+- Opgelost: minder valse flitsmeldingen: de gebeurtenis moet voor je en op jouw weg liggen; met een VEKTRA-route worden alleen die op de route gemeld.
+- Opgelost: beter leesbare VEKTRA-kaart: donkere modus in nachtblauw met lichtere wegen, lichte modus met meer contrast en duidelijk zichtbare witte wegen.
+- Opgelost: thema Kaart: geen tekst meer over de VEKTRA-kaart.
+- Opgelost: lage batterij: VEKTRA verandert de rijmodus niet meer zelf; onder 15% (elektrisch) of 30% (DM-i-hybride) stelt het met de stem ECO voor, één keer per rit.
+- Opgelost: ritoverzicht zonder verzonnen waarden: als het verbruik onbekend is, zegt VEKTRA dat.
+- Opgelost: test van de parkeersensoren: nieuw getekende auto, voorkant bovenaan, leesbare sensornamen.
+- Opgelost: DiLink 3: de projectie start sneller na het indrukken van de knop.
+- Opgelost: DiLink 3: het verbruik (kWh/100) volgt je rijstijl live op de thema's.
+- Opgelost: DiLink 3: de auto stuurt dezelfde code in NORMAL en ECO, dus de modus wordt getoond als „NORMAL/ECO”.
+- Opgelost (SEALION7): de stem van VEKTRA en de flitsmeldingen zijn nu te horen in de Sealion 7.
+- Opgelost (SEALION7): het vermogen in de thema's wordt berekend uit de spanning en de stroom van de hoogspanningsbatterij.
 
 ---
 
@@ -181,5 +205,7 @@ In 10 talen. Updates komen daarna rechtstreeks in de app.
 **VEKTRA · onafhankelijke app, niet verbonden met BYD**
 
 <sub>Persoonlijk project, zonder enige band met BYD. Installatie en gebruik op eigen risico. De getoonde informatie komt uit het systeem van de auto en kan onjuist zijn: vertrouw er bij het rijden nooit op.</sub>
+
+<sub>Flitsergegevens: © OpenStreetMap-bijdragers (ODbL) · © MapAtlas, mapatlas.eu (CC BY 4.0)</sub>
 
 </div>

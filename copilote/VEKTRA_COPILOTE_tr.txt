@@ -2,6 +2,9 @@
 VEKTRA — Yardımcı pilot özellikleri
 ================================================================
 
+• Göstergede karşılama ekranı
+  Açılışta gösterge 5 saniye boyunca VEKTRA logosunu, “Merhaba” ve adını, bataryayı, menzili, hava durumunu ve lastik durumunu gösterir, sonra temana geçer.
+
 • Radar ve trafik uyarıları
   Sabit, mobil, ortalama hız ve kırmızı ışık radarları, yol çalışmaları ve yavaşlamalar. Yaklaşık 15 saniye önce (hıza göre 300, 500 veya 1000 m) uyarı, yaklaşınca hatırlatma, radarı geçerken bip.
 
@@ -11,11 +14,20 @@ VEKTRA — Yardımcı pilot özellikleri
 • Uyarı türleri
   Duymak istediğin uyarıları işaretle.
 
+• Radar kaynakları
+  Uyarılar ve harita için kullanılan veritabanları. Veriler © OpenStreetMap · MapAtlas (mapatlas.eu)
+
+• Uyarının göstergedeki konumu
+  Radar / trafik uyarısının göstergedeki yeri.
+
 • Sesli Park Kılavuzu
   Manevra ve geri viteste mesafelerin sesli bildirimi · %100 sesli
 
 • Batarya ve Enerji Takibi
   %20'nin altında erken uyarılar ve soğuk hava şarj tavsiyeleri
+
+• Düşük batarya: ECO modu önerisi (< %15 EV / < %30 DM-i hibrit)
+  Eşiğe ulaşıldığında Vektra sesli olarak ECO moduna geçmeyi önerir. Sürüş modu asla kendiliğinden değiştirilmez.
 
 • Zayıf 12 V akü uyarısı
   Vektra, 12 V akü gerilimi 11,8 V'un altında kalırsa uyarır (araç bu değeri veriyorsa).
