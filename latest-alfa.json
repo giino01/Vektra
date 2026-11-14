@@ -1,63 +1,118 @@
 {
-  "version": "2.6.2-alfa7",
-  "apk": "Vektra-2.6.2-alfa7.apk",
-  "size": 79604821,
-  "sha256": "484d7f96cef073f6f4abf2c5e229ad060e1a312cb5150a2aff0881bb0f7ff8a8",
+  "version": "2.6.2-alfa8",
+  "apk": "Vektra-2.6.2-alfa8.apk",
+  "size": 79610441,
+  "sha256": "5e7a26ef7d38b19ce3a9de532c2bc9be12b9c447d0d0eccf168f1415a679e0fc",
   "notes": [
-    "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-    "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-    "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+    "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+    "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+    "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+    "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+    "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+    "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+    "Alerte radar en thème clair et sombre.",
+    "Carte VEKTRA en mode clair, sur la tablette et le combiné."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "en": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "nl": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "de": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "es": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "it": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "pt": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "ar": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "tr": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ],
     "zh": [
-      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
-      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
-      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
+      "Correctif : nouveaux thèmes plus fluides, réglés comme les thèmes natifs : dessin à chaque image de l'écran (jusqu'à 60 images/s au lieu d'environ 26) ; quand la vitesse, les kW ou la consommation changent, seuls les chiffres sont mis à jour (avant, tout le bloc était reconstruit : cartes en verre, reflets…).",
+      "Ajout : qualité automatique, comme Aston : si la tablette passe sous 30 images/s, le fond animé est redessiné moins souvent (30 puis 15 images/s) ; les chiffres et les cadrans restent en direct. Il revient au maximum quand la tablette suit. Mesure de fluidité au journal et dans le rapport de support.",
+      "Correctif : alerte radar sur le combiné toujours opaque (son fond était presque transparent), au style « Auto clair / sombre » : bleu nuit avec contour cyan → violet → magenta sur thème sombre, carte blanche à texte foncé avec contour cyan → violet sur thème clair.",
+      "Correctif : carte VEKTRA en mode clair « Clair contrasté » : fond gris-bleu, routes blanches plus larges avec bord gris-bleu, autoroutes violettes, eau bleue, parcs verts, noms en bleu nuit. Le mode sombre ne change pas. À tester :",
+      "Tous les nouveaux thèmes en roulant : fluidité de la vitesse, des kW et des animations.",
+      "Rapport de support après quelques minutes de projection : ligne « Fluidité du thème web sur le combiné ».",
+      "Alerte radar en thème clair et sombre.",
+      "Carte VEKTRA en mode clair, sur la tablette et le combiné."
     ]
   }
 }
