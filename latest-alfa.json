@@ -1,96 +1,52 @@
 {
-  "version": "2.6.2-alfa3",
-  "apk": "Vektra-2.6.2-alfa3.apk",
-  "size": 79354649,
-  "sha256": "90e6b89cbaba790aa3a051f0fc931258cf91f66524639f87eaec675a1755ee7b",
+  "version": "2.6.2-alfa4",
+  "apk": "Vektra-2.6.2-alfa4.apk",
+  "size": 79354865,
+  "sha256": "8e12a4cc6a0c267fd2c9d818a468fa98a6039b63b32e230d561f5598aca63bd3",
   "notes": [
-    "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-    "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-    "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-    "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-    "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-    "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+    "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+    "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "en": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "nl": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "de": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "es": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "it": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "pt": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "ar": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "tr": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ],
     "zh": [
-      "Correctif (SEALION7) : la voix de Vektra et les alertes radars passent maintenant par la sortie « navigation » de la voiture. Le Sealion 7 n'a pas les sorties audio BYD des autres modèles : Vektra y parlait dans le vide.",
-      "Correctif (SEALION7) : la puissance des thèmes est calculée à partir de la tension et du courant de la batterie (+ en traction, − en régénération) au lieu de la « puissance moteur », qui ne suivait pas. Si la voiture ne les envoie pas, l'ancienne valeur reste.",
-      "Correctif : Copilote, test des capteurs de stationnement : nouvelle voiture dessinée, avant en haut (l'ancienne photo était à l'envers) ; noms des 4 capteurs du centre remis dans la fenêtre ; « Avant / Arrière » dans les 10 langues. À tester :",
-      "Sealion 7 : appuyer sur Vektra (une seule fois) et parler : la voix doit s'entendre ; tester une alerte radar.",
-      "Sealion 7 : rouler, accélérer et freiner : la puissance doit suivre (positive / négative). Faire un rapport de support en roulant : la ligne « puissance (tension × courant) » dit si la voiture envoie les valeurs.",
-      "Tous modèles : Copilote → test des capteurs : voiture dans le bon sens, noms lisibles."
+      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
+      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
     ]
   }
 }
