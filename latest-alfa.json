@@ -1,52 +1,96 @@
 {
-  "version": "2.6.2-alfa4",
-  "apk": "Vektra-2.6.2-alfa4.apk",
-  "size": 79354865,
-  "sha256": "8e12a4cc6a0c267fd2c9d818a468fa98a6039b63b32e230d561f5598aca63bd3",
+  "version": "2.6.2-alfa5",
+  "apk": "Vektra-2.6.2-alfa5.apk",
+  "size": 79587129,
+  "sha256": "9edf558ddfee8e6650b04dd7591797c3fd3dfcb22bc9f128150e09d79b5e4f18",
   "notes": [
-    "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-    "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+    "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+    "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+    "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+    "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+    "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+    "Décocher les deux : un message dit qu'une base doit rester cochée."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "en": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "nl": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "de": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "es": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "it": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "pt": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "ar": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "tr": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ],
     "zh": [
-      "Correctif : carte Vektra en mode sombre, plus lisible (tablette et combiné) : fond bleu nuit au lieu de noir, routes nettement plus claires et plus larges (rues gris-bleu, grands axes gris clair, autoroutes ambre), eau bleue, parcs verts, noms des rues en blanc. L'itinéraire, la voiture, la destination, les panneaux et le mode clair ne changent pas. À tester :",
-      "Navigation Vektra en mode sombre, de jour et de nuit, sur la tablette et le combiné : routes bien visibles, itinéraire bleu toujours bien distinct."
+      "Ajout : radars de MapAtlas (relevé du 21/05/2024, licence CC BY 4.0) en plus d'OpenStreetMap, pour toute l'Europe : environ 24 700 radars en plus. La base passe de 45 099 à 69 826 radars. Un radar présent dans les deux bases (même type, à moins de 85 m) n'est compté et annoncé qu'une fois.",
+      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Sources radars » : OpenStreetMap, MapAtlas, ou les deux (cochées par défaut ; une reste toujours cochée). Le choix vaut pour les annonces et la carte, et il est gardé dans la sauvegarde. OpenStreetMap décoché : ses radars lus en direct sont écartés aussi, ses chantiers restent.",
+      "Limites de MapAtlas : pas d'orientation de route ni de sens contrôlé, et ses radars tronçons n'ont qu'un point (pas de « début dans… » ni de vitesse moyenne pour ceux-là). À tester :",
+      "Copilote → Sources radars : cocher / décocher chaque base ; « Base radars » doit afficher 69 826 radars.",
+      "Rouler avec MapAtlas seul, puis OpenStreetMap seul : les radars annoncés et ceux de la carte suivent le choix.",
+      "Décocher les deux : un message dit qu'une base doit rester cochée."
     ]
   }
 }
