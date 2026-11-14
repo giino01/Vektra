@@ -1,7 +1,9 @@
-# Base de radars Europe (OpenStreetMap) pour l'application VEKTRA.
+# Base de radars Europe (OpenStreetMap + MapAtlas) pour l'application VEKTRA.
 # Fabriquée chaque lundi à 02:17 UTC, ou à la demande (bouton « Run workflow »).
-# L'application télécharge radars/radars_v2.txt (ou radars_europe.txt pour les versions
-# jusqu'à la 2.5.0) quand la fiche *_meta.json annonce une version plus récente. Si les serveurs échouent, les radars déjà connus sont conservés.
+# L'application télécharge radars/radars_v3.txt (OSM + MapAtlas, à partir de la 2.6.2-alfa5),
+# radars_v2.txt (OSM, jusqu'à la 2.6.2-alfa4) ou radars_europe.txt (jusqu'à la 2.5.0) quand la
+# fiche *_meta.json annonce une version plus récente. Si les serveurs échouent, les radars déjà
+# connus sont conservés.
 name: Base radars Europe
 
 on:
@@ -23,15 +25,18 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Télécharger les radars d'Europe (OpenStreetMap) et écrire les deux formats
+      - name: Télécharger les radars d'Europe (OpenStreetMap, MapAtlas) et écrire les trois formats
         env:
           RADARS_MINUTES: "170"
         run: |
           python3 radars/build_radars.py weekly radars
-          # Radars identiques (fiches inchangées) : on n'enregistre pas un simple changement de date d'en-tête.
-          if [ -z "$(git status --porcelain radars/radars_meta.json radars/radars_v2_meta.json)" ]; then
-            git checkout -- radars/radars_europe.txt radars/radars_v2.txt
-          fi
+          # Radars identiques (fiche inchangée) : on n'enregistre pas un simple changement de date d'en-tête.
+          for pair in radars_europe:radars_meta radars_v2:radars_v2_meta radars_v3:radars_v3_meta; do
+            data="radars/${pair%%:*}.txt"; meta="radars/${pair##*:}.json"
+            if [ -z "$(git status --porcelain "$meta")" ] && git ls-files --error-unmatch "$data" >/dev/null 2>&1; then
+              git checkout -- "$data"
+            fi
+          done
 
       - name: Enregistrer dans le dépôt
         run: |

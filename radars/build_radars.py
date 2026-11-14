@@ -16,6 +16,13 @@ classe chaque radar EXACTEMENT comme l'application, supprime les doublons et éc
   SENS    sens de circulation contrôlé, 0-359°, -1 si inconnu (ou les deux sens)
   CLASSE  m = autoroute / voie rapide, p = route principale, l = route locale, vide si inconnue
   FIN_*   fin du tronçon (radars tronçons) ; vide sinon. Pour un tronçon, LAT/LON = début.
+  radars/radars_v3.txt       format 3 (à partir de la 2.6.2-alfa5) : format 2 + SOURCE
+      SOURCE  O = OpenStreetMap, A = MapAtlas, OA = présent dans les deux (fiche OSM gardée)
+
+MapAtlas Camera Index (https://mapatlas.eu, licence CC BY 4.0) : relevé figé, téléchargé pays
+par pays seulement quand une nouvelle publication sort, puis gardé dans radars/mapatlas_europe.txt.
+Ses radars n'ont ni orientation de route ni sens contrôlé fiable : AXE et SENS restent à -1, et
+ses tronçons n'ont qu'un point (pas de début ni de fin).
 
 Les radars déjà connus (fichiers existants) sont conservés s'ils manquent au téléchargement :
 une panne de serveur ne fait jamais disparaître de radars.
@@ -23,6 +30,7 @@ une panne de serveur ne fait jamais disparaître de radars.
 Usage :
   build_radars.py weekly <dossier>            # tout : téléchargement, fusion, deux formats, fiches
   build_radars.py meta <base.txt> <meta.json> # fiche de version seule
+  build_radars.py v3 <dossier>                # format 3 seul, depuis radars_v2.txt + MapAtlas
 """
 import hashlib
 import json
@@ -44,6 +52,15 @@ MIN_RADARS = 5000
 DEDUP_METERS = 85.0
 ROAD_MATCH_METERS = 25.0
 DEADLINE = time.time() + float(os.environ.get("RADARS_MINUTES", "22")) * 60
+
+# MapAtlas : pays (codes du catalogue) qui touchent la zone Europe de la base (34→72 N, -25→45 E).
+# Les points hors de cette zone sont ignorés, comme pour OpenStreetMap.
+MAPATLAS_URL = "https://mapatlas.eu/data/camera-index/"
+MAPATLAS_CODES = (
+    "AD AL AM AT AZ BA BE BG BY CH CY CZ DE DK DZ EE ES FI FR GB GE GI GR HR HU IE IQ IR IS IT "
+    "LB LI LT LU LV MA MC MD ME MK MT NL NO PL PT RO RS RU SE SI SK SM SY TN TR UA XK"
+).split()
+MAPATLAS_CLASS = {"spot": "F", "adaptive": "F", "signal": "R", "corridor": "S"}
 
 MOTORWAY = {"motorway", "motorway_link", "trunk", "trunk_link"}
 PRINCIPAL = {"primary", "primary_link", "secondary", "secondary_link"}
@@ -476,6 +493,167 @@ def write_meta(data_path, meta_path):
     return True
 
 
+# ── MapAtlas Camera Index ───────────────────────────────────────────────────
+
+def get_json(url, timeout=90):
+    req = urllib.request.Request(url, headers={"User-Agent": "VektraBuild/1.0 (BYD cockpit, offline radar base)"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def in_europe(lat, lon):
+    return LATS[0] <= lat <= LATS[-1] and LONS[0] <= lon <= LONS[-1]
+
+
+def from_mapatlas(feature):
+    """Radar MapAtlas, ou None (hors zone, classe inconnue, signalé hors service)."""
+    geom = feature.get("geometry") or {}
+    props = feature.get("properties") or {}
+    if geom.get("type") != "Point":
+        return None
+    coords = geom.get("coordinates") or []
+    if len(coords) < 2:
+        return None
+    lon, lat = float(coords[0]), float(coords[1])
+    t = MAPATLAS_CLASS.get(str(props.get("class", "")))
+    if t is None or not in_europe(lat, lon) or props.get("reportedInactive") is True:
+        return None
+    try:
+        v = int(props.get("limitKph") or 0)
+    except (TypeError, ValueError):
+        v = 0
+    spd = v if 20 <= v <= 140 else 0
+    return dict(t=t, lat=lat, lon=lon, spd=spd, ref="", axe=-1, sens=-1, cls="", end=None)
+
+
+def mapatlas_refresh(folder):
+    """
+    Met à jour radars/mapatlas_europe.txt seulement si MapAtlas a publié une nouvelle version.
+    Au moindre pays en échec, l'ancien fichier est gardé tel quel (jamais de radars perdus).
+    """
+    cache = os.path.join(folder, "mapatlas_europe.txt")
+    meta_path = os.path.join(folder, "mapatlas_meta.json")
+    try:
+        cat = get_json(MAPATLAS_URL + "catalog.json", 60)
+    except Exception as ex:
+        print(f"MapAtlas : catalogue inaccessible ({ex}), fichier gardé")
+        return
+    try:
+        old = json.load(open(meta_path, encoding="utf-8"))
+    except Exception:
+        old = {}
+    released = str(cat.get("released", ""))
+    if old.get("released") == released and os.path.isfile(cache):
+        print(f"MapAtlas : publication {released} déjà connue")
+        return
+    known = {str(r.get("code")) for r in cat.get("regions", [])}
+    recs = []
+    for code in MAPATLAS_CODES:
+        if code not in known:
+            continue
+        try:
+            data = get_json(MAPATLAS_URL + code + ".geojson")
+        except Exception as ex:
+            print(f"MapAtlas : {code} en échec ({ex}), fichier gardé")
+            return
+        n0 = len(recs)
+        for f in data.get("features", []):
+            r = from_mapatlas(f)
+            if r:
+                recs.append(r)
+        print(f"  MapAtlas {code} -> {len(recs) - n0} radars", flush=True)
+        time.sleep(0.5)
+    recs = dedup(recs)
+    if len(recs) < 1000:
+        print(f"MapAtlas : résultat trop faible ({len(recs)}), fichier gardé")
+        return
+    with open(cache, "w", encoding="utf-8") as f:
+        f.write(f"# MapAtlas Camera Index, publication {released}, relevé {cat.get('snapshot', '')}, "
+                f"{cat.get('licence', '')}, {cat.get('attribution', '')} — {len(recs)} radars — TYPE;LAT;LON;VITESSE\n")
+        f.write("\n".join(f'{r["t"]};{r["lat"]:.5f};{r["lon"]:.5f};{r["spd"]}' for r in recs))
+        f.write("\n")
+    json.dump({"released": released, "snapshot": cat.get("snapshot", ""), "licence": cat.get("licence", ""),
+               "attribution": cat.get("attribution", ""), "count": len(recs)},
+              open(meta_path, "w", encoding="utf-8"), indent=2)
+    print(f"MapAtlas : {len(recs)} radars en Europe (publication {released})")
+
+
+def parse_mapatlas(folder):
+    recs = []
+    try:
+        for ln in open(os.path.join(folder, "mapatlas_europe.txt"), encoding="utf-8"):
+            ln = ln.rstrip("\n")
+            if not ln or ln.startswith("#"):
+                continue
+            p = ln.split(";")
+            if len(p) < 4:
+                continue
+            recs.append(dict(t=p[0], lat=float(p[1]), lon=float(p[2]), spd=int(p[3] or 0), ref="",
+                             axe=-1, sens=-1, cls="", end=None))
+    except FileNotFoundError:
+        pass
+    return recs
+
+
+def merge_sources(osm, atlas):
+    """
+    Fusion OSM + MapAtlas. Un radar MapAtlas du même type qu'un radar OSM à moins de 85 m est le
+    même radar : la fiche OSM (plus riche) est gardée et marquée OA. Les autres restent A.
+    """
+    for r in osm:
+        r["src"] = "O"
+    grid = {}
+    for r in osm:
+        grid.setdefault((int(math.floor(r["lat"] * 1000)), int(math.floor(r["lon"] * 1000))), []).append(r)
+    added = []
+    for a in atlas:
+        gx, gy = int(math.floor(a["lat"] * 1000)), int(math.floor(a["lon"] * 1000))
+        twin = None
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                for o in grid.get((gx + dx, gy + dy), ()):
+                    if o["t"] == a["t"] and dist_m(o["lat"], o["lon"], a["lat"], a["lon"]) < DEDUP_METERS:
+                        twin = o
+                        break
+                if twin:
+                    break
+            if twin:
+                break
+        if twin:
+            twin["src"] = "OA"
+        else:
+            a["src"] = "A"
+            added.append(a)
+    return osm + added
+
+
+def write_v3(folder):
+    """radars_v3.txt : base OSM (radars_v2.txt) + MapAtlas, avec la source de chaque radar."""
+    v2_path = os.path.join(folder, "radars_v2.txt")
+    v3_path = os.path.join(folder, "radars_v3.txt")
+    osm = parse_existing(v2_path, True)
+    if len(osm) < MIN_RADARS:
+        print("Format 3 : base OSM absente ou trop faible, fichier inchangé")
+        return
+    try:
+        osm_note = open(v2_path, encoding="utf-8").readline().lstrip("# ").split(" — ")[0].strip()
+    except Exception:
+        osm_note = "OpenStreetMap Europe"
+    atlas = parse_mapatlas(folder)
+    try:
+        am = json.load(open(os.path.join(folder, "mapatlas_meta.json"), encoding="utf-8"))
+    except Exception:
+        am = {}
+    merged = merge_sources(osm, atlas)
+    both = sum(1 for r in merged if r["src"] == "OA")
+    only_a = sum(1 for r in merged if r["src"] == "A")
+    note = (f"{osm_note} + MapAtlas Camera Index (relevé {am.get('snapshot', '?')}, CC BY 4.0, mapatlas.eu)")
+    write(v3_path, [line_v2(r) + ";" + r["src"] for r in merged], note,
+          "TYPE;LAT;LON;VITESSE;ROUTE;AXE;SENS;CLASSE;FIN_LAT;FIN_LON;SOURCE")
+    print(f"Format 3 : {len(osm)} radars OSM (dont {both} aussi dans MapAtlas) + {only_a} radars MapAtlas seuls")
+    write_meta(v3_path, os.path.join(folder, "radars_v3_meta.json"))
+
+
 def weekly(folder):
     v1_path = os.path.join(folder, "radars_europe.txt")
     v2_path = os.path.join(folder, "radars_v2.txt")
@@ -517,6 +695,8 @@ def weekly(folder):
 
     if len(merged) < MIN_RADARS:
         print("Résultat trop faible : fichiers inchangés.")
+        mapatlas_refresh(folder)
+        write_v3(folder)
         return
     note = f"OpenStreetMap Europe, {time.strftime('%Y-%m-%d')}, {failed} requête(s) en échec"
     write(v1_path, [line_v1(r) for r in merged], note, "TYPE;LAT;LON;VITESSE;ROUTE")
@@ -530,11 +710,18 @@ def weekly(folder):
           f"tronçons : {sections} dont {with_end} avec début et fin")
     write_meta(v1_path, os.path.join(folder, "radars_meta.json"))
     write_meta(v2_path, os.path.join(folder, "radars_v2_meta.json"))
+    # Format 3 : la même base OSM, plus MapAtlas.
+    mapatlas_refresh(folder)
+    write_v3(folder)
 
 
 def main():
     if len(sys.argv) >= 3 and sys.argv[1] == "weekly":
         weekly(sys.argv[2])
+        return
+    if len(sys.argv) >= 3 and sys.argv[1] == "v3":
+        mapatlas_refresh(sys.argv[2])
+        write_v3(sys.argv[2])
         return
     if len(sys.argv) >= 4 and sys.argv[1] == "meta":
         write_meta(sys.argv[2], sys.argv[3])
