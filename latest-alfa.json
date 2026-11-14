@@ -1,140 +1,63 @@
 {
-  "version": "2.6.2-alfa6",
-  "apk": "Vektra-2.6.2-alfa6.apk",
-  "size": 79604677,
-  "sha256": "34bf77d51dc6657906941aeea04d151e1337847627ea26533f84adb5b37ef98f",
+  "version": "2.6.2-alfa7",
+  "apk": "Vektra-2.6.2-alfa7.apk",
+  "size": 79604821,
+  "sha256": "484d7f96cef073f6f4abf2c5e229ad060e1a312cb5150a2aff0881bb0f7ff8a8",
   "notes": [
-    "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-    "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-    "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-    "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-    "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-    "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-    "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-    "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-    "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-    "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+    "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+    "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+    "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
   ],
   "notesByLang": {
     "fr": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "en": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "nl": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "de": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "es": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "it": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "pt": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "ar": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "tr": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ],
     "zh": [
-      "Ajout : Copilote, rubrique Radars & trafic, nouvelle ligne « Position de l'alerte sur le combiné » (tous les profils). On fait glisser l'alerte dans un combiné en miniature ; le vrai combiné suit en direct. « Tester sur le combiné » affiche un exemple 15 s, « Position d'origine » la remet en haut au centre. Gardée dans la sauvegarde.",
-      "Ajout : édition des nouveaux thèmes : le bloc déplacé sur la tablette bouge aussi en direct sur le combiné ; « Annuler » y remet la disposition enregistrée.",
-      "Correctif : nouveaux thèmes, vitesse, puissance et rapport relus toutes les 60 ms (au lieu de 200 ms), comme les thèmes natifs, et cadrans lissés environ 4 fois moins longtemps : affichage plus fluide et mieux synchronisé.",
-      "Correctif (DiLink 3) : bouton Projection plus rapide : plus de second envoi des commandes 16 → 35 juste après l'ouverture, et attente du combiné prêt (au plus 2 s) au lieu d'une pause fixe de 2 s. Le temps entre l'appui et le thème affiché est noté dans le journal.",
-      "Correctif : thème Carte, le panneau « Choisis l'application… » ne s'affiche plus par-dessus la carte VEKTRA sur le combiné. À tester :",
-      "Copilote → Position de l'alerte : glisser l'alerte, « Tester », « Enregistrer », puis vérifier sur une vraie alerte radar.",
-      "Édition d'un nouveau thème (Sport, Carte…) : déplacer un bloc et regarder le combiné ; « Annuler » doit remettre l'ancienne place.",
-      "En roulant, nouveaux thèmes : vitesse et puissance comparées au combiné d'origine.",
-      "DiLink 3 : appuyer sur Projection et chronométrer ; la projection doit toujours s'afficher correctement. Si l'écran reste noir ou n'apparaît pas, envoyer un rapport.",
-      "Thème Carte avec la carte VEKTRA : plus de texte par-dessus la carte."
+      "Correctif (DiLink 3) : la consommation électrique (kWh/100) est relue toutes les 60 ms, comme la vitesse et la puissance, au lieu d'une fois par seconde : elle suit la conduite sur les thèmes. Les autres profils ne changent pas. À tester :",
+      "DiLink 3, en roulant : la consommation affichée par le thème bouge au même rythme que sur le combiné d'origine.",
+      "Le journal indique « DiLink 3, consommation électrique relue toutes les 60 ms » (après la première projection)."
     ]
   }
 }
