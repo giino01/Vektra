@@ -1,107 +1,96 @@
 {
-  "version": "2.6.3-alfa1",
-  "apk": "Vektra-2.6.3-alfa1.apk",
-  "size": 79622369,
-  "sha256": "5068daedcb8a1b236e5c1f0327b59a88fce9bd1f0bbd47e57121775478680ce1",
+  "version": "2.6.3-alfa2",
+  "apk": "Vektra-2.6.3-alfa2.apk",
+  "size": 79635097,
+  "sha256": "b18217a803ce7cbefce915ec66f6f791d836791ebb342115a185417afa357a0b",
   "notes": [
-    "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-    "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-    "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-    "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-    "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-    "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-    "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+    "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+    "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+    "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+    "Choisir une suggestion : la navigation démarre vers ce lieu.",
+    "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+    "Sans Internet : pas de blocage, seulement favoris et historique."
   ],
   "notesByLang": {
     "fr": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "en": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "nl": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "de": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "es": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "it": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "pt": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "ar": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "tr": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ],
     "zh": [
-      "Correctif : écran d'accueil du combiné : ses secondes ne démarrent plus à la création de l'écran, mais quand le combiné affiche vraiment le thème : première image dessinée, page chargée (thèmes web et Aston) et fin du lancement par le bouton Projection, plus 1,5 s de marge en DiLink 3 pour le branchement de la vidéo. Au-delà de 20 s d'attente, il démarre quand même.",
-      "Correctif : l'accueil n'est compté comme « montré » qu'à la fin de sa durée : si la projection est coupée avant, il revient au lancement suivant (au lieu d'attendre 10 minutes).",
-      "Essai : l'accueil dure 10 secondes (au lieu de 5) pour bien le voir.",
-      "Ajout : le journal note quand l'accueil démarre : « Écran d'accueil sur le combiné : démarré X s après l'appui sur Projection ». À tester :",
-      "DiLink 3 : voiture à l'arrêt, appuyer sur Projection : l'accueil doit apparaître en entier sur le combiné (10 s, barre de progression complète).",
-      "Journal : lire le délai entre l'appui et le début de l'accueil ; dire si l'accueil commence trop tôt (début coupé) ou trop tard.",
-      "Couper la projection pendant l'accueil puis la relancer : l'accueil revient."
+      "Ajout : Navigation, suggestions pendant la frappe : dès 3 lettres (après 0,3 s sans taper), une liste s'ouvre sous la barre d'adresse. En haut, favoris, Domicile, Travail et historique qui correspondent (sans Internet) ; dessous, les adresses proposées par Photon (komoot), les plus proches de la voiture d'abord, avec la distance. Un appui lance la navigation ; la dernière ligne « Rechercher partout » fait la recherche habituelle (Nominatim).",
+      "Photon : noms en français, anglais ou allemand selon la langue de l'app (seules langues du service) ; pour les autres langues, noms locaux. Sans réseau, seuls favoris et historique sont proposés. À tester :",
+      "Taper une adresse lentement puis vite : la liste suit, sans saccade du clavier.",
+      "Choisir une suggestion : la navigation démarre vers ce lieu.",
+      "Taper le nom d'un favori ou d'un lieu de l'historique : il apparaît en haut.",
+      "Sans Internet : pas de blocage, seulement favoris et historique."
     ]
   }
 }
